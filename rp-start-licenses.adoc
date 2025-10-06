@@ -1,0 +1,294 @@
+---
+sidebar: sidebar 
+permalink: rp-start-licenses.html 
+keywords: bluexp license, ransomware protection license, netapp console 
+summary: 라이선싱을 설정하여 NeApp 랜섬웨어 복원력을 시작하세요. 
+---
+= NetApp 랜섬웨어 복원력에 대한 라이선싱 설정
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp 랜섬웨어 복원력을 사용하면 다양한 라이선스 플랜을 사용할 수 있습니다.
+
+이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자 역할이 필요합니다. https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["콘솔 액세스 역할에 대해 알아보세요"^] .
+
+*라이선스 유형* 다음 라이선스 유형을 사용할 수 있습니다.
+
+* 30일 무료 체험판에 등록하세요.
+* Amazon Web Services(AWS) Marketplace, Google Cloud Marketplace 또는 Azure Marketplace에서 사용량에 따라 지불하는(PAYGO) 구독을 구매하세요.
+* BYOL(Bring Your Own License)은 NetApp 영업 담당자로부터 받는 NetApp 라이선스 파일(NLF)입니다. 콘솔에서 라이선스 일련 번호를 사용하여 BYOL을 활성화할 수 있습니다.
+
+
+BYOL을 설정하거나 PAYGO 구독을 구매한 후 콘솔의 라이선스 및 구독 섹션에서 라이선스를 확인할 수 있습니다.
+
+무료 평가판이 종료되거나 라이선스 또는 구독이 만료된 후에도 Ransomware Resilience에서 다음 작업을 수행할 수 있습니다.
+
+* 작업 부하와 작업 부하 상태를 확인합니다.
+* 정책 등의 리소스를 삭제합니다.
+* 평가판 기간이나 라이선스에 따라 생성된 모든 예약된 작업을 실행합니다.
+
+
+
+
+== 기타 라이센스
+
+랜섬웨어 복원력 라이선스에는 추가 NetApp 제품이 포함되지 않습니다.  랜섬웨어 복원력은 라이선스가 없더라도 NetApp 백업 및 복구를 사용할 수 있습니다.
+
+
+NOTE: 백업 및 복구와 랜섬웨어 복원력을 모두 사용하는 경우, 두 제품으로 보호되는 공통 데이터는 랜섬웨어 복원력으로만 청구됩니다.
+
+Data Infrastructure Insights Workload Security를 ​​사용하면 비정상적인 사용자 행동을 볼 수 있습니다.  이를 위해서는 Data Infrastructure Insights Workload Security에 대한 라이선스가 필요하며, Ransomware Resilience에서 이를 활성화해야 합니다.  Data Infrastucture Insights Workload Security에 대한 개요를 보려면 다음을 검토하세요. https://docs.netapp.com/us-en/data-infrastructure-insights/cs_intro.html["워크로드 보안에 관하여"^]
+
+
+TIP: Data Infrastructure Insights Workload Security에 대한 라이선스가 없고 Ransomware Resilience에서 이를 활성화하지 않으면 비정상적인 사용자 동작 정보를 볼 수 없습니다.
+
+
+
+== 30일 무료 체험판을 이용해 보세요
+
+30일 무료 체험판을 통해 Ransomware Resilience를 사용해 보세요.  무료 평가판을 시작하려면 콘솔 조직 관리자여야 합니다.
+
+
+NOTE: 2024년 10월 출시 이후 Ransomware Resilience의 새로운 배포는 이제 30일 동안 무료 평가판을 이용할 수 있습니다.  이전에는 Ransomware Resilience가 90일 무료 체험판을 제공했습니다.  이미 90일 무료 체험판을 이용 중이라면 해당 혜택은 90일 동안 계속 적용됩니다.
+
+시험 기간 동안에는 수용 인원 제한이 적용되지 않습니다.
+
+언제든지 라이선스를 구매하거나 구독할 수 있으며, 30일 평가판이 종료될 때까지 요금이 청구되지 않습니다.  30일 체험 기간이 끝난 후 계속 사용하려면 BYOL 라이선스나 PAYGO 구독을 구매해야 합니다.
+
+체험판 기간 동안에는 모든 기능을 사용할 수 있습니다.
+
+.단계
+. 접속하세요 https://console.netapp.com/["콘솔"^] .
+. 콘솔에 로그인합니다.
+. NetApp 콘솔에서 *보호* > *랜섬웨어 복원력*을 선택합니다.
++
+이 서비스에 처음 로그인하는 경우 랜딩 페이지가 나타납니다.
+
++
+image:screen-landing.png["랜섬웨어 복원력에 대한 랜딩 페이지 스크린샷"]
+
+. 다른 서비스에 대한 커넥터를 아직 추가하지 않았다면 하나 추가하세요.
++
+콘솔 에이전트를 추가하려면 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["콘솔 에이전트에 대해 알아보세요"^] .
+
+. 랜섬웨어 복원력 랜딩 페이지에서 콘솔 에이전트를 설정한 후 콘솔 에이전트를 추가하는 버튼이 워크로드를 검색하는 버튼으로 변경됩니다.  *워크로드 검색으로 시작*을 선택하세요.
+. 무료 체험판 정보를 검토하려면 오른쪽 상단의 드롭다운 옵션을 선택하세요.
+
+
+*체험 종료 후 구독 또는 라이선스 구매*
+
+무료 체험 기간이 종료된 후에는 마켓플레이스 중 하나를 통해 구독하거나 NetApp 에서 라이선스를 구매할 수 있습니다.
+
+이미 PAYGO 구독을 신청한 경우, 무료 체험 기간이 종료되면 라이센스가 자동으로 구독으로 전환됩니다.
+
+<<AWS Marketplace를 통해 구독하세요>> <<Microsoft Azure Marketplace를 통해 구독하세요>> <<Google Cloud Platform Marketplace를 통해 구독하세요>> <<BYOL(Bring Your Own License)>>
+
+
+
+== AWS Marketplace를 통해 구독하세요
+
+이 절차에서는 AWS Marketplace에서 직접 구독하는 방법에 대한 개요를 제공합니다.
+
+.단계
+. 랜섬웨어 복원력에서 다음 중 하나를 수행하세요.
++
+** 무료 체험 기간이 만료된다는 메시지가 표시되면 *결제 방법 보기*를 선택하세요.
+** 체험판을 시작하지 않은 경우 오른쪽 상단의 *무료 체험판* 알림을 선택한 다음 *결제 방법 보기*를 선택하세요.
++
+image:screen-license-payment-methods3.png["랜섬웨어 복원력 지불 방법 페이지"]
+
+
+
+. 결제 방법 페이지에서 *Amazon Web Services*에 대한 *구독*을 선택합니다.
+. AWS Marketplace에서 *구매 옵션 보기*를 선택합니다.
+. AWS Marketplace를 사용하여 * NetApp Intelligent Services* 및 *Ransomware Resilience*를 구독하세요.
+. 랜섬웨어 복원력 페이지로 돌아오면 구독이 완료되었다는 메시지가 표시됩니다.
++
+
+NOTE: Ransomware Resilience 일련 번호가 포함된 이메일이 전송되며, Ransomware Resilience가 AWS Marketplace에 구독되어 있음을 나타냅니다.
+
+. 랜섬웨어 복구 지불 방법 페이지로 돌아가세요.
+. *라이선스 추가*를 선택하여 콘솔에 라이센스를 추가합니다.
++
+image:screen-license-dw-add-license.png["라이선스 추가 페이지의 스크린샷입니다."]
+
+. 라이선스 추가 페이지에서 *일련 번호 입력*을 선택하고, 귀하에게 전송된 이메일에 포함된 일련 번호를 입력한 후, *라이선스 추가*를 선택합니다.
+. 라이선스 세부 정보를 보려면 콘솔 왼쪽 탐색에서 *관리* > *라이선스 및 구독*을 선택하세요.
++
+** 구독 정보를 보려면 *구독*을 선택하세요.
+** BYOL 라이선스를 보려면 *데이터 서비스 라이선스*를 선택하세요.
++
+image:screen-dw-data-services-license.png["라이센스 및 구독의 스크린샷입니다."]
+
+
+
+. 랜섬웨어 회복력으로 돌아가기.  콘솔 왼쪽 탐색에서 *보호* > *랜섬웨어 복원력*을 선택합니다.
++
+라이센스가 추가되었다는 메시지가 나타납니다.
+
+
+
+
+
+== Microsoft Azure Marketplace를 통해 구독하세요
+
+이 절차에서는 Azure Marketplace에서 직접 구독하는 방법에 대한 간략한 개요를 제공합니다.
+
+.단계
+. 랜섬웨어 복원력에서 다음 중 하나를 수행하세요.
++
+** 무료 체험 기간이 만료된다는 메시지가 표시되면 *결제 방법 보기*를 선택하세요.
+** 체험판을 시작하지 않은 경우 오른쪽 상단의 *무료 체험판* 알림을 선택한 다음 *결제 방법 보기*를 선택하세요.
++
+image:screen-license-payment-methods3.png["랜섬웨어 복원력 지불 방법 페이지"]
+
+
+
+. 결제 방법 페이지에서 *Microsoft Azure Marketplace*에 대한 *구독*을 선택합니다.
+. Azure Marketplace에서 *구매 옵션 보기*를 선택합니다.
+. Azure Marketplace를 사용하여 * NetApp Intelligent Services* 및 *Ransomware Resilience*를 구독하세요.
+. 랜섬웨어 복원력 페이지로 돌아오면 구독이 완료되었다는 메시지가 표시됩니다.
++
+
+NOTE: Ransomware Resilience 일련 번호가 포함된 이메일이 전송되며, Ransomware Resilience가 Azure Marketplace에 구독되어 있음을 나타냅니다.
+
+. 랜섬웨어 복구 지불 방법 페이지로 돌아가세요.
+. 라이선스를 추가하려면 *라이선스 추가*를 선택하세요.
++
+image:screen-license-dw-add-license.png["라이선스 추가 페이지의 스크린샷입니다."]
+
+. 라이선스 추가 페이지에서 *일련 번호 입력*을 선택한 다음, 이메일로 전송된 일련 번호를 입력하세요.  *라이선스 추가*를 선택하세요.
+. 라이선스 및 구독에서 라이선스 세부 정보를 보려면 콘솔 왼쪽 탐색에서 *거버넌스* > *라이선스 및 구독*을 선택하세요.
++
+** 구독 정보를 보려면 *구독*을 선택하세요.
+** BYOL 라이선스를 보려면 *데이터 서비스 라이선스*를 선택하세요.
++
+image:screen-dw-data-services-license.png["데이터 서비스 라이선스 페이지"]
+
+
+
+. 랜섬웨어 회복력으로 돌아가기.  콘솔 왼쪽 탐색에서 *보호* > *랜섬웨어 복원력*을 선택합니다.
++
+라이센스가 추가되었다는 메시지가 나타납니다.
+
+
+
+
+
+== Google Cloud Platform Marketplace를 통해 구독하세요
+
+이 절차에서는 Google Cloud Platform Marketplace에서 직접 구독하는 방법에 대한 개요를 제공합니다.
+
+.단계
+. 랜섬웨어 복원력에서 다음 중 하나를 수행하세요.
++
+** 무료 체험 기간이 만료된다는 메시지가 표시되면 *결제 방법 보기*를 선택하세요.
+** 체험판을 시작하지 않은 경우 오른쪽 상단의 *무료 체험판* 알림을 선택한 다음 *결제 방법 보기*를 선택하세요.
++
+image:screen-license-payment-methods3.png["랜섬웨어 복원력 지불 방법 페이지의 스크린샷입니다."]
+
+
+
+. 결제 방법 페이지에서 Google Cloud Platform Marketplace*에 대한 *구독*을 선택합니다.
+. Google Cloud Platform Marketplace에서 *구독*을 선택합니다.
+. Google Cloud Platform Marketplace를 사용하여 * NetApp Intelligent Services* 및 *Ransomware Resilience*를 구독하세요.image:screen-license-payments-gcp2.png["Google Cloud Marketplace 구독 페이지의 스크린샷입니다."]
+. 랜섬웨어 복원력 페이지로 돌아오면 구독이 완료되었다는 메시지가 표시됩니다.
++
+
+NOTE: Ransomware Resilience 일련 번호가 포함된 이메일이 전송되며 Ransomware Resilience가 Google Cloud Platform Marketplace에 구독되어 있음을 나타냅니다.
+
+. 랜섬웨어 복구 지불 방법 페이지로 돌아가세요.
+. 콘솔에 라이선스를 추가하려면 *라이선스 추가*를 선택하세요.
++
+image:screen-license-dw-add-license.png["라이선스 추가 페이지의 스크린샷입니다."]
+
+. 라이선스 추가 페이지에서 *일련 번호 입력*을 선택하세요.  귀하에게 전송된 이메일의 일련번호를 입력하세요.  *라이선스 추가*를 선택하세요.
+. 라이선스 세부 정보를 보려면 콘솔 왼쪽 탐색에서 *거버넌스* > *라이선스 및 구독*을 선택하세요.
++
+** 구독 정보를 보려면 *구독*을 선택하세요.
+** BYOL 라이선스를 보려면 *데이터 서비스 라이선스*를 선택하세요.
++
+image:screen-dw-data-services-license.png["라이선스 및 구독 페이지의 스크린샷입니다."]
+
+
+
+. 랜섬웨어 회복력으로 돌아가기.  콘솔 왼쪽 탐색에서 *보호* > *랜섬웨어 복원력*을 선택합니다.
++
+라이센스가 추가되었다는 메시지가 나타납니다.
+
+
+
+
+
+== BYOL(Bring Your Own License)
+
+자체 라이선스(BYOL)를 사용하려면 라이선스를 구매하고 NetApp 라이선스 파일(NLF)을 받은 다음 콘솔에 라이선스를 추가해야 합니다.
+
+*콘솔에 라이센스 파일을 추가합니다*
+
+NetApp 영업 담당자로부터 랜섬웨어 복원력 라이선스를 구매한 후 랜섬웨어 복원력 일련 번호와 NetApp 지원 사이트(NSS) 계정 정보를 입력하여 라이선스를 활성화합니다.
+
+.시작하기 전에
+랜섬웨어 복원력 일련번호가 필요합니다.  판매 주문서에서 이 번호를 찾거나, 계정 팀에 문의하여 정보를 얻으세요.
+
+.단계
+. 라이센스를 취득한 후 Ransomware Resilience로 돌아가세요.  오른쪽 상단의 *결제 방법 보기* 옵션을 선택하세요.  또는 무료 평가판이 만료된다는 메시지가 표시되면 *구독 또는 라이선스 구매*를 선택하세요.
+. *라이선스 추가*를 선택하여 콘솔 라이선스 및 구독 페이지로 이동합니다.
+. *데이터 서비스 라이선스* 탭에서 *라이선스 추가*를 선택합니다.
++
+image:screen-license-dw-add-license.png["라이선스 추가 페이지의 스크린샷입니다."]
+
+. 라이선스 추가 페이지에서 일련 번호와 NetApp 지원 사이트 계정 정보를 입력합니다.
++
+** 콘솔 라이선스 일련 번호가 있고 NSS 계정을 알고 있는 경우 *일련 번호 입력* 옵션을 선택하고 해당 정보를 입력하세요.
++
+드롭다운 목록에서 NetApp 지원 사이트 계정을 사용할 수 없는 경우 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["콘솔에 NSS 계정 추가"^] .
+
+** zvondolr 라이선스 파일(어두운 곳에 설치할 때 필요)이 있는 경우 *라이선스 파일 업로드* 옵션을 선택하고 화면의 지시에 따라 파일을 첨부하세요.
+
+
+. *라이선스 추가*를 선택하세요.
+
+
+.결과
+라이선스 및 구독 페이지에는 Ransomware Resilience에 라이선스가 있는 것으로 표시됩니다.
+
+
+
+== 콘솔 라이선스가 만료되면 업데이트하세요.
+
+라이선스 기간이 만료일에 가까워지거나 라이선스 용량이 한도에 도달하면 랜섬웨어 복원력 UI에서 알림을 받게 됩니다.  스캔한 데이터에 액세스하는 데 방해가 되지 않도록 랜섬웨어 복원력 라이선스가 만료되기 전에 업데이트할 수 있습니다.
+
+
+TIP: 이 메시지는 라이센스 및 구독에도 나타납니다. https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#monitoring-operations-status-using-the-notification-center["알림 설정"] .
+
+.단계
+. 라이선스 업데이트를 요청하려면 지원팀에 이메일을 보내세요.
++
+라이선스 비용을 지불하고 NetApp 지원 사이트에 라이선스를 등록하면 콘솔에서 자동으로 라이선스가 업데이트됩니다.  5~10분 안에 데이터 서비스 라이선스 페이지에 변경 사항이 반영됩니다.
+
+. 콘솔이 라이선스를 자동으로 업데이트할 수 없는 경우 라이선스 파일을 수동으로 업로드해야 합니다.
++
+.. NetApp 지원 사이트에서 라이선스 파일을 얻을 수 있습니다.
+.. 콘솔에서 **관리** > **라이선스 및 구독**을 선택합니다.
+.. *데이터 서비스 라이선스* 탭을 선택하고, 업데이트하려는 일련 번호에 대한 *작업...* 아이콘을 선택한 다음 *라이선스 업데이트*를 선택합니다.
+
+
+
+
+
+
+== PAYGO 구독 종료
+
+PAYGO 구독을 종료하고 싶으면 언제든지 그렇게 할 수 있습니다.
+
+.단계
+. 랜섬웨어 복원력에서 오른쪽 상단에서 라이선스 옵션을 선택하세요.
+. *결제 방법 보기*를 선택하세요.
+. 드롭다운 세부정보에서 *현재 결제 방법 만료 후 사용* 상자의 선택을 취소하세요.
+. *저장*을 선택하세요.
+

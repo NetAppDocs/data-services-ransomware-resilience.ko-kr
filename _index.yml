@@ -1,0 +1,52 @@
+---
+indexpage:
+  title: NetApp 랜섬웨어 복원력 설명서
+  summary: NetApp Ransomware Resilience는 랜섬웨어 보호, 탐지 및 복구를 위한 오케스트레이션 서비스입니다.  랜섬웨어
+    복원력은 NetApp 콘솔 조직 전반의 온프레미스 NAS 스토리지와 Amazon Web Services의 Cloud Volumes ONTAP
+    (NFS 및 CIFS 프로토콜 사용)에 있는 Oracle, MySQL, VM 데이터 저장소 및 파일 공유의 애플리케이션 기반 워크로드를 보호하고
+    Amazon Web Services(AWS) 클라우드 스토리지 또는 NetApp StorageGRID 에 데이터를 백업합니다.
+  keywords: bluexp, ransomware, anti-ransomware, cyber attack, netapp, ontap, amazon
+    web services, aws, storagegrid, protection, resilience
+  lead: NetApp Ransomware Resilience는 랜섬웨어 보호, 탐지 및 복구를 위한 오케스트레이션 서비스입니다.  랜섬웨어 복원력은
+    온프레미스 NAS 스토리지의 Oracle, MySQL, VM 데이터 저장소 및 파일 공유의 애플리케이션 기반 작업 부하와 Amazon Web
+    Services의 Cloud Volumes ONTAP (NFS 및 CIFS 프로토콜 사용)을 콘솔 조직 전반에서 보호하고 Amazon Web
+    Services(AWS) 클라우드 스토리지 또는 NetApp StorageGRID 에 데이터를 백업합니다.
+  tiles:
+  - title: 시작하기
+    links:
+    - title: 랜섬웨어 복원력에 대해 알아보세요
+      url: "/concept-ransomware-resilience.html"
+    - title: 랜섬웨어 복원력의 새로운 소식
+      url: "/whats-new.html"
+    - title: 필수 조건
+      url: "/rp-start-prerequisites.html"
+    - title: 빠른 시작
+      url: "/rp-start-quick-start.html"
+    - title: 백업 대상을 구성하고 위협 탐지를 활성화합니다.
+      url: "/rp-use-settings.html"
+    - title: 랜섬웨어 공격 시뮬레이션
+      url: "/rp-start-simulate.html"
+  - title: 랜섬웨어 복원력 활용
+    links:
+    - title: 랜섬웨어 복원력 개요 사용
+      url: "/rp-use-overview.html"
+    - title: 워크로드 검색
+      url: "/rp-start-discover.html"
+    - title: 대시보드를 사용하여 작업 상태 보기
+      url: "/rp-use-dashboard.html"
+    - title: 작업 부하 보호
+      url: "/rp-use-protect.html"
+    - title: NetApp 데이터 분류를 사용하여 개인 식별 정보를 스캔하세요
+      url: "/rp-use-protect-classify.html"
+    - title: 감지된 경고에 대응
+      url: "/rp-use-alert.html"
+    - title: 공격으로부터 복구
+      url: "/rp-use-recover.html"
+  - title: 블로그 및 커뮤니티
+    links:
+    - title: NetApp 콘솔
+      url: https://www.netapp.com/console
+    - title: NetApp 데이터 서비스
+      url: https://www.netapp.com/data-services/
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/

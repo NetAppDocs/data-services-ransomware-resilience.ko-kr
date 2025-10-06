@@ -1,0 +1,31 @@
+= SAN 워크로드 지원
+:allow-uri-read: 
+
+
+
+
+=== SAN 워크로드 지원
+
+이 릴리스에는 BlueXP ransomware protection 의 SAN 워크로드에 대한 지원이 포함되어 있습니다.  이제 NFS 및 CIFS 워크로드뿐만 아니라 SAN 워크로드도 보호할 수 있습니다.
+
+자세한 내용은 다음을 참조하세요. link:https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-prerequisites.html["BlueXP ransomware protection 전제 조건"] .
+
+
+
+=== 향상된 작업 부하 보호
+
+이 릴리스에서는 SnapCenter 나 BlueXP backup and recovery 와 같은 다른 NetApp 도구의 스냅샷 및 백업 정책을 사용하는 워크로드에 대한 구성 프로세스가 개선되었습니다.  이전 릴리스에서는 BlueXP ransomware protection 다른 도구의 정책을 발견하여 사용자가 감지 정책을 변경할 수만 있었습니다.  이 릴리스를 사용하면 스냅샷 및 백업 정책을 BlueXP ransomware protection 정책으로 바꾸거나 다른 도구의 정책을 계속 사용할 수 있습니다.
+
+자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["작업 부하 보호"] .
+
+
+
+=== 이메일 알림
+
+BlueXP ransomware protection 잠재적인 공격을 감지하면 BlueXP 알림에 알림이 나타나고, 사용자가 구성한 이메일 주소로 이메일이 전송됩니다.
+
+이메일에는 심각도, 영향을 받는 작업 부하, BlueXP ransomware protection *알림* 탭의 알림에 대한 링크에 대한 정보가 포함되어 있습니다.
+
+BlueXP ransomware protection 에서 SIEM(보안 및 이벤트 관리) 시스템을 구성한 경우 해당 서비스는 SIEM 시스템으로 경고 세부 정보를 전송합니다.
+
+자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-alert.html["감지된 랜섬웨어 알림 처리"] .

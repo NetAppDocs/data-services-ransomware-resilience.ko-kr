@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: rp-use-manage.html 
+keywords: ransomware protection workload name, ransomware protection 
+summary: 기본 이름을 사용하면 위험하지만, 기본 이름을 사용하는 대신 워크로드 이름을 변경하여 워크로드를 관리할 수 있습니다. 
+---
+= NetApp 랜섬웨어 복원력에서 워크로드 관리
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Ransomware Resilience에서 워크로드 이름을 변경하여 워크로드를 관리할 수 있습니다.  기본 이름을 사용하면 랜섬웨어 공격의 위험이 있습니다.
+
+.단계
+. 랜섬웨어 복원력 메뉴에서 *보호*를 선택합니다.
+. 작업 부하를 선택하고 오른쪽에 있는 *작업* ... 아이콘을 선택한 다음 *작업 부하 이름 편집*을 선택합니다.
+. 새로운 작업 부하 이름을 입력하고 *저장*을 선택합니다.
+

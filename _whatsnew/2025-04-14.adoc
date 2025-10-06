@@ -1,0 +1,31 @@
+= 준비 훈련 보고서
+:allow-uri-read: 
+
+
+
+
+=== 준비 훈련 보고서
+
+이번 릴리스에서는 랜섬웨어 공격 대비 훈련 보고서를 검토할 수 있습니다.  준비 훈련을 통해 새로 생성된 샘플 워크로드에 대한 랜섬웨어 공격을 시뮬레이션할 수 있습니다.  그런 다음 시뮬레이션된 공격을 조사하고 샘플 작업 부하를 복구합니다.  이 기능은 경고 알림, 대응 및 복구 프로세스를 테스트하여 실제 랜섬웨어 공격이 발생할 경우 대비가 되어 있는지 확인하는 데 도움이 됩니다.
+
+자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-simulate.html["랜섬웨어 공격 대비 훈련을 실시하세요"] .
+
+
+
+=== 새로운 역할 기반 액세스 제어 역할 및 권한
+
+이전에는 사용자의 책임에 따라 역할과 권한을 할당하여 BlueXP ransomware protection 에 대한 사용자 액세스를 관리하는 데 도움이 되었습니다.  이번 릴리스에서는 업데이트된 권한을 갖춘 BlueXP ransomware protection 에 특화된 두 가지 새로운 역할이 추가되었습니다.  새로운 역할은 다음과 같습니다.
+
+* 랜섬웨어 보호 관리자
+* 랜섬웨어 보호 뷰어
+
+
+권한에 대한 자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-roles.html["BlueXP ransomware protection 역할 기반 기능 액세스"] .
+
+
+
+=== 결제 개선
+
+이번 릴리스에는 결제 프로세스에 대한 여러 가지 개선 사항이 포함되어 있습니다.
+
+자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["라이센싱 및 지불 옵션 설정"] .

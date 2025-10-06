@@ -1,0 +1,15 @@
+= BlueXP ransomware protection 에서 지원되지 않는 작업 환경 보고
+:allow-uri-read: 
+
+
+
+
+=== BlueXP ransomware protection 에서 지원되지 않는 작업 환경 보고
+
+검색 워크플로 중에 지원되는 워크로드 또는 지원되지 않는 워크로드 위에 마우스를 올리면 BlueXP ransomware protection 더 자세한 정보를 보고합니다.  이를 통해 일부 워크로드가 BlueXP ransomware protection 서비스에서 발견되지 않는 이유를 이해하는 데 도움이 됩니다.
+
+서비스가 작업 환경을 지원하지 않는 데에는 여러 가지 이유가 있습니다. 예를 들어, 작업 환경의 ONTAP 버전이 필요한 버전보다 낮을 수 있습니다.  지원되지 않는 작업 환경 위에 마우스를 올리면 툴팁에 그 이유가 표시됩니다.
+
+초기 검색 중에 지원되지 않는 작업 환경을 볼 수 있으며, 결과를 다운로드할 수도 있습니다.  설정 페이지의 *워크로드 검색* 옵션에서 검색 결과를 볼 수도 있습니다.
+
+자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["BlueXP ransomware protection 에서 워크로드를 발견하세요"] .

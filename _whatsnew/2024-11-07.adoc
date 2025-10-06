@@ -1,0 +1,39 @@
+= 데이터 분류를 활성화하고 개인 식별 정보(PII)를 스캔합니다.
+:allow-uri-read: 
+
+
+
+
+=== 데이터 분류를 활성화하고 개인 식별 정보(PII)를 스캔합니다.
+
+이 릴리스를 사용하면 BlueXP classification 제품군의 핵심 구성 요소인 BlueXP 분류를 사용하여 파일 공유 워크로드의 데이터를 스캔하고 분류할 수 있습니다.  데이터를 분류하면 데이터에 개인 정보나 비공개 정보가 포함되어 있는지 식별하는 데 도움이 되며, 이는 보안 위험을 증가시킬 수 있습니다.  이 프로세스는 워크로드 중요도에도 영향을 미치며 적절한 수준의 보호로 워크로드를 보호하고 있는지 확인하는 데 도움이 됩니다.
+
+BlueXP ransomware protection 에서 PII 데이터 스캔은 일반적으로 BlueXP classification 배포한 고객에게 제공됩니다.  BlueXP classification 추가 비용 없이 BlueXP 플랫폼의 일부로 제공되며 온프레미스 또는 고객 클라우드에 배포할 수 있습니다.
+
+참조하다 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["BlueXP ransomware protection 설정 구성"] .
+
+스캐닝을 시작하려면 보호 페이지에서 개인 정보 노출 열의 *노출 식별*을 클릭하세요.
+
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect-classify.html["BlueXP classification 사용하여 개인 식별이 가능한 민감한 데이터를 스캔합니다."] .
+
+
+
+=== Microsoft Sentinel과 SIEM 통합
+
+이제 Microsoft Sentinel을 사용하여 위협 분석 및 감지를 위해 보안 및 이벤트 관리 시스템(SIEM)으로 데이터를 전송할 수 있습니다.  이전에는 SIEM으로 AWS Security Hub 또는 Splunk Cloud를 선택할 수 있었습니다.
+
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["BlueXP ransomware protection 설정 구성에 대해 자세히 알아보세요."] .
+
+
+
+=== 지금 30일 무료 체험하세요
+
+이번 릴리스를 통해 BlueXP ransomware protection 새로 배포한 경우 30일 동안 무료로 체험할 수 있습니다.  이전에는 BlueXP ransomware protection 90일 무료 체험판으로 제공되었습니다.  이미 90일 무료 체험판을 이용 중이라면 해당 혜택은 90일 동안 계속 적용됩니다.
+
+
+
+=== Podman의 파일 수준에서 애플리케이션 작업 부하를 복원합니다.
+
+파일 수준에서 애플리케이션 워크로드를 복원하기 전에 이제 공격으로 인해 영향을 받았을 수 있는 파일 목록을 보고 복원하려는 파일을 식별할 수 있습니다.  이전에는 조직(이전에는 계정)의 BlueXP 커넥터가 Podman을 사용하는 경우 이 기능이 비활성화되었습니다.  이제 Podman에서 사용할 수 있습니다.  BlueXP ransomware protection 사용하여 복원할 파일을 선택하거나, 알림으로 영향을 받은 모든 파일을 나열한 CSV 파일을 업로드하거나, 복원할 파일을 수동으로 지정할 수 있습니다.
+
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-recover.html["랜섬웨어 공격으로부터 복구하는 방법에 대해 자세히 알아보세요"] .

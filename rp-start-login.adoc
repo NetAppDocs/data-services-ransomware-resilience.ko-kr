@@ -1,0 +1,48 @@
+---
+sidebar: sidebar 
+permalink: rp-start-login.html 
+keywords: bluexp login, ransomware protection, cyber attack, log in, access 
+summary: NetApp 콘솔을 통해 NetApp 랜섬웨어 복원력을 시작하세요. 
+---
+= NetApp 랜섬웨어 복원력에 액세스하세요
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp 콘솔을 통해 NetApp 랜섬웨어 복원력에 로그인합니다.
+
+콘솔에 로그인하려면 NetApp 지원 사이트 자격 증명을 사용하거나 이메일과 비밀번호를 사용하여 NetApp 클라우드 로그인에 가입할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["로그인에 대해 자세히 알아보세요"^] .
+
+*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 또는 랜섬웨어 복원력 뷰어 역할이 필요합니다. https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요"^] .
+
+.단계
+. 웹 브라우저를 열고 이동하세요link:https://console.netapp.com/["콘솔"^] .
++
+콘솔 로그인 페이지가 나타납니다.
+
+. 콘솔에 로그인합니다.
+. 콘솔 왼쪽 탐색에서 *보호* > *랜섬웨어 복원력*을 선택합니다.
++
+이 서비스에 처음 로그인하는 경우 랜딩 페이지가 나타납니다.
+
++
+
+NOTE: 콘솔 에이전트가 없거나 이 서비스에 적합한 에이전트가 아닌 경우, 콘솔 에이전트를 배포해야 합니다. link:rp-start-setup.html["콘솔 에이전트를 설정하는 방법을 알아보세요"] .
+
++
+image:screen-landing.png["랜섬웨어 복원력 랜딩 페이지의 스크린샷입니다."]
+
++
+그렇지 않으면 랜섬웨어 복원력 대시보드가 나타납니다.
+
++
+image:screen-dashboard.png["랜섬웨어 복원력 대시보드의 스크린샷"]
+
+. 아직 선택하지 않았다면 *워크로드 검색* 옵션을 선택하세요.
++
+link:rp-start-discover.html["워크로드 검색"] .
+
+
