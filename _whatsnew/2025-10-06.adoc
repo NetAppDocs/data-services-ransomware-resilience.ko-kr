@@ -24,7 +24,7 @@ NetApp 콘솔은 엔터프라이즈급 온프레미스 및 클라우드 환경 �
 
 저장 계층에서 ARP를 통한 암호화 감지와 달리, Ransomware Resilience SaaS 서비스에서는 FPolicy 이벤트를 수집하여 사용자 동작 이상을 감지합니다.
 
-자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.htm["의심스러운 사용자 활동 감지 활성화"] 그리고link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-alert.html#view-anomalous-user-behavior["비정상적인 사용자 동작 보기"] .
+자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html["의심스러운 사용자 활동 감지 활성화"] 그리고link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-alert.html#view-anomalous-user-behavior["비정상적인 사용자 동작 보기"] .
 
 
 

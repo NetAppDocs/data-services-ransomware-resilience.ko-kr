@@ -1831,7 +1831,6 @@
   <block id="287f419ab9030dae6e341b7917dea7b9" category="paragraph">저장 계층에서 ARP를 통한 암호화 감지와 달리, Ransomware Resilience SaaS 서비스에서는 FPolicy 이벤트를 수집하여 사용자 동작 이상을 감지합니다.</block>
   <block id="666c1c8dca9ff6ef210c57f04d6e84e8" category="inline-link-macro">의심스러운 사용자 활동 감지 활성화</block>
   <block id="8d2203d70c1b051af0b7ad506cc40474" category="inline-link-macro">비정상적인 사용자 동작 보기</block>
-  <block id="b270269f4d3564626c9860f0f29f2992" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="58d7e66449e28231f244d38ab02cc3e1" category="inline-link-macro-rx"></block> 그리고<block ref="f451eade5eddedc7b8e2af13d9e54fd3" category="inline-link-macro-rx"></block> .</block>
   <block id="289ddf7ba01fbf8f514dbc2d06a7bf67" category="section-title">추가적으로 의심스러운 사용자 활동 감지</block>
   <block id="c59946b2a21d389710dcd9b9ad5f618d" category="paragraph">Ransomware Resilience는 데이터 침해 감지 외에도 관찰된 의심스러운 사용자 활동을 기반으로 다음과 같은 알림 유형을 감지합니다.</block>
   <block id="9f149be55d2ace2f4ef86d2125660c4c" category="list-text">**데이터 파괴 - 잠재적 공격** - 파일 삭제 수가 기존 기준을 초과하면 잠재적 공격의 심각도를 알려주는 알림이 생성됩니다.</block>
@@ -2031,4 +2030,5 @@
   <block id="77d6960ddc4ee40e26fd963e6e1f6e68" category="paragraph">복구 프로세스가 향상되었습니다.  이제 워크로드에 대해 볼륨별로 또는 모든 볼륨을 복구할 수 있습니다.<block ref="2db5667b5f183f51656a41f32740d8f2" category="inline-link-rx"></block> .</block>
   <block id="0c59fa3b4bea70fe5377775600bed707" category="sidebar">NetApp Ransomware Resilience 온프레미스 및 클라우드 스토리지에서 랜섬웨어 위협으로부터 애플리케이션 워크로드와 파일 공유를 보호, 탐지하고 복구를 지원합니다.  Oracle, MySQL, VM 데이터 저장소, NAS 스토리지 등의 플랫폼을 지원하는 Ransomware Resilience는 안전한 백업 및 복구를 가능하게 하여 조직이 중요한 데이터를 보호하고 비즈니스 연속성을 유지하는 데 도움이 됩니다.</block>
   <block id="e65f6e4b1867bfedf08120cb1ab99c24" category="sidebar">의심스러운 사용자 활동 감지 구성</block>
+  <block id="75ae81fb1b2b27cbdbd5ba2b48014fe5" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="4fc0d3ac39798f24cded583e594e4abe" category="inline-link-macro-rx"></block> 그리고<block ref="f451eade5eddedc7b8e2af13d9e54fd3" category="inline-link-macro-rx"></block> .</block>
 </blocks>
