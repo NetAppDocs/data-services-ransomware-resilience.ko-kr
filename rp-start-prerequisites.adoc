@@ -14,7 +14,7 @@ summary: 환경, 네트워크 액세스, 로그인 및 웹 브라우저에 대�
 [role="lead"]
 운영 환경, 로그인, 네트워크 액세스 및 웹 브라우저의 준비 상태를 확인하여 NetApp 랜섬웨어 복원력을 시작하세요.
 
-랜섬웨어 복원력을 사용하려면 필수 구성 요소가 필요합니다.
+랜섬웨어 복원력을 사용하려면 다음 전제 조건을 충족해야 합니다.
 
 
 
@@ -32,7 +32,7 @@ NOTE: SAN 워크로드는 ONTAP 9.17.1 이상에서만 지원됩니다.
 
 ** AWS 또는 Azure 클라우드의 온프레미스 ONTAP 클러스터나 Cloud Volumes ONTAP 아직 콘솔에 온보딩되지 않은 경우 콘솔 에이전트가 필요합니다.
 +
-참조하다 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["콘솔 에이전트를 구성하는 방법을 알아보세요"] 그리고 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["표준 콘솔 요구 사항"^] .
+참조하다 https://docs.netapp.com/us-en/console-setup-admin/concept-connectors.html["콘솔 에이전트를 구성하는 방법을 알아보세요"] 그리고 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["표준 콘솔 요구 사항"^] .
 
 +
 
@@ -53,7 +53,7 @@ NOTE: 단일 콘솔 조직에 여러 콘솔 에이전트가 있는 경우 Ransom
 NOTE: Ransomware Resilience의 일반 릴리스에는 Preview 릴리스와 달리 NetApp Autonomous Ransomware Protection 기술에 대한 라이선스가 포함되어 있습니다. 참조하다 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율형 랜섬웨어 보호 개요"^] 자세한 내용은.
 
 +
-자세한 라이센스 세부 사항은 다음을 참조하세요.link:concept-ransomware-protection.html["랜섬웨어 복원력에 대해 알아보세요"] .
+자세한 라이센스 세부 사항은 다음을 참조하세요.link:concept-ransomware-resilience.html["랜섬웨어 복원력에 대해 알아보세요"] .
 
 * 보호 구성(자율 랜섬웨어 보호 및 기타 기능 활성화 등)을 적용하려면 랜섬웨어 복원력에 ONTAP 클러스터에 대한 관리자 권한이 필요합니다.  ONTAP 클러스터는 ONTAP 클러스터 관리자 사용자 자격 증명을 사용하여만 온보딩되어야 합니다.
 * ONTAP 클러스터가 이미 관리자가 아닌 사용자 자격 증명을 사용하여 콘솔에 온보딩된 경우, 이 페이지에 설명된 대로 ONTAP 클러스터에 로그인하여 관리자가 아닌 사용자 권한을 필요한 권한으로 업데이트해야 합니다.
@@ -65,7 +65,7 @@ NOTE: Ransomware Resilience의 일반 릴리스에는 Preview 릴리스와 달�
 
 * 백업 대상과 액세스 권한 집합을 위한 NetApp StorageGRID, AWS S3, Azure Blob 또는 Google Cloud Platform의 계정입니다.
 +
-를 참조하세요 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["AWS, Azure 또는 S3 권한 목록"^] 자세한 내용은.
+를 참조하세요 https://docs.netapp.com/us-en/console-setup-admin/reference-permissions.html["AWS, Azure 또는 S3 권한 목록"^] 자세한 내용은.
 
 * 시스템에서 NetApp 백업 및 복구를 활성화할 필요가 없습니다.
 +

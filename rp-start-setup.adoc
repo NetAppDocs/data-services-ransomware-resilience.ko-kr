@@ -39,20 +39,20 @@ StorageGRID 백업 대상으로 사용하려면 다음을 참조하세요. https
 === AWS를 백업 대상으로 준비
 
 * AWS에 계정을 설정합니다.
-* 구성 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["AWS 권한"^] AWS에서.
+* 구성 https://docs.netapp.com/us-en/console-setup-admin/reference-permissions.html["AWS 권한"^] AWS에서.
 
 
-콘솔에서 AWS 스토리지를 관리하는 방법에 대한 자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-setup-admin/task-viewing-amazon-s3.html["Amazon S3 버킷 관리"^] .
+콘솔에서 AWS 스토리지를 관리하는 방법에 대한 자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/console-setup-admin/task-viewing-amazon-s3.html["Amazon S3 버킷 관리"^] .
 
 
 
 === Azure를 백업 대상으로 준비
 
 * Azure에 계정을 설정합니다.
-* 구성 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["Azure 권한"^] Azure에서.
+* 구성 https://docs.netapp.com/us-en/console-setup-admin/reference-permissions.html["Azure 권한"^] Azure에서.
 
 
-콘솔에서 Azure 저장소를 관리하는 방법에 대한 자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-blob-storage/task-view-azure-blob-storage.html["Azure 저장소 계정 관리"^] .
+콘솔에서 Azure 저장소를 관리하는 방법에 대한 자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/storage-management-blob-storage/task-view-azure-blob-storage.html["Azure 저장소 계정 관리"^] .
 
 
 
@@ -60,7 +60,7 @@ StorageGRID 백업 대상으로 사용하려면 다음을 참조하세요. https
 
 다음 단계는 콘솔과 랜섬웨어 복원력을 설정하는 것입니다.
 
-검토 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-standard-mode.html["표준 모드에 대한 콘솔 요구 사항"^] .
+검토 https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-standard-mode.html["표준 모드에 대한 콘솔 요구 사항"^] .
 
 
 

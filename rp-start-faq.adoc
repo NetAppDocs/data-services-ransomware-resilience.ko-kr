@@ -35,7 +35,7 @@ NetApp 랜섬웨어 복원력에 대한 질문에 대한 빠른 답변을 찾고
 
 *랜섬웨어 복원력을 표준, 제한, 비공개 모드로 사용할 수 있나요?*  현재 랜섬웨어 복원력은 표준 모드로만 사용 가능합니다. 더 많은 내용을 기대하세요.
 
-모든 NetApp 데이터 서비스에서 이러한 모드에 대한 설명은 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["NetApp 콘솔 배포 모드"^] .
+모든 NetApp 데이터 서비스에서 이러한 모드에 대한 설명은 다음을 참조하세요. https://docs.netapp.com/us-en/console-setup-admin/concept-modes.html["NetApp 콘솔 배포 모드"^] .
 
 
 
@@ -43,7 +43,7 @@ NetApp 랜섬웨어 복원력에 대한 질문에 대한 빠른 답변을 찾고
 
 *랜섬웨어 복구 URL은 무엇인가요?*  브라우저에서 다음을 입력하세요. https://console.netapp.com/["https://console.netapp.com/ransomware-resilience"^] 콘솔에 접속하려면.
 
-*접근 권한은 어떻게 처리되나요?* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 콘솔 액세스 역할에 대해 알아보세요."^] .
+*접근 권한은 어떻게 처리되나요?* https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 콘솔 액세스 역할에 대해 알아보세요."^] .
 
 *어떤 기기에 가장 적합한 해상도가 있나요?* 랜섬웨어 복원력에 권장되는 장치 해상도는 1920x1080 이상입니다.
 

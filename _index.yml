@@ -1,16 +1,14 @@
 ---
 indexpage:
   title: NetApp 랜섬웨어 복원력 설명서
-  summary: NetApp Ransomware Resilience는 랜섬웨어 보호, 탐지 및 복구를 위한 오케스트레이션 서비스입니다.  랜섬웨어
-    복원력은 NetApp 콘솔 조직 전반의 온프레미스 NAS 스토리지와 Amazon Web Services의 Cloud Volumes ONTAP
-    (NFS 및 CIFS 프로토콜 사용)에 있는 Oracle, MySQL, VM 데이터 저장소 및 파일 공유의 애플리케이션 기반 워크로드를 보호하고
-    Amazon Web Services(AWS) 클라우드 스토리지 또는 NetApp StorageGRID 에 데이터를 백업합니다.
+  summary: NetApp Ransomware Resilience 온프레미스 및 클라우드 스토리지에서 랜섬웨어 위협으로부터 애플리케이션 워크로드와
+    파일 공유를 보호, 탐지하고 복구를 지원합니다.  Oracle, MySQL, VM 데이터 저장소, NAS 스토리지 등의 플랫폼을 지원하는 Ransomware
+    Resilience는 안전한 백업 및 복구를 가능하게 하여 조직이 중요한 데이터를 보호하고 비즈니스 연속성을 유지하는 데 도움이 됩니다.
   keywords: bluexp, ransomware, anti-ransomware, cyber attack, netapp, ontap, amazon
     web services, aws, storagegrid, protection, resilience
-  lead: NetApp Ransomware Resilience는 랜섬웨어 보호, 탐지 및 복구를 위한 오케스트레이션 서비스입니다.  랜섬웨어 복원력은
-    온프레미스 NAS 스토리지의 Oracle, MySQL, VM 데이터 저장소 및 파일 공유의 애플리케이션 기반 작업 부하와 Amazon Web
-    Services의 Cloud Volumes ONTAP (NFS 및 CIFS 프로토콜 사용)을 콘솔 조직 전반에서 보호하고 Amazon Web
-    Services(AWS) 클라우드 스토리지 또는 NetApp StorageGRID 에 데이터를 백업합니다.
+  lead: NetApp Ransomware Resilience 온프레미스 및 클라우드 스토리지에서 랜섬웨어 위협으로부터 애플리케이션 워크로드와
+    파일 공유를 보호, 탐지하고 복구를 지원합니다.  Oracle, MySQL, VM 데이터 저장소, NAS 스토리지 등의 플랫폼을 지원하는 Ransomware
+    Resilience는 안전한 백업 및 복구를 가능하게 하여 조직이 중요한 데이터를 보호하고 비즈니스 연속성을 유지하는 데 도움이 됩니다.
   tiles:
   - title: 시작하기
     links:

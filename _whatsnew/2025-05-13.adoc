@@ -12,4 +12,4 @@
 
 초기 검색 중에 지원되지 않는 작업 환경을 볼 수 있으며, 결과를 다운로드할 수도 있습니다.  설정 페이지의 *워크로드 검색* 옵션에서 검색 결과를 볼 수도 있습니다.
 
-자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["BlueXP ransomware protection 에서 워크로드를 발견하세요"] .
+자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-discover.html["BlueXP ransomware protection 에서 워크로드를 발견하세요"] .

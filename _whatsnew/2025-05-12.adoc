@@ -21,9 +21,9 @@ TIP: FSx for ONTAP 에서 실행되는 워크로드에 대한 백업 정책은 B
 * 경고 사건은 새로운 FSx for ONTAP 작업 환경을 보여줍니다.
 
 
-자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["BlueXP ransomware protection 및 작업 환경에 대해 알아보세요"] .
+자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["BlueXP ransomware protection 및 작업 환경에 대해 알아보세요"] .
 
-지원되는 옵션에 대한 정보는 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-limitations.html["BlueXP ransomware protection 제한 사항"] .
+지원되는 옵션에 대한 정보는 다음을 참조하세요. https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-limitations.html["BlueXP ransomware protection 제한 사항"] .
 
 
 
@@ -31,4 +31,4 @@ TIP: FSx for ONTAP 에서 실행되는 워크로드에 대한 백업 정책은 B
 
 이제 BlueXP ransomware protection 보고, 검색하고, 관리하려면 다음 액세스 역할 중 하나가 필요합니다. 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 보호 관리자 또는 랜섬웨어 보호 뷰어.
 
-https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요"^] .
+https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요"^] .

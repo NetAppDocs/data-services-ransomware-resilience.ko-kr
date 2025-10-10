@@ -91,7 +91,7 @@ NOTE: 2024년 10월 출시부터 Ransomware Resilience의 새로운 배포는 30
 
 랜섬웨어 복원력 라이선스에는 추가 NetApp 제품이 포함되지 않습니다.  랜섬웨어 복원력은 라이선스가 없어도 백업 및 복구를 사용할 수 있습니다.
 
-비정상적인 사용자 행동을 감지하기 위해 Ransomware Resilience는 ONTAP 내의 머신 러닝(ML) 모델인 NetApp Autonomous Ransomware Protection을 사용하여 악성 파일 활동을 감지합니다.  이 모델은 랜섬웨어 복원력 라이선스에 포함되어 있습니다.  또한 Data Infrastructure Insights (이전 Cloud Insights) 워크로드 보안(라이선스 필요)을 사용하여 사용자 행동을 조사하고 특정 사용자의 추가 활동을 차단할 수 있습니다.
+비정상적인 사용자 행동을 감지하기 위해 Ransomware Resilience는 ONTAP 내의 머신 러닝(ML) 모델인 NetApp Autonomous Ransomware Protection을 사용하여 악성 파일 활동을 감지합니다.  이 모델은 랜섬웨어 복원력 라이선스에 포함되어 있습니다.
 
 자세한 내용은 다음을 참조하십시오. link:rp-start-licenses.html["라이센스 설정"] .
 
@@ -105,7 +105,7 @@ NetApp 콘솔은 엔터프라이즈급 온프레미스 및 클라우드 환경 �
 
 NetApp Console을 사용하려면 라이선스나 구독이 필요하지 않으며, 스토리지 시스템이나 NetApp 데이터 서비스에 대한 연결을 보장하기 위해 클라우드에 Console 에이전트를 배포해야 할 때만 요금이 부과됩니다. 그러나 콘솔에서 액세스할 수 있는 일부 NetApp 데이터 서비스는 라이선스 기반이거나 구독 기반입니다.
 
-자세히 알아보세요link:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp 콘솔"^] .
+자세히 알아보세요link:https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetApp 콘솔"^] .
 
 
 
@@ -123,7 +123,7 @@ image:diagram-rp-architecture-preview3.png["랜섬웨어 복원력 아키텍처�
 | *식별하다*  a| 
 * 콘솔에 연결된 모든 고객 온프레미스 NAS(NFS 및 CIFS 프로토콜), SAN(FC, iSCSI 및 NVMe) 및 Cloud Volumes ONTAP 데이터를 찾습니다.
 * ONTAP 및 SnapCenter 서비스 API에서 고객 데이터를 식별하고 이를 워크로드와 연결합니다. 자세히 알아보세요 https://docs.netapp.com/us-en/ontap-family/["ONTAP"^] 그리고 https://docs.netapp.com/us-en/snapcenter/index.html["SnapCenter 소프트웨어"^] .
-* NetApp 스냅샷 복사본과 백업 정책의 각 볼륨의 현재 보호 수준과 온박스 감지 기능을 검색합니다.  랜섬웨어 복원력은 백업 및 복구, ONTAP 서비스, 자율 랜섬웨어 보호( ONTAP 버전에 따라 ARP 또는 ARP/AI), 정책, 백업 정책, 스냅샷 정책과 같은 NetApp 기술을 사용하여 이러한 보호 태세를 워크로드와 연결합니다.  자세히 알아보세요 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율형 랜섬웨어 보호"^] , https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["NetApp 백업 및 복구"^] , 그리고 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP 정책"^] .
+* NetApp 스냅샷 복사본과 백업 정책의 각 볼륨의 현재 보호 수준과 온박스 감지 기능을 검색합니다.  랜섬웨어 복원력은 백업 및 복구, ONTAP 서비스, 자율 랜섬웨어 보호( ONTAP 버전에 따라 ARP 또는 ARP/AI), 정책, 백업 정책, 스냅샷 정책과 같은 NetApp 기술을 사용하여 이러한 보호 태세를 워크로드와 연결합니다.  자세히 알아보세요 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율형 랜섬웨어 보호"^] , https://docs.netapp.com/us-en/data-services-backup-recovery/index.html["NetApp 백업 및 복구"^] , 그리고 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP 정책"^] .
 * 자동으로 검색된 보호 수준을 기반으로 각 워크로드에 비즈니스 우선순위를 할당하고, 비즈니스 우선순위에 따라 워크로드에 대한 보호 정책을 권장합니다.  워크로드 우선순위는 워크로드와 연관된 각 볼륨에 이미 적용된 스냅샷 빈도를 기준으로 합니다.
 
 
@@ -138,7 +138,7 @@ image:diagram-rp-architecture-preview3.png["랜섬웨어 복원력 아키텍처�
 | *감지하다*  a| 
 * 잠재적으로 비정상적인 암호화 및 활동을 감지하는 통합 머신 러닝(ML) 모델을 통해 잠재적인 공격을 감지합니다.
 * 기본 스토리지에서 잠재적인 랜섬웨어 공격을 탐지하고 비정상적인 활동에 대응하여 가장 가까운 데이터 복원 지점을 생성하기 위해 추가 자동 스냅샷 복사본을 생성하는 이중 계층 탐지 기능을 제공합니다.  랜섬웨어 복원력은 주요 작업 부하의 성능에 영향을 주지 않고 더욱 정밀하게 잠재적 공격을 식별할 수 있는 기능을 제공합니다.
-* ONTAP, 자율형 랜섬웨어 보호( ONTAP 버전에 따라 ARP 또는 ARP/AI), Data Infrastructure Insights (이전 명칭 Cloud Insights) 워크로드 보안 및 FPolicy 기술을 사용하여 관련 워크로드에 공격하는 특정 의심 파일을 파악하고 매핑합니다.
+* ONTAP, 자율 랜섬웨어 보호( ONTAP 버전에 따라 ARP 또는 ARP/AI) 및 FPolicy 기술을 사용하여 관련 워크로드에 공격하는 특정 의심 파일을 파악하고 매핑합니다.
 
 
 

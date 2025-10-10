@@ -20,7 +20,7 @@ NetApp 랜섬웨어 복원력은 역할을 사용하여 각 사용자가 특정 
 * *랜섬웨어 복원력 뷰어*: NetApp 워크로드 데이터 보기, 알림 데이터 보기, 복구 데이터 다운로드, 보고서 다운로드.
 
 
-이러한 역할은 콘솔 서비스 및 데이터 보호, 워크로드 관리 등의 기타 서비스에 대한 액세스를 관리하는 콘솔 플랫폼 역할에 추가됩니다.  모든 콘솔 플랫폼 역할에 대한 자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["설정 및 관리 문서"^] .
+이러한 역할은 콘솔 서비스 및 데이터 보호, 워크로드 관리 등의 기타 서비스에 대한 액세스를 관리하는 콘솔 플랫폼 역할에 추가됩니다.  모든 콘솔 플랫폼 역할에 대한 자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["설정 및 관리 문서"^] .
 
 다음 표는 각 랜섬웨어 복원력 역할이 수행할 수 있는 작업을 나타냅니다.
 

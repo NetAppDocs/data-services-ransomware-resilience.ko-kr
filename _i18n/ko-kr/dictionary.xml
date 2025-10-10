@@ -2,9 +2,7 @@
 <blocks>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
   <block id="34397c830c77af93d96e3ed470658d45" category="inline-link">모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요</block>
-  <block id="f6f8a831b6873e1e5da1270ad87f05d4" category="paragraph">*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 또는 랜섬웨어 복원력 뷰어 역할이 필요합니다.<block ref="c46fcff617e849cb6f8ded33051f7905" category="inline-link-rx"></block> .</block>
   <block id="2152a2d176eba534e81c7e1450f6b5e0" category="inline-link-macro">모든 서비스에 대한 콘솔 액세스 역할에 대해 알아보세요.</block>
-  <block id="2a465f11b258ac43576eefa270c6049c" category="paragraph">*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. <block ref="c63b2c8d20974c1834bc75207be469f3" category="inline-link-macro-rx"></block> .</block>
   <block id="997bcd377ced78770953e6e3775b8ef8" category="doc">Digital Advisor 의 보안 위험 평가</block>
   <block id="ca38b24749c1b379aa526166d650709c" category="paragraph">BlueXP ransomware protection 이제 NetApp Digital Advisor 에서 클러스터와 관련된 높고 심각한 보안 위험에 대한 정보를 수집합니다.  위험이 발견되면 BlueXP ransomware protection 대시보드의 *권장 작업* 창에 "클러스터 &lt;이름&gt;에서 알려진 보안 취약점을 수정하세요."라는 권장 사항을 제공합니다.  대시보드의 권장 사항에서 *검토 및 수정*을 클릭하면 Digital Advisor 와 CVE(일반적인 취약성 및 노출) 문서를 검토하여 보안 위험을 해결할 것을 제안합니다.  여러 보안 위험이 있는 경우 Digital Advisor 에서 정보를 검토하세요.</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Digital Advisor 문서</block>
@@ -12,27 +10,21 @@
   <block id="d6e1df3f33358ae7e917c338cf462ca0" category="section-title">Google Cloud Platform으로 백업</block>
   <block id="a789dfb53f35524e96878624b0f44be1" category="paragraph">이 릴리스에서는 백업 대상을 Google Cloud Platform 버킷으로 설정할 수 있습니다.  이전에는 NetApp StorageGRID, Amazon Web Services 및 Microsoft Azure에만 백업 대상을 추가할 수 있었습니다.</block>
   <block id="0d0fda3a15e7f6f6406a0dde3997c91f" category="inline-link">BlueXP ransomware protection 설정 구성에 대해 자세히 알아보세요.</block>
-  <block id="5b0f75e0c31233c18e6f9318b8569cf7" category="paragraph"><block ref="25291e882ba76639fccc7a13f1838641" category="inline-link-rx"></block> .</block>
   <block id="be2bdfb658850d167c76f763879faa2f" category="section-title">Google Cloud Platform 지원</block>
   <block id="1a5bbf622fa944b888ced1dd36e43b20" category="paragraph">이 서비스는 이제 스토리지 보호를 위해 Google Cloud Platform용 Cloud Volumes ONTAP 지원합니다.  이전에는 이 서비스가 온프레미스 NAS와 함께 Amazon Web Services 및 Microsoft Azure용 Cloud Volumes ONTAP 만 지원했습니다.</block>
   <block id="571e1080641fe631491306478d4572a1" category="inline-link">BlueXP ransomware protection 및 지원되는 데이터 소스, 백업 대상 및 작업 환경에 대해 알아보세요.</block>
-  <block id="5c6a145c454aef23e256b2459f8c4c75" category="paragraph"><block ref="e1153028bb0f55bf33080551a5d7f6f3" category="inline-link-rx"></block> .</block>
   <block id="01ab8fe0565c01eb93456b579d969d66" category="section-title">역할 기반 액세스 제어</block>
   <block id="1431c64521322df79808c76466af3b70" category="paragraph">이제 역할 기반 액세스 제어(RBAC)를 사용하여 특정 활동에 대한 액세스를 제한할 수 있습니다.  BlueXP ransomware protection BlueXP 의 두 가지 역할, 즉 BlueXP 계정 관리자와 비계정 관리자(뷰어)를 사용합니다.</block>
   <block id="c7038711405bbbe2f0f37c53c5eb81ad" category="inline-link">역할 기반 액세스 제어 권한</block>
-  <block id="edf15150f2ed24145a29e67792372ecc" category="paragraph">각 역할이 수행할 수 있는 작업에 대한 자세한 내용은 다음을 참조하세요.<block ref="03cd1069228e8895d221bed8eef34f69" category="inline-link-rx"></block> .</block>
   <block id="4d330e714e6183f0c61932d7c00a8ff3" category="doc">파일 공유 작업 부하의 사용자 정의 그룹화</block>
   <block id="52a2bb712de6112a9a5d29a047f3a073" category="paragraph">이번 릴리스에서는 파일 공유를 그룹으로 묶어 데이터 자산을 더 쉽게 보호할 수 있습니다.  이 서비스는 그룹의 모든 볼륨을 동시에 보호할 수 있습니다.  이전에는 각 볼륨을 별도로 보호해야 했습니다.</block>
   <block id="a1c75029051cebc5ca5ea85a84cfc065" category="inline-link">랜섬웨어 보호 전략에서 파일 공유 작업 부하를 그룹화하는 방법에 대해 자세히 알아보세요.</block>
-  <block id="9a2ed93898be76fbc237cf9fca13d650" category="paragraph"><block ref="8790005620a6e0339d9d5a6985b6f062" category="inline-link-rx"></block> .</block>
   <block id="86510b95a05ce4c22c6d48d2fd9228a9" category="doc">데이터 분류를 활성화하고 개인 식별 정보(PII)를 스캔합니다.</block>
   <block id="d599e3d1b6a5137e404ea89f314a22e4" category="paragraph">이 릴리스를 사용하면 BlueXP classification 제품군의 핵심 구성 요소인 BlueXP 분류를 사용하여 파일 공유 워크로드의 데이터를 스캔하고 분류할 수 있습니다.  데이터를 분류하면 데이터에 개인 정보나 비공개 정보가 포함되어 있는지 식별하는 데 도움이 되며, 이는 보안 위험을 증가시킬 수 있습니다.  이 프로세스는 워크로드 중요도에도 영향을 미치며 적절한 수준의 보호로 워크로드를 보호하고 있는지 확인하는 데 도움이 됩니다.</block>
   <block id="3406306d1e826f71d49547332136491d" category="paragraph">BlueXP ransomware protection 에서 PII 데이터 스캔은 일반적으로 BlueXP classification 배포한 고객에게 제공됩니다.  BlueXP classification 추가 비용 없이 BlueXP 플랫폼의 일부로 제공되며 온프레미스 또는 고객 클라우드에 배포할 수 있습니다.</block>
   <block id="006f40c12cb6b543cd40a6cd5a750b98" category="inline-link">BlueXP ransomware protection 설정 구성</block>
-  <block id="14712989ac072dc4b44e9acf1def5f1f" category="paragraph">참조하다<block ref="a5026777e609bf5c1f12922a89f75f5b" category="inline-link-rx"></block> .</block>
   <block id="dc2ee5afb67051a37353df40cc16729a" category="paragraph">스캐닝을 시작하려면 보호 페이지에서 개인 정보 노출 열의 *노출 식별*을 클릭하세요.</block>
   <block id="e7d05f872780d58e08011a44ce4be77b" category="inline-link">BlueXP classification 사용하여 개인 식별이 가능한 민감한 데이터를 스캔합니다.</block>
-  <block id="4dc0491313939f9597e6bce367054443" category="paragraph"><block ref="0e7ea879583dcbdf58a2050df8592221" category="inline-link-rx"></block> .</block>
   <block id="a2c442ceb4053f2fbfe23023529b9acb" category="section-title">Microsoft Sentinel과 SIEM 통합</block>
   <block id="5148a0988dead45b54188f22121bb178" category="paragraph">이제 Microsoft Sentinel을 사용하여 위협 분석 및 감지를 위해 보안 및 이벤트 관리 시스템(SIEM)으로 데이터를 전송할 수 있습니다.  이전에는 SIEM으로 AWS Security Hub 또는 Splunk Cloud를 선택할 수 있었습니다.</block>
   <block id="178324624f63d3f322bedd1a0cf9e6fc" category="section-title">지금 30일 무료 체험하세요</block>
@@ -40,11 +32,9 @@
   <block id="131dcf966228f0c4a90e6e64618c8def" category="section-title">Podman의 파일 수준에서 애플리케이션 작업 부하를 복원합니다.</block>
   <block id="b4a1818e2de3da83b0e71c710c96525c" category="paragraph">파일 수준에서 애플리케이션 워크로드를 복원하기 전에 이제 공격으로 인해 영향을 받았을 수 있는 파일 목록을 보고 복원하려는 파일을 식별할 수 있습니다.  이전에는 조직(이전에는 계정)의 BlueXP 커넥터가 Podman을 사용하는 경우 이 기능이 비활성화되었습니다.  이제 Podman에서 사용할 수 있습니다.  BlueXP ransomware protection 사용하여 복원할 파일을 선택하거나, 알림으로 영향을 받은 모든 파일을 나열한 CSV 파일을 업로드하거나, 복원할 파일을 수동으로 지정할 수 있습니다.</block>
   <block id="f013b90a0fd96db59795b7cb0b9d2d1b" category="inline-link">랜섬웨어 공격으로부터 복구하는 방법에 대해 자세히 알아보세요</block>
-  <block id="48e006c40a370e7b0dcc3f4f1e42eda7" category="paragraph"><block ref="17c138513bf5a78d755bed4038999b20" category="inline-link-rx"></block> .</block>
   <block id="e6ecd439699f8fefa13e20f9536a72a6" category="doc">Data Infrastructure Insights Storage Workload Security를 ​​사용하여 비정상적인 사용자 동작을 감지합니다.</block>
   <block id="4b9b02f7da7210970cff1fcbe2d8369e" category="paragraph">이 릴리스에서는 Data Infrastructure Insights Storage Workload Security를 ​​사용하여 스토리지 워크로드에서 비정상적인 사용자 동작을 감지할 수 있습니다.  이 기능은 잠재적인 보안 위협을 식별하고 잠재적으로 악의적인 사용자를 차단하여 데이터를 보호하는 데 도움이 됩니다.</block>
   <block id="839e0e7efb1b67f6416081c6e82a4aa9" category="inline-link">감지된 랜섬웨어 경고에 대응하세요</block>
-  <block id="51713ddd834a60df7d06db728cf08e05" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="7a6c0b2db283aa3c348e6e1a2f1f32b0" category="inline-link-rx"></block> .</block>
   <block id="f06819927bc06d4d2a9a3e3e868f76de" category="paragraph">Data Infrastructure Insights Storage Workload Security를 ​​사용하여 비정상적인 사용자 동작을 감지하기 전에 BlueXP ransomware protection *설정* 옵션을 사용하여 옵션을 구성해야 합니다.</block>
   <block id="ae65c0d044427130470e493bcfa5e9a3" category="section-title">검색하고 보호할 작업 부하 선택</block>
   <block id="df7afd566315c6467b9ae3e88d9f948d" category="paragraph">이 릴리스를 사용하면 이제 다음 작업을 수행할 수 있습니다.</block>
@@ -52,11 +42,9 @@
   <block id="b26d0bf0b9d2f848756ba4fcb103860d" category="list-text">워크로드 검색 중에 커넥터별로 워크로드를 자동으로 검색하도록 설정할 수 있습니다.  이 기능을 사용하면 보호하려는 작업 부하를 선택할 수 있습니다.</block>
   <block id="c6ac79f6ec82abd57b723ae67e39d12b" category="list-text">이전에 선택한 작업 환경에 대해 새로 생성된 작업 부하를 찾아보세요.</block>
   <block id="bd03ede87c82adb65c788a5ae08c50b6" category="inline-link">워크로드 검색</block>
-  <block id="9ac7153dab130e828e160c247e5ccb61" category="paragraph">참조하다<block ref="24a34ebfc2a0852de6406d8f5a18bd02" category="inline-link-rx"></block> .</block>
   <block id="ad84f24c65dd6930a049e0903256dc97" category="doc">공격을 시뮬레이션하고 대응하세요</block>
   <block id="6cadf1d9d5289622136d042488809e73" category="paragraph">이 릴리스에서는 랜섬웨어 경고에 대한 대응을 테스트하기 위해 랜섬웨어 공격을 시뮬레이션합니다.  이 기능은 경고 알림, 대응 및 복구 프로세스를 테스트하여 실제 랜섬웨어 공격이 발생할 경우 대비가 되어 있는지 확인하는 데 도움이 됩니다.</block>
   <block id="50b24b085ac9888ffc4b0ba727107bd7" category="inline-link">랜섬웨어 공격 대비 훈련을 실시하세요</block>
-  <block id="9b1eb2dbe181e9f7b73db8a0785c0419" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="83090590e567818593b829ba2ced1db1" category="inline-link-rx"></block> .</block>
   <block id="d36ca1f9466b055dd6adb80de5cce7d4" category="section-title">발견 프로세스 개선</block>
   <block id="61541c0b99aec5f11fccef5bcb3fe5a1" category="paragraph">이 릴리스에는 선택적 검색 및 재발견 프로세스에 대한 개선 사항이 포함되어 있습니다.</block>
   <block id="cb3c0a83218c46d38ab0842ce49a7e6e" category="list-text">이 릴리스에서는 이전에 선택한 작업 환경에 추가된 새로 생성된 워크로드를 검색할 수 있습니다.</block>
@@ -64,7 +52,6 @@
   <block id="28573ff4f820730a3eeae9cdd51b54d4" category="list-text">이러한 검색 프로세스는 초기 검색 프로세스 중에 또는 설정 옵션 내에서 수행할 수 있습니다.</block>
   <block id="33e99171183cf72ac66db77d8dd5792a" category="inline-link">이전에 선택한 작업 환경에 대해 새로 생성된 작업 부하를 검색합니다.</block>
   <block id="210e4b14373af6b033275b95f93f9177" category="inline-link">설정 옵션을 사용하여 기능 구성</block>
-  <block id="b094aa2183c533f36783add64e674cad" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="7d31e5b11cc548279f7c20a9569ec8fc" category="inline-link-rx"></block> 그리고<block ref="852406c43f066a159f215dbd2c4abfc1" category="inline-link-rx"></block> .</block>
   <block id="d957d0c80017f235b131c557ae0876b1" category="section-title">높은 암호화가 감지되면 경고가 발생합니다.</block>
   <block id="8c8c1a747835015c86248b11a2097c02" category="paragraph">이 릴리스를 사용하면 높은 수준의 파일 확장자를 변경하지 않아도 워크로드에서 높은 수준의 암호화가 감지되면 알림을 볼 수 있습니다.  ONTAP Autonomous Ransomware Protection(ARP) AI를 사용하는 이 기능은 랜섬웨어 공격 위험이 있는 워크로드를 식별하는 데 도움이 됩니다.  이 기능을 사용하면 확장자가 변경되었는지 여부와 관계없이 영향을 받은 파일의 전체 목록을 다운로드할 수 있습니다.</block>
   <block id="4fe331eaa4881ca37fd2ff947e6b8bec" category="doc">준비 훈련 보고서</block>
@@ -74,11 +61,9 @@
   <block id="a95fe9e5a7b678fa4abc81ea69f1e257" category="list-text">랜섬웨어 보호 관리자</block>
   <block id="6a05decc7d63f19c1d5812a3c728ce8a" category="list-text">랜섬웨어 보호 뷰어</block>
   <block id="51871ed75f741b0dab90d2d1612f6499" category="inline-link">BlueXP ransomware protection 역할 기반 기능 액세스</block>
-  <block id="b42fe8f702412cfa14541d3fab58efa6" category="paragraph">권한에 대한 자세한 내용은 다음을 참조하세요.<block ref="01046b99aab91b10679a0fac299864df" category="inline-link-rx"></block> .</block>
   <block id="25ccc48b022e2433d5b379cc51530139" category="section-title">결제 개선</block>
   <block id="a3d54846581a4bb8314f87602a4ba2c0" category="paragraph">이번 릴리스에는 결제 프로세스에 대한 여러 가지 개선 사항이 포함되어 있습니다.</block>
   <block id="7ffb0c59c068d14b0ee6581cde479463" category="inline-link">라이센싱 및 지불 옵션 설정</block>
-  <block id="52a7f2b6af87f28195cf6badbad6c667" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="a8b1ada7f83ee5659f868a512032628f" category="inline-link-rx"></block> .</block>
   <block id="f65bfe10577ea64b648eddd04f107545" category="doc">Amazon FSx for NetApp ONTAP 지원</block>
   <block id="24964ea0918b681c02283685b1da1438" category="paragraph">이 릴리스는 Amazon FSx for NetApp ONTAP 지원합니다.  이 기능은 BlueXP ransomware protection 기능으로 FSx for ONTAP 워크로드를 보호하는 데 도움이 됩니다.</block>
   <block id="1e2a1ff777d742c50d6c64a6b6350f90" category="paragraph">FSx for ONTAP 클라우드에서 NetApp ONTAP 스토리지의 성능을 제공하는 완전 관리형 서비스입니다.  온프레미스에서 사용하는 것과 동일한 기능, 성능 및 관리 기능을 제공하며, 기본 AWS 서비스의 민첩성과 확장성을 갖추고 있습니다.</block>
@@ -88,18 +73,14 @@
   <block id="2e09d92e8822f80e9aac61fdb75fa3c8" category="admonition">FSx for ONTAP 에서 실행되는 워크로드에 대한 백업 정책은 BlueXP 에서 설정할 수 없습니다.  Amazon FSx for NetApp ONTAP 에 설정된 기존 백업 정책은 변경되지 않습니다.</block>
   <block id="97c627f1fcd3a299ac19157a8f566694" category="list-text">경고 사건은 새로운 FSx for ONTAP 작업 환경을 보여줍니다.</block>
   <block id="1d40c591d842224b16a448bc26a6bfab" category="inline-link">BlueXP ransomware protection 및 작업 환경에 대해 알아보세요</block>
-  <block id="280931b406a1e00d83a4a8faa2e537a0" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="4517bbdfa51110822f93ef44df6a4f92" category="inline-link-rx"></block> .</block>
   <block id="08ceca9f9a853977a5c71c8c66b68b55" category="inline-link">BlueXP ransomware protection 제한 사항</block>
-  <block id="eb745462fc54b055b8087d694fb01b5f" category="paragraph">지원되는 옵션에 대한 정보는 다음을 참조하세요.<block ref="875047b763859105fc2c6e622181cfbb" category="inline-link-rx"></block> .</block>
   <block id="1da5a40083bd16c3443e7eda42875506" category="section-title">BlueXP 액세스 역할이 필요합니다</block>
   <block id="4dd9f1961ea018706909f1155d36c91a" category="paragraph">이제 BlueXP ransomware protection 보고, 검색하고, 관리하려면 다음 액세스 역할 중 하나가 필요합니다. 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 보호 관리자 또는 랜섬웨어 보호 뷰어.</block>
-  <block id="0d46f65a7717513cadcb109363fb6c6d" category="paragraph"><block ref="06a5d1f4c488b014d10a11f3fe7273ba" category="inline-link-rx"></block> .</block>
   <block id="3c2a45fff6f8bee383d20bf70ff8535a" category="doc">BlueXP ransomware protection 에서 지원되지 않는 작업 환경 보고</block>
   <block id="670b6a838a9eab9baafd717669b2bcc5" category="paragraph">검색 워크플로 중에 지원되는 워크로드 또는 지원되지 않는 워크로드 위에 마우스를 올리면 BlueXP ransomware protection 더 자세한 정보를 보고합니다.  이를 통해 일부 워크로드가 BlueXP ransomware protection 서비스에서 발견되지 않는 이유를 이해하는 데 도움이 됩니다.</block>
   <block id="960c5f3106f70ebe4000fa5d5121f60f" category="paragraph">서비스가 작업 환경을 지원하지 않는 데에는 여러 가지 이유가 있습니다. 예를 들어, 작업 환경의 ONTAP 버전이 필요한 버전보다 낮을 수 있습니다.  지원되지 않는 작업 환경 위에 마우스를 올리면 툴팁에 그 이유가 표시됩니다.</block>
   <block id="e7aba228bdeba9407e415c5afb1137a2" category="paragraph">초기 검색 중에 지원되지 않는 작업 환경을 볼 수 있으며, 결과를 다운로드할 수도 있습니다.  설정 페이지의 *워크로드 검색* 옵션에서 검색 결과를 볼 수도 있습니다.</block>
   <block id="40ed4b70f990ecbd2b29cdd99fe63ea3" category="inline-link">BlueXP ransomware protection 에서 워크로드를 발견하세요</block>
-  <block id="61583743ac80f4ba16bec0d30aa9b643" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="fccc7436e00c13bc9cd8b09f936b4c8c" category="inline-link-rx"></block> .</block>
   <block id="07008bfe30be6fadcf287348a234142c" category="doc">랜딩 페이지 업데이트</block>
   <block id="1f054df4aa4b46ec1a714386afb99b06" category="paragraph">이번 릴리스에는 BlueXP ransomware protection 의 랜딩 페이지가 업데이트되어 무료 평가판 시작과 검색이 더욱 쉬워졌습니다.</block>
   <block id="473497e2f273f2b53065b2de9535b764" category="section-title">준비 훈련 업데이트</block>
@@ -111,32 +92,22 @@
   <block id="960c237c5456a08952ee4a0c6bc67ab9" category="paragraph">BlueXP ransomware protection 내에서 파일 공유 워크로드에 BlueXP classification 배포할 수 있습니다.  *개인정보 노출* 열에서 *노출 식별* 옵션을 선택합니다.  분류 서비스를 활성화한 경우 이 작업을 통해 노출을 식별할 수 있습니다.  그렇지 않은 경우, 이 릴리스에서는 대화 상자에 BlueXP classification 배포할 수 있는 옵션이 표시됩니다.  *배포*를 선택하면 BlueXP classification 서비스 랜딩 페이지로 이동하여 해당 서비스를 배포할 수 있습니다.  여</block>
   <block id="55d5a81a565b7cb4265c8c73ecd4aa37" category="inline-link">클라우드에 BlueXP classification 배포</block>
   <block id="6b0e91bb98e8a9394dda94307f3217d0" category="inline-link">BlueXP classification 사용하여 개인 식별 정보를 스캔하세요</block>
-  <block id="1ebb3fd0e37e111d097f72f481a8495f" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="3daa2f037f0ac9e3dc92dfaca32cdfd8" category="inline-link-rx"></block> BlueXP ransomware protection 서비스를 사용하려면 다음을 참조하세요.<block ref="92298fee5b4e50be64de76505f153d1a" category="inline-link-rx"></block> .</block>
   <block id="90b6690e6ff7c4f6c224ce1794630ced" category="doc">SAN 워크로드 지원</block>
   <block id="bbc67024ab73d889ccf53c2243f12ec0" category="paragraph">이 릴리스에는 BlueXP ransomware protection 의 SAN 워크로드에 대한 지원이 포함되어 있습니다.  이제 NFS 및 CIFS 워크로드뿐만 아니라 SAN 워크로드도 보호할 수 있습니다.</block>
   <block id="1e4e512c953bb68c6492ac3e8c1ea138" category="inline-link-macro">BlueXP ransomware protection 전제 조건</block>
-  <block id="b0be1d6aabf21f92b904023f7be7a58f" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="33be8222deb74c9ad42f0bbaa1bb9ee8" category="inline-link-macro-rx"></block> .</block>
   <block id="e155741c288e2488f325db0165488b59" category="section-title">향상된 작업 부하 보호</block>
   <block id="9bd93ada9b2fbfbf189c8da933c74698" category="paragraph">이 릴리스에서는 SnapCenter 나 BlueXP backup and recovery 와 같은 다른 NetApp 도구의 스냅샷 및 백업 정책을 사용하는 워크로드에 대한 구성 프로세스가 개선되었습니다.  이전 릴리스에서는 BlueXP ransomware protection 다른 도구의 정책을 발견하여 사용자가 감지 정책을 변경할 수만 있었습니다.  이 릴리스를 사용하면 스냅샷 및 백업 정책을 BlueXP ransomware protection 정책으로 바꾸거나 다른 도구의 정책을 계속 사용할 수 있습니다.</block>
   <block id="bf4011ddd9ae5a6521f75843972999ab" category="inline-link-macro">작업 부하 보호</block>
-  <block id="e987acfdc962b0eb42352c6d8ec215e7" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="dbda711c6a230fdddbe71a22c957db68" category="inline-link-macro-rx"></block> .</block>
   <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">이메일 알림</block>
   <block id="2e56c79ddae096c75542884a58378a73" category="paragraph">BlueXP ransomware protection 잠재적인 공격을 감지하면 BlueXP 알림에 알림이 나타나고, 사용자가 구성한 이메일 주소로 이메일이 전송됩니다.</block>
   <block id="bc3b495f0e6ccbb6814f27f401bf0cfd" category="paragraph">이메일에는 심각도, 영향을 받는 작업 부하, BlueXP ransomware protection *알림* 탭의 알림에 대한 링크에 대한 정보가 포함되어 있습니다.</block>
   <block id="a10971f24efc7a9c00402bf3e28fa1f0" category="paragraph">BlueXP ransomware protection 에서 SIEM(보안 및 이벤트 관리) 시스템을 구성한 경우 해당 서비스는 SIEM 시스템으로 경고 세부 정보를 전송합니다.</block>
   <block id="62addb7514a50d7194a434db543d1e3f" category="inline-link-macro">감지된 랜섬웨어 알림 처리</block>
-  <block id="473c570ea2acf44ac968aff271fe6ce8" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="8a71d50b7ca933f633225cea05d9764f" category="inline-link-macro-rx"></block> .</block>
   <block id="3662750346c2942117b5e1492f2bdcd4" category="paragraph">이 릴리스에는 일반적인 개선 사항 및 개선 사항이 포함되어 있습니다.</block>
   <block id="c6fdca864c59429ff2c0a1e35c775ae4" category="doc">BlueXP ransomware protection 이제 NetApp 랜섬웨어 복원력으로 바뀌었습니다.</block>
-  <block id="b1243a3724853addea33e0cf141fe5df" category="paragraph">BlueXP 랜섬웨어 복제는 NetApp 랜섬웨어 복원력으로 이름이 바뀌었습니다.</block>
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="section-title">BlueXP 는 이제 NetApp 콘솔입니다.</block>
-  <block id="745be0d280d894f70c3f88e76f519456" category="paragraph">BlueXP 데이터 인프라 관리에서의 역할을 더 잘 반영하도록 이름이 바뀌고 재설계되었습니다.</block>
   <block id="7e4f7c37590688c797d9b40e3a3423e3" category="paragraph">NetApp 콘솔은 엔터프라이즈급 온프레미스 및 클라우드 환경 전반의 스토리지 및 데이터 서비스를 중앙에서 관리하여 실시간 통찰력, 더 빠른 워크플로, 간소화된 관리를 제공합니다.</block>
   <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link">NetApp 콘솔 릴리스 노트</block>
-  <block id="9d88b780dd182bc558e5dd7624d35838" category="paragraph">변경된 사항에 대한 자세한 내용은 다음을 참조하세요.<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> .</block>
-  <block id="3278d01b12f302fee3970d06e2035613" category="section-title">데이터 침해 보호</block>
-  <block id="0b7fbe71416aae576f3f9b80f0b8ce2b" category="section-title">시엠</block>
-  <block id="80ed787d3b87a1d4d3e2c407d908a538" category="section-title">깨끗한 복원 환경</block>
   <block id="dac562783f47866b5833397fa3343ac7" category="summary">랜섬웨어 회복력을 활용하면 사이버 보안에 대한 관련 정보를 확인하고 조직이 사이버 공격에 얼마나 회복력이 있는지 평가할 수 있습니다.  또한 데이터 보안을 강화하기 위한 알림 및 해결 단계 목록도 제공합니다.</block>
   <block id="e1303fde203d17c93a36144831175152" category="doc">NetApp 랜섬웨어 복원력에 대해 알아보세요</block>
   <block id="841f32df73c3e26168caae171cbe303e" category="paragraph">랜섬웨어 공격은 사용자의 데이터에 대한 접근을 차단할 수 있으며, 공격자는 데이터 공개나 암호 해독을 조건으로 몸값을 요구할 수 있습니다.  IDC에 따르면, 랜섬웨어 피해자가 여러 차례 랜섬웨어 공격을 경험하는 것은 드문 일이 아닙니다.  이러한 공격으로 인해 귀하의 데이터 접근이 하루에서 몇 주까지 중단될 수 있습니다.</block>
@@ -181,14 +152,12 @@
   <block id="6e9aa43e61b748fc94327a81b1b6fe77" category="paragraph">랜섬웨어 복원력을 사용하면 무료 체험판, 사용량에 따른 요금제 구독 또는 자체 라이선스 사용 등 다양한 라이선스 플랜을 사용할 수 있습니다.</block>
   <block id="c69a0cc5cf253fb4b33607ed2eb36b95" category="paragraph">랜섬웨어 복원력에는 NetApp ONTAP One 라이선스가 필요합니다.</block>
   <block id="d202839716b3b53cff2ead368389b10d" category="paragraph">랜섬웨어 복원력 라이선스에는 추가 NetApp 제품이 포함되지 않습니다.  랜섬웨어 복원력은 라이선스가 없어도 백업 및 복구를 사용할 수 있습니다.</block>
-  <block id="73f0ec31cc113d977a13333c0c1f036e" category="paragraph">비정상적인 사용자 행동을 감지하기 위해 Ransomware Resilience는 ONTAP 내의 머신 러닝(ML) 모델인 NetApp Autonomous Ransomware Protection을 사용하여 악성 파일 활동을 감지합니다.  이 모델은 랜섬웨어 복원력 라이선스에 포함되어 있습니다.  또한 Data Infrastructure Insights (이전 Cloud Insights) 워크로드 보안(라이선스 필요)을 사용하여 사용자 행동을 조사하고 특정 사용자의 추가 활동을 차단할 수 있습니다.</block>
   <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="inline-link-macro">라이센스 설정</block>
   <block id="a32a4ff09bd226323b3477bc70b5effe" category="paragraph">자세한 내용은 다음을 참조하십시오. <block ref="92c4728cc5c0729bcbef66420d0a7a81" category="inline-link-macro-rx"></block> .</block>
   <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">NetApp 콘솔</block>
   <block id="ddf52fb0677b5f9f1c4b564b82866d6e" category="paragraph">랜섬웨어 복원력은 NetApp 콘솔을 통해 이용할 수 있습니다.</block>
   <block id="0a0979a6d279475a420ea5c279943daa" category="paragraph">NetApp 콘솔은 엔터프라이즈급 온프레미스 및 클라우드 환경 전반에서 NetApp 스토리지 및 데이터 서비스를 중앙에서 관리할 수 있는 기능을 제공합니다. NetApp 데이터 서비스에 액세스하고 사용하려면 콘솔이 필요합니다. 관리 인터페이스로서, 하나의 인터페이스에서 여러 스토리지 리소스를 관리할 수 있습니다. 콘솔 관리자는 기업 내 모든 시스템의 저장소와 서비스에 대한 액세스를 제어할 수 있습니다.</block>
   <block id="874065797510ef71853078d085cab4b0" category="paragraph">NetApp Console을 사용하려면 라이선스나 구독이 필요하지 않으며, 스토리지 시스템이나 NetApp 데이터 서비스에 대한 연결을 보장하기 위해 클라우드에 Console 에이전트를 배포해야 할 때만 요금이 부과됩니다. 그러나 콘솔에서 액세스할 수 있는 일부 NetApp 데이터 서비스는 라이선스 기반이거나 구독 기반입니다.</block>
-  <block id="e955295a860e893d00951c8233972d56" category="paragraph">자세히 알아보세요<block ref="2f3134b8970d60226f00e362a8c05c8c" category="inline-link-macro-rx"></block> .</block>
   <block id="cbd914c846d96d6001aec3ae8b50e684" category="section-title">랜섬웨어 복원력의 작동 방식</block>
   <block id="16091f015c891dfa25a4cfd6d5a0d84b" category="paragraph">랜섬웨어 복원력은 NetApp Backup and Recovery를 사용하여 파일 공유 워크로드에 대한 스냅샷 및 백업 정책을 검색하고 설정하고, SnapCenter 또는 SnapCenter for VMware를 사용하여 애플리케이션 및 VM 워크로드에 대한 스냅샷 및 백업 정책을 검색하고 설정합니다.  또한 Ransomware Resilience는 백업 및 복구와 SnapCenter / SnapCenter for VMware를 사용하여 파일 및 워크로드에 일관된 복구를 수행합니다.</block>
   <block id="22923429041036f2b1f3e35fddeb9626" category="inline-image-macro">랜섬웨어 복원력 아키텍처를 보여주는 다이어그램</block>
@@ -203,14 +172,12 @@
   <block id="533c17bbfdfb297420db9af0908070d6" category="inline-link">자율형 랜섬웨어 보호</block>
   <block id="cc6088539286339733631d73fb51774b" category="inline-link">NetApp 백업 및 복구</block>
   <block id="2dd00507ca85eec8a3465506e478e45f" category="inline-link">ONTAP 정책</block>
-  <block id="ea810e8f72c32896fe57ade788c4184d" category="list-text">NetApp 스냅샷 복사본과 백업 정책의 각 볼륨의 현재 보호 수준과 온박스 감지 기능을 검색합니다.  랜섬웨어 복원력은 백업 및 복구, ONTAP 서비스, 자율 랜섬웨어 보호( ONTAP 버전에 따라 ARP 또는 ARP/AI), 정책, 백업 정책, 스냅샷 정책과 같은 NetApp 기술을 사용하여 이러한 보호 태세를 워크로드와 연결합니다.  자세히 알아보세요<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block> ,<block ref="aaf2a3df38766015514b59ac43bcb586" category="inline-link-rx"></block> , 그리고<block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block> .</block>
   <block id="d8b67a8dae92158ddb9e71a66b9532b5" category="list-text">자동으로 검색된 보호 수준을 기반으로 각 워크로드에 비즈니스 우선순위를 할당하고, 비즈니스 우선순위에 따라 워크로드에 대한 보호 정책을 권장합니다.  워크로드 우선순위는 워크로드와 연관된 각 볼륨에 이미 적용된 스냅샷 빈도를 기준으로 합니다.</block>
   <block id="f23d5c00c473a2e87ffcd7a0eedb89b5" category="cell">*보호하다*</block>
   <block id="63b3247f9021fefc99163e7f1ccaa624" category="list-text">식별된 각 워크로드에 정책을 적용하여 워크로드를 적극적으로 모니터링하고 백업 및 복구, SnapCenter, ONTAP API 사용을 조율합니다.</block>
   <block id="bd86dbcbafa7a7406429c16dcbb97e30" category="cell">*감지하다*</block>
   <block id="f90af1ae1e0fb166621b4480576b55ac" category="list-text">잠재적으로 비정상적인 암호화 및 활동을 감지하는 통합 머신 러닝(ML) 모델을 통해 잠재적인 공격을 감지합니다.</block>
   <block id="643c690d78252033cbf74c266292ae07" category="list-text">기본 스토리지에서 잠재적인 랜섬웨어 공격을 탐지하고 비정상적인 활동에 대응하여 가장 가까운 데이터 복원 지점을 생성하기 위해 추가 자동 스냅샷 복사본을 생성하는 이중 계층 탐지 기능을 제공합니다.  랜섬웨어 복원력은 주요 작업 부하의 성능에 영향을 주지 않고 더욱 정밀하게 잠재적 공격을 식별할 수 있는 기능을 제공합니다.</block>
-  <block id="ac64db364514f2a7d2e2512b16ef8c10" category="list-text">ONTAP, 자율형 랜섬웨어 보호( ONTAP 버전에 따라 ARP 또는 ARP/AI), Data Infrastructure Insights (이전 명칭 Cloud Insights) 워크로드 보안 및 FPolicy 기술을 사용하여 관련 워크로드에 공격하는 특정 의심 파일을 파악하고 매핑합니다.</block>
   <block id="14b17e6824f78ccf342b387a603935dc" category="cell">*대답하다*</block>
   <block id="4dd88eaac510fe3eb4a3ed59e5f8d753" category="list-text">공격에 대한 법의학적 검토를 완료하는 데 도움이 되는 파일 활동, 사용자 활동, 엔트로피와 같은 관련 데이터를 표시합니다.</block>
   <block id="b1d747ad7060df692913a3b8e839735e" category="list-text">ONTAP, 자율 랜섬웨어 보호( ONTAP 버전에 따라 ARP 또는 ARP/AI), FPolicy 등의 NetApp 기술과 제품을 사용하여 빠른 스냅샷 복사를 시작합니다.</block>
@@ -250,7 +217,6 @@
   <block id="826a4e8d8facce6f785b2a404538e6cd" category="list-text">*보호*: 랜섬웨어 복원력의 보호는 보호 정책을 사용하여 정기적으로 스냅샷과 변경 불가능한 백업이 다른 보안 도메인에 발생하도록 보장하는 것을 의미합니다.</block>
   <block id="42ef644e3571d83d6c2b5b7c17abfea0" category="list-text">*작업 부하*: 랜섬웨어 복원력의 작업 부하에는 MySQL이나 Oracle 데이터베이스, VMware 데이터 저장소 또는 파일 공유가 포함될 수 있습니다.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지 사항</block>
-  <block id="0080a1b91c571236176a9d16859b4093" category="paragraph">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD --- 영구 링크: legal-notices.html 사이드바: 사이드바 키워드: 요약: ---</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지사항은 저작권 표시, 상표, 특허 등에 대한 정보를 제공합니다.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
@@ -269,14 +235,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">공지 파일은 NetApp 소프트웨어에서 사용되는 타사 저작권 및 라이선스에 대한 정보를 제공합니다.</block>
   <block id="4fd101b562f1e5e8d87ff8710122a42f" category="inline-link">NetApp 콘솔에 대한 알림</block>
-  <block id="389273cce6176eeeeb0c3c61db63595e" category="list-text"><block ref="389273cce6176eeeeb0c3c61db63595e" category="inline-link-rx"></block></block>
-  <block id="0503f648f264e03973d858519c5645e3" category="paragraph">permalink: legal-notices.html 사이드바: 사이드바 키워드: # 키워드 없음 요약: # 요약 없음 --- = 법적 고지 사항 :icons: font :imagesdir: ./media/</block>
-  <block id="26335ef71abb633fb4351c34bd3d5c68" category="paragraph">== 저작권</block>
-  <block id="3a16909193ae41178e97e7890fbc8ed8" category="paragraph">== 상표</block>
-  <block id="5eadb3942d60401e61b17afe2945c8ec" category="paragraph">== 특허</block>
-  <block id="21ebf89fd5efbb8ea8cc990ae1e664a8" category="paragraph">== 개인정보 보호정책</block>
-  <block id="398f6c2ec25405896bb6e5eb3cc6a40c" category="paragraph">== 오픈소스</block>
-  <block id="655c5b0cb0d419f3b94869410fe9b65d" category="paragraph">&gt;&gt;&gt;&gt;&gt;&gt;&gt; db096cfa4bc2bcbc1a7a0fefc9249c9cbef4831b</block>
   <block id="6890b4587dca6f7e9bc67d8336265387" category="summary">알려진 제한 사항은 이 제품 릴리스에서 지원하지 않는 플랫폼, 장치 또는 기능을 나타냅니다.</block>
   <block id="8be06d01ec24eec813979494ed1cda13" category="doc">NetApp 랜섬웨어 복원력의 알려진 제한 사항</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="paragraph">알려진 제한 사항은 이 제품 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 나타냅니다. 이러한 제한 사항을 주의 깊게 검토하세요.</block>
@@ -292,7 +250,6 @@
   <block id="db7664bf605b3c359f584db725113965" category="list-text">*랜섬웨어 복원력 관리자*: 보호, 알림, 복구, 설정 및 보고서 탭에서 작업을 관리합니다.</block>
   <block id="0f8a9a76c246899cc20804694dde0c5d" category="list-text">*랜섬웨어 복원력 뷰어*: NetApp 워크로드 데이터 보기, 알림 데이터 보기, 복구 데이터 다운로드, 보고서 다운로드.</block>
   <block id="6451a60ec696fdaf149fd3ab5d73d11b" category="inline-link">설정 및 관리 문서</block>
-  <block id="45ab6b9c166a4207093a2eb48282b565" category="paragraph">이러한 역할은 콘솔 서비스 및 데이터 보호, 워크로드 관리 등의 기타 서비스에 대한 액세스를 관리하는 콘솔 플랫폼 역할에 추가됩니다.  모든 콘솔 플랫폼 역할에 대한 자세한 내용은 다음을 참조하세요.<block ref="a819bfa65579b8a535b1cc1d51294b9a" category="inline-link-rx"></block> .</block>
   <block id="dac305684bf34329491ffc1845204f2f" category="paragraph">다음 표는 각 랜섬웨어 복원력 역할이 수행할 수 있는 작업을 나타냅니다.</block>
   <block id="4420e7353184ac575b539cdce1b991db" category="cell">특징과 동작</block>
   <block id="913c14919cea84283a7e5c825e227099" category="cell">랜섬웨어 복원력 관리자</block>
@@ -375,7 +332,6 @@
   <block id="27a22ff8cea8c84583985661c68afc5b" category="list-text">첫 번째 랜딩 페이지에서 *워크로드 검색으로 시작*을 선택합니다.</block>
   <block id="5a73bf8837c9a23f81b6df3efef9dee3" category="paragraph">랜섬웨어 복원력은 지원되는 시스템과 지원되지 않는 시스템을 모두 찾아냅니다. 이 과정은 몇 분 정도 걸릴 수 있습니다.</block>
   <block id="18eb5242d6e5ac768698e677b047a0eb" category="inline-image-macro">워크로드 스크린샷 검색</block>
-  <block id="4c7b7f129d904ef9645325e6106a26cc" category="paragraph"><block ref="4c7b7f129d904ef9645325e6106a26cc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="aa38c459f1855c79933ef88c2500bd20" category="list-text">특정 콘솔 에이전트의 워크로드를 검색하려면 워크로드를 검색하려는 콘솔 에이전트 옆에 있는 *시스템 선택*을 선택합니다.</block>
   <block id="b5df43021af6103a6e0b208280b7bd9c" category="list-text">워크로드를 검색할 시스템을 선택하세요.</block>
   <block id="6717014f0e48b7ab08c9846925b42c93" category="list-text">*발견*을 선택하세요.</block>
@@ -412,11 +368,9 @@
   <block id="6005f026524d06181f334b21b2065ed2" category="paragraph">랜섬웨어 복원력을 시작하려면 첫 번째 랜딩 페이지에서 "워크로드 검색 시작"을 선택하세요.</block>
   <block id="1e7767a5a92c1fe8661fb5ca93eb9f1d" category="paragraph">*랜섬웨어 복원력을 표준, 제한, 비공개 모드로 사용할 수 있나요?*  현재 랜섬웨어 복원력은 표준 모드로만 사용 가능합니다. 더 많은 내용을 기대하세요.</block>
   <block id="2a9ab4f690bade887dade42f4a0f412b" category="inline-link">NetApp 콘솔 배포 모드</block>
-  <block id="7c2ba948d08393c5e74226cfa98efaac" category="paragraph">모든 NetApp 데이터 서비스에서 이러한 모드에 대한 설명은 다음을 참조하세요.<block ref="63e8b0eaab89868588f59e14953b3639" category="inline-link-rx"></block> .</block>
   <block id="bf733d8a933c1601697f364223fc7ecb" category="section-title">입장</block>
   <block id="0389f2f5f1721e770a9d2ab683ca7977" category="inline-link"><block ref="0389f2f5f1721e770a9d2ab683ca7977" category="inline-link-rx"></block></block>
   <block id="80823d272731427177a1b6fda024e288" category="paragraph">*랜섬웨어 복구 URL은 무엇인가요?*  브라우저에서 다음을 입력하세요.<block ref="cff0023c0123fb15c39d2328d8b2d3fc" category="inline-link-rx"></block> 콘솔에 접속하려면.</block>
-  <block id="c1a3f50352e065d54ee7d8cdfb850882" category="paragraph">*접근 권한은 어떻게 처리되나요?* <block ref="023c149345237db657f3369e134bb648" category="inline-link-rx"></block> .</block>
   <block id="b42592f8261e9ff60424591d38d3eb26" category="paragraph">*어떤 기기에 가장 적합한 해상도가 있나요?* 랜섬웨어 복원력에 권장되는 장치 해상도는 1920x1080 이상입니다.</block>
   <block id="dd1300bf782048f9b65c3f6db4f6c668" category="paragraph">*어떤 브라우저를 사용해야 하나요?* 모든 최신 브라우저.</block>
   <block id="cf49c80b52a1cb095928d387f3ae47ed" category="section-title">다른 서비스와의 상호 작용</block>
@@ -470,7 +424,6 @@
   <block id="8c4e51cf0af97fc084c32c7697ac400c" category="doc">NetApp 랜섬웨어 복원력에 대한 라이선싱 설정</block>
   <block id="9472cf1130b90417862c1aa4710f22a7" category="paragraph">NetApp 랜섬웨어 복원력을 사용하면 다양한 라이선스 플랜을 사용할 수 있습니다.</block>
   <block id="bf82f97d170b8b28711b0f6354af9b31" category="inline-link">콘솔 액세스 역할에 대해 알아보세요</block>
-  <block id="05b1d47701e8b4d56880b293549ce52d" category="paragraph">이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자 역할이 필요합니다.<block ref="6e57fbfd388833860b3da5e6249fe4b7" category="inline-link-rx"></block> .</block>
   <block id="f53f2f881ada2816fc6ddea06cdcfc60" category="paragraph">*라이선스 유형* 다음 라이선스 유형을 사용할 수 있습니다.</block>
   <block id="b5bf014c6bc530be1a7b68b5bcfb8ce0" category="list-text">Amazon Web Services(AWS) Marketplace, Google Cloud Marketplace 또는 Azure Marketplace에서 사용량에 따라 지불하는(PAYGO) 구독을 구매하세요.</block>
   <block id="13bd4b8763a0912ae1342d2303d91929" category="list-text">BYOL(Bring Your Own License)은 NetApp 영업 담당자로부터 받는 NetApp 라이선스 파일(NLF)입니다. 콘솔에서 라이선스 일련 번호를 사용하여 BYOL을 활성화할 수 있습니다.</block>
@@ -482,9 +435,6 @@
   <block id="231fd9de718f42c1c9e89368821092dd" category="section-title">기타 라이센스</block>
   <block id="f5b76d2b545a3d3806e510148858010e" category="paragraph">랜섬웨어 복원력 라이선스에는 추가 NetApp 제품이 포함되지 않습니다.  랜섬웨어 복원력은 라이선스가 없더라도 NetApp 백업 및 복구를 사용할 수 있습니다.</block>
   <block id="1f39796076513bca42919b255963cd5a" category="admonition">백업 및 복구와 랜섬웨어 복원력을 모두 사용하는 경우, 두 제품으로 보호되는 공통 데이터는 랜섬웨어 복원력으로만 청구됩니다.</block>
-  <block id="9655cd831b69781db448703e74b15bf4" category="inline-link">워크로드 보안에 관하여</block>
-  <block id="fa125da5741dc5a19e264aef35401bcb" category="paragraph">Data Infrastructure Insights Workload Security를 ​​사용하면 비정상적인 사용자 행동을 볼 수 있습니다.  이를 위해서는 Data Infrastructure Insights Workload Security에 대한 라이선스가 필요하며, Ransomware Resilience에서 이를 활성화해야 합니다.  Data Infrastucture Insights Workload Security에 대한 개요를 보려면 다음을 검토하세요.<block ref="4d48aa780e6eb7eaea8fb83a518d416e" category="inline-link-rx"></block></block>
-  <block id="7a6a81dec600ff4c95b14341ae3dbe72" category="admonition">Data Infrastructure Insights Workload Security에 대한 라이선스가 없고 Ransomware Resilience에서 이를 활성화하지 않으면 비정상적인 사용자 동작 정보를 볼 수 없습니다.</block>
   <block id="b22e0a0c145eff4bd34bc6c46894b2a1" category="section-title">30일 무료 체험판을 이용해 보세요</block>
   <block id="50de852d5302d938fcee7f3cfc39b286" category="paragraph">30일 무료 체험판을 통해 Ransomware Resilience를 사용해 보세요.  무료 평가판을 시작하려면 콘솔 조직 관리자여야 합니다.</block>
   <block id="6d82276368a10a436380f0cd7fa6094d" category="admonition">2024년 10월 출시 이후 Ransomware Resilience의 새로운 배포는 이제 30일 동안 무료 평가판을 이용할 수 있습니다.  이전에는 Ransomware Resilience가 90일 무료 체험판을 제공했습니다.  이미 90일 무료 체험판을 이용 중이라면 해당 혜택은 90일 동안 계속 적용됩니다.</block>
@@ -498,7 +448,6 @@
   <block id="04f45bf7defd11ead0b4c56cf8c3f371" category="paragraph">이 서비스에 처음 로그인하는 경우 랜딩 페이지가 나타납니다.</block>
   <block id="771e1ea643a8723d0d0dfad6c2b70ace" category="list-text">다른 서비스에 대한 커넥터를 아직 추가하지 않았다면 하나 추가하세요.</block>
   <block id="91e534d044a3d9c6a1c8575f89e73c9b" category="inline-link">콘솔 에이전트에 대해 알아보세요</block>
-  <block id="9b7bf35ae667c8a62a18b2a57d0f5ad5" category="paragraph">콘솔 에이전트를 추가하려면 다음을 참조하세요.<block ref="be47360914e9c5a32b9a06216cb3cec0" category="inline-link-rx"></block> .</block>
   <block id="ce56f7856e3d6cb0eb9ff3ddabe5ec4e" category="list-text">랜섬웨어 복원력 랜딩 페이지에서 콘솔 에이전트를 설정한 후 콘솔 에이전트를 추가하는 버튼이 워크로드를 검색하는 버튼으로 변경됩니다.  *워크로드 검색으로 시작*을 선택하세요.</block>
   <block id="7fd2f910bce182f3bed45cb0ffe3f2b7" category="list-text">무료 체험판 정보를 검토하려면 오른쪽 상단의 드롭다운 옵션을 선택하세요.</block>
   <block id="07b00cce8ecdc9955eb27940a652e625" category="paragraph">*체험 종료 후 구독 또는 라이선스 구매*</block>
@@ -525,8 +474,6 @@
   <block id="44c74befbf9a8104854254c21263bbd0" category="list-text">라이선스 세부 정보를 보려면 콘솔 왼쪽 탐색에서 *관리* &gt; *라이선스 및 구독*을 선택하세요.</block>
   <block id="6ba03f72ccb23acc2e71d13b30e6a6f3" category="list-text">구독 정보를 보려면 *구독*을 선택하세요.</block>
   <block id="3a868051eb374227c279870a3cc58719" category="list-text">BYOL 라이선스를 보려면 *데이터 서비스 라이선스*를 선택하세요.</block>
-  <block id="9a65fe28aee5e79da80cf7b670bbf845" category="inline-image-macro">라이센스 및 구독의 스크린샷입니다.</block>
-  <block id="c9a1b36a3d7295bb774d394a91331a8d" category="paragraph"><block ref="c9a1b36a3d7295bb774d394a91331a8d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8adff2f26375eb179957be3c61e39745" category="list-text">랜섬웨어 회복력으로 돌아가기.  콘솔 왼쪽 탐색에서 *보호* &gt; *랜섬웨어 복원력*을 선택합니다.</block>
   <block id="7da94fa3a3cc4b3fe6962013cab0ecaf" category="paragraph">라이센스가 추가되었다는 메시지가 나타납니다.</block>
   <block id="a3f3caf1f21e89003b986e3ef2b149b5" category="section-title">Microsoft Azure Marketplace를 통해 구독하세요</block>
@@ -539,8 +486,6 @@
   <block id="f9ca59d62f864762707ec7396c7bec8f" category="list-text">라이선스를 추가하려면 *라이선스 추가*를 선택하세요.</block>
   <block id="31f0ec06befce2fa59918555f827acdc" category="list-text">라이선스 추가 페이지에서 *일련 번호 입력*을 선택한 다음, 이메일로 전송된 일련 번호를 입력하세요.  *라이선스 추가*를 선택하세요.</block>
   <block id="1058553f8171df049b8935cab0519ace" category="list-text">라이선스 및 구독에서 라이선스 세부 정보를 보려면 콘솔 왼쪽 탐색에서 *거버넌스* &gt; *라이선스 및 구독*을 선택하세요.</block>
-  <block id="fb59b51c4b0830f49e7df2339986a8e9" category="inline-image-macro">데이터 서비스 라이선스 페이지</block>
-  <block id="047a48f2469ef9dbfb603eb5c047580e" category="paragraph"><block ref="047a48f2469ef9dbfb603eb5c047580e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b54fef669a3dd891bbb1292944320668" category="section-title">Google Cloud Platform Marketplace를 통해 구독하세요</block>
   <block id="bbb5bca13abd7924e4f249e451c252fa" category="paragraph">이 절차에서는 Google Cloud Platform Marketplace에서 직접 구독하는 방법에 대한 개요를 제공합니다.</block>
   <block id="6092dfc2ab59fe88a7052d23882f3e4e" category="list-text">랜섬웨어 복원력에서 다음 중 하나를 수행하세요.</block>
@@ -548,14 +493,10 @@
   <block id="5c3698ea65552f4add16b79dbc6e3563" category="paragraph"><block ref="5c3698ea65552f4add16b79dbc6e3563" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d29d0373cd79b8e898203557819f515e" category="list-text">결제 방법 페이지에서 Google Cloud Platform Marketplace*에 대한 *구독*을 선택합니다.</block>
   <block id="4513e0585e6fa1797f2c21b150a14a89" category="list-text">Google Cloud Platform Marketplace에서 *구독*을 선택합니다.</block>
-  <block id="1ca038f0798cb452c995e7b9a6957e9d" category="inline-image-macro">Google Cloud Marketplace 구독 페이지의 스크린샷입니다.</block>
-  <block id="38b55ff6112da2fc8b321312fe4eb623" category="list-text">Google Cloud Platform Marketplace를 사용하여 * NetApp Intelligent Services* 및 *Ransomware Resilience*를 구독하세요.<block ref="611449b1c956c30c39b3ffa39734a4fd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7eb46820d8d57e1dbbb0322d388620fa" category="admonition">Ransomware Resilience 일련 번호가 포함된 이메일이 전송되며 Ransomware Resilience가 Google Cloud Platform Marketplace에 구독되어 있음을 나타냅니다.</block>
   <block id="f6a18df1400e3f59a5ba133e5e88e983" category="list-text">콘솔에 라이선스를 추가하려면 *라이선스 추가*를 선택하세요.</block>
   <block id="7ad0f4d023f7d12f7cbc1107ffb5c974" category="list-text">라이선스 추가 페이지에서 *일련 번호 입력*을 선택하세요.  귀하에게 전송된 이메일의 일련번호를 입력하세요.  *라이선스 추가*를 선택하세요.</block>
   <block id="70b492d526ebd38b6067d6b13f47e05d" category="list-text">라이선스 세부 정보를 보려면 콘솔 왼쪽 탐색에서 *거버넌스* &gt; *라이선스 및 구독*을 선택하세요.</block>
-  <block id="e399aad2dcb884a0beed4b591b3b3113" category="inline-image-macro">라이선스 및 구독 페이지의 스크린샷입니다.</block>
-  <block id="e6c87f64fae229a765e72a537c2263ac" category="paragraph"><block ref="e6c87f64fae229a765e72a537c2263ac" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c584f4f2a6193ac47ece196c84d506a1" category="section-title">BYOL(Bring Your Own License)</block>
   <block id="aa9286231698026ae96b307527fd356a" category="paragraph">자체 라이선스(BYOL)를 사용하려면 라이선스를 구매하고 NetApp 라이선스 파일(NLF)을 받은 다음 콘솔에 라이선스를 추가해야 합니다.</block>
   <block id="0e8893a2f7be43632f2754bbf039be22" category="paragraph">*콘솔에 라이센스 파일을 추가합니다*</block>
@@ -568,7 +509,6 @@
   <block id="7578ebad24c71aee2f2992e5efe1118d" category="list-text">라이선스 추가 페이지에서 일련 번호와 NetApp 지원 사이트 계정 정보를 입력합니다.</block>
   <block id="8e74888372203fd2a7ad3d3f9a2ce99f" category="list-text">콘솔 라이선스 일련 번호가 있고 NSS 계정을 알고 있는 경우 *일련 번호 입력* 옵션을 선택하고 해당 정보를 입력하세요.</block>
   <block id="bd9c93cee386ed91aa5dc8049039c809" category="inline-link">콘솔에 NSS 계정 추가</block>
-  <block id="ea18041abd1beb4ff7a6df5a5c3ccbde" category="paragraph">드롭다운 목록에서 NetApp 지원 사이트 계정을 사용할 수 없는 경우<block ref="3a20367982569f79544d495d907bb688" category="inline-link-rx"></block> .</block>
   <block id="6c97916a5fa1223aabab3311cd2248cb" category="list-text">zvondolr 라이선스 파일(어두운 곳에 설치할 때 필요)이 있는 경우 *라이선스 파일 업로드* 옵션을 선택하고 화면의 지시에 따라 파일을 첨부하세요.</block>
   <block id="c8508c0ce4da6dc634b7c66b1df15681" category="list-text">*라이선스 추가*를 선택하세요.</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
@@ -576,7 +516,6 @@
   <block id="21bf9743a52bd2db1233b7ee25a2d642" category="section-title">콘솔 라이선스가 만료되면 업데이트하세요.</block>
   <block id="8e6a66f8a152c3f757cf862881b72782" category="paragraph">라이선스 기간이 만료일에 가까워지거나 라이선스 용량이 한도에 도달하면 랜섬웨어 복원력 UI에서 알림을 받게 됩니다.  스캔한 데이터에 액세스하는 데 방해가 되지 않도록 랜섬웨어 복원력 라이선스가 만료되기 전에 업데이트할 수 있습니다.</block>
   <block id="018d963f1c49025140a70dac3b430a19" category="inline-link">알림 설정</block>
-  <block id="dbd64e0569772a28a8c4f1007ecca466" category="admonition">이 메시지는 라이센스 및 구독에도 나타납니다.<block ref="2b5663584cddb87d65a5b5b52cc7627a" category="inline-link-rx"></block> .</block>
   <block id="bf817abc839636c237e9679a5b237f47" category="list-text">라이선스 업데이트를 요청하려면 지원팀에 이메일을 보내세요.</block>
   <block id="153d23d2fc1cd1fafa2626b2ebad671d" category="paragraph">라이선스 비용을 지불하고 NetApp 지원 사이트에 라이선스를 등록하면 콘솔에서 자동으로 라이선스가 업데이트됩니다.  5~10분 안에 데이터 서비스 라이선스 페이지에 변경 사항이 반영됩니다.</block>
   <block id="6c1f5db8cc1f713f620fa21a318cf1bc" category="list-text">콘솔이 라이선스를 자동으로 업데이트할 수 없는 경우 라이선스 파일을 수동으로 업로드해야 합니다.</block>
@@ -611,7 +550,6 @@
   <block id="d0e83b4dfc8809d4d0f31e184c6f9ebb" category="summary">환경, 네트워크 액세스, 로그인 및 웹 브라우저에 대한 지원을 검증하여 NetApp 랜섬웨어 복원력을 시작하세요.</block>
   <block id="fd2baaaf591d18081f2e012015874835" category="doc">NetApp 랜섬웨어 복원력 전제 조건</block>
   <block id="24c096a4eee14bf4c04d2cbdd4effd54" category="paragraph">운영 환경, 로그인, 네트워크 액세스 및 웹 브라우저의 준비 상태를 확인하여 NetApp 랜섬웨어 복원력을 시작하세요.</block>
-  <block id="c756218170e3cc38ab2c166a85079fb3" category="paragraph">랜섬웨어 복원력을 사용하려면 필수 구성 요소가 필요합니다.</block>
   <block id="5bf25f6ec08ec736c7b9b49cc19c6dd7" category="section-title">NetApp 콘솔에서</block>
   <block id="e315520b8d0944e7422c773e49fc17a7" category="list-text">리소스를 검색하기 위한 조직 관리자 권한이 있는 NetApp 콘솔 사용자 계정입니다.</block>
   <block id="60e39582e4cf8359d140fc0851baccb4" category="list-text">온-프레미스 ONTAP 클러스터나 AWS 또는 Azure의 Cloud Volumes ONTAP 에 연결하는 활성 콘솔 에이전트가 하나 이상 있는 콘솔 조직입니다.</block>
@@ -622,7 +560,6 @@
   <block id="097ff3efa4909e783a040ec7edc317d6" category="list-text">AWS 또는 Azure 클라우드의 온프레미스 ONTAP 클러스터나 Cloud Volumes ONTAP 아직 콘솔에 온보딩되지 않은 경우 콘솔 에이전트가 필요합니다.</block>
   <block id="04f679e072129c7e87e077dc95e5e73e" category="inline-link">콘솔 에이전트를 구성하는 방법을 알아보세요</block>
   <block id="b1fb1d531493b1af3ab2980b2c579a5f" category="inline-link">표준 콘솔 요구 사항</block>
-  <block id="523bb6d387ec2575337e99a2f8900c66" category="paragraph">참조하다<block ref="84b9869a31cbdd37d8ef87601a4cf34d" category="inline-link-rx"></block> 그리고<block ref="e6a35e3eadbd084db13ee929315e54c1" category="inline-link-rx"></block> .</block>
   <block id="f9a3157f34101a0d560e518291db02ba" category="admonition">단일 콘솔 조직에 여러 콘솔 에이전트가 있는 경우 Ransomware Resilience는 콘솔 UI에서 현재 선택된 에이전트를 제외한 모든 콘솔 에이전트에서 ONTAP 리소스를 스캔합니다.</block>
   <block id="2501cbb4187a9a6c7f42f035596578a4" category="section-title">ONTAP 9.11.1 이상</block>
   <block id="f89c934c898fc55d4773d10ee90d485e" category="list-text">온프레미스 ONTAP 인스턴스에서 ONTAP One 라이선스가 활성화됩니다.</block>
@@ -630,13 +567,11 @@
   <block id="852e40f75680d314fce781dad2f346b6" category="list-text">Ransomware Resilience에서 사용되는 NetApp Autonomous Ransomware Protection 라이선스는 사용 중인 ONTAP 버전에 따라 온프레미스 ONTAP 인스턴스에서 활성화됩니다. 참조하다<block ref="9a25fd5e356132f930267232d70ad02b" category="inline-link-rx"></block> .</block>
   <block id="fff65a3ba54f3c29c9a0b5b04f6bb1c6" category="admonition">Ransomware Resilience의 일반 릴리스에는 Preview 릴리스와 달리 NetApp Autonomous Ransomware Protection 기술에 대한 라이선스가 포함되어 있습니다. 참조하다<block ref="9a25fd5e356132f930267232d70ad02b" category="inline-link-rx"></block> 자세한 내용은.</block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">랜섬웨어 복원력에 대해 알아보세요</block>
-  <block id="fa8d9f62bf5347b6ec5ee61c2fa52d9d" category="paragraph">자세한 라이센스 세부 사항은 다음을 참조하세요.<block ref="4fc06c7fff4c531b33f29909e65f04e8" category="inline-link-macro-rx"></block> .</block>
   <block id="47c8d077dd25d3b0a8650ef6f84f0820" category="list-text">보호 구성(자율 랜섬웨어 보호 및 기타 기능 활성화 등)을 적용하려면 랜섬웨어 복원력에 ONTAP 클러스터에 대한 관리자 권한이 필요합니다.  ONTAP 클러스터는 ONTAP 클러스터 관리자 사용자 자격 증명을 사용하여만 온보딩되어야 합니다.</block>
   <block id="d6b16e754b93934f7687ad4f252b7073" category="list-text">ONTAP 클러스터가 이미 관리자가 아닌 사용자 자격 증명을 사용하여 콘솔에 온보딩된 경우, 이 페이지에 설명된 대로 ONTAP 클러스터에 로그인하여 관리자가 아닌 사용자 권한을 필요한 권한으로 업데이트해야 합니다.</block>
   <block id="ed5ce0cb12bbc7e366d04460145d59f3" category="section-title">데이터 백업을 위해</block>
   <block id="0885a21123eeb2ad2e03289064c229ea" category="list-text">백업 대상과 액세스 권한 집합을 위한 NetApp StorageGRID, AWS S3, Azure Blob 또는 Google Cloud Platform의 계정입니다.</block>
   <block id="d2e3e802d3f25894bd170688859d6cef" category="inline-link">AWS, Azure 또는 S3 권한 목록</block>
-  <block id="ac4fdc4198bc2cc800bf5c56ef9956c6" category="paragraph">를 참조하세요<block ref="bd599500598cefd5a0de11f99f2bd899" category="inline-link-rx"></block> 자세한 내용은.</block>
   <block id="583833d6f0468c713c410ea158e1b6f6" category="list-text">시스템에서 NetApp 백업 및 복구를 활성화할 필요가 없습니다.</block>
   <block id="fb197ee87a0f850dc3b7bb98fe408518" category="inline-link-macro">설정 구성</block>
   <block id="35743d3ea81079f21301876eeaf2d70d" category="paragraph">랜섬웨어 복원력은 설정 옵션을 통해 백업 대상을 구성하는 데 도움이 됩니다. 보다 <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block> .</block>
@@ -696,19 +631,14 @@
   <block id="d02855464632ec3aa398adb76c19c69b" category="section-title">AWS를 백업 대상으로 준비</block>
   <block id="73f857511565e44fc318a38ffaa390e5" category="list-text">AWS에 계정을 설정합니다.</block>
   <block id="d2c0c7feb18d0e89bab9d23b6ec4c042" category="inline-link">AWS 권한</block>
-  <block id="0814739606d03bc7e10284dbb6f3fdc4" category="list-text">구성<block ref="2b636c3b1feeda1c45ce7fca9c5b9c8a" category="inline-link-rx"></block> AWS에서.</block>
   <block id="a4f513306c1a0ead14679ffb7c282460" category="inline-link">Amazon S3 버킷 관리</block>
-  <block id="3da540b8eb983a8f0d1bb22f76d7314d" category="paragraph">콘솔에서 AWS 스토리지를 관리하는 방법에 대한 자세한 내용은 다음을 참조하세요.<block ref="5be5bab5f9ba1aab743272074a8ba20d" category="inline-link-rx"></block> .</block>
   <block id="1838c493149bcc86ae16284d5e7b6f0a" category="section-title">Azure를 백업 대상으로 준비</block>
   <block id="a3458aa9685290fbb32b9d46167373e3" category="list-text">Azure에 계정을 설정합니다.</block>
   <block id="bf689424a4d3a62d9c0d40a07107c3d2" category="inline-link">Azure 권한</block>
-  <block id="9967bc7f2c0e9107fb116b4b7db3daf3" category="list-text">구성<block ref="a4ccfab03efb30bca23e6e14e7d04f69" category="inline-link-rx"></block> Azure에서.</block>
   <block id="e54f696c13e53f1f1c0731dbdadf9344" category="inline-link">Azure 저장소 계정 관리</block>
-  <block id="81af474b9e582b079317550c59904a5c" category="paragraph">콘솔에서 Azure 저장소를 관리하는 방법에 대한 자세한 내용은 다음을 참조하세요.<block ref="d5fb5f2072dcbae3b3a252726c6e52ee" category="inline-link-rx"></block> .</block>
   <block id="579bbbe19178943961516e908ae34547" category="section-title">NetApp 콘솔 설정</block>
   <block id="21df6901481064f7fe748f8c9b54e5bf" category="paragraph">다음 단계는 콘솔과 랜섬웨어 복원력을 설정하는 것입니다.</block>
   <block id="730868e3ca25e786b50d451f3c01ff41" category="inline-link">표준 모드에 대한 콘솔 요구 사항</block>
-  <block id="0b4c29be287e0cdeca2f720c6a778e6a" category="paragraph">검토<block ref="c6fdbe8da98bad9f343ecda46d5d2e35" category="inline-link-rx"></block> .</block>
   <block id="f3aee30a3a487c746572616e3f53dc9d" category="section-title">콘솔 에이전트 만들기</block>
   <block id="f192ab1e136d39869db171a801d087d3" category="paragraph">이 서비스를 체험하거나 사용하려면 NetApp 영업 담당자에게 문의하세요.  그런 다음 콘솔 에이전트를 사용하면 랜섬웨어 복원력에 적합한 기능이 포함됩니다.</block>
   <block id="039a0f51fabaf695c33b745ebbd147bf" category="inline-link">콘솔 에이전트를 만드는 방법</block>
@@ -762,8 +692,6 @@
   <block id="bf6725ca3f9665491e02c1818a34d256" category="inline-image-macro">준비 훈련 알림을 보여주는 사고 페이지</block>
   <block id="b0e402efbf054d8b9cab93c3c4e53922" category="paragraph"><block ref="b0e402efbf054d8b9cab93c3c4e53922" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dba36383db70a071d84d9ad78273ce43" category="paragraph">다음은 살펴봐야 할 몇 가지 사항입니다.</block>
-  <block id="7a01e31bb54fb84b5dbc9ee51947a45b" category="list-text">잠재적인 공격 유형을 살펴보세요.</block>
-  <block id="7d8343c0bc6249f96b5c9e2c1d4f8d8f" category="paragraph">유형에서 사용자가 악의적인 활동을 했다고 의심되는 경우 사용자 이름을 검토하세요.  *워크로드 보안에서 조사*를 선택하여 Data Infrastructure Insights 워크로드 보안에서 사용자에 대해 더 자세히 조사할 수 있습니다.</block>
   <block id="c7243cc109c65ad504b84c3e805c784c" category="list-text">파일 활동과 의심되는 프로세스를 살펴보세요.</block>
   <block id="fdb29353d86a86580fc253dc319e3e0b" category="list-text">감지된 수신 데이터를 예상 데이터와 비교해 보세요.</block>
   <block id="929c013ec98095ed1024dac131501e30" category="list-text">감지된 파일의 생성률을 예상 속도와 비교하여 살펴보세요.</block>
@@ -791,7 +719,6 @@
   <block id="225c52e147dc652783f29cce5e5f1205" category="admonition">복원 프로세스에 대한 자세한 내용은 다음을 참조하세요.<block ref="2318031b9bf9fde86d3a7f04f24d9774" category="inline-link-macro-rx"></block> .</block>
   <block id="37eb9cec5c575b48f279378f147d9523" category="section-title">준비 훈련 후 알림 상태 변경</block>
   <block id="aa217641d7c21b459c5c614fba9e0b2c" category="paragraph">준비 훈련 알림을 검토하고 작업 부하를 복구한 후 필요한 경우 알림 상태를 변경합니다.</block>
-  <block id="a31f470cdbee4ae009532a442df8d183" category="paragraph">*콘솔 역할이 필요합니다* 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자.<block ref="7992c96a5f2c8fee073303952f21912e" category="inline-link-rx"></block> .</block>
   <block id="b707d985234424bd425b96580911950e" category="list-text">알림을 다시 선택하세요.</block>
   <block id="2da9a9f4e6a92f5857d147337ae308f7" category="list-text">*상태 편집*을 선택하여 상태를 표시하고 상태를 다음 중 하나로 변경하세요.</block>
   <block id="e0a30b860c06e610cadc21ebf64426da" category="list-text">해제됨: 해당 활동이 랜섬웨어 공격이 아니라고 의심되는 경우 상태를 해제됨으로 변경하세요.</block>
@@ -803,10 +730,8 @@
   <block id="50ca22b8d354f001a742f726d3cf2be9" category="inline-image-macro">준비 훈련 보고서를 보여주는 보고서 페이지</block>
   <block id="179e5ea4317177f519c688d15ef67987" category="paragraph"><block ref="179e5ea4317177f519c688d15ef67987" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e462715e9b155f4f9638da4f314c8aff" category="list-text">*준비 훈련*과 *다운로드*를 선택하여 준비 훈련 보고서를 다운로드하세요.</block>
-  <block id="7390b2d83dc624cc5e1b06a36664f354" category="summary">랜섬웨어 복원력이 잠재적인 공격을 감지하면 랜섬웨어 복원력 대시보드에 잠재적인 공격을 알리는 알림이 나타납니다.  이 시점에서 랜섬웨어 복원력 알림 탭에서 잠재적 위험을 살펴봐야 합니다.</block>
   <block id="1238309e873f300d76b90a5b0f3a20bc" category="doc">NetApp Ransomware Resilience를 사용하여 감지된 랜섬웨어 알림을 처리하세요</block>
   <block id="5edf980bc8d23fb98c1f0d60dc6594f8" category="paragraph">NetApp 랜섬웨어 복원력이 잠재적인 공격을 감지하면 대시보드와 알림 영역에 경고가 표시됩니다.  랜섬웨어 복원력은 즉시 스냅샷을 찍습니다.  랜섬웨어 복원력 *알림* 탭에서 잠재적 위험을 검토하세요.</block>
-  <block id="3f65c9b2f4efb46c9a3061aad0cfb789" category="paragraph">랜섬웨어 복원력이 잠재적인 공격을 감지하면 콘솔 알림 설정에 알림이 나타나고 구성된 주소로 이메일이 전송됩니다.  이메일에는 심각도, 영향을 받는 작업 부하, 랜섬웨어 복원력 *알림* 탭의 알림에 대한 링크에 대한 정보가 포함되어 있습니다.</block>
   <block id="4c8cd66676ad1c434108e699d9777408" category="paragraph">거짓 양성 결과를 무시하거나 즉시 데이터를 복구하기로 결정할 수 있습니다.</block>
   <block id="899157335f0c98105a8cbc92966ba06d" category="admonition">알림을 해제하면 랜섬웨어 복원력이 이러한 동작을 학습하고 이를 일반적인 작업과 연관시켜 다시 알림을 발생시키지 않습니다.</block>
   <block id="a8fd9e3988acb841854762788963d815" category="paragraph">데이터 복구를 시작하려면 알림을 복구 준비 완료로 표시하여 스토리지 관리자가 복구 프로세스를 시작할 수 있도록 하세요.</block>
@@ -852,7 +777,6 @@
   <block id="14e7851a172a122d7528efff8567f8ba" category="paragraph">랜섬웨어 레질리언스가 잠재적인 공격을 감지하면 구독 알림 기본 설정에 따라 구독한 사용자에게 이메일 알림을 보냅니다.  이메일에는 경고에 대한 정보, 심각도, 영향을 받는 리소스 등이 포함되어 있습니다.</block>
   <block id="bf1a62bcb3143d1124cae262157745d7" category="paragraph">랜섬웨어 복원력 경고에 대한 이메일 알림을 받을 수 있습니다.  이 기능을 사용하면 알림, 알림의 심각도, 영향을 받는 리소스에 대한 정보를 얻을 수 있습니다.</block>
   <block id="def7f3eac7eed1dada5cdcd2951ede36" category="inline-link">이메일 알림 설정</block>
-  <block id="afe1e86b0fa28a987f6f134c9a552280" category="admonition">이메일 알림을 구독하려면 다음을 참조하세요.<block ref="cc336e2e43ff14a29a8dbeb64864077d" category="inline-link-rx"></block> .</block>
   <block id="f2e19c6011cc550fb6503dafd26a8973" category="list-text">랜섬웨어 복원력에서 *설정* 페이지로 이동합니다.</block>
   <block id="ed6e52d47993626528f7c48bb20927cd" category="list-text">*알림*에서 이메일 알림 설정을 찾으세요.</block>
   <block id="581a71037b750a62c75558dfea9bae72" category="list-text">알림을 받으려는 이메일 주소를 입력하세요.</block>
@@ -864,16 +788,6 @@
   <block id="ebce9876dfa9cc6dfd0e7d91d6a4ff2e" category="list-text">각 경고에 대한 각 권의 모든 사건을 검토합니다.</block>
   <block id="2f2494e8d44ad82e6788144197a32c92" category="list-text">추가 알림을 검토하려면 왼쪽 상단의 빵가루 모양에서 *알림*을 클릭하세요.</block>
   <block id="be962bd392a7a1672125ea27465c8bd8" category="section-title">악성 활동 및 비정상적인 사용자 동작 감지</block>
-  <block id="7d42d38bcca7f4814b27e3609908ff58" category="paragraph">알림 탭을 살펴보면 악성 활동이 있는지 확인할 수 있습니다.</block>
-  <block id="ddc6c453c965c414db89d40920292b62" category="paragraph">*어떤 세부 정보가 나타나나요?*  표시되는 세부 정보는 알림이 발생한 방식에 따라 달라집니다.</block>
-  <block id="bb74e4460d1a07bd08ea60f0fbde3d0d" category="list-text">ONTAP 의 자율 랜섬웨어 보호 기능으로 인해 발생합니다.  이는 볼륨 내 파일의 동작을 기반으로 악성 활동을 감지합니다.</block>
-  <block id="1ed25909fc5e9f5b7c67efcc94f74a40" category="list-text">Data Infrastructure Insights 워크로드 보안에 의해 트리거됩니다.  이를 위해서는 Data Infrastructure Insights Workload 보안에 대한 라이선스가 필요하며 Ransomware Resilience에서 이를 활성화해야 합니다.  이 기능을 사용하면 스토리지 작업 부하에서 비정상적인 사용자 동작을 감지하고 해당 사용자가 더 이상 액세스하지 못하도록 차단할 수 있습니다.</block>
-  <block id="d46354394cfd30785be2630bf0effed9" category="paragraph">랜섬웨어 복원력에서 워크로드 보안을 활성화하려면 *설정* 페이지로 이동하여 *워크로드 보안 연결* 옵션을 선택하세요.</block>
-  <block id="425da964d78a62f785936af67e3c687f" category="inline-link">워크로드 보안에 관하여</block>
-  <block id="fc16f99f8f194db3c5491ab6fef98d3c" category="paragraph">Data Infrastructure Insights 워크로드 보안에 대한 개요를 보려면 다음을 검토하세요.<block ref="61a89dd403e895daaa4d98a27b91c870" category="inline-link-rx"></block> .</block>
-  <block id="32aa7a320b78cd5a31a8eafe61f97cff" category="admonition">데이터 인프라 워크로드 보안에 대한 라이선스가 없고 랜섬웨어 복원력에서 이를 활성화하지 않으면 비정상적인 사용자 동작 정보를 볼 수 없습니다.</block>
-  <block id="b55691d31ec7a26db4320492b2d4f0ef" category="paragraph">악성 활동이 발생하면 경고가 생성되고 자동 스냅샷이 촬영됩니다.</block>
-  <block id="82a8f74341493482b3be86033ea05272" category="section-title">Autonomous Ransomware Protection에서만 악성 활동을 확인하세요.</block>
   <block id="c0339a08bfb0fb26aa3ecea9980349b3" category="paragraph">자율형 랜섬웨어 보호가 랜섬웨어 복원력에서 알림을 트리거하면 다음 세부 정보를 볼 수 있습니다.</block>
   <block id="da00dfcf2d3126754537ccdf32df23fa" category="list-text">수신 데이터의 엔트로피</block>
   <block id="acbf3e1d9f15facfe81c7ba30574b98f" category="list-text">감지된 비율과 비교한 새 파일의 예상 생성 비율</block>
@@ -887,23 +801,6 @@
   <block id="44dd4f71dc5510ad8843ca6c09b8fa4f" category="inline-image-macro">알림 사건 페이지</block>
   <block id="2d8d33f13c7be8900f62bd32b802c107" category="paragraph"><block ref="2d8d33f13c7be8900f62bd32b802c107" category="inline-image-macro-rx" type="image"></block></block>
   <block id="24d8050f046c3ac972fd95f26e1a8670" category="list-text">사고를 선택하여 사고의 세부 정보를 검토하세요.</block>
-  <block id="bf33e88f89f8370f960763fdaf5e0753" category="section-title">Data Infrastructure Insights 워크로드 보안에서 비정상적인 사용자 동작 보기</block>
-  <block id="c6d4ab0957185259e92075ac39c872b3" category="paragraph">Data Infrastructure Insights Workload 보안이 Ransomware Resilience에서 경고를 트리거하면 Data Infrastructure Insights Workload 보안에서 의심스러운 사용자를 보고, 사용자를 차단하고, 사용자 활동을 직접 조사할 수 있습니다.</block>
-  <block id="a7334e39028053feb63bc34743ead99e" category="admonition">이러한 기능은 Autonomous Ransomware Protection에서만 제공되는 세부 정보에 추가됩니다.</block>
-  <block id="7ccf296e63c11fa531348e73b8d3356b" category="paragraph">이 옵션을 사용하려면 Data Infrastructure Insights Workload 보안에 대한 라이선스가 필요하며 Ransomware Resilience에서 이를 활성화해야 합니다.</block>
-  <block id="dd390c468721776e8e2e3295da87fc54" category="paragraph">랜섬웨어 복원력에서 워크로드 보안을 활성화하려면 다음을 수행하세요.</block>
-  <block id="030c1747b7d1f2c3e2b71dae79effc97" category="list-text">*설정* 페이지로 이동합니다.</block>
-  <block id="c768488528d7d7bfe2f90e65be8e41be" category="list-text">*워크로드 보안 연결* 옵션을 선택하세요.</block>
-  <block id="2144d8d2d65559386fd4ff03d918fa84" category="inline-link-macro">랜섬웨어 복원력 설정 구성</block>
-  <block id="adae38d869f0f58f19f3b907638b7fa7" category="paragraph">자세한 내용은 다음을 참조하십시오. <block ref="d6f3d9128d9793bc7af335a95f70845c" category="inline-link-macro-rx"></block> .</block>
-  <block id="f2060aa4e29a724bbbeb901bed1bb0cb" category="inline-image-macro">알림 페이지의 스크린샷입니다.</block>
-  <block id="4a5381623036863ca99bdeabf56d8591" category="paragraph"><block ref="4a5381623036863ca99bdeabf56d8591" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="06d7d087c2215fd6a1e66cfc52b8f7cc" category="list-text">콘솔에서 모니터링하는 환경에서 의심되는 사용자의 추가 액세스를 차단하려면 *사용자 차단* 링크를 선택하세요.</block>
-  <block id="90ddc51d9579b414c4c1b75c96bbb78c" category="list-text">알림이나 알림에 포함된 사건을 조사하세요.</block>
-  <block id="65be46ab7235d388f0d005087a518abe" category="list-text">Data Infrastructure Insights 워크로드 보안에서 경고에 대해 자세히 알아보려면 *워크로드 보안에서 조사* 링크를 선택하세요.</block>
-  <block id="1e2dad9c643b4658fbeca6157edc3b46" category="paragraph">Data Infrastructure Insights 워크로드 보안이 새 탭에서 열립니다.</block>
-  <block id="4958f48e49283250f6c050fab5e83329" category="inline-image-macro">워크로드 보안 조사</block>
-  <block id="60f13f41d2139332e0ac8a56170baf29" category="paragraph">+<block ref="bd417dbccecc16c9b0d4a140c663f0be" category="inline-image-macro-rx" type="image"></block></block>
   <block id="705db8b34cf00efb73abf6403278e299" category="section-title">랜섬웨어 사고를 복구 준비로 표시(사고가 무력화된 후)</block>
   <block id="3950c317c3c61c1f422abb2e301a90ca" category="paragraph">공격을 중단한 후 스토리지 관리자에게 데이터가 준비되었다고 알려 복구를 시작하세요.</block>
   <block id="a31e44b45b823ec61483db05b99be2cb" category="paragraph"><block ref="a31e44b45b823ec61483db05b99be2cb" category="inline-image-macro-rx" type="image"></block></block>
@@ -914,7 +811,6 @@
   <block id="6faff9d182a89c619b1ad36913af4fa5" category="list-text">작업 부하 복구를 시작하려면 메시지에서 *작업 부하 복구*를 선택하거나 *복구* 탭을 선택하세요.</block>
   <block id="dbb2ae89216b8dfda3662d01ab32469f" category="paragraph">알림이 복원으로 표시된 후 알림은 알림 탭에서 복구 탭으로 이동합니다.</block>
   <block id="d3870301348c9947a819b7a9ed0c25df" category="section-title">잠재적 공격이 아닌 사건은 기각합니다.</block>
-  <block id="0d65ccc6a323f2dc093c64fd9ee55da4" category="paragraph">사고를 검토한 후에는 해당 사고가 잠재적인 공격인지 여부를 판단해야 합니다.  이전 조건이 충족되지 않으면 해고될 수 있습니다.</block>
   <block id="74583f536ee54b8803ab561a596f2bb9" category="paragraph">거짓 양성 결과를 무시하거나 즉시 데이터를 복구하기로 결정할 수 있습니다.  알림을 해제하면 랜섬웨어 복원력이 이러한 동작을 학습하고 이를 일반적인 작업과 연관시키며 이러한 동작에 대해 다시 알림을 시작하지 않습니다.</block>
   <block id="5a5533258cfacee641d19f7f201b727f" category="paragraph">작업 부하를 해제하면 잠재적인 랜섬웨어 공격에 대응하여 자동으로 생성된 모든 스냅샷 사본이 영구적으로 삭제됩니다.</block>
   <block id="e092b1515493abdb05e77ec47a53f36f" category="admonition">알림을 해제하면 해당 상태를 다른 상태로 변경할 수 없으며, 이 변경 사항을 실행 취소할 수 없습니다.</block>
@@ -1002,7 +898,6 @@
   <block id="71f89a5dcbec59e77a93dd3d78946bec" category="cell">각 작업 부하에 정책을 할당합니다. <block ref="cc10c371e1aab359fa44a886d5e79433" category="inline-link-macro-rx"></block> .</block>
   <block id="7d88942a24d59d8cc9c016aa59861d89" category="cell">콘솔을 사용하여 VMware vSphere(SCV)에 사용 가능한 SnapCenter 플러그인을 등록합니다.</block>
   <block id="8b335c02365a669f37c5c422d345fe5a" category="cell">VM 작업 부하가 보호되지 않습니다.</block>
-  <block id="3d633ea629c6ab6d6eb434edb9bad015" category="cell">VMware vSphere용 SnapCenter 플러그인을 활성화하여 VM 워크로드에 VM 일관성 보호 기능을 할당합니다. <block ref="cc10c371e1aab359fa44a886d5e79433" category="inline-link-macro-rx"></block> .</block>
   <block id="39b7962492ec1bd941ef06d01eb99cb3" category="cell">콘솔에 사용 가능한 SnapCenter 서버 등록</block>
   <block id="2ece652cbde6f187c5192710497e20cc" category="cell">애플리케이션이 보호되지 않았습니다.</block>
   <block id="9fbd0a5b8d780df80cfc32e0668ad4b0" category="cell">SnapCenter Server를 활성화하여 워크로드에 애플리케이션 일관성 보호 기능을 할당합니다. <block ref="cc10c371e1aab359fa44a886d5e79433" category="inline-link-macro-rx"></block> .</block>
@@ -1060,24 +955,15 @@
   <block id="e00e52239c81eaad00507b4b0b815570" category="doc">랜섬웨어 복원력에서 NetApp 데이터 분류를 사용하여 개인 식별 정보를 스캔하세요</block>
   <block id="62fa4bfbc95859e20cfaa7150ab75d62" category="paragraph">NetApp 랜섬웨어 복원력 내에서 NetApp 데이터 분류를 사용하여 파일 공유 워크로드의 데이터를 스캔하고 분류할 수 있습니다.  데이터를 분류하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 확인하는 데 도움이 되며, PII가 포함되어 있으면 보안 위험이 커질 수 있습니다.  데이터 분류는 콘솔의 핵심 구성 요소이며 추가 비용 없이 사용할 수 있습니다.</block>
   <block id="604880f6f585767eee17ec85b3c76533" category="inline-link-macro">데이터 분류</block>
-  <block id="b1ac13d636b295fa5253c8be4ea15579" category="paragraph"><block ref="f7e902a157940c53f1fa96f735466848" category="inline-link-macro-rx"></block>AI 기반 자연어 처리를 활용해 상황에 맞는 데이터를 분석하고 분류하여, 규정 준수 요구 사항을 충족하고, 보안 취약성을 탐지하고, 비용을 최적화하고, 마이그레이션을 가속화할 수 있는 실행 가능한 데이터 통찰력을 제공합니다.</block>
   <block id="d3b14d365ca3277402fce2839d562f60" category="admonition">이 프로세스는 작업 부하의 중요도에 영향을 미쳐 적절한 보호가 이루어지도록 하는 데 도움이 됩니다.</block>
   <block id="aeb066b15e66f67bbfa9db1332465422" category="section-title">데이터 분류를 통해 개인 정보 노출 식별</block>
   <block id="ba2c5a24730716f70a2b315220375de6" category="inline-link-macro">데이터 분류를 활성화하여 데이터를 스캔합니다.</block>
-  <block id="c4a2c9c37dfc55638c5862690a438c1b" category="paragraph">랜섬웨어 복원력 내에서 데이터 분류를 사용하기 전에 다음이 필요합니다.<block ref="6428fc353392960c74d457dc41d133c9" category="inline-link-macro-rx"></block> .</block>
   <block id="ee34749052b0d62bf351eb75d25107b1" category="paragraph">랜섬웨어 복원력의 보호 페이지에서 데이터 분류를 배포할 수 있습니다.  개인정보 노출을 식별하기 위한 절차를 따르세요.  **노출 식별**을 선택할 때 아직 데이터 분류를 배포하지 않은 경우 대화 상자가 나타나 데이터 분류를 활성화할 수 있습니다.</block>
-  <block id="0451f7707c46dd33b749bd6b57b8d8af" category="inline-image-macro">배포 분류의 스크린샷</block>
-  <block id="2fd4a53a83327d94c29541ca7368df16" category="paragraph"><block ref="2fd4a53a83327d94c29541ca7368df16" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9ed086de7334074ba1b8a57d92fad8c8" category="paragraph">데이터 분류에 대한 자세한 내용은 다음을 참조하세요.</block>
   <block id="06e283ee316863d38f0fea16ba5785cc" category="inline-link">데이터 분류에 대해 알아보세요</block>
-  <block id="8d0f16717bfcc56762a35deea51833e7" category="list-text"><block ref="8d0f16717bfcc56762a35deea51833e7" category="inline-link-rx"></block></block>
   <block id="93f515959ce6187b986c42fa6959168b" category="inline-link">개인 정보의 범주</block>
-  <block id="d66481d703fafde739dabfd3c44d96bc" category="list-text"><block ref="d66481d703fafde739dabfd3c44d96bc" category="inline-link-rx"></block></block>
   <block id="499dd7659f4fa7b600ca3796c449e41b" category="inline-link">귀하의 조직에 저장된 데이터를 조사하세요</block>
-  <block id="08e880effe206106422b9043908d11e9" category="list-text"><block ref="08e880effe206106422b9043908d11e9" category="inline-link-rx"></block></block>
   <block id="b4b23bfb09d955d9adbd34e9b10730b7" category="inline-link-macro">배포된 데이터 분류</block>
-  <block id="719c2142fad29f202c8cacbbb719bc1a" category="paragraph">랜섬웨어 복원력에서 PII 데이터 스캔은 다음 경우에 사용할 수 있습니다.<block ref="67eef6272e818890405ebda54ee542a4" category="inline-link-macro-rx"></block> .  데이터 분류는 추가 비용 없이 콘솔의 일부로 제공되며 온프레미스 또는 고객 클라우드에 배포할 수 있습니다.</block>
-  <block id="663ac07d57edbdc8429ed3a69b1eabd7" category="list-text">랜섬웨어 복원력 메뉴에서 *보호*를 선택합니다.</block>
   <block id="22da148f02a4f9df3c95fa55ebe1f0e4" category="list-text">보호 페이지에서 작업 부하 열에서 파일 공유 작업 부하를 찾습니다.</block>
   <block id="ae026bf5e2ca5066c55b7b1740de800e" category="inline-image-macro">개인 정보 노출 열이 표시된 보호 페이지</block>
   <block id="9dedf1958376570fec810d3b47c2d3ec" category="paragraph"><block ref="9dedf1958376570fec810d3b47c2d3ec" category="inline-image-macro-rx" type="image"></block></block>
@@ -1121,13 +1007,11 @@
   <block id="7bf3a8af65d2a153b44dafcf248f1df7" category="paragraph">NetApp Ransomware Resilience에서 워크로드 일관성 보호를 활성화하거나 랜섬웨어 보호 전략을 생성하여 워크로드를 랜섬웨어 공격으로부터 보호할 수 있습니다.</block>
   <block id="9d76fd8cddbcb128567856bd698d409e" category="section-title">랜섬웨어 보호 전략 이해</block>
   <block id="88a4ad08ed31669f06a098dea0a14a38" category="paragraph">랜섬웨어 보호 전략에는 탐지 정책과 보호 정책이 모두 포함됩니다.</block>
-  <block id="2488d8d558f933e2679b4f8a47bfe679" category="list-text">**탐지 정책**은 랜섬웨어 위협을 탐지하고 의심스러운 파일 확장자를 선택적으로 차단합니다.</block>
   <block id="b5728c1f0d5859e4bf3e89712b5ddbdf" category="list-text">**보호 정책**에는 스냅샷 및 백업 정책이 포함됩니다.  보호 전략에는 탐지 및 스냅샷 정책이 필요합니다.  백업 정책은 선택 사항입니다.</block>
   <block id="7646c296ea1b221cbb826893afaa224e" category="paragraph">다른 NetApp 제품을 사용하여 작업 부하를 보호하는 경우 Ransomware Resilience는 해당 제품을 검색하여 다음 옵션 중 하나를 제공합니다.</block>
   <block id="0e468f869572effeac4af4bbea21ed06" category="list-text">랜섬웨어 탐지 정책을 사용하고 다른 NetApp 도구에서 만든 스냅샷 및 백업 정책을 계속 사용하거나</block>
   <block id="47751183709636889e320f1a849dd584" category="list-text">랜섬웨어 복원력을 사용하여 탐지, 스냅샷, 백업을 관리합니다.</block>
   <block id="299dad2dd448d97ac3577bbf54e62bae" category="inline-link-macro">그룹 파일 공유</block>
-  <block id="fa3c8bf55340369ad7a673c1a81366a7" category="admonition">데이터 자산의 관리 및 보호를 강화하려면 다음을 생성할 수 있습니다.<block ref="4a4ad3a4077a5a0070d8c24000f1c0b5" category="inline-link-macro-rx"></block> 하나의 전략으로 여러 볼륨을 공동으로 보호합니다.</block>
   <block id="be96aa820e4d4c79150a1ea86f47ceb0" category="section-title">다른 NetApp 관리 서비스와의 보호 정책</block>
   <block id="7d94fa5c52f4b044d2cd78e42e11247c" category="paragraph">랜섬웨어 회복력 외에도 다음 서비스를 사용하여 보호 기능을 관리할 수 있습니다.</block>
   <block id="58c4a0b8427aedffed15f507a82a122c" category="list-text">파일 공유, VM 파일 공유를 위한 NetApp 백업 및 복구</block>
@@ -1176,7 +1060,6 @@
   <block id="1adc4b459e7f50d96280424fb7e06709" category="list-text">*중요*: 스냅샷 복사본은 시간당 1개 미만, 하루 1개 이상 생성됩니다.</block>
   <block id="e12f58d91eed1a4a160b184cc1b10ebf" category="list-text">*표준*: 하루에 1개 이상 촬영된 스냅샷 사본</block>
   <block id="48102e7d0a568223836c2d653abd58e5" category="paragraph">*사전 정의된 탐지 정책* [[사전 정의]]</block>
-  <block id="a1653f5fa80d50eb6a294a38ac7954b3" category="paragraph">워크로드 중요도에 맞춰 사전 정의된 다음 랜섬웨어 복원력 정책 중 하나를 선택할 수 있습니다.</block>
   <block id="a2c5d5541ff19f8df63922963356ec16" category="cell">정책 수준</block>
   <block id="d4e2713d1b1725a1592f9268589f990d" category="cell">스냅샷</block>
   <block id="7cf395303ce3665a9834721d4b748e4b" category="cell">빈도</block>
@@ -1214,16 +1097,13 @@
   <block id="6baa335c463f583028e58b3acfd45211" category="paragraph">워크로드에 맞는 보호를 활성화한 후에는 랜섬웨어 복원력에서 보호 전략을 관리할 수 있습니다.  보호 전략에는 Ransomware Resilience에서 관리하는 랜섬웨어 탐지 정책과 함께 다른 곳에서 관리되는 스냅샷 및 백업 정책이 포함됩니다.</block>
   <block id="261346f7d903c80fe95c3eed4c9b6f97" category="paragraph">백업 및 복구를 사용하여 VMware vSphere용 SnapCenter 또는 SnapCenter Plug-in for VMware vSphere 등록하는 방법에 대해 알아보려면 다음 정보를 참조하세요.</block>
   <block id="9b210cd0fa0a7fe3694561f1949c72e3" category="inline-link">SnapCenter 서버 소프트웨어 등록</block>
-  <block id="68b1fa75b928bc442b23193dc7306ea7" category="list-text"><block ref="68b1fa75b928bc442b23193dc7306ea7" category="inline-link-rx"></block></block>
   <block id="8f2653c5938080ffdd57904f850bc430" category="inline-link">SnapCenter Plug-in for VMware vSphere 등록</block>
-  <block id="10199b17546f423c831ed4ec01ea41f8" category="list-text"><block ref="10199b17546f423c831ed4ec01ea41f8" category="inline-link-rx"></block></block>
   <block id="1ec4d515745aff456d744786e699ea82" category="list-text">랜섬웨어 복원력 메뉴에서 *대시보드*를 선택합니다.</block>
   <block id="37253b6a1f32230b01d647f42b9b6e8f" category="list-text">권장 사항 창에서 다음 권장 사항 중 하나를 찾아 *검토 및 수정*을 선택하세요.</block>
   <block id="0bde9546f6d4c2d3b942bb4c05094c32" category="list-text">NetApp 콘솔을 사용하여 사용 가능한 SnapCenter 서버 등록</block>
   <block id="854f384d16b1aa3f59795b8cd8a7ea92" category="list-text">NetApp 콘솔을 사용하여 SnapCenter Plug-in for VMware vSphere 등록합니다.</block>
   <block id="8256db449d783061334b6804f98bc901" category="list-text">백업 및 복구를 사용하여 SnapCenter 또는 SnapCenter Plug-in for VMware vSphere 등록하려면 다음 정보를 따르세요.</block>
   <block id="5a43fd978fdfbe5150cdd067263fac36" category="list-text">랜섬웨어 회복력으로 돌아가기.</block>
-  <block id="f35a5ceb6fdd098fb4c184a9cb0dbad8" category="list-text">랜섬웨어 복원력에서 대시보드로 이동하여 검색 프로세스를 다시 시작합니다.</block>
   <block id="02d5d22b5f67beb8b5279408d426e93c" category="list-text">랜섬웨어 복원력에서 *보호*를 선택하여 보호 페이지를 확인하세요.</block>
   <block id="cebfa4409b0603554b2d559a348328f3" category="list-text">보호 페이지의 스냅샷 및 백업 정책 열에서 세부 정보를 검토하여 해당 정책이 다른 곳에서 관리되는지 확인하세요.</block>
   <block id="5a0562438e5d5b94d2b1f72b243b05b6" category="paragraph">랜섬웨어 보호 전략을 추가하는 데는 세 가지 접근 방식이 있습니다.</block>
@@ -1234,15 +1114,12 @@
   <block id="a49a95f9a293b47d316bebea16d14e29" category="list-text">*다른 NetApp 제품이나 서비스에서 관리되는 기존 스냅샷 및 백업 정책이 있는 워크로드에 대한 감지 정책을 만듭니다.*</block>
   <block id="b7caa7f3615aea01fd626561bb13bda1" category="paragraph">탐지 정책은 다른 제품에서 관리되는 정책을 변경하지 않습니다.</block>
   <block id="f05ea9e0c9ccffc58a546b5b7a0d8608" category="inline-link-macro">백업 및 복구</block>
-  <block id="be936599d419d4d591b706064be8cf37" category="paragraph">탐지 정책은 다른 서비스에서 이미 활성화된 경우 Autonomous Ransomware Protection 및 FPolicy 보호를 활성화합니다.  자세히 알아보세요<block ref="1b5ca5e6db0400e20efef2d18e2ed058" category="inline-link-macro-rx"></block> ,<block ref="53d98b1a557d813c796ac677354e7984" category="inline-link-macro-rx"></block> , 그리고<block ref="e579faf0a14efb59aa4bfe357406413f" category="inline-link-macro-rx"></block> .</block>
   <block id="1b49dfb35b7ec360208537cc7e5a9d62" category="section-title">랜섬웨어 보호 전략을 수립하세요(스냅샷이나 백업 정책이 없는 경우)</block>
   <block id="7161176fcf3200a6f1029cbb10969d7b" category="paragraph">워크로드에 스냅샷이나 백업 정책이 없는 경우 랜섬웨어 보호 전략을 만들 수 있습니다. 이 전략에는 Ransomware Resilience에서 만든 다음 정책이 포함될 수 있습니다.</block>
   <block id="f23b77237fe3a13c45d11aeb7e85a8cb" category="list-title">랜섬웨어 보호 전략을 만드는 단계 [[단계]]</block>
   <block id="5d6ce0940be901e67c0f14481e54ccc9" category="inline-image-macro">전략 관리 페이지</block>
   <block id="a46946c5eab68e6301fa937c5e483bd2" category="paragraph"><block ref="a46946c5eab68e6301fa937c5e483bd2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2112d0c55db08c310d0929ecb4524b74" category="list-text">보호 페이지에서 작업 부하를 선택한 다음 *보호*를 선택합니다.</block>
-  <block id="1c00777a5fc73931b43c8deab8cfa46e" category="inline-image-macro">전략 관리</block>
-  <block id="b07425e7c170f9c6cb82e8d2de7d35a7" category="paragraph"><block ref="b07425e7c170f9c6cb82e8d2de7d35a7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="197c283a01f19c77a4081693cf2ef5bf" category="list-text">랜섬웨어 보호 전략 페이지에서 *추가*를 선택합니다.</block>
   <block id="a5be5d648ce22c25337cedcc760abd3c" category="inline-image-macro">스냅샷 섹션을 표시하는 전략 페이지 추가</block>
   <block id="3c47a09fd51a5bf078b6b75c88195ad8" category="paragraph"><block ref="3c47a09fd51a5bf078b6b75c88195ad8" category="inline-image-macro-rx" type="image"></block></block>
@@ -1276,7 +1153,6 @@
   <block id="5bf833f3ee3985c83ff4a2c137c2cdb9" category="list-text">랜섬웨어 복원력은 기존에 활성화된 SnapCenter 또는 백업 및 복구 정책이 있는지 감지합니다.</block>
   <block id="0d7426ba5ec4042ac3383e7c8f81d565" category="list-text">기존 백업 및 복구 또는 SnapCenter 정책을 그대로 두고 _탐지_ 정책만 적용하려면 **기존 정책 바꾸기** 상자를 선택하지 마세요.</block>
   <block id="346ced422939f5220048eed80e512829" category="list-text">SnapCenter 정책에 대한 자세한 내용을 보려면 *아래쪽 화살표*를 선택하세요.</block>
-  <block id="b358576fc12085fd0ff12deea2f027d9" category="paragraph">탐지 정책을 선택한 다음 **보호**를 선택합니다.</block>
   <block id="24fae1821c4530c41f4af2d4f1f70175" category="list-text">보호 페이지에서 **탐지 상태**를 검토하여 탐지가 활성화되어 있는지 확인하세요.</block>
   <block id="783a386314b7dc75416c1abf94fcf70f" category="section-title">기존 백업 또는 스냅샷 정책을 랜섬웨어 보호 전략으로 교체</block>
   <block id="cc8bf7105e0bf7256578c2b5c24f9ebf" category="paragraph">기존 백업이나 스냅샷 정책을 랜섬웨어 보호 전략으로 대체할 수 있습니다.  이 접근 방식을 사용하면 외부에서 관리되는 보호 기능이 제거되고 랜섬웨어 복원력에서 탐지 및 보호 기능이 구성됩니다.</block>
@@ -1292,9 +1168,7 @@
   <block id="66ec3353b28340ad300fda396a4ba1f1" category="list-text">정책 페이지에서 할당하려는 정책의 아래쪽 화살표를 선택하여 세부 정보를 검토합니다.</block>
   <block id="bb5447070c795a6e8d29fa9cd98a5127" category="list-text">할당하려는 정책을 선택하세요.</block>
   <block id="29864b11a88d292065fabaefa9c7fd21" category="list-text">*보호*를 선택하여 변경을 완료하세요.</block>
-  <block id="9ecdceb343294a7a296ceead052c3db6" category="section-title">더 쉬운 보호를 위해 그룹 파일 공유</block>
   <block id="57f424e2ea0a409d7e6664f904a599fd" category="paragraph">파일 공유를 보호 그룹으로 그룹화하면 데이터 자산을 보호하기가 더 쉬워집니다.  랜섬웨어 복원력은 각 볼륨을 개별적으로 보호하는 대신, 그룹의 모든 볼륨을 동시에 보호할 수 있습니다.</block>
-  <block id="d141654ebee063c768e96358b16f0fc1" category="paragraph">보호 상태(즉, 보호되지 않는 그룹과 보호되는 그룹)에 관계없이 그룹을 만들 수 있습니다.  보호 그룹에 보호 정책을 추가하면 새 보호 정책이 SnapCenter 와 NetApp Backup and Recovery에서 관리하는 정책을 포함한 모든 기존 정책을 대체합니다.</block>
   <block id="c0083e031f0cf112f85b91ba1e7e9ede" category="list-text">보호 페이지에서 *보호 그룹* 탭을 선택합니다.</block>
   <block id="eff1f461a10b29d3af110ea7c19ed170" category="inline-image-macro">보호 그룹 페이지</block>
   <block id="eafdfecbaead6d931ea739364927dcc6" category="paragraph"><block ref="eafdfecbaead6d931ea739364927dcc6" category="inline-image-macro-rx" type="image"></block></block>
@@ -1306,7 +1180,6 @@
   <block id="e6cd86d61f4639c8a27006c6c29b3e9f" category="list-text">*다음*을 선택하세요.</block>
   <block id="f7ba12bb96df2ae9d69ffbf1bc2af6bb" category="inline-image-macro">보호 그룹 추가 - 정책 페이지</block>
   <block id="a739b6145911af1f850b745cae737475" category="paragraph"><block ref="a739b6145911af1f850b745cae737475" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d5fc4bf8c0e9a03cea6fbde26d8608f2" category="list-text">이 그룹에 대한 보호를 관리하는 정책을 선택하세요.</block>
   <block id="0fc76de5572d1186f1358665dff6076f" category="list-text">보호 그룹에 대한 선택 사항을 검토합니다.</block>
   <block id="eda3b9c0a863dbdeae5ac8cceaa9106b" category="section-title">그룹 보호 편집</block>
   <block id="109a3a62d5a108a8bab007233de0c046" category="paragraph">기존 그룹의 탐지 정책을 변경할 수 있습니다.</block>
@@ -1333,7 +1206,6 @@
   <block id="b7c78f5e474c6b8d64bb9440e0c2207c" category="section-title">랜섬웨어 보호 전략으로 보호되는 워크로드 보기</block>
   <block id="74c3d5e9f3c5f4a3eb1732ac96ae76d8" category="paragraph">랜섬웨어 보호 전략을 삭제하기 전에 해당 전략으로 보호되는 워크로드를 확인하는 것이 좋습니다.</block>
   <block id="ce1be6d505f661c5110f1445e0bf19ba" category="paragraph">전략 목록에서 워크로드를 볼 수도 있고, 특정 전략을 편집할 때도 워크로드를 볼 수 있습니다.</block>
-  <block id="295dd599e58bed61c814cf2cc588d597" category="list-title">전략 목록을 볼 때의 단계</block>
   <block id="90f081941b9ec4d54a22065d524e3c77" category="list-text">보호 페이지에서 *보호 전략 관리*를 선택합니다.</block>
   <block id="5c5c4c2893639638b243a5ebcf096a91" category="paragraph">랜섬웨어 보호 전략 페이지에는 전략 목록이 표시됩니다.</block>
   <block id="b4591df76e4afaf6201f5ab62904e7c9" category="inline-image-macro">랜섬웨어 보호 전략 화면은 전략 목록을 보여줍니다.</block>
@@ -1458,13 +1330,10 @@
   <block id="9e0c2bff29b02cc0054b8ebf63b422d9" category="list-text">대시보드 또는 다른 페이지에서 *새로 고침*을 선택하세요.<block ref="94d384894f036157c348eadc55c40952" category="inline-image-macro-rx" type="image"></block> 보고서에 표시될 데이터를 새로 고치려면 오른쪽 상단의 옵션을 선택하세요.</block>
   <block id="4263eebb7cfbc2a50797df9b351df75d" category="list-text">NetApp 랜섬웨어 복원력 메뉴에서 *보고서*를 선택합니다.</block>
   <block id="09121bb3cb936ab87dd837c1fd8da18a" category="list-text">*보고서* 옵션을 선택한 경우 미리 구성된 파일 이름 중 하나를 선택하고 *다운로드*를 선택합니다.</block>
-  <block id="46107bedbdb80381c54e30f3e457799c" category="summary">Ransomware Resilience에서 백업 대상, 위협 탐지, Data Infrastructure Insights Workload Security에 대한 연결을 포함한 여러 옵션을 구성할 수 있습니다.</block>
   <block id="9aa6ed30a3e0d803a1b8b079e0b8d650" category="doc">NetApp 랜섬웨어 복원력에서 보호 설정 구성</block>
-  <block id="bf5b382ecbd03d433a3417b0380fe861" category="paragraph">*설정* 옵션에 액세스하여 백업 대상을 구성하고, 외부 보안 및 이벤트 관리(SIEM) 시스템으로 데이터를 보내고, 공격 준비 훈련을 실시하고, 워크로드 검색을 구성하거나, Data Infrastructure Insights 워크로드 보안에 대한 연결을 구성할 수 있습니다.</block>
   <block id="105c4d7cf6704d10a27fac5acd7333a3" category="paragraph">*설정 페이지에서 무엇을 할 수 있나요?*  설정 페이지에서 다음 작업을 수행할 수 있습니다.</block>
   <block id="2fdebc69dc6e7b0ee210d7c727cf37e2" category="list-text">랜섬웨어 공격을 시뮬레이션하기 위해 준비 훈련을 실시하고 시뮬레이션된 랜섬웨어 경고에 대응합니다. 자세한 내용은 다음을 참조하십시오. <block ref="764586bbfc596fce1f2309fe8b2a42c0" category="inline-link-macro-rx"></block> .</block>
   <block id="3fdd6341b0ef86488ae1a773932c96c7" category="list-text">워크로드 검색을 구성합니다.</block>
-  <block id="718603566d80257fc4d2cf4a1edeb8f6" category="list-text">랜섬웨어 알림에서 의심되는 사용자 정보를 확인하려면 Data Infrastructure Insights Workload 보안에 대한 연결을 구성하세요.</block>
   <block id="d9e0cef30d1fd79b64dd0675b6e2eb12" category="list-text">백업 대상을 추가합니다.</block>
   <block id="43360d747c31106b5dbf428088f9fabc" category="list-text">보안 및 이벤트 관리 시스템(SIEM)을 연결하여 위협 분석 및 감지를 수행하세요.  위협 감지를 활성화하면 위협 분석을 위해 SIEM으로 데이터가 자동으로 전송됩니다.</block>
   <block id="f6de47008760d29836d5758a5a06bf0f" category="section-title">설정 페이지에 직접 액세스하세요</block>
@@ -1484,21 +1353,6 @@
   <block id="4c624f22bdf5c52da245d3b038c2b92e" category="list-text">워크로드를 검색하려는 시스템을 선택하거나 표 상단의 상자를 선택하여 검색된 모든 워크로드 환경에서 워크로드를 검색합니다.</block>
   <block id="9f9e31c32e5b1d13d9371a818f0a6ee0" category="list-text">필요에 따라 다른 시스템에도 이 작업을 수행하세요.</block>
   <block id="04abb68cc3e6cbd75c6183768d3cdb47" category="list-text">*검색*을 선택하면 Ransomware Resilience가 선택한 콘솔 에이전트에서 자동으로 새 워크로드를 검색합니다.</block>
-  <block id="66dc88ca1b2441158c6c8bec79aa9ac4" category="section-title">Data Infrastructure Insights Workload security에 연결하여 의심되는 비정상적인 사용자 동작을 확인하세요.</block>
-  <block id="77064f9b84747c04bb6a542e17d163a0" category="paragraph">Ransomware Resilience에서 의심되는 비정상적인 사용자 동작에 대한 세부 정보를 보려면 먼저 Data Infrastructure Insights Workload 보안 시스템에 대한 연결을 구성해야 합니다.</block>
-  <block id="60b02588d12ca7057fb1416dc0023ff3" category="section-title">Data Infrastructure Insights Workload 보안 시스템에서 API 액세스 토큰을 얻습니다.</block>
-  <block id="58816bcdfdf650ed5aa615e9d74f586b" category="paragraph">Data Infrastructure Insights 워크로드 보안 시스템에서 API 액세스 토큰을 얻습니다.</block>
-  <block id="03ab4b9815985b09fd8c96f61bb7675d" category="list-text">Data Infrastructure Insights 워크로드 보안 시스템에 로그인합니다.</block>
-  <block id="5f46514efd9c0d916be8dfa15dc58a4e" category="list-text">왼쪽 탐색 메뉴에서 *관리자* &gt; *API 액세스*를 선택합니다.</block>
-  <block id="099e2aab53eb91e59987566a9a47e5e4" category="inline-image-macro">Data Infrastructure Insights 워크로드 보안의 API 액세스 페이지</block>
-  <block id="f379db48be80c68939eeee91968afdc7" category="paragraph"><block ref="f379db48be80c68939eeee91968afdc7" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8543744750bddb60b868a587a9b14d45" category="list-text">API 액세스 토큰을 만들거나 기존 토큰을 사용하세요.</block>
-  <block id="d27c99a2328dca0de41632c1147c3a42" category="list-text">API 액세스 토큰을 복사합니다.</block>
-  <block id="edc8e8eaf404c997fb116a7c6e37197c" category="section-title">Data Infrastructure Insights 워크로드 보안에 연결</block>
-  <block id="8006ffbef82948e2567dbd809f91e513" category="list-text">랜섬웨어 복원력 설정 메뉴에서 *워크로드 보안 연결* 타일을 찾으세요.</block>
-  <block id="0f265823a78c858e83b858d5e6089fce" category="list-text">*연결*을 선택하세요.</block>
-  <block id="94be154b89b2e226e39d03cfb0ee7428" category="list-text">데이터 인프라 워크로드 보안 UI의 URL을 입력하세요.</block>
-  <block id="7b8dea3ad80826211495f59e062f08d1" category="list-text">워크로드 보안에 대한 액세스를 제공하는 API 액세스 토큰을 입력하세요.</block>
   <block id="55483e3219b15f38112442f737a1bf92" category="section-title">백업 대상 추가</block>
   <block id="ca0d9b702b5686b0dbe483b8b038b9d5" category="paragraph">랜섬웨어 복원력은 아직 백업이 없는 워크로드와 아직 백업 대상이 할당되지 않은 워크로드를 식별할 수 있습니다.</block>
   <block id="dc0a4770af38e660c7408d8ac2fac395" category="paragraph">이러한 작업 부하를 보호하려면 백업 대상을 추가해야 합니다.  다음 백업 대상 중 하나를 선택할 수 있습니다.</block>
@@ -1532,7 +1386,6 @@
   <block id="b1e91f0a84f0f9305e8851a4b8f01997" category="list-text">새 버킷을 만들거나, 콘솔에 이미 버킷이 있는 경우 기존 버킷을 선택하거나, 백업을 저장할 자체 버킷을 가져옵니다.</block>
   <block id="56a855406cbfda42b85a81324646467d" category="list-text">AWS 자격 증명에 대한 AWS 계정, 지역, 액세스 키 및 비밀 키</block>
   <block id="f89b96a4c56c3389696f1fe4baa3dcc4" category="inline-link">자체 버킷을 가져오려면 S3 버킷 추가를 참조하세요.</block>
-  <block id="bd5e02837b50534c6b4588c9b3eceae1" category="paragraph"><block ref="a12b2a18b29feb1a563c549f66066e91" category="inline-link-rx"></block> .</block>
   <block id="521a76639f63d09ed430c908a9a25e9c" category="list-text">*암호화*: 새로운 S3 버킷을 생성하는 경우 공급자로부터 받은 암호화 키 정보를 입력하세요.  기존 버킷을 선택한 경우 암호화 정보를 이미 사용할 수 있습니다.</block>
   <block id="ce198ab47cdd40d8a6eec0815f6f77f0" category="paragraph">버킷의 데이터는 기본적으로 AWS 관리 키로 암호화됩니다.  AWS에서 관리하는 키를 계속 사용할 수도 있고, 사용자 고유의 키를 사용하여 데이터 암호화를 관리할 수도 있습니다.</block>
   <block id="f1a5ee5e2368f67503ffeb924c80006a" category="list-text">*네트워킹*: IP 공간을 선택하고 개인 엔드포인트를 사용할지 여부를 선택합니다.</block>
@@ -1546,7 +1399,6 @@
   <block id="dc124b8a418fd7c870b3a36e771113d7" category="section-title">Google Cloud Platform을 백업 대상으로 추가</block>
   <block id="1fc66948429912c7b9127474aca26244" category="paragraph">Google Cloud Platform(GCP)을 백업 대상으로 설정하려면 다음 정보를 입력하세요.</block>
   <block id="89facd2099770d471c8de70fdb5d0651" category="inline-link">Google Cloud의 콘솔 에이전트 설치 옵션</block>
-  <block id="f0c6905f1cc26d53c8d67cb60abe4027" category="paragraph">콘솔에서 GCP 스토리지를 관리하는 방법에 대한 자세한 내용은 다음을 참조하세요.<block ref="58e8d8993b92de50787ab8b6311551f2" category="inline-link-rx"></block> .</block>
   <block id="67b81d6ff44f9fec33d0f8b0b6dd630d" category="paragraph"><block ref="67b81d6ff44f9fec33d0f8b0b6dd630d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9581f4ad188e6563d0593b866d14de7d" category="list-text">*Google Cloud Platform*을 선택하세요.</block>
   <block id="bd1c2ba9cb21ab92548a9a2f4c58a9ca" category="list-text">새로운 버킷을 만듭니다.  액세스 키와 비밀 키를 입력하세요.</block>
@@ -1557,12 +1409,10 @@
   <block id="d12d2643aef9b1e9c87feb8221ada2b4" category="section-title">Microsoft Azure를 백업 대상으로 추가</block>
   <block id="6aca8bb3d0f4710440538d2eeece0805" category="paragraph">Azure를 백업 대상으로 설정하려면 다음 정보를 입력하세요.</block>
   <block id="e15fd4da82957060ab94e2cd7aeac3cc" category="inline-link">Azure 자격 증명 및 Marketplace 구독 관리</block>
-  <block id="838b374c5bedecf07ca37bbc7ec946bb" category="paragraph">콘솔에서 Azure 자격 증명 및 Marketplace 구독을 관리하는 방법에 대한 자세한 내용은 다음을 참조하세요.<block ref="c3ab842969b8ae8c4524e5a064b95cd1" category="inline-link-rx"></block> .</block>
   <block id="2164db8f01d0c0a0dc250abc3b9556f5" category="list-text">*Azure*를 선택하세요.</block>
   <block id="36e7cbe990b9e2387fc7c9ae5968cc95" category="list-text">새 스토리지 계정을 만들거나, 콘솔에 이미 있는 경우 기존 계정을 선택하거나, 백업을 저장할 자체 스토리지 계정을 가져오세요.</block>
   <block id="105c6a0e171f35a3fcfd2d5e644de4e3" category="list-text">Azure 자격 증명에 대한 Azure 구독, 지역 및 리소스 그룹</block>
   <block id="594f3c4c0e3723497fdf8afb28b199a6" category="inline-link">자체 저장소 계정을 가져오려면 Azure Blob 저장소 계정 추가를 참조하세요.</block>
-  <block id="ddca7f5d1622ccfeb5b448f08ebd87ea" category="paragraph"><block ref="aebd37608efe8dd3e591c35533533820" category="inline-link-rx"></block> .</block>
   <block id="73133a52f65d7c4fca9b1303968611d3" category="list-text">*암호화*: 새로운 저장소 계정을 만드는 경우 공급업체에서 제공한 암호화 키 정보를 입력하세요.  기존 계정을 선택한 경우 암호화 정보를 이미 사용할 수 있습니다.</block>
   <block id="aa78926ffa846539dcb2cc00c9c16981" category="paragraph">기본적으로 계정의 데이터는 Microsoft에서 관리하는 키로 암호화됩니다.  Microsoft에서 관리하는 키를 계속 사용할 수도 있고, 사용자 고유의 키를 사용하여 데이터 암호화를 관리할 수도 있습니다.</block>
   <block id="6c2708162873644f82108cfcad8ae099" category="list-text">선택적으로, 이전에 구성한 Azure 개인 엔드포인트를 사용할지 여부를 선택합니다.</block>
@@ -1634,7 +1484,6 @@
   <block id="fa4157795fdbaed676b0486ebceb9f1a" category="admonition">이는 이전에 만든 사용자 정의 역할입니다.</block>
   <block id="f4de5688569435ae5792856a75a3ed96" category="list-text">*액세스 권한 할당* 필드에서 *사용자, 그룹 또는 서비스 주체*를 선택합니다.</block>
   <block id="ba79e586f6b5202f28597984ee8243b7" category="list-text">*멤버 선택*을 선택하세요.  그런 다음 *랜섬웨어 복원력 센티넬 구성기*를 선택하세요.</block>
-  <block id="eb882a818e0a3cc0adcb1bd7313e9832" category="list-text">*사용자가 할 수 있는 일* 필드에서 *권한 있는 관리자 역할인 소유자, UAA, RBAC(권장)을 제외한 모든 역할을 사용자에게 할당하도록 허용*을 선택합니다.</block>
   <block id="0427238efbd6d8ab4d12c132cb4cae7d" category="list-text">권한을 할당하려면 *검토 및 할당*을 선택하세요.</block>
   <block id="b37c7df6ed28d0c6b82990a40be5956c" category="list-title">애플리케이션에 대한 인증 자격 증명을 입력하는 단계</block>
   <block id="9d4673f4ba59f2e834f5cc5a15b8a533" category="list-text">자격 증명을 입력하세요:</block>
@@ -1852,33 +1701,26 @@
   <block id="16ec862fdbc31bf15f7d944ad60dd33f" category="section-title">2024년 7월 1일</block>
   <block id="3ad6a80bb44b13a7ad34ad835b0166d5" category="paragraph">이 릴리스에서는 NetApp 영업 담당자로부터 받는 NetApp 라이선스 파일(NLF)인 BYOL 라이선스를 사용할 수 있습니다.</block>
   <block id="a0f248fceae83613cf99c651e3c24be5" category="inline-link">라이선싱 설정에 대해 자세히 알아보세요</block>
-  <block id="17f6ba003825118fb67d19c8c26be794" category="paragraph"><block ref="36f38233d2460bc4dacb6b4bd4fd46ab" category="inline-link-rx"></block> .</block>
   <block id="731d998f19bf5dc5e302b024a5e269ae" category="section-title">파일 수준에서 애플리케이션 작업 부하 복원</block>
   <block id="3ca66b2ea6d0090926c6ed42102cd321" category="paragraph">파일 수준에서 애플리케이션 워크로드를 복원하기 전에 이제 공격으로 인해 영향을 받았을 수 있는 파일 목록을 보고 복원하려는 파일을 식별할 수 있습니다.  BlueXP ransomware protection 사용하여 복원할 파일을 선택하거나, 알림으로 영향을 받은 모든 파일을 나열한 CSV 파일을 업로드하거나, 복원할 파일을 수동으로 지정할 수 있습니다.</block>
   <block id="f117dfa6c0387d743ec4a20f0d5de0bc" category="admonition">이 릴리스에서는 계정의 모든 BlueXP 커넥터가 Podman을 사용하지 않는 경우 단일 파일 복원 기능이 활성화됩니다.  그렇지 않으면 해당 계정에서는 비활성화됩니다.</block>
   <block id="a73c37f93df66de7bad711d109e97dec" category="section-title">영향을 받은 파일 목록 다운로드</block>
   <block id="2054cf1c5fa9dc941ee8bea29d93f66c" category="paragraph">파일 수준에서 애플리케이션 워크로드를 복원하기 전에 이제 알림 페이지에 액세스하여 영향을 받은 파일 목록을 CSV 파일로 다운로드한 다음 복구 페이지를 사용하여 CSV 파일을 업로드할 수 있습니다.</block>
   <block id="eb7455ff51d7f3745fb801aa3ad0fb2a" category="inline-link">애플리케이션을 복원하기 전에 영향을 받은 파일을 다운로드하는 방법에 대해 자세히 알아보세요.</block>
-  <block id="2b133b12308ff6cab26bdc5342a3372d" category="paragraph"><block ref="008791716c908b75ddd12a1a3f620fa8" category="inline-link-rx"></block> .</block>
   <block id="16a3ef0c0012d6ecafe00aeaff08d20c" category="section-title">보호 계획 삭제</block>
   <block id="0e7f928ba1ebfe3d5652a71f58c576d8" category="paragraph">이 릴리스를 통해 랜섬웨어 보호 전략을 삭제할 수 있습니다.</block>
   <block id="5bc0cd3e3204e2ab72bd03661373648f" category="inline-link">작업 부하 보호 및 랜섬웨어 보호 전략 관리에 대해 자세히 알아보세요.</block>
-  <block id="20eb1918e9de308789133c5a0b0cc2c4" category="paragraph"><block ref="88ddee768f79e382777baf84277fe57c" category="inline-link-rx"></block> .</block>
   <block id="8009eebf05fd33b87750f8b4048986f7" category="section-title">2024년 6월 10일</block>
   <block id="c9b85bdf743e168e0a60d3d8ceade783" category="section-title">기본 스토리지의 스냅샷 복사 잠금</block>
   <block id="93ccf285c6fa8656f11faf8af7e16799" category="paragraph">이 옵션을 활성화하면 랜섬웨어 공격이 백업 저장소 대상까지 침투하더라도 일정 기간 동안 스냅샷 복사본을 수정하거나 삭제할 수 없도록 기본 저장소에 잠급니다.</block>
   <block id="693cf7ee0375c87d1ecc02615f651ebe" category="inline-link">랜섬웨어 보호 전략에서 워크로드 보호 및 백업 잠금 활성화에 대해 자세히 알아보세요.</block>
-  <block id="d9e97b4dacf8789a452df06f4739d3b7" category="paragraph"><block ref="691f168695c0ebf6c9e1bf6093933aac" category="inline-link-rx"></block> .</block>
   <block id="4b5a2b3b60f0e79d9138e24b2d5f4f01" category="section-title">Microsoft Azure용 Cloud Volumes ONTAP 지원</block>
   <block id="a203cdf1cc6cc00fa137d9ce75f23d27" category="paragraph">이 릴리스에서는 AWS용 Cloud Volumes Cloud Volumes ONTAP 과 온프레미스 ONTAP NAS 외에도 Microsoft Azure용 Cloud Volumes Cloud Volumes ONTAP 시스템으로 지원합니다.</block>
   <block id="6b9ec885733dcee16db8c4d8dde6312a" category="inline-link">Azure에서 Cloud Volumes ONTAP 대한 빠른 시작</block>
-  <block id="17223b00f9d3a714622f5df95956564b" category="paragraph"><block ref="17223b00f9d3a714622f5df95956564b" category="inline-link-rx"></block></block>
   <block id="8aea370efa0da7f8c985a03488d3b9a7" category="inline-link">BlueXP ransomware protection 에 대해 알아보세요</block>
-  <block id="41e5a42a8cc2023ceb0f8dd06cce7a27" category="paragraph"><block ref="5a80707c96309e25f4c73aee7d2327b1" category="inline-link-rx"></block> .</block>
   <block id="24fe52a2365d38c875f0bcf11a7463c6" category="section-title">Microsoft Azure가 백업 대상으로 추가되었습니다.</block>
   <block id="cd9970a99d092fa49bfe0f1cf5ee4b7c" category="paragraph">이제 AWS 및 NetApp StorageGRID 와 함께 Microsoft Azure를 백업 대상으로 추가할 수 있습니다.</block>
   <block id="8e84b1daf78912b246a0f51f49a81be6" category="inline-link">보호 설정을 구성하는 방법에 대해 자세히 알아보세요.</block>
-  <block id="a5074ce00bd12388aded816f7d17bc0b" category="paragraph"><block ref="8490e5084c846c3f615579ffada71b2e" category="inline-link-rx"></block> .</block>
   <block id="5e76a23879d0e6f7325f31678e623972" category="section-title">2024년 5월 14일</block>
   <block id="c03b667390566320b1f84fd433ac2cb0" category="section-title">라이센스 업데이트</block>
   <block id="fd480049706571e64359cf4351f9fcbc" category="paragraph">90일 무료 체험판에 가입해보세요.  곧 Amazon Web Services Marketplace에서 사용량에 따라 요금을 지불하는 구독을 구매하거나 자체 NetApp 라이선스를 가져올 수 있게 됩니다.</block>
@@ -1887,30 +1729,24 @@
   <block id="0b1d09e292577ba6653f7e9933b4bc18" category="section-title">작업량 세부 정보</block>
   <block id="ea68074e88ed0ee034f46a22da4207e3" category="paragraph">이번 릴리스에서는 보호 및 기타 페이지에서 워크로드 정보에 대한 자세한 내용을 제공하여 워크로드 보호 평가를 개선했습니다.  작업 부하 세부 정보에서 현재 할당된 정책을 검토하고 구성된 백업 대상을 검토할 수 있습니다.</block>
   <block id="e959f6b23824b1ea02ac36779938412d" category="inline-link">보호 페이지에서 작업 세부 정보 보기에 대해 자세히 알아보세요.</block>
-  <block id="f51a97d186491b354b8046c13692a070" category="paragraph"><block ref="59ecb8b9925d0039512c75c461b0b86c" category="inline-link-rx"></block> .</block>
   <block id="8d99eb044387ccaf47ae81f4bc0e655c" category="section-title">애플리케이션 일관성 및 VM 일관성 보호 및 복구</block>
   <block id="2d27a1cb1cddcea603af3821a038c473" category="paragraph">이제 NetApp SnapCenter 소프트웨어를 사용하여 애플리케이션 일관성 보호를 수행하고 SnapCenter Plug-in for VMware vSphere 사용하여 VM 일관성 보호를 수행하여 나중에 복구가 필요할 경우 잠재적인 데이터 손실을 방지하기 위해 조용하고 일관된 상태를 달성할 수 있습니다.  복구가 필요한 경우 애플리케이션이나 VM을 이전에 사용 가능한 상태로 복원할 수 있습니다.</block>
   <block id="ee689c35077ba98079c7b0a4f05a6dc5" category="inline-link">워크로드 보호에 대해 자세히 알아보세요</block>
-  <block id="928fea0953d8c6c88422d673f9e9c5e3" category="paragraph"><block ref="140488255a280124a6e845e64767d54f" category="inline-link-rx"></block> .</block>
   <block id="2ffdf2b6c5684e4c6c9a1519e96a8cdd" category="section-title">랜섬웨어 보호 전략</block>
   <block id="3dcd2442b05cfc8943340d27e543c8b8" category="paragraph">워크로드에 스냅샷이나 백업 정책이 없는 경우 랜섬웨어 보호 전략을 만들 수 있습니다. 여기에는 이 서비스에서 만드는 다음 정책이 포함될 수 있습니다.</block>
   <block id="bdadcbba411cf56b92967e5b0248cc77" category="list-text">탐지 정책</block>
   <block id="a25458513b834667ae92c65418ac8918" category="section-title">위협 탐지</block>
   <block id="6f39a651bab312935acf07a9f7b3905c" category="paragraph">이제 타사 보안 및 이벤트 관리(SIEM) 시스템을 사용하여 위협 감지 기능을 사용할 수 있습니다.  대시보드에는 이제 설정 페이지에서 구성할 수 있는 "위협 감지 활성화"에 대한 새로운 권장 사항이 표시됩니다.</block>
   <block id="10bc4591a9635a8100fbcf18a580cc29" category="inline-link">설정 옵션 구성에 대해 자세히 알아보세요</block>
-  <block id="119863034bfc7ae6b0e2d324ec3da549" category="paragraph"><block ref="fa172403ab7c635a07324b1168d8ce19" category="inline-link-rx"></block> .</block>
   <block id="f5e987cac9511e003e20769dfebfed7c" category="section-title">거짓 양성 경고 해제</block>
   <block id="6131af6894f63b64bad9d4dabbbfd577" category="paragraph">이제 알림 탭에서 거짓 양성 결과를 무시하거나 데이터를 즉시 복구할지 결정할 수 있습니다.</block>
   <block id="b439d3ca10048f7d11cd05477ca961a7" category="inline-link">랜섬웨어 경고에 대응하는 방법에 대해 자세히 알아보세요</block>
-  <block id="e7e38bb442294e991be246059534377b" category="paragraph"><block ref="b68da660865dc415a1fefb8516e82d73" category="inline-link-rx"></block> .</block>
   <block id="91d938cdf573e3f658140e8b3c5ee2c3" category="section-title">감지 상태</block>
   <block id="a45430437759fefd9c1fc57f741d6de7" category="paragraph">보호 페이지에 새로운 감지 상태가 나타나 작업 부하에 적용된 랜섬웨어 감지 상태를 보여줍니다.</block>
   <block id="af255af71067c5961f87ea2321b69295" category="inline-link">작업 부하 보호 및 보호 상태 보기에 대해 자세히 알아보세요.</block>
-  <block id="df142910ec0f256cf3fe94834edd616c" category="paragraph"><block ref="2db9e604787e93c0ca53ebeb4c1a3e79" category="inline-link-rx"></block> .</block>
   <block id="fce32b147d3fc1e111905c3a3bf6fd69" category="section-title">CSV 파일 다운로드</block>
   <block id="d614bc77098be49e16d933a345b13c92" category="paragraph">보호, 알림 및 복구 페이지에서 CSV 파일*을 다운로드할 수 있습니다.</block>
   <block id="ca8c09727e8b36d15981c9455d697516" category="inline-link">대시보드 및 기타 페이지에서 CSV 파일을 다운로드하는 방법에 대해 자세히 알아보세요.</block>
-  <block id="db81907bf6476a20c8b94b94556f627f" category="paragraph"><block ref="29cf990dea934b0f767d4567074aaff5" category="inline-link-rx"></block> .</block>
   <block id="6758a0bf77df1c4e4729d20133a2e170" category="section-title">문서 링크</block>
   <block id="ca0357e519e49764e6ebe9d52a39e2cd" category="paragraph">이제 문서 보기 링크가 UI에 포함되었습니다.  대시보드 세로 *작업*에서 이 문서에 액세스할 수 있습니다.<block ref="03b376f37073f981f38dc4d6f450c046" category="inline-image-macro-rx" type="image"></block> 옵션.  릴리스 노트에서 세부 정보를 보려면 *새로운 기능*을 선택하고, BlueXP ransomware protection 설명서 홈페이지를 보려면 *설명서*를 선택하세요.</block>
   <block id="ede1cce9f240fed5ecc4264bd699cee1" category="section-title">BlueXP backup and recovery</block>
@@ -1920,19 +1756,14 @@
   <block id="592997dde366d5775e7e052816854f74" category="section-title">2024년 3월 5일</block>
   <block id="43ce8197249a120a136331aaa3e00c1d" category="section-title">보호 정책 관리</block>
   <block id="cf69a03aa5287886f0e8d3de1a6334cc" category="inline-link">정책 관리에 대해 자세히 알아보세요</block>
-  <block id="8e8468693b168546acf5c9462495f83d" category="paragraph">미리 정의된 정책을 사용하는 것 외에도 이제 정책을 만들 수 있습니다.<block ref="b9442a8e5462552f8e91e8150e2b9935" category="inline-link-rx"></block> .</block>
   <block id="e10d5c21c44525f1b19a48dfb4a89445" category="section-title">보조 저장소(DataLock)의 불변성</block>
   <block id="ac623dda99022aa586562b6804c2f1b8" category="inline-link">보호 정책 생성에 대해 자세히 알아보세요</block>
-  <block id="54621bce5c5edbad82ad98711766da7e" category="paragraph">이제 개체 저장소에서 NetApp DataLock 기술을 사용하여 보조 저장소에서 백업을 변경할 수 없게 만들 수 있습니다.<block ref="a216e61ae0b0740b7be8287c615fa066" category="inline-link-rx"></block> .</block>
   <block id="643b17dc026d0c0147a8a815056a5f49" category="section-title">NetApp StorageGRID 에 자동 백업</block>
   <block id="732b7b17a4dd9ae4a4359cee4b9b391d" category="inline-link">백업 대상 구성에 대해 자세히 알아보세요</block>
-  <block id="523d7f963aa74548c8ce926b15835e7d" category="paragraph">AWS를 사용하는 것 외에도 이제 StorageGRID 백업 대상으로 선택할 수 있습니다.<block ref="563323d59981c5d050897f7686a7f9d8" category="inline-link-rx"></block> .</block>
   <block id="62214a27f426a0d88db3ab38949106b2" category="section-title">잠재적 공격을 조사하기 위한 추가 기능</block>
   <block id="9e599e81fbf58f35a4e8ea8d4d14b0f6" category="inline-link">감지된 랜섬웨어 경고에 대응하는 방법에 대해 자세히 알아보세요.</block>
-  <block id="f6d0e776adfe1ac52ce17e76a4f5e7a4" category="paragraph">이제 탐지된 잠재적 공격을 조사하기 위해 더욱 자세한 법의학적 세부 정보를 볼 수 있습니다.<block ref="707fb9c7332f6aa933e8445c28830d7a" category="inline-link-rx"></block> .</block>
   <block id="1308d0f084fdb39839541aaf971b23ff" category="section-title">복구 프로세스</block>
   <block id="bda01efb679b0ca92bc4e76a23294328" category="inline-link">랜섬웨어 공격으로부터 복구하는 방법에 대해 자세히 알아보세요(사고가 해결된 후)</block>
-  <block id="44d292cf2891eaa1e67cfa3d9504b58b" category="paragraph">복구 프로세스가 향상되었습니다.  이제 워크로드에 대해 볼륨별로 또는 모든 볼륨을 복구할 수 있습니다.<block ref="a36a14eacaa464cdf2747d859c29de55" category="inline-link-rx"></block> .</block>
   <block id="69483d973a063c873a5a66f6edcc241c" category="section-title">2023년 10월 6일</block>
   <block id="ae98c30c78f5642e201d040b9e0b468c" category="paragraph">BlueXP ransomware protection 서비스는 데이터를 보호하고, 잠재적인 공격을 탐지하고, 랜섬웨어 공격으로부터 데이터를 복구하는 SaaS 솔루션입니다.</block>
   <block id="978aa39e867fbe7badda46cb2834d11f" category="paragraph">미리보기 버전의 경우, 이 서비스는 BlueXP 조직 전체에서 온프레미스 NAS 스토리지의 Oracle, MySQL, VM 데이터 저장소 및 파일 공유의 애플리케이션 기반 워크로드와 AWS의 Cloud Volumes ONTAP (NFS 프로토콜 사용)을 개별적으로 보호하고 Amazon Web Services 클라우드 스토리지에 데이터를 백업합니다.</block>
@@ -1944,9 +1775,7 @@
   <block id="0f1fe9be7b1943507afe2ef939f76423" category="list-text">랜섬웨어 공격에 대비하여 워크로드 상태를 모니터링하여 데이터 이상을 발견합니다.</block>
   <block id="12bcfe65b7fb19c1dbe60c374599be1e" category="list-text">랜섬웨어 사고가 업무에 미치는 영향을 신속하게 평가하세요.</block>
   <block id="f4d7f013aee4ff8dd19b36611ba3f3c6" category="list-text">저장된 데이터에서 재감염이 발생하지 않도록 데이터를 복원하고 랜섬웨어 사고로부터 지능적으로 복구하세요.</block>
-  <block id="43bb1b63202e87a189cec4dfa6227457" category="sidebar">NetApp Ransomware Resilience는 랜섬웨어 보호, 탐지 및 복구를 위한 오케스트레이션 서비스입니다.  랜섬웨어 복원력은 온프레미스 NAS 스토리지의 Oracle, MySQL, VM 데이터 저장소 및 파일 공유의 애플리케이션 기반 작업 부하와 Amazon Web Services의 Cloud Volumes ONTAP (NFS 및 CIFS 프로토콜 사용)을 콘솔 조직 전반에서 보호하고 Amazon Web Services(AWS) 클라우드 스토리지 또는 NetApp StorageGRID 에 데이터를 백업합니다.</block>
   <block id="89be776e54ba13993f6011aaa17a0ac9" category="sidebar">NetApp 랜섬웨어 복원력 설명서</block>
-  <block id="9c63bda8b06fcd8df4c782363b522552" category="sidebar">NetApp Ransomware Resilience는 랜섬웨어 보호, 탐지 및 복구를 위한 오케스트레이션 서비스입니다.  랜섬웨어 복원력은 NetApp 콘솔 조직 전반의 온프레미스 NAS 스토리지와 Amazon Web Services의 Cloud Volumes ONTAP (NFS 및 CIFS 프로토콜 사용)에 있는 Oracle, MySQL, VM 데이터 저장소 및 파일 공유의 애플리케이션 기반 워크로드를 보호하고 Amazon Web Services(AWS) 클라우드 스토리지 또는 NetApp StorageGRID 에 데이터를 백업합니다.</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하기</block>
   <block id="7b72a3240bb708a49cf4a635f75c8ca9" category="sidebar">랜섬웨어 복원력의 새로운 소식</block>
   <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="sidebar">필수 조건</block>
@@ -1971,4 +1800,235 @@
   <block id="f8a7dc43864435cb9b522a28b586e556" category="sidebar">랜섬웨어 공격으로부터 복구</block>
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">자주 묻는 질문</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식과 지원</block>
+  <block id="d1b55f5f1fa56ec4203bc496f8d5ae0a" category="paragraph">*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 또는 랜섬웨어 복원력 뷰어 역할이 필요합니다.<block ref="51ffd1668f46b7e360e102a30faa6c5f" category="inline-link-rx"></block> .</block>
+  <block id="f4deedd842ba0d6030bcfc6f8297d06a" category="paragraph">*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. <block ref="b8bf795c21c8bcdf6af09fd1f4de58b8" category="inline-link-macro-rx"></block> .</block>
+  <block id="8b37e5b51ed96f5c46949a0dbdc5d195" category="paragraph">*필수 콘솔 역할* 이 작업을 수행하려면 랜섬웨어 복원력 사용자 동작 관리자 역할이 필요합니다. <block ref="c63b2c8d20974c1834bc75207be469f3" category="inline-link-macro-rx"></block> .</block>
+  <block id="a54b344e834fd0b16ead656bdeef0a91" category="paragraph"><block ref="e97e75c9449e5f1b8a8a75ebff67b7c3" category="inline-link-rx"></block> .</block>
+  <block id="b6e5a2afe0652e635d34c755069996c1" category="paragraph"><block ref="df4243c8490e7ac0935cb3c37b5c0dd3" category="inline-link-rx"></block> .</block>
+  <block id="77828430fb1afe32722790a173c51e53" category="paragraph">각 역할이 수행할 수 있는 작업에 대한 자세한 내용은 다음을 참조하세요.<block ref="5ed990007d3942ee85d552217fd4b2da" category="inline-link-rx"></block> .</block>
+  <block id="23b0ae69fc6a872db07495bf542d4d13" category="paragraph"><block ref="d93121439cb3123f037805bd668a77b7" category="inline-link-rx"></block> .</block>
+  <block id="365282835fe2185be49e22eccc151d34" category="paragraph">참조하다<block ref="85c64411e31b00f7bee1a78a00529706" category="inline-link-rx"></block> .</block>
+  <block id="e25cb74a977c264db490ebb07eba7a44" category="paragraph"><block ref="8bcdeaa38a69cce5cfa3ac7429e480b6" category="inline-link-rx"></block> .</block>
+  <block id="5b647f592bce019e9ea00dd644f72e0d" category="paragraph"><block ref="3233a18d80c5120d82dff0bcc15fb4c4" category="inline-link-rx"></block> .</block>
+  <block id="677b7972061ed8bb90c977ad9ad49d92" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="ebd42c70ce1701ba9ce66b6ca16ee347" category="inline-link-rx"></block> .</block>
+  <block id="08b63f95be817ba2f61ef2fc37b9548a" category="paragraph">참조하다<block ref="e6869105755f99c5ecb515542ad18d68" category="inline-link-rx"></block> .</block>
+  <block id="ffbd6ced4cfd19806457928826e77f9d" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="680a07f1320ce65c31e5161379886639" category="inline-link-rx"></block> .</block>
+  <block id="857887f06f72ff52d43b1b45b93b095b" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="2b6f1d047671d8a5fd811accbf6225b2" category="inline-link-rx"></block> 그리고<block ref="c0c89bd8f61f1facac3ae48e69a0ac33" category="inline-link-rx"></block> .</block>
+  <block id="fa5fdf6437c8f041e577f03d2886feb7" category="paragraph">권한에 대한 자세한 내용은 다음을 참조하세요.<block ref="bae933e2ecf3f9d4c80618fdd19f0a12" category="inline-link-rx"></block> .</block>
+  <block id="90f9ae6ca21dd13979085a7ce12c30fb" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="0e61d2375267610913b69353158784eb" category="inline-link-rx"></block> .</block>
+  <block id="8c15a7a1b990daf1c67965c3409291a0" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="850bf291deb03a29bea4824c43e8b433" category="inline-link-rx"></block> .</block>
+  <block id="74969aaacd3e898ffb289ab18b5802e2" category="paragraph">지원되는 옵션에 대한 정보는 다음을 참조하세요.<block ref="c05ac23ab96ba518082f01b1b08e8e95" category="inline-link-rx"></block> .</block>
+  <block id="e730cca4cd272ec01ca9b83307bce0ea" category="paragraph"><block ref="56ddaed99a22a4135c2249926212e08e" category="inline-link-rx"></block> .</block>
+  <block id="ce9a399316c0383caf8dae43d9de270f" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="c6fe8309407496782517b1f78c419c07" category="inline-link-rx"></block> .</block>
+  <block id="7e42707703b4d067b548f10acbf4df99" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="c12ecfc72dc196e054946f32c2360b19" category="inline-link-rx"></block> BlueXP ransomware protection 서비스를 사용하려면 다음을 참조하세요.<block ref="546f381a7c557bb1741d0a7b3184b38d" category="inline-link-rx"></block> .</block>
+  <block id="8b61f628ff6c584959e081dfc4edebb6" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="c4baa86796975d4c7e6a1153b246f3d1" category="inline-link-macro-rx"></block> .</block>
+  <block id="cf51b26fb14f613d642588e747a6409b" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="fe8b859db0e9e0c241fb61d50beda51d" category="inline-link-macro-rx"></block> .</block>
+  <block id="a47ac27491bd173f33b1da537aafa64f" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="5f880b35b82b0cf35578f40dde855e69" category="inline-link-macro-rx"></block> .</block>
+  <block id="8c033e68f21af84a645a65cdb34e6632" category="paragraph">BlueXP ransomware protection 서비스의 이름이 NetApp Ransomware Resilience 로 변경되었습니다.</block>
+  <block id="7c2f2b72d5ae6fd05d7d6047507f2af7" category="paragraph">변경된 사항에 대한 자세한 내용은 다음을 참조하세요.<block ref="55233a601a39d3cf31ec58df3f760d9b" category="inline-link-rx"></block> .</block>
+  <block id="6b815504dd4844974d9ebfb52e0fe4d6" category="section-title">데이터 침해 감지</block>
+  <block id="50558bac19c965c1d55609370fca3199" category="paragraph">랜섬웨어 복원력에는 몇 단계만으로 활성화할 수 있는 새로운 감지 메커니즘이 포함되어 있어 데이터 침해의 조기 지표로 비정상적인 사용자 읽기를 감지합니다.  랜섬웨어 복원력은 과거 데이터에서 예상되는 정상적인 동작 프로필인 과거 기준선을 생성하여 사용자 읽기 이벤트를 수집하고 분석합니다.  새로운 사용자 활동이 이러한 기존 기준에서 크게 벗어나는 경우(예상치 못한 읽기 급증과 의심스러운 읽기 패턴이 결합된 경우) 알림이 생성됩니다.  랜섬웨어 복원력에는 의심스러운 읽기 패턴을 감지하는 AI 모델이 포함되어 있습니다.</block>
+  <block id="287f419ab9030dae6e341b7917dea7b9" category="paragraph">저장 계층에서 ARP를 통한 암호화 감지와 달리, Ransomware Resilience SaaS 서비스에서는 FPolicy 이벤트를 수집하여 사용자 동작 이상을 감지합니다.</block>
+  <block id="666c1c8dca9ff6ef210c57f04d6e84e8" category="inline-link-macro">의심스러운 사용자 활동 감지 활성화</block>
+  <block id="8d2203d70c1b051af0b7ad506cc40474" category="inline-link-macro">비정상적인 사용자 동작 보기</block>
+  <block id="b270269f4d3564626c9860f0f29f2992" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="58d7e66449e28231f244d38ab02cc3e1" category="inline-link-macro-rx"></block> 그리고<block ref="f451eade5eddedc7b8e2af13d9e54fd3" category="inline-link-macro-rx"></block> .</block>
+  <block id="289ddf7ba01fbf8f514dbc2d06a7bf67" category="section-title">추가적으로 의심스러운 사용자 활동 감지</block>
+  <block id="c59946b2a21d389710dcd9b9ad5f618d" category="paragraph">Ransomware Resilience는 데이터 침해 감지 외에도 관찰된 의심스러운 사용자 활동을 기반으로 다음과 같은 알림 유형을 감지합니다.</block>
+  <block id="9f149be55d2ace2f4ef86d2125660c4c" category="list-text">**데이터 파괴 - 잠재적 공격** - 파일 삭제 수가 기존 기준을 초과하면 잠재적 공격의 심각도를 알려주는 알림이 생성됩니다.</block>
+  <block id="b3917e47f33bfc92b2d66abb2a71397c" category="list-text">**의심스러운 사용자 동작 - 잠재적 공격** - 랜섬웨어 공격과 유사한 순서로 읽기, 이름 바꾸기 및 삭제 작업이 관찰되면 잠재적 공격의 심각도를 알려주는 경고가 생성됩니다.</block>
+  <block id="a3e76fe95cb3298fc3fb711993e170f1" category="list-text">**의심스러운 사용자 동작 - 경고** - 파일 활동(읽기, 삭제, 이름 바꾸기 등)의 총 수가 이전 기준을 초과하면 경고 심각도의 알림이 생성됩니다.</block>
+  <block id="b0ba200b30bf16fc357a806132791b75" category="section-title">데이터 침해 감지를 위한 새로운 사용자 역할</block>
+  <block id="badd5c45c49e20368873307ff9e6ffc0" category="paragraph">의심스러운 사용자 활동 알림을 관리하기 위해 Ransomware Resilience는 사용자 파일 활동과 같은 중요한 데이터에 대한 세부적인 액세스를 제공하는 두 가지 새로운 역할을 도입했습니다. 자세한 내용은 다음을 참조하세요. <block ref="acee2fdb33125bc970e8c80226d5f58c" category="inline-link-macro-rx"></block> .</block>
+  <block id="d0f71eee61b39f3ffe00d85759351067" category="paragraph">비정상적인 사용자 행동을 감지하기 위해 Ransomware Resilience는 ONTAP 내의 머신 러닝(ML) 모델인 NetApp Autonomous Ransomware Protection을 사용하여 악성 파일 활동을 감지합니다.  이 모델은 랜섬웨어 복원력 라이선스에 포함되어 있습니다.</block>
+  <block id="a139b69cf2c6a37377eea224685da3f6" category="paragraph">자세히 알아보세요<block ref="6d844886de4fe963e1e4b97f495f829d" category="inline-link-macro-rx"></block> .</block>
+  <block id="f2abd20c3ee58c54298223da2df91335" category="list-text">NetApp 스냅샷 복사본과 백업 정책의 각 볼륨의 현재 보호 수준과 온박스 감지 기능을 검색합니다.  랜섬웨어 복원력은 백업 및 복구, ONTAP 서비스, 자율 랜섬웨어 보호( ONTAP 버전에 따라 ARP 또는 ARP/AI), 정책, 백업 정책, 스냅샷 정책과 같은 NetApp 기술을 사용하여 이러한 보호 태세를 워크로드와 연결합니다.  자세히 알아보세요<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block> ,<block ref="2b1b7f994c6938347657a18d8edc7db7" category="inline-link-rx"></block> , 그리고<block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block> .</block>
+  <block id="deda3c2d38a6ddd631aac3a5864e3f60" category="list-text">ONTAP, 자율 랜섬웨어 보호( ONTAP 버전에 따라 ARP 또는 ARP/AI) 및 FPolicy 기술을 사용하여 관련 워크로드에 공격하는 특정 의심 파일을 파악하고 매핑합니다.</block>
+  <block id="665acc6d2ee48d5efd698763b6fbf735" category="list-text"><block ref="665acc6d2ee48d5efd698763b6fbf735" category="inline-link-rx"></block></block>
+  <block id="d8a8c665f6da963545862e3f1cd5ee11" category="paragraph">이러한 역할은 콘솔 서비스 및 데이터 보호, 워크로드 관리 등의 기타 서비스에 대한 액세스를 관리하는 콘솔 플랫폼 역할에 추가됩니다.  모든 콘솔 플랫폼 역할에 대한 자세한 내용은 다음을 참조하세요.<block ref="70be838599755f5947865c6eb0bd7ba4" category="inline-link-rx"></block> .</block>
+  <block id="d79f191c2ec9abafe65a74f3afd2fd3e" category="paragraph"><block ref="d79f191c2ec9abafe65a74f3afd2fd3e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4cebc30733ea9d8edb38766c837308c0" category="paragraph">모든 NetApp 데이터 서비스에서 이러한 모드에 대한 설명은 다음을 참조하세요.<block ref="9b1c9f23ced4bc12396bbe50ae116f54" category="inline-link-rx"></block> .</block>
+  <block id="43b88b2af5b013930329bb44fd8975ac" category="paragraph">*접근 권한은 어떻게 처리되나요?* <block ref="22d772bd7efbc9b05290308cad908f86" category="inline-link-rx"></block> .</block>
+  <block id="28cfeb7fff7b4f9ab9bf205d7135f788" category="paragraph">이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자 역할이 필요합니다.<block ref="43e60870b1a681df3de2812caf2de958" category="inline-link-rx"></block> .</block>
+  <block id="395a0c83d18cd49c5468e19cda311fa7" category="paragraph">콘솔 에이전트를 추가하려면 다음을 참조하세요.<block ref="552a7d66ccd9c93a9dbc55fd8ef74d52" category="inline-link-rx"></block> .</block>
+  <block id="cf24df78d1accdf72ef41c7c167ba75f" category="list-text">Google Cloud Platform Marketplace를 사용하여 * NetApp Intelligent Services* 및 *Ransomware Resilience*를 구독하세요.</block>
+  <block id="03526a38c80b7c8227cfc738477ed902" category="paragraph">드롭다운 목록에서 NetApp 지원 사이트 계정을 사용할 수 없는 경우<block ref="d3fb432f1a71fdd6fc4568fb070a943a" category="inline-link-rx"></block> .</block>
+  <block id="3973bc267f97fbc53e553dbba08e2ea9" category="admonition">이 메시지는 Licenses and subscriptions 에도 나타납니다.<block ref="a12300a172aa5e6e63382bcb48a8348c" category="inline-link-rx"></block> .</block>
+  <block id="cfdba60f0ede042388dac5205623741d" category="paragraph">랜섬웨어 복원력을 사용하려면 다음 전제 조건을 충족해야 합니다.</block>
+  <block id="cb12a493b17ae7fff08a2132dcea0a98" category="paragraph">참조하다<block ref="f26f3bdec25207bfa60c6d1f2da2fd25" category="inline-link-rx"></block> 그리고<block ref="e6a35e3eadbd084db13ee929315e54c1" category="inline-link-rx"></block> .</block>
+  <block id="5cc74ffa295c128286831c0e8de84cd1" category="paragraph">자세한 라이센스 세부 사항은 다음을 참조하세요.<block ref="11f96aed2a11a318ecdf8f5381ec25fa" category="inline-link-macro-rx"></block> .</block>
+  <block id="90061bb176f3e723f6f2161eafc1901c" category="paragraph">를 참조하세요<block ref="31e1fb669a04af441205b80b4846232f" category="inline-link-rx"></block> 자세한 내용은.</block>
+  <block id="5cef56697a6d71e6aff2b22a00c4c7af" category="list-text">구성<block ref="d9bbd227e022f0885cffd43ad2451352" category="inline-link-rx"></block> AWS에서.</block>
+  <block id="68ecc20acae6ea4ef4f46f3f121ac3b4" category="paragraph">콘솔에서 AWS 스토리지를 관리하는 방법에 대한 자세한 내용은 다음을 참조하세요.<block ref="70667285791ed4c19752f43bea5ffdc1" category="inline-link-rx"></block> .</block>
+  <block id="0f38484f2d620879e026d9da3bae2270" category="list-text">구성<block ref="27747a512f6f56cbb4ced3e7956a6363" category="inline-link-rx"></block> Azure에서.</block>
+  <block id="7363f51674c7094e711e12610dda6d75" category="paragraph">콘솔에서 Azure 저장소를 관리하는 방법에 대한 자세한 내용은 다음을 참조하세요.<block ref="601b92607a7845ad1ccd074ead6ffe48" category="inline-link-rx"></block> .</block>
+  <block id="12dc046a8864682525a9fdbd927c8ed8" category="paragraph">검토<block ref="ed879a10f79cec24f1cff31cb9deb39b" category="inline-link-rx"></block> .</block>
+  <block id="e26826f2ec39df72ffed839fea5c19e9" category="list-text">잠재적인 공격의 심각도를 살펴보세요.</block>
+  <block id="a82587f768afa380a3cf985310780335" category="inline-link-macro">사용자를 차단합니다.</block>
+  <block id="eab63628812531c73d2f750d4a6dad20" category="paragraph">심각도가 사용자가 악의적인 활동을 했다고 의심되는 경우 사용자 이름을 검토하세요.  당신도 할 수 있습니다<block ref="94387481cf2aeadb5711130400ff1590" category="inline-link-macro-rx"></block></block>
+  <block id="965e3caf98e8e0df69529bdc2c5838cc" category="paragraph">*콘솔 역할이 필요합니다* 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자.<block ref="5b95efebf772ec16abdf1053e3a4558b" category="inline-link-rx"></block> .</block>
+  <block id="bb44ab86396f7335c45f2c99c022776c" category="summary">랜섬웨어 복원력이 잠재적인 공격을 감지하면 랜섬웨어 복원력 대시보드에 잠재적인 공격을 알리는 알림이 나타납니다.  이 시점에서 랜섬웨어 복원력 알림 탭에서 잠재적 위험을 살펴봐야 합니다.</block>
+  <block id="0cf61fe483b7c3216a42a15a22e0ef97" category="paragraph">랜섬웨어 복원력이 잠재적인 공격을 감지하면 콘솔 알림 설정에 알림이 나타나고 구성된 주소로 이메일이 전송됩니다.  이메일에는 심각도, 영향을 받는 작업 부하, 랜섬웨어 복원력 *알림* 탭의 알림에 대한 링크에 대한 정보가 포함되어 있습니다.</block>
+  <block id="b170729861af663a30599b6746973b7b" category="admonition">이메일 알림을 구독하려면 다음을 참조하세요.<block ref="99cf5d485b43f483ee8ecf47c33bdf82" category="inline-link-rx"></block> .</block>
+  <block id="9d06719f2534c2ebd6c7bed1fd263123" category="paragraph">알림 탭을 살펴보면 악의적인 활동이나 비정상적인 사용자 동작이 있는지 확인할 수 있습니다.</block>
+  <block id="30cd6d23e33e657384daad5db666d56c" category="inline-link-macro">의심스러운 사용자 활동</block>
+  <block id="92733af7522951b34c707ece97b76dbb" category="paragraph">사용자 수준 감지 기능을 보려면 사용자 활동 에이전트를 구성하고 사용자 동작 감지 기능이 있는 보호 정책을 활성화해야 합니다.  사용자 동작 감지가 활성화되면 *의심스러운 사용자* 열이 알림 대시보드에 나타납니다. 사용자 동작 감지가 활성화되지 않은 경우에는 표시되지 않습니다.  의심스러운 사용자 감지를 활성화하려면 다음을 참조하세요.<block ref="da26800578b610b8b3390e49bb643377" category="inline-link-macro-rx"></block> .</block>
+  <block id="df6951a826abfdd03d428573cabc8a91" category="admonition">NetApp Data Infrastructure Insights (DII) 워크로드 보안을 사용하는 경우 랜섬웨어 복원력에 동일한 워크로드 보안 에이전트를 사용하는 것이 좋습니다.  랜섬웨어 복원력을 위해 별도의 워크로드 보안 에이전트를 배포할 필요는 없지만, 동일한 워크로드 보안 에이전트를 사용하려면 랜섬웨어 복원력 콘솔 조직과 DII 스토리지 워크로드 보안 테넌트 간에 페어링 관계가 필요합니다.  이 페어링을 활성화하려면 계정 담당자에게 문의하세요.</block>
+  <block id="2654c9fc1ffd83d2d016920464872d91" category="section-title">악성 활동 보기</block>
+  <block id="ff74e9f48366f1b4465d1920693ddea8" category="inline-link-macro">랜섬웨어 복원력 설정 구성</block>
+  <block id="f784461c39e5b287f6733d0ee28efad4" category="paragraph">비정상적인 사용자 동작을 확인하기 위해 의심스러운 사용자 감지 기능을 구성한 경우 사용자 수준 데이터를 보고 특정 사용자를 차단할 수 있습니다.  의심스러운 사용자 설정을 활성화하려면 다음을 참조하세요.<block ref="788275b5d10fa192a2bbf25cebb6c38f" category="inline-link-macro-rx"></block> .</block>
+  <block id="ec2349017ee84d143f6965ba0b643c86" category="list-text">콘솔에서 모니터링하는 환경에서 의심되는 사용자의 추가 액세스를 차단하려면 사용자 이름 아래에서 *차단*을 선택합니다.</block>
+  <block id="b0b578b8be1448972010b482195bbda8" category="paragraph">사고를 검토한 후에는 해당 사고가 잠재적인 공격인지 여부를 판단해야 합니다.  실제 위협이 아니라면 무시해도 됩니다.</block>
+  <block id="9dfe1b9e848ef36ab7e53e7c31b9859a" category="cell">VMware vSphere용 SnapCenter 플러그인을 활성화하여 VM 워크로드에 VM 일관성 보호 기능을 할당합니다. <block ref="cc10c371e1aab359fa44a886d5e79433" category="inline-link-macro-rx"></block> .</block>
+  <block id="00735a048dd8a101a0cf04ff8cf7c168" category="paragraph"><block ref="2324d2fecbef2eccb7e03b987d67689b" category="inline-link-macro-rx"></block>AI 기반 자연어 처리를 활용해 상황에 맞는 데이터를 분석하고 분류하여, 규정 준수 요구 사항을 충족하고, 보안 취약성을 탐지하고, 비용을 최적화하고, 마이그레이션을 가속화할 수 있는 실행 가능한 데이터 통찰력을 제공합니다.</block>
+  <block id="c4f1661d1e0ca939d13156f9f3d34d48" category="paragraph">랜섬웨어 복원력 내에서 데이터 분류를 사용하기 전에 다음이 필요합니다.<block ref="c872c876324415ce189a729b6026b061" category="inline-link-macro-rx"></block> .</block>
+  <block id="8b3703ff6ebaa8b98d723211fb1dfc77" category="list-text"><block ref="8b3703ff6ebaa8b98d723211fb1dfc77" category="inline-link-rx"></block></block>
+  <block id="635fecd65bf640e1cce8f31c27a1fbc2" category="list-text"><block ref="635fecd65bf640e1cce8f31c27a1fbc2" category="inline-link-rx"></block></block>
+  <block id="23ca466c11f4192b1b942a142ef1083f" category="list-text"><block ref="23ca466c11f4192b1b942a142ef1083f" category="inline-link-rx"></block></block>
+  <block id="6f70238b9dd1b1b13dcaa8388f9eb830" category="paragraph">랜섬웨어 복원력에서 PII 데이터 스캔은 다음 경우에 사용할 수 있습니다.<block ref="76ec7a4f27737b4abf63f3c2ea7bce9c" category="inline-link-macro-rx"></block> .  데이터 분류는 추가 비용 없이 콘솔의 일부로 제공되며 온프레미스 또는 고객 클라우드에 배포할 수 있습니다.</block>
+  <block id="dd90d4cdb71a18320f3becc35cd530d5" category="list-text">**탐지 정책** 랜섬웨어 위협을 탐지합니다.</block>
+  <block id="aa6ed3da76207281afb017fa59e3a234" category="admonition">데이터 자산의 관리 및 보호를 강화하려면 다음을 생성할 수 있습니다.<block ref="42586d1dae6cc24e336332e3dadf2f9b" category="inline-link-macro-rx"></block> 하나의 전략으로 여러 볼륨을 공동으로 보호합니다.</block>
+  <block id="58adba48bf0678c3abb71d1fdf829602" category="paragraph">워크로드 중요도에 맞춰 사전 정의된 다음 랜섬웨어 복원력 정책 중 하나를 선택할 수 있습니다.</block>
+  <block id="4d293abd3f96b37c9afdf90f01855f8b" category="admonition">**암호화 사용자 확장** 정책은 의심스러운 사용자 동작 감지를 지원하는 유일한 사전 정의된 정책입니다.</block>
+  <block id="0396743cd11b926055aa9c4e3fc5eb14" category="cell">*암호화 사용자 확장*</block>
+  <block id="ddf89136f09ce1edd773dde2cdce8ec9" category="list-text"><block ref="ddf89136f09ce1edd773dde2cdce8ec9" category="inline-link-rx"></block></block>
+  <block id="9aa90d1045ef51cc1be88f6f561fd811" category="list-text"><block ref="9aa90d1045ef51cc1be88f6f561fd811" category="inline-link-rx"></block></block>
+  <block id="3a1b7ef92b9f821158d7a6a8276d337c" category="list-text">랜섬웨어 복원력에서 대시보드로 이동하여 검색 프로세스를 다시 시작합니다.</block>
+  <block id="0d8d979e8f1f220e1b4ca41afbe9262e" category="paragraph">탐지 정책은 다른 서비스에서 이미 활성화된 경우 Autonomous Ransomware Protection 및 FPolicy 보호를 활성화합니다.  자세히 알아보세요<block ref="1b5ca5e6db0400e20efef2d18e2ed058" category="inline-link-macro-rx"></block> ,<block ref="746471c5fd2aae723f0f1e69c0304862" category="inline-link-macro-rx"></block> , 그리고<block ref="e579faf0a14efb59aa4bfe357406413f" category="inline-link-macro-rx"></block> .</block>
+  <block id="0004fcb1621d03d3051ca5a93121a0c9" category="list-text">원하는 탐지 설정을 선택하세요: *암호화 탐지* *의심스러운 사용자 동작 탐지* *의심스러운 파일 확장자 차단*</block>
+  <block id="c716b644cde6bcf010e93cdafcb078a0" category="list-text">**다음**을 선택하세요.</block>
+  <block id="a3de809b15b92430b0a649973defb161" category="inline-link-macro">또는 하나 만드세요</block>
+  <block id="4ba6fce8781481d7a10ccdf42ed8690d" category="list-text">*의심스러운 사용자 동작 감지*를 감지 설정으로 선택한 경우 사용자 활동 에이전트를 선택하거나<block ref="739a3400f03009256dff1eb7cc8f7f4a" category="inline-link-macro-rx"></block> .</block>
+  <block id="8e7f1a46323a19741e1abd05eac8cbb8" category="paragraph">사용자 활동 에이전트는 새로운 데이터 수집기를 호스팅합니다.  랜섬웨어 복원력은 사용자 활동 이벤트를 랜섬웨어 복원력으로 자동으로 전송하여 비정상적인 사용자 행동을 감지하는 데이터 수집기를 생성합니다.</block>
+  <block id="7976453f8009e02e337c120a10100393" category="list-text">선택 사항을 검토하세요.  감지 기능을 활성화하려면 **만들기**를 선택하세요.</block>
+  <block id="1f47983fe74a4f8bc9fa8a9706708fe6" category="list-text">보호 전략에 사용자 동작 감지가 포함된 경우 환경에서 새 데이터 수집기를 호스팅할 사용자 활동 에이전트를 선택하세요.  랜섬웨어 복원력은 사용자 활동 이벤트를 랜섬웨어 복원력으로 자동으로 전송하여 비정상적인 사용자 행동을 감지하는 데이터 수집기를 생성합니다.</block>
+  <block id="d3bc7420d7e89fa51ba74ffa21c65564" category="section-title">보호 그룹 생성</block>
+  <block id="ceb5e85b23125d83e7e34d6d2cd53a46" category="paragraph">보호 상태(즉, 보호되지 않는 그룹과 보호되는 그룹)에 관계없이 그룹을 만들 수 있습니다.  보호 그룹에 보호 정책을 추가하면 새 보호 정책이 SnapCenter 및 NetApp Backup and Recovery 에서 관리하는 정책을 포함한 모든 기존 정책을 대체합니다.</block>
+  <block id="1ae08906aa42275aa58a2b7641019104" category="list-text">이 그룹에 대한 보호를 관리하는 정책을 선택하세요.  확인하려면 *다음*을 선택하세요.</block>
+  <block id="810716a15e8cb79df6f2dd60bfee1161" category="list-text">백업 정책을 구성해야 하는 경우, 정책을 선택한 후 **다음**을 선택하세요.</block>
+  <block id="f724f66c90177c8dac8336038a0778c0" category="list-text">탐지 정책에 사용자 동작 탐지가 포함된 경우 사용할 데이터 수집기를 선택한 후 **다음**을 클릭합니다.</block>
+  <block id="d7a75d0f58bb349985e6d2104ca65596" category="list-text">보호 그룹 생성을 완료하려면 *추가*를 선택하세요.</block>
+  <block id="8e872201a9f1d2d9ce53cb5399ef0085" category="list-title">전략을 보는 단계</block>
+  <block id="edb56701c02931a83b80f61481367ade" category="summary">설정 페이지에서 백업 대상 및 위협 감지를 포함한 여러 옵션을 구성할 수 있습니다.</block>
+  <block id="efc5b90b499969efcedcd2b7276a218d" category="paragraph">*설정* 옵션에 액세스하여 백업 대상을 구성하고, 외부 보안 및 이벤트 관리(SIEM) 시스템으로 데이터를 보내고, 공격 준비 훈련을 실시하고, 워크로드 검색을 구성하거나, 의심스러운 사용자 활동 감지를 구성할 수 있습니다.</block>
+  <block id="ad5a89c970ba403587fba991f4218c99" category="list-text">의심스러운 사용자 활동 보고를 구성합니다.</block>
+  <block id="6a8da91afd3259d0e94261d0d1d4cdaa" category="paragraph">사용자 활동 카드에서는 의심스러운 사용자 활동을 감지하는 데 필요한 사용자 활동 에이전트를 만들고 관리할 수 있습니다.</block>
+  <block id="1e9de376e860f46db74a2fe6749a824e" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="da26800578b610b8b3390e49bb643377" category="inline-link-macro-rx"></block> .</block>
+  <block id="13b10c380acfb5b85c2c941d866e207d" category="list-text">각 설정 옆에 있는 아래쪽 화살표를 선택하고 값을 입력하거나 선택하세요.</block>
+  <block id="ed1f4d24960d6e32109b65672635e3e5" category="paragraph"><block ref="94866cdef211f2cb2b4376d23f6d3a7f" category="inline-link-rx"></block> .</block>
+  <block id="31ad81ad3dcccf234342095687bb3013" category="paragraph">콘솔에서 GCP 스토리지를 관리하는 방법에 대한 자세한 내용은 다음을 참조하세요.<block ref="5220899fd50cac31f9736d7329deb809" category="inline-link-rx"></block> .</block>
+  <block id="c948d04b2fd5b89337ff1906928f4200" category="paragraph">콘솔에서 Azure 자격 증명 및 Marketplace 구독을 관리하는 방법에 대한 자세한 내용은 다음을 참조하세요.<block ref="2d3716385813a465257e9795100c084d" category="inline-link-rx"></block> .</block>
+  <block id="e404fcdcd861fa6d86c24c298166ce4f" category="paragraph"><block ref="eb703d1a6f36b03e4ae0b2718274bd1f" category="inline-link-rx"></block> .</block>
+  <block id="0b08d4bbcc90f50506c6e3c62fa007c9" category="list-text">*사용자가 할 수 있는 일* 필드에서 *권한 있는 관리자 역할인 소유자, UAA, RBAC(권장)를 제외한 모든 역할을 사용자에게 할당하도록 허용*을 선택합니다.</block>
+  <block id="2a4edc5ec6e55f07dba0609dc2cd6d87" category="summary">랜섬웨어 복원력의 의심스러운 사용자 활동 감지 기능을 사용하면 잠재적인 위협이 될 수 있는 사용자 활동을 감지할 수 있습니다.</block>
+  <block id="906ec8bab01967c36f2f073eff9f54df" category="doc">NetApp Ransomware Resilience 에서 의심스러운 사용자 활동 감지 구성</block>
+  <block id="9ba1db4a2c84400f14de2d58496b9f52" category="paragraph">랜섬웨어 복원력은 탐지 정책에서 의심스러운 사용자 행동을 탐지하도록 지원하여 사용자 수준에서 랜섬웨어 사고를 해결할 수 있도록 합니다.</block>
+  <block id="97f8807a01c3206f369065a241cf5ac7" category="paragraph">랜섬웨어 복원력은 ONTAP 의 FPolicy가 생성한 사용자 활동 이벤트를 분석하여 의심스러운 사용자 활동을 감지합니다.  사용자 활동 날짜를 수집하려면 하나 이상의 사용자 활동 에이전트를 배포해야 합니다.  에이전트는 테넌트의 장치에 연결할 수 있는 Linux 서버 또는 VM입니다.</block>
+  <block id="90c4c763135bd7a7443ed22e4149185b" category="section-title">에이전트와 수집가</block>
+  <block id="03f21183a058745685d1d78fcc7eab3a" category="paragraph">Ransomware Resilience에서 의심스러운 사용자 활동 감지를 활성화하려면 최소 하나 이상의 사용자 활동 에이전트를 설치해야 합니다.  랜섬웨어 복원력 대시보드에서 의심스러운 사용자 활동 기능을 활성화하는 경우, 해당 기능을 활성화하려면 에이전트 호스트 정보를 제공해야 합니다.</block>
+  <block id="2b294b61543173e7462d37def0724cef" category="paragraph">에이전트는 여러 개의 데이터 수집기를 호스팅할 수 있습니다.  데이터 수집자는 분석을 위해 SaaS 위치로 데이터를 보냅니다.  수집가에는 두 가지 유형이 있습니다.</block>
+  <block id="4fb02306f3b85b6cfd31c67b79007829" category="list-text">**데이터 수집기**는 ONTAP 에서 사용자 활동 데이터를 수집합니다.</block>
+  <block id="4449b11da47ae4743bfe16fdd7a33631" category="list-text">**사용자 디렉토리 커넥터**는 디렉토리에 연결하여 사용자 ID를 사용자 이름에 매핑합니다.</block>
+  <block id="fa83d0f077ae64e1df0b8a9ed9982815" category="paragraph">수집기는 랜섬웨어 복원력 설정에서 구성됩니다.</block>
+  <block id="4f047e83e52e21d5382adc1b5dbf3119" category="section-title">사용자 활동 에이전트 추가</block>
+  <block id="4d4379036f7207029fbe126649ccc0a6" category="paragraph">사용자 활동 에이전트는 데이터 수집기를 위한 실행 가능한 환경이며, 데이터 수집기는 Ransomware Resilience와 사용자 활동 이벤트를 공유합니다.  의심스러운 사용자 활동을 감지하려면 최소한 하나의 사용자 활동 에이전트를 만들어야 합니다.</block>
+  <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">요구 사항</block>
+  <block id="69cba9646d8849744460eb9ba06c7bd6" category="paragraph">사용자 활동 에이전트를 설치하려면 다음 지원되는 운영 체제 및 서버 요구 사항을 갖춘 호스트 또는 VM이 필요합니다.</block>
+  <block id="176c18a49aa227401be466a34a903666" category="paragraph">**운영 체제 요구 사항**</block>
+  <block id="696c660ff8d9323e55146a6dbd4e4088" category="cell">운영 체제</block>
+  <block id="2e5d14f7919ff3c6138e7845aec4f915" category="cell">지원되는 버전</block>
+  <block id="c158e3ead98c5929e4228914a1e6e615" category="cell">알마리눅스</block>
+  <block id="4e7685b9d28c25763ec745864c2dc4ab" category="cell">9.4(64비트) ~ 9.5(64비트) 및 10(64비트), SELinux 포함</block>
+  <block id="aa1fc3398e84bda331b47203c1e53ad5" category="cell">센트OS</block>
+  <block id="1713000dfbf9ac0737dced40924963e5" category="cell">CentOS Stream 9(64비트)</block>
+  <block id="6fe8b98c53e8d099686936732785d471" category="cell">데비안</block>
+  <block id="96076f12b1cb63e4304e6e93bf2bdf1c" category="cell">11(64비트), 12(64비트), SELinux 포함</block>
+  <block id="47aa329f6ec0cd1009231b4b7fca0a6b" category="cell">오픈수세 리프</block>
+  <block id="19b160ebc6598b7f22f292d227c45c9d" category="cell">15.3(64비트) ~ 15.6(64비트)</block>
+  <block id="fdcd362ac5f5f9817e70642dd2a48bfd" category="cell">오라클 리눅스</block>
+  <block id="95ccc8f8721ed98f86b3373d9ede2a15" category="cell">8.10(64비트) 및 9.1(64비트) ~ 9.6(64비트), SELinux 포함</block>
+  <block id="a82007c47b25723539a00ff94e8b3d27" category="cell">레드햇</block>
+  <block id="d33305ae6335b0a9106e226ed71ca60f" category="cell">8.10(64비트), 9.1(64비트) ~ 9.6(64비트), 10(64비트), SELinux 포함</block>
+  <block id="d405e3063aac76a254e44386c961b24c" category="cell">불안정한</block>
+  <block id="562cb7e6b7d585b5ffbe8d9aec64cf10" category="cell">SELinux를 포함한 Rocky 9.4(64비트)부터 9.6(64비트)까지</block>
+  <block id="92ceb02e8fd413288d949e40d8ca4832" category="cell">수세 엔터프라이즈 리눅스</block>
+  <block id="ce370a856bc8592a8206af596cace9ea" category="cell">15 SP4(64비트)부터 15 SP6(64비트), SELinux 포함</block>
+  <block id="3d945423f8e9496c429a5d8c65b4604f" category="cell">우분투</block>
+  <block id="6072b01d67af0366830f2fef13cdf0da" category="cell">20.04 LTS(64비트), 22.04 LTS(64비트) 및 24.04 LTS(64비트)</block>
+  <block id="e5fc81082964adedb5790746c18c9fb7" category="paragraph">**서버 요구 사항**</block>
+  <block id="fd9b966c1c6f66e7c4f38e133767c880" category="paragraph">서버는 다음과 같은 최소 요구 사항을 충족해야 합니다.</block>
+  <block id="f0499c7832db4d35decdf83de714841c" category="list-text">**CPU**: 4코어</block>
+  <block id="4a8a49e18f8860c4232837503bcc2edd" category="list-text">**RAM**: 16GB RAM</block>
+  <block id="465860b9bc6b405baa8ced9914b08ab3" category="list-text">**디스크 공간**: 35GB의 여유 디스크 공간</block>
+  <block id="a2ad8789f963859e0c26a6daaec4a76b" category="list-text">처음으로 사용자 활동 에이전트를 만드는 경우 **대시보드**로 이동하세요.  **사용자 활동** 타일에서 **활성화**를 선택합니다.</block>
+  <block id="44e08a5b01e752ac11f59bba4e07dea7" category="paragraph">추가 사용자 활동 에이전트를 추가하는 경우 *설정*으로 이동하여 **사용자 활동** 타일을 찾은 다음 **관리**를 선택합니다.  사용자 활동 화면에서 **사용자 활동 에이전트** 탭을 선택한 다음 **추가**를 선택합니다.</block>
+  <block id="75d41b8fe2ef8de56d2fd2046bb0dad3" category="list-text">**클라우드 공급자**를 선택한 다음 **지역**을 선택하세요.  **다음**을 선택하세요.</block>
+  <block id="604a864dab990debb57e02cc6550cb0b" category="list-text">사용자 활동 에이전트 세부 정보를 제공하세요.</block>
+  <block id="8b67ab5f6d4b7a7c9b54a220ab393e0f" category="list-text">**사용자 활동 에이전트 이름**</block>
+  <block id="40c10b55b38de651cc304b987f3b8552" category="list-text">*콘솔 에이전트* - 콘솔 에이전트는 사용자 활동 에이전트와 동일한 네트워크에 있어야 하며 사용자 활동 에이전트 IP 주소에 대한 SSH 연결이 있어야 합니다.</block>
+  <block id="b023c42f6578a2febd3d77169ecb00ef" category="list-text">*VM DNS 이름 또는 IP 주소*</block>
+  <block id="95a1594aeff80ead5b4f2710e4acb1c5" category="list-text">*VM SSH 키*</block>
+  <block id="1dc03f52e7a38f5b6ec91f4303e010ad" category="inline-image-macro">활동 추가 에이전트 인터페이스의 스크린샷입니다.</block>
+  <block id="7298950e09abf5a29938d42a442acced" category="paragraph"><block ref="7298950e09abf5a29938d42a442acced" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f2d7e7792f60fc56fc833ac06d43ff03" category="list-text">설정을 검토하세요.  *활성화*를 선택하여 사용자 활동 에이전트 추가를 완료합니다.</block>
+  <block id="a5990ac92f36dcb99f016321efbfa2cd" category="list-text">사용자 활동 에이전트가 성공적으로 생성되었는지 확인하세요.  사용자 활동 타일에서 배포가 성공하면 '실행 중'으로 표시됩니다.</block>
+  <block id="58dc71d80ac36fa12a160eef553b4dac" category="paragraph">사용자 활동 에이전트가 성공적으로 생성되면 **설정** 메뉴로 돌아간 다음 사용자 활동 타일에서 **관리**를 선택합니다.  **사용자 활동 에이전트** 탭을 선택한 다음 사용자 활동 에이전트를 선택하여 데이터 수집기 및 사용자 디렉터리 커넥터를 포함한 해당 에이전트에 대한 세부 정보를 확인합니다.</block>
+  <block id="87890c9758b28588c6845cfcf6d19b17" category="section-title">데이터 수집기 추가</block>
+  <block id="cebc35dcf9d04a393d86d35a4e3cf6be" category="inline-xref-macro">탐지 정책 추가</block>
+  <block id="24590b7519b5649099545f7ef699e504" category="paragraph">의심스러운 사용자 활동 감지를 통해 랜섬웨어 보호 전략을 활성화하면 데이터 수집기가 자동으로 생성됩니다. 자세한 내용은 다음을 참조하세요. <block ref="c43e895be468efa96867f0ef21f97de4" category="inline-xref-macro-rx"></block> .</block>
+  <block id="723cff7a2b53371ffdffcdc65a370014" category="paragraph">데이터 수집기의 세부 정보를 볼 수 있습니다.  설정에서 사용자 활동 타일의 **관리**를 선택합니다.  **데이터 수집기** 탭을 선택한 다음 데이터 수집기를 선택하여 세부 정보를 보거나 일시 중지합니다.</block>
+  <block id="79994c0d6b62d6854ba2d69416af2030" category="inline-image-macro">사용자 활동 설정 스크린샷</block>
+  <block id="eb9abd0b9e77424befbbd0596585482d" category="paragraph"><block ref="eb9abd0b9e77424befbbd0596585482d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ae5063128f989ec31ec308b7dd0cb2ed" category="section-title">사용자 디렉토리 커넥터 추가</block>
+  <block id="0e27165c28d4f54b78e7e5ec47c83fc4" category="paragraph">사용자 ID를 사용자 이름에 매핑하려면 사용자 디렉토리 커넥터를 만들어야 합니다.</block>
+  <block id="8348d8dcee9ea32e049e21c42a431b91" category="list-text">랜섬웨어 복원력에서 *설정*으로 이동합니다.</block>
+  <block id="9fcb0a7634f29d96ae98e37bbc76e1cd" category="list-text">사용자 활동 타일에서 **관리**를 선택합니다.</block>
+  <block id="e70202c14c96f451fdcf2617844ea351" category="list-text">**사용자 디렉터리 커넥터** 탭을 선택한 다음 **추가**를 선택합니다.</block>
+  <block id="6b0d749af4fb3ac0e4e4a1eefc36c454" category="list-text">연결에 대한 세부 정보를 제공하세요.</block>
+  <block id="496ee322ba138fdbc777e5ab2e30145e" category="list-text">*이름*</block>
+  <block id="e018ce61f2faa0782aac0cf5ceb4e39f" category="list-text">*사용자 디렉토리 유형*</block>
+  <block id="817d09446fbab0a167f137ba029b3b2c" category="list-text">*서버 IP 주소 또는 도메인 이름*</block>
+  <block id="942f115bf2a4bb90285e9cc5de7fd48b" category="list-text">*산림명 또는 검색명*</block>
+  <block id="28781714c6ccf5cfa635f547328898a5" category="list-text">*BIND 도메인 이름*</block>
+  <block id="f379b6d26456916980ea32f662e2088a" category="list-text">*BIND 비밀번호*</block>
+  <block id="2bfa02843b15eae74dde462c970a2a00" category="list-text">*프로토콜* (선택 사항입니다)</block>
+  <block id="5ddcf17f54788a5bb9148e8671562c06" category="list-text">*포트*</block>
+  <block id="4648df055f6134caf491290d363fdd55" category="inline-image-macro">사용자 디렉토리 연결 스크린샷</block>
+  <block id="e41447b39a2a8caf5092a92f230bd291" category="paragraph"><block ref="e41447b39a2a8caf5092a92f230bd291" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="86c3d5aee71dba0d2e67a122a900b46d" category="paragraph">속성 매핑 세부 정보를 제공하세요.</block>
+  <block id="67abd0bd8cf8f6b948416d41be7c6f6a" category="list-text">*표시 이름*</block>
+  <block id="aff175f709dc693d1f9ca4c44728163a" category="list-text">*SID* (LDAP를 사용하는 경우)</block>
+  <block id="3b57547caa3754998fa617bd92514f25" category="list-text">*사용자 이름*</block>
+  <block id="c8a0546946d4ed57fd88fc4918d3825f" category="list-text">*Unix ID* (NFS를 사용하는 경우)</block>
+  <block id="44c65853ed8da5c496344c1e746b1669" category="list-text">*선택적 속성 포함*을 선택하세요.  이메일 주소, 전화번호, 역할, 주, 국가, 부서, 사진, 관리자 DN 또는 그룹을 포함할 수도 있습니다.</block>
+  <block id="7703674a5321c1f23549682250a732e9" category="paragraph">*고급*을 선택하여 선택적 검색어를 추가하세요.</block>
+  <block id="7174ea6988f438d85266f06a4d178a79" category="list-text">**추가**를 선택합니다.</block>
+  <block id="c46a6dfd4cabd150fef75d97e543d6e6" category="list-text">사용자 디렉토리 커넥터 탭으로 돌아가서 사용자 디렉토리 커넥터의 상태를 확인하세요.  성공적으로 생성되면 사용자 디렉토리 커넥터의 상태가 *실행 중*으로 표시됩니다.</block>
+  <block id="ecdd284164c9ec55e281a5e22e24af67" category="section-title">사용자 디렉토리 커넥터 삭제</block>
+  <block id="064c929bca3d74ce57c593b98179d9b6" category="list-text">사용자 활동 타일을 찾아 **관리**를 선택합니다.</block>
+  <block id="7a4d95b4bd97e134c18ec0bc73dfdc26" category="list-text">**사용자 디렉토리 커넥터** 탭을 선택합니다.</block>
+  <block id="78b1b242bace6a18a2fc89d34f35271a" category="list-text">삭제하려는 사용자 디렉토리 커넥터를 식별합니다.  줄 끝의 작업 메뉴에서 세 개의 점을 선택하세요.<block ref="2f43b42fd833d1e77420a8dae7419000" prefix=" " category="inline-code"></block> 그런 다음 **삭제**를 클릭합니다.</block>
+  <block id="d612f3439b60caf42aae1b535bd86696" category="list-text">팝업 대화 상자에서 **삭제**를 선택하여 작업을 확인합니다.</block>
+  <block id="2dbd6a4739d1db42b8aac2205ef06e6e" category="section-title">의심스러운 사용자 활동 알림에 대응</block>
+  <block id="2d8b6636ea3b13ca52dd572d55fc4d15" category="paragraph">의심스러운 사용자 활동 감지를 구성한 후 알림 페이지에서 이벤트를 모니터링할 수 있습니다. 자세한 내용은 다음을 참조하세요. <block ref="23491e50ff66c3ad8e47bd3a8caca02f" category="inline-link-macro-rx"></block> .</block>
+  <block id="d341f0c47f4b7ad5cc1b4c9bb210cfda" category="section-title">2025년 8월 12일</block>
+  <block id="9d5aaa8966c5e35be75ef082fe317272" category="paragraph"><block ref="52acad0b8ccf8676f5a7124bd999ec73" category="inline-link-rx"></block> .</block>
+  <block id="29dfc4e316452c829eef22178afa1c8f" category="paragraph"><block ref="280bb568aae28b55ea90793d53388aa1" category="inline-link-rx"></block> .</block>
+  <block id="3bdcaa67ee630d082a331575d6ad70e5" category="paragraph"><block ref="a34be145b0dd9ba4287e1030f5129744" category="inline-link-rx"></block> .</block>
+  <block id="ab32f8de0474049c3f4354f05ec6dfd5" category="paragraph"><block ref="ca49e370d9987ff017d502716c88ef81" category="inline-link-rx"></block> .</block>
+  <block id="f0af7695828e31059ed5092f50304a34" category="paragraph"><block ref="f0af7695828e31059ed5092f50304a34" category="inline-link-rx"></block></block>
+  <block id="d6b21f9a427919baeb5254ed7e7420c7" category="paragraph"><block ref="37f5a5eca4b0b0ddec4a2d02e8b40e5a" category="inline-link-rx"></block> .</block>
+  <block id="3aa48700f676555617a370b571aa145e" category="paragraph"><block ref="b28e1e8da94cfec3c6c3735d25c2147b" category="inline-link-rx"></block> .</block>
+  <block id="282209fca8545cb316f2eba7f3a62db7" category="paragraph"><block ref="30b7f8b521639e51a1e6fc42e56a3552" category="inline-link-rx"></block> .</block>
+  <block id="6e679110b5603dd298546f6066c877b0" category="paragraph"><block ref="e6accfa7d08294e7415997a8922d3847" category="inline-link-rx"></block> .</block>
+  <block id="900a7e5872fb6c898655178f2fa35ed5" category="paragraph"><block ref="e92eb392bc60f64cbc3210e33ab1f4df" category="inline-link-rx"></block> .</block>
+  <block id="7c75764d48045cde5c8ebcef2c6e5252" category="paragraph"><block ref="10393bb2758596cdd15d00867527fdbe" category="inline-link-rx"></block> .</block>
+  <block id="527e566d1a5906e736aefbf176bcf742" category="paragraph"><block ref="43654d444a1c24758633d5b7f36db71a" category="inline-link-rx"></block> .</block>
+  <block id="868a5c1a1f87e085528466231f05e396" category="paragraph"><block ref="56d6234f54e33e04adbdd55ddd9f2541" category="inline-link-rx"></block> .</block>
+  <block id="d609cfbd89a3fada16238b8a39148f46" category="paragraph">미리 정의된 정책을 사용하는 것 외에도 이제 정책을 만들 수 있습니다.<block ref="c308b2d22c33a15b90252d49c2873920" category="inline-link-rx"></block> .</block>
+  <block id="2a6274cd80906a41f767d82d87b9879b" category="paragraph">이제 개체 저장소에서 NetApp DataLock 기술을 사용하여 보조 저장소에서 백업을 변경할 수 없게 만들 수 있습니다.<block ref="30d822bb5bc7d8307e119ffe13f01233" category="inline-link-rx"></block> .</block>
+  <block id="ad6b8f5314fbdf658a421086c8463a3b" category="paragraph">AWS를 사용하는 것 외에도 이제 StorageGRID 백업 대상으로 선택할 수 있습니다.<block ref="5c098460bee807344a1e691430f00deb" category="inline-link-rx"></block> .</block>
+  <block id="e4e11b8b26d220d6a7d910ac9d9b8b76" category="paragraph">이제 탐지된 잠재적 공격을 조사하기 위해 더욱 자세한 법의학적 세부 정보를 볼 수 있습니다.<block ref="a80436187b82ac9f8b34d74ed89f86ca" category="inline-link-rx"></block> .</block>
+  <block id="77d6960ddc4ee40e26fd963e6e1f6e68" category="paragraph">복구 프로세스가 향상되었습니다.  이제 워크로드에 대해 볼륨별로 또는 모든 볼륨을 복구할 수 있습니다.<block ref="2db5667b5f183f51656a41f32740d8f2" category="inline-link-rx"></block> .</block>
+  <block id="0c59fa3b4bea70fe5377775600bed707" category="sidebar">NetApp Ransomware Resilience 온프레미스 및 클라우드 스토리지에서 랜섬웨어 위협으로부터 애플리케이션 워크로드와 파일 공유를 보호, 탐지하고 복구를 지원합니다.  Oracle, MySQL, VM 데이터 저장소, NAS 스토리지 등의 플랫폼을 지원하는 Ransomware Resilience는 안전한 백업 및 복구를 가능하게 하여 조직이 중요한 데이터를 보호하고 비즈니스 연속성을 유지하는 데 도움이 됩니다.</block>
+  <block id="e65f6e4b1867bfedf08120cb1ab99c24" category="sidebar">의심스러운 사용자 활동 감지 구성</block>
 </blocks>

@@ -6,14 +6,39 @@
 
 === BlueXP ransomware protection 이제 NetApp 랜섬웨어 복원력으로 바뀌었습니다.
 
-BlueXP 랜섬웨어 복제는 NetApp 랜섬웨어 복원력으로 이름이 바뀌었습니다.
+BlueXP ransomware protection 서비스의 이름이 NetApp Ransomware Resilience 로 변경되었습니다.
 
 
 
 === BlueXP 는 이제 NetApp 콘솔입니다.
 
-BlueXP 데이터 인프라 관리에서의 역할을 더 잘 반영하도록 이름이 바뀌고 재설계되었습니다.
-
 NetApp 콘솔은 엔터프라이즈급 온프레미스 및 클라우드 환경 전반의 스토리지 및 데이터 서비스를 중앙에서 관리하여 실시간 통찰력, 더 빠른 워크플로, 간소화된 관리를 제공합니다.
 
-변경된 사항에 대한 자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp 콘솔 릴리스 노트"] .
+변경된 사항에 대한 자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp 콘솔 릴리스 노트"] .
+
+
+
+=== 데이터 침해 감지
+
+랜섬웨어 복원력에는 몇 단계만으로 활성화할 수 있는 새로운 감지 메커니즘이 포함되어 있어 데이터 침해의 조기 지표로 비정상적인 사용자 읽기를 감지합니다.  랜섬웨어 복원력은 과거 데이터에서 예상되는 정상적인 동작 프로필인 과거 기준선을 생성하여 사용자 읽기 이벤트를 수집하고 분석합니다.  새로운 사용자 활동이 이러한 기존 기준에서 크게 벗어나는 경우(예상치 못한 읽기 급증과 의심스러운 읽기 패턴이 결합된 경우) 알림이 생성됩니다.  랜섬웨어 복원력에는 의심스러운 읽기 패턴을 감지하는 AI 모델이 포함되어 있습니다.
+
+저장 계층에서 ARP를 통한 암호화 감지와 달리, Ransomware Resilience SaaS 서비스에서는 FPolicy 이벤트를 수집하여 사용자 동작 이상을 감지합니다.
+
+자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.htm["의심스러운 사용자 활동 감지 활성화"] 그리고link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-alert.html#view-anomalous-user-behavior["비정상적인 사용자 동작 보기"] .
+
+
+
+==== 추가적으로 의심스러운 사용자 활동 감지
+
+Ransomware Resilience는 데이터 침해 감지 외에도 관찰된 의심스러운 사용자 활동을 기반으로 다음과 같은 알림 유형을 감지합니다.
+
+* **데이터 파괴 - 잠재적 공격** - 파일 삭제 수가 기존 기준을 초과하면 잠재적 공격의 심각도를 알려주는 알림이 생성됩니다.
+* **의심스러운 사용자 동작 - 잠재적 공격** - 랜섬웨어 공격과 유사한 순서로 읽기, 이름 바꾸기 및 삭제 작업이 관찰되면 잠재적 공격의 심각도를 알려주는 경고가 생성됩니다.
+* **의심스러운 사용자 동작 - 경고** - 파일 활동(읽기, 삭제, 이름 바꾸기 등)의 총 수가 이전 기준을 초과하면 경고 심각도의 알림이 생성됩니다.
+
+
+
+
+==== 데이터 침해 감지를 위한 새로운 사용자 역할
+
+의심스러운 사용자 활동 알림을 관리하기 위해 Ransomware Resilience는 사용자 파일 활동과 같은 중요한 데이터에 대한 세부적인 액세스를 제공하는 두 가지 새로운 역할을 도입했습니다. 자세한 내용은 다음을 참조하세요. link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-roles.html["NetApp 랜섬웨어 복원력 역할 기반 액세스"] .
