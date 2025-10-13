@@ -4,7 +4,7 @@ permalink: rp-start-simulate.html
 keywords: ransomware protection alert, ransomware protection attack, detect ransomware alert, simulate, readiness drill, practice, ransomware attack, ransomware attack response, ransomware attack readiness drill 
 summary: 새로 생성된 샘플 워크로드에 대한 랜섬웨어 공격을 시뮬레이션하여 랜섬웨어 대비 훈련을 실시합니다.  그런 다음 시뮬레이션된 공격을 조사하고 샘플 작업 부하를 복구합니다.  랜섬웨어 대비 훈련은 여러 번 실행할 수 있습니다. 
 ---
-= NetApp Ransomware Resilience에서 랜섬웨어 공격 대비 훈련을 실시하세요.
+= NetApp Ransomware Resilience 에서 랜섬웨어 공격 대비 훈련을 실시하세요.
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -35,7 +35,7 @@ NFS 및 CIFS(SMB) 워크로드에 대한 준비 훈련을 실행할 수 있습�
 *필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
 
 .단계
-. NetApp 랜섬웨어 복원력 메뉴에서 오른쪽 상단에 있는 *준비 훈련 실행* 버튼을 선택합니다.
+. NetApp Ransomware Resilience 메뉴에서 오른쪽 상단에 있는 *준비 훈련 실행* 버튼을 선택합니다.
 +
 image:screen-dashboard.png["실행 준비 훈련 버튼을 보여주는 대시보드 페이지"]
 
@@ -121,7 +121,7 @@ image:screen-alerts-readiness-incidents2.png["준비 훈련 알림을 보여주�
 
 * 잠재적인 공격의 심각도를 살펴보세요.
 +
-심각도가 사용자가 악의적인 활동을 했다고 의심되는 경우 사용자 이름을 검토하세요.  당신도 할 수 있습니다link:rp-use-alert.html#detect-malicious-activity-and-anomalous-user-behavior["사용자를 차단합니다."]
+심각도가 사용자가 악의적인 활동을 했다고 의심되는 경우 사용자 이름을 검토하세요. 당신도 할 수 있습니다link:rp-use-alert.html#detect-malicious-activity-and-anomalous-user-behavior["사용자를 차단합니다."]
 
 * 파일 활동과 의심되는 프로세스를 살펴보세요.
 +

@@ -4,7 +4,7 @@ permalink: rp-start-discover.html
 keywords: bluexp, ransomware protection, protection, risk, cyber attack, security,data security, data protection, data recovery, data discovery 
 summary: 발견 과정에서 Ransomware Resilience는 모든 콘솔 에이전트와 계정의 시스템에 있는 모든 볼륨과 파일을 분석합니다. 
 ---
-= NetApp 랜섬웨어 복원력에서 워크로드를 발견하세요
+= NetApp Ransomware Resilience 에서 워크로드를 발견하세요
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,7 +12,7 @@ summary: 발견 과정에서 Ransomware Resilience는 모든 콘솔 에이전트
 
 
 [role="lead"]
-NetApp 랜섬웨어 복원력을 사용하려면 먼저 데이터를 검색해야 합니다.  발견 과정에서 Ransomware Resilience는 조직 내 모든 콘솔 에이전트와 프로젝트에 있는 시스템의 모든 볼륨과 파일을 분석합니다.
+NetApp Ransomware Resilience 사용하려면 먼저 데이터를 검색해야 합니다.  발견 과정에서 Ransomware Resilience는 조직 내 모든 콘솔 에이전트와 프로젝트에 있는 시스템의 모든 볼륨과 파일을 분석합니다.
 
 *필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
 
@@ -27,7 +27,7 @@ NOTE: 랜섬웨어 복원력은 FlexGroup 사용하는 볼륨의 워크로드를
 
 *작업 부하를 어떻게 발견할 수 있나요?*  다음을 수행할 수 있습니다.
 
-* 각 콘솔 에이전트 내에서 워크로드를 검색할 시스템을 선택합니다. 환경 내 특정 작업 부하만 보호하고 다른 작업 부하에는 영향을 미치지 않으려는 경우 이 기능이 유용할 수 있습니다.
+* 각 콘솔 에이전트 내에서 워크로드를 검색할 시스템을 선택합니다.  환경 내 특정 작업 부하만 보호하고 다른 작업 부하에는 영향을 미치지 않으려는 경우 이 기능이 유용할 수 있습니다.
 * 이전에 선택한 시스템에 대해 새로 생성된 워크로드를 검색합니다.
 * 새로운 시스템을 발견하세요.
 
@@ -39,7 +39,7 @@ NOTE: 랜섬웨어 복원력은 FlexGroup 사용하는 볼륨의 워크로드를
 각 콘솔 에이전트 내에서 워크로드를 검색할 시스템을 선택합니다.
 
 .단계
-. NetApp 콘솔에서 *보호* > *랜섬웨어 보호*를 선택합니다.
+. NetApp Console 에서 *보호* > *랜섬웨어 보호*를 선택합니다.
 +
 처음으로 로그인하는 경우 랜딩 페이지가 나타납니다.
 
@@ -52,7 +52,7 @@ NOTE: 무료 평가판을 시작한 경우 *30일 무료 평가판 시작* 버�
 
 . 첫 번째 랜딩 페이지에서 *워크로드 검색으로 시작*을 선택합니다.
 +
-랜섬웨어 복원력은 지원되는 시스템과 지원되지 않는 시스템을 모두 찾아냅니다. 이 과정은 몇 분 정도 걸릴 수 있습니다.
+랜섬웨어 복원력은 지원되는 시스템과 지원되지 않는 시스템을 모두 찾아냅니다.  이 과정은 몇 분 정도 걸릴 수 있습니다.
 
 +
 image:screen-discover-workloads.png["워크로드 스크린샷 검색"]
@@ -61,7 +61,7 @@ image:screen-discover-workloads.png["워크로드 스크린샷 검색"]
 . 워크로드를 검색할 시스템을 선택하세요.
 . *발견*을 선택하세요.
 +
-랜섬웨어 복원력은 선택된 시스템이 있는 콘솔 에이전트에 대해서만 워크로드 데이터를 검색합니다. 이 과정은 몇 분 정도 걸릴 수 있습니다.
+랜섬웨어 복원력은 선택된 시스템이 있는 콘솔 에이전트에 대해서만 워크로드 데이터를 검색합니다.  이 과정은 몇 분 정도 걸릴 수 있습니다.
 
 . 검색된 워크로드 목록을 다운로드하려면 *결과 다운로드*를 선택하세요.
 . 랜섬웨어 복원력 대시보드를 표시하려면 *대시보드로 이동*을 선택하세요.

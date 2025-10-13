@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: rp-start-login.html 
 keywords: bluexp login, ransomware protection, cyber attack, log in, access 
-summary: NetApp 콘솔을 통해 NetApp 랜섬웨어 복원력을 시작하세요. 
+summary: NetApp Console 통해 NetApp Ransomware Resilience 시작하세요. 
 ---
-= NetApp 랜섬웨어 복원력에 액세스하세요
+= NetApp Ransomware Resilience 에 액세스하세요
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,7 +12,7 @@ summary: NetApp 콘솔을 통해 NetApp 랜섬웨어 복원력을 시작하세�
 
 
 [role="lead"]
-NetApp 콘솔을 통해 NetApp 랜섬웨어 복원력에 로그인합니다.
+NetApp Console 통해 NetApp Ransomware Resilience 에 로그인합니다.
 
 콘솔에 로그인하려면 NetApp 지원 사이트 자격 증명을 사용하거나 이메일과 비밀번호를 사용하여 NetApp 클라우드 로그인에 가입할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["로그인에 대해 자세히 알아보세요"^] .
 

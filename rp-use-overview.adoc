@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: rp-use-overview.html 
 keywords: ransomware protection, ransomware protection, detect ransomware attacks, recover from ransomware attack 
-summary: NetApp 랜섬웨어 복원력을 사용하면 워크로드 상태를 확인하고 워크로드를 보호할 수 있습니다. 
+summary: NetApp Ransomware Resilience 사용하면 워크로드 상태를 확인하고 워크로드를 보호할 수 있습니다. 
 ---
-= NetApp 랜섬웨어 복원력 사용
+= NetApp Ransomware Resilience 사용
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,7 +12,7 @@ summary: NetApp 랜섬웨어 복원력을 사용하면 워크로드 상태를 �
 
 
 [role="lead"]
-NetApp 랜섬웨어 복원력을 사용하면 워크로드 상태를 확인하고 워크로드를 보호할 수 있습니다.
+NetApp Ransomware Resilience 사용하면 워크로드 상태를 확인하고 워크로드를 보호할 수 있습니다.
 
 * link:rp-start-discover.html["랜섬웨어 복원력에서 워크로드를 발견하세요"] .
 * link:rp-use-dashboard.html["대시보드에서 보호 및 작업 부하 상태 확인"] .

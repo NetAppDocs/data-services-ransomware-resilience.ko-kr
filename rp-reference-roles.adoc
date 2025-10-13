@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: rp-reference-roles.html 
 keywords: ransomware protection, protect against ransomware attacks, anti-ransomware, role-based access control, rbac, role, permission, access rights, organization,project,account 
-summary: NetApp 랜섬웨어 복원력은 역할을 사용하여 각 사용자가 특정 기능과 작업에 대해 갖는 액세스를 관리합니다. 
+summary: NetApp Ransomware Resilience 역할을 사용하여 각 사용자가 특정 기능과 작업에 대해 갖는 액세스를 관리합니다. 
 ---
-= NetApp 랜섬웨어 복원력 역할 기반 액세스
+= NetApp Ransomware Resilience 역할 기반 액세스
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,7 +12,7 @@ summary: NetApp 랜섬웨어 복원력은 역할을 사용하여 각 사용자�
 
 
 [role="lead"]
-NetApp 랜섬웨어 복원력은 역할을 사용하여 각 사용자가 특정 기능과 작업에 대해 갖는 액세스를 관리합니다.
+NetApp Ransomware Resilience 역할을 사용하여 각 사용자가 특정 기능과 작업에 대해 갖는 액세스를 관리합니다.
 
 랜섬웨어 복원력은 랜섬웨어 복원력에 특화된 다음과 같은 역할을 사용합니다.
 
@@ -20,7 +20,7 @@ NetApp 랜섬웨어 복원력은 역할을 사용하여 각 사용자가 특정 
 * *랜섬웨어 복원력 뷰어*: NetApp 워크로드 데이터 보기, 알림 데이터 보기, 복구 데이터 다운로드, 보고서 다운로드.
 
 
-이러한 역할은 콘솔 서비스 및 데이터 보호, 워크로드 관리 등의 기타 서비스에 대한 액세스를 관리하는 콘솔 플랫폼 역할에 추가됩니다.  모든 콘솔 플랫폼 역할에 대한 자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["설정 및 관리 문서"^] .
+이러한 역할은 콘솔 서비스 및 데이터 보호, 워크로드 관리 등의 기타 서비스에 대한 액세스를 관리하는 콘솔 플랫폼 역할에 추가됩니다. 모든 콘솔 플랫폼 역할에 대한 자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["설정 및 관리 문서"^] .
 
 다음 표는 각 랜섬웨어 복원력 역할이 수행할 수 있는 작업을 나타냅니다.
 

@@ -2,14 +2,14 @@
 sidebar: sidebar 
 permalink: rp-use-protect-classify.html 
 keywords: ransomware protection, protect against ransomware attacks, anti-ransomware policies, cds, sensitive, pii, classification 
-summary: NetApp 데이터 분류를 통해 데이터에 개인 식별 정보나 비공개 정보가 포함되어 있는지 식별하여 데이터의 보안 및 개인정보 보호 규정 준수를 강화하세요. 
+summary: NetApp Data Classification 통해 데이터에 개인 식별 정보나 비공개 정보가 포함되어 있는지 식별하여 데이터의 보안 및 개인정보 보호 규정 준수를 강화하세요. 
 ---
-= 랜섬웨어 복원력에서 NetApp 데이터 분류를 사용하여 개인 식별 정보를 스캔하세요
+= 랜섬웨어 복원력에서 NetApp Data Classification 사용하여 개인 식별 정보를 스캔하세요
 :allow-uri-read: 
 
 
 [role="lead"]
-NetApp 랜섬웨어 복원력 내에서 NetApp 데이터 분류를 사용하여 파일 공유 워크로드의 데이터를 스캔하고 분류할 수 있습니다.  데이터를 분류하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 확인하는 데 도움이 되며, PII가 포함되어 있으면 보안 위험이 커질 수 있습니다.  데이터 분류는 콘솔의 핵심 구성 요소이며 추가 비용 없이 사용할 수 있습니다.
+NetApp Ransomware Resilience 내에서 NetApp Data Classification 사용하여 파일 공유 워크로드의 데이터를 스캔하고 분류할 수 있습니다.  데이터를 분류하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 확인하는 데 도움이 되며, PII가 포함되어 있으면 보안 위험이 커질 수 있습니다.  데이터 분류는 콘솔의 핵심 구성 요소이며 추가 비용 없이 사용할 수 있습니다.
 
 link:https://docs.netapp.com/us-en/data-services-data-classification/["데이터 분류"^]AI 기반 자연어 처리를 활용해 상황에 맞는 데이터를 분석하고 분류하여, 규정 준수 요구 사항을 충족하고, 보안 취약성을 탐지하고, 비용을 최적화하고, 마이그레이션을 가속화할 수 있는 실행 가능한 데이터 통찰력을 제공합니다.
 
@@ -34,7 +34,7 @@ TIP: 이 프로세스는 작업 부하의 중요도에 영향을 미쳐 적절�
 
 
 .시작하기 전에
-랜섬웨어 복원력에서 PII 데이터 스캔은 다음 경우에 사용할 수 있습니다.link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-cloud-compliance.html["배포된 데이터 분류"^] .  데이터 분류는 추가 비용 없이 콘솔의 일부로 제공되며 온프레미스 또는 고객 클라우드에 배포할 수 있습니다.
+랜섬웨어 복원력에서 PII 데이터 스캔은 다음 경우에 사용할 수 있습니다.link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-cloud-compliance.html["배포된 데이터 분류"^] . 데이터 분류는 추가 비용 없이 콘솔의 일부로 제공되며 온프레미스 또는 고객 클라우드에 배포할 수 있습니다.
 
 .단계
 . 랜섬웨어 복원력 메뉴에서 *보호*를 선택합니다.

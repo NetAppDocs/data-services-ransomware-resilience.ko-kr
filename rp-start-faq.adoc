@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: rp-start-faq.html 
 keywords: ransomware protection faq, ransomware protection frequently asked questions 
-summary: NetApp 랜섬웨어 복원력에 대한 자주 묻는 질문에 대한 답변을 찾아보세요. 
+summary: NetApp Ransomware Resilience 에 대한 자주 묻는 질문에 대한 답변을 찾아보세요. 
 ---
-= NetApp 랜섬웨어 복원력에 대한 자주 묻는 질문
+= NetApp Ransomware Resilience 에 대한 자주 묻는 질문
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,7 +12,7 @@ summary: NetApp 랜섬웨어 복원력에 대한 자주 묻는 질문에 대한 
 
 
 [role="lead"]
-NetApp 랜섬웨어 복원력에 대한 질문에 대한 빠른 답변을 찾고 있다면 이 FAQ가 도움이 될 수 있습니다.
+NetApp Ransomware Resilience 에 대한 질문에 대한 빠른 답변을 찾고 있다면 이 FAQ가 도움이 될 수 있습니다.
 
 
 
@@ -24,18 +24,18 @@ NetApp 랜섬웨어 복원력에 대한 질문에 대한 빠른 답변을 찾고
 
 * 30일 무료 체험판에 등록하세요.
 * Amazon Web Services(AWS) Marketplace, Google Cloud Marketplace, Microsoft Azure Marketplace에서 NetApp Intelligent Services 및 Ransomware Resilience에 대한 종량제(PAYGO) 구독을 구매하세요.
-* BYOL(Bring Your Own License)은 NetApp 영업 담당자로부터 받는 NetApp 라이선스 파일(NLF)입니다. 콘솔의 라이선스 및 구독 섹션에서 라이선스 일련 번호를 사용하여 BYOL을 활성화할 수 있습니다.
+* BYOL(Bring Your Own License)은 NetApp 영업 담당자로부터 받는 NetApp 라이선스 파일(NLF)입니다.  콘솔의 라이선스 및 구독 섹션에서 라이선스 일련 번호를 사용하여 BYOL을 활성화할 수 있습니다.
 
 
-*랜섬웨어 복원력을 어떻게 활성화하나요?*  랜섬웨어 복원력에는 어떠한 활성화도 필요하지 않습니다.  NetApp 콘솔에서 랜섬웨어 복원력에 액세스할 수 있습니다.
+*랜섬웨어 복원력을 어떻게 활성화하나요?*  랜섬웨어 복원력에는 어떠한 활성화도 필요하지 않습니다.  NetApp Console 에서 랜섬웨어 복원력에 액세스할 수 있습니다.
 
 시작하려면 가입하거나 NetApp 영업 담당자에게 연락하여 이 서비스를 체험해 보세요.  그런 다음 콘솔 에이전트를 사용하면 랜섬웨어 복원력에 적합한 기능이 포함됩니다.
 
 랜섬웨어 복원력을 시작하려면 첫 번째 랜딩 페이지에서 "워크로드 검색 시작"을 선택하세요.
 
-*랜섬웨어 복원력을 표준, 제한, 비공개 모드로 사용할 수 있나요?*  현재 랜섬웨어 복원력은 표준 모드로만 사용 가능합니다. 더 많은 내용을 기대하세요.
+*랜섬웨어 복원력을 표준, 제한, 비공개 모드로 사용할 수 있나요?*  현재 랜섬웨어 복원력은 표준 모드로만 사용 가능합니다.  더 많은 내용을 기대해 주세요.
 
-모든 NetApp 데이터 서비스에서 이러한 모드에 대한 설명은 다음을 참조하세요. https://docs.netapp.com/us-en/console-setup-admin/concept-modes.html["NetApp 콘솔 배포 모드"^] .
+모든 NetApp 데이터 서비스에서 이러한 모드에 대한 설명은 다음을 참조하세요. https://docs.netapp.com/us-en/console-setup-admin/concept-modes.html["NetApp Console 배포 모드"^] .
 
 
 
@@ -45,9 +45,9 @@ NetApp 랜섬웨어 복원력에 대한 질문에 대한 빠른 답변을 찾고
 
 *접근 권한은 어떻게 처리되나요?* https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 콘솔 액세스 역할에 대해 알아보세요."^] .
 
-*어떤 기기에 가장 적합한 해상도가 있나요?* 랜섬웨어 복원력에 권장되는 장치 해상도는 1920x1080 이상입니다.
+*어떤 기기에 가장 적합한 해상도가 있나요?*  랜섬웨어 복원력에 권장되는 장치 해상도는 1920x1080 이상입니다.
 
-*어떤 브라우저를 사용해야 하나요?* 모든 최신 브라우저.
+*어떤 브라우저를 사용해야 하나요?*  모든 최신 브라우저.
 
 
 
@@ -57,7 +57,7 @@ NetApp 랜섬웨어 복원력에 대한 질문에 대한 빠른 답변을 찾고
 
 *랜섬웨어 복원력을 사용하여 정책을 설정하는 경우, 향후 변경은 이 서비스에서만 수행해야 합니까?*  랜섬웨어 복원력에서 정책을 변경하는 것이 좋습니다.
 
-*랜섬웨어 복원력은 NetApp 백업 및 복구와 SnapCenter 와 어떻게 상호 작용합니까?*
+*랜섬웨어 복원력은 NetApp Backup and Recovery 와 SnapCenter 와 어떻게 상호 작용합니까?*
 
 Ransomware Resilience는 다음과 같은 제품과 서비스를 사용합니다.
 
@@ -71,7 +71,7 @@ Ransomware Resilience는 다음과 같은 제품과 서비스를 사용합니다
 
 == 작업 부하
 
-*작업량은 무엇으로 구성되나요?* 워크로드는 애플리케이션, VM 또는 파일 공유입니다. 작업 부하에는 단일 애플리케이션 인스턴스에서 사용되는 모든 볼륨이 포함됩니다.  예를 들어, ora3.host.com에 배포된 Oracle DB 인스턴스는 각각 데이터와 로그에 대해 vol1과 vol2를 가질 수 있습니다.  이러한 볼륨은 함께 Oracle DB 인스턴스의 특정 인스턴스에 대한 작업 부하를 구성합니다.
+*작업량은 무엇으로 구성되나요?*  워크로드는 애플리케이션, VM 또는 파일 공유입니다.  작업 부하에는 단일 애플리케이션 인스턴스에서 사용되는 모든 볼륨이 포함됩니다.  예를 들어, ora3.host.com에 배포된 Oracle DB 인스턴스는 각각 데이터와 로그에 대해 vol1과 vol2를 가질 수 있습니다.  이러한 볼륨은 함께 Oracle DB 인스턴스의 특정 인스턴스에 대한 작업 부하를 구성합니다.
 
 *랜섬웨어 복원력은 어떻게 워크로드 데이터의 우선 순위를 정합니까?*  데이터 우선순위는 생성된 스냅샷 복사본과 예약된 백업에 따라 결정됩니다.
 
@@ -93,9 +93,9 @@ link:rp-use-protect.html["작업 우선순위 또는 중요도에 대해 알아�
 * 또한 SnapCenter 또는 SnapCenter for VMware가 있고 백업 및 복구에서 워크로드를 구성한 경우 Ransomware Resilience는 SnapCenter 및 SnapCenter for VMware와 관련 볼륨에서 관리하는 워크로드를 검색합니다.
 
 
-*"보호된" 작업 부하란 무엇입니까?* 랜섬웨어 복원력에서 워크로드에 기본 탐지 정책이 활성화된 경우 해당 워크로드는 "보호됨" 상태로 표시됩니다.  현재로서는 작업 부하와 관련된 모든 볼륨에서 ARP가 활성화되어 있음을 의미합니다.
+*"보호된" 작업 부하란 무엇입니까?*  랜섬웨어 복원력에서 워크로드에 기본 탐지 정책이 활성화된 경우 해당 워크로드는 "보호됨" 상태로 표시됩니다.  현재로서는 작업 부하와 관련된 모든 볼륨에서 ARP가 활성화되어 있음을 의미합니다.
 
-*"위험에 처한" 작업 부하란 무엇입니까?* 워크로드에 기본 감지 정책이 활성화되어 있지 않으면 백업 및 스냅샷 정책이 활성화되어 있어도 "위험에 처해 있습니다".
+*"위험에 처한" 작업 부하란 무엇입니까?*  워크로드에 기본 감지 정책이 활성화되어 있지 않으면 백업 및 스냅샷 정책이 활성화되어 있어도 "위험에 처해 있습니다".
 
 *새로운 볼륨이 추가되었지만 아직 나타나지 않음* 환경에 새 볼륨을 추가한 경우 검색을 다시 시작하고 해당 새 볼륨을 보호하기 위한 보호 정책을 적용합니다.
 
@@ -119,7 +119,7 @@ link:rp-use-protect.html["작업 우선순위 또는 중요도에 대해 알아�
 
 *랜섬웨어 복원력은 NetApp ONTAP 에서 설정된 보호 설정을 인식합니까?*
 
-네, 랜섬웨어 복원력은 ONTAP 에 설정된 스냅샷 일정을 검색하고 검색된 작업 부하의 모든 볼륨에서 ARP와 FPolicy가 활성화되어 있는지 여부를 검색합니다. 대시보드에 처음 표시되는 정보는 다른 NetApp 솔루션과 제품에서 집계된 것입니다.
+네, 랜섬웨어 복원력은 ONTAP 에 설정된 스냅샷 일정을 검색하고 검색된 작업 부하의 모든 볼륨에서 ARP와 FPolicy가 활성화되어 있는지 여부를 검색합니다.  대시보드에 처음 표시되는 정보는 다른 NetApp 솔루션과 제품에서 집계된 것입니다.
 
 *랜섬웨어 복원력 부서는 백업 및 복구와 SnapCenter 에서 이미 만들어진 정책을 알고 있나요?*
 
@@ -129,7 +129,7 @@ link:rp-use-protect.html["작업 우선순위 또는 중요도에 대해 알아�
 
 아니요, Ransomware Resilience의 Backup and Recovery 또는 SnapCenter 에서 관리하는 정책은 수정할 수 없습니다.  해당 정책에 대한 변경 사항은 백업 및 복구 또는 SnapCenter 에서 관리합니다.
 
-* ONTAP 의 정책(ARP, FPolicy, 스냅샷 등 시스템 관리자에서 이미 활성화됨)이 있는 경우 랜섬웨어 복원력에서 해당 정책이 변경됩니까?*
+* ONTAP 의 정책(ARP, FPolicy, 스냅샷 등 시스템 관리자에서 이미 활성화된 정책)이 있는 경우 랜섬웨어 복원력에서 해당 정책이 변경됩니까?*
 
 아니요. 랜섬웨어 복원력은 ONTAP 의 기존 탐지 정책(ARP, FPolicy 설정)을 수정하지 않습니다.
 

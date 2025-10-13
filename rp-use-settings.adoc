@@ -4,7 +4,7 @@ permalink: rp-use-settings.html
 keywords: ransomware protection, protect against ransomware attacks, anti-ransomware settings, backup destination 
 summary: 설정 페이지에서 백업 대상 및 위협 감지를 포함한 여러 옵션을 구성할 수 있습니다. 
 ---
-= NetApp 랜섬웨어 복원력에서 보호 설정 구성
+= NetApp Ransomware Resilience 에서 보호 설정 구성
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -126,7 +126,7 @@ image:screen-settings-backup-destination.png["백업 대상 페이지"]
 
 ** *네트워킹*: IP 공간을 선택하세요.
 +
-*** IPspace는 백업하려는 볼륨이 있는 클러스터입니다. 이 IP공간의 클러스터 간 LIF에는 아웃바운드 인터넷 액세스가 있어야 합니다.
+*** IPspace는 백업하려는 볼륨이 있는 클러스터입니다.  이 IP공간의 클러스터 간 LIF에는 아웃바운드 인터넷 액세스가 있어야 합니다.
 
 
 
@@ -171,7 +171,7 @@ https://docs.netapp.com/us-en/storage-management-s3-storage/task-add-s3-bucket.h
 
 ** *네트워킹*: IP 공간을 선택하고 개인 엔드포인트를 사용할지 여부를 선택합니다.
 +
-*** IPspace는 백업하려는 볼륨이 있는 클러스터입니다. 이 IP공간의 클러스터 간 LIF에는 아웃바운드 인터넷 액세스가 있어야 합니다.
+*** IPspace는 백업하려는 볼륨이 있는 클러스터입니다.  이 IP공간의 클러스터 간 LIF에는 아웃바운드 인터넷 액세스가 있어야 합니다.
 *** 선택적으로, 이전에 구성한 AWS 개인 엔드포인트(PrivateLink)를 사용할지 여부를 선택합니다.
 +
 AWS PrivateLink를 사용하려면 다음을 참조하세요. https://docs.aws.amazon.com/AmazonS3/latest/userguide/privatelink-interface-endpoints.html["Amazon S3용 AWS PrivateLink"^] .
@@ -227,7 +227,7 @@ image:screen-settings-backup-destination-gcp.png["백업 대상 페이지"]
 
 ** *네트워킹*: IP 공간을 선택하고 개인 엔드포인트를 사용할지 여부를 선택합니다.
 +
-*** IPspace는 백업하려는 볼륨이 있는 클러스터입니다. 이 IP공간의 클러스터 간 LIF에는 아웃바운드 인터넷 액세스가 있어야 합니다.
+*** IPspace는 백업하려는 볼륨이 있는 클러스터입니다.  이 IP공간의 클러스터 간 LIF에는 아웃바운드 인터넷 액세스가 있어야 합니다.
 *** 선택적으로, 이전에 구성한 GCP 개인 엔드포인트(PrivateLink)를 사용할지 여부를 선택합니다.
 
 
@@ -271,7 +271,7 @@ https://docs.netapp.com/us-en/storage-management-blob-storage/task-add-blob-stor
 
 ** *네트워킹*: IP 공간을 선택하고 개인 엔드포인트를 사용할지 여부를 선택합니다.
 +
-*** IPspace는 백업하려는 볼륨이 있는 클러스터입니다. 이 IP공간의 클러스터 간 LIF에는 아웃바운드 인터넷 액세스가 있어야 합니다.
+*** IPspace는 백업하려는 볼륨이 있는 클러스터입니다.  이 IP공간의 클러스터 간 LIF에는 아웃바운드 인터넷 액세스가 있어야 합니다.
 *** 선택적으로, 이전에 구성한 Azure 개인 엔드포인트를 사용할지 여부를 선택합니다.
 +
 Azure PrivateLink를 사용하려면 다음을 참조하세요. https://azure.microsoft.com/en-us/products/private-link/["Azure 프라이빗 링크"^] .

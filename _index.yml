@@ -1,13 +1,13 @@
 ---
 indexpage:
-  title: NetApp 랜섬웨어 복원력 설명서
+  title: NetApp Ransomware Resilience 설명서
   summary: NetApp Ransomware Resilience 온프레미스 및 클라우드 스토리지에서 랜섬웨어 위협으로부터 애플리케이션 워크로드와
-    파일 공유를 보호, 탐지하고 복구를 지원합니다.  Oracle, MySQL, VM 데이터 저장소, NAS 스토리지 등의 플랫폼을 지원하는 Ransomware
+    파일 공유를 보호, 탐지하고 복구를 지원합니다. Oracle, MySQL, VM 데이터 저장소, NAS 스토리지 등의 플랫폼을 지원하는 Ransomware
     Resilience는 안전한 백업 및 복구를 가능하게 하여 조직이 중요한 데이터를 보호하고 비즈니스 연속성을 유지하는 데 도움이 됩니다.
   keywords: bluexp, ransomware, anti-ransomware, cyber attack, netapp, ontap, amazon
     web services, aws, storagegrid, protection, resilience
   lead: NetApp Ransomware Resilience 온프레미스 및 클라우드 스토리지에서 랜섬웨어 위협으로부터 애플리케이션 워크로드와
-    파일 공유를 보호, 탐지하고 복구를 지원합니다.  Oracle, MySQL, VM 데이터 저장소, NAS 스토리지 등의 플랫폼을 지원하는 Ransomware
+    파일 공유를 보호, 탐지하고 복구를 지원합니다. Oracle, MySQL, VM 데이터 저장소, NAS 스토리지 등의 플랫폼을 지원하는 Ransomware
     Resilience는 안전한 백업 및 복구를 가능하게 하여 조직이 중요한 데이터를 보호하고 비즈니스 연속성을 유지하는 데 도움이 됩니다.
   tiles:
   - title: 시작하기
@@ -34,7 +34,7 @@ indexpage:
       url: "/rp-use-dashboard.html"
     - title: 작업 부하 보호
       url: "/rp-use-protect.html"
-    - title: NetApp 데이터 분류를 사용하여 개인 식별 정보를 스캔하세요
+    - title: NetApp Data Classification 사용하여 개인 식별 정보를 스캔하세요
       url: "/rp-use-protect-classify.html"
     - title: 감지된 경고에 대응
       url: "/rp-use-alert.html"
@@ -42,9 +42,9 @@ indexpage:
       url: "/rp-use-recover.html"
   - title: 블로그 및 커뮤니티
     links:
-    - title: NetApp 콘솔
+    - title: NetApp Console
       url: https://www.netapp.com/console
-    - title: NetApp 데이터 서비스
+    - title: NetApp Data Services
       url: https://www.netapp.com/data-services/
     - title: NetApp 커뮤니티
       url: https://community.netapp.com/

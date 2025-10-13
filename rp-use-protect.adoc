@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: rp-use-protect.html 
 keywords: ransomware protection, protect against ransomware attacks, anti-ransomware policies, detection, protection, policy, malware 
-summary: NetApp Ransomware Resilience에서 워크로드에 정책을 할당하여 랜섬웨어 공격으로부터 워크로드를 보호할 수 있습니다. 
+summary: NetApp Ransomware Resilience 에서 워크로드에 정책을 할당하여 랜섬웨어 공격으로부터 워크로드를 보호할 수 있습니다. 
 ---
-= NetApp 랜섬웨어 복원력 보호 전략으로 워크로드를 보호하세요
+= NetApp Ransomware Resilience 보호 전략으로 워크로드를 보호하세요
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,7 +12,7 @@ summary: NetApp Ransomware Resilience에서 워크로드에 정책을 할당하�
 
 
 [role="lead"]
-NetApp Ransomware Resilience에서 워크로드 일관성 보호를 활성화하거나 랜섬웨어 보호 전략을 생성하여 워크로드를 랜섬웨어 공격으로부터 보호할 수 있습니다.
+NetApp Ransomware Resilience 에서 워크로드 일관성 보호를 활성화하거나 랜섬웨어 보호 전략을 생성하여 워크로드를 랜섬웨어 공격으로부터 보호할 수 있습니다.
 
 *필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
 
@@ -43,7 +43,7 @@ TIP: 데이터 자산의 관리 및 보호를 강화하려면 다음을 생성�
 
 랜섬웨어 회복력 외에도 다음 서비스를 사용하여 보호 기능을 관리할 수 있습니다.
 
-* 파일 공유, VM 파일 공유를 위한 NetApp 백업 및 복구
+* 파일 공유, VM 파일 공유를 위한 NetApp Backup and Recovery
 * VM 데이터 저장소를 위한 VMware용 SnapCenter
 * Oracle 및 MySQL용 SnapCenter
 
@@ -247,8 +247,8 @@ NOTE: **암호화 사용자 확장** 정책은 의심스러운 사용자 동작 
 . 랜섬웨어 복원력 메뉴에서 *대시보드*를 선택합니다.
 . 권장 사항 창에서 다음 권장 사항 중 하나를 찾아 *검토 및 수정*을 선택하세요.
 +
-** NetApp 콘솔을 사용하여 사용 가능한 SnapCenter 서버 등록
-** NetApp 콘솔을 사용하여 SnapCenter Plug-in for VMware vSphere 등록합니다.
+** NetApp Console 사용하여 사용 가능한 SnapCenter 서버 등록
+** NetApp Console 사용하여 SnapCenter Plug-in for VMware vSphere 등록합니다.
 
 
 . 백업 및 복구를 사용하여 SnapCenter 또는 SnapCenter Plug-in for VMware vSphere 등록하려면 다음 정보를 따르세요.
@@ -289,7 +289,7 @@ NOTE: **암호화 사용자 확장** 정책은 의심스러운 사용자 동작 
 탐지 정책은 다른 제품에서 관리되는 정책을 변경하지 않습니다.
 
 +
-탐지 정책은 다른 서비스에서 이미 활성화된 경우 Autonomous Ransomware Protection 및 FPolicy 보호를 활성화합니다.  자세히 알아보세요link:https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율형 랜섬웨어 보호"^] ,link:https://docs.netapp.com/us-en/data-services-backup-recovery/index.html["백업 및 복구"^] , 그리고link:https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP 정책"^] .
+탐지 정책은 다른 서비스에서 이미 활성화된 경우 Autonomous Ransomware Protection 및 FPolicy 보호를 활성화합니다. 자세히 알아보세요link:https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율형 랜섬웨어 보호"^] ,link:https://docs.netapp.com/us-en/data-services-backup-recovery/index.html["백업 및 복구"^] , 그리고link:https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP 정책"^] .
 
 
 
@@ -342,7 +342,7 @@ NOTE: 기존 전략을 복사하여 수정하기로 선택하면 Ransomware Resi
 +
 스냅샷 복사 잠금 기능은 ONTAP 9.12.1 이상에서 사용할 수 있습니다.  SnapLock 에 대해 자세히 알아보려면 다음을 참조하세요. https://docs.netapp.com/us-en/ontap/snaplock/index.html["ONTAP 의 SnapLock"^] .
 
-*** *스냅샷 일정*: 일정 옵션과 보관할 스냅샷 사본 수를 선택하고 일정을 활성화합니다.
+*** *스냅샷 일정*: 일정 옵션과 보관할 스냅샷 사본 수를 선택하고 일정을 활성화할지 선택합니다.
 
 
 ** *백업 정책*:
@@ -385,10 +385,10 @@ image:screen-protection.png["전략 관리 페이지"]
 . **다음**을 선택하세요.
 . *의심스러운 사용자 동작 감지*를 감지 설정으로 선택한 경우 사용자 활동 에이전트를 선택하거나link:suspicious-user-activity.html#add-a-user-activity-agent["또는 하나 만드세요"] .
 +
-사용자 활동 에이전트는 새로운 데이터 수집기를 호스팅합니다.  랜섬웨어 복원력은 사용자 활동 이벤트를 랜섬웨어 복원력으로 자동으로 전송하여 비정상적인 사용자 행동을 감지하는 데이터 수집기를 생성합니다.
+사용자 활동 에이전트는 새로운 데이터 수집기를 호스팅합니다. 랜섬웨어 복원력은 사용자 활동 이벤트를 랜섬웨어 복원력으로 자동으로 전송하여 비정상적인 사용자 행동을 감지하는 데이터 수집기를 생성합니다.
 
 . **다음**을 선택하세요.
-. 선택 사항을 검토하세요.  감지 기능을 활성화하려면 **만들기**를 선택하세요.
+. 선택 사항을 검토하세요. 감지 기능을 활성화하려면 **만들기**를 선택하세요.
 . 보호 페이지에서 **탐지 상태**를 검토하여 탐지가 활성화되어 있는지 확인하세요.
 
 
@@ -405,10 +405,10 @@ image:screen-protection.png["전략 관리 페이지"]
 
 . 보호 페이지에서 작업 부하를 선택한 다음 *보호*를 선택합니다.
 . 랜섬웨어 복원력은 기존에 활성화된 백업 및 복구 또는 SnapCenter 정책이 있는지 감지합니다.  기존 백업 및 복구 또는 SnapCenter 정책을 바꾸려면 **기존 정책 바꾸기** 상자를 선택하세요.  상자를 선택하면 랜섬웨어 복원력이 탐지 정책 목록을 탐지 정책으로 바꿉니다.
-. 보호 정책을 선택하세요.  보호 정책이 없으면 **추가**를 선택하여 새 정책을 만듭니다.  정책 생성에 대한 정보는 다음을 참조하세요.<<steps,보호 정책 만들기>> .  **다음**을 선택하세요.
-. 백업 대상을 선택하거나 새 대상을 만듭니다.  **다음**을 선택하세요.
+. 보호 정책을 선택하세요.  보호 정책이 없으면 **추가**를 선택하여 새 정책을 만듭니다.  정책 생성에 대한 정보는 다음을 참조하세요.<<steps,보호 정책 만들기>> . **다음**을 선택하세요.
+. 백업 대상을 선택하거나 새 대상을 만듭니다. **다음**을 선택하세요.
 +
-.. 보호 전략에 사용자 동작 감지가 포함된 경우 환경에서 새 데이터 수집기를 호스팅할 사용자 활동 에이전트를 선택하세요.  랜섬웨어 복원력은 사용자 활동 이벤트를 랜섬웨어 복원력으로 자동으로 전송하여 비정상적인 사용자 행동을 감지하는 데이터 수집기를 생성합니다.
+.. 보호 전략에 사용자 동작 감지가 포함된 경우 환경에서 새 데이터 수집기를 호스팅할 사용자 활동 에이전트를 선택하세요. 랜섬웨어 복원력은 사용자 활동 이벤트를 랜섬웨어 복원력으로 자동으로 전송하여 비정상적인 사용자 행동을 감지하는 데이터 수집기를 생성합니다.
 
 
 . 새로운 보호 전략을 검토한 다음 **보호**를 선택하여 적용합니다.
@@ -419,7 +419,7 @@ image:screen-protection.png["전략 관리 페이지"]
 
 === 다른 정책을 할당합니다
 
-기존 정책을 다른 정책으로 바꿀 수 있습니다.
+기존 정책을 다른 정책으로 대체할 수 있습니다.
 
 .단계
 . 랜섬웨어 복원력 메뉴에서 *보호*를 선택합니다.
@@ -436,7 +436,7 @@ image:screen-protection.png["전략 관리 페이지"]
 
 파일 공유를 보호 그룹으로 그룹화하면 데이터 자산을 보호하기가 더 쉬워집니다.  랜섬웨어 복원력은 각 볼륨을 개별적으로 보호하는 대신, 그룹의 모든 볼륨을 동시에 보호할 수 있습니다.
 
-보호 상태(즉, 보호되지 않는 그룹과 보호되는 그룹)에 관계없이 그룹을 만들 수 있습니다.  보호 그룹에 보호 정책을 추가하면 새 보호 정책이 SnapCenter 및 NetApp Backup and Recovery 에서 관리하는 정책을 포함한 모든 기존 정책을 대체합니다.
+보호 상태(즉, 보호되지 않는 그룹과 보호되는 그룹)에 관계없이 그룹을 만들 수 있습니다. 보호 그룹에 보호 정책을 추가하면 새 보호 정책이 SnapCenter 및 NetApp Backup and Recovery 에서 관리하는 정책을 포함한 모든 기존 정책을 대체합니다.
 
 .단계
 . 랜섬웨어 복원력 메뉴에서 *보호*를 선택합니다.
@@ -461,7 +461,7 @@ TIP: 작업 부하에 대한 자세한 내용을 보려면 오른쪽으로 스�
 +
 image:screen-protection-groups-policy.png["보호 그룹 추가 - 정책 페이지"]
 
-. 이 그룹에 대한 보호를 관리하는 정책을 선택하세요.  확인하려면 *다음*을 선택하세요.
+. 이 그룹에 대한 보호를 관리하는 정책을 선택하세요. 확인하려면 *다음*을 선택하세요.
 +
 .. 백업 정책을 구성해야 하는 경우, 정책을 선택한 후 **다음**을 선택하세요.
 .. 탐지 정책에 사용자 동작 탐지가 포함된 경우 사용할 데이터 수집기를 선택한 후 **다음**을 클릭합니다.

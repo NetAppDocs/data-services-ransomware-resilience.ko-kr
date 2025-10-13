@@ -4,7 +4,7 @@ permalink: rp-reference-limitations.html
 keywords: ransomware protection, protect against ransomware attacks, anti-ransomware, role-based access control, rbac, role, permission, access rights, organization,project,account 
 summary: 알려진 제한 사항은 이 제품 릴리스에서 지원하지 않는 플랫폼, 장치 또는 기능을 나타냅니다. 
 ---
-= NetApp 랜섬웨어 복원력의 알려진 제한 사항
+= NetApp Ransomware Resilience 의 알려진 제한 사항
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

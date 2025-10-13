@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: rp-start-disable.html 
 keywords: bluexp, ransomware protection, netapp, disable protection 
-summary: 더 이상 NetApp Ransomware Resilience를 사용하지 않으려면 라이선스가 만료되도록 둘 수 있습니다. 
+summary: 더 이상 NetApp Ransomware Resilience 사용하지 않으려면 라이선스가 만료되도록 둘 수 있습니다. 
 ---
-= NetApp 랜섬웨어 복원력 비활성화
+= NetApp Ransomware Resilience 비활성화
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,7 +12,7 @@ summary: 더 이상 NetApp Ransomware Resilience를 사용하지 않으려면 �
 
 
 [role="lead"]
-더 이상 NetApp Ransomware Resilience를 사용하지 않으려면 라이선스가 만료되도록 둘 수 있습니다.  더 이상 사용하지 않으려는 정책은 비활성화할 수도 있습니다.
+더 이상 NetApp Ransomware Resilience 사용하지 않으려면 라이선스가 만료되도록 둘 수 있습니다.  더 이상 사용하지 않으려는 정책은 비활성화할 수도 있습니다.
 
 
 

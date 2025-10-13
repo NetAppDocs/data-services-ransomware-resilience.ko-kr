@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: rp-use-recover.html 
 keywords: ransomware protection recovery, recover from a ransomware attack, recovery point, RPA 
-summary: '공격 후 NetApp 랜섬웨어 복원력은 보조 스토리지의 백업 데이터가 안전한지 확인하고, 실제 복구 지점(RPA)을 권장하며, 충돌 방지 복구를 위한 워크플로를 조율합니다.' 
+summary: '공격 후 NetApp Ransomware Resilience 보조 스토리지의 백업 데이터가 안전한지 확인하고, 실제 복구 지점(RPA)을 권장하며, 충돌 방지 복구를 위한 워크플로를 조율합니다.' 
 ---
-= NetApp Ransomware Resilience를 사용하여 랜섬웨어 공격으로부터 복구(사고가 해결된 후)
+= NetApp Ransomware Resilience 사용하여 랜섬웨어 공격으로부터 복구(사고가 해결된 후)
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,7 +12,7 @@ summary: '공격 후 NetApp 랜섬웨어 복원력은 보조 스토리지의 백
 
 
 [role="lead"]
-워크로드가 "복원 필요"로 표시된 후 NetApp Ransomware Resilience는 실제 복구 지점(RPA)을 권장하고 충돌 방지 복구를 위한 워크플로를 조정합니다.
+워크로드가 "복원 필요"로 표시된 후 NetApp Ransomware Resilience 실제 복구 지점(RPA)을 권장하고 충돌 방지 복구를 위한 워크플로를 조정합니다.
 
 * 애플리케이션이나 VM이 SnapCenter 에서 관리되는 경우 Ransomware Resilience는 애플리케이션 일관성 또는 VM 일관성 프로세스를 사용하여 애플리케이션이나 VM을 이전 상태 및 마지막 트랜잭션으로 복원합니다.  애플리케이션 또는 VM 일관성 복원은 캐시나 I/O 작업에 있는 데이터 등 저장소에 들어가지 않은 모든 데이터를 볼륨의 데이터에 추가합니다.
 * 애플리케이션이나 VM이 SnapCenter 에서 관리되지 않고 NetApp Backup and Recovery 또는 Ransomware Resilience에서 관리되는 경우, Ransomware Resilience는 충돌 시에도 일관된 복원을 수행합니다. 즉, 시스템이 충돌한 경우와 같이 동일한 시점에 볼륨에 있던 모든 데이터가 복원됩니다.
