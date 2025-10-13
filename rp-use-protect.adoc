@@ -14,7 +14,7 @@ summary: NetApp Ransomware Resilience에서 워크로드에 정책을 할당하�
 [role="lead"]
 NetApp Ransomware Resilience에서 워크로드 일관성 보호를 활성화하거나 랜섬웨어 보호 전략을 생성하여 워크로드를 랜섬웨어 공격으로부터 보호할 수 있습니다.
 
-*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 콘솔 액세스 역할에 대해 알아보세요."^] .
+*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
 
 
 

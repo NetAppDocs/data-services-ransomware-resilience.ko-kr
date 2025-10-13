@@ -1800,9 +1800,6 @@
   <block id="f8a7dc43864435cb9b522a28b586e556" category="sidebar">랜섬웨어 공격으로부터 복구</block>
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">자주 묻는 질문</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식과 지원</block>
-  <block id="d1b55f5f1fa56ec4203bc496f8d5ae0a" category="paragraph">*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 또는 랜섬웨어 복원력 뷰어 역할이 필요합니다.<block ref="51ffd1668f46b7e360e102a30faa6c5f" category="inline-link-rx"></block> .</block>
-  <block id="f4deedd842ba0d6030bcfc6f8297d06a" category="paragraph">*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. <block ref="b8bf795c21c8bcdf6af09fd1f4de58b8" category="inline-link-macro-rx"></block> .</block>
-  <block id="8b37e5b51ed96f5c46949a0dbdc5d195" category="paragraph">*필수 콘솔 역할* 이 작업을 수행하려면 랜섬웨어 복원력 사용자 동작 관리자 역할이 필요합니다. <block ref="c63b2c8d20974c1834bc75207be469f3" category="inline-link-macro-rx"></block> .</block>
   <block id="a54b344e834fd0b16ead656bdeef0a91" category="paragraph"><block ref="e97e75c9449e5f1b8a8a75ebff67b7c3" category="inline-link-rx"></block> .</block>
   <block id="b6e5a2afe0652e635d34c755069996c1" category="paragraph"><block ref="df4243c8490e7ac0935cb3c37b5c0dd3" category="inline-link-rx"></block> .</block>
   <block id="77828430fb1afe32722790a173c51e53" category="paragraph">각 역할이 수행할 수 있는 작업에 대한 자세한 내용은 다음을 참조하세요.<block ref="5ed990007d3942ee85d552217fd4b2da" category="inline-link-rx"></block> .</block>
@@ -1836,8 +1833,6 @@
   <block id="9f149be55d2ace2f4ef86d2125660c4c" category="list-text">**데이터 파괴 - 잠재적 공격** - 파일 삭제 수가 기존 기준을 초과하면 잠재적 공격의 심각도를 알려주는 알림이 생성됩니다.</block>
   <block id="b3917e47f33bfc92b2d66abb2a71397c" category="list-text">**의심스러운 사용자 동작 - 잠재적 공격** - 랜섬웨어 공격과 유사한 순서로 읽기, 이름 바꾸기 및 삭제 작업이 관찰되면 잠재적 공격의 심각도를 알려주는 경고가 생성됩니다.</block>
   <block id="a3e76fe95cb3298fc3fb711993e170f1" category="list-text">**의심스러운 사용자 동작 - 경고** - 파일 활동(읽기, 삭제, 이름 바꾸기 등)의 총 수가 이전 기준을 초과하면 경고 심각도의 알림이 생성됩니다.</block>
-  <block id="b0ba200b30bf16fc357a806132791b75" category="section-title">데이터 침해 감지를 위한 새로운 사용자 역할</block>
-  <block id="badd5c45c49e20368873307ff9e6ffc0" category="paragraph">의심스러운 사용자 활동 알림을 관리하기 위해 Ransomware Resilience는 사용자 파일 활동과 같은 중요한 데이터에 대한 세부적인 액세스를 제공하는 두 가지 새로운 역할을 도입했습니다. 자세한 내용은 다음을 참조하세요. <block ref="acee2fdb33125bc970e8c80226d5f58c" category="inline-link-macro-rx"></block> .</block>
   <block id="d0f71eee61b39f3ffe00d85759351067" category="paragraph">비정상적인 사용자 행동을 감지하기 위해 Ransomware Resilience는 ONTAP 내의 머신 러닝(ML) 모델인 NetApp Autonomous Ransomware Protection을 사용하여 악성 파일 활동을 감지합니다.  이 모델은 랜섬웨어 복원력 라이선스에 포함되어 있습니다.</block>
   <block id="a139b69cf2c6a37377eea224685da3f6" category="paragraph">자세히 알아보세요<block ref="6d844886de4fe963e1e4b97f495f829d" category="inline-link-macro-rx"></block> .</block>
   <block id="f2abd20c3ee58c54298223da2df91335" category="list-text">NetApp 스냅샷 복사본과 백업 정책의 각 볼륨의 현재 보호 수준과 온박스 감지 기능을 검색합니다.  랜섬웨어 복원력은 백업 및 복구, ONTAP 서비스, 자율 랜섬웨어 보호( ONTAP 버전에 따라 ARP 또는 ARP/AI), 정책, 백업 정책, 스냅샷 정책과 같은 NetApp 기술을 사용하여 이러한 보호 태세를 워크로드와 연결합니다.  자세히 알아보세요<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block> ,<block ref="2b1b7f994c6938347657a18d8edc7db7" category="inline-link-rx"></block> , 그리고<block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block> .</block>
@@ -2031,4 +2026,14 @@
   <block id="0c59fa3b4bea70fe5377775600bed707" category="sidebar">NetApp Ransomware Resilience 온프레미스 및 클라우드 스토리지에서 랜섬웨어 위협으로부터 애플리케이션 워크로드와 파일 공유를 보호, 탐지하고 복구를 지원합니다.  Oracle, MySQL, VM 데이터 저장소, NAS 스토리지 등의 플랫폼을 지원하는 Ransomware Resilience는 안전한 백업 및 복구를 가능하게 하여 조직이 중요한 데이터를 보호하고 비즈니스 연속성을 유지하는 데 도움이 됩니다.</block>
   <block id="e65f6e4b1867bfedf08120cb1ab99c24" category="sidebar">의심스러운 사용자 활동 감지 구성</block>
   <block id="75ae81fb1b2b27cbdbd5ba2b48014fe5" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="4fc0d3ac39798f24cded583e594e4abe" category="inline-link-macro-rx"></block> 그리고<block ref="f451eade5eddedc7b8e2af13d9e54fd3" category="inline-link-macro-rx"></block> .</block>
+  <block id="fc873becb3d197af9044ddf128631756" category="inline-link-macro">NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요</block>
+  <block id="ffc546c33a9583234d58a821767e1895" category="paragraph">*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 또는 랜섬웨어 복원력 뷰어 역할이 필요합니다. <block ref="d9cbbacd5ef5cff6a1660fdb9d259f2f" category="inline-link-macro-rx"></block> .</block>
+  <block id="abd422919398ff257d563d8b5c5699c0" category="paragraph">*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. <block ref="d9cbbacd5ef5cff6a1660fdb9d259f2f" category="inline-link-macro-rx"></block> .</block>
+  <block id="a0bc9be88b94133627ac97e11a259c1c" category="paragraph">*필수 콘솔 역할* 이 작업을 수행하려면 랜섬웨어 복원력 사용자 동작 관리자 역할이 필요합니다. 랜섬웨어 복원력 관리자 역할로는 이 작업을 수행할 수 없습니다. <block ref="d9cbbacd5ef5cff6a1660fdb9d259f2f" category="inline-link-macro-rx"></block> .</block>
+  <block id="3d2aadf85980b84588fa5209f5a19682" category="inline-link-macro">랜섬웨어 복원력 사용자 동작 관리자 및 랜섬웨어 복원력 사용자 동작 뷰어</block>
+  <block id="44c4a9a3d8fb9c475fdab3218cabf517" category="admonition">새로운 것을 사용해야 합니다<block ref="150c4a59c5fb1f39f9eda4670f9c992c" category="inline-link-macro-rx"></block> 의심스러운 사용자 행동 감지 설정에 액세스하는 역할입니다.</block>
+  <block id="f3bb9521072178132b6de817bd448616" category="section-title">데이터 침해 감지를 위한 새로운 사용자 역할</block>
+  <block id="7584e1f8b83860064449cf13924e3d4a" category="paragraph">의심스러운 사용자 활동 알림을 관리하기 위해 Ransomware Resilience는 콘솔 조직 관리자가 의심스러운 사용자 활동 감지에 대한 액세스 권한을 부여할 수 있는 두 가지 새로운 역할, 즉 Ransomware Resilience 사용자 동작 관리자와 Ransomware Resilience 사용자 동작 뷰어를 도입했습니다.</block>
+  <block id="2d5c784e8595b475f03f62e102d55828" category="paragraph">의심스러운 사용자 동작 설정을 구성하려면 사용자 동작 관리자여야 합니다.  랜섬웨어 복원력 관리자 역할은 의심스러운 사용자 동작 설정을 구성하는 데 지원되지 않습니다.</block>
+  <block id="eab6dcf0426537b3bdfc0895e79881d8" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="cd66090adbbec1fbcb8578d25dadb581" category="inline-link-macro-rx"></block> .</block>
 </blocks>

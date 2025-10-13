@@ -34,7 +34,7 @@ Ransomware Resilience에서 의심스러운 사용자 활동 감지를 활성화
 
 == 의심스러운 사용자 활동 감지 활성화
 
-*필수 콘솔 역할* 이 작업을 수행하려면 랜섬웨어 복원력 사용자 동작 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 콘솔 액세스 역할에 대해 알아보세요."^] .
+*필수 콘솔 역할* 이 작업을 수행하려면 랜섬웨어 복원력 사용자 동작 관리자 역할이 필요합니다. 랜섬웨어 복원력 관리자 역할로는 이 작업을 수행할 수 없습니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
 
 
 

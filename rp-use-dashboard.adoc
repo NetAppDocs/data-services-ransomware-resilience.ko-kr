@@ -16,7 +16,7 @@ NetApp 랜섬웨어 복원력 대시보드는 워크로드의 보호 상태에 �
 
 대시보드를 사용하여 보호 제안을 검토하고, 설정을 변경하고, 보고서를 다운로드하고, 문서를 확인하세요.
 
-*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 또는 랜섬웨어 복원력 뷰어 역할이 필요합니다. https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요"^] .
+*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 또는 랜섬웨어 복원력 뷰어 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
 
 
 

@@ -32,7 +32,7 @@ NFS 및 CIFS(SMB) 워크로드에 대한 준비 훈련을 실행할 수 있습�
 * 다른 테스트 작업 이름을 입력하는 경우
 
 
-*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 콘솔 액세스 역할에 대해 알아보세요."^] .
+*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
 
 .단계
 . NetApp 랜섬웨어 복원력 메뉴에서 오른쪽 상단에 있는 *준비 훈련 실행* 버튼을 선택합니다.
@@ -67,7 +67,7 @@ TIP: 나중에 설정 페이지를 사용하여 준비 훈련 구성을 편집�
 
 준비 훈련을 구성한 후 훈련을 시작할 수 있습니다.
 
-*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 콘솔 액세스 역할에 대해 알아보세요."^] .
+*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
 
 준비 훈련을 시작하면 Ransomware Resilience는 학습 모드를 건너뛰고 활성 모드에서 훈련을 시작합니다.  워크로드의 감지 상태가 활성입니다.
 
@@ -96,7 +96,7 @@ NOTE: 훈련이 시작된 후에는 준비 훈련 구성을 편집할 수 없습
 
 준비 훈련 알림에 응답하여 준비 상태를 테스트하세요.
 
-*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 콘솔 액세스 역할에 대해 알아보세요."^] .
+*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
 
 .단계
 . 랜섬웨어 복원력 메뉴에서 *알림*을 선택합니다.
@@ -141,7 +141,7 @@ image:screen-alerts-readiness-incidents2.png["준비 훈련 알림을 보여주�
 
 준비 훈련 알림을 검토한 후 필요한 경우 테스트 작업 부하를 복원합니다.
 
-*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 콘솔 액세스 역할에 대해 알아보세요."^] .
+*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
 
 .단계
 . 알림 세부 정보 페이지로 돌아갑니다.
@@ -202,7 +202,7 @@ IMPORTANT: 공격을 해제한 후에는 다시 되돌릴 수 없습니다.  작
 
 준비 훈련이 완료된 후 훈련 보고서를 검토하고 저장할 수 있습니다.
 
-*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 또는 랜섬웨어 복원력 뷰어 역할이 필요합니다. https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요"^] .
+*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 또는 랜섬웨어 복원력 뷰어 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
 
 .단계
 . 랜섬웨어 복원력 메뉴에서 *보고서*를 선택합니다.

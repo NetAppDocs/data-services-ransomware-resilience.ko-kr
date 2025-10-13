@@ -24,6 +24,9 @@ NetApp 콘솔은 엔터프라이즈급 온프레미스 및 클라우드 환경 �
 
 저장 계층에서 ARP를 통한 암호화 감지와 달리, Ransomware Resilience SaaS 서비스에서는 FPolicy 이벤트를 수집하여 사용자 동작 이상을 감지합니다.
 
+
+IMPORTANT: 새로운 것을 사용해야 합니다link:#new-user-roles-for-data-breach-detection["랜섬웨어 복원력 사용자 동작 관리자 및 랜섬웨어 복원력 사용자 동작 뷰어"] 의심스러운 사용자 행동 감지 설정에 액세스하는 역할입니다.
+
 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html["의심스러운 사용자 활동 감지 활성화"] 그리고link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-alert.html#view-anomalous-user-behavior["비정상적인 사용자 동작 보기"] .
 
 
@@ -41,4 +44,8 @@ Ransomware Resilience는 데이터 침해 감지 외에도 관찰된 의심스�
 
 ==== 데이터 침해 감지를 위한 새로운 사용자 역할
 
-의심스러운 사용자 활동 알림을 관리하기 위해 Ransomware Resilience는 사용자 파일 활동과 같은 중요한 데이터에 대한 세부적인 액세스를 제공하는 두 가지 새로운 역할을 도입했습니다. 자세한 내용은 다음을 참조하세요. link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-roles.html["NetApp 랜섬웨어 복원력 역할 기반 액세스"] .
+의심스러운 사용자 활동 알림을 관리하기 위해 Ransomware Resilience는 콘솔 조직 관리자가 의심스러운 사용자 활동 감지에 대한 액세스 권한을 부여할 수 있는 두 가지 새로운 역할, 즉 Ransomware Resilience 사용자 동작 관리자와 Ransomware Resilience 사용자 동작 뷰어를 도입했습니다.
+
+의심스러운 사용자 동작 설정을 구성하려면 사용자 동작 관리자여야 합니다.  랜섬웨어 복원력 관리자 역할은 의심스러운 사용자 동작 설정을 구성하는 데 지원되지 않습니다.
+
+자세한 내용은 다음을 참조하세요. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp 랜섬웨어 복원력 역할 기반 액세스"^] .
