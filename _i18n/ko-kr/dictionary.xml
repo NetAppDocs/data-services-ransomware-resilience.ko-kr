@@ -614,8 +614,6 @@
   <block id="60e39582e4cf8359d140fc0851baccb4" category="list-text">온-프레미스 ONTAP 클러스터나 AWS 또는 Azure의 Cloud Volumes ONTAP 에 연결하는 활성 콘솔 에이전트가 하나 이상 있는 콘솔 조직입니다.</block>
   <block id="ffc25a5f8d1276ee801a950e7f83a233" category="list-text">콘솔 에이전트에는 다음이 있어야 합니다.<block ref="d5aabb6133fba5c7ef5a4e8db21d18ae" prefix=" " category="inline-code"></block> 활성 상태의 컨테이너.</block>
   <block id="7bff903bef6a1c5af1e562c29d1de15e" category="list-text">AWS 또는 Azure의 NetApp 온프레미스 ONTAP 클러스터 또는 Cloud Volumes ONTAP 있는 콘솔 시스템이 하나 이상 있어야 합니다.  Ransomware Resilience는 NAS(NFS 및 SMB)와 SAN(iSCSI, FC 및 NVMe) 프로토콜을 모두 지원합니다.</block>
-  <block id="fd90f947530ad3e6b6dfdb82ceff50cb" category="list-text">ONTAP OS 버전 9.11.1 이상을 갖춘 ONTAP 또는 Cloud Volumes ONTAP 클러스터가 지원됩니다.</block>
-  <block id="7ea40a0c9f950a0c8c2ee16edd7f77f2" category="admonition">SAN 워크로드는 ONTAP 9.17.1 이상에서만 지원됩니다.</block>
   <block id="097ff3efa4909e783a040ec7edc317d6" category="list-text">AWS 또는 Azure 클라우드의 온프레미스 ONTAP 클러스터나 Cloud Volumes ONTAP 아직 콘솔에 온보딩되지 않은 경우 콘솔 에이전트가 필요합니다.</block>
   <block id="04f679e072129c7e87e077dc95e5e73e" category="inline-link">콘솔 에이전트를 구성하는 방법을 알아보세요</block>
   <block id="b1fb1d531493b1af3ab2980b2c579a5f" category="inline-link">표준 콘솔 요구 사항</block>
@@ -630,7 +628,6 @@
   <block id="5cc74ffa295c128286831c0e8de84cd1" category="paragraph">자세한 라이센스 세부 사항은 다음을 참조하세요.<block ref="11f96aed2a11a318ecdf8f5381ec25fa" category="inline-link-macro-rx"></block> .</block>
   <block id="47c8d077dd25d3b0a8650ef6f84f0820" category="list-text">보호 구성(자율 랜섬웨어 보호 및 기타 기능 활성화 등)을 적용하려면 랜섬웨어 복원력에 ONTAP 클러스터에 대한 관리자 권한이 필요합니다.  ONTAP 클러스터는 ONTAP 클러스터 관리자 사용자 자격 증명을 사용하여만 온보딩되어야 합니다.</block>
   <block id="d6b16e754b93934f7687ad4f252b7073" category="list-text">ONTAP 클러스터가 이미 관리자가 아닌 사용자 자격 증명을 사용하여 콘솔에 온보딩된 경우, 이 페이지에 설명된 대로 ONTAP 클러스터에 로그인하여 관리자가 아닌 사용자 권한을 필요한 권한으로 업데이트해야 합니다.</block>
-  <block id="ed5ce0cb12bbc7e366d04460145d59f3" category="section-title">데이터 백업을 위해</block>
   <block id="0885a21123eeb2ad2e03289064c229ea" category="list-text">백업 대상과 액세스 권한 집합을 위한 NetApp StorageGRID, AWS S3, Azure Blob 또는 Google Cloud Platform의 계정입니다.</block>
   <block id="d2e3e802d3f25894bd170688859d6cef" category="inline-link">AWS, Azure 또는 S3 권한 목록</block>
   <block id="90061bb176f3e723f6f2161eafc1901c" category="paragraph">를 참조하세요<block ref="31e1fb669a04af441205b80b4846232f" category="inline-link-rx"></block> 자세한 내용은.</block>
@@ -743,8 +740,6 @@
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">다음 중 하나를 수행하세요.</block>
   <block id="298c644723428b96dd61c8e59f47eee9" category="list-text">랜섬웨어 복원력 메뉴에서 오른쪽 상단에 있는 *준비 훈련 실행* 버튼을 선택하세요.</block>
   <block id="8d2bd4422410271303c0633a19aefea9" category="list-text">또는 설정 페이지의 준비 훈련 카드에서 *시작*을 선택하세요.</block>
-  <block id="f54a2552361ef76d1d69e95fc2f63e90" category="list-text">이미 준비 훈련을 구성한 경우, *시작*을 선택하면 준비 훈련이 시작됩니다.</block>
-  <block id="241197791593ba6fe12006bc7c44e045" category="admonition">훈련이 시작된 후에는 준비 훈련 구성을 편집할 수 없습니다.  다시 시작하려면 재설정하면 됩니다.</block>
   <block id="1e4a43fb392ed69a6d5a047ba0d88826" category="section-title">준비 훈련 경고에 대응하세요</block>
   <block id="6128067a6b325891717a7cfc23e60bae" category="paragraph">준비 훈련 알림에 응답하여 준비 상태를 테스트하세요.</block>
   <block id="e9ebf76599d54488581ec7e47b518db1" category="list-text">랜섬웨어 복원력 메뉴에서 *알림*을 선택합니다.</block>
@@ -2036,4 +2031,11 @@
   <block id="f8a7dc43864435cb9b522a28b586e556" category="sidebar">랜섬웨어 공격으로부터 복구</block>
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">자주 묻는 질문</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식과 지원</block>
+  <block id="69d1e7a74a8d35e4122500df6d2f5042" category="list-text">랜섬웨어 복원력은 ONTAP 버전 9.11.1 이상을 사용하는 ONTAP 또는 Cloud Volumes ONTAP 클러스터에서 지원됩니다.</block>
+  <block id="d36369f24098b858527294c5a234c72d" category="admonition">SAN 워크로드에서 랜섬웨어 복원력을 사용하려면 ONTAP 9.17.1 이상을 실행해야 합니다.</block>
+  <block id="51fecb5d19a6637dea83445678fd4ffa" category="section-title">데이터 백업</block>
+  <block id="9755e4a474d0024a8dcd40393e571716" category="section-title">의심스러운 사용자 행동</block>
+  <block id="34691f87b892c333fe1b7a23452dcda6" category="paragraph">랜섬웨어 복원력이 의심스러운 사용자 동작에 대한 알림을 제공하려면 사용자 활동 에이전트를 구성해야 합니다. 자세한 내용은 다음을 참조하세요. <block ref="f3d3e5726f7feb4b59ca728c906df758" category="inline-link-macro-rx"></block>.</block>
+  <block id="793485138a653779a0c8cb91bf9fc979" category="list-text">준비 훈련 유형을 선택하세요. 암호화 데이터 침해로 인해 수동으로 복구하려면 **사용자 지정 복구**를 선택하세요. 의심스러운 사용자 활동으로부터 복구하려면 **데이터 침해**를 선택하세요.</block>
+  <block id="8e0b9d66ccd774ed98d0b31d0e6ed305" category="admonition">훈련이 진행되는 동안에는 준비 훈련 구성을 편집할 수 없습니다. 드릴을 재설정하여 멈추고 구성을 수정할 수 있습니다.</block>
 </blocks>
