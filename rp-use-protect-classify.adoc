@@ -9,7 +9,7 @@ summary: NetApp Data Classification 통해 데이터에 개인 식별 정보나 
 
 
 [role="lead"]
-NetApp Ransomware Resilience 내에서 NetApp Data Classification 사용하여 파일 공유 워크로드의 데이터를 스캔하고 분류할 수 있습니다.  데이터를 분류하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 확인하는 데 도움이 되며, PII가 포함되어 있으면 보안 위험이 커질 수 있습니다.  데이터 분류는 콘솔의 핵심 구성 요소이며 추가 비용 없이 사용할 수 있습니다.
+NetApp Ransomware Resilience 내에서 NetApp Data Classification 사용하여 파일 공유 워크로드의 데이터를 스캔하고 분류할 수 있습니다. 데이터를 분류하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 확인하는 데 도움이 되며, PII가 포함되어 있으면 보안 위험이 커질 수 있습니다. 데이터 분류는 NetApp Console 의 핵심 구성 요소이며 추가 비용 없이 사용할 수 있습니다.
 
 link:https://docs.netapp.com/us-en/data-services-data-classification/["데이터 분류"^]AI 기반 자연어 처리를 활용해 상황에 맞는 데이터를 분석하고 분류하여, 규정 준수 요구 사항을 충족하고, 보안 취약성을 탐지하고, 비용을 최적화하고, 마이그레이션을 가속화할 수 있는 실행 가능한 데이터 통찰력을 제공합니다.
 

@@ -480,14 +480,12 @@
   <block id="28cfeb7fff7b4f9ab9bf205d7135f788" category="paragraph">이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자 역할이 필요합니다.<block ref="43e60870b1a681df3de2812caf2de958" category="inline-link-rx"></block> .</block>
   <block id="f53f2f881ada2816fc6ddea06cdcfc60" category="paragraph">*라이선스 유형* 다음 라이선스 유형을 사용할 수 있습니다.</block>
   <block id="b5bf014c6bc530be1a7b68b5bcfb8ce0" category="list-text">Amazon Web Services(AWS) Marketplace, Google Cloud Marketplace 또는 Azure Marketplace에서 사용량에 따라 지불하는(PAYGO) 구독을 구매하세요.</block>
-  <block id="13bd4b8763a0912ae1342d2303d91929" category="list-text">BYOL(Bring Your Own License)은 NetApp 영업 담당자로부터 받는 NetApp 라이선스 파일(NLF)입니다.  콘솔에서 라이선스 일련 번호를 사용하여 BYOL을 활성화할 수 있습니다.</block>
   <block id="bcc2135df9c790b26ee1baa911a601ef" category="paragraph">BYOL을 설정하거나 PAYGO 구독을 구매한 후 콘솔의 Licenses and subscriptions 섹션에서 라이선스를 확인할 수 있습니다.</block>
   <block id="aa4412f38985c565aeb98dc6634f3029" category="paragraph">무료 평가판이 종료되거나 라이선스 또는 구독이 만료된 후에도 Ransomware Resilience에서 다음 작업을 수행할 수 있습니다.</block>
   <block id="9f5e79cce3ac3e1b3962cddaef91e4e0" category="list-text">작업 부하와 작업 부하 상태를 확인합니다.</block>
   <block id="ed2dd81f2c51f4d72049803cf5ce6211" category="list-text">정책 등의 리소스를 삭제합니다.</block>
   <block id="1594f78ebbb281f7b5359eb6d2b89912" category="list-text">평가판 기간이나 라이선스에 따라 생성된 모든 예약된 작업을 실행합니다.</block>
   <block id="231fd9de718f42c1c9e89368821092dd" category="section-title">기타 라이센스</block>
-  <block id="f5b76d2b545a3d3806e510148858010e" category="paragraph">랜섬웨어 복원력 라이선스에는 추가 NetApp 제품이 포함되지 않습니다.  랜섬웨어 복원력은 라이선스가 없더라도 NetApp Backup and Recovery 사용할 수 있습니다.</block>
   <block id="1f39796076513bca42919b255963cd5a" category="admonition">백업 및 복구와 랜섬웨어 복원력을 모두 사용하는 경우, 두 제품으로 보호되는 공통 데이터는 랜섬웨어 복원력으로만 청구됩니다.</block>
   <block id="b22e0a0c145eff4bd34bc6c46894b2a1" category="section-title">30일 무료 체험판을 이용해 보세요</block>
   <block id="50de852d5302d938fcee7f3cfc39b286" category="paragraph">30일 무료 체험판을 통해 Ransomware Resilience를 사용해 보세요.  무료 평가판을 시작하려면 콘솔 조직 관리자여야 합니다.</block>
@@ -645,36 +643,20 @@
   <block id="1f7fec232265cdaaed5c3995ce516af2" category="list-text">랜섬웨어 복원력 UI로 돌아가서 사용하세요.</block>
   <block id="01ad1e9b6ee32140ab032c379c4fd753" category="summary">몇 단계만 거치면 NetApp Ransomware Resilience 시작할 수 있습니다.</block>
   <block id="87269d545e3fccdff13a867df7261ace" category="doc">NetApp Ransomware Resilience 대한 빠른 시작</block>
-  <block id="41bff2ae3735c5f6436f8b085adcb8b8" category="paragraph">NetApp Ransomware Resilience 시작하는 데 필요한 단계에 대한 개요는 다음과 같습니다. 각 단계 내의 링크를 클릭하면 자세한 내용을 제공하는 페이지로 이동합니다.</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">하나</block>
   <block id="a2d56436fc6737079209e6c74380c5fb" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block>필수 조건 검토</block>
-  <block id="8245d68da46718af8e64343032f76d49" category="inline-link-macro">시스템이 이러한 요구 사항을 충족하는지 확인하세요.</block>
-  <block id="75d0ccc7689bb95b15a30d63c9ccdcd4" category="paragraph"><block ref="9f6f8763dd3393068af568a58712b0aa" category="inline-link-macro-rx"></block> .</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">둘</block>
   <block id="916d9ab8dea7ac43f2e082cba0d4f60d" category="list-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block>랜섬웨어 복원력 설정</block>
   <block id="0545ec91139cbe1d8ed0b333ebef939f" category="inline-link-macro">NetApp StorageGRID, Amazon Web Services, Google Cloud Platform 또는 Microsoft Azure를 백업 대상으로 준비합니다.</block>
   <block id="72f842d16f2016131d4e9d7e14038e88" category="list-text"><block ref="9e4e7ea8cc8b7b041d3f5d7300c15c3a" category="inline-link-macro-rx"></block> .</block>
-  <block id="9dc5e6bd86bf7e797ea094f6fe2a5852" category="inline-link-macro">콘솔 에이전트 구성</block>
-  <block id="47eb90acf1b579722f7d5dd2b44ef0e4" category="list-text"><block ref="9ec4312a792865a12e09d73a517eab36" category="inline-link-macro-rx"></block> .</block>
-  <block id="0e6eeee847f00d7ef1cb454555892f49" category="list-text"><block ref="92c4728cc5c0729bcbef66420d0a7a81" category="inline-link-macro-rx"></block> .</block>
   <block id="fc52e84f4845e2ef8156001fa74f3954" category="inline-link-macro">콘솔에서 워크로드 검색</block>
-  <block id="cba6bdbd119078f38347599e997682f2" category="list-text"><block ref="76e35428aa7f6a7c95640d343a2f5eaa" category="inline-link-macro-rx"></block> .</block>
   <block id="2eee0208d7c6702078e5b0a246b9c4d7" category="inline-link-macro">백업 대상 구성</block>
-  <block id="5b00991bda21ffcce334fcd5ac0e12a5" category="list-text"><block ref="7814f70b7e043ab52a7b13bfded37018" category="inline-link-macro-rx"></block> .</block>
-  <block id="fcb74668c58aed2ac30ddcdee292a0c5" category="inline-link-macro">선택적으로 위협 감지를 활성화합니다.</block>
-  <block id="896465c47d1995c6e7b722de16fa80e5" category="list-text"><block ref="4e4968353ad45e1648e9b700ebce5a49" category="inline-link-macro-rx"></block> .</block>
   <block id="63de46c3feae8642d94945ea3e056fed" category="inline-link-macro">선택적으로 랜섬웨어 공격 대비 훈련을 실시합니다.</block>
-  <block id="39bdb514f38135f0ca92651ade127954" category="list-text"><block ref="2280163364b5b58f435fe47eab713eb2" category="inline-link-macro-rx"></block> .</block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">삼</block>
-  <block id="fb35cdd7029fec15aadbdddd879fa161" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block>다음은 무엇인가요?</block>
-  <block id="b9a39cb5a55f28deea4823b82a9d759b" category="paragraph">랜섬웨어 복원력을 설정한 후, 다음으로 무엇을 할 수 있는지 알아보겠습니다.</block>
   <block id="d50e8172d497c020af4e234d3280aa47" category="inline-link-macro">대시보드에서 워크로드 보호 상태 보기</block>
-  <block id="0da5fc044622620fa261132f6660bfdb" category="list-text"><block ref="97145b854a05806b01a222f1cee29fd6" category="inline-link-macro-rx"></block> .</block>
-  <block id="d3c00938bca00732fbba5d481863930b" category="list-text"><block ref="2b2daeeb32402291362fa9fa843a5c7e" category="inline-link-macro-rx"></block> .</block>
   <block id="347a92b70b3c471a8a681a4b4a0c9256" category="inline-link-macro">잠재적인 랜섬웨어 공격 감지에 대응</block>
   <block id="063e9c9c189a9f6aaad2b0b511ff7b3f" category="list-text"><block ref="b5ea4db5c411dc6348eb99be9283796b" category="inline-link-macro-rx"></block> .</block>
   <block id="fc8492dd3eefdbcdcd34f8d91982e7a9" category="inline-link-macro">공격으로부터 복구(사고가 무력화된 후)</block>
-  <block id="9ae83eb049c6b5251c9298d8a8d40241" category="list-text"><block ref="8b134bf38fb096386395972987c1b025" category="inline-link-macro-rx"></block> .</block>
   <block id="34966ee9421e907a190b85aa1680ce01" category="summary">랜섬웨어 복원력을 사용하려면 몇 가지 단계를 거쳐 설정하세요.</block>
   <block id="239718284ef31f1d7ca7a73645e14dd2" category="doc">NetApp Ransomware Resilience 설정</block>
   <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">전제 조건</block>
@@ -1032,7 +1014,6 @@
   <block id="0a3dc5fda7d701cd5fc9a0ceb57afb3f" category="list-text"><block ref="9f0b279394cf25f00a608a52b5aed0b2" category="inline-link-macro-rx"></block> .</block>
   <block id="bc1b76060f49fe8ad404d389d8431371" category="summary">NetApp Data Classification 통해 데이터에 개인 식별 정보나 비공개 정보가 포함되어 있는지 식별하여 데이터의 보안 및 개인정보 보호 규정 준수를 강화하세요.</block>
   <block id="e00e52239c81eaad00507b4b0b815570" category="doc">랜섬웨어 복원력에서 NetApp Data Classification 사용하여 개인 식별 정보를 스캔하세요</block>
-  <block id="62fa4bfbc95859e20cfaa7150ab75d62" category="paragraph">NetApp Ransomware Resilience 내에서 NetApp Data Classification 사용하여 파일 공유 워크로드의 데이터를 스캔하고 분류할 수 있습니다.  데이터를 분류하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 확인하는 데 도움이 되며, PII가 포함되어 있으면 보안 위험이 커질 수 있습니다.  데이터 분류는 콘솔의 핵심 구성 요소이며 추가 비용 없이 사용할 수 있습니다.</block>
   <block id="604880f6f585767eee17ec85b3c76533" category="inline-link-macro">데이터 분류</block>
   <block id="00735a048dd8a101a0cf04ff8cf7c168" category="paragraph"><block ref="2324d2fecbef2eccb7e03b987d67689b" category="inline-link-macro-rx"></block>AI 기반 자연어 처리를 활용해 상황에 맞는 데이터를 분석하고 분류하여, 규정 준수 요구 사항을 충족하고, 보안 취약성을 탐지하고, 비용을 최적화하고, 마이그레이션을 가속화할 수 있는 실행 가능한 데이터 통찰력을 제공합니다.</block>
   <block id="d3b14d365ca3277402fce2839d562f60" category="admonition">이 프로세스는 작업 부하의 중요도에 영향을 미쳐 적절한 보호가 이루어지도록 하는 데 도움이 됩니다.</block>
@@ -2004,7 +1985,6 @@
   <block id="0f1fe9be7b1943507afe2ef939f76423" category="list-text">랜섬웨어 공격에 대비하여 워크로드 상태를 모니터링하여 데이터 이상을 발견합니다.</block>
   <block id="12bcfe65b7fb19c1dbe60c374599be1e" category="list-text">랜섬웨어 사고가 업무에 미치는 영향을 신속하게 평가하세요.</block>
   <block id="f4d7f013aee4ff8dd19b36611ba3f3c6" category="list-text">저장된 데이터에서 재감염이 발생하지 않도록 데이터를 복원하고 랜섬웨어 사고로부터 지능적으로 복구하세요.</block>
-  <block id="0c59fa3b4bea70fe5377775600bed707" category="sidebar">NetApp Ransomware Resilience 온프레미스 및 클라우드 스토리지에서 랜섬웨어 위협으로부터 애플리케이션 워크로드와 파일 공유를 보호, 탐지하고 복구를 지원합니다. Oracle, MySQL, VM 데이터 저장소, NAS 스토리지 등의 플랫폼을 지원하는 Ransomware Resilience는 안전한 백업 및 복구를 가능하게 하여 조직이 중요한 데이터를 보호하고 비즈니스 연속성을 유지하는 데 도움이 됩니다.</block>
   <block id="89be776e54ba13993f6011aaa17a0ac9" category="sidebar">NetApp Ransomware Resilience 설명서</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하기</block>
   <block id="7b72a3240bb708a49cf4a635f75c8ca9" category="sidebar">랜섬웨어 복원력의 새로운 소식</block>
@@ -2038,4 +2018,41 @@
   <block id="34691f87b892c333fe1b7a23452dcda6" category="paragraph">랜섬웨어 복원력이 의심스러운 사용자 동작에 대한 알림을 제공하려면 사용자 활동 에이전트를 구성해야 합니다. 자세한 내용은 다음을 참조하세요. <block ref="f3d3e5726f7feb4b59ca728c906df758" category="inline-link-macro-rx"></block>.</block>
   <block id="793485138a653779a0c8cb91bf9fc979" category="list-text">준비 훈련 유형을 선택하세요. 암호화 데이터 침해로 인해 수동으로 복구하려면 **사용자 지정 복구**를 선택하세요. 의심스러운 사용자 활동으로부터 복구하려면 **데이터 침해**를 선택하세요.</block>
   <block id="8e0b9d66ccd774ed98d0b31d0e6ed305" category="admonition">훈련이 진행되는 동안에는 준비 훈련 구성을 편집할 수 없습니다. 드릴을 재설정하여 멈추고 구성을 수정할 수 있습니다.</block>
+  <block id="4226ab30b4df5e39149316f15c13d274" category="list-text">BYOL(Bring Your Own License)은 NetApp 영업 담당자로부터 받는 NetApp 라이선스 파일(NLF)입니다. 콘솔에서 라이선스 일련 번호를 사용하여 BYOL을 활성화할 수 있습니다.</block>
+  <block id="18105991dc2815c0ab610717f615d548" category="admonition">6개월 체험판에 등록하면 NLF 라이센스를 취득하게 됩니다.</block>
+  <block id="4fa0264ac4080dbcb96449b3dd2eff57" category="paragraph">랜섬웨어 복원력 라이선스에는 추가 NetApp 제품이 포함되지 않습니다. 하지만 Ransomware Resilience는 NetApp Backup and Recovery 와 통합될 수 있습니다.</block>
+  <block id="c785cc029c5e88f7796b29b4ff0e99e1" category="paragraph">랜섬웨어 복원력을 설정하고 작업 부하를 보호하는 데 필요한 상위 수준의 단계를 알아보세요.</block>
+  <block id="6ff0e20f052119502398978ae7712412" category="paragraph">자세한 내용은 각 단계의 링크를 참조하세요.</block>
+  <block id="be796710aeb85a06716eb7e39256193d" category="paragraph">이러한 작업에는 _콘솔 관리자_ 역할이 필요합니다.</block>
+  <block id="220434cdb736458843fe145fbd4b9ca9" category="inline-link-macro">콘솔 에이전트를 설치했는지 확인하세요.</block>
+  <block id="ff6929fd02a6e7a1c0faa4152fe13ffe" category="list-text"><block ref="ff6929fd02a6e7a1c0faa4152fe13ffe" category="inline-link-macro-rx"></block></block>
+  <block id="9fde088755a092fd7205d2e697984007" category="inline-link-macro">시스템이 요구 사항을 충족하는지 확인하세요.</block>
+  <block id="643740187acce828986cb107d41bafc5" category="list-text"><block ref="643740187acce828986cb107d41bafc5" category="inline-link-macro-rx"></block></block>
+  <block id="b9278659401ebc53048947304c656764" category="inline-link-macro">랜섬웨어 복원력 사용자 역할을 검토하고 랜섬웨어 복원력에 액세스하는 사용자에게 권한을 할당합니다.</block>
+  <block id="b29244e1b9c758144780bb223d35b4cf" category="list-text"><block ref="b29244e1b9c758144780bb223d35b4cf" category="inline-link-macro-rx"></block></block>
+  <block id="92c4728cc5c0729bcbef66420d0a7a81" category="list-text"><block ref="92c4728cc5c0729bcbef66420d0a7a81" category="inline-link-macro-rx"></block></block>
+  <block id="ae1607d72fd3a0506ce195b27e1dee67" category="paragraph">이러한 작업에는 _랜섬웨어 복원력 관리자_ 역할이 필요합니다.</block>
+  <block id="76e35428aa7f6a7c95640d343a2f5eaa" category="list-text"><block ref="76e35428aa7f6a7c95640d343a2f5eaa" category="inline-link-macro-rx"></block></block>
+  <block id="97145b854a05806b01a222f1cee29fd6" category="list-text"><block ref="97145b854a05806b01a222f1cee29fd6" category="inline-link-macro-rx"></block></block>
+  <block id="2280163364b5b58f435fe47eab713eb2" category="list-text"><block ref="2280163364b5b58f435fe47eab713eb2" category="inline-link-macro-rx"></block></block>
+  <block id="68d94437ae944e7e96a72f2fb55b3138" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block>랜섬웨어 복원력에서 보호 및 탐지 구성</block>
+  <block id="0facb5062c7824665d78c38387a13d0d" category="paragraph">이러한 작업에는 _랜섬웨어 복원력 관리자_ 역할이 필요합니다.  의심스러운 사용자 동작 활동을 구성하려면 추가적인 _랜섬웨어 복원력 사용자 동작 관리자_ 역할이 필요합니다.</block>
+  <block id="2b2daeeb32402291362fa9fa843a5c7e" category="list-text"><block ref="2b2daeeb32402291362fa9fa843a5c7e" category="inline-link-macro-rx"></block></block>
+  <block id="93826dca9773d5abc2e88bd13610fa5f" category="inline-link-macro">의심스러운 사용자 활동 감지를 구성하여 보호 강화</block>
+  <block id="2b3602d3a23fabd0142c6690d942d97c" category="list-text">선택적으로,<block ref="c26759f19d29fbc2698510c8d2899376" category="inline-link-macro-rx"></block></block>
+  <block id="9de6007d1c8bb200a2730a88c394ccc5" category="list-text">선택적으로 백업 대상을 구성합니다.</block>
+  <block id="7814f70b7e043ab52a7b13bfded37018" category="list-text"><block ref="7814f70b7e043ab52a7b13bfded37018" category="inline-link-macro-rx"></block></block>
+  <block id="b5ea4db5c411dc6348eb99be9283796b" category="list-text"><block ref="b5ea4db5c411dc6348eb99be9283796b" category="inline-link-macro-rx"></block></block>
+  <block id="8b134bf38fb096386395972987c1b025" category="list-text"><block ref="8b134bf38fb096386395972987c1b025" category="inline-link-macro-rx"></block></block>
+  <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">네</block>
+  <block id="84b770f92be71ec30166cecd58fe295f" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block>다음은 무엇인가요?</block>
+  <block id="6bed92a99cdfd0c4fededd25f3e7cc23" category="paragraph">랜섬웨어 복원력에서 보호 기능을 구성한 후, 다음으로 할 수 있는 일은 다음과 같습니다.</block>
+  <block id="7257a2c29f00e84365c5a48447d9c803" category="inline-link-macro">데이터 분류를 활성화하여 거버넌스 및 보안 위험을 식별합니다.</block>
+  <block id="746bceb6a53af383ec0aa4495f694a94" category="list-text"><block ref="746bceb6a53af383ec0aa4495f694a94" category="inline-link-macro-rx"></block></block>
+  <block id="1d1758803ee1f7559973be04f120a0f7" category="inline-link-macro">SIEM에 알림 보내기</block>
+  <block id="81eb2602258c7f155c33ae884e447609" category="list-text"><block ref="81eb2602258c7f155c33ae884e447609" category="inline-link-macro-rx"></block></block>
+  <block id="660ecf2355e5ff3c5a22d2e4a48594e8" category="inline-link-macro">경고, 보호, 준비 훈련, 복구 또는 요약 보고서 다운로드</block>
+  <block id="b5884d5e59b952624998be52e7a9fe97" category="list-text"><block ref="b5884d5e59b952624998be52e7a9fe97" category="inline-link-macro-rx"></block></block>
+  <block id="52210acbff73a572a2ca89fb77371615" category="paragraph">NetApp Ransomware Resilience 내에서 NetApp Data Classification 사용하여 파일 공유 워크로드의 데이터를 스캔하고 분류할 수 있습니다. 데이터를 분류하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 확인하는 데 도움이 되며, PII가 포함되어 있으면 보안 위험이 커질 수 있습니다. 데이터 분류는 NetApp Console 의 핵심 구성 요소이며 추가 비용 없이 사용할 수 있습니다.</block>
+  <block id="4342c3c480135ea7c9398a3ba08357ec" category="sidebar">NetApp Ransomware Resilience 온프레미스 및 클라우드 스토리지에서 랜섬웨어 위협으로부터 애플리케이션 워크로드와 파일 공유를 보호, 탐지하고 복구를 지원합니다. 랜섬웨어 복원력은 안전한 백업과 복구를 지원하여 조직이 Oracle, MySQL, VM 데이터 저장소, NAS 스토리지 등에 대한 중요 데이터를 보호하고 비즈니스 연속성을 유지하는 데 도움이 됩니다.</block>
 </blocks>

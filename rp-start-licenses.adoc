@@ -20,8 +20,11 @@ NetApp Ransomware Resilience 사용하면 다양한 라이선스 플랜을 사�
 
 * 30일 무료 체험판에 등록하세요.
 * Amazon Web Services(AWS) Marketplace, Google Cloud Marketplace 또는 Azure Marketplace에서 사용량에 따라 지불하는(PAYGO) 구독을 구매하세요.
-* BYOL(Bring Your Own License)은 NetApp 영업 담당자로부터 받는 NetApp 라이선스 파일(NLF)입니다.  콘솔에서 라이선스 일련 번호를 사용하여 BYOL을 활성화할 수 있습니다.
+* BYOL(Bring Your Own License)은 NetApp 영업 담당자로부터 받는 NetApp 라이선스 파일(NLF)입니다. 콘솔에서 라이선스 일련 번호를 사용하여 BYOL을 활성화할 수 있습니다.
 
+
+
+NOTE: 6개월 체험판에 등록하면 NLF 라이센스를 취득하게 됩니다.
 
 BYOL을 설정하거나 PAYGO 구독을 구매한 후 콘솔의 Licenses and subscriptions 섹션에서 라이선스를 확인할 수 있습니다.
 
@@ -36,7 +39,7 @@ BYOL을 설정하거나 PAYGO 구독을 구매한 후 콘솔의 Licenses and sub
 
 == 기타 라이센스
 
-랜섬웨어 복원력 라이선스에는 추가 NetApp 제품이 포함되지 않습니다.  랜섬웨어 복원력은 라이선스가 없더라도 NetApp Backup and Recovery 사용할 수 있습니다.
+랜섬웨어 복원력 라이선스에는 추가 NetApp 제품이 포함되지 않습니다. 하지만 Ransomware Resilience는 NetApp Backup and Recovery 와 통합될 수 있습니다.
 
 
 NOTE: 백업 및 복구와 랜섬웨어 복원력을 모두 사용하는 경우, 두 제품으로 보호되는 공통 데이터는 랜섬웨어 복원력으로만 청구됩니다.

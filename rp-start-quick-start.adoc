@@ -12,30 +12,57 @@ summary: 몇 단계만 거치면 NetApp Ransomware Resilience 시작할 수 있�
 
 
 [role="lead"]
-NetApp Ransomware Resilience 시작하는 데 필요한 단계에 대한 개요는 다음과 같습니다. 각 단계 내의 링크를 클릭하면 자세한 내용을 제공하는 페이지로 이동합니다.
+랜섬웨어 복원력을 설정하고 작업 부하를 보호하는 데 필요한 상위 수준의 단계를 알아보세요.
+
+자세한 내용은 각 단계의 링크를 참조하세요.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["하나"]필수 조건 검토
 [role="quick-margin-para"]
-link:rp-start-prerequisites.html["시스템이 이러한 요구 사항을 충족하는지 확인하세요."] .
+이러한 작업에는 _콘솔 관리자_ 역할이 필요합니다.
+
+[role="quick-margin-list"]
+* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agents.html#agent-installation["콘솔 에이전트를 설치했는지 확인하세요."^]
+* link:rp-start-prerequisites.html["시스템이 요구 사항을 충족하는지 확인하세요."]
+* link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-roles.html["랜섬웨어 복원력 사용자 역할을 검토하고 랜섬웨어 복원력에 액세스하는 사용자에게 권한을 할당합니다."]
+* link:rp-start-licenses.html["라이센스 설정"]
+
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["둘"]랜섬웨어 복원력 설정
-[role="quick-margin-list"]
-* link:rp-start-setup.html["NetApp StorageGRID, Amazon Web Services, Google Cloud Platform 또는 Microsoft Azure를 백업 대상으로 준비합니다."] .
-* link:rp-start-setup.html["콘솔 에이전트 구성"] .
-* link:rp-start-licenses.html["라이센스 설정"] .
-* link:rp-start-discover.html["콘솔에서 워크로드 검색"] .
-* link:rp-start-setup.html["백업 대상 구성"] .
-* link:rp-start-setup.html["선택적으로 위협 감지를 활성화합니다."] .
-* link:rp-start-simulate.html["선택적으로 랜섬웨어 공격 대비 훈련을 실시합니다."] .
-
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["삼"]다음은 무엇인가요?
 [role="quick-margin-para"]
-랜섬웨어 복원력을 설정한 후, 다음으로 무엇을 할 수 있는지 알아보겠습니다.
+이러한 작업에는 _랜섬웨어 복원력 관리자_ 역할이 필요합니다.
 
 [role="quick-margin-list"]
-* link:rp-use-dashboard.html["대시보드에서 워크로드 보호 상태 보기"] .
-* link:rp-use-protect.html["작업 부하 보호"] .
-* link:rp-use-alert.html["잠재적인 랜섬웨어 공격 감지에 대응"] .
-* link:rp-use-recover.html["공격으로부터 복구(사고가 무력화된 후)"] .
+* link:rp-start-discover.html["콘솔에서 워크로드 검색"]
+* link:rp-use-dashboard.html["대시보드에서 워크로드 보호 상태 보기"]
+* link:rp-start-simulate.html["선택적으로 랜섬웨어 공격 대비 훈련을 실시합니다."]
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["삼"]랜섬웨어 복원력에서 보호 및 탐지 구성
+[role="quick-margin-para"]
+이러한 작업에는 _랜섬웨어 복원력 관리자_ 역할이 필요합니다.  의심스러운 사용자 동작 활동을 구성하려면 추가적인 _랜섬웨어 복원력 사용자 동작 관리자_ 역할이 필요합니다.
+
+[role="quick-margin-list"]
+* link:rp-use-protect.html["작업 부하 보호"]
++
+** 선택적으로,link:suspicious-user-activity.html["의심스러운 사용자 활동 감지를 구성하여 보호 강화"]
+
+
+* 선택적으로 백업 대상을 구성합니다.
++
+** link:rp-start-setup.html["NetApp StorageGRID, Amazon Web Services, Google Cloud Platform 또는 Microsoft Azure를 백업 대상으로 준비합니다."] .
+** link:rp-start-setup.html["백업 대상 구성"]
+
+
+* link:rp-use-alert.html["잠재적인 랜섬웨어 공격 감지에 대응"]
+* link:rp-use-recover.html["공격으로부터 복구(사고가 무력화된 후)"]
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]다음은 무엇인가요?
+[role="quick-margin-para"]
+랜섬웨어 복원력에서 보호 기능을 구성한 후, 다음으로 할 수 있는 일은 다음과 같습니다.
+
+[role="quick-margin-list"]
+* link:rp-use-protect-classify.html["데이터 분류를 활성화하여 거버넌스 및 보안 위험을 식별합니다."]
+* link:rp-use-settings.html#connect-to-a-security-and-event-management-system-siem-for-threat-analysis-and-detection["SIEM에 알림 보내기"]
+* link:p-use-reports.html["경고, 보호, 준비 훈련, 복구 또는 요약 보고서 다운로드"]
 
