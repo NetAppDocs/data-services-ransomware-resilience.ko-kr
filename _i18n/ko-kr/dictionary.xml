@@ -473,24 +473,13 @@
   <block id="1f25ef09ab6fce0b56c79cd4246453be" category="paragraph">*정책을 비활성화할 수 있나요?*</block>
   <block id="c90f429b2fc82db14813e44ccf0893a7" category="paragraph">시스템 관리자 UI, API 또는 CLI를 사용하여 탐지 정책에서 ARP를 비활성화할 수 있습니다.</block>
   <block id="389b413db649d1d5d2854fd3e4faf2e6" category="paragraph">FPolicy 및 백업 정책을 비활성화하려면 해당 정책을 포함하지 않는 다른 정책을 적용하면 됩니다.</block>
-  <block id="0a0e0e0ad04e5c7e8ed3c1b30cb4d073" category="summary">라이선싱을 설정하여 NeApp 랜섬웨어 복원력을 시작하세요.</block>
   <block id="8c4e51cf0af97fc084c32c7697ac400c" category="doc">NetApp Ransomware Resilience 에 대한 라이선싱 설정</block>
   <block id="9472cf1130b90417862c1aa4710f22a7" category="paragraph">NetApp Ransomware Resilience 사용하면 다양한 라이선스 플랜을 사용할 수 있습니다.</block>
   <block id="bf82f97d170b8b28711b0f6354af9b31" category="inline-link">콘솔 액세스 역할에 대해 알아보세요</block>
   <block id="28cfeb7fff7b4f9ab9bf205d7135f788" category="paragraph">이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자 역할이 필요합니다.<block ref="43e60870b1a681df3de2812caf2de958" category="inline-link-rx"></block> .</block>
-  <block id="f53f2f881ada2816fc6ddea06cdcfc60" category="paragraph">*라이선스 유형* 다음 라이선스 유형을 사용할 수 있습니다.</block>
-  <block id="b5bf014c6bc530be1a7b68b5bcfb8ce0" category="list-text">Amazon Web Services(AWS) Marketplace, Google Cloud Marketplace 또는 Azure Marketplace에서 사용량에 따라 지불하는(PAYGO) 구독을 구매하세요.</block>
   <block id="bcc2135df9c790b26ee1baa911a601ef" category="paragraph">BYOL을 설정하거나 PAYGO 구독을 구매한 후 콘솔의 Licenses and subscriptions 섹션에서 라이선스를 확인할 수 있습니다.</block>
-  <block id="aa4412f38985c565aeb98dc6634f3029" category="paragraph">무료 평가판이 종료되거나 라이선스 또는 구독이 만료된 후에도 Ransomware Resilience에서 다음 작업을 수행할 수 있습니다.</block>
-  <block id="9f5e79cce3ac3e1b3962cddaef91e4e0" category="list-text">작업 부하와 작업 부하 상태를 확인합니다.</block>
-  <block id="ed2dd81f2c51f4d72049803cf5ce6211" category="list-text">정책 등의 리소스를 삭제합니다.</block>
-  <block id="1594f78ebbb281f7b5359eb6d2b89912" category="list-text">평가판 기간이나 라이선스에 따라 생성된 모든 예약된 작업을 실행합니다.</block>
   <block id="231fd9de718f42c1c9e89368821092dd" category="section-title">기타 라이센스</block>
   <block id="1f39796076513bca42919b255963cd5a" category="admonition">백업 및 복구와 랜섬웨어 복원력을 모두 사용하는 경우, 두 제품으로 보호되는 공통 데이터는 랜섬웨어 복원력으로만 청구됩니다.</block>
-  <block id="b22e0a0c145eff4bd34bc6c46894b2a1" category="section-title">30일 무료 체험판을 이용해 보세요</block>
-  <block id="50de852d5302d938fcee7f3cfc39b286" category="paragraph">30일 무료 체험판을 통해 Ransomware Resilience를 사용해 보세요.  무료 평가판을 시작하려면 콘솔 조직 관리자여야 합니다.</block>
-  <block id="6d82276368a10a436380f0cd7fa6094d" category="admonition">2024년 10월 출시 이후 Ransomware Resilience의 새로운 배포는 이제 30일 동안 무료 평가판을 이용할 수 있습니다.  이전에는 Ransomware Resilience가 90일 무료 체험판을 제공했습니다.  이미 90일 무료 체험판을 이용 중이라면 해당 혜택은 90일 동안 계속 적용됩니다.</block>
-  <block id="88c474e49a0cbbc7ef17d052040cd008" category="paragraph">시험 기간 동안에는 수용 인원 제한이 적용되지 않습니다.</block>
   <block id="3ad87b9da828fc1c8e612ab5674dbabe" category="paragraph">언제든지 라이선스를 구매하거나 구독할 수 있으며, 30일 평가판이 종료될 때까지 요금이 청구되지 않습니다.  30일 체험 기간이 끝난 후 계속 사용하려면 BYOL 라이선스나 PAYGO 구독을 구매해야 합니다.</block>
   <block id="f37d436fdc8600ce24709a8f4435ec79" category="paragraph">체험판 기간 동안에는 모든 기능을 사용할 수 있습니다.</block>
   <block id="bccaa4aa80831b76c11240a16447975f" category="inline-link">콘솔</block>
@@ -498,10 +487,6 @@
   <block id="4a43cddfeeabba4570c14c252dec0bd1" category="list-text">콘솔에 로그인합니다.</block>
   <block id="16bcca2caaffd4aceb0b9f940711e44a" category="list-text">NetApp Console 에서 *보호* &gt; *랜섬웨어 복원력*을 선택합니다.</block>
   <block id="04f45bf7defd11ead0b4c56cf8c3f371" category="paragraph">이 서비스에 처음 로그인하는 경우 랜딩 페이지가 나타납니다.</block>
-  <block id="771e1ea643a8723d0d0dfad6c2b70ace" category="list-text">다른 서비스에 대한 커넥터를 아직 추가하지 않았다면 하나 추가하세요.</block>
-  <block id="91e534d044a3d9c6a1c8575f89e73c9b" category="inline-link">콘솔 에이전트에 대해 알아보세요</block>
-  <block id="395a0c83d18cd49c5468e19cda311fa7" category="paragraph">콘솔 에이전트를 추가하려면 다음을 참조하세요.<block ref="552a7d66ccd9c93a9dbc55fd8ef74d52" category="inline-link-rx"></block> .</block>
-  <block id="ce56f7856e3d6cb0eb9ff3ddabe5ec4e" category="list-text">랜섬웨어 복원력 랜딩 페이지에서 콘솔 에이전트를 설정한 후 콘솔 에이전트를 추가하는 버튼이 워크로드를 검색하는 버튼으로 변경됩니다.  *워크로드 검색으로 시작*을 선택하세요.</block>
   <block id="7fd2f910bce182f3bed45cb0ffe3f2b7" category="list-text">무료 체험판 정보를 검토하려면 오른쪽 상단의 드롭다운 옵션을 선택하세요.</block>
   <block id="07b00cce8ecdc9955eb27940a652e625" category="paragraph">*체험 종료 후 구독 또는 라이선스 구매*</block>
   <block id="a668e7961280a1c2dd9b2e1867761d44" category="paragraph">무료 체험 기간이 종료된 후에는 마켓플레이스 중 하나를 통해 구독하거나 NetApp 에서 라이선스를 구매할 수 있습니다.</block>
@@ -523,7 +508,6 @@
   <block id="adee13c3532773f19ac1ed1cd57fb86d" category="list-text">*라이선스 추가*를 선택하여 콘솔에 라이센스를 추가합니다.</block>
   <block id="2e8bc7beff420b094bb88e9d8c7ae468" category="inline-image-macro">라이선스 추가 페이지의 스크린샷입니다.</block>
   <block id="91aa021bc5ef766666131294c51b12a9" category="paragraph"><block ref="91aa021bc5ef766666131294c51b12a9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="dda85ea2192849a87663a1971ff2c144" category="list-text">라이선스 추가 페이지에서 *일련 번호 입력*을 선택하고, 귀하에게 전송된 이메일에 포함된 일련 번호를 입력한 후, *라이선스 추가*를 선택합니다.</block>
   <block id="44c74befbf9a8104854254c21263bbd0" category="list-text">라이선스 세부 정보를 보려면 콘솔 왼쪽 탐색에서 *관리* &gt; * Licenses and subscriptions*을 선택하세요.</block>
   <block id="6ba03f72ccb23acc2e71d13b30e6a6f3" category="list-text">구독 정보를 보려면 *구독*을 선택하세요.</block>
   <block id="3a868051eb374227c279870a3cc58719" category="list-text">BYOL 라이선스를 보려면 *데이터 서비스 라이선스*를 선택하세요.</block>
@@ -574,7 +558,6 @@
   <block id="3973bc267f97fbc53e553dbba08e2ea9" category="admonition">이 메시지는 Licenses and subscriptions 에도 나타납니다.<block ref="a12300a172aa5e6e63382bcb48a8348c" category="inline-link-rx"></block> .</block>
   <block id="bf817abc839636c237e9679a5b237f47" category="list-text">라이선스 업데이트를 요청하려면 지원팀에 이메일을 보내세요.</block>
   <block id="153d23d2fc1cd1fafa2626b2ebad671d" category="paragraph">라이선스 비용을 지불하고 NetApp 지원 사이트에 라이선스를 등록하면 콘솔에서 자동으로 라이선스가 업데이트됩니다.  5~10분 안에 데이터 서비스 라이선스 페이지에 변경 사항이 반영됩니다.</block>
-  <block id="6c1f5db8cc1f713f620fa21a318cf1bc" category="list-text">콘솔에서 라이선스를 자동으로 업데이트할 수 없는 경우 라이선스 파일을 수동으로 업로드해야 합니다.</block>
   <block id="147b35ab5352426bba38d99d810db4ed" category="list-text">NetApp 지원 사이트에서 라이선스 파일을 얻을 수 있습니다.</block>
   <block id="f3538d2e62d8886ed134a8cd0baef1b1" category="list-text">콘솔에서 **관리** &gt; ** Licenses and subscriptions**을 선택합니다.</block>
   <block id="08fc265b64fb33dd4dd39826e253b59a" category="list-text">*데이터 서비스 라이선스* 탭을 선택하고, 업데이트하려는 일련 번호에 대한 *작업...* 아이콘을 선택한 다음 *라이선스 업데이트*를 선택합니다.</block>
@@ -646,7 +629,6 @@
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">하나</block>
   <block id="a2d56436fc6737079209e6c74380c5fb" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block>필수 조건 검토</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">둘</block>
-  <block id="916d9ab8dea7ac43f2e082cba0d4f60d" category="list-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block>랜섬웨어 복원력 설정</block>
   <block id="0545ec91139cbe1d8ed0b333ebef939f" category="inline-link-macro">NetApp StorageGRID, Amazon Web Services, Google Cloud Platform 또는 Microsoft Azure를 백업 대상으로 준비합니다.</block>
   <block id="72f842d16f2016131d4e9d7e14038e88" category="list-text"><block ref="9e4e7ea8cc8b7b041d3f5d7300c15c3a" category="inline-link-macro-rx"></block> .</block>
   <block id="fc52e84f4845e2ef8156001fa74f3954" category="inline-link-macro">콘솔에서 워크로드 검색</block>
@@ -841,8 +823,6 @@
   <block id="be962bd392a7a1672125ea27465c8bd8" category="section-title">악성 활동 및 비정상적인 사용자 동작 감지</block>
   <block id="9d06719f2534c2ebd6c7bed1fd263123" category="paragraph">알림 탭을 살펴보면 악의적인 활동이나 비정상적인 사용자 동작이 있는지 확인할 수 있습니다.</block>
   <block id="30cd6d23e33e657384daad5db666d56c" category="inline-link-macro">의심스러운 사용자 활동</block>
-  <block id="92733af7522951b34c707ece97b76dbb" category="paragraph">사용자 수준 감지 기능을 보려면 사용자 활동 에이전트를 구성하고 사용자 동작 감지 기능이 있는 보호 정책을 활성화해야 합니다. 사용자 동작 감지가 활성화되면 *의심스러운 사용자* 열이 알림 대시보드에 나타납니다. 사용자 동작 감지가 활성화되지 않은 경우에는 표시되지 않습니다. 의심스러운 사용자 감지를 활성화하려면 다음을 참조하세요.<block ref="da26800578b610b8b3390e49bb643377" category="inline-link-macro-rx"></block> .</block>
-  <block id="df6951a826abfdd03d428573cabc8a91" category="admonition">NetApp Data Infrastructure Insights (DII) 워크로드 보안을 사용하는 경우 랜섬웨어 복원력에 동일한 워크로드 보안 에이전트를 사용하는 것이 좋습니다. 랜섬웨어 복원력을 위해 별도의 워크로드 보안 에이전트를 배포할 필요는 없지만, 동일한 워크로드 보안 에이전트를 사용하려면 랜섬웨어 복원력 콘솔 조직과 DII 스토리지 워크로드 보안 테넌트 간에 페어링 관계가 필요합니다. 이 페어링을 활성화하려면 계정 담당자에게 문의하세요.</block>
   <block id="2654c9fc1ffd83d2d016920464872d91" category="section-title">악성 활동 보기</block>
   <block id="c0339a08bfb0fb26aa3ecea9980349b3" category="paragraph">자율형 랜섬웨어 보호가 랜섬웨어 복원력에서 알림을 트리거하면 다음 세부 정보를 볼 수 있습니다.</block>
   <block id="da00dfcf2d3126754537ccdf32df23fa" category="list-text">수신 데이터의 엔트로피</block>
@@ -859,7 +839,6 @@
   <block id="24d8050f046c3ac972fd95f26e1a8670" category="list-text">사고를 선택하여 사고의 세부 정보를 검토하세요.</block>
   <block id="ff74e9f48366f1b4465d1920693ddea8" category="inline-link-macro">랜섬웨어 복원력 설정 구성</block>
   <block id="f784461c39e5b287f6733d0ee28efad4" category="paragraph">비정상적인 사용자 동작을 확인하기 위해 의심스러운 사용자 감지 기능을 구성한 경우 사용자 수준 데이터를 보고 특정 사용자를 차단할 수 있습니다. 의심스러운 사용자 설정을 활성화하려면 다음을 참조하세요.<block ref="788275b5d10fa192a2bbf25cebb6c38f" category="inline-link-macro-rx"></block> .</block>
-  <block id="ec2349017ee84d143f6965ba0b643c86" category="list-text">콘솔에서 모니터링하는 환경에서 의심되는 사용자의 추가 액세스를 차단하려면 사용자 이름 아래에서 *차단*을 선택합니다.</block>
   <block id="705db8b34cf00efb73abf6403278e299" category="section-title">랜섬웨어 사고를 복구 준비로 표시(사고가 무력화된 후)</block>
   <block id="3950c317c3c61c1f422abb2e301a90ca" category="paragraph">공격을 중단한 후 스토리지 관리자에게 데이터가 준비되었다고 알려 복구를 시작하세요.</block>
   <block id="a31e44b45b823ec61483db05b99be2cb" category="paragraph"><block ref="a31e44b45b823ec61483db05b99be2cb" category="inline-image-macro-rx" type="image"></block></block>
@@ -873,7 +852,6 @@
   <block id="b0b578b8be1448972010b482195bbda8" category="paragraph">사고를 검토한 후에는 해당 사고가 잠재적인 공격인지 여부를 판단해야 합니다. 실제 위협이 아니라면 무시해도 됩니다.</block>
   <block id="74583f536ee54b8803ab561a596f2bb9" category="paragraph">거짓 양성 결과를 무시하거나 즉시 데이터를 복구하기로 결정할 수 있습니다.  알림을 해제하면 랜섬웨어 복원력이 이러한 동작을 학습하고 이를 일반적인 작업과 연관시키며 이러한 동작에 대해 다시 알림을 시작하지 않습니다.</block>
   <block id="5a5533258cfacee641d19f7f201b727f" category="paragraph">작업 부하를 해제하면 잠재적인 랜섬웨어 공격에 대응하여 자동으로 생성된 모든 스냅샷 사본이 영구적으로 삭제됩니다.</block>
-  <block id="e092b1515493abdb05e77ec47a53f36f" category="admonition">알림을 해제하면 해당 상태를 다른 상태로 변경할 수 없으며, 이 변경 사항을 실행 취소할 수 없습니다.</block>
   <block id="46b4f01c45e92cd2d2fe7d4406168b5d" category="list-text">하나 이상의 사건을 선택하세요.  또는 표 왼쪽 상단에 있는 사건 ID 상자를 선택하여 모든 사건을 선택하세요.</block>
   <block id="c4229f2836db3c8f0198619d853bad27" category="list-text">사건이 위협이 아니라고 판단되면 이를 거짓 긍정으로 간주하여 기각합니다.</block>
   <block id="a20ff2150b7b9f34f30c94111d0f2672" category="list-text">사건을 선택하세요.</block>
@@ -1785,17 +1763,13 @@
   <block id="2a4edc5ec6e55f07dba0609dc2cd6d87" category="summary">랜섬웨어 복원력의 의심스러운 사용자 활동 감지 기능을 사용하면 잠재적인 위협이 될 수 있는 사용자 활동을 감지할 수 있습니다.</block>
   <block id="906ec8bab01967c36f2f073eff9f54df" category="doc">NetApp Ransomware Resilience 에서 의심스러운 사용자 활동 감지 구성</block>
   <block id="9ba1db4a2c84400f14de2d58496b9f52" category="paragraph">랜섬웨어 복원력은 탐지 정책에서 의심스러운 사용자 행동을 탐지하도록 지원하여 사용자 수준에서 랜섬웨어 사고를 해결할 수 있도록 합니다.</block>
-  <block id="97f8807a01c3206f369065a241cf5ac7" category="paragraph">랜섬웨어 복원력은 ONTAP 의 FPolicy가 생성한 사용자 활동 이벤트를 분석하여 의심스러운 사용자 활동을 감지합니다. 사용자 활동 날짜를 수집하려면 하나 이상의 사용자 활동 에이전트를 배포해야 합니다. 에이전트는 테넌트의 장치에 연결할 수 있는 Linux 서버 또는 VM입니다.</block>
   <block id="90c4c763135bd7a7443ed22e4149185b" category="section-title">에이전트와 수집가</block>
   <block id="03f21183a058745685d1d78fcc7eab3a" category="paragraph">Ransomware Resilience에서 의심스러운 사용자 활동 감지를 활성화하려면 최소 하나 이상의 사용자 활동 에이전트를 설치해야 합니다. 랜섬웨어 복원력 대시보드에서 의심스러운 사용자 활동 기능을 활성화하는 경우, 해당 기능을 활성화하려면 에이전트 호스트 정보를 제공해야 합니다.</block>
   <block id="2b294b61543173e7462d37def0724cef" category="paragraph">에이전트는 여러 개의 데이터 수집기를 호스팅할 수 있습니다. 데이터 수집자는 분석을 위해 SaaS 위치로 데이터를 보냅니다. 수집가에는 두 가지 유형이 있습니다.</block>
-  <block id="4fb02306f3b85b6cfd31c67b79007829" category="list-text">**데이터 수집기**는 ONTAP 에서 사용자 활동 데이터를 수집합니다.</block>
-  <block id="4449b11da47ae4743bfe16fdd7a33631" category="list-text">**사용자 디렉토리 커넥터**는 디렉토리에 연결하여 사용자 ID를 사용자 이름에 매핑합니다.</block>
   <block id="fa83d0f077ae64e1df0b8a9ed9982815" category="paragraph">수집기는 랜섬웨어 복원력 설정에서 구성됩니다.</block>
   <block id="4f047e83e52e21d5382adc1b5dbf3119" category="section-title">사용자 활동 에이전트 추가</block>
   <block id="4d4379036f7207029fbe126649ccc0a6" category="paragraph">사용자 활동 에이전트는 데이터 수집기를 위한 실행 가능한 환경이며, 데이터 수집기는 Ransomware Resilience와 사용자 활동 이벤트를 공유합니다. 의심스러운 사용자 활동을 감지하려면 최소한 하나의 사용자 활동 에이전트를 만들어야 합니다.</block>
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">요구 사항</block>
-  <block id="69cba9646d8849744460eb9ba06c7bd6" category="paragraph">사용자 활동 에이전트를 설치하려면 다음 지원되는 운영 체제 및 서버 요구 사항을 갖춘 호스트 또는 VM이 필요합니다.</block>
   <block id="176c18a49aa227401be466a34a903666" category="paragraph">**운영 체제 요구 사항**</block>
   <block id="696c660ff8d9323e55146a6dbd4e4088" category="cell">운영 체제</block>
   <block id="2e5d14f7919ff3c6138e7845aec4f915" category="cell">지원되는 버전</block>
@@ -1821,7 +1795,6 @@
   <block id="fd9b966c1c6f66e7c4f38e133767c880" category="paragraph">서버는 다음과 같은 최소 요구 사항을 충족해야 합니다.</block>
   <block id="f0499c7832db4d35decdf83de714841c" category="list-text">**CPU**: 4코어</block>
   <block id="4a8a49e18f8860c4232837503bcc2edd" category="list-text">**RAM**: 16GB RAM</block>
-  <block id="465860b9bc6b405baa8ced9914b08ab3" category="list-text">**디스크 공간**: 35GB의 여유 디스크 공간</block>
   <block id="a2ad8789f963859e0c26a6daaec4a76b" category="list-text">처음으로 사용자 활동 에이전트를 만드는 경우 **대시보드**로 이동하세요. **사용자 활동** 타일에서 **활성화**를 선택합니다.</block>
   <block id="44e08a5b01e752ac11f59bba4e07dea7" category="paragraph">추가 사용자 활동 에이전트를 추가하는 경우 *설정*으로 이동하여 **사용자 활동** 타일을 찾은 다음 **관리**를 선택합니다. 사용자 활동 화면에서 **사용자 활동 에이전트** 탭을 선택한 다음 **추가**를 선택합니다.</block>
   <block id="75d41b8fe2ef8de56d2fd2046bb0dad3" category="list-text">**클라우드 공급자**를 선택한 다음 **지역**을 선택하세요. **다음**을 선택하세요.</block>
@@ -1834,7 +1807,6 @@
   <block id="7298950e09abf5a29938d42a442acced" category="paragraph"><block ref="7298950e09abf5a29938d42a442acced" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f2d7e7792f60fc56fc833ac06d43ff03" category="list-text">설정을 검토하세요. *활성화*를 선택하여 사용자 활동 에이전트 추가를 완료합니다.</block>
   <block id="a5990ac92f36dcb99f016321efbfa2cd" category="list-text">사용자 활동 에이전트가 성공적으로 생성되었는지 확인하세요. 사용자 활동 타일에서 배포가 성공하면 '실행 중'으로 표시됩니다.</block>
-  <block id="58dc71d80ac36fa12a160eef553b4dac" category="paragraph">사용자 활동 에이전트가 성공적으로 생성되면 **설정** 메뉴로 돌아간 다음 사용자 활동 타일에서 **관리**를 선택합니다. **사용자 활동 에이전트** 탭을 선택한 다음 사용자 활동 에이전트를 선택하여 데이터 수집기 및 사용자 디렉터리 커넥터를 포함한 해당 에이전트에 대한 세부 정보를 확인합니다.</block>
   <block id="87890c9758b28588c6845cfcf6d19b17" category="section-title">데이터 수집기 추가</block>
   <block id="cebc35dcf9d04a393d86d35a4e3cf6be" category="inline-xref-macro">탐지 정책 추가</block>
   <block id="24590b7519b5649099545f7ef699e504" category="paragraph">의심스러운 사용자 활동 감지를 통해 랜섬웨어 보호 전략을 활성화하면 데이터 수집기가 자동으로 생성됩니다. 자세한 내용은 다음을 참조하세요. <block ref="c43e895be468efa96867f0ef21f97de4" category="inline-xref-macro-rx"></block> .</block>
@@ -1842,7 +1814,6 @@
   <block id="79994c0d6b62d6854ba2d69416af2030" category="inline-image-macro">사용자 활동 설정 스크린샷</block>
   <block id="eb9abd0b9e77424befbbd0596585482d" category="paragraph"><block ref="eb9abd0b9e77424befbbd0596585482d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ae5063128f989ec31ec308b7dd0cb2ed" category="section-title">사용자 디렉토리 커넥터 추가</block>
-  <block id="0e27165c28d4f54b78e7e5ec47c83fc4" category="paragraph">사용자 ID를 사용자 이름에 매핑하려면 사용자 디렉토리 커넥터를 만들어야 합니다.</block>
   <block id="8348d8dcee9ea32e049e21c42a431b91" category="list-text">랜섬웨어 복원력에서 *설정*으로 이동합니다.</block>
   <block id="9fcb0a7634f29d96ae98e37bbc76e1cd" category="list-text">사용자 활동 타일에서 **관리**를 선택합니다.</block>
   <block id="e70202c14c96f451fdcf2617844ea351" category="list-text">**사용자 디렉터리 커넥터** 탭을 선택한 다음 **추가**를 선택합니다.</block>
@@ -2018,8 +1989,6 @@
   <block id="34691f87b892c333fe1b7a23452dcda6" category="paragraph">랜섬웨어 복원력이 의심스러운 사용자 동작에 대한 알림을 제공하려면 사용자 활동 에이전트를 구성해야 합니다. 자세한 내용은 다음을 참조하세요. <block ref="f3d3e5726f7feb4b59ca728c906df758" category="inline-link-macro-rx"></block>.</block>
   <block id="793485138a653779a0c8cb91bf9fc979" category="list-text">준비 훈련 유형을 선택하세요. 암호화 데이터 침해로 인해 수동으로 복구하려면 **사용자 지정 복구**를 선택하세요. 의심스러운 사용자 활동으로부터 복구하려면 **데이터 침해**를 선택하세요.</block>
   <block id="8e0b9d66ccd774ed98d0b31d0e6ed305" category="admonition">훈련이 진행되는 동안에는 준비 훈련 구성을 편집할 수 없습니다. 드릴을 재설정하여 멈추고 구성을 수정할 수 있습니다.</block>
-  <block id="4226ab30b4df5e39149316f15c13d274" category="list-text">BYOL(Bring Your Own License)은 NetApp 영업 담당자로부터 받는 NetApp 라이선스 파일(NLF)입니다. 콘솔에서 라이선스 일련 번호를 사용하여 BYOL을 활성화할 수 있습니다.</block>
-  <block id="18105991dc2815c0ab610717f615d548" category="admonition">6개월 체험판에 등록하면 NLF 라이센스를 취득하게 됩니다.</block>
   <block id="4fa0264ac4080dbcb96449b3dd2eff57" category="paragraph">랜섬웨어 복원력 라이선스에는 추가 NetApp 제품이 포함되지 않습니다. 하지만 Ransomware Resilience는 NetApp Backup and Recovery 와 통합될 수 있습니다.</block>
   <block id="c785cc029c5e88f7796b29b4ff0e99e1" category="paragraph">랜섬웨어 복원력을 설정하고 작업 부하를 보호하는 데 필요한 상위 수준의 단계를 알아보세요.</block>
   <block id="6ff0e20f052119502398978ae7712412" category="paragraph">자세한 내용은 각 단계의 링크를 참조하세요.</block>
@@ -2055,4 +2024,37 @@
   <block id="b5884d5e59b952624998be52e7a9fe97" category="list-text"><block ref="b5884d5e59b952624998be52e7a9fe97" category="inline-link-macro-rx"></block></block>
   <block id="52210acbff73a572a2ca89fb77371615" category="paragraph">NetApp Ransomware Resilience 내에서 NetApp Data Classification 사용하여 파일 공유 워크로드의 데이터를 스캔하고 분류할 수 있습니다. 데이터를 분류하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 확인하는 데 도움이 되며, PII가 포함되어 있으면 보안 위험이 커질 수 있습니다. 데이터 분류는 NetApp Console 의 핵심 구성 요소이며 추가 비용 없이 사용할 수 있습니다.</block>
   <block id="4342c3c480135ea7c9398a3ba08357ec" category="sidebar">NetApp Ransomware Resilience 온프레미스 및 클라우드 스토리지에서 랜섬웨어 위협으로부터 애플리케이션 워크로드와 파일 공유를 보호, 탐지하고 복구를 지원합니다. 랜섬웨어 복원력은 안전한 백업과 복구를 지원하여 조직이 Oracle, MySQL, VM 데이터 저장소, NAS 스토리지 등에 대한 중요 데이터를 보호하고 비즈니스 연속성을 유지하는 데 도움이 됩니다.</block>
+  <block id="7b36da612c0e3a400f4daecc8016f21e" category="summary">시스템과 작업 부하를 보호하려면 랜섬웨어 복원력에 대한 라이선스 요구 사항을 충족하는지 확인하세요.</block>
+  <block id="785a67fbf7c46bd5774af376154df40a" category="paragraph">*라이선스 유형* 랜섬웨어 복원력은 다음 라이선스 유형으로 제공됩니다.</block>
+  <block id="5ef05167488611c5bd4ff0f410595ce4" category="list-text">30일 무료 체험</block>
+  <block id="e71ba6c3178fa6f6844891e615ad0570" category="list-text">Amazon Web Services(AWS) Marketplace, Google Cloud Marketplace 또는 Azure Marketplace에서 PAYGO(Pay-as-you-go) 구독을 구매하세요.</block>
+  <block id="2f0583f3da64d216aa72116dc3460499" category="list-text">BYOL(Bring Your Own License): NetApp 영업 담당자로부터 받는 NetApp 라이선스 파일(NLF)입니다. 콘솔에서 라이선스 일련 번호를 사용하여 BYOL을 활성화할 수 있습니다.</block>
+  <block id="16c0368d04c8f5c865d6c2e90734f733" category="paragraph">무료 평가판이 종료되거나 라이선스 또는 구독이 만료된 후에도 다음을 수행할 수 있습니다.</block>
+  <block id="99c8f1488beda59e11f21ed9f557f56e" category="list-text">워크로드 및 워크로드 상태 보기</block>
+  <block id="1975faa7cb5e0e460ae859ca96dbfd00" category="list-text">정책 등의 리소스 삭제</block>
+  <block id="f51b0d61321d5c9f169d1ee6403840fa" category="list-text">평가 기간 동안 또는 라이선스에 따라 생성된 모든 예약된 작업을 실행합니다.</block>
+  <block id="3819161dec7fd89239516062a4cc56a3" category="section-title">30일 무료 체험판으로 랜섬웨어 복원력을 시험해보세요</block>
+  <block id="e20a7cd21fba7d540ffd7589c1c59928" category="paragraph">30일 무료 체험판을 통해 Ransomware Resilience를 사용해 보세요.  무료 평가판을 시작하려면 콘솔 조직 관리자여야 합니다.</block>
+  <block id="85a5bc1275ab09d60eed9f7c3b4d429b" category="paragraph">체험 기간 동안에는 저장 용량 제한이 적용되지 않습니다.</block>
+  <block id="ca78bf5eeed0245ff3d76d132c93b609" category="inline-link-macro">하나 추가하다</block>
+  <block id="94c135a38d325e223714d1f313c8efec" category="list-text">다른 서비스에 대한 콘솔 에이전트를 아직 추가하지 않은 경우<block ref="f7f69135987ef22de86b03a4f14a7bc8" category="inline-link-macro-rx"></block> .</block>
+  <block id="edbdd3e3e169cd712816f78b82e91c2e" category="list-text">랜섬웨어 복원력 랜딩 페이지에서 *워크로드 검색으로 시작*을 선택하여 워크로드를 검색합니다.</block>
+  <block id="2866dfee0ffdf3a11a8323f6d53635f4" category="admonition">이 옵션은 콘솔 에이전트를 성공적으로 설치한 경우에만 사용할 수 있습니다.</block>
+  <block id="933f33d572b754e91a336439049ae279" category="list-text">라이선스 추가 페이지에서 *일련 번호 입력*을 선택하고, 귀하에게 전송된 이메일에 포함된 일련 번호를 입력한 다음, *라이선스 추가*를 선택합니다.</block>
+  <block id="2515e2bcc68e80666fa8c369e88f71e5" category="paragraph">라이센스가 추가되었음을 확인하는 메시지가 나타납니다.</block>
+  <block id="fca5751a0529f9987d0699648a97be3a" category="list-text">콘솔에서 라이선스를 자동으로 업데이트할 수 없는 경우 라이선스 파일을 수동으로 업로드해야 합니다.</block>
+  <block id="f8541056d6bacae1a78fb5d2b68c67a8" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block>랜섬웨어 복원력 시작하기</block>
+  <block id="43eec2eb3dba42398d66e0c2aa294ea2" category="paragraph">사용자 수준 알림을 보려면 사용자 활동 에이전트를 구성하고 사용자 동작 감지를 통한 보호 정책을 활성화해야 합니다. 사용자 동작 감지가 활성화되면 *의심스러운 사용자* 열이 알림 대시보드에 나타납니다. 사용자 동작 감지가 활성화되지 않은 경우에는 표시되지 않습니다.  의심스러운 사용자 감지를 활성화하려면 다음을 참조하세요.<block ref="da26800578b610b8b3390e49bb643377" category="inline-link-macro-rx"></block> .</block>
+  <block id="3c6a637355e70f686e34e6e7c966c200" category="admonition">NetApp Data Infrastructure Insights (DII) 워크로드 보안을 사용하는 경우 랜섬웨어 복원력에 동일한 워크로드 보안 에이전트를 사용하는 것이 좋습니다. 랜섬웨어 복원력을 위해 별도의 워크로드 보안 에이전트를 배포할 필요는 없지만, 동일한 워크로드 보안 에이전트를 사용하려면 랜섬웨어 복원력 콘솔 조직과 DII 스토리지 워크로드 보안 테넌트 간에 페어링 관계가 필요합니다. 이 페어링을 활성화하려면 계정 담당자에게 문의하세요.</block>
+  <block id="7a7f05bb105ddcf9c0d221e37f8a923c" category="list-text">사용자 환경에서 의심되는 사용자를 차단하려면 사용자 이름 아래에서 *차단*을 선택하세요.</block>
+  <block id="bc8ffb69fb560086f529e0097158caad" category="admonition">알림을 해제하면 알림 상태를 변경하거나 변경 사항을 취소할 수 없습니다.</block>
+  <block id="7149ff1e14f0a158752906babaa08dc3" category="list-text">해당 사건에 대해 다운로드 아이콘을 선택하여 영향을 받은 파일 목록을 CSV 형식으로 다운로드하세요.</block>
+  <block id="8c7f95ceb912c8aea11de028710caf47" category="paragraph">랜섬웨어 복원력은 ONTAP 의 FPolicy가 생성한 사용자 활동 이벤트를 분석하여 의심스러운 사용자 활동을 감지합니다. 사용자 활동 데이터를 수집하려면 하나 이상의 사용자 활동 에이전트를 배포해야 합니다. 에이전트는 테넌트의 장치에 연결할 수 있는 Linux 서버 또는 VM입니다.</block>
+  <block id="fe1bb8cb54f03cf7a69c3e9568118b30" category="list-text">**데이터 수집기**는 ONTAP 에서 사용자 활동 데이터를 수집합니다.</block>
+  <block id="b6173a051353d59a4ee775fcef288441" category="list-text">**사용자 디렉토리 커넥터**는 디렉토리에 연결하여 사용자 ID를 사용자 이름에 매핑합니다.</block>
+  <block id="508899c1c018f291af4cb6a0423c426c" category="paragraph">*필수 콘솔 역할* 의심스러운 사용자 활동 감지를 활성화하려면 조직 관리자 역할이 필요합니다.  의심스러운 사용자 활동에 대한 후속 구성을 위해서는 랜섬웨어 복원력 사용자 동작 관리자 역할이 필요합니다. <block ref="d9cbbacd5ef5cff6a1660fdb9d259f2f" category="inline-link-macro-rx"></block>.</block>
+  <block id="53b036bcd07f4ebcfe2ec32a98556822" category="paragraph">사용자 활동 에이전트를 설치하려면 다음 지원되는 운영 체제 및 서버 요구 사항을 충족하는 호스트 또는 VM이 필요합니다.</block>
+  <block id="d4a6e9b0b745b83f49163b25271ce445" category="list-text">**디스크 공간**: 35GB의 여유 디스크 공간</block>
+  <block id="398de83ff8f318218f9eaedb05929ef0" category="paragraph">사용자 활동 에이전트가 성공적으로 생성되면 **설정** 메뉴로 돌아간 다음 사용자 활동 타일에서 **관리**를 선택합니다. **사용자 활동 에이전트** 탭을 선택한 다음 사용자 활동 에이전트를 선택하여 데이터 수집기 및 사용자 디렉터리 커넥터를 포함한 해당 에이전트에 대한 세부 정보를 확인합니다.</block>
+  <block id="a83ea9a287c9fdd0689933a464055150" category="paragraph">사용자 ID를 사용자 이름에 매핑하려면 사용자 디렉토리 커넥터를 만들어야 합니다.</block>
 </blocks>

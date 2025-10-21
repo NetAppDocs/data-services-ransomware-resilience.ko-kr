@@ -27,7 +27,7 @@ summary: 몇 단계만 거치면 NetApp Ransomware Resilience 시작할 수 있�
 * link:rp-start-licenses.html["라이센스 설정"]
 
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["둘"]랜섬웨어 복원력 설정
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["둘"]랜섬웨어 복원력 시작하기
 [role="quick-margin-para"]
 이러한 작업에는 _랜섬웨어 복원력 관리자_ 역할이 필요합니다.
 
