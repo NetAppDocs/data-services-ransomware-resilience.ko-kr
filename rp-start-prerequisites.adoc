@@ -12,16 +12,44 @@ summary: 환경, 네트워크 액세스, 로그인 및 웹 브라우저에 대�
 
 
 [role="lead"]
-운영 환경, 로그인, 네트워크 액세스 및 웹 브라우저의 준비 상태를 확인하여 NetApp Ransomware Resilience 을 시작하세요.
+운영 환경, 네트워크 액세스, 웹 브라우저의 준비 상태를 확인하여 NetApp Ransomware Resilience 시작하세요.
 
-랜섬웨어 복원력을 사용하려면 다음 전제 조건을 충족해야 합니다.
+랜섬웨어 복원력을 사용하려면 전제 조건을 충족해야 합니다.
 
 
 
-== NetApp Console 에서
+== 지원되는 시스템
+
+지원되는 시스템을 사용하고 있는지 확인하세요.
+
+* ONTAP 버전 9.11.1 이상을 사용하는 온프레미스 ONTAP NAS(NFS 및 CIFS 프로토콜 사용)
+* ONTAP 버전 9.17.1 이상을 사용하는 온프레미스 ONTAP SAN(FC, iSCSI 및 NVMe 프로토콜 사용)
+* AWS용 Cloud Volumes ONTAP 9.11.1 이상(NFS 및 CIFS 프로토콜 사용)
+* Google Cloud Platform용 Cloud Volumes ONTAP 9.11.1 이상(NFS 및 CIFS 프로토콜 사용)
+* Microsoft Azure용 Cloud Volumes ONTAP 9.12.1 이상(NFS 및 CIFS 프로토콜 사용)
+* AWS, Google Cloud Platform 및 Microsoft Azure(FC, iSCSI 및 NVMe 프로토콜 사용)용 Cloud Volumes ONTAP 9.17.1 이상
+* ARP(Autonomous Ransomware Protection)를 사용하는 Amazon FSx for NetApp ONTAP(ARP/AI 아님)
+
+
+
+NOTE: ONTAP 에서 ARP/AI를 사용하려면 ONTAP 9.16 이상이 필요합니다.  + ONTAP FlexGroup 볼륨, 마운트 지점 볼륨, 마운트 경로 볼륨, 오프라인 볼륨 및 데이터 보호(DP) 볼륨에 대한 랜섬웨어 보호 지원을 제공하지 않습니다.  검토하세요link:https://docs.netapp.com/us-en/ontap/anti-ransomware/use-cases-restrictions-concept.html["ONTAP 에서 지원되는 구성과 지원되지 않는 구성"^] .
+
+
+
+== NetApp Console 요구 사항
+
+NetApp Console 구성에는 다음이 필요합니다.
 
 * 리소스를 검색하기 위한 조직 관리자 권한이 있는 NetApp Console 사용자 계정입니다.
-* 온-프레미스 ONTAP 클러스터나 AWS 또는 Azure의 Cloud Volumes ONTAP 에 연결하는 활성 콘솔 에이전트가 하나 이상 있는 콘솔 조직입니다.
+* 최소한 하나의 활성 콘솔 에이전트가 연결된 콘솔 조직 및 시스템link:concept-ransomware-resilience.html#supported-backup-targets-systems-and-workload-data-sources["지원되는 시스템"] .
++
+** AWS 또는 Azure 클라우드의 온프레미스 ONTAP 클러스터 또는 Cloud Volumes ONTAP 콘솔에 설정되지 않은 경우 다음을 참조하세요.link:https://docs.netapp.com/us-en/console-setup-admin/concept-connectors.html["콘솔 에이전트를 구성하는 방법을 알아보세요"^] 그리고link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["표준 콘솔 요구 사항"^] .
++
+
+NOTE: 단일 콘솔 조직에 여러 콘솔 에이전트가 있는 경우 Ransomware Resilience는 콘솔 UI에서 현재 선택된 에이전트를 제외한 모든 콘솔 에이전트에서 ONTAP 리소스를 스캔합니다.
+
+
+
 * 콘솔 에이전트에는 다음이 있어야 합니다. `cloudmanager-ransomware-protection` 활성 상태의 컨테이너.
 * AWS 또는 Azure의 NetApp 온프레미스 ONTAP 클러스터 또는 Cloud Volumes ONTAP 있는 콘솔 시스템이 하나 이상 있어야 합니다.  Ransomware Resilience는 NAS(NFS 및 SMB)와 SAN(iSCSI, FC 및 NVMe) 프로토콜을 모두 지원합니다.
 +
@@ -30,40 +58,26 @@ summary: 환경, 네트워크 액세스, 로그인 및 웹 브라우저에 대�
 
 NOTE: SAN 워크로드에서 랜섬웨어 복원력을 사용하려면 ONTAP 9.17.1 이상을 실행해야 합니다.
 
-** AWS 또는 Azure 클라우드의 온프레미스 ONTAP 클러스터나 Cloud Volumes ONTAP 아직 콘솔에 온보딩되지 않은 경우 콘솔 에이전트가 필요합니다.
-+
-참조하다 https://docs.netapp.com/us-en/console-setup-admin/concept-connectors.html["콘솔 에이전트를 구성하는 방법을 알아보세요"] 그리고 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["표준 콘솔 요구 사항"^] .
-
-+
-
-NOTE: 단일 콘솔 조직에 여러 콘솔 에이전트가 있는 경우 Ransomware Resilience는 콘솔 UI에서 현재 선택된 에이전트를 제외한 모든 콘솔 에이전트에서 ONTAP 리소스를 스캔합니다.
 
 
 
 
 
 
+== ONTAP 요구 사항
 
-== ONTAP 9.11.1 이상
+* 온프레미스 ONTAP 인스턴스에서 ONTAP One 라이선스가 활성화된 ONTAP 9.11.1 이상을 실행해야 합니다.  ONTAP 지원에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율형 랜섬웨어 보호 개요"^] .
+* 보호 구성(자율 랜섬웨어 보호 활성화 등)을 적용하려면 랜섬웨어 복원력에 ONTAP 클러스터에 대한 관리자 권한이 필요합니다. ONTAP 클러스터는 ONTAP 클러스터 관리자 사용자 자격 증명을 사용하여만 온보딩되어야 합니다.
 
-* 온프레미스 ONTAP 인스턴스에서 ONTAP One 라이선스가 활성화됩니다.
-* Ransomware Resilience에서 사용되는 NetApp Autonomous Ransomware Protection 라이선스는 사용 중인 ONTAP 버전에 따라 온프레미스 ONTAP 인스턴스에서 활성화됩니다. 참조하다 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율형 랜섬웨어 보호 개요"^] .
-+
 
-NOTE: Ransomware Resilience의 일반 릴리스에는 Preview 릴리스와 달리 NetApp Autonomous Ransomware Protection 기술에 대한 라이선스가 포함되어 있습니다. 참조하다 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율형 랜섬웨어 보호 개요"^] 자세한 내용은.
 
-+
-자세한 라이센스 세부 사항은 다음을 참조하세요.link:concept-ransomware-resilience.html["랜섬웨어 복원력에 대해 알아보세요"] .
-
-* 보호 구성(자율 랜섬웨어 보호 및 기타 기능 활성화 등)을 적용하려면 랜섬웨어 복원력에 ONTAP 클러스터에 대한 관리자 권한이 필요합니다.  ONTAP 클러스터는 ONTAP 클러스터 관리자 사용자 자격 증명을 사용하여만 온보딩되어야 합니다.
-* ONTAP 클러스터가 이미 관리자가 아닌 사용자 자격 증명을 사용하여 콘솔에 온보딩된 경우, 이 페이지에 설명된 대로 ONTAP 클러스터에 로그인하여 관리자가 아닌 사용자 권한을 필요한 권한으로 업데이트해야 합니다.
-
+NOTE: 관리자가 아닌 사용자 자격 증명을 사용하여 ONTAP 클러스터를 콘솔에 연결한 경우 ONTAP 클러스터의 자격 증명을 업데이트해야 합니다.
 
 
 
 == 데이터 백업
 
-* 백업 대상과 액세스 권한 집합을 위한 NetApp StorageGRID, AWS S3, Azure Blob 또는 Google Cloud Platform의 계정입니다.
+* 적절한 액세스 권한이 구성된 백업 대상에 대한 NetApp StorageGRID, AWS S3, Azure Blob 또는 Google Cloud Platform 계정.
 +
 를 참조하세요 https://docs.netapp.com/us-en/console-setup-admin/reference-permissions.html["AWS, Azure 또는 S3 권한 목록"^] 자세한 내용은.
 
@@ -88,7 +102,7 @@ NOTE: Ransomware Resilience의 일반 릴리스에는 Preview 릴리스와 달�
 . 콘솔에 로그인하여 ONTAP 사용자 권한을 업데이트해야 하는 시스템을 찾으세요.
 . 자세한 내용을 보려면 시스템을 선택하세요.
 . 사용자 이름을 표시하려면 *추가 정보 보기*를 선택하세요.
-. 관리자 사용자를 사용하여 ONTAP 클러스터 CLI에 로그인합니다.
+. ONTAP 클러스터 CLI에 관리자 사용자로 로그인합니다.
 . 해당 사용자의 기존 역할을 표시합니다. 입력하다:
 +
 [listing]
@@ -101,5 +115,5 @@ security login show -user-or-group-name <username>
 ----
 security login modify -user-or-group-name <username> -application console|http|ontapi|ssh|telnet -authentication-method password -role admin
 ----
-. 랜섬웨어 복원력 UI로 돌아가서 사용하세요.
+. 랜섬웨어 복원력을 사용하려면 NetApp Console 로 돌아가세요.
 

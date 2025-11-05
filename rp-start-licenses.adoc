@@ -16,7 +16,11 @@ NetApp Ransomware Resilience 사용하면 다양한 라이선스 플랜을 사�
 
 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자 역할이 필요합니다. https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["콘솔 액세스 역할에 대해 알아보세요"^] .
 
-*라이선스 유형* 랜섬웨어 복원력은 다음 라이선스 유형으로 제공됩니다.
+
+
+== 라이센스 유형
+
+랜섬웨어 복원력은 다음 라이선스 유형으로 제공됩니다.
 
 * 30일 무료 체험
 * Amazon Web Services(AWS) Marketplace, Google Cloud Marketplace 또는 Azure Marketplace에서 PAYGO(Pay-as-you-go) 구독을 구매하세요.

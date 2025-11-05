@@ -1,0 +1,15 @@
+= 
+:allow-uri-read: 
+
+
+* ONTAP 버전 9.11.1 이상을 사용하는 온프레미스 ONTAP NAS(NFS 및 CIFS 프로토콜 사용)
+* ONTAP 버전 9.17.1 이상을 사용하는 온프레미스 ONTAP SAN(FC, iSCSI 및 NVMe 프로토콜 사용)
+* AWS용 Cloud Volumes ONTAP 9.11.1 이상(NFS 및 CIFS 프로토콜 사용)
+* Google Cloud Platform용 Cloud Volumes ONTAP 9.11.1 이상(NFS 및 CIFS 프로토콜 사용)
+* Microsoft Azure용 Cloud Volumes ONTAP 9.12.1 이상(NFS 및 CIFS 프로토콜 사용)
+* AWS, Google Cloud Platform 및 Microsoft Azure(FC, iSCSI 및 NVMe 프로토콜 사용)용 Cloud Volumes ONTAP 9.17.1 이상
+* ARP(Autonomous Ransomware Protection)를 사용하는 Amazon FSx for NetApp ONTAP(ARP/AI 아님)
+
+
+
+NOTE: ONTAP 에서 ARP/AI를 사용하려면 ONTAP 9.16 이상이 필요합니다.  + ONTAP FlexGroup 볼륨, 마운트 지점 볼륨, 마운트 경로 볼륨, 오프라인 볼륨 및 데이터 보호(DP) 볼륨에 대한 랜섬웨어 보호 지원을 제공하지 않습니다.  검토하세요link:https://docs.netapp.com/us-en/ontap/anti-ransomware/use-cases-restrictions-concept.html["ONTAP 에서 지원되는 구성과 지원되지 않는 구성"^] .

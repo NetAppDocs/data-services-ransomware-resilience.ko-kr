@@ -237,12 +237,10 @@
   <block id="90d096ff0013c9c2874a247b26e69950" category="list-text">결과를 모니터링하는 데 도움이 됩니다.</block>
   <block id="4f743c093ec077920561596aa32a74f6" category="section-title">지원되는 백업 대상, 시스템 및 워크로드 데이터 소스</block>
   <block id="b45c27598e81de132cbcf41c4f6124d9" category="paragraph">랜섬웨어 복원력은 다음과 같은 백업 대상, 시스템 및 데이터 소스를 지원합니다.</block>
-  <block id="5a2f764441f9d3e054b68c956f11e77a" category="paragraph">*지원되는 백업 대상*</block>
   <block id="736ca911d7d143d01bd8cbfe0d4afbca" category="list-text">아마존 웹 서비스(AWS) S3</block>
   <block id="5c9ef0d871938dccceb29ee63fad8ddb" category="list-text">구글 클라우드 플랫폼</block>
   <block id="6a51ed7bcacdfb13f78abc1e0f69c201" category="list-text">마이크로소프트 애저 블롭</block>
   <block id="55cf1a0f0fce69fd543500e5761dd26d" category="list-text">NetApp StorageGRID</block>
-  <block id="02d9d4ccf573660435e940eabcc8f12c" category="paragraph">*지원 시스템*</block>
   <block id="5f35d0b4a7930f14f1022ee1f942ee64" category="list-text">ONTAP 버전 9.11.1 이상을 사용하는 온프레미스 ONTAP NAS(NFS 및 CIFS 프로토콜 사용)</block>
   <block id="36471da59b7d9b72aa431fd1f5059d05" category="list-text">ONTAP 버전 9.17.1 이상을 사용하는 온프레미스 ONTAP SAN(FC, iSCSI 및 NVMe 프로토콜 사용)</block>
   <block id="0479370d1a7f4250832bb43f782a1456" category="list-text">AWS용 Cloud Volumes ONTAP 9.11.1 이상(NFS 및 CIFS 프로토콜 사용)</block>
@@ -250,15 +248,11 @@
   <block id="4d32d1cc8c36c71c8d57d570d802694f" category="list-text">Microsoft Azure용 Cloud Volumes ONTAP 9.12.1 이상(NFS 및 CIFS 프로토콜 사용)</block>
   <block id="35042137939d246a1fd01199cb942d15" category="list-text">AWS, Google Cloud Platform 및 Microsoft Azure(FC, iSCSI 및 NVMe 프로토콜 사용)용 Cloud Volumes ONTAP 9.17.1 이상</block>
   <block id="54d1e9634870c74de38de33364a86d27" category="list-text">ARP(Autonomous Ransomware Protection)를 사용하는 Amazon FSx for NetApp ONTAP(ARP/AI 아님)</block>
-  <block id="1d6131f7ad87ad503cde9efa2561d2d8" category="admonition">ARP/AI에는 ONTAP 9.16 이상이 필요합니다.</block>
-  <block id="c231c2b9f4d999149380b14f4bd21a7e" category="admonition">다음은 지원되지 않습니다: FlexGroup 볼륨, 9.11.1보다 이전 버전의 ONTAP , 마운트 지점 볼륨, 마운트 경로 볼륨, 오프라인 볼륨 및 DP(데이터 보호) 볼륨.</block>
-  <block id="6b1713530668cac3f2a5c5835ae37a1f" category="paragraph">*지원되는 워크로드 데이터 소스*</block>
   <block id="2fd51284279972a6a1390536b053f3c3" category="paragraph">랜섬웨어 복원력은 기본 데이터 볼륨에서 다음과 같은 애플리케이션 기반 워크로드를 보호합니다.</block>
   <block id="ffc184891768c331383cd53bcd1bc968" category="list-text">NetApp 파일 공유</block>
   <block id="4f0550f066ae72bb8c24fc3f59c323bf" category="list-text">블록 스토리지</block>
   <block id="ed11408803c4c1aca5fbebbc43d88458" category="list-text">VMware 데이터스토어</block>
   <block id="3560990ee46f2f17d59094ab9e308c5e" category="list-text">데이터베이스(MySQL 및 Oracle)</block>
-  <block id="713cbd93b2ba47b4561b53a841624b51" category="list-text">곧 더 많은 것이 나올 예정입니다</block>
   <block id="ac52d0195d6b8f8c9196f4a11d911326" category="paragraph">또한 SnapCenter 또는 SnapCenter for VMware를 사용하는 경우 해당 제품에서 지원하는 모든 워크로드도 랜섬웨어 복원력에 명시되어 있습니다.  랜섬웨어 복원력은 작업 부하에 맞춰 일관된 방식으로 이러한 항목을 보호하고 복구할 수 있습니다.</block>
   <block id="02f360fe822afa82c0f600943169df7e" category="section-title">랜섬웨어 보호에 도움이 될 수 있는 용어</block>
   <block id="77460e2b891748333455193aadd137d8" category="paragraph">랜섬웨어 보호와 관련된 용어를 이해하는 것이 도움이 될 수 있습니다.</block>
@@ -545,28 +539,14 @@
   <block id="ac6282fe86530df822c059310d9c8cc3" category="paragraph"><block ref="40333c3f84ed5cb5976f4d99c62be349" category="inline-link-macro-rx"></block> .</block>
   <block id="d0e83b4dfc8809d4d0f31e184c6f9ebb" category="summary">환경, 네트워크 액세스, 로그인 및 웹 브라우저에 대한 지원을 검증하여 NetApp Ransomware Resilience 시작하세요.</block>
   <block id="fd2baaaf591d18081f2e012015874835" category="doc">NetApp Ransomware Resilience 전제 조건</block>
-  <block id="24c096a4eee14bf4c04d2cbdd4effd54" category="paragraph">운영 환경, 로그인, 네트워크 액세스 및 웹 브라우저의 준비 상태를 확인하여 NetApp Ransomware Resilience 을 시작하세요.</block>
-  <block id="cfdba60f0ede042388dac5205623741d" category="paragraph">랜섬웨어 복원력을 사용하려면 다음 전제 조건을 충족해야 합니다.</block>
-  <block id="5bf25f6ec08ec736c7b9b49cc19c6dd7" category="section-title">NetApp Console 에서</block>
   <block id="e315520b8d0944e7422c773e49fc17a7" category="list-text">리소스를 검색하기 위한 조직 관리자 권한이 있는 NetApp Console 사용자 계정입니다.</block>
-  <block id="60e39582e4cf8359d140fc0851baccb4" category="list-text">온-프레미스 ONTAP 클러스터나 AWS 또는 Azure의 Cloud Volumes ONTAP 에 연결하는 활성 콘솔 에이전트가 하나 이상 있는 콘솔 조직입니다.</block>
   <block id="ffc25a5f8d1276ee801a950e7f83a233" category="list-text">콘솔 에이전트에는 다음이 있어야 합니다.<block ref="d5aabb6133fba5c7ef5a4e8db21d18ae" prefix=" " category="inline-code"></block> 활성 상태의 컨테이너.</block>
   <block id="7bff903bef6a1c5af1e562c29d1de15e" category="list-text">AWS 또는 Azure의 NetApp 온프레미스 ONTAP 클러스터 또는 Cloud Volumes ONTAP 있는 콘솔 시스템이 하나 이상 있어야 합니다.  Ransomware Resilience는 NAS(NFS 및 SMB)와 SAN(iSCSI, FC 및 NVMe) 프로토콜을 모두 지원합니다.</block>
-  <block id="097ff3efa4909e783a040ec7edc317d6" category="list-text">AWS 또는 Azure 클라우드의 온프레미스 ONTAP 클러스터나 Cloud Volumes ONTAP 아직 콘솔에 온보딩되지 않은 경우 콘솔 에이전트가 필요합니다.</block>
   <block id="04f679e072129c7e87e077dc95e5e73e" category="inline-link">콘솔 에이전트를 구성하는 방법을 알아보세요</block>
   <block id="b1fb1d531493b1af3ab2980b2c579a5f" category="inline-link">표준 콘솔 요구 사항</block>
-  <block id="cb12a493b17ae7fff08a2132dcea0a98" category="paragraph">참조하다<block ref="f26f3bdec25207bfa60c6d1f2da2fd25" category="inline-link-rx"></block> 그리고<block ref="e6a35e3eadbd084db13ee929315e54c1" category="inline-link-rx"></block> .</block>
   <block id="f9a3157f34101a0d560e518291db02ba" category="admonition">단일 콘솔 조직에 여러 콘솔 에이전트가 있는 경우 Ransomware Resilience는 콘솔 UI에서 현재 선택된 에이전트를 제외한 모든 콘솔 에이전트에서 ONTAP 리소스를 스캔합니다.</block>
-  <block id="2501cbb4187a9a6c7f42f035596578a4" category="section-title">ONTAP 9.11.1 이상</block>
-  <block id="f89c934c898fc55d4773d10ee90d485e" category="list-text">온프레미스 ONTAP 인스턴스에서 ONTAP One 라이선스가 활성화됩니다.</block>
   <block id="13572bbe68fe6ecbb17fb5a38d1313bb" category="inline-link">자율형 랜섬웨어 보호 개요</block>
-  <block id="852e40f75680d314fce781dad2f346b6" category="list-text">Ransomware Resilience에서 사용되는 NetApp Autonomous Ransomware Protection 라이선스는 사용 중인 ONTAP 버전에 따라 온프레미스 ONTAP 인스턴스에서 활성화됩니다. 참조하다<block ref="9a25fd5e356132f930267232d70ad02b" category="inline-link-rx"></block> .</block>
-  <block id="fff65a3ba54f3c29c9a0b5b04f6bb1c6" category="admonition">Ransomware Resilience의 일반 릴리스에는 Preview 릴리스와 달리 NetApp Autonomous Ransomware Protection 기술에 대한 라이선스가 포함되어 있습니다. 참조하다<block ref="9a25fd5e356132f930267232d70ad02b" category="inline-link-rx"></block> 자세한 내용은.</block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">랜섬웨어 복원력에 대해 알아보세요</block>
-  <block id="5cc74ffa295c128286831c0e8de84cd1" category="paragraph">자세한 라이센스 세부 사항은 다음을 참조하세요.<block ref="11f96aed2a11a318ecdf8f5381ec25fa" category="inline-link-macro-rx"></block> .</block>
-  <block id="47c8d077dd25d3b0a8650ef6f84f0820" category="list-text">보호 구성(자율 랜섬웨어 보호 및 기타 기능 활성화 등)을 적용하려면 랜섬웨어 복원력에 ONTAP 클러스터에 대한 관리자 권한이 필요합니다.  ONTAP 클러스터는 ONTAP 클러스터 관리자 사용자 자격 증명을 사용하여만 온보딩되어야 합니다.</block>
-  <block id="d6b16e754b93934f7687ad4f252b7073" category="list-text">ONTAP 클러스터가 이미 관리자가 아닌 사용자 자격 증명을 사용하여 콘솔에 온보딩된 경우, 이 페이지에 설명된 대로 ONTAP 클러스터에 로그인하여 관리자가 아닌 사용자 권한을 필요한 권한으로 업데이트해야 합니다.</block>
-  <block id="0885a21123eeb2ad2e03289064c229ea" category="list-text">백업 대상과 액세스 권한 집합을 위한 NetApp StorageGRID, AWS S3, Azure Blob 또는 Google Cloud Platform의 계정입니다.</block>
   <block id="d2e3e802d3f25894bd170688859d6cef" category="inline-link">AWS, Azure 또는 S3 권한 목록</block>
   <block id="90061bb176f3e723f6f2161eafc1901c" category="paragraph">를 참조하세요<block ref="31e1fb669a04af441205b80b4846232f" category="inline-link-rx"></block> 자세한 내용은.</block>
   <block id="583833d6f0468c713c410ea158e1b6f6" category="list-text">시스템에서 NetApp Backup and Recovery 활성화할 필요가 없습니다.</block>
@@ -577,10 +557,8 @@
   <block id="df4a4e3e8d87a650fd5d152bd4fab199" category="list-text">콘솔에 로그인하여 ONTAP 사용자 권한을 업데이트해야 하는 시스템을 찾으세요.</block>
   <block id="0a8a7f0fafc4b245a6e039b7da0e38c7" category="list-text">자세한 내용을 보려면 시스템을 선택하세요.</block>
   <block id="ddf0d8cb7fa932ccfbf9231d4f27f992" category="list-text">사용자 이름을 표시하려면 *추가 정보 보기*를 선택하세요.</block>
-  <block id="9fe71dce626bd006ff641fd38ed29790" category="list-text">관리자 사용자를 사용하여 ONTAP 클러스터 CLI에 로그인합니다.</block>
   <block id="af2fd7f57e628b460dd2978fa6cf0a79" category="list-text">해당 사용자의 기존 역할을 표시합니다. 입력하다:</block>
   <block id="ec2732dacf33a5e90fbcf1cf42cb9ef7" category="list-text">사용자의 역할을 변경합니다. 입력하다:</block>
-  <block id="1f7fec232265cdaaed5c3995ce516af2" category="list-text">랜섬웨어 복원력 UI로 돌아가서 사용하세요.</block>
   <block id="01ad1e9b6ee32140ab032c379c4fd753" category="summary">몇 단계만 거치면 NetApp Ransomware Resilience 시작할 수 있습니다.</block>
   <block id="87269d545e3fccdff13a867df7261ace" category="doc">NetApp Ransomware Resilience 대한 빠른 시작</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">하나</block>
@@ -1939,7 +1917,6 @@
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">자주 묻는 질문</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식과 지원</block>
   <block id="69d1e7a74a8d35e4122500df6d2f5042" category="list-text">랜섬웨어 복원력은 ONTAP 버전 9.11.1 이상을 사용하는 ONTAP 또는 Cloud Volumes ONTAP 클러스터에서 지원됩니다.</block>
-  <block id="d36369f24098b858527294c5a234c72d" category="admonition">SAN 워크로드에서 랜섬웨어 복원력을 사용하려면 ONTAP 9.17.1 이상을 실행해야 합니다.</block>
   <block id="51fecb5d19a6637dea83445678fd4ffa" category="section-title">데이터 백업</block>
   <block id="9755e4a474d0024a8dcd40393e571716" category="section-title">의심스러운 사용자 행동</block>
   <block id="34691f87b892c333fe1b7a23452dcda6" category="paragraph">랜섬웨어 복원력이 의심스러운 사용자 동작에 대한 알림을 제공하려면 사용자 활동 에이전트를 구성해야 합니다. 자세한 내용은 다음을 참조하세요. <block ref="f3d3e5726f7feb4b59ca728c906df758" category="inline-link-macro-rx"></block>.</block>
@@ -1980,7 +1957,6 @@
   <block id="52210acbff73a572a2ca89fb77371615" category="paragraph">NetApp Ransomware Resilience 내에서 NetApp Data Classification 사용하여 파일 공유 워크로드의 데이터를 스캔하고 분류할 수 있습니다. 데이터를 분류하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 확인하는 데 도움이 되며, PII가 포함되어 있으면 보안 위험이 커질 수 있습니다. 데이터 분류는 NetApp Console 의 핵심 구성 요소이며 추가 비용 없이 사용할 수 있습니다.</block>
   <block id="4342c3c480135ea7c9398a3ba08357ec" category="sidebar">NetApp Ransomware Resilience 온프레미스 및 클라우드 스토리지에서 랜섬웨어 위협으로부터 애플리케이션 워크로드와 파일 공유를 보호, 탐지하고 복구를 지원합니다. 랜섬웨어 복원력은 안전한 백업과 복구를 지원하여 조직이 Oracle, MySQL, VM 데이터 저장소, NAS 스토리지 등에 대한 중요 데이터를 보호하고 비즈니스 연속성을 유지하는 데 도움이 됩니다.</block>
   <block id="7b36da612c0e3a400f4daecc8016f21e" category="summary">시스템과 작업 부하를 보호하려면 랜섬웨어 복원력에 대한 라이선스 요구 사항을 충족하는지 확인하세요.</block>
-  <block id="785a67fbf7c46bd5774af376154df40a" category="paragraph">*라이선스 유형* 랜섬웨어 복원력은 다음 라이선스 유형으로 제공됩니다.</block>
   <block id="5ef05167488611c5bd4ff0f410595ce4" category="list-text">30일 무료 체험</block>
   <block id="e71ba6c3178fa6f6844891e615ad0570" category="list-text">Amazon Web Services(AWS) Marketplace, Google Cloud Marketplace 또는 Azure Marketplace에서 PAYGO(Pay-as-you-go) 구독을 구매하세요.</block>
   <block id="2f0583f3da64d216aa72116dc3460499" category="list-text">BYOL(Bring Your Own License): NetApp 영업 담당자로부터 받는 NetApp 라이선스 파일(NLF)입니다. 콘솔에서 라이선스 일련 번호를 사용하여 BYOL을 활성화할 수 있습니다.</block>
@@ -2075,4 +2051,27 @@
   <block id="7986143a8e8e26aa1cd4fe5e42208a2b" category="paragraph">ONTAP 의 시스템 관리자 UI, API 또는 CLI를 사용하여 탐지 정책에서 ARP를 비활성화할 수 있습니다.</block>
   <block id="6d1a51f08d9ca2d81528c19a5e4f2463" category="list-text"><block ref="6d1a51f08d9ca2d81528c19a5e4f2463" category="inline-link-macro-rx"></block></block>
   <block id="4db76a2031d1695a2f0a985a14a43ffa" category="paragraph">의심스러운 사용자 활동 감지를 통해 랜섬웨어 보호 전략을 활성화하면 데이터 수집기가 자동으로 생성됩니다. 자세한 내용은 다음을 참조하세요. <block ref="eadf066433fbca34180c794e1f4838ae" category="inline-xref-macro-rx"></block>.</block>
+  <block id="649b83fee66314cb36bc122912f59725" category="inline-link-macro">ONTAP 에서 지원되는 구성과 지원되지 않는 구성</block>
+  <block id="49f82a509cd0abff5327e4c71868f448" category="admonition">ONTAP 에서 ARP/AI를 사용하려면 ONTAP 9.16 이상이 필요합니다.  + ONTAP FlexGroup 볼륨, 마운트 지점 볼륨, 마운트 경로 볼륨, 오프라인 볼륨 및 데이터 보호(DP) 볼륨에 대한 랜섬웨어 보호 지원을 제공하지 않습니다.  검토하세요<block ref="49252e6bcf11c366c792cea95977195b" category="inline-link-macro-rx"></block> .</block>
+  <block id="0b115ac5b217f989a1fc7dd422161b82" category="section-title">지원되는 백업 대상</block>
+  <block id="933247e0be7796a309cfa4c95bd34938" category="section-title">지원되는 시스템</block>
+  <block id="d7962ffe79df3d1aba19878fd6d019e4" category="section-title">지원되는 워크로드 데이터 소스</block>
+  <block id="2b2fba693aacdb90002ef3efdb1f458b" category="section-title">라이센스 유형</block>
+  <block id="f16034022338b3a005a0680a88d47bf5" category="paragraph">랜섬웨어 복원력은 다음 라이선스 유형으로 제공됩니다.</block>
+  <block id="06dafb1ce76f077b43468ebf52fe4f71" category="paragraph">운영 환경, 네트워크 액세스, 웹 브라우저의 준비 상태를 확인하여 NetApp Ransomware Resilience 시작하세요.</block>
+  <block id="ae76d3bf4a09c080710fa0d7937275b1" category="paragraph">랜섬웨어 복원력을 사용하려면 전제 조건을 충족해야 합니다.</block>
+  <block id="ff79a6341986aef28eb40de7bb83e3a9" category="paragraph">지원되는 시스템을 사용하고 있는지 확인하세요.</block>
+  <block id="70409a142107b4016b7ef004178c29d8" category="section-title">NetApp Console 요구 사항</block>
+  <block id="4c2c00472698b27eb7facf4ba3c6971f" category="paragraph">NetApp Console 구성에는 다음이 필요합니다.</block>
+  <block id="fda98bab7cfe51ed764422ff7c4cc4dc" category="inline-link-macro">지원되는 시스템</block>
+  <block id="24a33b7b8d81b241dc8d72ce84d02061" category="list-text">최소한 하나의 활성 콘솔 에이전트가 연결된 콘솔 조직 및 시스템<block ref="33fcda4d13136e9638e8e0eecc30f508" category="inline-link-macro-rx"></block> .</block>
+  <block id="0d2165e32151ff379bcc5699011bbdbe" category="list-text">AWS 또는 Azure 클라우드의 온프레미스 ONTAP 클러스터 또는 Cloud Volumes ONTAP 콘솔에 설정되지 않은 경우 다음을 참조하세요.<block ref="8a718d7913e8764fcbd48fb78a901ed8" category="inline-link-macro-rx"></block> 그리고<block ref="b04507b2bbabc17c071b912167d3ff4f" category="inline-link-macro-rx"></block> .</block>
+  <block id="def72830b58fb69b381492858d3b3665" category="admonition">SAN 워크로드에서 랜섬웨어 복원력을 사용하려면 ONTAP 9.17.1 이상을 실행해야 합니다.</block>
+  <block id="1b6bc3125f482fcbcf029c833aea1290" category="section-title">ONTAP 요구 사항</block>
+  <block id="69e575df737b34413e9ac5e132f6db01" category="list-text">온프레미스 ONTAP 인스턴스에서 ONTAP One 라이선스가 활성화된 ONTAP 9.11.1 이상을 실행해야 합니다.  ONTAP 지원에 대한 자세한 내용은 다음을 참조하세요.<block ref="a17b9b304c2ac7f4ba576e11b099c691" category="inline-link-macro-rx"></block> .</block>
+  <block id="287d5057af26ee58d3ebb3f5ab1c418c" category="list-text">보호 구성(자율 랜섬웨어 보호 활성화 등)을 적용하려면 랜섬웨어 복원력에 ONTAP 클러스터에 대한 관리자 권한이 필요합니다. ONTAP 클러스터는 ONTAP 클러스터 관리자 사용자 자격 증명을 사용하여만 온보딩되어야 합니다.</block>
+  <block id="afabe9e17313d371201713a96a9674ac" category="admonition">관리자가 아닌 사용자 자격 증명을 사용하여 ONTAP 클러스터를 콘솔에 연결한 경우 ONTAP 클러스터의 자격 증명을 업데이트해야 합니다.</block>
+  <block id="2256fdd13b41cd806db98cd42c5b498c" category="list-text">적절한 액세스 권한이 구성된 백업 대상에 대한 NetApp StorageGRID, AWS S3, Azure Blob 또는 Google Cloud Platform 계정.</block>
+  <block id="27bfb5502a8db50d09f593ce1b77b181" category="list-text">ONTAP 클러스터 CLI에 관리자 사용자로 로그인합니다.</block>
+  <block id="14e79e90c6d487ebb867aa7b0f88bf25" category="list-text">랜섬웨어 복원력을 사용하려면 NetApp Console 로 돌아가세요.</block>
 </blocks>
