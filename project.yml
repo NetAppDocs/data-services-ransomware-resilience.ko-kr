@@ -44,8 +44,6 @@ sidebar:
       url: "/suspicious-user-activity.html"
   - title: 랜섬웨어 복원력 활용
     entries:
-    - title: 랜섬웨어 복원력 개요 사용
-      url: "/rp-use-overview.html"
     - title: 대시보드를 사용하여 작업 상태 보기
       url: "/rp-use-dashboard.html"
     - title: 작업 부하 보호

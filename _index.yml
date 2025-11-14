@@ -26,8 +26,6 @@ indexpage:
       url: "/rp-start-simulate.html"
   - title: 랜섬웨어 복원력 활용
     links:
-    - title: 랜섬웨어 복원력 개요 사용
-      url: "/rp-use-overview.html"
     - title: 워크로드 검색
       url: "/rp-start-discover.html"
     - title: 대시보드를 사용하여 작업 상태 보기

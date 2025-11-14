@@ -253,7 +253,6 @@
   <block id="4f0550f066ae72bb8c24fc3f59c323bf" category="list-text">블록 스토리지</block>
   <block id="ed11408803c4c1aca5fbebbc43d88458" category="list-text">VMware 데이터스토어</block>
   <block id="3560990ee46f2f17d59094ab9e308c5e" category="list-text">데이터베이스(MySQL 및 Oracle)</block>
-  <block id="ac52d0195d6b8f8c9196f4a11d911326" category="paragraph">또한 SnapCenter 또는 SnapCenter for VMware를 사용하는 경우 해당 제품에서 지원하는 모든 워크로드도 랜섬웨어 복원력에 명시되어 있습니다.  랜섬웨어 복원력은 작업 부하에 맞춰 일관된 방식으로 이러한 항목을 보호하고 복구할 수 있습니다.</block>
   <block id="02f360fe822afa82c0f600943169df7e" category="section-title">랜섬웨어 보호에 도움이 될 수 있는 용어</block>
   <block id="77460e2b891748333455193aadd137d8" category="paragraph">랜섬웨어 보호와 관련된 용어를 이해하는 것이 도움이 될 수 있습니다.</block>
   <block id="826a4e8d8facce6f785b2a404538e6cd" category="list-text">*보호*: 랜섬웨어 복원력의 보호는 보호 정책을 사용하여 정기적으로 스냅샷과 변경 불가능한 백업이 다른 보안 도메인에 발생하도록 보장하는 것을 의미합니다.</block>
@@ -572,7 +571,6 @@
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">삼</block>
   <block id="d50e8172d497c020af4e234d3280aa47" category="inline-link-macro">대시보드에서 워크로드 보호 상태 보기</block>
   <block id="347a92b70b3c471a8a681a4b4a0c9256" category="inline-link-macro">잠재적인 랜섬웨어 공격 감지에 대응</block>
-  <block id="063e9c9c189a9f6aaad2b0b511ff7b3f" category="list-text"><block ref="b5ea4db5c411dc6348eb99be9283796b" category="inline-link-macro-rx"></block> .</block>
   <block id="fc8492dd3eefdbcdcd34f8d91982e7a9" category="inline-link-macro">공격으로부터 복구(사고가 무력화된 후)</block>
   <block id="34966ee9421e907a190b85aa1680ce01" category="summary">랜섬웨어 복원력을 사용하려면 몇 가지 단계를 거쳐 설정하세요.</block>
   <block id="239718284ef31f1d7ca7a73645e14dd2" category="doc">NetApp Ransomware Resilience 설정</block>
@@ -910,21 +908,7 @@
   <block id="a5584fd777c131bf3f216931a3952c37" category="list-text">랜섬웨어 복원력 메뉴에서 *보호*를 선택합니다.</block>
   <block id="0c494aaba0bbfa24f1d3a7438930b616" category="list-text">작업 부하를 선택하고 오른쪽에 있는 *작업* ... 아이콘을 선택한 다음 *작업 부하 이름 편집*을 선택합니다.</block>
   <block id="b7ac3f69f0c0ac25814be4d03ba11c24" category="list-text">새로운 작업 부하 이름을 입력하고 *저장*을 선택합니다.</block>
-  <block id="da654f624b17520b58f56cd7c8a9f769" category="summary">NetApp Ransomware Resilience 사용하면 워크로드 상태를 확인하고 워크로드를 보호할 수 있습니다.</block>
-  <block id="b05791264bdc7b222293c51d378f16d8" category="doc">NetApp Ransomware Resilience 사용</block>
-  <block id="7e1d67d835e00f3989833a13c507a912" category="paragraph">NetApp Ransomware Resilience 사용하면 워크로드 상태를 확인하고 워크로드를 보호할 수 있습니다.</block>
-  <block id="66e3fc6226503a1545683261aa615c2e" category="inline-link-macro">랜섬웨어 복원력에서 워크로드를 발견하세요</block>
-  <block id="11169713ef219030e085aad80deaef78" category="list-text"><block ref="d9a82549307896e39722c8368294b0f7" category="inline-link-macro-rx"></block> .</block>
-  <block id="8ae38ddd8686d8865973c999b7665ad0" category="inline-link-macro">대시보드에서 보호 및 작업 부하 상태 확인</block>
-  <block id="85799affb57a59ca2d5e76e59434ce35" category="list-text"><block ref="4303e5d19bf38f5d41c5f6787972e5c8" category="inline-link-macro-rx"></block> .</block>
-  <block id="8b4a0dc38e356222731815227b0e1e34" category="list-text">랜섬웨어 보호 권장 사항을 검토하고 조치를 취하세요.</block>
-  <block id="2206c214072c87c16fb7def537e52304" category="list-text"><block ref="2b2daeeb32402291362fa9fa843a5c7e" category="inline-link-macro-rx"></block>:</block>
-  <block id="01d9db102d1bd61a6c3336ec537d1d6b" category="list-text">워크로드에 랜섬웨어 보호 전략을 할당합니다.</block>
-  <block id="557cf3a90ba86c7dcbdd7df658946ddc" category="list-text">향후 랜섬웨어 공격을 방지하기 위해 애플리케이션 보호를 강화하세요.</block>
-  <block id="39eb13fe6281f202063b8531a23fd007" category="list-text">보호 전략을 생성, 변경 또는 삭제합니다.</block>
   <block id="565c83689e020f29cdb2b1a2a0116b1a" category="inline-link-macro">공격으로부터 복구</block>
-  <block id="eb6896c0b72086313bce0e4ad75e5559" category="list-text"><block ref="eb5dab1cbde9ee264030dc77418dde97" category="inline-link-macro-rx"></block>(사건이 중립화된 후).</block>
-  <block id="0a3dc5fda7d701cd5fc9a0ceb57afb3f" category="list-text"><block ref="9f0b279394cf25f00a608a52b5aed0b2" category="inline-link-macro-rx"></block> .</block>
   <block id="bc1b76060f49fe8ad404d389d8431371" category="summary">NetApp Data Classification 통해 데이터에 개인 식별 정보나 비공개 정보가 포함되어 있는지 식별하여 데이터의 보안 및 개인정보 보호 규정 준수를 강화하세요.</block>
   <block id="e00e52239c81eaad00507b4b0b815570" category="doc">랜섬웨어 복원력에서 NetApp Data Classification 사용하여 개인 식별 정보를 스캔하세요</block>
   <block id="604880f6f585767eee17ec85b3c76533" category="inline-link-macro">데이터 분류</block>
@@ -1897,7 +1881,6 @@
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">빠른 시작</block>
   <block id="03a0606ea5e305ef55dd39ee839003fd" category="sidebar">백업 대상을 구성하고 위협 탐지를 활성화합니다.</block>
   <block id="8bbd68b188344ab54d9a5aa4369f8add" category="sidebar">랜섬웨어 복원력 활용</block>
-  <block id="1b8f24b7585f7f77c98a15695ae97523" category="sidebar">랜섬웨어 복원력 개요 사용</block>
   <block id="20efa84cce28541d6712947d04bd7aff" category="sidebar">대시보드를 사용하여 작업 상태 보기</block>
   <block id="166351bd2ed187c21a26c5609ef2768c" category="sidebar">NetApp Data Classification 사용하여 개인 식별 정보를 스캔하세요</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 및 커뮤니티</block>
@@ -2074,4 +2057,6 @@
   <block id="2256fdd13b41cd806db98cd42c5b498c" category="list-text">적절한 액세스 권한이 구성된 백업 대상에 대한 NetApp StorageGRID, AWS S3, Azure Blob 또는 Google Cloud Platform 계정.</block>
   <block id="27bfb5502a8db50d09f593ce1b77b181" category="list-text">ONTAP 클러스터 CLI에 관리자 사용자로 로그인합니다.</block>
   <block id="14e79e90c6d487ebb867aa7b0f88bf25" category="list-text">랜섬웨어 복원력을 사용하려면 NetApp Console 로 돌아가세요.</block>
+  <block id="0d2fa76effcb3dce9fea42e1ccddfc30" category="paragraph">SnapCenter 또는 SnapCenter for VMware를 사용하는 경우 해당 제품에서 지원하는 모든 워크로드도 랜섬웨어 복원력에 명시되어 있습니다. 랜섬웨어 복원력은 작업 부하에 맞춰 일관된 방식으로 이러한 항목을 보호하고 복구할 수 있습니다.</block>
+  <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025년 11월 10일</block>
 </blocks>
