@@ -2059,4 +2059,12 @@
   <block id="14e79e90c6d487ebb867aa7b0f88bf25" category="list-text">랜섬웨어 복원력을 사용하려면 NetApp Console 로 돌아가세요.</block>
   <block id="0d2fa76effcb3dce9fea42e1ccddfc30" category="paragraph">SnapCenter 또는 SnapCenter for VMware를 사용하는 경우 해당 제품에서 지원하는 모든 워크로드도 랜섬웨어 복원력에 명시되어 있습니다. 랜섬웨어 복원력은 작업 부하에 맞춰 일관된 방식으로 이러한 항목을 보호하고 복구할 수 있습니다.</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025년 11월 10일</block>
+  <block id="8fe9bae39f62679bc4b589ccb17384a9" category="paragraph">**클라우드 공급자 지원**</block>
+  <block id="4dbf3bdbb500347a8ca0ffe04b7e1f6c" category="paragraph">의심스러운 사용자 활동은 다음 지역의 AWS 및 Azure에서 제공됩니다.</block>
+  <block id="e29d7c0b36af68edd13ebac84f15b44b" category="cell">클라우드 제공업체</block>
+  <block id="f447ac856e7e72435904956e3b15f433" category="cell">지역</block>
+  <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="cell">AWS</block>
+  <block id="90f74c5c50c42b91275c19e2cccad976" category="cell">미국 동부(us-east-1)</block>
+  <block id="3a580f142203677f1f0bc30898f63f53" category="cell">하늘빛</block>
+  <block id="3c110de67497eb3f8d4c100e43101c81" category="cell">미국 동부</block>
 </blocks>
