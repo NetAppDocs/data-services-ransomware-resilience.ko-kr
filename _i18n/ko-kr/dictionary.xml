@@ -241,18 +241,10 @@
   <block id="5c9ef0d871938dccceb29ee63fad8ddb" category="list-text">구글 클라우드 플랫폼</block>
   <block id="6a51ed7bcacdfb13f78abc1e0f69c201" category="list-text">마이크로소프트 애저 블롭</block>
   <block id="55cf1a0f0fce69fd543500e5761dd26d" category="list-text">NetApp StorageGRID</block>
-  <block id="5f35d0b4a7930f14f1022ee1f942ee64" category="list-text">ONTAP 버전 9.11.1 이상을 사용하는 온프레미스 ONTAP NAS(NFS 및 CIFS 프로토콜 사용)</block>
-  <block id="36471da59b7d9b72aa431fd1f5059d05" category="list-text">ONTAP 버전 9.17.1 이상을 사용하는 온프레미스 ONTAP SAN(FC, iSCSI 및 NVMe 프로토콜 사용)</block>
-  <block id="0479370d1a7f4250832bb43f782a1456" category="list-text">AWS용 Cloud Volumes ONTAP 9.11.1 이상(NFS 및 CIFS 프로토콜 사용)</block>
-  <block id="692821f8e48f34e528c887a1bd9a5a50" category="list-text">Google Cloud Platform용 Cloud Volumes ONTAP 9.11.1 이상(NFS 및 CIFS 프로토콜 사용)</block>
-  <block id="4d32d1cc8c36c71c8d57d570d802694f" category="list-text">Microsoft Azure용 Cloud Volumes ONTAP 9.12.1 이상(NFS 및 CIFS 프로토콜 사용)</block>
-  <block id="35042137939d246a1fd01199cb942d15" category="list-text">AWS, Google Cloud Platform 및 Microsoft Azure(FC, iSCSI 및 NVMe 프로토콜 사용)용 Cloud Volumes ONTAP 9.17.1 이상</block>
-  <block id="54d1e9634870c74de38de33364a86d27" category="list-text">ARP(Autonomous Ransomware Protection)를 사용하는 Amazon FSx for NetApp ONTAP(ARP/AI 아님)</block>
   <block id="2fd51284279972a6a1390536b053f3c3" category="paragraph">랜섬웨어 복원력은 기본 데이터 볼륨에서 다음과 같은 애플리케이션 기반 워크로드를 보호합니다.</block>
   <block id="ffc184891768c331383cd53bcd1bc968" category="list-text">NetApp 파일 공유</block>
   <block id="4f0550f066ae72bb8c24fc3f59c323bf" category="list-text">블록 스토리지</block>
   <block id="ed11408803c4c1aca5fbebbc43d88458" category="list-text">VMware 데이터스토어</block>
-  <block id="3560990ee46f2f17d59094ab9e308c5e" category="list-text">데이터베이스(MySQL 및 Oracle)</block>
   <block id="02f360fe822afa82c0f600943169df7e" category="section-title">랜섬웨어 보호에 도움이 될 수 있는 용어</block>
   <block id="77460e2b891748333455193aadd137d8" category="paragraph">랜섬웨어 보호와 관련된 용어를 이해하는 것이 도움이 될 수 있습니다.</block>
   <block id="826a4e8d8facce6f785b2a404538e6cd" category="list-text">*보호*: 랜섬웨어 복원력의 보호는 보호 정책을 사용하여 정기적으로 스냅샷과 변경 불가능한 백업이 다른 보안 도메인에 발생하도록 보장하는 것을 의미합니다.</block>
@@ -2035,7 +2027,6 @@
   <block id="6d1a51f08d9ca2d81528c19a5e4f2463" category="list-text"><block ref="6d1a51f08d9ca2d81528c19a5e4f2463" category="inline-link-macro-rx"></block></block>
   <block id="4db76a2031d1695a2f0a985a14a43ffa" category="paragraph">의심스러운 사용자 활동 감지를 통해 랜섬웨어 보호 전략을 활성화하면 데이터 수집기가 자동으로 생성됩니다. 자세한 내용은 다음을 참조하세요. <block ref="eadf066433fbca34180c794e1f4838ae" category="inline-xref-macro-rx"></block>.</block>
   <block id="649b83fee66314cb36bc122912f59725" category="inline-link-macro">ONTAP 에서 지원되는 구성과 지원되지 않는 구성</block>
-  <block id="49f82a509cd0abff5327e4c71868f448" category="admonition">ONTAP 에서 ARP/AI를 사용하려면 ONTAP 9.16 이상이 필요합니다.  + ONTAP FlexGroup 볼륨, 마운트 지점 볼륨, 마운트 경로 볼륨, 오프라인 볼륨 및 데이터 보호(DP) 볼륨에 대한 랜섬웨어 보호 지원을 제공하지 않습니다.  검토하세요<block ref="49252e6bcf11c366c792cea95977195b" category="inline-link-macro-rx"></block> .</block>
   <block id="0b115ac5b217f989a1fc7dd422161b82" category="section-title">지원되는 백업 대상</block>
   <block id="933247e0be7796a309cfa4c95bd34938" category="section-title">지원되는 시스템</block>
   <block id="d7962ffe79df3d1aba19878fd6d019e4" category="section-title">지원되는 워크로드 데이터 소스</block>
@@ -2048,7 +2039,6 @@
   <block id="4c2c00472698b27eb7facf4ba3c6971f" category="paragraph">NetApp Console 구성에는 다음이 필요합니다.</block>
   <block id="fda98bab7cfe51ed764422ff7c4cc4dc" category="inline-link-macro">지원되는 시스템</block>
   <block id="24a33b7b8d81b241dc8d72ce84d02061" category="list-text">최소한 하나의 활성 콘솔 에이전트가 연결된 콘솔 조직 및 시스템<block ref="33fcda4d13136e9638e8e0eecc30f508" category="inline-link-macro-rx"></block> .</block>
-  <block id="0d2165e32151ff379bcc5699011bbdbe" category="list-text">AWS 또는 Azure 클라우드의 온프레미스 ONTAP 클러스터 또는 Cloud Volumes ONTAP 콘솔에 설정되지 않은 경우 다음을 참조하세요.<block ref="8a718d7913e8764fcbd48fb78a901ed8" category="inline-link-macro-rx"></block> 그리고<block ref="b04507b2bbabc17c071b912167d3ff4f" category="inline-link-macro-rx"></block> .</block>
   <block id="def72830b58fb69b381492858d3b3665" category="admonition">SAN 워크로드에서 랜섬웨어 복원력을 사용하려면 ONTAP 9.17.1 이상을 실행해야 합니다.</block>
   <block id="1b6bc3125f482fcbcf029c833aea1290" category="section-title">ONTAP 요구 사항</block>
   <block id="69e575df737b34413e9ac5e132f6db01" category="list-text">온프레미스 ONTAP 인스턴스에서 ONTAP One 라이선스가 활성화된 ONTAP 9.11.1 이상을 실행해야 합니다.  ONTAP 지원에 대한 자세한 내용은 다음을 참조하세요.<block ref="a17b9b304c2ac7f4ba576e11b099c691" category="inline-link-macro-rx"></block> .</block>
@@ -2060,11 +2050,34 @@
   <block id="0d2fa76effcb3dce9fea42e1ccddfc30" category="paragraph">SnapCenter 또는 SnapCenter for VMware를 사용하는 경우 해당 제품에서 지원하는 모든 워크로드도 랜섬웨어 복원력에 명시되어 있습니다. 랜섬웨어 복원력은 작업 부하에 맞춰 일관된 방식으로 이러한 항목을 보호하고 복구할 수 있습니다.</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025년 11월 10일</block>
   <block id="8fe9bae39f62679bc4b589ccb17384a9" category="paragraph">**클라우드 공급자 지원**</block>
-  <block id="4dbf3bdbb500347a8ca0ffe04b7e1f6c" category="paragraph">의심스러운 사용자 활동은 다음 지역의 AWS 및 Azure에서 제공됩니다.</block>
   <block id="e29d7c0b36af68edd13ebac84f15b44b" category="cell">클라우드 제공업체</block>
   <block id="f447ac856e7e72435904956e3b15f433" category="cell">지역</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="cell">AWS</block>
   <block id="90f74c5c50c42b91275c19e2cccad976" category="cell">미국 동부(us-east-1)</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="cell">하늘빛</block>
   <block id="3c110de67497eb3f8d4c100e43101c81" category="cell">미국 동부</block>
+  <block id="0ba29c6a1afacf586b03a26162c72274" category="cell">환경</block>
+  <block id="888a77f5ac0748b6c8001822417df8b6" category="cell">규약</block>
+  <block id="b881921e058834170584afe9213c4c73" category="cell">Amazon FSx for NetApp ONTAP*</block>
+  <block id="c2b4bf8a420967336b99691646ef85e6" category="cell">NFS, CIFS 및 SAN</block>
+  <block id="382b0f5185773fa0f67a8ed8056c7759" category="cell">해당 없음</block>
+  <block id="096f3522cfa2f31de45d052b740adc65" category="cell">AWS용 Cloud Volumes ONTAP</block>
+  <block id="05bcab512eefa1e7e2cc2d1e45970a7d" category="cell">CIFS 및 NFS</block>
+  <block id="1f03f70fe9097fcc16686889bafaf634" category="cell">9.11.1 이상</block>
+  <block id="d32574662083c44bd1c1e27441a5f5f6" category="cell">SAN(FC, iSCSI 및 NVMe)</block>
+  <block id="ce2276d280ca79bc5d0b33e7903a7d49" category="cell">9.17.1 이상</block>
+  <block id="a6810a0b37cbc417c34b4dffc16f07a1" category="cell">Google Cloud Platform용 Cloud Volumes ONTAP</block>
+  <block id="9722c69e4736d9b151d70e30b917a4e1" category="cell">Microsoft Azure용 Cloud Volumes ONTAP</block>
+  <block id="22f284bcf4504118b4d7e9ed2bce2c2e" category="cell">9.12.1 이상</block>
+  <block id="7cfe224d3c8892dba0ae59bcf6d0c053" category="cell">ONTAP (온프레미스)</block>
+  <block id="954e661212d7a62095e6b957259dc36f" category="inline-link-macro">ARP/AI</block>
+  <block id="7271886a703021fd0851304115b49ee2" category="paragraph">{별표} Amazon FSx for NetApp ONTAP ARP/AI가 아닌 ARP(Autonomous Ransomware Protection)를 사용합니다.  차이점에 대한 자세한 내용은 다음을 참조하세요.<block ref="ee25b596f35c0a0b982fc7b7e342f828" category="inline-link-macro-rx"></block> .</block>
+  <block id="c71c95f02c8e85a6e5cddd09ad2a5d8b" category="admonition">ONTAP 에서 ARP/AI를 사용하려면 ONTAP 9.16 이상이 필요합니다. + ONTAP FabricPool FlexCache, FlexGroup 볼륨, 일관성 그룹 마운트 지점 볼륨, 마운트 경로 볼륨, 오프라인 볼륨 및 데이터 보호(DP) 볼륨에 대한 랜섬웨어 보호 지원을 제공하지 않습니다. 검토하세요<block ref="49252e6bcf11c366c792cea95977195b" category="inline-link-macro-rx"></block> .</block>
+  <block id="fd3b4579ab972a1738986581275cfcfa" category="list-text">데이터베이스:</block>
+  <block id="78898e52fcbdc5337204a384f2456d4f" category="list-text">마이크로소프트 SQL 서버</block>
+  <block id="62a004b95946bb97541afa471dcca73a" category="list-text">MySQL</block>
+  <block id="30162ed78b6c10f731411f2fc440c24f" category="list-text">신탁</block>
+  <block id="399bd1ee587245ecac6f39beaa99886f" category="list-text">포스트그레스큐엘</block>
+  <block id="b8bf0879f259dbfb5601d4fdb086df91" category="list-text">AWS 또는 Azure 클라우드의 온프레미스 ONTAP 클러스터 또는 Cloud Volumes ONTAP 콘솔에 설정되지 않은 경우 다음을 참조하세요.<block ref="1c09904f3fbf9f22b68e96599d2dcddc" category="inline-link-macro-rx"></block> 그리고<block ref="b04507b2bbabc17c071b912167d3ff4f" category="inline-link-macro-rx"></block> .</block>
+  <block id="acd257a01891523b6ff91a9020b733ba" category="paragraph">의심스러운 사용자 활동 데이터는 다음 지역의 AWS 및 Azure에 저장될 수 있습니다.</block>
 </blocks>
