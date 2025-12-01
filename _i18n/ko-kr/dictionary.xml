@@ -1995,7 +1995,6 @@
   <block id="e29d7c0b36af68edd13ebac84f15b44b" category="cell">클라우드 제공업체</block>
   <block id="f447ac856e7e72435904956e3b15f433" category="cell">지역</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="cell">AWS</block>
-  <block id="90f74c5c50c42b91275c19e2cccad976" category="cell">미국 동부(us-east-1)</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="cell">하늘빛</block>
   <block id="3c110de67497eb3f8d4c100e43101c81" category="cell">미국 동부</block>
   <block id="0ba29c6a1afacf586b03a26162c72274" category="cell">환경</block>
@@ -2069,4 +2068,7 @@
   <block id="daf104544b5203a46e1580e1b8583f1f" category="paragraph">NSS 자격 증명을 NetApp Console 계정과 연결하는 것은 콘솔 사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
   <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">이러한 NSS 자격 증명은 특정 콘솔 계정 ID와 연결됩니다. 콘솔 조직에 속한 사용자는 *지원 &gt; NSS 관리*에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
   <block id="7687b0a57d5cb728d9fb892dfc814715" category="paragraph">이러한 작업을 통해 콘솔은 라이선스 다운로드, 소프트웨어 업그레이드 확인, 향후 지원 등록과 같은 작업에 NSS 계정을 사용할 수 있습니다.</block>
+  <block id="24dd233beea6d20446b604bba13115c0" category="list-text">아시아 태평양(시드니)(ap-southeast-2)</block>
+  <block id="5c024c0f8096e0fba857f661afe2dbd0" category="list-text">유럽(프랑크푸르트)(eu-central-1)</block>
+  <block id="d605e764d56b8615ebf6dd5f87998855" category="list-text">미국 동부(버지니아 북부)(us-east-1)</block>
 </blocks>
