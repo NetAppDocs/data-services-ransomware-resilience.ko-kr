@@ -155,7 +155,6 @@
   <block id="dac562783f47866b5833397fa3343ac7" category="summary">랜섬웨어 회복력을 활용하면 사이버 보안에 대한 관련 정보를 확인하고 조직이 사이버 공격에 얼마나 회복력이 있는지 평가할 수 있습니다.  또한 데이터 보안을 강화하기 위한 알림 및 해결 단계 목록도 제공합니다.</block>
   <block id="e1303fde203d17c93a36144831175152" category="doc">NetApp Ransomware Resilience 에 대해 알아보세요</block>
   <block id="841f32df73c3e26168caae171cbe303e" category="paragraph">랜섬웨어 공격은 사용자의 데이터에 대한 접근을 차단할 수 있으며, 공격자는 데이터 공개나 암호 해독을 조건으로 몸값을 요구할 수 있습니다.  IDC에 따르면, 랜섬웨어 피해자가 여러 차례 랜섬웨어 공격을 경험하는 것은 드문 일이 아닙니다.  이러한 공격으로 인해 귀하의 데이터 접근이 하루에서 몇 주까지 중단될 수 있습니다.</block>
-  <block id="97267950d74b2674710974ae13c312d6" category="paragraph">NetApp Ransomware Resilience 랜섬웨어 공격으로부터 데이터를 보호합니다.  랜섬웨어 복원력에서는 온프레미스 NAS 스토리지(NFS 및 CIFS 프로토콜 사용)와 SAN 스토리지(FC, iSCSI 및 NVMe)의 Oracle, MySQL, VM 데이터 저장소 및 파일 공유의 애플리케이션 기반 워크로드에 대한 보호가 제공되며, NetApp Console 에서 Amazon Web Services용 Cloud Volumes ONTAP , Google Cloud용 Cloud Volumes ONTAP , Microsoft Azure용 Cloud Volumes ONTAP 및 Amazon FSx for NetApp ONTAP 도 보호됩니다.  Amazon Web Services, Google Cloud, Microsoft Azure 클라우드 스토리지, NetApp StorageGRID 에 데이터를 백업할 수 있습니다.</block>
   <block id="428f33a53aa54741f72e5f45b6c621c0" category="section-title">데이터 계층의 랜섬웨어 복원력</block>
   <block id="1b5ac7659c93361ff5fa00f9dc0878ff" category="paragraph">귀사의 보안 태세는 일반적으로 다양한 사이버 위협으로부터 보호하기 위해 여러 계층의 방어 체계를 포함합니다.</block>
   <block id="e1e21525512158b10d87c17fe3eb8be1" category="list-text">*가장 바깥쪽 계층*: 방화벽, 침입 탐지 시스템, 가상 사설망을 사용하여 네트워크 경계를 보호하는 첫 번째 방어선입니다.</block>
@@ -167,7 +166,6 @@
   <block id="58cc8c9025afc05f9ee4dee0439c8c7d" category="paragraph"><block ref="58cc8c9025afc05f9ee4dee0439c8c7d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ecdfa974bc0672b6ee5f8d21d623c77b" category="section-title">랜섬웨어 복원력으로 할 수 있는 일</block>
   <block id="08c9bb2f955e4452b60d6285d467218b" category="paragraph">랜섬웨어 복원력은 여러 NetApp 기술을 최대한 활용하여 스토리지 관리자, 데이터 보안 관리자 또는 보안 운영 엔지니어가 다음과 같은 목표를 달성할 수 있도록 지원합니다.</block>
-  <block id="d6676d586bb37c4e1a068fd2d536cfb8" category="list-text">NetApp Console , 프로젝트 및 콘솔 에이전트 전반의 NetApp 온프레미스 NAS(NFS 또는 CIFS) 및 SAN(FC, iSCSI 및 NVMe) 시스템에서 모든 애플리케이션 기반, 파일 공유 또는 VMware 관리 워크로드를 *식별*합니다.  랜섬웨어 복원력은 데이터 우선순위를 분류하고 랜섬웨어 복원력 개선을 위한 권장 사항을 제공합니다.</block>
   <block id="ab76e9ddf0b5cc0436537248ef996b33" category="list-text">데이터에 대한 백업, 스냅샷 복사 및 랜섬웨어 보호 전략을 활성화하여 워크로드를 *보호*하세요.</block>
   <block id="2260f3efb7f7ff8d7a4a295911d64e87" category="list-text">랜섬웨어 공격일 수 있는 이상 징후를 *감지*합니다.각주:[공격이 감지되지 않을 수도 있지만, 저희 조사에 따르면 NetApp 기술은 특정 파일 암호화 기반 랜섬웨어 공격에 대해 높은 수준의 감지율을 보였습니다.]</block>
   <block id="61a5394873cb968131d6938cc55d2316" category="list-text">실수로 또는 악의적으로 복사본을 삭제할 수 없도록 잠긴 변조 방지 NetApp ONTAP 스냅샷을 자동으로 시작하여 잠재적인 랜섬웨어 공격에 *대응*합니다.  백업 데이터는 변경 불가능하게 유지되며 소스와 대상지에서 랜섬웨어 공격으로부터 종단 간 보호됩니다.</block>
@@ -181,7 +179,6 @@
   <block id="5992e4770276798f5e7d7d1fe4bc1863" category="list-text">랜섬웨어 보호 태세를 평가하고 이해하기 쉬운 대시보드에 표시합니다.</block>
   <block id="65e19dc168989aed91c1cb48e39f45de" category="list-text">발견 및 보호 태세 분석을 기반으로 다음 단계에 대한 권장 사항을 제공합니다.</block>
   <block id="26f7eb76c3f0032daa502e8f74affdf8" category="list-text">한 번의 클릭으로 AI/ML 기반 데이터 보호 권장 사항을 적용합니다.</block>
-  <block id="36b4276d015bcc4d4f2b814e00d505a3" category="list-text">MySQL, Oracle, VMware 데이터 저장소 및 파일 공유와 같은 주요 애플리케이션 기반 워크로드의 데이터를 보호합니다.</block>
   <block id="c530e1fdcf59b6298208943bc8050282" category="list-text">AI 기술을 사용하여 기본 스토리지의 데이터에 대한 랜섬웨어 공격을 실시간으로 감지합니다.</block>
   <block id="8343e8aa9aee8047de78869e0826e3b6" category="list-text">감지된 잠재적 공격에 대응하여 스냅샷 복사본을 생성하고 비정상적인 활동에 대한 알림을 시작함으로써 자동화된 작업을 시작합니다.</block>
   <block id="4a72582f981b12d4f27dceb8b0d7dbb9" category="list-text">RPO 정책을 충족하기 위해 큐레이션된 복구를 적용합니다.  랜섬웨어 복원력은 NetApp Backup and Recovery (이전의 Cloud Backup) 및 SnapCenter 포함한 여러 NetApp 복구 서비스를 사용하여 랜섬웨어 사고로부터 복구를 조율합니다.</block>
@@ -248,7 +245,6 @@
   <block id="02f360fe822afa82c0f600943169df7e" category="section-title">랜섬웨어 보호에 도움이 될 수 있는 용어</block>
   <block id="77460e2b891748333455193aadd137d8" category="paragraph">랜섬웨어 보호와 관련된 용어를 이해하는 것이 도움이 될 수 있습니다.</block>
   <block id="826a4e8d8facce6f785b2a404538e6cd" category="list-text">*보호*: 랜섬웨어 복원력의 보호는 보호 정책을 사용하여 정기적으로 스냅샷과 변경 불가능한 백업이 다른 보안 도메인에 발생하도록 보장하는 것을 의미합니다.</block>
-  <block id="42ef644e3571d83d6c2b5b7c17abfea0" category="list-text">*작업 부하*: 랜섬웨어 복원력의 작업 부하에는 MySQL이나 Oracle 데이터베이스, VMware 데이터 저장소 또는 파일 공유가 포함될 수 있습니다.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지 사항</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지사항은 저작권 표시, 상표, 특허 등에 대한 정보를 제공합니다.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
@@ -348,7 +344,6 @@
   <block id="ef54d92c7cc927ca7eb5e489c30b0e9b" category="summary">발견 과정에서 Ransomware Resilience는 모든 콘솔 에이전트와 계정의 시스템에 있는 모든 볼륨과 파일을 분석합니다.</block>
   <block id="e9be3c13b1ed73a120f1b23e2cefb058" category="doc">NetApp Ransomware Resilience 에서 워크로드를 발견하세요</block>
   <block id="d8200bbebd878a82fc2bda0a2246f0ed" category="paragraph">NetApp Ransomware Resilience 사용하려면 먼저 데이터를 검색해야 합니다.  발견 과정에서 Ransomware Resilience는 조직 내 모든 콘솔 에이전트와 프로젝트에 있는 시스템의 모든 볼륨과 파일을 분석합니다.</block>
-  <block id="bb7ce6422877610df4ac93062321838b" category="paragraph">*랜섬웨어 복원력은 무엇을 발견하나요?*  랜섬웨어 복원력은 MySQL 애플리케이션, Oracle 애플리케이션, VMware 데이터 저장소, 파일 공유 및 블록 스토리지를 평가합니다.</block>
   <block id="e4838671e2eb3743491ad0a9715b9adc" category="admonition">랜섬웨어 복원력은 FlexGroup 사용하는 볼륨의 워크로드를 검색하지 않습니다.</block>
   <block id="153ab5406a008784e1089c885b56c101" category="paragraph">랜섬웨어 복원력은 대시보드에서 지원되는 시스템 구성과 지원되지 않는 시스템 구성을 모두 검색하여 표시합니다.</block>
   <block id="a0b703942dbd0a9a1789ecae6d6334fa" category="paragraph">랜섬웨어 복원력은 현재 백업 보호, 스냅샷 사본 및 NetApp Autonomous Ransomware Protection 옵션을 확인합니다.  그런 다음 랜섬웨어 보호를 개선하는 방법을 추천합니다.</block>
@@ -404,7 +399,6 @@
   <block id="35084d885dea7b061e6894c1cf3036d9" category="section-title">작업 부하</block>
   <block id="1f60c8769abcb4f9589fae4ad1831a19" category="inline-link-macro">작업 우선순위 또는 중요도에 대해 알아보세요</block>
   <block id="581ad716354744440ad65ff13c86ca1e" category="paragraph"><block ref="1ba24f606c1b9584a2674b4003d5830a" category="inline-link-macro-rx"></block> .</block>
-  <block id="5129a73689c2f34916e88aab7ca20a5a" category="paragraph">랜섬웨어 복원력은 다음과 같은 작업 부하를 식별할 수 있습니다: Oracle, MySQL, 파일 공유, 블록 스토리지, VM 및 VM 데이터 저장소.</block>
   <block id="5d1184f76781faaf229c6b885314bcd3" category="section-title">보호 정책</block>
   <block id="41e8b20d4f70cd7ff369ff2c808730ee" category="paragraph">스냅샷 사본은 제한이 없으며 각 서비스에서 별도로 추가할 수 있습니다.</block>
   <block id="43963265d27ac7360fe50e98bde4f748" category="list-text">랜섬웨어 탐지 정책</block>
@@ -973,7 +967,6 @@
   <block id="7d94fa5c52f4b044d2cd78e42e11247c" category="paragraph">랜섬웨어 회복력 외에도 다음 서비스를 사용하여 보호 기능을 관리할 수 있습니다.</block>
   <block id="58c4a0b8427aedffed15f507a82a122c" category="list-text">파일 공유, VM 파일 공유를 위한 NetApp Backup and Recovery</block>
   <block id="e10a2e4ef1f3cc661e89aa47c1655787" category="list-text">VM 데이터 저장소를 위한 VMware용 SnapCenter</block>
-  <block id="4a7e813ec2cbdfc4d32fb9d8fe51caf8" category="list-text">Oracle 및 MySQL용 SnapCenter</block>
   <block id="9f467d31ef54c60530e9d07d18e7df6d" category="paragraph">이러한 서비스의 보호 정보는 랜섬웨어 복원력에 나타납니다.  랜섬웨어 복원력을 사용하면 이러한 서비스에 탐지 정책을 추가할 수 있습니다.  랜섬웨어 복원력을 갖춘 보호 정책을 추가하면 기존 보호 정책이 대체됩니다.</block>
   <block id="f37d79a56cb20cdcf206acc1cfa8be14" category="paragraph">랜섬웨어 탐지 정책이 ONTAP 버전에 따라 ARP 또는 ARP/AI(Autonomous Ransomware Protection)와 ONTAP 의 FPolicy에 의해 관리되는 경우 해당 작업 부하가 보호되고 ARP와 FPolicy에 의해 계속 관리됩니다.</block>
   <block id="7c07f079f6b4547ea768c45b8e8c9c54" category="admonition">Amazon FSx for NetApp ONTAP 의 워크로드에는 백업 대상을 사용할 수 없습니다.  FSx for ONTAP 백업 서비스를 사용하여 백업 작업을 수행합니다.  AWS의 FSx for ONTAP 에서 워크로드에 대한 백업 정책을 설정하는 반면, Ransomware Resilience에서는 그렇지 않습니다.  백업 정책은 Ransomware Resilience에 나타나며 AWS와 동일하게 유지됩니다.</block>
@@ -1799,7 +1792,6 @@
   <block id="77d6960ddc4ee40e26fd963e6e1f6e68" category="paragraph">복구 프로세스가 향상되었습니다. 이제 워크로드에 대해 볼륨별로 또는 모든 볼륨을 복구할 수 있습니다.<block ref="2db5667b5f183f51656a41f32740d8f2" category="inline-link-rx"></block> .</block>
   <block id="69483d973a063c873a5a66f6edcc241c" category="section-title">2023년 10월 6일</block>
   <block id="ae98c30c78f5642e201d040b9e0b468c" category="paragraph">BlueXP ransomware protection 서비스는 데이터를 보호하고, 잠재적인 공격을 탐지하고, 랜섬웨어 공격으로부터 데이터를 복구하는 SaaS 솔루션입니다.</block>
-  <block id="978aa39e867fbe7badda46cb2834d11f" category="paragraph">미리보기 버전의 경우, 이 서비스는 BlueXP 조직 전체에서 온프레미스 NAS 스토리지의 Oracle, MySQL, VM 데이터 저장소 및 파일 공유의 애플리케이션 기반 워크로드와 AWS의 Cloud Volumes ONTAP (NFS 프로토콜 사용)을 개별적으로 보호하고 Amazon Web Services 클라우드 스토리지에 데이터를 백업합니다.</block>
   <block id="75b67029f102f7aa5f52d85fbaeb59b1" category="paragraph">BlueXP ransomware protection 서비스는 여러 NetApp 기술을 최대한 활용하여 데이터 보안 관리자나 보안 운영 엔지니어가 다음과 같은 목표를 달성할 수 있도록 지원합니다.</block>
   <block id="c97c8c1adb5529a50db916535c46fa2b" category="list-text">모든 작업 부하에 대한 랜섬웨어 보호 기능을 한눈에 확인하세요.</block>
   <block id="b6f8dc0dd7c16df94c4c9e61ea4c4dcf" category="list-text">랜섬웨어 보호 권장 사항에 대한 통찰력을 얻으세요</block>
@@ -1872,7 +1864,6 @@
   <block id="81eb2602258c7f155c33ae884e447609" category="list-text"><block ref="81eb2602258c7f155c33ae884e447609" category="inline-link-macro-rx"></block></block>
   <block id="660ecf2355e5ff3c5a22d2e4a48594e8" category="inline-link-macro">경고, 보호, 준비 훈련, 복구 또는 요약 보고서 다운로드</block>
   <block id="52210acbff73a572a2ca89fb77371615" category="paragraph">NetApp Ransomware Resilience 내에서 NetApp Data Classification 사용하여 파일 공유 워크로드의 데이터를 스캔하고 분류할 수 있습니다. 데이터를 분류하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 확인하는 데 도움이 되며, PII가 포함되어 있으면 보안 위험이 커질 수 있습니다. 데이터 분류는 NetApp Console 의 핵심 구성 요소이며 추가 비용 없이 사용할 수 있습니다.</block>
-  <block id="4342c3c480135ea7c9398a3ba08357ec" category="sidebar">NetApp Ransomware Resilience 온프레미스 및 클라우드 스토리지에서 랜섬웨어 위협으로부터 애플리케이션 워크로드와 파일 공유를 보호, 탐지하고 복구를 지원합니다. 랜섬웨어 복원력은 안전한 백업과 복구를 지원하여 조직이 Oracle, MySQL, VM 데이터 저장소, NAS 스토리지 등에 대한 중요 데이터를 보호하고 비즈니스 연속성을 유지하는 데 도움이 됩니다.</block>
   <block id="7b36da612c0e3a400f4daecc8016f21e" category="summary">시스템과 작업 부하를 보호하려면 랜섬웨어 복원력에 대한 라이선스 요구 사항을 충족하는지 확인하세요.</block>
   <block id="5ef05167488611c5bd4ff0f410595ce4" category="list-text">30일 무료 체험</block>
   <block id="e71ba6c3178fa6f6844891e615ad0570" category="list-text">Amazon Web Services(AWS) Marketplace, Google Cloud Marketplace 또는 Azure Marketplace에서 PAYGO(Pay-as-you-go) 구독을 구매하세요.</block>
@@ -2015,7 +2006,6 @@
   <block id="c71c95f02c8e85a6e5cddd09ad2a5d8b" category="admonition">ONTAP 에서 ARP/AI를 사용하려면 ONTAP 9.16 이상이 필요합니다. + ONTAP FabricPool FlexCache, FlexGroup 볼륨, 일관성 그룹 마운트 지점 볼륨, 마운트 경로 볼륨, 오프라인 볼륨 및 데이터 보호(DP) 볼륨에 대한 랜섬웨어 보호 지원을 제공하지 않습니다. 검토하세요<block ref="49252e6bcf11c366c792cea95977195b" category="inline-link-macro-rx"></block> .</block>
   <block id="fd3b4579ab972a1738986581275cfcfa" category="list-text">데이터베이스:</block>
   <block id="78898e52fcbdc5337204a384f2456d4f" category="list-text">마이크로소프트 SQL 서버</block>
-  <block id="62a004b95946bb97541afa471dcca73a" category="list-text">MySQL</block>
   <block id="30162ed78b6c10f731411f2fc440c24f" category="list-text">신탁</block>
   <block id="399bd1ee587245ecac6f39beaa99886f" category="list-text">포스트그레스큐엘</block>
   <block id="b8bf0879f259dbfb5601d4fdb086df91" category="list-text">AWS 또는 Azure 클라우드의 온프레미스 ONTAP 클러스터 또는 Cloud Volumes ONTAP 콘솔에 설정되지 않은 경우 다음을 참조하세요.<block ref="1c09904f3fbf9f22b68e96599d2dcddc" category="inline-link-macro-rx"></block> 그리고<block ref="b04507b2bbabc17c071b912167d3ff4f" category="inline-link-macro-rx"></block> .</block>
@@ -2072,4 +2062,13 @@
   <block id="d605e764d56b8615ebf6dd5f87998855" category="list-text">미국 동부(버지니아 북부)(us-east-1)</block>
   <block id="a55a22032fc9fd630abe933324e9d4b9" category="paragraph-title">Ransomware Resilience는 ONTAP 의 보호 설정을 인식합니까?</block>
   <block id="1c8f51534c2fc10dfef26d32d61c7ed3" category="paragraph">라이선스 및 청구의 경우, Ransomware Resilience는 백업 및 복구에 대한 별도 라이선스가 없더라도 백업 및 복구와 통합될 수 있습니다. 백업 및 복구와 랜섬웨어 복원력을 모두 사용하는 경우, 두 제품으로 보호되는 공통 데이터는 랜섬웨어 복원력에 의해서만 청구됩니다.</block>
+  <block id="5edfe1685c808d7a5514b518857b2cfe" category="paragraph">NetApp Ransomware Resilience 랜섬웨어 공격으로부터 데이터를 보호합니다. 랜섬웨어 복원력에서는 온프레미스 NAS 스토리지(NFS 및 CIFS 프로토콜 사용)와 SAN 스토리지(FC, iSCSI 및 NVMe)의 Oracle, VM 데이터 저장소 및 파일 공유의 애플리케이션 기반 워크로드에 대한 보호가 제공되며, NetApp 콘솔에서 Amazon Web Services용 Cloud Volumes ONTAP , Google Cloud용 Cloud Volumes ONTAP , Microsoft Azure용 Cloud Volumes ONTAP 및 Amazon FSx for NetApp ONTAP NetApp Console 보호됩니다. Amazon Web Services, Google Cloud, Microsoft Azure 클라우드 스토리지, NetApp StorageGRID 에 데이터를 백업할 수 있습니다.</block>
+  <block id="0cadfa5b82d6d1eba924c112db6ab9fc" category="list-text">NetApp Console , 프로젝트 및 콘솔 에이전트 전반의 NetApp 온프레미스 NAS(NFS 또는 CIFS) 및 SAN(FC, iSCSI 및 NVMe) 시스템에서 모든 애플리케이션 기반, 파일 공유 또는 VMware 관리 워크로드를 *식별*합니다. 랜섬웨어 복원력은 데이터 우선순위를 분류하고 랜섬웨어 복원력 개선을 위한 권장 사항을 제공합니다.</block>
+  <block id="182b9ed848b82506c10ba162f10e3f5b" category="list-text">Oracle, VMware 데이터 저장소, 파일 공유와 같은 애플리케이션 기반 워크로드의 데이터를 보호합니다.</block>
+  <block id="aa07eabc400eb4ccb13f116e99da0b48" category="list-text">*작업 부하*: 랜섬웨어 복원력의 작업 부하에는 Oracle 데이터베이스, VMware 데이터 저장소 또는 파일 공유가 포함될 수 있습니다.</block>
+  <block id="d13f99c12403fe14a2acc4fe8db5ebad" category="paragraph">*랜섬웨어 복원력은 무엇을 발견하나요?* 랜섬웨어 복원력은 Oracle 애플리케이션, VMware 데이터 저장소, 파일 공유 및 블록 스토리지를 평가합니다.</block>
+  <block id="6b62768f3f94df043ea31bf9c43b2a42" category="paragraph">랜섬웨어 복원력은 다음과 같은 작업 부하를 식별할 수 있습니다: Oracle, 파일 공유, 블록 스토리지, VM 및 VM 데이터 저장소.</block>
+  <block id="f6967390d49d08c53cc88d3cdf42eb92" category="list-text">Oracle용 SnapCenter</block>
+  <block id="897c29783a147c6c7b7844f2d4a9e81a" category="paragraph">미리보기 버전의 경우, 이 서비스는 BlueXP 조직 전체에서 온프레미스 NAS 스토리지의 Oracle, VM 데이터 저장소 및 파일 공유의 애플리케이션 기반 워크로드와 AWS의 Cloud Volumes ONTAP (NFS 프로토콜 사용)을 개별적으로 보호하고 Amazon Web Services 클라우드 스토리지에 데이터를 백업합니다.</block>
+  <block id="2d2972fc6d16379955701a1cc8c6633f" category="sidebar">NetApp Ransomware Resilience 온프레미스 및 클라우드 스토리지에서 랜섬웨어 위협으로부터 애플리케이션 워크로드와 파일 공유를 보호, 탐지하고 복구를 지원합니다. 랜섬웨어 복원력은 안전한 백업과 복구를 지원하여 조직이 중요한 데이터를 보호하고 Oracle, VM 데이터 저장소, NAS 스토리지 등의 비즈니스 연속성을 유지하는 데 도움이 됩니다.</block>
 </blocks>

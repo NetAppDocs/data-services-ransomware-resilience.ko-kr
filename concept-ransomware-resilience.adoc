@@ -16,7 +16,7 @@ summary: 랜섬웨어 회복력을 활용하면 사이버 보안에 대한 관�
 [role="lead"]
 랜섬웨어 공격은 사용자의 데이터에 대한 접근을 차단할 수 있으며, 공격자는 데이터 공개나 암호 해독을 조건으로 몸값을 요구할 수 있습니다.  IDC에 따르면, 랜섬웨어 피해자가 여러 차례 랜섬웨어 공격을 경험하는 것은 드문 일이 아닙니다.  이러한 공격으로 인해 귀하의 데이터 접근이 하루에서 몇 주까지 중단될 수 있습니다.
 
-NetApp Ransomware Resilience 랜섬웨어 공격으로부터 데이터를 보호합니다.  랜섬웨어 복원력에서는 온프레미스 NAS 스토리지(NFS 및 CIFS 프로토콜 사용)와 SAN 스토리지(FC, iSCSI 및 NVMe)의 Oracle, MySQL, VM 데이터 저장소 및 파일 공유의 애플리케이션 기반 워크로드에 대한 보호가 제공되며, NetApp Console 에서 Amazon Web Services용 Cloud Volumes ONTAP , Google Cloud용 Cloud Volumes ONTAP , Microsoft Azure용 Cloud Volumes ONTAP 및 Amazon FSx for NetApp ONTAP 도 보호됩니다.  Amazon Web Services, Google Cloud, Microsoft Azure 클라우드 스토리지, NetApp StorageGRID 에 데이터를 백업할 수 있습니다.
+NetApp Ransomware Resilience 랜섬웨어 공격으로부터 데이터를 보호합니다. 랜섬웨어 복원력에서는 온프레미스 NAS 스토리지(NFS 및 CIFS 프로토콜 사용)와 SAN 스토리지(FC, iSCSI 및 NVMe)의 Oracle, VM 데이터 저장소 및 파일 공유의 애플리케이션 기반 워크로드에 대한 보호가 제공되며, NetApp 콘솔에서 Amazon Web Services용 Cloud Volumes ONTAP , Google Cloud용 Cloud Volumes ONTAP , Microsoft Azure용 Cloud Volumes ONTAP 및 Amazon FSx for NetApp ONTAP NetApp Console 보호됩니다. Amazon Web Services, Google Cloud, Microsoft Azure 클라우드 스토리지, NetApp StorageGRID 에 데이터를 백업할 수 있습니다.
 
 
 
@@ -39,7 +39,7 @@ image:concept-security-layer-diagram.png["보안 계층 다이어그램"]
 
 랜섬웨어 복원력은 여러 NetApp 기술을 최대한 활용하여 스토리지 관리자, 데이터 보안 관리자 또는 보안 운영 엔지니어가 다음과 같은 목표를 달성할 수 있도록 지원합니다.
 
-* NetApp Console , 프로젝트 및 콘솔 에이전트 전반의 NetApp 온프레미스 NAS(NFS 또는 CIFS) 및 SAN(FC, iSCSI 및 NVMe) 시스템에서 모든 애플리케이션 기반, 파일 공유 또는 VMware 관리 워크로드를 *식별*합니다.  랜섬웨어 복원력은 데이터 우선순위를 분류하고 랜섬웨어 복원력 개선을 위한 권장 사항을 제공합니다.
+* NetApp Console , 프로젝트 및 콘솔 에이전트 전반의 NetApp 온프레미스 NAS(NFS 또는 CIFS) 및 SAN(FC, iSCSI 및 NVMe) 시스템에서 모든 애플리케이션 기반, 파일 공유 또는 VMware 관리 워크로드를 *식별*합니다. 랜섬웨어 복원력은 데이터 우선순위를 분류하고 랜섬웨어 복원력 개선을 위한 권장 사항을 제공합니다.
 * 데이터에 대한 백업, 스냅샷 복사 및 랜섬웨어 보호 전략을 활성화하여 워크로드를 *보호*하세요.
 * 랜섬웨어 공격일 수 있는 이상 징후를 *감지*합니다.각주:[공격이 감지되지 않을 수도 있지만, 저희 조사에 따르면 NetApp 기술은 특정 파일 암호화 기반 랜섬웨어 공격에 대해 높은 수준의 감지율을 보였습니다.]
 * 실수로 또는 악의적으로 복사본을 삭제할 수 없도록 잠긴 변조 방지 NetApp ONTAP 스냅샷을 자동으로 시작하여 잠재적인 랜섬웨어 공격에 *대응*합니다.  백업 데이터는 변경 불가능하게 유지되며 소스와 대상지에서 랜섬웨어 공격으로부터 종단 간 보호됩니다.
@@ -59,7 +59,7 @@ image:diagram-rp-features-phases3.png["랜섬웨어를 식별, 보호, 탐지, �
 * 랜섬웨어 보호 태세를 평가하고 이해하기 쉬운 대시보드에 표시합니다.
 * 발견 및 보호 태세 분석을 기반으로 다음 단계에 대한 권장 사항을 제공합니다.
 * 한 번의 클릭으로 AI/ML 기반 데이터 보호 권장 사항을 적용합니다.
-* MySQL, Oracle, VMware 데이터 저장소 및 파일 공유와 같은 주요 애플리케이션 기반 워크로드의 데이터를 보호합니다.
+* Oracle, VMware 데이터 저장소, 파일 공유와 같은 애플리케이션 기반 워크로드의 데이터를 보호합니다.
 * AI 기술을 사용하여 기본 스토리지의 데이터에 대한 랜섬웨어 공격을 실시간으로 감지합니다.
 * 감지된 잠재적 공격에 대응하여 스냅샷 복사본을 생성하고 비정상적인 활동에 대한 알림을 시작함으로써 자동화된 작업을 시작합니다.
 * RPO 정책을 충족하기 위해 큐레이션된 복구를 적용합니다.  랜섬웨어 복원력은 NetApp Backup and Recovery (이전의 Cloud Backup) 및 SnapCenter 포함한 여러 NetApp 복구 서비스를 사용하여 랜섬웨어 사고로부터 복구를 조율합니다.
@@ -228,7 +228,6 @@ NOTE: ONTAP 에서 ARP/AI를 사용하려면 ONTAP 9.16 이상이 필요합니�
 * 데이터베이스:
 +
 ** 마이크로소프트 SQL 서버
-** MySQL
 ** 신탁
 ** 포스트그레스큐엘
 
@@ -246,5 +245,5 @@ SnapCenter 또는 SnapCenter for VMware를 사용하는 경우 해당 제품에�
 랜섬웨어 보호와 관련된 용어를 이해하는 것이 도움이 될 수 있습니다.
 
 * *보호*: 랜섬웨어 복원력의 보호는 보호 정책을 사용하여 정기적으로 스냅샷과 변경 불가능한 백업이 다른 보안 도메인에 발생하도록 보장하는 것을 의미합니다.
-* *작업 부하*: 랜섬웨어 복원력의 작업 부하에는 MySQL이나 Oracle 데이터베이스, VMware 데이터 저장소 또는 파일 공유가 포함될 수 있습니다.
+* *작업 부하*: 랜섬웨어 복원력의 작업 부하에는 Oracle 데이터베이스, VMware 데이터 저장소 또는 파일 공유가 포함될 수 있습니다.
 
