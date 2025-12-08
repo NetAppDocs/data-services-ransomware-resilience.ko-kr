@@ -2073,6 +2073,11 @@
   <block id="dce365633ffb688b7532470dfaf4e118" category="cell">*규약*</block>
   <block id="91fa08a58f816e98d83df1ce310eb825" category="cell">프로토콜 필드는 선택 사항입니다. LDAP, LDAPS 또는 StartTLS를 통한 LDAP를 사용할 수 있습니다.</block>
   <block id="f9115354bfb0b47a80e11c68936a7ec8" category="cell">선택한 포트 번호를 입력하세요</block>
-  <block id="ffcb2d1f993f068c61d2776ab07c354f" category="paragraph">속성 매핑 세부 정보를 제공합니다. * *표시 이름* * *SID* (LDAP를 사용하는 경우) * *사용자 이름* * *Unix ID* (NFS를 사용하는 경우) * *선택적 속성 포함*을 선택하면 이메일 주소, 전화번호, 역할, 주, 국가, 부서, 사진, 관리자 DN 또는 그룹을 추가할 수도 있습니다.</block>
-  <block id="8cab6e56434342fb39a14e12391a5d3e" category="paragraph">+ *고급*을 선택하여 선택적 검색어를 추가합니다.</block>
+  <block id="86c3d5aee71dba0d2e67a122a900b46d" category="paragraph">속성 매핑 세부 정보를 제공하세요.</block>
+  <block id="67abd0bd8cf8f6b948416d41be7c6f6a" category="list-text">*표시 이름*</block>
+  <block id="aff175f709dc693d1f9ca4c44728163a" category="list-text">*SID* (LDAP를 사용하는 경우)</block>
+  <block id="3b57547caa3754998fa617bd92514f25" category="list-text">*사용자 이름*</block>
+  <block id="c8a0546946d4ed57fd88fc4918d3825f" category="list-text">*Unix ID* (NFS를 사용하는 경우)</block>
+  <block id="1358e8e29329a97048f0688a1813071f" category="list-text">*선택적 속성 포함*을 선택하면 이메일 주소, 전화번호, 역할, 주, 국가, 부서, 사진, 관리자 DN 또는 그룹도 추가할 수 있습니다.</block>
+  <block id="7703674a5321c1f23549682250a732e9" category="paragraph">*고급*을 선택하여 선택적 검색어를 추가하세요.</block>
 </blocks>
