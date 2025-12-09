@@ -123,7 +123,7 @@ image:diagram-rp-architecture-preview3.png["랜섬웨어 복원력 아키텍처�
 | *식별하다*  a| 
 * 콘솔에 연결된 모든 고객 온프레미스 NAS(NFS 및 CIFS 프로토콜), SAN(FC, iSCSI 및 NVMe) 및 Cloud Volumes ONTAP 데이터를 찾습니다.
 * ONTAP 및 SnapCenter 서비스 API에서 고객 데이터를 식별하고 이를 워크로드와 연결합니다.  자세히 알아보세요 https://docs.netapp.com/us-en/ontap-family/["ONTAP"^] 그리고 https://docs.netapp.com/us-en/snapcenter/index.html["SnapCenter 소프트웨어"^] .
-* NetApp 스냅샷 복사본과 백업 정책의 각 볼륨의 현재 보호 수준과 온박스 감지 기능을 검색합니다. 랜섬웨어 복원력은 백업 및 복구, ONTAP 서비스, 자율 랜섬웨어 보호( ONTAP 버전에 따라 ARP 또는 ARP/AI), 정책, 백업 정책, 스냅샷 정책과 같은 NetApp 기술을 사용하여 이러한 보호 태세를 워크로드와 연결합니다. 자세히 알아보세요 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율형 랜섬웨어 보호"^] , https://docs.netapp.com/us-en/data-services-backup-recovery/index.html["NetApp Backup and Recovery"^] , 그리고 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP 정책"^] .
+* NetApp 스냅샷 복사본과 백업 정책의 각 볼륨의 현재 보호 수준과 온박스 감지 기능을 검색합니다. 랜섬웨어 복원력은 백업 및 복구, ONTAP 서비스, 자율 랜섬웨어 보호( ONTAP 버전에 따라 ARP 또는 ARP/AI), FPolicy, 백업 정책, 스냅샷 정책과 같은 NetApp 기술을 사용하여 이러한 보호 태세를 워크로드와 연결합니다.  자세히 알아보세요 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율형 랜섬웨어 보호"^] , https://docs.netapp.com/us-en/data-services-backup-recovery/index.html["NetApp Backup and Recovery"^] , 그리고 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP 정책"^] .
 * 자동으로 검색된 보호 수준을 기반으로 각 워크로드에 비즈니스 우선순위를 할당하고, 비즈니스 우선순위에 따라 워크로드에 대한 보호 정책을 권장합니다.  워크로드 우선순위는 워크로드와 연관된 각 볼륨에 이미 적용된 스냅샷 빈도를 기준으로 합니다.
 
 

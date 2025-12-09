@@ -215,7 +215,6 @@
   <block id="533c17bbfdfb297420db9af0908070d6" category="inline-link">자율형 랜섬웨어 보호</block>
   <block id="cc6088539286339733631d73fb51774b" category="inline-link">NetApp Backup and Recovery</block>
   <block id="2dd00507ca85eec8a3465506e478e45f" category="inline-link">ONTAP 정책</block>
-  <block id="f2abd20c3ee58c54298223da2df91335" category="list-text">NetApp 스냅샷 복사본과 백업 정책의 각 볼륨의 현재 보호 수준과 온박스 감지 기능을 검색합니다. 랜섬웨어 복원력은 백업 및 복구, ONTAP 서비스, 자율 랜섬웨어 보호( ONTAP 버전에 따라 ARP 또는 ARP/AI), 정책, 백업 정책, 스냅샷 정책과 같은 NetApp 기술을 사용하여 이러한 보호 태세를 워크로드와 연결합니다. 자세히 알아보세요<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block> ,<block ref="2b1b7f994c6938347657a18d8edc7db7" category="inline-link-rx"></block> , 그리고<block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block> .</block>
   <block id="d8b67a8dae92158ddb9e71a66b9532b5" category="list-text">자동으로 검색된 보호 수준을 기반으로 각 워크로드에 비즈니스 우선순위를 할당하고, 비즈니스 우선순위에 따라 워크로드에 대한 보호 정책을 권장합니다.  워크로드 우선순위는 워크로드와 연관된 각 볼륨에 이미 적용된 스냅샷 빈도를 기준으로 합니다.</block>
   <block id="f23d5c00c473a2e87ffcd7a0eedb89b5" category="cell">*보호하다*</block>
   <block id="63b3247f9021fefc99163e7f1ccaa624" category="list-text">식별된 각 워크로드에 정책을 적용하여 워크로드를 적극적으로 모니터링하고 백업 및 복구, SnapCenter, ONTAP API 사용을 조율합니다.</block>
@@ -680,8 +679,6 @@
   <block id="179e5ea4317177f519c688d15ef67987" category="paragraph"><block ref="179e5ea4317177f519c688d15ef67987" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e462715e9b155f4f9638da4f314c8aff" category="list-text">*준비 훈련*과 *다운로드*를 선택하여 준비 훈련 보고서를 다운로드하세요.</block>
   <block id="bb44ab86396f7335c45f2c99c022776c" category="summary">랜섬웨어 복원력이 잠재적인 공격을 감지하면 랜섬웨어 복원력 대시보드에 잠재적인 공격을 알리는 알림이 나타납니다. 이 시점에서 랜섬웨어 복원력 알림 탭에서 잠재적 위험을 살펴봐야 합니다.</block>
-  <block id="1238309e873f300d76b90a5b0f3a20bc" category="doc">NetApp Ransomware Resilience 사용하여 감지된 랜섬웨어 알림을 처리하세요</block>
-  <block id="5edf980bc8d23fb98c1f0d60dc6594f8" category="paragraph">NetApp Ransomware Resilience 잠재적인 공격을 감지하면 대시보드와 알림 영역에 경고가 표시됩니다.  랜섬웨어 복원력은 즉시 스냅샷을 찍습니다.  랜섬웨어 복원력 *알림* 탭에서 잠재적 위험을 검토하세요.</block>
   <block id="0cf61fe483b7c3216a42a15a22e0ef97" category="paragraph">랜섬웨어 복원력이 잠재적인 공격을 감지하면 콘솔 알림 설정에 알림이 나타나고 구성된 주소로 이메일이 전송됩니다. 이메일에는 심각도, 영향을 받는 작업 부하, 랜섬웨어 복원력 *알림* 탭의 알림에 대한 링크에 대한 정보가 포함되어 있습니다.</block>
   <block id="4c8cd66676ad1c434108e699d9777408" category="paragraph">거짓 양성 결과를 무시하거나 즉시 데이터를 복구하기로 결정할 수 있습니다.</block>
   <block id="899157335f0c98105a8cbc92966ba06d" category="admonition">알림을 해제하면 랜섬웨어 복원력이 이러한 동작을 학습하고 이를 일반적인 작업과 연관시켜 다시 알림을 발생시키지 않습니다.</block>
@@ -703,10 +700,8 @@
   <block id="64c00e9ea78abe412d8db56dd1df0462" category="paragraph">알림은 다음 상태 중 하나를 가질 수 있습니다.</block>
   <block id="adf79604cd73ac69e1173c85b1070d09" category="list-text">*새로운*</block>
   <block id="001af4b9160bf93cb0c3215a7180e3b7" category="list-text">*비활성*</block>
-  <block id="0ab8632cf6795b381aaa64cb2dc1b45f" category="paragraph">경고 사건은 다음 상태 중 하나를 가질 수 있습니다.</block>
   <block id="be48871d3fcb22d62d5de71b2de11ab9" category="list-text">*새로운*: 모든 사건은 처음 확인되면 "새로운"으로 표시됩니다.</block>
   <block id="d2b7a3286df55d9570e26ad7450dfeb9" category="list-text">*해제됨*: 해당 활동이 랜섬웨어 공격이 아니라고 의심되는 경우 상태를 "해제됨"으로 변경할 수 있습니다.</block>
-  <block id="5295c827fac90b16880fb1c75f51694f" category="admonition">공격을 해제한 후에는 다시 변경할 수 없습니다.  작업 부하를 해제하면 잠재적인 랜섬웨어 공격에 대응하여 자동으로 생성된 모든 스냅샷 사본이 영구적으로 삭제됩니다.</block>
   <block id="abcc01ccddba81d6df2f14e786d4b375" category="list-text">*기각*: 사건이 기각되는 과정에 있습니다.</block>
   <block id="135963592c039774ee41872c4fec1009" category="list-text">*해결됨*: 문제가 해결되었습니다.</block>
   <block id="afd9740574ba951a58c825da5cfeddb3" category="list-text">*자동 해결*: 우선순위가 낮은 알림의 경우, 5일 이내에 아무런 조치가 취해지지 않으면 사고가 자동으로 해결됩니다.</block>
@@ -768,18 +763,12 @@
   <block id="6faff9d182a89c619b1ad36913af4fa5" category="list-text">작업 부하 복구를 시작하려면 메시지에서 *작업 부하 복구*를 선택하거나 *복구* 탭을 선택하세요.</block>
   <block id="dbb2ae89216b8dfda3662d01ab32469f" category="paragraph">알림이 복원으로 표시된 후 알림은 알림 탭에서 복구 탭으로 이동합니다.</block>
   <block id="d3870301348c9947a819b7a9ed0c25df" category="section-title">잠재적 공격이 아닌 사건은 기각합니다.</block>
-  <block id="b0b578b8be1448972010b482195bbda8" category="paragraph">사고를 검토한 후에는 해당 사고가 잠재적인 공격인지 여부를 판단해야 합니다. 실제 위협이 아니라면 무시해도 됩니다.</block>
-  <block id="74583f536ee54b8803ab561a596f2bb9" category="paragraph">거짓 양성 결과를 무시하거나 즉시 데이터를 복구하기로 결정할 수 있습니다.  알림을 해제하면 랜섬웨어 복원력이 이러한 동작을 학습하고 이를 일반적인 작업과 연관시키며 이러한 동작에 대해 다시 알림을 시작하지 않습니다.</block>
   <block id="5a5533258cfacee641d19f7f201b727f" category="paragraph">작업 부하를 해제하면 잠재적인 랜섬웨어 공격에 대응하여 자동으로 생성된 모든 스냅샷 사본이 영구적으로 삭제됩니다.</block>
-  <block id="46b4f01c45e92cd2d2fe7d4406168b5d" category="list-text">하나 이상의 사건을 선택하세요.  또는 표 왼쪽 상단에 있는 사건 ID 상자를 선택하여 모든 사건을 선택하세요.</block>
   <block id="c4229f2836db3c8f0198619d853bad27" category="list-text">사건이 위협이 아니라고 판단되면 이를 거짓 긍정으로 간주하여 기각합니다.</block>
   <block id="a20ff2150b7b9f34f30c94111d0f2672" category="list-text">사건을 선택하세요.</block>
   <block id="4c8220d9b08f6a99b99ca2a31e910796" category="list-text">표 위에 있는 *상태 편집* 버튼을 선택하세요.</block>
   <block id="cae6793a9f947fdb33e9ebb9c2913794" category="inline-image-macro">알림 편집 상태 페이지</block>
   <block id="e6fe1dbe41a0d14f05208f5ee0593783" category="paragraph"><block ref="e6fe1dbe41a0d14f05208f5ee0593783" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a3766d306cdb80badf038a83067d73d3" category="list-text">상태 편집 상자에서 *“기각됨”* 상태를 선택합니다.</block>
-  <block id="0d77ad85eefae95571395461b82d0990" category="paragraph">작업 부하와 스냅샷 복사본이 삭제된다는 추가 정보가 나타납니다.</block>
-  <block id="982b96cbcd987b2495b15ba07dd59831" category="paragraph">사건의 상태가 "해제됨"으로 변경됩니다.</block>
   <block id="03449fca76164b6dcb5b9e314b4a5c2b" category="section-title">영향을 받은 파일 목록 보기</block>
   <block id="0fd4c032e8d9638089eca51930a25305" category="paragraph">파일 수준에서 애플리케이션 워크로드를 복원하기 전에 영향을 받은 파일 목록을 볼 수 있습니다.  영향을 받은 파일 목록을 다운로드하려면 알림 페이지에 접속하세요.  그런 다음 복구 페이지를 사용하여 목록을 업로드하고 복원할 파일을 선택합니다.</block>
   <block id="6162015141ec2e05b3da3316c594dc7a" category="paragraph">알림 페이지를 사용하여 영향을 받은 파일 목록을 검색하세요.</block>
@@ -1639,7 +1628,6 @@
   <block id="75d41b8fe2ef8de56d2fd2046bb0dad3" category="list-text">**클라우드 공급자**를 선택한 다음 **지역**을 선택하세요. **다음**을 선택하세요.</block>
   <block id="604a864dab990debb57e02cc6550cb0b" category="list-text">사용자 활동 에이전트 세부 정보를 제공하세요.</block>
   <block id="8b67ab5f6d4b7a7c9b54a220ab393e0f" category="list-text">**사용자 활동 에이전트 이름**</block>
-  <block id="40c10b55b38de651cc304b987f3b8552" category="list-text">*콘솔 에이전트* - 콘솔 에이전트는 사용자 활동 에이전트와 동일한 네트워크에 있어야 하며 사용자 활동 에이전트 IP 주소에 대한 SSH 연결이 있어야 합니다.</block>
   <block id="b023c42f6578a2febd3d77169ecb00ef" category="list-text">*VM DNS 이름 또는 IP 주소*</block>
   <block id="95a1594aeff80ead5b4f2710e4acb1c5" category="list-text">*VM SSH 키*</block>
   <block id="1dc03f52e7a38f5b6ec91f4303e010ad" category="inline-image-macro">활동 추가 에이전트 인터페이스의 스크린샷입니다.</block>
@@ -2078,6 +2066,28 @@
   <block id="aff175f709dc693d1f9ca4c44728163a" category="list-text">*SID* (LDAP를 사용하는 경우)</block>
   <block id="3b57547caa3754998fa617bd92514f25" category="list-text">*사용자 이름*</block>
   <block id="c8a0546946d4ed57fd88fc4918d3825f" category="list-text">*Unix ID* (NFS를 사용하는 경우)</block>
-  <block id="1358e8e29329a97048f0688a1813071f" category="list-text">*선택적 속성 포함*을 선택하면 이메일 주소, 전화번호, 역할, 주, 국가, 부서, 사진, 관리자 DN 또는 그룹도 추가할 수 있습니다.</block>
-  <block id="7703674a5321c1f23549682250a732e9" category="paragraph">*고급*을 선택하여 선택적 검색어를 추가하세요.</block>
+  <block id="8a9b2764802b622f9894a669a606f74f" category="doc">확장 차단은 워크로드 수준에서 활성화됩니다.</block>
+  <block id="ab47595f128d75b47b3449fcd4dfb523" category="paragraph">확장 차단을 활성화하면 이제 스토리지 VM 수준이 아닌 워크로드 수준에서 활성화됩니다.</block>
+  <block id="a6493502d5fc22c0b3ccee818dc4a5a5" category="section-title">사용자 동작 알림 상태 편집</block>
+  <block id="f143f02b29819ec9e761d9f292dea42c" category="paragraph">랜섬웨어 복원력을 통해 이제 사용자 동작 알림 상태를 편집할 수 있습니다.  알림을 수동으로 해제하고 해결할 수 있습니다.  이제 알림을 "검토 중"으로 표시할 수도 있습니다.</block>
+  <block id="685b0f2db45e4fc09a06ccb4695806de" category="inline-xref-macro">알림 관리</block>
+  <block id="30acfc7aa0f5ff9593d73e769de766c0" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="32161c93f86d45672d8429d13ea78e6b" category="inline-xref-macro-rx"></block>.</block>
+  <block id="d5214a8deea026de61af736ebf8697dd" category="section-title">여러 콘솔 에이전트 지원</block>
+  <block id="1a6a565def701385358a626d6728afd8" category="paragraph">랜섬웨어 복원력은 이제 여러 콘솔 에이전트를 사용하여 동일한 시스템을 관리하는 것을 지원합니다.</block>
+  <block id="76adc55b5a0beb97a709fbc0c204a3d0" category="paragraph">콘솔 에이전트에 대한 자세한 내용은 다음을 참조하세요.<block ref="c97584494dd542160395e5c607ae4c2c" category="inline-link-macro-rx"></block> .</block>
+  <block id="be8cc003074f86f2bc2b3ef0d2f3a334" category="list-text">NetApp 스냅샷 복사본과 백업 정책의 각 볼륨의 현재 보호 수준과 온박스 감지 기능을 검색합니다. 랜섬웨어 복원력은 백업 및 복구, ONTAP 서비스, 자율 랜섬웨어 보호( ONTAP 버전에 따라 ARP 또는 ARP/AI), FPolicy, 백업 정책, 스냅샷 정책과 같은 NetApp 기술을 사용하여 이러한 보호 태세를 워크로드와 연결합니다.  자세히 알아보세요<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block> ,<block ref="2b1b7f994c6938347657a18d8edc7db7" category="inline-link-rx"></block> , 그리고<block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block> .</block>
+  <block id="ee1bc5da2dde4f02ef7aa47df921506a" category="doc">NetApp Ransomware Resilience 에서 알림 관리</block>
+  <block id="9a51095678260d2a753174230dbe8a88" category="paragraph">NetApp Ransomware Resilience 잠재적인 공격을 감지하면 대시보드와 알림 영역에 경고를 표시합니다. 랜섬웨어 복원력은 즉시 스냅샷을 찍습니다. 랜섬웨어 복원력 *알림* 탭에서 잠재적 위험을 검토하세요.</block>
+  <block id="6fe459ab097d6c4270e2ad317a017b93" category="paragraph">경고 사건은 다음과 같은 상태를 가질 수 있습니다.</block>
+  <block id="afc3fd7b02af578176e65700acd6709b" category="list-text">*검토 중*: 사건을 평가하는 동안 해당 사건을 검토 중으로 표시할 수 있습니다.</block>
+  <block id="93771318f0ad483bcb651c0ded2c6033" category="admonition">공격을 해제한 후에는 해당 공격의 상태를 되돌릴 수 없습니다. 작업 부하를 해제하면 잠재적인 랜섬웨어 공격에 대응하여 자동으로 생성된 모든 스냅샷 사본이 영구적으로 삭제됩니다.</block>
+  <block id="c95e7dd9856afddc701e5bf3b384f093" category="paragraph">사고를 검토한 후에는 해당 사고가 잠재적인 공격인지 여부를 판단해야 합니다. 실제 위협이 아니라면 무시해도 됩니다.</block>
+  <block id="c73a9fafaefc34f0b97adbaba4200dc9" category="paragraph">거짓 양성 결과를 무시하거나 즉시 데이터를 복구하기로 결정할 수 있습니다. 알림을 해제하면 랜섬웨어 복원력이 이러한 동작을 학습하고 이를 일반적인 작업과 연관시키며 이러한 동작에 대해 다시 알림을 시작하지 않습니다.</block>
+  <block id="ea3cf0f8eb2106f78fd9e62d674bd7c0" category="list-text">하나 이상의 사건을 선택하세요. 또는 표 왼쪽 상단에 있는 사건 ID 상자를 선택하여 모든 사건을 선택합니다.</block>
+  <block id="845279243191f55592e2d4438456de67" category="list-text">상태 편집 상자에서 *거부* 상태를 선택합니다.</block>
+  <block id="c66f0ec622b69a240be9821f2dbbb082" category="paragraph">작업 부하 및 스냅샷 복사본이 삭제되는 것에 대한 추가 정보가 나타납니다.</block>
+  <block id="3224e89b6de433c70f47e320c0777439" category="paragraph">해당 사건의 상태가 "해제됨"으로 변경됩니다.</block>
+  <block id="6edf03555b64b68b413469994ca42164" category="list-text">*콘솔 에이전트* - 콘솔 에이전트는 사용자 활동 에이전트와 동일한 네트워크에 있어야 하며 사용자 활동 에이전트의 IP 주소에 대한 SSH 연결이 있어야 합니다.</block>
+  <block id="8e19d605b8be4e3be2157e822268633f" category="list-text">*선택적 속성 포함*을 선택하면 이메일 주소, 전화번호, 역할, 주, 국가, 부서, 사진, 관리자 DN 또는 그룹도 추가할 수 있습니다. *고급*을 선택하여 선택적 검색어를 추가하세요.</block>
+  <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025년 12월 8일</block>
 </blocks>
