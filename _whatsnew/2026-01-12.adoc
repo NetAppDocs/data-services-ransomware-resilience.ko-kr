@@ -1,0 +1,27 @@
+= 스냅샷을 ONTAP 에 복제합니다.
+:allow-uri-read: 
+
+
+
+
+=== 스냅샷을 ONTAP 에 복제합니다.
+
+랜섬웨어 복원력 기능이 이제 스냅샷 복제본을 보조 ONTAP 사이트에 추가하는 것을 지원합니다. 랜섬웨어 방어 전략을 생성할 때 복제 기능을 포함하거나 미리 정의된 전략을 사용할 수 있습니다. 복제 정책을 사용하는 보호 그룹을 사용하면 모든 워크로드에 대해 동일한 대상 또는 서로 다른 대상으로 복제할 수 있습니다.
+
+자세한 내용은 다음을 참조하세요. link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["랜섬웨어 공격으로부터 워크로드를 보호하세요."^].
+
+
+
+=== 랜섬웨어 복원력에서 워크로드를 제외합니다.
+
+랜섬웨어 복원력은 이제 시스템 내 특정 워크로드를 보호 대상에서 제외하는 기능을 지원하며, 랜섬웨어 복원력 대시보드에서도 이 기능을 사용할 수 있습니다. 검색 후 워크로드를 제외할 수 있으며, 랜섬웨어 보호 기능을 추가하려면 다시 포함할 수 있습니다. 제외된 워크로드에 대해서는 비용이 청구되지 않습니다.
+
+자세한 내용은 다음을 참조하세요. link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-discover.html#exclude-workloads["워크로드 제외"^].
+
+
+
+=== 검토 중임을 알림으로 표시합니다.
+
+랜섬웨어 복원력 기능을 통해 이제 알림을 "검토 중"으로 표시할 수 있습니다. "검토 중" 레이블을 사용하여 활성 랜섬웨어 위협을 분류하고 관리할 때 팀 전체의 명확성을 높이세요.
+
+자세한 내용은 다음을 참조하세요. link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-alert.html["랜섬웨어 복원력에서 알림 관리"^].
