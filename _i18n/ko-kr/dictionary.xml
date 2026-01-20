@@ -2105,15 +2105,25 @@
   <block id="d230465858c85552b6c5a5b1ef3bb21f" category="list-text">*복제 일정*: 원하는 복제 빈도(시간별, 일별, 주별 또는 월별)를 선택하고, 각 일정에 대한 보존 값(보관할 복제 스냅샷 수)을 설정하세요.</block>
   <block id="228ec8f5cf8241b99a71e0c11689b0e6" category="list-text">원하는 탐지 설정을 선택하세요: *암호화 탐지* *의심스러운 사용자 행동 탐지* *의심스러운 파일 확장자 차단*</block>
   <block id="447fce6406d4a8e99de98a2d5d107536" category="list-text">복제 전략이 포함된 경우 **대상 시스템**과 **대상 스토리지 VM**을 선택하십시오. **다음**을 선택하세요.</block>
-  <block id="05f102695dcd78d82f88a52818f4c682" category="admonition">파일을 다운로드하기 전에 대시보드를 새로 고쳐 보고서에 최신 데이터가 반영되도록 하십시오.</block>
   <block id="6f540707e47351a26c8e3c79ccce18ea" category="list-text">*보호*: 보호 대상 및 위험에 처한 워크로드의 총 개수를 포함하여 모든 워크로드의 상태 및 세부 정보를 제공합니다.</block>
   <block id="38fc1b337c0ea26463916fc2913205c1" category="paragraph"><block ref="38fc1b337c0ea26463916fc2913205c1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7019a39846e9a2c7f7a80eaba91e4a41" category="paragraph"><block ref="7019a39846e9a2c7f7a80eaba91e4a41" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">이는 귀하의 이메일에 매핑되는 시스템 생성 ID입니다. *NSS 관리* 페이지에서 이메일을 표시할 수 있습니다.<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 *자격 증명 업데이트* 옵션도 있습니다.<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
   <block id="667dffcf5676fe0bd645082d2a512fef" category="section-title">2026년 1월 12일</block>
-  <block id="1bfdea46bcdc184ecc395f7be984a97f" category="paragraph">랜섬웨어 복원력 기능이 이제 스냅샷 복제본을 보조 ONTAP 사이트에 추가하는 것을 지원합니다. 랜섬웨어 방어 전략을 생성할 때 복제 기능을 포함하거나 미리 정의된 전략을 사용할 수 있습니다.</block>
   <block id="1f84339ab34d5298a23a70d51ad457d4" category="inline-link-macro">의심스러운 사용자 활동 감지 기능을 활성화했습니다.</block>
   <block id="0c72d558c2e8468bc311f1933be197b5" category="admonition">NetApp Data Infrastructure Insights (DII) Workload Security를 ​​사용하는 경우 랜섬웨어 복원력에도 동일한 Workload Security 에이전트를 사용하는 것이 좋습니다. 랜섬웨어 복원력을 위해 별도의 워크로드 보안 에이전트를 배포할 필요는 없지만, 동일한 워크로드 보안 에이전트를 사용하려면 랜섬웨어 복원력 콘솔 조직과 DII 스토리지 워크로드 보안 테넌트 간에 페어링 관계가 필요합니다. 이 연동 기능을 활성화하려면 담당 영업 담당자에게 문의하십시오. + DII를 사용하지 않는 경우, 의심스러운 사용자 행동 감지 기능을 활용할 수 있습니다. 반드시 확인하세요 <block ref="f31f86ab68cf8ca6dc8a3009e6d9ea7a" category="inline-link-macro-rx"></block> 그리고 적절한 에이전트를 구성했습니다.</block>
   <block id="49fa679e35a13dc09de6805c384904d1" category="list-text">백업 정책을 구성하려면 정책을 선택한 다음 **다음**을 선택하십시오.</block>
+  <block id="748b96a793ccf0ab113112372db17649" category="paragraph">랜섬웨어 복원력 기능이 이제 스냅샷 복제본을 보조 ONTAP 사이트에 추가하는 것을 지원합니다. 복제 정책을 사용하는 보호 그룹을 사용하면 모든 워크로드에 대해 동일한 대상 또는 서로 다른 대상으로 복제할 수 있습니다. 랜섬웨어 방어 전략을 생성할 때 복제 기능을 포함하거나 미리 정의된 전략을 사용할 수 있습니다.</block>
+  <block id="389e0c39aeda061370262a9fa330d865" category="doc">지원되지 않는 볼륨</block>
+  <block id="7aedbf1b65f2bcaf699a2f7f37ba458b" category="paragraph">랜섬웨어 복원력 보고서의 **요약** 보고서에 지원되는 볼륨과 지원되지 않는 볼륨에 대한 정보가 포함됩니다. 이 정보를 사용하여 시스템 내 볼륨이 랜섬웨어 보호 대상에서 제외되는 이유를 진단하십시오.</block>
+  <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">랜섬웨어 복원력 관련 보고서를 다운로드하세요.</block>
+  <block id="877e42a9811fb7c41b1fccef32ca2477" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>.</block>
+  <block id="0b2947ed93537c3557ef0b1dda419a7a" category="admonition">검색한 시스템에 대해 표시되지 않는 볼륨이 있는 경우 해당 볼륨이 지원되지 않는 것일 수 있습니다. 지원되지 않는 볼륨 목록을 확인하려면 **설정** 메뉴로 이동한 다음 워크로드 검색 카드에서 작업 메뉴를 선택하여 지원되는 볼륨과 지원되지 않는 볼륨에 대한 JSON 보고서를 다운로드하십시오.</block>
+  <block id="0c82c0ade162cfe42b72c98aa569451d" category="list-text">보호 전략에 복제 기능이 포함되어 있다면 복제 설정을 검토하십시오.</block>
+  <block id="d6fa1bf46ad545c166256cf297b47ba9" category="list-text">모든 스냅샷을 동일한 대상으로 복제하려면 **각 워크로드에 동일한 대상 사용**을 선택하십시오. 콘솔 에이전트 섹션에서 워크로드에 대한 *대상 시스템*과 *대상 스토리지 VM*을 선택하십시오. + 다른 목적지를 사용하려면 해당 확인란의 선택을 해제하세요. 각 콘솔 에이전트 아래의 각 워크로드를 검토하고 각 워크로드에 대해 *대상 시스템* 및 *대상 스토리지 VM*을 할당하십시오. **다음**을 선택하세요.</block>
+  <block id="87971b78e8c43e7c3e77036d3ec8d929" category="admonition">파일을 다운로드하기 전에 대시보드를 새로 고쳐 보고서에 최신 데이터가 반영되도록 하세요.</block>
+  <block id="5d26628350f5209b3a0d69e817a49a0f" category="list-text">**요약**: 지원되는 워크로드와 지원되지 않는 워크로드 목록, 사이버 복원력 강화를 위한 권장 조치, 랜섬웨어 복원력 대시보드에 포함된 정보를 제공합니다.</block>
+  <block id="886b1df808dc5d3879143640b1ad98a7" category="admonition">설정의 워크로드 검색 카드에서 작업 메뉴를 선택합니다.<block ref="2f43b42fd833d1e77420a8dae7419000" prefix=" " category="inline-code"></block> 그런 다음 **보고서 다운로드(JSON)**를 클릭하여 시스템에서 지원되는 워크로드와 지원되지 않는 워크로드 목록을 확인하십시오.</block>
+  <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026년 1월 19일</block>
 </blocks>
