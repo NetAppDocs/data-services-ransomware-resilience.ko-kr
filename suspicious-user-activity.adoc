@@ -30,7 +30,9 @@ Ransomware Resilience에서 의심스러운 사용자 활동 감지를 활성화
 
 수집기는 랜섬웨어 복원력 설정에서 구성됩니다.
 
-*필수 콘솔 역할* 의심스러운 사용자 활동 감지를 활성화하려면 조직 관리자 역할이 필요합니다.  의심스러운 사용자 활동에 대한 후속 구성을 위해서는 랜섬웨어 복원력 사용자 동작 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^].
+*필수 콘솔 역할* 의심스러운 사용자 활동 감지를 활성화하려면 **Organization admin role**이 필요합니다. 이후의 의심스러운 사용자 활동 구성에는 **Ransomware Resilience user behavior admin role**이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^].
+
+각 역할이 조직 수준에서 적용되도록 하십시오.
 
 
 

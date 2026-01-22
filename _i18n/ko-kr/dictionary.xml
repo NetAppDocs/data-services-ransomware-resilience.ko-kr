@@ -1753,7 +1753,6 @@
   <block id="7149ff1e14f0a158752906babaa08dc3" category="list-text">해당 사건에 대해 다운로드 아이콘을 선택하여 영향을 받은 파일 목록을 CSV 형식으로 다운로드하세요.</block>
   <block id="fe1bb8cb54f03cf7a69c3e9568118b30" category="list-text">**데이터 수집기**는 ONTAP 에서 사용자 활동 데이터를 수집합니다.</block>
   <block id="b6173a051353d59a4ee775fcef288441" category="list-text">**사용자 디렉토리 커넥터**는 디렉토리에 연결하여 사용자 ID를 사용자 이름에 매핑합니다.</block>
-  <block id="508899c1c018f291af4cb6a0423c426c" category="paragraph">*필수 콘솔 역할* 의심스러운 사용자 활동 감지를 활성화하려면 조직 관리자 역할이 필요합니다.  의심스러운 사용자 활동에 대한 후속 구성을 위해서는 랜섬웨어 복원력 사용자 동작 관리자 역할이 필요합니다. <block ref="d9cbbacd5ef5cff6a1660fdb9d259f2f" category="inline-link-macro-rx"></block>.</block>
   <block id="398de83ff8f318218f9eaedb05929ef0" category="paragraph">사용자 활동 에이전트가 성공적으로 생성되면 **설정** 메뉴로 돌아간 다음 사용자 활동 타일에서 **관리**를 선택합니다. **사용자 활동 에이전트** 탭을 선택한 다음 사용자 활동 에이전트를 선택하여 데이터 수집기 및 사용자 디렉터리 커넥터를 포함한 해당 에이전트에 대한 세부 정보를 확인합니다.</block>
   <block id="a83ea9a287c9fdd0689933a464055150" category="paragraph">사용자 ID를 사용자 이름에 매핑하려면 사용자 디렉토리 커넥터를 만들어야 합니다.</block>
   <block id="89bd0177a422e5d81fce2f8f82dac3f6" category="paragraph-title">랜섬웨어 복원력을 사용하려면 라이선스가 필요합니까?</block>
@@ -2126,4 +2125,6 @@
   <block id="5d26628350f5209b3a0d69e817a49a0f" category="list-text">**요약**: 지원되는 워크로드와 지원되지 않는 워크로드 목록, 사이버 복원력 강화를 위한 권장 조치, 랜섬웨어 복원력 대시보드에 포함된 정보를 제공합니다.</block>
   <block id="886b1df808dc5d3879143640b1ad98a7" category="admonition">설정의 워크로드 검색 카드에서 작업 메뉴를 선택합니다.<block ref="2f43b42fd833d1e77420a8dae7419000" prefix=" " category="inline-code"></block> 그런 다음 **보고서 다운로드(JSON)**를 클릭하여 시스템에서 지원되는 워크로드와 지원되지 않는 워크로드 목록을 확인하십시오.</block>
   <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026년 1월 19일</block>
+  <block id="5971dc29642c8dabe6ddf4db4c2f9634" category="paragraph">*필수 콘솔 역할* 의심스러운 사용자 활동 감지를 활성화하려면 **Organization admin role**이 필요합니다. 이후의 의심스러운 사용자 활동 구성에는 **Ransomware Resilience user behavior admin role**이 필요합니다. <block ref="d9cbbacd5ef5cff6a1660fdb9d259f2f" category="inline-link-macro-rx"></block>.</block>
+  <block id="49c6535c126789c87c5cd609fbdb3a3f" category="paragraph">각 역할이 조직 수준에서 적용되도록 하십시오.</block>
 </blocks>
