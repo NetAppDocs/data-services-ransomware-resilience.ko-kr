@@ -14,7 +14,7 @@ summary: 랜섬웨어 복원력이 잠재적인 공격을 감지하면 랜섬웨
 [role="lead"]
 NetApp Ransomware Resilience 잠재적인 공격을 감지하면 대시보드와 알림 영역에 경고를 표시합니다. 랜섬웨어 복원력은 즉시 스냅샷을 찍습니다. 랜섬웨어 복원력 *알림* 탭에서 잠재적 위험을 검토하세요.
 
-랜섬웨어 복원력이 잠재적인 공격을 감지하면 콘솔 알림 설정에 알림이 나타나고 구성된 주소로 이메일이 전송됩니다. 이메일에는 심각도, 영향을 받는 작업 부하, 랜섬웨어 복원력 *알림* 탭의 알림에 대한 링크에 대한 정보가 포함되어 있습니다.
+Ransomware Resilience가 공격 가능성을 감지하면 Console 알림 설정에 알림이 표시되고 구성된 주소로 이메일이 전송됩니다. 이메일에는 심각도, 영향을 받는 워크로드 및 Ransomware Resilience *Alerts* 탭의 알림에 대한 링크가 포함됩니다.
 
 거짓 양성 결과를 무시하거나 즉시 데이터를 복구하기로 결정할 수 있습니다.
 
@@ -46,7 +46,7 @@ TIP: 알림을 해제하면 랜섬웨어 복원력이 이러한 동작을 학습
 
 
 
-NOTE: SAN 환경의 경우 경고는 높은 엔트로피에만 기반합니다.
+NOTE: SAN 환경의 경우 경고는 높은 엔트로피를 기준으로만 발생합니다.
 
 증거는 ONTAP 의 Autonomous Ransomware Protection에서 얻은 정보를 기반으로 합니다. 자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율형 랜섬웨어 보호 개요"^] .
 
@@ -103,20 +103,10 @@ image:screen-alerts.png["알림 페이지"]
 
 == 알림 이메일에 응답하세요
 
-랜섬웨어 레질리언스가 잠재적인 공격을 감지하면 구독 알림 기본 설정에 따라 구독한 사용자에게 이메일 알림을 보냅니다.  이메일에는 경고에 대한 정보, 심각도, 영향을 받는 리소스 등이 포함되어 있습니다.
-
-랜섬웨어 복원력 경고에 대한 이메일 알림을 받을 수 있습니다.  이 기능을 사용하면 알림, 알림의 심각도, 영향을 받는 리소스에 대한 정보를 얻을 수 있습니다.
+Ransomware Resilience가 잠재적인 공격을 감지하면 NetApp Console 설정에서 구성된 구독 알림 기본 설정에 따라 구독 사용자에게 이메일 알림을 보냅니다. 이메일에는 심각도 및 영향을 받는 리소스를 포함한 경고 관련 정보가 포함되어 있습니다.
 
 
-TIP: 이메일 알림을 구독하려면 다음을 참조하세요. https://docs.netapp.com/us-en/console-setup-admin/task-monitor-cm-operations.html#set-email-notification-settings["이메일 알림 설정"^] .
-
-. 랜섬웨어 복원력에서 *설정* 페이지로 이동합니다.
-. *알림*에서 이메일 알림 설정을 찾으세요.
-. 알림을 받으려는 이메일 주소를 입력하세요.
-. 변경 사항을 저장합니다.
-
-
-이제 새로운 알림이 생성되면 이메일 알림을 받게 됩니다.
+TIP: Console에서 이메일 알림을 설정하려면 link:https://docs.netapp.com/us-en/console-setup-admin/task-monitor-cm-operations.html#set-email-notification-settings["이메일 알림 설정"^]을 참조하십시오.
 
 *필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 또는 랜섬웨어 복원력 뷰어 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
 
@@ -143,10 +133,10 @@ TIP: 이메일 알림을 구독하려면 다음을 참조하세요. https://docs
 
 알림 탭을 살펴보면 악의적인 활동이나 비정상적인 사용자 동작이 있는지 확인할 수 있습니다.
 
-사용자 수준 알림을 보려면 사용자 활동 에이전트를 구성하고 사용자 동작 감지를 통한 보호 정책을 활성화해야 합니다. 사용자 동작 감지가 활성화되면 *의심스러운 사용자* 열이 알림 대시보드에 나타납니다. 사용자 동작 감지가 활성화되지 않은 경우에는 표시되지 않습니다.  의심스러운 사용자 감지를 활성화하려면 다음을 참조하세요.link:suspicious-user-activity.html["의심스러운 사용자 활동"] .
+사용자 수준 알림을 보려면 사용자 활동 에이전트를 구성하고 사용자 행동 감지 기능이 있는 보호 정책을 활성화해야 합니다. *의심스러운 사용자* 열은 사용자 행동 감지가 활성화된 경우에만 알림 대시보드에 나타납니다. 의심스러운 사용자 감지를 활성화하려면 link:suspicious-user-activity.html["의심스러운 사용자 활동"]을 참조하십시오.
 
 
-NOTE: NetApp Data Infrastructure Insights (DII) Workload Security를 ​​사용하는 경우 랜섬웨어 복원력에도 동일한 Workload Security 에이전트를 사용하는 것이 좋습니다. 랜섬웨어 복원력을 위해 별도의 워크로드 보안 에이전트를 배포할 필요는 없지만, 동일한 워크로드 보안 에이전트를 사용하려면 랜섬웨어 복원력 콘솔 조직과 DII 스토리지 워크로드 보안 테넌트 간에 페어링 관계가 필요합니다. 이 연동 기능을 활성화하려면 담당 영업 담당자에게 문의하십시오. + DII를 사용하지 않는 경우, 의심스러운 사용자 행동 감지 기능을 활용할 수 있습니다. 반드시 확인하세요 link:suspicious-user-activity.html["의심스러운 사용자 활동 감지 기능을 활성화했습니다."] 그리고 적절한 에이전트를 구성했습니다.
+NOTE: NetApp Data Infrastructure Insights(DII) Workload Security를 사용하는 경우 Ransomware Resilience에도 동일한 Workload Security 에이전트를 사용하는 것이 좋습니다. Ransomware Resilience를 위해 별도의 Workload Security 에이전트를 배포할 필요는 없지만, 동일한 Workload Security 에이전트를 사용하려면 Ransomware Resilience Console 조직과 DII Storage Workload Security 테넌트 간의 페어링 관계가 필요합니다. 이 페어링을 활성화하려면 담당 영업 담당자에게 문의하십시오. + DII _없이_ 의심스러운 사용자 탐지 기능을 사용하려면 link:suspicious-user-activity.html["의심스러운 사용자 활동 감지 기능을 활성화했습니다."]을(를) 확인하고 적절한 에이전트를 구성했는지 확인하십시오.
 
 
 
@@ -191,7 +181,7 @@ image:screen-alerts-incidents3.png["알림 사건 페이지"]
 
 == 랜섬웨어 사고를 복구 준비로 표시(사고가 무력화된 후)
 
-공격을 중단한 후 스토리지 관리자에게 데이터가 준비되었다고 알려 복구를 시작하세요.
+공격을 차단한 후에는 스토리지 관리자에게 데이터 복구 준비가 완료되었음을 알려 복구 프로세스를 시작할 수 있도록 하십시오.
 
 *필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
 

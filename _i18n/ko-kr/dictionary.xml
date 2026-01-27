@@ -604,7 +604,6 @@
   <block id="179e5ea4317177f519c688d15ef67987" category="paragraph"><block ref="179e5ea4317177f519c688d15ef67987" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e462715e9b155f4f9638da4f314c8aff" category="list-text">*준비 훈련*과 *다운로드*를 선택하여 준비 훈련 보고서를 다운로드하세요.</block>
   <block id="bb44ab86396f7335c45f2c99c022776c" category="summary">랜섬웨어 복원력이 잠재적인 공격을 감지하면 랜섬웨어 복원력 대시보드에 잠재적인 공격을 알리는 알림이 나타납니다. 이 시점에서 랜섬웨어 복원력 알림 탭에서 잠재적 위험을 살펴봐야 합니다.</block>
-  <block id="0cf61fe483b7c3216a42a15a22e0ef97" category="paragraph">랜섬웨어 복원력이 잠재적인 공격을 감지하면 콘솔 알림 설정에 알림이 나타나고 구성된 주소로 이메일이 전송됩니다. 이메일에는 심각도, 영향을 받는 작업 부하, 랜섬웨어 복원력 *알림* 탭의 알림에 대한 링크에 대한 정보가 포함되어 있습니다.</block>
   <block id="4c8cd66676ad1c434108e699d9777408" category="paragraph">거짓 양성 결과를 무시하거나 즉시 데이터를 복구하기로 결정할 수 있습니다.</block>
   <block id="899157335f0c98105a8cbc92966ba06d" category="admonition">알림을 해제하면 랜섬웨어 복원력이 이러한 동작을 학습하고 이를 일반적인 작업과 연관시켜 다시 알림을 발생시키지 않습니다.</block>
   <block id="a8fd9e3988acb841854762788963d815" category="paragraph">데이터 복구를 시작하려면 알림을 복구 준비 완료로 표시하여 스토리지 관리자가 복구 프로세스를 시작할 수 있도록 하세요.</block>
@@ -620,7 +619,6 @@
   <block id="dfc56481bc0d4c0e37c0cc1e55fec278" category="list-text">이전에 새로운 확장 프로그램이 감지된 적이 없으며, 동일한 동작이 공격으로 선언할 만큼 충분히 반복되지 않습니다.</block>
   <block id="2c8035709ee020723e6bf59e526fe816" category="list-text">높은 엔트로피가 관찰됩니다.</block>
   <block id="98a2c9ec203e0706ca2f538df133d059" category="list-text">파일 읽기, 쓰기, 이름 바꾸기 또는 삭제 활동이 일반 수준에 비해 두 배로 증가했습니다.</block>
-  <block id="4da187364d63bcda0c1ea8730221bf1a" category="admonition">SAN 환경의 경우 경고는 높은 엔트로피에만 기반합니다.</block>
   <block id="e96b2ea99a3be7415866a5df8f69cf6e" category="paragraph">증거는 ONTAP 의 Autonomous Ransomware Protection에서 얻은 정보를 기반으로 합니다. 자세한 내용은 다음을 참조하세요.<block ref="9a25fd5e356132f930267232d70ad02b" category="inline-link-rx"></block> .</block>
   <block id="64c00e9ea78abe412d8db56dd1df0462" category="paragraph">알림은 다음 상태 중 하나를 가질 수 있습니다.</block>
   <block id="adf79604cd73ac69e1173c85b1070d09" category="list-text">*새로운*</block>
@@ -645,15 +643,7 @@
   <block id="3de551d699ac2cc6d8ee45100e3c09c2" category="list-text"><block ref="7b8fc6583551e56b0c8a96f4e8f63c8a" category="inline-xref-macro-rx"></block> .</block>
   <block id="ab66e5346633f4af4f4982dc29ca7015" category="list-text"><block ref="e99b3e15cfc7ea44c087b4875208c217" category="inline-xref-macro-rx"></block> .</block>
   <block id="9b317c5e8c93afadbc7755c407538945" category="section-title">알림 이메일에 응답하세요</block>
-  <block id="14e7851a172a122d7528efff8567f8ba" category="paragraph">랜섬웨어 레질리언스가 잠재적인 공격을 감지하면 구독 알림 기본 설정에 따라 구독한 사용자에게 이메일 알림을 보냅니다.  이메일에는 경고에 대한 정보, 심각도, 영향을 받는 리소스 등이 포함되어 있습니다.</block>
-  <block id="bf1a62bcb3143d1124cae262157745d7" category="paragraph">랜섬웨어 복원력 경고에 대한 이메일 알림을 받을 수 있습니다.  이 기능을 사용하면 알림, 알림의 심각도, 영향을 받는 리소스에 대한 정보를 얻을 수 있습니다.</block>
   <block id="def7f3eac7eed1dada5cdcd2951ede36" category="inline-link">이메일 알림 설정</block>
-  <block id="b170729861af663a30599b6746973b7b" category="admonition">이메일 알림을 구독하려면 다음을 참조하세요.<block ref="99cf5d485b43f483ee8ecf47c33bdf82" category="inline-link-rx"></block> .</block>
-  <block id="f2e19c6011cc550fb6503dafd26a8973" category="list-text">랜섬웨어 복원력에서 *설정* 페이지로 이동합니다.</block>
-  <block id="ed6e52d47993626528f7c48bb20927cd" category="list-text">*알림*에서 이메일 알림 설정을 찾으세요.</block>
-  <block id="581a71037b750a62c75558dfea9bae72" category="list-text">알림을 받으려는 이메일 주소를 입력하세요.</block>
-  <block id="345e93a96b6e66cb9274dbad975c0db2" category="list-text">변경 사항을 저장합니다.</block>
-  <block id="ea9dd721e10f4a1fefec35d95c57efc7" category="paragraph">이제 새로운 알림이 생성되면 이메일 알림을 받게 됩니다.</block>
   <block id="e66d9f5613065312cf1d46114b193ed7" category="list-text">이메일을 확인하세요.</block>
   <block id="f40ae80cf7396576022afae759080cf1" category="list-text">이메일에서 *알림 보기*를 선택하고 Ransomware Resilience에 로그인하세요.</block>
   <block id="9d425c6001c325d2240cf2219c5c8111" category="paragraph">알림 페이지가 나타납니다.</block>
@@ -679,7 +669,6 @@
   <block id="ff74e9f48366f1b4465d1920693ddea8" category="inline-link-macro">랜섬웨어 복원력 설정 구성</block>
   <block id="f784461c39e5b287f6733d0ee28efad4" category="paragraph">비정상적인 사용자 동작을 확인하기 위해 의심스러운 사용자 감지 기능을 구성한 경우 사용자 수준 데이터를 보고 특정 사용자를 차단할 수 있습니다. 의심스러운 사용자 설정을 활성화하려면 다음을 참조하세요.<block ref="788275b5d10fa192a2bbf25cebb6c38f" category="inline-link-macro-rx"></block> .</block>
   <block id="705db8b34cf00efb73abf6403278e299" category="section-title">랜섬웨어 사고를 복구 준비로 표시(사고가 무력화된 후)</block>
-  <block id="3950c317c3c61c1f422abb2e301a90ca" category="paragraph">공격을 중단한 후 스토리지 관리자에게 데이터가 준비되었다고 알려 복구를 시작하세요.</block>
   <block id="a31e44b45b823ec61483db05b99be2cb" category="paragraph"><block ref="a31e44b45b823ec61483db05b99be2cb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9d6e925ee1290815ef828d96d28218c6" category="list-text">알림 페이지에서 알림을 선택합니다.</block>
   <block id="81e1378e6c274792e689b2705fda8824" category="paragraph"><block ref="81e1378e6c274792e689b2705fda8824" category="inline-image-macro-rx" type="image"></block></block>
@@ -1747,7 +1736,6 @@
   <block id="2515e2bcc68e80666fa8c369e88f71e5" category="paragraph">라이센스가 추가되었음을 확인하는 메시지가 나타납니다.</block>
   <block id="fca5751a0529f9987d0699648a97be3a" category="list-text">콘솔에서 라이선스를 자동으로 업데이트할 수 없는 경우 라이선스 파일을 수동으로 업로드해야 합니다.</block>
   <block id="f8541056d6bacae1a78fb5d2b68c67a8" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block>랜섬웨어 복원력 시작하기</block>
-  <block id="43eec2eb3dba42398d66e0c2aa294ea2" category="paragraph">사용자 수준 알림을 보려면 사용자 활동 에이전트를 구성하고 사용자 동작 감지를 통한 보호 정책을 활성화해야 합니다. 사용자 동작 감지가 활성화되면 *의심스러운 사용자* 열이 알림 대시보드에 나타납니다. 사용자 동작 감지가 활성화되지 않은 경우에는 표시되지 않습니다.  의심스러운 사용자 감지를 활성화하려면 다음을 참조하세요.<block ref="da26800578b610b8b3390e49bb643377" category="inline-link-macro-rx"></block> .</block>
   <block id="7a7f05bb105ddcf9c0d221e37f8a923c" category="list-text">사용자 환경에서 의심되는 사용자를 차단하려면 사용자 이름 아래에서 *차단*을 선택하세요.</block>
   <block id="bc8ffb69fb560086f529e0097158caad" category="admonition">알림을 해제하면 알림 상태를 변경하거나 변경 사항을 취소할 수 없습니다.</block>
   <block id="7149ff1e14f0a158752906babaa08dc3" category="list-text">해당 사건에 대해 다운로드 아이콘을 선택하여 영향을 받은 파일 목록을 CSV 형식으로 다운로드하세요.</block>
@@ -2111,7 +2099,6 @@
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 *자격 증명 업데이트* 옵션도 있습니다.<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
   <block id="667dffcf5676fe0bd645082d2a512fef" category="section-title">2026년 1월 12일</block>
   <block id="1f84339ab34d5298a23a70d51ad457d4" category="inline-link-macro">의심스러운 사용자 활동 감지 기능을 활성화했습니다.</block>
-  <block id="0c72d558c2e8468bc311f1933be197b5" category="admonition">NetApp Data Infrastructure Insights (DII) Workload Security를 ​​사용하는 경우 랜섬웨어 복원력에도 동일한 Workload Security 에이전트를 사용하는 것이 좋습니다. 랜섬웨어 복원력을 위해 별도의 워크로드 보안 에이전트를 배포할 필요는 없지만, 동일한 워크로드 보안 에이전트를 사용하려면 랜섬웨어 복원력 콘솔 조직과 DII 스토리지 워크로드 보안 테넌트 간에 페어링 관계가 필요합니다. 이 연동 기능을 활성화하려면 담당 영업 담당자에게 문의하십시오. + DII를 사용하지 않는 경우, 의심스러운 사용자 행동 감지 기능을 활용할 수 있습니다. 반드시 확인하세요 <block ref="f31f86ab68cf8ca6dc8a3009e6d9ea7a" category="inline-link-macro-rx"></block> 그리고 적절한 에이전트를 구성했습니다.</block>
   <block id="49fa679e35a13dc09de6805c384904d1" category="list-text">백업 정책을 구성하려면 정책을 선택한 다음 **다음**을 선택하십시오.</block>
   <block id="748b96a793ccf0ab113112372db17649" category="paragraph">랜섬웨어 복원력 기능이 이제 스냅샷 복제본을 보조 ONTAP 사이트에 추가하는 것을 지원합니다. 복제 정책을 사용하는 보호 그룹을 사용하면 모든 워크로드에 대해 동일한 대상 또는 서로 다른 대상으로 복제할 수 있습니다. 랜섬웨어 방어 전략을 생성할 때 복제 기능을 포함하거나 미리 정의된 전략을 사용할 수 있습니다.</block>
   <block id="389e0c39aeda061370262a9fa330d865" category="doc">지원되지 않는 볼륨</block>
@@ -2127,4 +2114,11 @@
   <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026년 1월 19일</block>
   <block id="5971dc29642c8dabe6ddf4db4c2f9634" category="paragraph">*필수 콘솔 역할* 의심스러운 사용자 활동 감지를 활성화하려면 **Organization admin role**이 필요합니다. 이후의 의심스러운 사용자 활동 구성에는 **Ransomware Resilience user behavior admin role**이 필요합니다. <block ref="d9cbbacd5ef5cff6a1660fdb9d259f2f" category="inline-link-macro-rx"></block>.</block>
   <block id="49c6535c126789c87c5cd609fbdb3a3f" category="paragraph">각 역할이 조직 수준에서 적용되도록 하십시오.</block>
+  <block id="426b9957bbb31fa730d0ddd4241a548c" category="paragraph">Ransomware Resilience가 공격 가능성을 감지하면 Console 알림 설정에 알림이 표시되고 구성된 주소로 이메일이 전송됩니다. 이메일에는 심각도, 영향을 받는 워크로드 및 Ransomware Resilience *Alerts* 탭의 알림에 대한 링크가 포함됩니다.</block>
+  <block id="ea6028617b2209ac986a738b1b26840a" category="admonition">SAN 환경의 경우 경고는 높은 엔트로피를 기준으로만 발생합니다.</block>
+  <block id="53140a5b1fd2965a3ae256fca48ef979" category="paragraph">Ransomware Resilience가 잠재적인 공격을 감지하면 NetApp Console 설정에서 구성된 구독 알림 기본 설정에 따라 구독 사용자에게 이메일 알림을 보냅니다. 이메일에는 심각도 및 영향을 받는 리소스를 포함한 경고 관련 정보가 포함되어 있습니다.</block>
+  <block id="a2079b2871fe8072cb3a3a5245ad0458" category="admonition">Console에서 이메일 알림을 설정하려면 <block ref="7a8deb9a674d2246166ab2113d0b6247" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="02b8f736b0a683e2999fdad847ee8cd4" category="paragraph">사용자 수준 알림을 보려면 사용자 활동 에이전트를 구성하고 사용자 행동 감지 기능이 있는 보호 정책을 활성화해야 합니다. *의심스러운 사용자* 열은 사용자 행동 감지가 활성화된 경우에만 알림 대시보드에 나타납니다. 의심스러운 사용자 감지를 활성화하려면 <block ref="da26800578b610b8b3390e49bb643377" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="b37f5f6a060700bfc5da32b05dba5978" category="admonition">NetApp Data Infrastructure Insights(DII) Workload Security를 사용하는 경우 Ransomware Resilience에도 동일한 Workload Security 에이전트를 사용하는 것이 좋습니다. Ransomware Resilience를 위해 별도의 Workload Security 에이전트를 배포할 필요는 없지만, 동일한 Workload Security 에이전트를 사용하려면 Ransomware Resilience Console 조직과 DII Storage Workload Security 테넌트 간의 페어링 관계가 필요합니다. 이 페어링을 활성화하려면 담당 영업 담당자에게 문의하십시오. + DII _없이_ 의심스러운 사용자 탐지 기능을 사용하려면 <block ref="f31f86ab68cf8ca6dc8a3009e6d9ea7a" category="inline-link-macro-rx"></block>을(를) 확인하고 적절한 에이전트를 구성했는지 확인하십시오.</block>
+  <block id="22b921337bb720d655059859772c0131" category="paragraph">공격을 차단한 후에는 스토리지 관리자에게 데이터 복구 준비가 완료되었음을 알려 복구 프로세스를 시작할 수 있도록 하십시오.</block>
 </blocks>
