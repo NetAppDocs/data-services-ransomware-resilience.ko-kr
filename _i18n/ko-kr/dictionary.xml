@@ -2011,7 +2011,6 @@
   <block id="13f3cf8c531952d72e5847c4183e6910" category="cell">443</block>
   <block id="f2ca52b87225d79d40f899aebabeec45" category="cell">사용자 활동 에이전트</block>
   <block id="b7169d36c5259a3a051359ca51dbd682" category="cell">랜섬웨어 복원력에 대한 접근성</block>
-  <block id="d4fedc7f035f96436f1598f9626876e2" category="cell">인증 서비스 접근</block>
   <block id="0e07fec3da393adf659f6e786a442b5d" category="section-title">유럽 기반 사용자 활동 에이전트 배포</block>
   <block id="e0a04d596459d34d5495089a5a992421" category="section-title">미국 기반 사용자 활동 에이전트 배포</block>
   <block id="0cd58d8585970b5311e84ca2c34ba5ef" category="section-title">네트워크 내 규칙</block>
@@ -2032,7 +2031,6 @@
   <block id="269ab41459ba8b3de391eb30b649d222" category="cell">CIFS/SMB 사용자 차단에 필요합니다.</block>
   <block id="c3c0e3736c092f9f194505694468ca8b" category="inline-link-macro">시스템 요구 사항</block>
   <block id="3711ac0a85bd797cffe6d1b55a460f16" category="paragraph">다음 조건을 충족했는지 확인하십시오. <block ref="24745d2c3c6c1ff64bcdf410b4214e6b" category="inline-link-macro-rx"></block> 사용자 활동 에이전트의 경우. 구성 설정이 지원되는 클라우드 공급자 및 지역을 준수하는지 확인하십시오.</block>
-  <block id="bbeae0eeffca7072631fe62be382e481" category="cell">랜섬웨어 복원력 서비스</block>
   <block id="28f949c139c27e6b09df3640a4d3aea0" category="doc">스냅샷을 ONTAP 에 복제합니다.</block>
   <block id="6ca5a36112bece1031ef1a3e82518ffb" category="inline-link-macro">랜섬웨어 공격으로부터 워크로드를 보호하세요.</block>
   <block id="0b603f5148dda4ce1b974e4b20493476" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="1b59dbcecddb451034333205ceb2d85d" category="inline-link-macro-rx"></block>.</block>
@@ -2121,4 +2119,17 @@
   <block id="02b8f736b0a683e2999fdad847ee8cd4" category="paragraph">사용자 수준 알림을 보려면 사용자 활동 에이전트를 구성하고 사용자 행동 감지 기능이 있는 보호 정책을 활성화해야 합니다. *의심스러운 사용자* 열은 사용자 행동 감지가 활성화된 경우에만 알림 대시보드에 나타납니다. 의심스러운 사용자 감지를 활성화하려면 <block ref="da26800578b610b8b3390e49bb643377" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="b37f5f6a060700bfc5da32b05dba5978" category="admonition">NetApp Data Infrastructure Insights(DII) Workload Security를 사용하는 경우 Ransomware Resilience에도 동일한 Workload Security 에이전트를 사용하는 것이 좋습니다. Ransomware Resilience를 위해 별도의 Workload Security 에이전트를 배포할 필요는 없지만, 동일한 Workload Security 에이전트를 사용하려면 Ransomware Resilience Console 조직과 DII Storage Workload Security 테넌트 간의 페어링 관계가 필요합니다. 이 페어링을 활성화하려면 담당 영업 담당자에게 문의하십시오. + DII _없이_ 의심스러운 사용자 탐지 기능을 사용하려면 <block ref="f31f86ab68cf8ca6dc8a3009e6d9ea7a" category="inline-link-macro-rx"></block>을(를) 확인하고 적절한 에이전트를 구성했는지 확인하십시오.</block>
   <block id="22b921337bb720d655059859772c0131" category="paragraph">공격을 차단한 후에는 스토리지 관리자에게 데이터 복구 준비가 완료되었음을 알려 복구 프로세스를 시작할 수 있도록 하십시오.</block>
+  <block id="beb3dd3f004aa88c321d7b13cd6d36c1" category="admonition">초기 설치 시 <block ref="50cff7c5933e29331b88e32e4f2a101d" prefix=" " category="inline-code"></block>을 와일드카드 <block ref="3389dae361af79b04c9c8e7057f60cc6" prefix="(" category="inline-code"></block> 권한으로 교체하십시오. 에이전트가 활성화되어 완전히 작동되면 권한을 사이트 이름으로 교체할 수 있습니다. 사이트 이름은 NetApp 담당자에게 문의하십시오.</block>
+  <block id="e7d932b2a7bf9471a38ac8c68fbf83ad" category="list-text">&lt;site_name&gt;.cs01-ap-1.cloudinsights.netapp.com</block>
+  <block id="8f31785e58dfdc396495a127fdd7d7dd" category="list-text">&lt;site_name&gt;.c01-ap-1.cloudinsights.netapp.com</block>
+  <block id="edc2894193def90c2ccbb8f855d6f564" category="list-text">&lt;site_name&gt;.c02-ap-1.cloudinsights.netapp.com</block>
+  <block id="b7293bd6a9f7cb8e5890a221fe74d3cb" category="list-text">gentlogin.cs01-ap-1.cloudinsights.netapp.com</block>
+  <block id="00c7e633a09840b7e60ee5de5aec797b" category="list-text">&lt;site_name&gt;.cs01-eu-1.cloudinsights.netapp.com</block>
+  <block id="54d1f56395e5ec9d39e9a416c61b311a" category="list-text">&lt;site_name&gt;.c01-eu-1.cloudinsights.netapp.com</block>
+  <block id="0ba615943513b9683a0e9b145f96e5b2" category="list-text">&lt;site_name&gt;.c02-eu-1.cloudinsights.netapp.com</block>
+  <block id="29acd3d3cfc5f8e3cb650abeb2622a68" category="list-text">agentlogin.cs01-eu-1.cloudinsights.netapp.com</block>
+  <block id="686fe123d13d19cbe67fa0429375b0e1" category="list-text">&lt;site_name&gt;.cs01.cloudinsights.netapp.com</block>
+  <block id="ce47b0513e6a5635f603be8cc52f392d" category="list-text">&lt;site_name&gt;.c01.cloudinsights.netapp.com</block>
+  <block id="906a7644c76f341f29012680a39f7225" category="list-text">&lt;site_name&gt;.c02.cloudinsights.netapp.com</block>
+  <block id="142b47c359d647af9faff9ef084152c7" category="list-text">agentlogin.cs01.cloudinsights.netapp.com</block>
 </blocks>
