@@ -118,7 +118,7 @@ IMPORTANT: 초기 설치 시  `<site_name>`을 와일드카드 (`*` 권한으로
 | 규약 | 포트 | 원천 | 목적지 | 설명 
 
 
-| TCP | 443 | 사용자 활동 에이전트  a| 
+| HTTPS(TCP) | 443 | 사용자 활동 에이전트  a| 
 * <site_name>.cs01-ap-1.cloudinsights.netapp.com
 * <site_name>.c01-ap-1.cloudinsights.netapp.com
 * <site_name>.c02-ap-1.cloudinsights.netapp.com
@@ -135,7 +135,7 @@ IMPORTANT: 초기 설치 시  `<site_name>`을 와일드카드 (`*` 권한으로
 | 규약 | 포트 | 원천 | 목적지 | 설명 
 
 
-| TCP | 443 | 사용자 활동 에이전트  a| 
+| HTTPS(TCP) | 443 | 사용자 활동 에이전트  a| 
 * <site_name>.cs01-eu-1.cloudinsights.netapp.com
 * <site_name>.c01-eu-1.cloudinsights.netapp.com
 * <site_name>.c02-eu-1.cloudinsights.netapp.com
@@ -152,7 +152,7 @@ IMPORTANT: 초기 설치 시  `<site_name>`을 와일드카드 (`*` 권한으로
 | 규약 | 포트 | 원천 | 목적지 | 설명 
 
 
-| TCP | 443 | 사용자 활동 에이전트  a| 
+| HTTPS(TCP) | 443 | 사용자 활동 에이전트  a| 
 * <site_name>.cs01.cloudinsights.netapp.com
 * <site_name>.c01.cloudinsights.netapp.com
 * <site_name>.c02.cloudinsights.netapp.com
@@ -172,7 +172,7 @@ IMPORTANT: 초기 설치 시  `<site_name>`을 와일드카드 (`*` 권한으로
 | TCP | 389(LDAP) 636(LDAP/start-tls) | 사용자 활동 에이전트 | LDAP 서버 URL | LDAP에 연결 
 
 
-| TCP | 443 | 사용자 활동 에이전트 | 클러스터 또는 SVM 관리 IP 주소(SVM 컬렉터 구성에 따라 다름) | ONTAP 과의 API 통신 
+| HTTPS(TCP) | 443 | 사용자 활동 에이전트 | 클러스터 또는 SVM 관리 IP 주소(SVM 컬렉터 구성에 따라 다름) | ONTAP 과의 API 통신 
 
 
 | TCP | 35000 - 55000  a| 
