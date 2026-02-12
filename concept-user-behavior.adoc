@@ -1,0 +1,60 @@
+---
+sidebar: sidebar 
+permalink: concept-user-behavior.html 
+keywords: ransomware protection alert, ransomware protection attack, detect ransomware alert, user activity, graph view, workload security 
+summary: 의심스러운 사용자 행동 감지 및 경고를 사용하여 워크로드에서 데이터 유출 및 데이터 파괴 이벤트를 방지하십시오. 
+---
+= NetApp Ransomware Resilience의 사용자 활동 감지에 대해 알아보십시오
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Ransomware Resilience는 의심스러운 사용자 행동 감지를 지원하여 사용자 수준에서 랜섬웨어 인시던트를 해결할 수 있도록 합니다.
+
+NetApp Ransomware Resilience는 의심스러운 사용자 활동을 모니터링하여 AI 기반 데이터 침해 탐지 기능을 제공합니다. 읽기 활동의 급격한 증가 및 읽기 활동 액세스 패턴을 통해 악의적인 의도를 판단합니다. 탐지가 완료되면 Ransomware Resilience는 NetApp Console, 이메일 및 구성된 보안 환경(예: SIEM)에 자동으로 경고를 생성합니다.
+
+의심스러운 사용자 행동 감지 및 경고 기능을 통해 NetApp Ransomware Resilience는 데이터 유출 및 파괴 시도와 의심스러운 패턴을 알려줍니다. 각 경고에서 NetApp Ransomware Resilience는 차단할 수 있는 사용자를 식별합니다.
+
+랜섬웨어 복원력은 ONTAP 의 FPolicy가 생성한 사용자 활동 이벤트를 분석하여 의심스러운 사용자 활동을 감지합니다. 사용자 활동 데이터를 수집하려면 하나 이상의 사용자 활동 에이전트를 배포해야 합니다. 에이전트는 테넌트의 장치에 연결할 수 있는 Linux 서버 또는 VM입니다.
+
+
+
+== 의심스러운 사용자 활동 포렌식
+
+NetApp Ransomware Resilience는 사용자 행동에 대한 포렌식 분석 기능을 제공합니다. 의심스러운 활동이 발생한 시점과 알림이 전송된 시점을 보여주는 목록과 그래프를 확인할 수 있습니다. 이러한 정보는 파일, 디렉터리, 볼륨 및 워크로드에서 발생하는 의심스러운 활동의 빈도를 시간 경과에 따라 자세히 보여주어 사건 발생 추이를 파악하는 데 도움을 줍니다. 또한 새로운 파일 확장자의 출현도 관찰할 수 있습니다.
+
+image:suspicious-activity-graph.png["모든 파일 활동 보기의 스크린샷"].
+
+의심스러운 활동을 전체 활동 보기와 비교할 수 있습니다. 전체 활동 보기에서는 읽기, 쓰기, 이름 변경, 이동, 생성, 삭제 이벤트 외에도 액세스 변경 및 액세스 거부 이벤트를 확인할 수 있습니다.
+
+image:all-file-activity.png["모든 파일 활동 보기의 스크린샷"].
+
+
+
+== 구성 요소
+
+Ransomware Resilience의 의심스러운 사용자 행동 활동 탐지에는 세 가지 핵심 구성 요소가 있습니다.
+
+* **사용자 활동 에이전트**는 데이터 수집기를 위한 실행 가능한 환경입니다. 사용자 활동 에이전트를 구성해야 합니다.
+* **데이터 수집기**는 사용자 활동 이벤트를 Ransomware Resilience와 공유합니다. 데이터 수집기는 xref:rp-use-protect.adoc#add-a-detection-policy-to-workloads-with-existing-snapshot-and-backup-policies-managed-by-snapcenter-or-backup-and-recovery[의심스러운 사용자 활동 탐지를 통해 랜섬웨어 보호 전략을 활성화합니다]할 때 자동으로 생성됩니다.
+* **사용자 디렉터리 커넥터**를 사용하면 사용자 이름과 사용자 ID 간의 매핑이 가능해져 의심스러운 사용자 활동에 대응할 때 더 명확하게 파악할 수 있습니다. 사용자 디렉터리 커넥터를 구성해야 합니다.
+
+
+
+
+== 랜섬웨어 복원력 및 Data Infrastructure Insights
+
+Ransomware Resilience의 의심스러운 사용자 행동 탐지는 Data Infrastructure Insights(DII) Workload Security와의 통합이며 link:reference-user-activity-requirements.html["Data Infrastructure Insights 엔드포인트"]를 사용합니다. Ransomware Resilience에서 사용자 행동 탐지를 활성화하기 위해 DII 구성은 필요하지 않습니다. 사용자 행동 탐지를 활성화하려면 link:suspicious-user-activity.html["필요한 에이전트와 컬렉터를 생성하고 적절한 랜섬웨어 보호 전략을 활성화합니다"].
+
+NetApp Data Infrastructure Insights(DII) Workload Security를 이미 사용 중인 경우 Ransomware Resilience에도 동일한 Workload Security 에이전트를 사용하는 것이 좋습니다. Ransomware Resilience를 위해 별도의 Workload Security 에이전트를 배포할 필요는 없지만, 동일한 Workload Security 에이전트를 사용하려면 Ransomware Resilience Console 조직과 DII Storage Workload Security 테넌트 간의 페어링 관계가 필요합니다. 이 페어링을 활성화하려면 담당 영업 담당자에게 문의하십시오.
+
+
+
+== 다음 단계
+
+* link:reference-user-activity-requirements.html["사용자 행동 활동 감지를 위한 요구 사항"]
+* link:suspicious-user-activity.html["사용자 행동 활동 에이전트 및 탐지기 구성"]
+

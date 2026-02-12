@@ -24,6 +24,8 @@ indexpage:
       url: "/rp-use-settings.html"
     - title: 랜섬웨어 공격 시뮬레이션
       url: "/rp-start-simulate.html"
+    - title: 의심스러운 사용자 활동 감지 구성
+      url: "/suspicious-user-activity.html"
   - title: 랜섬웨어 복원력 활용
     links:
     - title: 워크로드 검색

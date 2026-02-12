@@ -443,7 +443,7 @@ image:screen-protection.png["전략 관리 페이지"]
 . SnapCenter 정책에 대한 자세한 내용을 보려면 *아래쪽 화살표*를 선택하세요.
 . 원하는 탐지 설정을 선택하세요: *암호화 탐지* *의심스러운 사용자 행동 탐지* *의심스러운 파일 확장자 차단*
 . **다음**을 선택하세요.
-. *의심스러운 사용자 동작 감지*를 감지 설정으로 선택한 경우 사용자 활동 에이전트를 선택하거나link:suspicious-user-activity.html#add-a-user-activity-agent["또는 하나 만드세요"] .
+. 탐지 설정으로 *의심스러운 사용자 행동 감지*를 선택한 경우 User activity agent 또는 link:suspicious-user-activity.html#create-a-user-activity-agent["또는 하나 만드세요"]를 선택합니다.
 +
 사용자 활동 에이전트는 새로운 데이터 수집기를 호스팅합니다. 랜섬웨어 복원력은 사용자 활동 이벤트를 랜섬웨어 복원력으로 자동으로 전송하여 비정상적인 사용자 행동을 감지하는 데이터 수집기를 생성합니다.
 

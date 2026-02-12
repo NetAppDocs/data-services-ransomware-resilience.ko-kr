@@ -136,9 +136,6 @@ TIP: Console에서 이메일 알림을 설정하려면 link:https://docs.netapp.
 사용자 수준 알림을 보려면 사용자 활동 에이전트를 구성하고 사용자 행동 감지 기능이 있는 보호 정책을 활성화해야 합니다. *의심스러운 사용자* 열은 사용자 행동 감지가 활성화된 경우에만 알림 대시보드에 나타납니다. 의심스러운 사용자 감지를 활성화하려면 link:suspicious-user-activity.html["의심스러운 사용자 활동"]을 참조하십시오.
 
 
-NOTE: NetApp Data Infrastructure Insights(DII) Workload Security를 사용하는 경우 Ransomware Resilience에도 동일한 Workload Security 에이전트를 사용하는 것이 좋습니다. Ransomware Resilience를 위해 별도의 Workload Security 에이전트를 배포할 필요는 없지만, 동일한 Workload Security 에이전트를 사용하려면 Ransomware Resilience Console 조직과 DII Storage Workload Security 테넌트 간의 페어링 관계가 필요합니다. 이 페어링을 활성화하려면 담당 영업 담당자에게 문의하십시오. + DII _없이_ 의심스러운 사용자 탐지 기능을 사용하려면 link:suspicious-user-activity.html["의심스러운 사용자 활동 감지 기능을 활성화했습니다."]을(를) 확인하고 적절한 에이전트를 구성했는지 확인하십시오.
-
-
 
 === 악성 활동 보기
 

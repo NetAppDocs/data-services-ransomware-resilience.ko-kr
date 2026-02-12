@@ -196,7 +196,6 @@
   <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">NetApp Console</block>
   <block id="ddf52fb0677b5f9f1c4b564b82866d6e" category="paragraph">랜섬웨어 복원력은 NetApp Console 통해 이용할 수 있습니다.</block>
   <block id="0a0979a6d279475a420ea5c279943daa" category="paragraph">NetApp Console 엔터프라이즈급 온프레미스 및 클라우드 환경 전반에서 NetApp 스토리지 및 데이터 서비스를 중앙에서 관리할 수 있는 기능을 제공합니다. NetApp 데이터 서비스에 액세스하고 사용하려면 콘솔이 필요합니다. 관리 인터페이스로서, 하나의 인터페이스에서 여러 스토리지 리소스를 관리할 수 있습니다. 콘솔 관리자는 기업 내 모든 시스템의 저장소와 서비스에 대한 액세스를 제어할 수 있습니다.</block>
-  <block id="874065797510ef71853078d085cab4b0" category="paragraph">NetApp Console 사용하려면 라이선스나 구독이 필요하지 않으며, 스토리지 시스템이나 NetApp 데이터 서비스에 대한 연결을 보장하기 위해 클라우드에 Console 에이전트를 배포해야 할 때만 요금이 부과됩니다. 그러나 콘솔에서 액세스할 수 있는 일부 NetApp 데이터 서비스는 라이선스 기반이거나 구독 기반입니다.</block>
   <block id="a139b69cf2c6a37377eea224685da3f6" category="paragraph">자세히 알아보세요<block ref="6d844886de4fe963e1e4b97f495f829d" category="inline-link-macro-rx"></block> .</block>
   <block id="cbd914c846d96d6001aec3ae8b50e684" category="section-title">랜섬웨어 복원력의 작동 방식</block>
   <block id="16091f015c891dfa25a4cfd6d5a0d84b" category="paragraph">랜섬웨어 복원력은 NetApp Backup and Recovery 사용하여 파일 공유 워크로드에 대한 스냅샷 및 백업 정책을 검색하고 설정하고, SnapCenter 또는 SnapCenter for VMware를 사용하여 애플리케이션 및 VM 워크로드에 대한 스냅샷 및 백업 정책을 검색하고 설정합니다.  또한 Ransomware Resilience는 백업 및 복구와 SnapCenter / SnapCenter for VMware를 사용하여 파일 및 워크로드에 일관된 복구를 수행합니다.</block>
@@ -238,7 +237,6 @@
   <block id="ffc184891768c331383cd53bcd1bc968" category="list-text">NetApp 파일 공유</block>
   <block id="4f0550f066ae72bb8c24fc3f59c323bf" category="list-text">블록 스토리지</block>
   <block id="ed11408803c4c1aca5fbebbc43d88458" category="list-text">VMware 데이터스토어</block>
-  <block id="02f360fe822afa82c0f600943169df7e" category="section-title">랜섬웨어 보호에 도움이 될 수 있는 용어</block>
   <block id="77460e2b891748333455193aadd137d8" category="paragraph">랜섬웨어 보호와 관련된 용어를 이해하는 것이 도움이 될 수 있습니다.</block>
   <block id="826a4e8d8facce6f785b2a404538e6cd" category="list-text">*보호*: 랜섬웨어 복원력의 보호는 보호 정책을 사용하여 정기적으로 스냅샷과 변경 불가능한 백업이 다른 보안 도메인에 발생하도록 보장하는 것을 의미합니다.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지 사항</block>
@@ -462,11 +460,7 @@
   <block id="fb197ee87a0f850dc3b7bb98fe408518" category="inline-link-macro">설정 구성</block>
   <block id="35743d3ea81079f21301876eeaf2d70d" category="paragraph">랜섬웨어 복원력은 설정 옵션을 통해 백업 대상을 구성하는 데 도움이 됩니다. 보다 <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block> .</block>
   <block id="1afe90b99262d688f040631ea9d6dcce" category="section-title">ONTAP 시스템에서 관리자가 아닌 사용자 권한 업데이트</block>
-  <block id="63d2122922e06d4feae3b17b3f005ec1" category="paragraph">특정 시스템에 대한 관리자가 아닌 사용자 권한을 업데이트해야 하는 경우 다음 단계를 완료하세요.</block>
-  <block id="df4a4e3e8d87a650fd5d152bd4fab199" category="list-text">콘솔에 로그인하여 ONTAP 사용자 권한을 업데이트해야 하는 시스템을 찾으세요.</block>
-  <block id="0a8a7f0fafc4b245a6e039b7da0e38c7" category="list-text">자세한 내용을 보려면 시스템을 선택하세요.</block>
   <block id="ddf0d8cb7fa932ccfbf9231d4f27f992" category="list-text">사용자 이름을 표시하려면 *추가 정보 보기*를 선택하세요.</block>
-  <block id="af2fd7f57e628b460dd2978fa6cf0a79" category="list-text">해당 사용자의 기존 역할을 표시합니다. 입력하다:</block>
   <block id="ec2732dacf33a5e90fbcf1cf42cb9ef7" category="list-text">사용자의 역할을 변경합니다. 입력하다:</block>
   <block id="01ad1e9b6ee32140ab032c379c4fd753" category="summary">몇 단계만 거치면 NetApp Ransomware Resilience 시작할 수 있습니다.</block>
   <block id="87269d545e3fccdff13a867df7261ace" category="doc">NetApp Ransomware Resilience 대한 빠른 시작</block>
@@ -998,7 +992,6 @@
   <block id="346ced422939f5220048eed80e512829" category="list-text">SnapCenter 정책에 대한 자세한 내용을 보려면 *아래쪽 화살표*를 선택하세요.</block>
   <block id="c716b644cde6bcf010e93cdafcb078a0" category="list-text">**다음**을 선택하세요.</block>
   <block id="a3de809b15b92430b0a649973defb161" category="inline-link-macro">또는 하나 만드세요</block>
-  <block id="4ba6fce8781481d7a10ccdf42ed8690d" category="list-text">*의심스러운 사용자 동작 감지*를 감지 설정으로 선택한 경우 사용자 활동 에이전트를 선택하거나<block ref="739a3400f03009256dff1eb7cc8f7f4a" category="inline-link-macro-rx"></block> .</block>
   <block id="8e7f1a46323a19741e1abd05eac8cbb8" category="paragraph">사용자 활동 에이전트는 새로운 데이터 수집기를 호스팅합니다. 랜섬웨어 복원력은 사용자 활동 이벤트를 랜섬웨어 복원력으로 자동으로 전송하여 비정상적인 사용자 행동을 감지하는 데이터 수집기를 생성합니다.</block>
   <block id="7976453f8009e02e337c120a10100393" category="list-text">선택 사항을 검토하세요. 감지 기능을 활성화하려면 **만들기**를 선택하세요.</block>
   <block id="24fae1821c4530c41f4af2d4f1f70175" category="list-text">보호 페이지에서 **탐지 상태**를 검토하여 탐지가 활성화되어 있는지 확인하세요.</block>
@@ -1485,11 +1478,7 @@
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">세 개의 수평 점으로 구성된 아이콘</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다. 이 계정의 토큰은 90일 후에 만료됩니다. 이에 대한 알림이 게시됩니다.</block>
   <block id="2a4edc5ec6e55f07dba0609dc2cd6d87" category="summary">랜섬웨어 복원력의 의심스러운 사용자 활동 감지 기능을 사용하면 잠재적인 위협이 될 수 있는 사용자 활동을 감지할 수 있습니다.</block>
-  <block id="906ec8bab01967c36f2f073eff9f54df" category="doc">NetApp Ransomware Resilience 에서 의심스러운 사용자 활동 감지 구성</block>
-  <block id="9ba1db4a2c84400f14de2d58496b9f52" category="paragraph">랜섬웨어 복원력은 탐지 정책에서 의심스러운 사용자 행동을 탐지하도록 지원하여 사용자 수준에서 랜섬웨어 사고를 해결할 수 있도록 합니다.</block>
   <block id="fa83d0f077ae64e1df0b8a9ed9982815" category="paragraph">수집기는 랜섬웨어 복원력 설정에서 구성됩니다.</block>
-  <block id="4f047e83e52e21d5382adc1b5dbf3119" category="section-title">사용자 활동 에이전트 추가</block>
-  <block id="4d4379036f7207029fbe126649ccc0a6" category="paragraph">사용자 활동 에이전트는 데이터 수집기를 위한 실행 가능한 환경이며, 데이터 수집기는 Ransomware Resilience와 사용자 활동 이벤트를 공유합니다. 의심스러운 사용자 활동을 감지하려면 최소한 하나의 사용자 활동 에이전트를 만들어야 합니다.</block>
   <block id="696c660ff8d9323e55146a6dbd4e4088" category="cell">운영 체제</block>
   <block id="2e5d14f7919ff3c6138e7845aec4f915" category="cell">지원되는 버전</block>
   <block id="c158e3ead98c5929e4228914a1e6e615" category="cell">알마리눅스</block>
@@ -1517,13 +1506,11 @@
   <block id="1dc03f52e7a38f5b6ec91f4303e010ad" category="inline-image-macro">활동 추가 에이전트 인터페이스의 스크린샷입니다.</block>
   <block id="7298950e09abf5a29938d42a442acced" category="paragraph"><block ref="7298950e09abf5a29938d42a442acced" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f2d7e7792f60fc56fc833ac06d43ff03" category="list-text">설정을 검토하세요. *활성화*를 선택하여 사용자 활동 에이전트 추가를 완료합니다.</block>
-  <block id="a5990ac92f36dcb99f016321efbfa2cd" category="list-text">사용자 활동 에이전트가 성공적으로 생성되었는지 확인하세요. 사용자 활동 타일에서 배포가 성공하면 '실행 중'으로 표시됩니다.</block>
   <block id="87890c9758b28588c6845cfcf6d19b17" category="section-title">데이터 수집기 추가</block>
   <block id="cebc35dcf9d04a393d86d35a4e3cf6be" category="inline-xref-macro">탐지 정책 추가</block>
   <block id="723cff7a2b53371ffdffcdc65a370014" category="paragraph">데이터 수집기의 세부 정보를 볼 수 있습니다. 설정에서 사용자 활동 타일의 **관리**를 선택합니다. **데이터 수집기** 탭을 선택한 다음 데이터 수집기를 선택하여 세부 정보를 보거나 일시 중지합니다.</block>
   <block id="79994c0d6b62d6854ba2d69416af2030" category="inline-image-macro">사용자 활동 설정 스크린샷</block>
   <block id="eb9abd0b9e77424befbbd0596585482d" category="paragraph"><block ref="eb9abd0b9e77424befbbd0596585482d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ae5063128f989ec31ec308b7dd0cb2ed" category="section-title">사용자 디렉토리 커넥터 추가</block>
   <block id="8348d8dcee9ea32e049e21c42a431b91" category="list-text">랜섬웨어 복원력에서 *설정*으로 이동합니다.</block>
   <block id="9fcb0a7634f29d96ae98e37bbc76e1cd" category="list-text">사용자 활동 타일에서 **관리**를 선택합니다.</block>
   <block id="e70202c14c96f451fdcf2617844ea351" category="list-text">**사용자 디렉터리 커넥터** 탭을 선택한 다음 **추가**를 선택합니다.</block>
@@ -1541,9 +1528,7 @@
   <block id="064c929bca3d74ce57c593b98179d9b6" category="list-text">사용자 활동 타일을 찾아 **관리**를 선택합니다.</block>
   <block id="7a4d95b4bd97e134c18ec0bc73dfdc26" category="list-text">**사용자 디렉토리 커넥터** 탭을 선택합니다.</block>
   <block id="78b1b242bace6a18a2fc89d34f35271a" category="list-text">삭제하려는 사용자 디렉토리 커넥터를 식별합니다. 줄 끝의 작업 메뉴에서 세 개의 점을 선택하세요.<block ref="2f43b42fd833d1e77420a8dae7419000" prefix=" " category="inline-code"></block> 그런 다음 **삭제**를 클릭합니다.</block>
-  <block id="d612f3439b60caf42aae1b535bd86696" category="list-text">팝업 대화 상자에서 **삭제**를 선택하여 작업을 확인합니다.</block>
   <block id="2dbd6a4739d1db42b8aac2205ef06e6e" category="section-title">의심스러운 사용자 활동 알림에 대응</block>
-  <block id="2d8b6636ea3b13ca52dd572d55fc4d15" category="paragraph">의심스러운 사용자 활동 감지를 구성한 후 알림 페이지에서 이벤트를 모니터링할 수 있습니다. 자세한 내용은 다음을 참조하세요. <block ref="23491e50ff66c3ad8e47bd3a8caca02f" category="inline-link-macro-rx"></block> .</block>
   <block id="e5b5e43b801607d44c3fb5101a5e5b57" category="summary">NetApp Ransomware Resilience 의 새로운 기능을 알아보세요.</block>
   <block id="be2c4f84f4ed6985fafea5f33caf0b99" category="doc">NetApp Ransomware Resilience 의 새로운 기능</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025년 10월 6일</block>
@@ -1674,7 +1659,6 @@
   <block id="3e89831fbd0267df9052ee5e70bc06ab" category="sidebar">랜섬웨어 복원력에 액세스</block>
   <block id="36eabf0873c4e7de41ebd02438b3b19f" category="sidebar">준비 훈련을 통해 랜섬웨어 공격을 시뮬레이션하세요</block>
   <block id="a216cb7967dcfa49b3b976657369cd25" category="sidebar">설정에서 백업, 위협 탐지 및 공격 시뮬레이션을 구성하세요.</block>
-  <block id="e65f6e4b1867bfedf08120cb1ab99c24" category="sidebar">의심스러운 사용자 활동 감지 구성</block>
   <block id="d67482bbf82ef9c339e44809ea9873b1" category="sidebar">랜섬웨어 보호 전략으로 워크로드를 보호하세요</block>
   <block id="4b55af6e5a9948a11e84a0809a34edfb" category="sidebar">개인 식별 데이터를 스캔하세요</block>
   <block id="f8a7dc43864435cb9b522a28b586e556" category="sidebar">랜섬웨어 공격으로부터 복구</block>
@@ -1741,7 +1725,6 @@
   <block id="7149ff1e14f0a158752906babaa08dc3" category="list-text">해당 사건에 대해 다운로드 아이콘을 선택하여 영향을 받은 파일 목록을 CSV 형식으로 다운로드하세요.</block>
   <block id="fe1bb8cb54f03cf7a69c3e9568118b30" category="list-text">**데이터 수집기**는 ONTAP 에서 사용자 활동 데이터를 수집합니다.</block>
   <block id="b6173a051353d59a4ee775fcef288441" category="list-text">**사용자 디렉토리 커넥터**는 디렉토리에 연결하여 사용자 ID를 사용자 이름에 매핑합니다.</block>
-  <block id="398de83ff8f318218f9eaedb05929ef0" category="paragraph">사용자 활동 에이전트가 성공적으로 생성되면 **설정** 메뉴로 돌아간 다음 사용자 활동 타일에서 **관리**를 선택합니다. **사용자 활동 에이전트** 탭을 선택한 다음 사용자 활동 에이전트를 선택하여 데이터 수집기 및 사용자 디렉터리 커넥터를 포함한 해당 에이전트에 대한 세부 정보를 확인합니다.</block>
   <block id="a83ea9a287c9fdd0689933a464055150" category="paragraph">사용자 ID를 사용자 이름에 매핑하려면 사용자 디렉토리 커넥터를 만들어야 합니다.</block>
   <block id="89bd0177a422e5d81fce2f8f82dac3f6" category="paragraph-title">랜섬웨어 복원력을 사용하려면 라이선스가 필요합니까?</block>
   <block id="bc43d832ca9bfb061aff20db6dea53d8" category="list-text">BYOL(Bring Your Own License)은 NetApp 영업 담당자로부터 받는 NetApp 라이선스 파일(NLF)입니다. 콘솔의 Licenses and subscriptions 섹션에서 라이선스 일련 번호를 사용하여 BYOL을 활성화할 수 있습니다.</block>
@@ -1978,7 +1961,6 @@
   <block id="7e56b5e89b8f29e1bd4a5ecf15c201e8" category="paragraph">30일 무료 체험판을 통해 Ransomware Resilience를 사용해 보세요. NetApp Ransomware Resilience 평가판 사용에 대해 요금을 청구하지 않습니다.</block>
   <block id="773dd0f5eb55036249a06d189bd46093" category="section-title">의심스러운 사용자 행동 요구사항</block>
   <block id="567dcfd6302e5511c1b546a4df21a679" category="inline-link-macro">요구 사항</block>
-  <block id="3fa9bd6939fae83104d5483bb4df09cf" category="paragraph">랜섬웨어 복원력이 의심스러운 사용자 동작에 대한 알림을 제공하려면 사용자 활동 에이전트를 구성해야 합니다. To install a user activity agent, ensure your system meets <block ref="48db2132a53f1fefbda7dcf1745aa324" category="inline-link-macro-rx"></block>.</block>
   <block id="7f176789d86d465c8df04184cd91e82b" category="doc">NetApp Ransomware Resilience 보드를 사용하여 워크로드 상태를 모니터링합니다.</block>
   <block id="bb0857f5685be3107534e9cb3600a43f" category="paragraph">대시보드를 사용하여 보호 제안을 검토하고, 설정을 변경하고, 보고서를 다운로드할 수 있습니다.</block>
   <block id="acf2855d96f83cab1f4ac80844c18ed5" category="admonition">이 데이터에 대한 팁을 보려면 "i" 도구 설명을 선택하세요. 작업 부하 한도를 늘리려면 이 i 노트에서 *작업 부하 한도 늘리기*를 선택하세요. 이 옵션을 선택하면 케이스 티켓을 생성할 수 있는 콘솔 지원 페이지로 이동합니다.</block>
@@ -1988,22 +1970,16 @@
   <block id="83740edb7e1cce01ad9abd22c965f833" category="inline-image-macro">다운로드 옵션 아이콘 이미지</block>
   <block id="003de596593787da81cd02bc78808f9d" category="list-text">해당 페이지에서 *다운로드*를 선택하세요. <block ref="10920434d8a4b3cb6afdcf0337f83d24" category="inline-image-macro-rx" type="image"></block> 옵션.</block>
   <block id="d51c0020ded66c680ed4bf4dab57a782" category="paragraph">랜섬웨어 복원력은 ONTAP 의 FPolicy가 생성한 사용자 활동 이벤트를 분석하여 의심스러운 사용자 활동을 감지합니다. 사용자 활동 데이터를 수집하려면 하나 이상의 사용자 활동 에이전트를 배포해야 합니다. 에이전트는 테넌트의 장치에 연결할 수 있는 Linux 서버 또는 VM입니다.</block>
-  <block id="951fa3938f2418e5c7bdceb36d525b4e" category="section-title">사용자 활동 에이전트 및 수집기</block>
-  <block id="012fdb750d9f768ed33b4236dd982ae4" category="paragraph">Ransomware Resilience에서 의심스러운 사용자 활동 감지를 활성화하려면 최소 하나 이상의 사용자 활동 에이전트를 설치해야 합니다. 랜섬웨어 복원력 대시보드에서 의심스러운 사용자 활동 기능을 활성화하는 경우 에이전트 호스트 정보를 제공해야 합니다.</block>
   <block id="da7bfaf398235069a409197330d59b53" category="paragraph">에이전트는 여러 개의 데이터 수집기를 호스팅할 수 있습니다. 데이터 수집자는 분석을 위해 SaaS 위치로 데이터를 보냅니다. 수집가에는 두 가지 유형이 있습니다.</block>
-  <block id="1e496ca2f7a66d863132588473f14de2" category="section-title">시스템 요구 사항</block>
-  <block id="b7cc904e79a175038a121ea330565832" category="paragraph">사용자 활동 에이전트를 설치하려면 다음 요구 사항을 충족하는 호스트 또는 VM이 필요합니다.</block>
   <block id="b9300e15e3fa20c1dc3ecfabbbb96a7b" category="section-title">운영 체제 요구 사항</block>
   <block id="afea8c44acd019a3a489f7a3ddeb5c8e" category="admonition">사용자 활동 에이전트에 사용하는 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버를 권장합니다.</block>
   <block id="19edca9ea70315410039bf08b3ffecda" category="paragraph">그만큼<block ref="0a342b59ecdcede0571340b9ed11633f" prefix=" " category="inline-code"></block> 설치를 위해서는 명령어가 필요합니다. 그만큼<block ref="beb493211c3135923a11284ef26bf909" prefix=" " category="inline-code"></block> 설치, 스크립트 실행 및 제거에는 명령어가 필요합니다.</block>
   <block id="a54c13ad42512dbfec4e8a44d793a52e" category="section-title">서버 요구 사항</block>
   <block id="34af15b56c0def7a2806fd4b03537e12" category="list-text">**디스크 공간**: 36GB의 여유 디스크 공간</block>
   <block id="68eda0e29d8e074409c51f53581f3a64" category="admonition">파일 시스템 생성을 위해 추가 디스크 공간을 할당하십시오. 파일 시스템에 최소 35GB의 여유 공간이 있는지 확인하십시오. + 만약<block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block> NAS 저장소에서 마운트된 폴더이므로 로컬 사용자는 이 폴더에 대한 접근 권한이 있어야 합니다. 로컬 사용자에게 필요한 권한이 없는 경우 사용자 활동 에이전트 생성이 실패할 수 있습니다.</block>
-  <block id="4efd7fc25783a87a8f0795f4de1a8af7" category="admonition">사용자 활동 에이전트는 랜섬웨어 복원력 환경과는 다른 시스템에 설치하는 것이 좋습니다. 같은 컴퓨터에 두 프로그램을 모두 설치하려면 50~55GB의 디스크 공간을 확보해야 합니다. 리눅스의 경우 25~30GB의 공간을 할당하세요.<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> 그리고 25GB<block ref="ea5f88360fb7c06d3270b165b4dad226" prefix=" " category="inline-code"></block>.</block>
   <block id="52554f7429cd5c72cd3c3e9561412160" category="admonition">ONTAP 시스템과 사용자 활동 에이전트 시스템의 시간을 네트워크 시간 프로토콜(NTP) 또는 단순 네트워크 시간 프로토콜(SNTP)을 사용하여 동기화하는 것이 좋습니다.</block>
   <block id="77469c598ab2b5984e8dafd3d15a2315" category="section-title">클라우드 네트워크 액세스 규칙</block>
   <block id="c793f078b8fd1dcce9dfd5ae57f2a51c" category="paragraph">해당 지역(아시아 태평양, 유럽 또는 미국)의 클라우드 네트워크 액세스 규칙을 검토하십시오.</block>
-  <block id="b59e5489bdc375550b52afe395f08180" category="section-title">APAC 기반 사용자 활동 에이전트 배포</block>
   <block id="60aaf44d4b562252c04db7f98497e9aa" category="cell">포트</block>
   <block id="f31bbdd1b3e85bccd652680e16935819" category="cell">원천</block>
   <block id="12007e1d59f4d09c87dbe2c438256244" category="cell">목적지</block>
@@ -2011,8 +1987,6 @@
   <block id="13f3cf8c531952d72e5847c4183e6910" category="cell">443</block>
   <block id="f2ca52b87225d79d40f899aebabeec45" category="cell">사용자 활동 에이전트</block>
   <block id="b7169d36c5259a3a051359ca51dbd682" category="cell">랜섬웨어 복원력에 대한 접근성</block>
-  <block id="0e07fec3da393adf659f6e786a442b5d" category="section-title">유럽 기반 사용자 활동 에이전트 배포</block>
-  <block id="e0a04d596459d34d5495089a5a992421" category="section-title">미국 기반 사용자 활동 에이전트 배포</block>
   <block id="0cd58d8585970b5311e84ca2c34ba5ef" category="section-title">네트워크 내 규칙</block>
   <block id="1b09a58921479be87f9dae639915150f" category="cell">389(LDAP) 636(LDAP/start-tls)</block>
   <block id="84caee864977bc98db0b0df24853f63c" category="cell">LDAP 서버 URL</block>
@@ -2029,8 +2003,6 @@
   <block id="b6d767d2f8ed5d21a44b0e5886680cb9" category="cell">22</block>
   <block id="1eb5ae63609e68a11106494d272615bf" category="cell">클러스터 관리</block>
   <block id="269ab41459ba8b3de391eb30b649d222" category="cell">CIFS/SMB 사용자 차단에 필요합니다.</block>
-  <block id="c3c0e3736c092f9f194505694468ca8b" category="inline-link-macro">시스템 요구 사항</block>
-  <block id="3711ac0a85bd797cffe6d1b55a460f16" category="paragraph">다음 조건을 충족했는지 확인하십시오. <block ref="24745d2c3c6c1ff64bcdf410b4214e6b" category="inline-link-macro-rx"></block> 사용자 활동 에이전트의 경우. 구성 설정이 지원되는 클라우드 공급자 및 지역을 준수하는지 확인하십시오.</block>
   <block id="28f949c139c27e6b09df3640a4d3aea0" category="doc">스냅샷을 ONTAP 에 복제합니다.</block>
   <block id="6ca5a36112bece1031ef1a3e82518ffb" category="inline-link-macro">랜섬웨어 공격으로부터 워크로드를 보호하세요.</block>
   <block id="0b603f5148dda4ce1b974e4b20493476" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="1b59dbcecddb451034333205ceb2d85d" category="inline-link-macro-rx"></block>.</block>
@@ -2095,7 +2067,6 @@
   <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">이는 귀하의 이메일에 매핑되는 시스템 생성 ID입니다. *NSS 관리* 페이지에서 이메일을 표시할 수 있습니다.<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 *자격 증명 업데이트* 옵션도 있습니다.<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
   <block id="667dffcf5676fe0bd645082d2a512fef" category="section-title">2026년 1월 12일</block>
-  <block id="1f84339ab34d5298a23a70d51ad457d4" category="inline-link-macro">의심스러운 사용자 활동 감지 기능을 활성화했습니다.</block>
   <block id="49fa679e35a13dc09de6805c384904d1" category="list-text">백업 정책을 구성하려면 정책을 선택한 다음 **다음**을 선택하십시오.</block>
   <block id="748b96a793ccf0ab113112372db17649" category="paragraph">랜섬웨어 복원력 기능이 이제 스냅샷 복제본을 보조 ONTAP 사이트에 추가하는 것을 지원합니다. 복제 정책을 사용하는 보호 그룹을 사용하면 모든 워크로드에 대해 동일한 대상 또는 서로 다른 대상으로 복제할 수 있습니다. 랜섬웨어 방어 전략을 생성할 때 복제 기능을 포함하거나 미리 정의된 전략을 사용할 수 있습니다.</block>
   <block id="389e0c39aeda061370262a9fa330d865" category="doc">지원되지 않는 볼륨</block>
@@ -2116,9 +2087,7 @@
   <block id="53140a5b1fd2965a3ae256fca48ef979" category="paragraph">Ransomware Resilience가 잠재적인 공격을 감지하면 NetApp Console 설정에서 구성된 구독 알림 기본 설정에 따라 구독 사용자에게 이메일 알림을 보냅니다. 이메일에는 심각도 및 영향을 받는 리소스를 포함한 경고 관련 정보가 포함되어 있습니다.</block>
   <block id="a2079b2871fe8072cb3a3a5245ad0458" category="admonition">Console에서 이메일 알림을 설정하려면 <block ref="7a8deb9a674d2246166ab2113d0b6247" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="02b8f736b0a683e2999fdad847ee8cd4" category="paragraph">사용자 수준 알림을 보려면 사용자 활동 에이전트를 구성하고 사용자 행동 감지 기능이 있는 보호 정책을 활성화해야 합니다. *의심스러운 사용자* 열은 사용자 행동 감지가 활성화된 경우에만 알림 대시보드에 나타납니다. 의심스러운 사용자 감지를 활성화하려면 <block ref="da26800578b610b8b3390e49bb643377" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="b37f5f6a060700bfc5da32b05dba5978" category="admonition">NetApp Data Infrastructure Insights(DII) Workload Security를 사용하는 경우 Ransomware Resilience에도 동일한 Workload Security 에이전트를 사용하는 것이 좋습니다. Ransomware Resilience를 위해 별도의 Workload Security 에이전트를 배포할 필요는 없지만, 동일한 Workload Security 에이전트를 사용하려면 Ransomware Resilience Console 조직과 DII Storage Workload Security 테넌트 간의 페어링 관계가 필요합니다. 이 페어링을 활성화하려면 담당 영업 담당자에게 문의하십시오. + DII _없이_ 의심스러운 사용자 탐지 기능을 사용하려면 <block ref="f31f86ab68cf8ca6dc8a3009e6d9ea7a" category="inline-link-macro-rx"></block>을(를) 확인하고 적절한 에이전트를 구성했는지 확인하십시오.</block>
   <block id="22b921337bb720d655059859772c0131" category="paragraph">공격을 차단한 후에는 스토리지 관리자에게 데이터 복구 준비가 완료되었음을 알려 복구 프로세스를 시작할 수 있도록 하십시오.</block>
-  <block id="beb3dd3f004aa88c321d7b13cd6d36c1" category="admonition">초기 설치 시 <block ref="50cff7c5933e29331b88e32e4f2a101d" prefix=" " category="inline-code"></block>을 와일드카드 <block ref="3389dae361af79b04c9c8e7057f60cc6" prefix="(" category="inline-code"></block> 권한으로 교체하십시오. 에이전트가 활성화되어 완전히 작동되면 권한을 사이트 이름으로 교체할 수 있습니다. 사이트 이름은 NetApp 담당자에게 문의하십시오.</block>
   <block id="e7d932b2a7bf9471a38ac8c68fbf83ad" category="list-text">&lt;site_name&gt;.cs01-ap-1.cloudinsights.netapp.com</block>
   <block id="8f31785e58dfdc396495a127fdd7d7dd" category="list-text">&lt;site_name&gt;.c01-ap-1.cloudinsights.netapp.com</block>
   <block id="edc2894193def90c2ccbb8f855d6f564" category="list-text">&lt;site_name&gt;.c02-ap-1.cloudinsights.netapp.com</block>
@@ -2133,4 +2102,72 @@
   <block id="142b47c359d647af9faff9ef084152c7" category="list-text">agentlogin.cs01.cloudinsights.netapp.com</block>
   <block id="9d710e8874b82a90107c10683350b48a" category="paragraph">랜섬웨어 방어 전략은 _탐지_, _보호_ 및 _복제_ 정책을 포함합니다.</block>
   <block id="7923de3f0c836263e77d3ef5585b2ee7" category="cell">HTTPS(TCP)</block>
+  <block id="af60295fce6b96f900090d3e184223fe" category="paragraph">NetApp Data Infrastructure Insights(DII) Workload Security를 이미 사용 중인 경우 Ransomware Resilience에도 동일한 Workload Security 에이전트를 사용하는 것이 좋습니다. Ransomware Resilience를 위해 별도의 Workload Security 에이전트를 배포할 필요는 없지만, 동일한 Workload Security 에이전트를 사용하려면 Ransomware Resilience Console 조직과 DII Storage Workload Security 테넌트 간의 페어링 관계가 필요합니다. 이 페어링을 활성화하려면 담당 영업 담당자에게 문의하십시오.</block>
+  <block id="27db5f7ea4fbef607be3e5580d6023dd" category="paragraph">NetApp Console을 사용하기 위해 라이선스나 구독이 필요한 것은 아니며, 스토리지 시스템 또는 NetApp 데이터 서비스와의 연결을 보장하기 위해 클라우드에 Console 에이전트를 배포할 때만 비용이 발생합니다. 단, Console에서 액세스할 수 있는 일부 NetApp 데이터 서비스는 라이선스 또는 구독 기반입니다.</block>
+  <block id="354ccfdcbf26f407e895a47f9d8a503b" category="section-title">주요 용어</block>
+  <block id="206e0373b94bf3006b9c11363d0a6656" category="summary">의심스러운 사용자 행동 감지 및 경고를 사용하여 워크로드에서 데이터 유출 및 데이터 파괴 이벤트를 방지하십시오.</block>
+  <block id="82156aa22b84e7cdae45e96a8874e738" category="doc">NetApp Ransomware Resilience의 사용자 활동 감지에 대해 알아보십시오</block>
+  <block id="074b162bda03a9fc18a8e2478409227d" category="paragraph">NetApp Ransomware Resilience는 의심스러운 사용자 행동 감지를 지원하여 사용자 수준에서 랜섬웨어 인시던트를 해결할 수 있도록 합니다.</block>
+  <block id="1627b4ca1991074a822eba6346ce7cf3" category="paragraph">NetApp Ransomware Resilience는 의심스러운 사용자 활동을 모니터링하여 AI 기반 데이터 침해 탐지 기능을 제공합니다. 읽기 활동의 급격한 증가 및 읽기 활동 액세스 패턴을 통해 악의적인 의도를 판단합니다. 탐지가 완료되면 Ransomware Resilience는 NetApp Console, 이메일 및 구성된 보안 환경(예: SIEM)에 자동으로 경고를 생성합니다.</block>
+  <block id="ac1c3ee23cfae2a6639804d5bf68bc7b" category="paragraph">의심스러운 사용자 행동 감지 및 경고 기능을 통해 NetApp Ransomware Resilience는 데이터 유출 및 파괴 시도와 의심스러운 패턴을 알려줍니다. 각 경고에서 NetApp Ransomware Resilience는 차단할 수 있는 사용자를 식별합니다.</block>
+  <block id="5a163912783b3c6dabd57eb66f95fd81" category="section-title">의심스러운 사용자 활동 포렌식</block>
+  <block id="a67f686690c7ab560a999ed6e1388387" category="paragraph">NetApp Ransomware Resilience는 사용자 행동에 대한 포렌식 분석 기능을 제공합니다. 의심스러운 활동이 발생한 시점과 알림이 전송된 시점을 보여주는 목록과 그래프를 확인할 수 있습니다. 이러한 정보는 파일, 디렉터리, 볼륨 및 워크로드에서 발생하는 의심스러운 활동의 빈도를 시간 경과에 따라 자세히 보여주어 사건 발생 추이를 파악하는 데 도움을 줍니다. 또한 새로운 파일 확장자의 출현도 관찰할 수 있습니다.</block>
+  <block id="02a67200e42b35e71345f58bd2d775c7" category="inline-image-macro">모든 파일 활동 보기의 스크린샷</block>
+  <block id="487282b4d6c56d72392385b208588404" category="paragraph"><block ref="07c9bb39165625164f68bd238da6408f" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="6bc8a06a459a0d2214186eb151bdd57f" category="paragraph">의심스러운 활동을 전체 활동 보기와 비교할 수 있습니다. 전체 활동 보기에서는 읽기, 쓰기, 이름 변경, 이동, 생성, 삭제 이벤트 외에도 액세스 변경 및 액세스 거부 이벤트를 확인할 수 있습니다.</block>
+  <block id="792ee2f33057c1f11c391b212b045c77" category="paragraph"><block ref="96bbe9b1211998a6e7e8886375bb3a56" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="05bbb43b3d923283e0b6ffafd088f41f" category="section-title">구성 요소</block>
+  <block id="b4fb5162d4e2b2c8cd91b15fdb14da68" category="paragraph">Ransomware Resilience의 의심스러운 사용자 행동 활동 탐지에는 세 가지 핵심 구성 요소가 있습니다.</block>
+  <block id="33f62223b33e38496534300dcae35620" category="list-text">**사용자 활동 에이전트**는 데이터 수집기를 위한 실행 가능한 환경입니다. 사용자 활동 에이전트를 구성해야 합니다.</block>
+  <block id="deecb3eddf0c0100fbbd14529b41b460" category="inline-xref-macro">의심스러운 사용자 활동 탐지를 통해 랜섬웨어 보호 전략을 활성화합니다</block>
+  <block id="c4609467d00df3610ff2f210aafff8b2" category="list-text">**데이터 수집기**는 사용자 활동 이벤트를 Ransomware Resilience와 공유합니다. 데이터 수집기는 <block ref="c19104d57074dd1c9a267e1c5da6c193" category="inline-xref-macro-rx"></block>할 때 자동으로 생성됩니다.</block>
+  <block id="36a3ad726c8c5be9317408ba7fc9fbbb" category="list-text">**사용자 디렉터리 커넥터**를 사용하면 사용자 이름과 사용자 ID 간의 매핑이 가능해져 의심스러운 사용자 활동에 대응할 때 더 명확하게 파악할 수 있습니다. 사용자 디렉터리 커넥터를 구성해야 합니다.</block>
+  <block id="bf79cae4914e3581b2da41344f5d22a3" category="section-title">랜섬웨어 복원력 및 Data Infrastructure Insights</block>
+  <block id="58fad0abcf1e493b911b1fec13e0ad03" category="inline-link-macro">Data Infrastructure Insights 엔드포인트</block>
+  <block id="75a6a9319b6e0275c06122285e74cd15" category="inline-link-macro">필요한 에이전트와 컬렉터를 생성하고 적절한 랜섬웨어 보호 전략을 활성화합니다</block>
+  <block id="2ce1aa775333063c8d5109b382e42bda" category="paragraph">Ransomware Resilience의 의심스러운 사용자 행동 탐지는 Data Infrastructure Insights(DII) Workload Security와의 통합이며 <block ref="993ff5110e958e49fd06b299835086fa" category="inline-link-macro-rx"></block>를 사용합니다. Ransomware Resilience에서 사용자 행동 탐지를 활성화하기 위해 DII 구성은 필요하지 않습니다. 사용자 행동 탐지를 활성화하려면 <block ref="4bdaea1abd6621c9e973abeffc732722" category="inline-link-macro-rx"></block>.</block>
+  <block id="cce78dc6ebbec7385a01f2146d6d01c8" category="section-title">다음 단계</block>
+  <block id="b653b21a84dc4f7eff813be91d1c09c6" category="inline-link-macro">사용자 행동 활동 감지를 위한 요구 사항</block>
+  <block id="411fa4c20567ddb2326b3d53683bd67f" category="list-text"><block ref="411fa4c20567ddb2326b3d53683bd67f" category="inline-link-macro-rx"></block></block>
+  <block id="8c458dae44a326b93145aea4dd0f630e" category="inline-link-macro">사용자 행동 활동 에이전트 및 탐지기 구성</block>
+  <block id="1c92ed852b0b86bd1948ec6e816262ce" category="list-text"><block ref="1c92ed852b0b86bd1948ec6e816262ce" category="inline-link-macro-rx"></block></block>
+  <block id="92df6f183b2e1cfcc696af23c1edd4cb" category="summary">사용자 활동 에이전트 및 기타 수집기를 생성하기 전에 명시된 운영 체제, 서버 및 네트워크 요구 사항을 충족하는지 확인해야 합니다.</block>
+  <block id="9cc59391625fcde368f1996a2950eec4" category="doc">NetApp Ransomware Resilience에서 사용자 행동 탐지를 위한 요구 사항</block>
+  <block id="fc36a1ad1399ea3c897ac2b166f590bc" category="section-title">클라우드 공급자 지원</block>
+  <block id="3156b4b992dec700b60fedaa2eca010c" category="paragraph">의심스러운 사용자 행동 감지는 다음 운영 체제에서 지원됩니다.</block>
+  <block id="92adf790b863484fc83be969039ec890" category="section-title">서버 권장 사항</block>
+  <block id="28296e91eb448ead6c0f37548d3101a8" category="list-text">사용자 활동 에이전트는 Ransomware Resilience 환경과는 별도의 시스템에 설치하는 것이 좋습니다. 같은 시스템에 설치하는 경우 50~55GB의 디스크 공간을 허용해야 합니다. Linux의 경우<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block>에 25~30GB,<block ref="ea5f88360fb7c06d3270b165b4dad226" prefix=" " category="inline-code"></block>에 25GB의 공간을 할당하십시오.</block>
+  <block id="b81a18d778d8d2491614ae90532db84f" category="admonition">초기 설치 시 <block ref="50cff7c5933e29331b88e32e4f2a101d" prefix=" " category="inline-code"></block>를 와일드카드 <block ref="3389dae361af79b04c9c8e7057f60cc6" prefix="(" category="inline-code"></block> 권한으로 바꾸십시오. 에이전트가 활성화되어 완전히 작동되면 권한을 사이트 이름으로 바꿀 수 있습니다. 사이트 이름은 NetApp 담당자에게 문의하십시오.</block>
+  <block id="9625968bd02420d60f939947dec5ee63" category="admonition">사용자 활동 에이전트는 NetApp Data Infrastructure Insights 기술을 사용하므로<block ref="08f7b82cf54cd7bdcab171ad9bd445cc" prefix=" " category="inline-code"></block> 엔드포인트를 사용합니다. 자세한 내용은 다음을 참조하십시오</block>
+  <block id="c4f09ee186bb94e99b8c3f938adf8816" category="section-title">APAC 기반 사용자 활동 에이전트 배포</block>
+  <block id="869af1b4577e081268bf8ee592a6018e" category="section-title">유럽 기반 사용자 활동 에이전트 배포</block>
+  <block id="ae6cc9c44044939bcbbefd693857f742" category="section-title">미국 기반 사용자 활동 에이전트 배포</block>
+  <block id="c290a5941ad6eb0d5fe8752c15c5fd78" category="section-title">다음 단계</block>
+  <block id="e85295e320f98fda3869b6fd777fcb74" category="inline-link-macro">사용자 활동 에이전트 및 수집기 구성</block>
+  <block id="1cb54935f05151077e45294fd0acda40" category="list-text"><block ref="1cb54935f05151077e45294fd0acda40" category="inline-link-macro-rx"></block></block>
+  <block id="a7f617894520c70eda06105083582777" category="paragraph">NetApp Ransomware Resilience이 의심스러운 사용자 동작에 대한 알림을 제공하려면 사용자 활동 에이전트를 구성해야 합니다. 사용자 활동 에이전트를 설치하려면 시스템이 <block ref="423b5fb22336ee99727442d2bf2268c5" category="inline-link-macro-rx"></block>을(를) 충족하는지 확인하십시오.</block>
+  <block id="f5d77d7a39be1811d47f1310b0b80a61" category="paragraph">특정 시스템에 대한 관리자가 아닌 사용자 권한을 업데이트해야 하는 경우 이 절차 단계를 사용하십시오.</block>
+  <block id="ecafefb609794a493ed83be961865b30" category="list-text">Console에 로그인합니다. 대시보드에서 ONTAP 사용자 권한 업데이트가 필요한 시스템을 확인합니다.</block>
+  <block id="6a3ad50557786ed110b2cefa2a2be7bd" category="list-text">시스템을 선택하여 세부 정보를 확인하십시오.</block>
+  <block id="6872a6ef5ae2db047b6effa74304d0af" category="list-text">해당 사용자의 기존 역할을 표시합니다.</block>
+  <block id="67c903793b6bf8b730fee76339b93672" category="list-text">탐지 설정으로 *의심스러운 사용자 행동 감지*를 선택한 경우 User activity agent 또는 <block ref="0fcb9e48262f104799fbf49d6c09d7d5" category="inline-link-macro-rx"></block>를 선택합니다.</block>
+  <block id="7c6b2f72c99d1ebd4a429f9dc9ce38de" category="doc">NetApp Ransomware Resilience에서 사용자 활동 감지를 위한 에이전트 및 수집기 구성</block>
+  <block id="7309dd33bbfad8caf3238871d7a3ecbd" category="paragraph">NetApp Ransomware Resilience에서 의심스러운 사용자 행동 감지를 활성화하려면 사용자 활동 에이전트를 하나 이상 설치해야 합니다. Ransomware Resilience 대시보드에서 의심스러운 사용자 활동 기능을 활성화할 때 사용자 활동 에이전트 호스트 정보를 제공해야 합니다.</block>
+  <block id="308513e42102f99f930ca1ce8950bbe3" category="paragraph">+ DII를 아직 사용하고 있지 않다면 여기에 있는 구성 지침을 따르십시오.</block>
+  <block id="a7045f65a60246a57662a00a9dc6dc73" category="inline-link-macro">운영 체제, 서버 및 네트워크 요구 사항</block>
+  <block id="72ae3905ad051e75d558266df8b1e63a" category="list-text"><block ref="4535d4c19297d046165dc98674d914e8" category="inline-link-macro-rx"></block>을(를) 충족하는지 확인하십시오.</block>
+  <block id="59ad45573dbf4296a202cefa7894c118" category="section-title">사용자 활동 에이전트를 생성합니다</block>
+  <block id="a757b06cbcf40569f4970cd41ee13a89" category="inline-link-macro">데이터 수집기</block>
+  <block id="c9340543ea0272663b1ebbd6d53d7135" category="paragraph">사용자 활동 에이전트는 <block ref="b01719fec0510bde74c1a44e6f94ab27" category="inline-link-macro-rx"></block>에 대한 실행 가능한 환경이며, 데이터 수집기는 사용자 활동 이벤트를 Ransomware Resilience와 공유합니다. 의심스러운 사용자 활동 감지를 활성화하려면 최소 하나 이상의 사용자 활동 에이전트를 생성해야 합니다.</block>
+  <block id="3e5b5a49d2a1ae0f82a222ba8e4ffa7c" category="list-text">사용자 활동 에이전트가 성공적으로 생성되었는지 확인하십시오. 사용자 활동 타일에서 배포가 성공하면 **Running**으로 표시됩니다.</block>
+  <block id="01aa0dea5e13315b3322ab5d449cbb8e" category="paragraph">사용자 활동 에이전트가 성공적으로 생성되면 **Settings** 메뉴로 돌아가서 User activity 타일에서 **Manage**를 선택합니다. **User activity agents** 탭을 선택한 다음 해당 사용자 활동 에이전트를 선택하여 데이터 수집기 및 사용자 디렉터리 커넥터를 포함한 세부 정보를 확인합니다.</block>
+  <block id="1c3618a77bb3c98ee22e85ebb2ff2cb5" category="section-title">사용자 디렉터리 커넥터를 생성합니다</block>
+  <block id="450a540c6661e25e017db4862aec2e38" category="list-text">팝업 대화 상자에서 **Delete**를 선택하여 확인합니다.</block>
+  <block id="236c87046e76c7fbe637db256ad65c54" category="inline-link-macro">악의적인 활동 및 의심스러운 사용자 행동을 탐지합니다</block>
+  <block id="a22ce6d164acfe568fad471cc211d23a" category="paragraph">의심스러운 사용자 활동 감지를 구성한 후에는 알림 페이지에서 이벤트를 모니터링할 수 있습니다. 자세한 내용은 <block ref="8143bbb79caf2751151f26d9d0abf580" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="907e291a40a36d257c91cac9e320dd0c" category="sidebar">의심스러운 사용자 활동 감지 구성</block>
+  <block id="36a605a41424e007ca5ba825a9623c96" category="sidebar">사용자 활동 감지 구성</block>
+  <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="sidebar">사용자 활동 감지에 대해 알아보십시오</block>
+  <block id="f77c342afbfaabafce4f6d6b3c0fc25a" category="sidebar">사용자 활동 요구사항</block>
+  <block id="851ba516be036ed05e26d4e1aa17e994" category="sidebar">에이전트 및 수집기 구성</block>
 </blocks>
