@@ -55,7 +55,14 @@ NOTE: NetApp Data Infrastructure Insights(DII) Workload Security를 이미 사�
 ** **사용자 활동 에이전트 이름**
 ** *콘솔 에이전트* - 콘솔 에이전트는 사용자 활동 에이전트와 동일한 네트워크에 있어야 하며 사용자 활동 에이전트의 IP 주소에 대한 SSH 연결이 있어야 합니다.
 ** *VM DNS 이름 또는 IP 주소*
-** *VM SSH 키*
+** *VM SSH 키* - 다음 형식을 사용하여 SSH 키를 입력하십시오:
++
+[code]
+----
+-----BEGIN OPENSSH PRIVATE KEY-----
+private-key-contents
+-----END OPENSSH PRIVATE KEY-----
+----
 +
 image:user-activity-agent.png["활동 추가 에이전트 인터페이스의 스크린샷입니다."]
 
