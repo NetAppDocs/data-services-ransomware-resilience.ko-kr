@@ -858,7 +858,6 @@
   <block id="e10a2e4ef1f3cc661e89aa47c1655787" category="list-text">VM 데이터 저장소를 위한 VMware용 SnapCenter</block>
   <block id="9f467d31ef54c60530e9d07d18e7df6d" category="paragraph">이러한 서비스의 보호 정보는 랜섬웨어 복원력에 나타납니다.  랜섬웨어 복원력을 사용하면 이러한 서비스에 탐지 정책을 추가할 수 있습니다.  랜섬웨어 복원력을 갖춘 보호 정책을 추가하면 기존 보호 정책이 대체됩니다.</block>
   <block id="f37d79a56cb20cdcf206acc1cfa8be14" category="paragraph">랜섬웨어 탐지 정책이 ONTAP 버전에 따라 ARP 또는 ARP/AI(Autonomous Ransomware Protection)와 ONTAP 의 FPolicy에 의해 관리되는 경우 해당 작업 부하가 보호되고 ARP와 FPolicy에 의해 계속 관리됩니다.</block>
-  <block id="7c07f079f6b4547ea768c45b8e8c9c54" category="admonition">Amazon FSx for NetApp ONTAP 의 워크로드에는 백업 대상을 사용할 수 없습니다.  FSx for ONTAP 백업 서비스를 사용하여 백업 작업을 수행합니다.  AWS의 FSx for ONTAP 에서 워크로드에 대한 백업 정책을 설정하는 반면, Ransomware Resilience에서는 그렇지 않습니다.  백업 정책은 Ransomware Resilience에 나타나며 AWS와 동일하게 유지됩니다.</block>
   <block id="d62f06f1ca9fb020be7953fe3101f0a3" category="section-title">NetApp 애플리케이션으로 보호되지 않는 워크로드에 대한 보호 정책</block>
   <block id="ec45a6a3163f1e5c5139c2b24b9596f2" category="paragraph">워크로드가 백업 및 복구, 랜섬웨어 복원력, SnapCenter 또는 SnapCenter Plug-in for VMware vSphere 으로 관리되지 않는 경우 ONTAP 또는 다른 제품의 일부로 스냅샷이 생성되었을 수 있습니다.  ONTAP FPolicy 보호가 적용된 경우 ONTAP 사용하여 FPolicy 보호를 변경할 수 있습니다.</block>
   <block id="631014fb608aae26275f461a597abc09" category="section-title">워크로드에서 랜섬웨어 보호 보기</block>
@@ -1024,7 +1023,6 @@
   <block id="e6cd86d61f4639c8a27006c6c29b3e9f" category="list-text">*다음*을 선택하세요.</block>
   <block id="f7ba12bb96df2ae9d69ffbf1bc2af6bb" category="inline-image-macro">보호 그룹 추가 - 정책 페이지</block>
   <block id="a739b6145911af1f850b745cae737475" category="paragraph"><block ref="a739b6145911af1f850b745cae737475" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1ae08906aa42275aa58a2b7641019104" category="list-text">이 그룹에 대한 보호를 관리하는 정책을 선택하세요. 확인하려면 *다음*을 선택하세요.</block>
   <block id="f724f66c90177c8dac8336038a0778c0" category="list-text">탐지 정책에 사용자 동작 탐지가 포함된 경우 사용할 데이터 수집기를 선택한 후 **다음**을 클릭합니다.</block>
   <block id="0fc76de5572d1186f1358665dff6076f" category="list-text">보호 그룹에 대한 선택 사항을 검토합니다.</block>
   <block id="d7a75d0f58bb349985e6d2104ca65596" category="list-text">보호 그룹 생성을 완료하려면 *추가*를 선택하세요.</block>
@@ -1178,13 +1176,10 @@
   <block id="09121bb3cb936ab87dd837c1fd8da18a" category="list-text">*보고서* 옵션을 선택한 경우 미리 구성된 파일 이름 중 하나를 선택하고 *다운로드*를 선택합니다.</block>
   <block id="edb56701c02931a83b80f61481367ade" category="summary">설정 페이지에서 백업 대상 및 위협 감지를 포함한 여러 옵션을 구성할 수 있습니다.</block>
   <block id="9aa6ed30a3e0d803a1b8b079e0b8d650" category="doc">NetApp Ransomware Resilience 에서 보호 설정 구성</block>
-  <block id="efc5b90b499969efcedcd2b7276a218d" category="paragraph">*설정* 옵션에 액세스하여 백업 대상을 구성하고, 외부 보안 및 이벤트 관리(SIEM) 시스템으로 데이터를 보내고, 공격 준비 훈련을 실시하고, 워크로드 검색을 구성하거나, 의심스러운 사용자 활동 감지를 구성할 수 있습니다.</block>
   <block id="105c4d7cf6704d10a27fac5acd7333a3" category="paragraph">*설정 페이지에서 무엇을 할 수 있나요?*  설정 페이지에서 다음 작업을 수행할 수 있습니다.</block>
   <block id="2fdebc69dc6e7b0ee210d7c727cf37e2" category="list-text">랜섬웨어 공격을 시뮬레이션하기 위해 준비 훈련을 실시하고 시뮬레이션된 랜섬웨어 경고에 대응합니다. 자세한 내용은 다음을 참조하십시오. <block ref="764586bbfc596fce1f2309fe8b2a42c0" category="inline-link-macro-rx"></block> .</block>
   <block id="3fdd6341b0ef86488ae1a773932c96c7" category="list-text">워크로드 검색을 구성합니다.</block>
-  <block id="ad5a89c970ba403587fba991f4218c99" category="list-text">의심스러운 사용자 활동 보고를 구성합니다.</block>
   <block id="d9e0cef30d1fd79b64dd0675b6e2eb12" category="list-text">백업 대상을 추가합니다.</block>
-  <block id="43360d747c31106b5dbf428088f9fabc" category="list-text">보안 및 이벤트 관리 시스템(SIEM)을 연결하여 위협 분석 및 감지를 수행하세요.  위협 감지를 활성화하면 위협 분석을 위해 SIEM으로 데이터가 자동으로 전송됩니다.</block>
   <block id="f6de47008760d29836d5758a5a06bf0f" category="section-title">설정 페이지에 직접 액세스하세요</block>
   <block id="47ee39f07973e19ecd9ed033f5faabb1" category="paragraph">상단 메뉴 근처의 작업 옵션을 통해 설정 페이지에 쉽게 접근할 수 있습니다.</block>
   <block id="2ed94c26a1d2bdd8aa204fd20eb40937" category="list-text">랜섬웨어 복원력에서 세로를 선택하세요<block ref="ddacd9651566dbd67045ad6fbaf81a6c" category="inline-image-macro-rx" type="image"></block> ... 오른쪽 상단의 옵션.</block>
@@ -1202,13 +1197,10 @@
   <block id="4c624f22bdf5c52da245d3b038c2b92e" category="list-text">워크로드를 검색하려는 시스템을 선택하거나 표 상단의 상자를 선택하여 검색된 모든 워크로드 환경에서 워크로드를 검색합니다.</block>
   <block id="9f9e31c32e5b1d13d9371a818f0a6ee0" category="list-text">필요에 따라 다른 시스템에도 이 작업을 수행하세요.</block>
   <block id="04abb68cc3e6cbd75c6183768d3cdb47" category="list-text">*검색*을 선택하면 Ransomware Resilience가 선택한 콘솔 에이전트에서 자동으로 새 워크로드를 검색합니다.</block>
-  <block id="6a8da91afd3259d0e94261d0d1d4cdaa" category="paragraph">사용자 활동 카드에서는 의심스러운 사용자 활동을 감지하는 데 필요한 사용자 활동 에이전트를 만들고 관리할 수 있습니다.</block>
-  <block id="1e9de376e860f46db74a2fe6749a824e" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="da26800578b610b8b3390e49bb643377" category="inline-link-macro-rx"></block> .</block>
   <block id="55483e3219b15f38112442f737a1bf92" category="section-title">백업 대상 추가</block>
   <block id="ca0d9b702b5686b0dbe483b8b038b9d5" category="paragraph">랜섬웨어 복원력은 아직 백업이 없는 워크로드와 아직 백업 대상이 할당되지 않은 워크로드를 식별할 수 있습니다.</block>
   <block id="dc0a4770af38e660c7408d8ac2fac395" category="paragraph">이러한 작업 부하를 보호하려면 백업 대상을 추가해야 합니다.  다음 백업 대상 중 하나를 선택할 수 있습니다.</block>
   <block id="943ca3782b28d89aff2f86a50b332b3c" category="list-text">아마존 웹 서비스(AWS)</block>
-  <block id="065ced4e95bc23c02a22f53b7d00da49" category="admonition">Amazon FSx for NetApp ONTAP 의 워크로드에는 백업 대상을 사용할 수 없습니다.  FSx for ONTAP 백업 서비스를 사용하여 백업 작업을 수행합니다.</block>
   <block id="4ec94f814f491d45c196584c149a7d3e" category="paragraph">대시보드에서 권장하는 작업을 기반으로 백업 대상을 추가하거나 메뉴의 설정 옵션에 액세스하여 백업 대상을 추가할 수 있습니다.</block>
   <block id="423773f9edb45d8141b1c7b6278c8092" category="section-title">대시보드의 권장 작업에서 백업 대상 옵션에 액세스합니다.</block>
   <block id="fd0da3fefc8a8a7ae1d9742f929d60d2" category="paragraph">대시보드는 다양한 권장사항을 제공합니다.  한 가지 권장 사항은 백업 대상을 구성하는 것입니다.</block>
@@ -1274,10 +1266,7 @@
   <block id="6c2708162873644f82108cfcad8ae099" category="list-text">선택적으로, 이전에 구성한 Azure 개인 엔드포인트를 사용할지 여부를 선택합니다.</block>
   <block id="8044b0463892d9d29dbab8cfd03e8863" category="inline-link">Azure 프라이빗 링크</block>
   <block id="13ed98575f9b615f49abab3355f19c34" category="paragraph">Azure PrivateLink를 사용하려면 다음을 참조하세요.<block ref="dc49bf79d1a3da34447e7543d00fee44" category="inline-link-rx"></block> .</block>
-  <block id="e82028134cc149b687f7fdb64684dbf7" category="section-title">위협 분석 및 탐지를 위해 보안 및 이벤트 관리 시스템(SIEM)에 연결합니다.</block>
-  <block id="c442f897ba9f28d5d7d3b1643ea9284a" category="paragraph">위협 분석 및 감지를 위해 보안 및 이벤트 관리 시스템(SIEM)에 자동으로 데이터를 전송할 수 있습니다.  SIEM으로 AWS Security Hub, Microsoft Sentinel 또는 Splunk Cloud를 선택할 수 있습니다.</block>
   <block id="cbf029478800b63da0670604895d0640" category="paragraph">랜섬웨어 복원력에서 SIEM을 활성화하기 전에 SIEM 시스템을 구성해야 합니다.</block>
-  <block id="7e15fa4f52a2b2bbe9c0fde780818748" category="paragraph-title">SIEM에 전송되는 이벤트 데이터에 관하여</block>
   <block id="44af434bf59e9ca7200d90f680bae3bc" category="paragraph">랜섬웨어 복원력은 다음과 같은 이벤트 데이터를 SIEM 시스템으로 전송할 수 있습니다.</block>
   <block id="5976a11ab4dca8b4245edb915c6dfbd7" category="list-text">*문맥*:</block>
   <block id="c01e6c1876fd41a917ea803c3ef48d66" category="list-text">*os*: ONTAP 값을 갖는 상수입니다.</block>
@@ -1293,7 +1282,6 @@
   <block id="09471f7939b8b27b32ee107cd9b1c44b" category="list-text">*심각도*: 다음 경보 수준 중 하나: "위험", "높음", "보통", "낮음".</block>
   <block id="6f51b5c965cb508d8d37085592031c21" category="list-text">*설명*: 감지된 알림에 대한 세부 정보(예: "arp_learning_mode_test_2630 워크로드에서 잠재적인 랜섬웨어 공격이 감지되었습니다")</block>
   <block id="0df177143ce12a3516098cd3329e85c2" category="section-title">위협 탐지를 위해 AWS Security Hub 구성</block>
-  <block id="ffc1de84dbea7f504a06f3ac9f3aca23" category="paragraph">랜섬웨어 복원력에서 AWS Security Hub를 활성화하기 전에 AWS Security Hub에서 다음과 같은 고급 단계를 수행해야 합니다.</block>
   <block id="de9b4f41a945df92e6c5b62f443f03f1" category="list-text">AWS Security Hub에서 권한을 설정합니다.</block>
   <block id="5fd0d2c5fd8b96b7b7b69f69b942c559" category="list-text">AWS Security Hub에서 인증 액세스 키와 비밀 키를 설정합니다.  (여기서는 이러한 단계를 제공하지 않습니다.)</block>
   <block id="12eef9b6a125a82d69978241dca88c07" category="list-title">AWS Security Hub에서 권한을 설정하는 단계</block>
@@ -1301,7 +1289,6 @@
   <block id="bf6953a41efa897b0862fca0fe547641" category="list-text">*정책*을 선택하세요.</block>
   <block id="2228b7980f61d80481608141744ecee0" category="list-text">다음 코드를 JSON 형식으로 사용하여 정책을 만듭니다.</block>
   <block id="cd4d66bdd803d46b839b94afd734cbcd" category="section-title">위협 탐지를 위해 Microsoft Sentinel 구성</block>
-  <block id="0554c1e832e7fe2b51d5dcb9023f05f5" category="paragraph">랜섬웨어 복원력에서 Microsoft Sentinel을 활성화하기 전에 Microsoft Sentinel에서 다음과 같은 고급 단계를 수행해야 합니다.</block>
   <block id="fc01add8dc5e609f9be29c977daabdb7" category="list-text">*필수 조건*</block>
   <block id="37f2e7903c233bd04580bbd9be3e01dd" category="list-text">Microsoft Sentinel을 활성화합니다.</block>
   <block id="4b78ed88f7480fc055e7d156d68bc76f" category="list-text">Microsoft Sentinel에서 사용자 지정 역할을 만듭니다.</block>
@@ -1697,7 +1684,6 @@
   <block id="7257a2c29f00e84365c5a48447d9c803" category="inline-link-macro">데이터 분류를 활성화하여 거버넌스 및 보안 위험을 식별합니다.</block>
   <block id="746bceb6a53af383ec0aa4495f694a94" category="list-text"><block ref="746bceb6a53af383ec0aa4495f694a94" category="inline-link-macro-rx"></block></block>
   <block id="1d1758803ee1f7559973be04f120a0f7" category="inline-link-macro">SIEM에 알림 보내기</block>
-  <block id="81eb2602258c7f155c33ae884e447609" category="list-text"><block ref="81eb2602258c7f155c33ae884e447609" category="inline-link-macro-rx"></block></block>
   <block id="660ecf2355e5ff3c5a22d2e4a48594e8" category="inline-link-macro">경고, 보호, 준비 훈련, 복구 또는 요약 보고서 다운로드</block>
   <block id="52210acbff73a572a2ca89fb77371615" category="paragraph">NetApp Ransomware Resilience 내에서 NetApp Data Classification 사용하여 파일 공유 워크로드의 데이터를 스캔하고 분류할 수 있습니다. 데이터를 분류하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 확인하는 데 도움이 되며, PII가 포함되어 있으면 보안 위험이 커질 수 있습니다. 데이터 분류는 NetApp Console 의 핵심 구성 요소이며 추가 비용 없이 사용할 수 있습니다.</block>
   <block id="7b36da612c0e3a400f4daecc8016f21e" category="summary">시스템과 작업 부하를 보호하려면 랜섬웨어 복원력에 대한 라이선스 요구 사항을 충족하는지 확인하세요.</block>
@@ -1719,7 +1705,6 @@
   <block id="2515e2bcc68e80666fa8c369e88f71e5" category="paragraph">라이센스가 추가되었음을 확인하는 메시지가 나타납니다.</block>
   <block id="fca5751a0529f9987d0699648a97be3a" category="list-text">콘솔에서 라이선스를 자동으로 업데이트할 수 없는 경우 라이선스 파일을 수동으로 업로드해야 합니다.</block>
   <block id="f8541056d6bacae1a78fb5d2b68c67a8" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block>랜섬웨어 복원력 시작하기</block>
-  <block id="7a7f05bb105ddcf9c0d221e37f8a923c" category="list-text">사용자 환경에서 의심되는 사용자를 차단하려면 사용자 이름 아래에서 *차단*을 선택하세요.</block>
   <block id="bc8ffb69fb560086f529e0097158caad" category="admonition">알림을 해제하면 알림 상태를 변경하거나 변경 사항을 취소할 수 없습니다.</block>
   <block id="7149ff1e14f0a158752906babaa08dc3" category="list-text">해당 사건에 대해 다운로드 아이콘을 선택하여 영향을 받은 파일 목록을 CSV 형식으로 다운로드하세요.</block>
   <block id="fe1bb8cb54f03cf7a69c3e9568118b30" category="list-text">**데이터 수집기**는 ONTAP 에서 사용자 활동 데이터를 수집합니다.</block>
@@ -1819,7 +1804,6 @@
   <block id="0ba29c6a1afacf586b03a26162c72274" category="cell">환경</block>
   <block id="888a77f5ac0748b6c8001822417df8b6" category="cell">규약</block>
   <block id="b881921e058834170584afe9213c4c73" category="cell">Amazon FSx for NetApp ONTAP*</block>
-  <block id="c2b4bf8a420967336b99691646ef85e6" category="cell">NFS, CIFS 및 SAN</block>
   <block id="382b0f5185773fa0f67a8ed8056c7759" category="cell">해당 없음</block>
   <block id="096f3522cfa2f31de45d052b740adc65" category="cell">AWS용 Cloud Volumes ONTAP</block>
   <block id="05bcab512eefa1e7e2cc2d1e45970a7d" category="cell">CIFS 및 NFS</block>
@@ -1945,7 +1929,6 @@
   <block id="8fe404d4b8af36b9844eb288d2706bbe" category="inline-link-macro">랜섬웨어 복원력에서 알림 관리</block>
   <block id="869c8807275d576171cb34b892652da6" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>.</block>
   <block id="22a81a009e8d21bf17e2788fdbfa4a6d" category="paragraph">Amazon FSx for NetApp ONTAP 시스템은 랜섬웨어 복원력에서 지원됩니다. Amazon FSx for ONTAP 에는 다음과 같은 제한 사항이 적용됩니다.</block>
-  <block id="e414901fbfa8ee419bbb8a9bf7c11320" category="list-text">Amazon FSx for ONTAP 에서는 백업 정책이 지원되지 않습니다. 이 환경에서는 백업을 위해 Amazon FSx 사용하여 백업 작업을 수행해야 합니다. 랜섬웨어 복원력을 사용하면 이러한 작업 부하를 복원할 수 있습니다.</block>
   <block id="f20af4e11539d270463e7ed46557be6f" category="paragraph">NetApp Ransomware Resilience 사용하려면 먼저 워크로드 데이터를 검색해야 합니다. 발견 과정에서 Ransomware Resilience는 조직 내 모든 콘솔 에이전트와 프로젝트에 있는 시스템의 모든 볼륨과 파일을 분석합니다.</block>
   <block id="55971de7d1268c37251f60641b742b76" category="paragraph">디스커버리 대시보드에서 랜섬웨어 복원력은 지원되는 시스템 구성과 지원되지 않는 시스템 구성을 표시합니다. 랜섬웨어 복원력은 Oracle 애플리케이션, VMware 데이터 저장소, 파일 공유 및 블록 스토리지를 평가합니다.</block>
   <block id="1e55889dc96c3aa2614c39626c9cecdd" category="admonition">랜섬웨어 복원력은 FlexGroup 사용하는 볼륨이 있는 워크로드를 검색하지 않습니다.</block>
@@ -2058,7 +2041,6 @@
   <block id="50723c157cd9ea132a02f421411e273d" category="list-text">*복제 정책*:</block>
   <block id="f84245dfb1fc8217e62c0934102ba606" category="list-text">*복제 정책 기본 이름*: 새 이름을 입력하거나 기존 이름을 선택하십시오. 기본 이름은 모든 스냅샷에 추가되는 접두사입니다.</block>
   <block id="d230465858c85552b6c5a5b1ef3bb21f" category="list-text">*복제 일정*: 원하는 복제 빈도(시간별, 일별, 주별 또는 월별)를 선택하고, 각 일정에 대한 보존 값(보관할 복제 스냅샷 수)을 설정하세요.</block>
-  <block id="228ec8f5cf8241b99a71e0c11689b0e6" category="list-text">원하는 탐지 설정을 선택하세요: *암호화 탐지* *의심스러운 사용자 행동 탐지* *의심스러운 파일 확장자 차단*</block>
   <block id="447fce6406d4a8e99de98a2d5d107536" category="list-text">복제 전략이 포함된 경우 **대상 시스템**과 **대상 스토리지 VM**을 선택하십시오. **다음**을 선택하세요.</block>
   <block id="6f540707e47351a26c8e3c79ccce18ea" category="list-text">*보호*: 보호 대상 및 위험에 처한 워크로드의 총 개수를 포함하여 모든 워크로드의 상태 및 세부 정보를 제공합니다.</block>
   <block id="38fc1b337c0ea26463916fc2913205c1" category="paragraph"><block ref="38fc1b337c0ea26463916fc2913205c1" category="inline-image-macro-rx" type="image"></block></block>
@@ -2067,7 +2049,6 @@
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 *자격 증명 업데이트* 옵션도 있습니다.<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
   <block id="667dffcf5676fe0bd645082d2a512fef" category="section-title">2026년 1월 12일</block>
   <block id="49fa679e35a13dc09de6805c384904d1" category="list-text">백업 정책을 구성하려면 정책을 선택한 다음 **다음**을 선택하십시오.</block>
-  <block id="748b96a793ccf0ab113112372db17649" category="paragraph">랜섬웨어 복원력 기능이 이제 스냅샷 복제본을 보조 ONTAP 사이트에 추가하는 것을 지원합니다. 복제 정책을 사용하는 보호 그룹을 사용하면 모든 워크로드에 대해 동일한 대상 또는 서로 다른 대상으로 복제할 수 있습니다. 랜섬웨어 방어 전략을 생성할 때 복제 기능을 포함하거나 미리 정의된 전략을 사용할 수 있습니다.</block>
   <block id="389e0c39aeda061370262a9fa330d865" category="doc">지원되지 않는 볼륨</block>
   <block id="7aedbf1b65f2bcaf699a2f7f37ba458b" category="paragraph">랜섬웨어 복원력 보고서의 **요약** 보고서에 지원되는 볼륨과 지원되지 않는 볼륨에 대한 정보가 포함됩니다. 이 정보를 사용하여 시스템 내 볼륨이 랜섬웨어 보호 대상에서 제외되는 이유를 진단하십시오.</block>
   <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">랜섬웨어 복원력 관련 보고서를 다운로드하세요.</block>
@@ -2170,4 +2151,63 @@
   <block id="f77c342afbfaabafce4f6d6b3c0fc25a" category="sidebar">사용자 활동 요구사항</block>
   <block id="851ba516be036ed05e26d4e1aa17e994" category="sidebar">에이전트 및 수집기 구성</block>
   <block id="f00a921e7dbbed8405cd9ce5fce914d3" category="list-text">*VM SSH 키* - 다음 형식을 사용하여 SSH 키를 입력하십시오:</block>
+  <block id="6180003c782f1663eb2df1464acac0bd" category="cell">CIFS, NFS 및 SAN</block>
+  <block id="691a3e8e2059e924160a8104310f552d" category="paragraph">NetApp Ransomware Resilience는 이제 보조 ONTAP 사이트로 스냅샷 복제 추가를 지원합니다. 복제 정책을 사용하는 보호 그룹을 통해 모든 워크로드에 대해 동일한 대상 또는 서로 다른 대상으로 복제할 수 있습니다. 복제를 포함하는 랜섬웨어 보호 전략을 생성하거나 사전 정의된 전략을 사용할 수 있습니다.</block>
+  <block id="17dfbc312023bdd4da992d8e751e72ac" category="doc">Azure NetApp Files 지원</block>
+  <block id="ea2f778dfb597a4b527dac7e944ad95b" category="paragraph">Ransomware Resilience가 이제 Azure NetApp Files 시스템을 지원하여 Azure NetApp Files에서 랜섬웨어 위협을 효율적으로 탐지하고 대응할 수 있습니다. 워크로드를 검색할 때, Ransomware Resilience는 이제 Azure NetApp Files를 표시하고 이를 보호 대시보드에 보여줍니다. Azure NetApp Files에 대한 Ransomware Resilience 지원은 스냅샷만을 사용한 탐지 및 보호 전략을 포함합니다. Azure NetApp Files 지원은 현재 프리뷰 단계입니다.</block>
+  <block id="5e0e68da0b873ce6ac5da97de07de426" category="paragraph">자세한 내용은 link:자세한 내용은 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="533173be617e8e70b39c22d6b639f1ef" category="section-title">사용자 행동 알림에서 사용자 제외</block>
+  <block id="34db265ea1c563cd1e8fec4196fdd55a" category="paragraph">NetApp Ransomware Resilience를 사용하면 이제 사용자 행동 알림에서 특정 사용자를 제외할 수 있습니다. 신뢰할 수 있는 사용자를 제외하면 오탐 및 불필요한 알림을 방지할 수 있습니다.</block>
+  <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">알림에서 사용자 제외</block>
+  <block id="628cc6a9c569438d880eccc1e4a778da" category="paragraph">자세한 내용은 link:For more information, see <block ref="dfd47d5e016db97d5fa8c5e4a7bd25f8" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="366a951452a8cc6f0127d24e9230c837" category="section-title">사용자 행동 활동에 대한 보호 그룹 지원</block>
+  <block id="3393700830226a018a19341bd00d6fa7" category="paragraph">Ransomware Resilience 보호 그룹에서 이제 의심스러운 사용자 행동 탐지를 위한 탐지 정책을 지원합니다. 보호 그룹에 랜섬웨어 보호 전략을 적용하면 워크로드 전반에 정책이 적용되어 사이버 보안 태세 관리가 간소화됩니다.</block>
+  <block id="e37ee5388292007ad9d3935327219122" category="paragraph">자세한 내용은 <block ref="5988324edfd7d92a7675cb7a08ac2a7e" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="58c30bd4c949be43357ab1b7557703b5" category="list-text">백업 정책은 Amazon FSx for ONTAP에서 지원되지 않습니다. 이 환경에서는 Amazon FSx for backups를 사용하여 백업 작업을 수행해야 합니다. 이러한 워크로드는 NetApp Ransomware Resilience를 사용하여 복원할 수 있습니다.</block>
+  <block id="2a0c2a157bd80927f000333567138b57" category="section-title">Azure NetApp Files 제한 사항</block>
+  <block id="9ccc8d744240b4ff1c9fb964a84a7d3c" category="paragraph">Azure NetApp Files는 Ransomware Resilience에서 지원됩니다. Azure NetApp Files에는 다음과 같은 제한 사항이 적용됩니다.</block>
+  <block id="b285edab772b215df16e97f47e6cf852" category="list-text">백업 정책을 사용하는 랜섬웨어 보호 전략은 Azure NetApp Files에서 지원되지 않습니다. 대신 Azure NetApp Files 백업을 사용할 수 있습니다.</block>
+  <block id="af5eb4e584c938e9f8b3531d944e3a59" category="list-text">Azure NetApp Files에서는 복제 기능을 사용하는 랜섬웨어 보호 전략이 지원되지 않습니다.</block>
+  <block id="1c312af1f49befaddd00883a617fa8ba" category="list-text">보호 전략을 선택할 때는 스냅샷 일정이 Azure NetApp Files와 호환되는지 확인하십시오. Azure NetApp Files에서 사용할 수 있는 가장 빈번한 스냅샷 일정은 시간 단위입니다.</block>
+  <block id="e02189957b252d42e679aa66d35030cd" category="list-text"><block ref="e02189957b252d42e679aa66d35030cd" category="inline-link-macro-rx"></block></block>
+  <block id="bf1ffe0e445fb2a07fc3757d6ae841ec" category="list-text">환경에서 의심스러운 사용자를 차단하려면 사용자 이름 옆에 있는 *Block*을 선택하십시오.</block>
+  <block id="0f20f1de24e002ee03e9a0d693faaf59" category="list-text">잘못된 알림이 발생한 특정 사용자에 대한 알림을 비활성화하려면 점 3개<block ref="2f43b42fd833d1e77420a8dae7419000" prefix="(" category="inline-code"></block>를 선택한 다음 **이 사용자를 모니터링에서 제외**를 선택합니다. 대화 상자를 검토한 후 **제외**를 선택하여 확인합니다.</block>
+  <block id="c65a69d50600a3f76ccdd1109d15b6e3" category="inline-link-macro">사용자 제외</block>
+  <block id="d632bf28d8164d0436ca05f069b989e9" category="admonition">사용자에 대한 알림을 다시 활성화하려면 알림을 반환하세요. 점 세 개를 선택한 다음 **모니터링에 이 사용자 포함**을 선택하세요. 모니터링에서 <block ref="e33a84d4132808c30f0e6b091e9f7e88" category="inline-link-macro-rx"></block>할 수도 있습니다.</block>
+  <block id="fb7f1789c81ab5377f72e16f6b9384ad" category="inline-link-macro">각 서비스의 제한 사항</block>
+  <block id="771abd282157ca2dcc3c9f4d73d158c2" category="admonition">Amazon FSxN for ONTAP 및 Azure NetApp Files에 대한 보호 전략을 구성하는 경우 <block ref="f35eaad9edb95ec2be22c4403bf0d360" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="3adbdb581af927d3972b2f1c8cfb96a6" category="admonition">Amazon FSx for NetApp ONTAP 또는 Azure NetApp Files의 워크로드에 대해서는 백업 대상을 사용할 수 없습니다. FSx for ONTAP 백업 서비스를 사용하여 백업 작업을 수행하십시오. AWS에서 FSx for ONTAP의 워크로드에 대한 백업 정책을 설정하며, NetApp Ransomware Resilience에서는 설정하지 않습니다. 백업 정책은 NetApp Ransomware Resilience에 표시되며 AWS에서와 동일하게 유지됩니다.</block>
+  <block id="3bc2d94b3185bcb1259a8b3cf7da880b" category="list-text">원하는 감지 설정을 선택합니다.</block>
+  <block id="d5fc4bf8c0e9a03cea6fbde26d8608f2" category="list-text">이 그룹에 대한 보호를 관리할 정책을 선택합니다.</block>
+  <block id="e468b341048b440bba27f4904f7a59c4" category="paragraph">NetApp Ransomware Resilience 설정 탭에서는 백업 대상을 구성하고, 공격 대비 훈련을 수행하고, 워크로드 검색을 구성하거나, 의심스러운 사용자 활동 감지를 구성할 수 있습니다.</block>
+  <block id="04ba211304888e157a1517c86860bd73" category="list-text">의심스러운 사용자 활동 보고를 구성합니다. 자세한 내용은 <block ref="da26800578b610b8b3390e49bb643377" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="5d8eeee45929294781013d6d152aae8a" category="inline-link-macro">NetApp Ransomware Resilience를 SIEM에 연결하세요</block>
+  <block id="143fb46cdff0222e6e176aa99a0f923e" category="list-text">위협 분석 및 탐지를 위해 보안 및 이벤트 관리 시스템(SIEM)을 연결하세요. 위협 탐지를 활성화하면 위협 분석을 위해 데이터가 SIEM으로 자동 전송됩니다. 자세한 내용은 <block ref="c7d7e4de61d3da74895aed14b126475d" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="fb12d4a7a4843715dd8c19d7dd88935d" category="admonition">Amazon FSx for NetApp ONTAP 또는 Azure NetApp Files의 워크로드에 대해서는 백업 대상을 사용할 수 없습니다. 백업 작업은 네이티브 백업 솔루션인 FSx for ONTAP 백업 서비스 또는 Azure NetApp Files 백업을 사용하여 수행하십시오.</block>
+  <block id="eb7705f4441056c554dc7aea52de0b17" category="paragraph">특정 신뢰할 수 있는 사용자의 동작이 사용자 동작 알림을 트리거할 수 있는 경우 알림에서 해당 사용자를 제외할 수 있습니다.</block>
+  <block id="0189c7f085ff5d22843080df2225281b" category="list-text">설정 대시보드에서 사용자 활동 카드를 찾은 다음 **관리**를 선택합니다.</block>
+  <block id="82694a5fa079406313056daf01f9118b" category="list-text">**제외된 사용자** 탭을 선택합니다.</block>
+  <block id="de13c27fd58614b060a46c2092ed0545" category="list-text">UI에서 개별 사용자를 검토하려면 **수동 선택**을 선택하십시오. 제외된 사용자 목록을 업로드하려면 **업로드**를 선택하십시오.</block>
+  <block id="9dd5e919daf597022ca9ace5ebd739e9" category="list-text">**수동 선택**을 선택한 경우 제외할 특정 사용자 이름 옆의 확인란을 선택하십시오.</block>
+  <block id="d2b1df006cba7f480a48064be15b71ec" category="list-text">**Upload**를 선택하면 먼저 모든 사용자 목록이 포함된 CSV 파일을 다운로드해야 합니다. 목록에 액세스하려면 **Download**를 선택하십시오.</block>
+  <block id="f44e20ff3f0d285a050e5f4e9dc1267f" category="paragraph">CSV 파일을 검토하세요. 탐지를 유지하려는 모든 사용자의 이름을 제거하세요. 목록에 탐지에서 제외하려는 사용자의 이름만 포함되면 저장하세요. **Upload**를 선택하여 파일을 찾은 다음 선택하세요.</block>
+  <block id="8641c2055d546da7c2e15e6d18bc9016" category="list-text">**추가**를 선택하여 제외 목록에 사용자 추가를 완료합니다.</block>
+  <block id="98e062a77fcb05260f463a017f171f72" category="list-text">**제외된 사용자** 탭에서 사용자 행동 감지 알림에서 제거된 사용자의 이름이 이제 대시보드에 표시됩니다.</block>
+  <block id="bf7da00a56585a6a89ff8f8184dfd6fd" category="inline-link-macro">랜섬웨어 경고에 대응하세요</block>
+  <block id="face5a9388d96715a2df2a403febcfad" category="admonition">알림에서 사용자를 직접 제외할 수도 있습니다. 자세한 내용은 <block ref="56429daef20ebac0c2b98002f6d61934" category="inline-link-macro-rx"></block>를 참조하세요.</block>
+  <block id="0b09185e7ecba92cf7f8f0712501db0b" category="section-title">제외 사용자 목록에서 사용자를 제거합니다</block>
+  <block id="3ba04eb11eb815c62355b0a9cb7b05e5" category="paragraph">나중에 사용자를 다시 탐지에 추가할 수 있습니다.</block>
+  <block id="144c603fbbde0985023a4ea73e22e35b" category="list-text">제외된 사용자 선택에서 제거하려는 사용자의 이름을 찾습니다. 사용자 이름이 있는 행에서 작업 메뉴(<block ref="2f43b42fd833d1e77420a8dae7419000" prefix="(" category="inline-code"></block>)를 선택한 다음 **제거**를 선택합니다.</block>
+  <block id="581c5c550f20f231f6c9e881e699829b" category="list-text">대화 상자에서 **Remove**를 선택하여 선택한 사용자를 제거할지 확인합니다.</block>
+  <block id="90c78a95b0a3dffc0aa664d3139d1369" category="summary">NetApp Ransomware Resilience에서 보안 및 이벤트 관리 시스템(SIEM)으로 데이터를 자동으로 전송하여 위협을 분석하고 탐지할 수 있습니다.</block>
+  <block id="2e83d7690079c133e11ad37c5e4ff93e" category="doc">NetApp Ransomware Resilience를 보안 및 이벤트 관리 시스템(SIEM)에 연결하여 위협을 분석하고 탐지하세요.</block>
+  <block id="7be8ef49fa437b6a669fb54a081312c4" category="paragraph">Ransomware Resilience는 다음 SIEM을 지원합니다.</block>
+  <block id="03883d80013dc0b2b972eccd5b93b56f" category="list-text">AWS Security Hub</block>
+  <block id="11759e65f10609550e1a85679db960a9" category="list-text">Microsoft Sentinel</block>
+  <block id="a60efb4483a892cd919ec4e745900e2d" category="list-text">Splunk Cloud</block>
+  <block id="46fa98b3b308dc6f48d40cf8b1712bfe" category="section-title">SIEM으로 전송된 이벤트 데이터</block>
+  <block id="cfa147fb3f8ac9012f43e41767ad8241" category="paragraph">NetApp Ransomware Resilience에서 AWS Security Hub를 활성화하기 전에 AWS Security Hub에서 다음과 같은 주요 단계를 수행해야 합니다.</block>
+  <block id="2787b10f438b5f28e340793feb9becb6" category="paragraph">Ransomware Resilience에서 Microsoft Sentinel을 활성화하기 전에 Microsoft Sentinel에서 다음과 같은 주요 단계를 수행해야 합니다.</block>
+  <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026년 2월 16일</block>
+  <block id="51f5590fac3af82049df229fcb91793c" category="sidebar">SIEM 구성</block>
 </blocks>

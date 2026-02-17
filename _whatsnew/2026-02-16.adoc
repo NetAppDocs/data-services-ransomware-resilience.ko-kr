@@ -1,0 +1,27 @@
+= Azure NetApp Files 지원
+:allow-uri-read: 
+
+
+
+
+=== Azure NetApp Files 지원
+
+Ransomware Resilience가 이제 Azure NetApp Files 시스템을 지원하여 Azure NetApp Files에서 랜섬웨어 위협을 효율적으로 탐지하고 대응할 수 있습니다. 워크로드를 검색할 때, Ransomware Resilience는 이제 Azure NetApp Files를 표시하고 이를 보호 대시보드에 보여줍니다. Azure NetApp Files에 대한 Ransomware Resilience 지원은 스냅샷만을 사용한 탐지 및 보호 전략을 포함합니다. Azure NetApp Files 지원은 현재 프리뷰 단계입니다.
+
+자세한 내용은 link:자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["랜섬웨어 복원력에 대해 알아보세요"^]을(를) 참조하십시오.
+
+
+
+=== 사용자 행동 알림에서 사용자 제외
+
+NetApp Ransomware Resilience를 사용하면 이제 사용자 행동 알림에서 특정 사용자를 제외할 수 있습니다. 신뢰할 수 있는 사용자를 제외하면 오탐 및 불필요한 알림을 방지할 수 있습니다.
+
+자세한 내용은 link:For more information, see link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#exclude-users-from-alerts["알림에서 사용자 제외"^]을 참조하십시오.
+
+
+
+=== 사용자 행동 활동에 대한 보호 그룹 지원
+
+Ransomware Resilience 보호 그룹에서 이제 의심스러운 사용자 행동 탐지를 위한 탐지 정책을 지원합니다. 보호 그룹에 랜섬웨어 보호 전략을 적용하면 워크로드 전반에 정책이 적용되어 사이버 보안 태세 관리가 간소화됩니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html#create-a-protection-group["보호 그룹 생성"^]를 참조하십시오.

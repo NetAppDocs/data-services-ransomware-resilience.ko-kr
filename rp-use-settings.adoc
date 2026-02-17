@@ -12,7 +12,7 @@ summary: 설정 페이지에서 백업 대상 및 위협 감지를 포함한 여
 
 
 [role="lead"]
-*설정* 옵션에 액세스하여 백업 대상을 구성하고, 외부 보안 및 이벤트 관리(SIEM) 시스템으로 데이터를 보내고, 공격 준비 훈련을 실시하고, 워크로드 검색을 구성하거나, 의심스러운 사용자 활동 감지를 구성할 수 있습니다.
+NetApp Ransomware Resilience 설정 탭에서는 백업 대상을 구성하고, 공격 대비 훈련을 수행하고, 워크로드 검색을 구성하거나, 의심스러운 사용자 활동 감지를 구성할 수 있습니다.
 
 *필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
 
@@ -20,9 +20,9 @@ summary: 설정 페이지에서 백업 대상 및 위협 감지를 포함한 여
 
 * 랜섬웨어 공격을 시뮬레이션하기 위해 준비 훈련을 실시하고 시뮬레이션된 랜섬웨어 경고에 대응합니다. 자세한 내용은 다음을 참조하십시오. link:rp-start-simulate.html["랜섬웨어 공격 대비 훈련을 실시하세요"] .
 * 워크로드 검색을 구성합니다.
-* 의심스러운 사용자 활동 보고를 구성합니다.
+* 의심스러운 사용자 활동 보고를 구성합니다. 자세한 내용은 link:suspicious-user-activity.html["의심스러운 사용자 활동"]을 참조하십시오.
 * 백업 대상을 추가합니다.
-* 보안 및 이벤트 관리 시스템(SIEM)을 연결하여 위협 분석 및 감지를 수행하세요.  위협 감지를 활성화하면 위협 분석을 위해 SIEM으로 데이터가 자동으로 전송됩니다.
+* 위협 분석 및 탐지를 위해 보안 및 이벤트 관리 시스템(SIEM)을 연결하세요. 위협 탐지를 활성화하면 위협 분석을 위해 데이터가 SIEM으로 자동 전송됩니다. 자세한 내용은 link:task-siem.html["NetApp Ransomware Resilience를 SIEM에 연결하세요"]를 참조하십시오.
 
 
 
@@ -66,14 +66,6 @@ TIP: 설정의 워크로드 검색 카드에서 작업 메뉴를 선택합니다
 
 
 
-== 의심스러운 사용자 활동
-
-사용자 활동 카드에서는 의심스러운 사용자 활동을 감지하는 데 필요한 사용자 활동 에이전트를 만들고 관리할 수 있습니다.
-
-자세한 내용은 다음을 참조하세요. link:suspicious-user-activity.html["의심스러운 사용자 활동"] .
-
-
-
 == 백업 대상 추가
 
 랜섬웨어 복원력은 아직 백업이 없는 워크로드와 아직 백업 대상이 할당되지 않은 워크로드를 식별할 수 있습니다.
@@ -87,7 +79,7 @@ TIP: 설정의 워크로드 검색 카드에서 작업 메뉴를 선택합니다
 
 
 
-NOTE: Amazon FSx for NetApp ONTAP 의 워크로드에는 백업 대상을 사용할 수 없습니다.  FSx for ONTAP 백업 서비스를 사용하여 백업 작업을 수행합니다.
+NOTE: Amazon FSx for NetApp ONTAP 또는 Azure NetApp Files의 워크로드에 대해서는 백업 대상을 사용할 수 없습니다. 백업 작업은 네이티브 백업 솔루션인 FSx for ONTAP 백업 서비스 또는 Azure NetApp Files 백업을 사용하여 수행하십시오.
 
 대시보드에서 권장하는 작업을 기반으로 백업 대상을 추가하거나 메뉴의 설정 옵션에 액세스하여 백업 대상을 추가할 수 있습니다.
 
@@ -290,244 +282,3 @@ Azure PrivateLink를 사용하려면 다음을 참조하세요. https://azure.mi
 새로운 백업 대상이 백업 대상 목록에 추가됩니다.
 
 image:screen-settings-backup-destinations-list2.png["백업 대상 페이지 설정 옵션"]
-
-
-
-== 위협 분석 및 탐지를 위해 보안 및 이벤트 관리 시스템(SIEM)에 연결합니다.
-
-위협 분석 및 감지를 위해 보안 및 이벤트 관리 시스템(SIEM)에 자동으로 데이터를 전송할 수 있습니다.  SIEM으로 AWS Security Hub, Microsoft Sentinel 또는 Splunk Cloud를 선택할 수 있습니다.
-
-랜섬웨어 복원력에서 SIEM을 활성화하기 전에 SIEM 시스템을 구성해야 합니다.
-
-.SIEM에 전송되는 이벤트 데이터에 관하여
-랜섬웨어 복원력은 다음과 같은 이벤트 데이터를 SIEM 시스템으로 전송할 수 있습니다.
-
-* *문맥*:
-+
-** *os*: ONTAP 값을 갖는 상수입니다.
-** *os_version*: 시스템에서 실행 중인 ONTAP 버전입니다.
-** *connector_id*: 시스템을 관리하는 콘솔 에이전트의 ID입니다.
-** *cluster_id*: ONTAP 에서 시스템에 대해 보고한 클러스터 ID입니다.
-** *svm_name*: 경고가 발견된 SVM의 이름입니다.
-** *volume_name*: 경고가 발견된 볼륨의 이름입니다.
-** *volume_id*: ONTAP 에서 시스템에 대해 보고한 볼륨의 ID입니다.
-
-
-* *사건*:
-+
-** *incident_id*: Ransomware Resilience에서 공격을 받는 볼륨에 대해 Ransomware Resilience에서 생성한 사고 ID입니다.
-** *alert_id*: Ransomware Resilience에서 워크로드에 대해 생성한 ID입니다.
-** *심각도*: 다음 경보 수준 중 하나: "위험", "높음", "보통", "낮음".
-** *설명*: 감지된 알림에 대한 세부 정보(예: "arp_learning_mode_test_2630 워크로드에서 잠재적인 랜섬웨어 공격이 감지되었습니다")
-
-
-
-
-
-
-=== 위협 탐지를 위해 AWS Security Hub 구성
-
-랜섬웨어 복원력에서 AWS Security Hub를 활성화하기 전에 AWS Security Hub에서 다음과 같은 고급 단계를 수행해야 합니다.
-
-* AWS Security Hub에서 권한을 설정합니다.
-* AWS Security Hub에서 인증 액세스 키와 비밀 키를 설정합니다.  (여기서는 이러한 단계를 제공하지 않습니다.)
-
-
-.AWS Security Hub에서 권한을 설정하는 단계
-. *AWS IAM 콘솔*로 이동합니다.
-. *정책*을 선택하세요.
-. 다음 코드를 JSON 형식으로 사용하여 정책을 만듭니다.
-+
-[listing]
-----
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Sid": "NetAppSecurityHubFindings",
-      "Effect": "Allow",
-      "Action": [
-        "securityhub:BatchImportFindings",
-        "securityhub:BatchUpdateFindings"
-      ],
-      "Resource": [
-        "arn:aws:securityhub:*:*:product/*/default",
-        "arn:aws:securityhub:*:*:hub/default"
-      ]
-    }
-  ]
-}
-----
-
-
-
-
-=== 위협 탐지를 위해 Microsoft Sentinel 구성
-
-랜섬웨어 복원력에서 Microsoft Sentinel을 활성화하기 전에 Microsoft Sentinel에서 다음과 같은 고급 단계를 수행해야 합니다.
-
-* *필수 조건*
-+
-** Microsoft Sentinel을 활성화합니다.
-** Microsoft Sentinel에서 사용자 지정 역할을 만듭니다.
-
-
-* *등록*
-+
-** Microsoft Sentinel에서 이벤트를 받으려면 Ransomware Resilience를 등록하세요.
-** 등록을 위한 비밀을 생성하세요.
-
-
-* *권한*: 애플리케이션에 권한을 할당합니다.
-* *인증*: 애플리케이션에 대한 인증 자격 증명을 입력하세요.
-
-
-.Microsoft Sentinel을 활성화하는 단계
-. Microsoft Sentinel로 이동합니다.
-. *Log Analytics 작업 공간*을 만듭니다.
-. 방금 만든 Log Analytics 작업 영역을 Microsoft Sentinel에서 사용할 수 있도록 설정합니다.
-
-
-.Microsoft Sentinel에서 사용자 지정 역할을 만드는 단계
-. Microsoft Sentinel로 이동합니다.
-. *구독* > *액세스 제어(IAM)*를 선택합니다.
-. 사용자 지정 역할 이름을 입력하세요.  *랜섬웨어 복원력 센티넬 구성기*라는 이름을 사용하세요.
-. 다음 JSON을 복사하여 *JSON* 탭에 붙여넣습니다.
-+
-[listing]
-----
-{
-  "roleName": "Ransomware Resilience Sentinel Configurator",
-  "description": "",
-  "assignableScopes":["/subscriptions/{subscription_id}"],
-  "permissions": [
-
-  ]
-}
-----
-. 설정을 검토하고 저장합니다.
-
-
-.Microsoft Sentinel에서 이벤트를 수신하기 위해 랜섬웨어 복원력을 등록하는 단계
-. Microsoft Sentinel로 이동합니다.
-. *Entra ID* > *애플리케이션* > *앱 등록*을 선택하세요.
-. 애플리케이션의 *표시 이름*에 "*랜섬웨어 복원력*"을 입력합니다.
-. *지원되는 계정 유형* 필드에서 *이 조직 디렉토리의 계정만*을 선택합니다.
-. 이벤트가 푸시될 *기본 인덱스*를 선택하세요.
-. *리뷰*를 선택하세요.
-. *등록*을 선택하여 설정을 저장하세요.
-+
-등록 후 Microsoft Entra 관리 센터에 애플리케이션 개요 창이 표시됩니다.
-
-
-
-.등록을 위한 비밀을 만드는 단계
-. Microsoft Sentinel로 이동합니다.
-. *인증서 및 비밀번호* > *클라이언트 비밀번호* > *새 클라이언트 비밀번호*를 선택합니다.
-. 애플리케이션 비밀번호에 대한 설명을 추가하세요.
-. 비밀에 대한 *만료*를 선택하거나 사용자 지정 수명을 지정합니다.
-+
-
-TIP: 클라이언트 비밀번호의 수명은 2년(24개월) 이하로 제한됩니다.  Microsoft에서는 만료 값을 12개월 미만으로 설정할 것을 권장합니다.
-
-. *추가*를 선택하여 비밀번호를 생성하세요.
-. 인증 단계에서 사용할 비밀번호를 기록합니다.  이 페이지를 벗어나면 비밀은 다시 표시되지 않습니다.
-
-
-.애플리케이션에 권한을 할당하는 단계
-. Microsoft Sentinel로 이동합니다.
-. *구독* > *액세스 제어(IAM)*를 선택합니다.
-. *추가* > *역할 할당 추가*를 선택합니다.
-. *권한 있는 관리자 역할* 필드에서 *랜섬웨어 복원력 센티넬 구성기*를 선택합니다.
-+
-
-TIP: 이는 이전에 만든 사용자 정의 역할입니다.
-
-. *다음*을 선택하세요.
-. *액세스 권한 할당* 필드에서 *사용자, 그룹 또는 서비스 주체*를 선택합니다.
-. *멤버 선택*을 선택하세요.  그런 다음 *랜섬웨어 복원력 센티넬 구성기*를 선택하세요.
-. *다음*을 선택하세요.
-. *사용자가 할 수 있는 일* 필드에서 *권한 있는 관리자 역할인 소유자, UAA, RBAC(권장)를 제외한 모든 역할을 사용자에게 할당하도록 허용*을 선택합니다.
-. *다음*을 선택하세요.
-. 권한을 할당하려면 *검토 및 할당*을 선택하세요.
-
-
-.애플리케이션에 대한 인증 자격 증명을 입력하는 단계
-. Microsoft Sentinel로 이동합니다.
-. 자격 증명을 입력하세요:
-+
-.. 테넌트 ID, 클라이언트 애플리케이션 ID, 클라이언트 애플리케이션 비밀번호를 입력하세요.
-.. *인증*을 클릭하세요.
-+
-
-NOTE: 인증이 성공하면 "인증됨" 메시지가 나타납니다.
-
-
-
-. 애플리케이션에 대한 Log Analytics 작업 공간 세부 정보를 입력합니다.
-+
-.. 구독 ID, 리소스 그룹 및 Log Analytics 작업 영역을 선택합니다.
-
-
-
-
-
-
-=== 위협 탐지를 위해 Splunk Cloud 구성
-
-랜섬웨어 복원력에서 Splunk Cloud를 활성화하기 전에 Splunk Cloud에서 다음과 같은 고급 단계를 수행해야 합니다.
-
-* Splunk Cloud에서 HTTP 이벤트 수집기를 활성화하여 콘솔에서 HTTP 또는 HTTPS를 통해 이벤트 데이터를 수신합니다.
-* Splunk Cloud에서 이벤트 수집기 토큰을 만듭니다.
-
-
-.Splunk에서 HTTP 이벤트 수집기를 활성화하는 단계
-. Splunk Cloud로 이동하세요.
-. *설정* > *데이터 입력*을 선택하세요.
-. *HTTP 이벤트 수집기* > *전역 설정*을 선택합니다.
-. 모든 토큰 토글에서 *활성화*를 선택합니다.
-. 이벤트 수집기가 HTTP가 아닌 HTTPS를 통해 수신하고 통신하도록 하려면 *SSL 사용*을 선택합니다.
-. HTTP 이벤트 수집기의 *HTTP 포트 번호*에 포트를 입력하세요.
-
-
-.Splunk에서 이벤트 수집기 토큰을 만드는 단계
-. Splunk Cloud로 이동하세요.
-. *설정* > *데이터 추가*를 선택하세요.
-. *모니터* > *HTTP 이벤트 수집기*를 선택합니다.
-. 토큰의 이름을 입력하고 *다음*을 선택합니다.
-. 이벤트가 푸시될 *기본 인덱스*를 선택한 다음 *검토*를 선택합니다.
-. 모든 엔드포인트 설정이 올바른지 확인한 후 *제출*을 선택합니다.
-. 토큰을 복사하여 다른 문서에 붙여넣어 인증 단계에 대비하세요.
-
-
-
-
-=== 랜섬웨어 복원력에 SIEM 연결
-
-SIEM을 활성화하면 랜섬웨어 복원력 데이터가 SIEM 서버로 전송되어 위협 분석 및 보고가 가능합니다.
-
-.단계
-. 콘솔 메뉴에서 *보호* > *랜섬웨어 복원력*을 선택합니다.
-. 랜섬웨어 복원력 메뉴에서 세로를 선택하세요.image:button-actions-vertical.png["수직 동작"] ... 오른쪽 상단의 옵션.
-. *설정*을 선택하세요.
-+
-설정 페이지가 나타납니다.
-
-+
-image:screen-settings2.png["설정 페이지"]
-
-. 설정 페이지에서 SIEM 연결 타일의 *연결*을 선택합니다.
-+
-image:screen-settings-threat-detection-3options.png["위협 탐지 세부 정보 페이지 활성화"]
-
-. SIEM 시스템 중 하나를 선택하세요.
-. AWS Security Hub 또는 Splunk Cloud에서 구성한 토큰 및 인증 세부 정보를 입력합니다.
-+
-
-NOTE: 입력하는 정보는 선택한 SIEM에 따라 달라집니다.
-
-. *활성화*를 선택하세요.
-+
-설정 페이지에 "연결됨"이 표시됩니다.
-
-

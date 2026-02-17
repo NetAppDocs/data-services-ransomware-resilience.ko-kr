@@ -184,7 +184,10 @@ image:diagram-rp-architecture-preview3.png["랜섬웨어 복원력 아키텍처�
 | 환경 | 규약 | 지원되는 버전 
 
 
-| Amazon FSx for NetApp ONTAP* | NFS, CIFS 및 SAN | 해당 없음 
+| Amazon FSx for NetApp ONTAP* | CIFS, NFS 및 SAN | 해당 없음 
+
+
+| Azure NetApp Files | CIFS 및 NFS | 해당 없음 
 
 
 .2+| AWS용 Cloud Volumes ONTAP | CIFS 및 NFS | 9.11.1 이상 
