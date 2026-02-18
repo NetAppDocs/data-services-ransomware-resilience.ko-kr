@@ -97,9 +97,6 @@ Ransomware Resilience에서 제공하는 권장 사항의 샘플은 다음과 �
 | 위협 보고를 위해 SIEM에 연결합니다. | 위협 분석 및 감지를 위해 보안 및 이벤트 관리 시스템(SIEM)으로 데이터를 보냅니다. | 위협 탐지를 활성화하려면 SIEM/XDR 서버 세부 정보를 입력하세요. link:rp-use-settings.html["보호 설정 구성"] . 
 
 
-| 애플리케이션이나 VMware에 대한 워크로드 일관성 보호를 활성화합니다. | 이러한 작업 부하는 SnapCenter 소프트웨어나 SnapCenter Plug-in for VMware vSphere 으로 관리되지 않습니다. | SnapCenter 에서 관리하려면 작업 부하에 맞는 보호를 활성화하세요. link:rp-use-protect.html["랜섬웨어 공격으로부터 작업 부하를 보호하세요"] . 
-
-
 | 시스템의 보안 태세 개선 | NetApp Digital Advisor 하나 이상의 높거나 심각한 보안 위험을 확인했습니다. | NetApp Digital Advisor 의 모든 보안 위험을 검토하세요. 참조하다 https://docs.netapp.com/us-en/active-iq/index.html["Digital Advisor 문서"^] . 
 
 
@@ -112,13 +109,7 @@ Ransomware Resilience에서 제공하는 권장 사항의 샘플은 다음과 �
 | 랜섬웨어로부터 중요하거나 매우 중요한 애플리케이션 워크로드를 보호하세요. | 보호 페이지에는 보호되지 않은 중요 또는 매우 중요(할당된 우선순위 수준에 따라) 애플리케이션 워크로드가 표시됩니다. | 이러한 작업 부하에 정책을 할당합니다. link:rp-use-protect.html["랜섬웨어 공격으로부터 워크로드 보호"] . 
 
 
-| 랜섬웨어로부터 중요하거나 매우 중요한 파일 공유 워크로드를 보호하세요. | 보호 페이지에는 보호되지 않는 파일 공유 또는 데이터 저장소 유형의 중요하거나 매우 중요한 워크로드가 표시됩니다. | 각 작업 부하에 정책을 할당합니다. link:rp-use-protect.html["랜섬웨어 공격으로부터 워크로드 보호"] . 
-
-
-| 콘솔을 사용하여 VMware vSphere(SCV)에 사용 가능한 SnapCenter 플러그인을 등록합니다. | VM 작업 부하가 보호되지 않습니다. | VMware vSphere용 SnapCenter 플러그인을 활성화하여 VM 워크로드에 VM 일관성 보호 기능을 할당합니다. link:rp-use-protect.html["랜섬웨어 공격으로부터 워크로드 보호"] . 
-
-
-| 콘솔에 사용 가능한 SnapCenter 서버 등록 | 애플리케이션이 보호되지 않았습니다. | SnapCenter Server를 활성화하여 워크로드에 애플리케이션 일관성 보호 기능을 할당합니다. link:rp-use-protect.html["랜섬웨어 공격으로부터 워크로드 보호"] . 
+| 랜섬웨어로부터 중요하거나 매우 중요한 파일 공유 워크로드를 보호하세요. | 보호 페이지에는 보호되지 않는 파일 공유 또는 데이터 저장소 유형의 중요하거나 매우 중요한 워크로드가 표시됩니다. | 각 워크로드에 정책을 할당하십시오. link:rp-use-protect.html["랜섬웨어 공격으로부터 워크로드 보호"]을 참조하십시오. link:rp-use-protect.html["랜섬웨어 공격으로부터 워크로드 보호"]을 참조하십시오. link:rp-use-protect.html["랜섬웨어 공격으로부터 워크로드 보호"]을 참조하십시오. 
 
 
 | 새로운 알림을 확인하세요. | 새로운 알림이 있습니다. | 새로운 알림을 검토하세요. link:rp-use-alert.html["감지된 랜섬웨어 경고에 대응하세요"] . 

@@ -42,20 +42,17 @@ NetApp Ransomware Resilience 에서 워크로드 일관성 보호를 활성화�
 NOTE: Amazon FSxN for ONTAP 및 Azure NetApp Files에 대한 보호 전략을 구성하는 경우 link:rp-reference-limitations.html["각 서비스의 제한 사항"]을(를) 참조하십시오.
 
 
-TIP: 데이터 자산의 관리 및 보호를 강화하려면 다음을 생성할 수 있습니다.link:#create-a-protection-group["그룹 파일 공유"] 하나의 전략으로 여러 볼륨을 공동으로 보호합니다.
+TIP: 데이터 자산의 관리 및 보호를 강화하기 위해 link:task-protection-group.html["그룹 워크로드"]을(를) 생성하여 하나의 전략으로 볼륨을 통합하여 보호할 수 있습니다.
 
 
 
 === 다른 NetApp 관리 서비스와의 보호 정책
 
-랜섬웨어 회복력 외에도 다음 서비스를 사용하여 보호 기능을 관리할 수 있습니다.
+랜섬웨어 복원력 외에도 NetApp Backup and Recovery를 사용하여 파일 공유 및 VM 파일 공유에 대한 보호를 관리할 수 있습니다.
 
-* 파일 공유, VM 파일 공유를 위한 NetApp Backup and Recovery
-* VM 데이터 저장소를 위한 VMware용 SnapCenter
-* Oracle용 SnapCenter
+NetApp Backup and Recovery 서비스의 보호 정보는 NetApp Ransomware Resilience에 표시됩니다. NetApp Ransomware Resilience를 사용하여 이러한 서비스에 탐지 정책을 추가할 수 있습니다. NetApp Ransomware Resilience로 보호 정책을 추가하면 기존 보호 정책이 대체됩니다.
 
-
-이러한 서비스의 보호 정보는 랜섬웨어 복원력에 나타납니다.  랜섬웨어 복원력을 사용하면 이러한 서비스에 탐지 정책을 추가할 수 있습니다.  랜섬웨어 복원력을 갖춘 보호 정책을 추가하면 기존 보호 정책이 대체됩니다.
+Ransomware Resilience는 VM 데이터스토어용 SnapCenter for VMware 및 Oracle용 SnapCenter의 보호 정책도 검색합니다. 이러한 서비스를 사용하여 Ransomware Resilience로 복원할 수는 없습니다.
 
 랜섬웨어 탐지 정책이 ONTAP 버전에 따라 ARP 또는 ARP/AI(Autonomous Ransomware Protection)와 ONTAP 의 FPolicy에 의해 관리되는 경우 해당 작업 부하가 보호되고 ARP와 FPolicy에 의해 계속 관리됩니다.
 
@@ -66,7 +63,7 @@ NOTE: Amazon FSx for NetApp ONTAP 또는 Azure NetApp Files의 워크로드에 �
 
 === NetApp 애플리케이션으로 보호되지 않는 워크로드에 대한 보호 정책
 
-워크로드가 백업 및 복구, 랜섬웨어 복원력, SnapCenter 또는 SnapCenter Plug-in for VMware vSphere 으로 관리되지 않는 경우 ONTAP 또는 다른 제품의 일부로 스냅샷이 생성되었을 수 있습니다.  ONTAP FPolicy 보호가 적용된 경우 ONTAP 사용하여 FPolicy 보호를 변경할 수 있습니다.
+워크로드가 NetApp Backup and Recovery 또는 NetApp Ransomware Resilience로 관리되지 않는 경우 ONTAP 또는 다른 제품의 일부로 스냅샷이 생성되었을 수 있습니다. ONTAP FPolicy 보호가 적용된 경우 ONTAP를 사용하여 FPolicy 보호를 변경할 수 있습니다.
 
 
 
@@ -95,7 +92,7 @@ image:screen-protection.png["보호 페이지"]
 
 
 
-NOTE: 보다link:#add-a-ransomware-protection-strategy["랜섬웨어 보호 전략 추가"] SnapCenter 또는 백업 및 복구에 기존 보호 정책이 있는 경우 랜섬웨어 복원력을 사용하는 방법에 대해 알아보세요.
+NOTE: link:#add-a-ransomware-protection-strategy["랜섬웨어 보호 전략 추가"]를 참조하여 Backup and Recovery를 사용하는 기존 보호 정책이 있을 때 Ransomware Resilience를 사용하는 방법에 대해 알아보십시오.
 
 
 
@@ -130,7 +127,7 @@ NOTE: 의심스러운 사용자 행동 활동 및 FPolicy(의심스러운 파일
 
 *복제 대상*: 스냅샷 복제를 구성한 경우 대상 스토리지 VM 및 시스템 이름이 나열됩니다. 복제가 없는 경우 이 필드에는 "없음"이 표시됩니다.
 
-*스냅샷 및 백업 정책*: 이 열은 워크로드에 적용된 스냅샷 및 백업 정책과 해당 정책을 관리하는 제품 또는 서비스를 보여줍니다.
+*Snapshot, 복제 및 백업 정책*: 이 열에는 워크로드에 적용된 Snapshot 및 백업 정책과 해당 정책을 관리하는 제품 또는 서비스가 표시됩니다.
 
 * SnapCenter 에서 관리
 * SnapCenter Plug-in for VMware vSphere 으로 관리됨
@@ -138,6 +135,9 @@ NOTE: 의심스러운 사용자 행동 활동 및 FPolicy(의심스러운 파일
 * 스냅샷 및 백업을 관리하는 랜섬웨어 보호 정책의 이름
 * None
 
+
+
+NOTE: SnapCenter 정책에 대해서는 Ransomware Resilience에서 관리형 복구를 사용할 수 없습니다.
 
 *업무량 중요도*
 
@@ -285,37 +285,6 @@ NOTE: **암호화 사용자 확장** 정책은 의심스러운 사용자 동작 
 |===
 
 
-== SnapCenter 사용하여 애플리케이션 또는 VM과 일관된 보호 기능 활성화
-
-애플리케이션 또는 VM 일관성 보호를 활성화하면 일관된 방식으로 애플리케이션 또는 VM 워크로드를 보호하여 나중에 복구가 필요할 경우 잠재적인 데이터 손실을 방지하기 위해 조용하고 일관된 상태를 유지할 수 있습니다.
-
-이 프로세스는 백업 및 복구를 사용하여 애플리케이션용 SnapCenter 소프트웨어 서버 또는 VM용 SnapCenter Plug-in for VMware vSphere 등록하는 것을 시작합니다.
-
-워크로드에 맞는 보호를 활성화한 후에는 랜섬웨어 복원력에서 보호 전략을 관리할 수 있습니다.  보호 전략에는 Ransomware Resilience에서 관리하는 랜섬웨어 탐지 정책과 함께 다른 곳에서 관리되는 스냅샷 및 백업 정책이 포함됩니다.
-
-백업 및 복구를 사용하여 VMware vSphere용 SnapCenter 또는 SnapCenter Plug-in for VMware vSphere 등록하는 방법에 대해 알아보려면 다음 정보를 참조하세요.
-
-* https://docs.netapp.com/us-en/data-services-backup-recovery/task-register-snapcenter-server.html["SnapCenter 서버 소프트웨어 등록"^]
-* https://docs.netapp.com/us-en/data-services-backup-recovery/task-register-snapCenter-plug-in-for-vmware-vsphere.html["SnapCenter Plug-in for VMware vSphere 등록"^]
-
-
-.단계
-. 랜섬웨어 복원력 메뉴에서 *대시보드*를 선택합니다.
-. 권장 사항 창에서 다음 권장 사항 중 하나를 찾아 *검토 및 수정*을 선택하세요.
-+
-** NetApp Console 사용하여 사용 가능한 SnapCenter 서버 등록
-** NetApp Console 사용하여 SnapCenter Plug-in for VMware vSphere 등록합니다.
-
-
-. 백업 및 복구를 사용하여 SnapCenter 또는 SnapCenter Plug-in for VMware vSphere 등록하려면 다음 정보를 따르세요.
-. 랜섬웨어 회복력으로 돌아가기.
-. 랜섬웨어 복원력에서 대시보드로 이동하여 검색 프로세스를 다시 시작합니다.
-. 랜섬웨어 복원력에서 *보호*를 선택하여 보호 페이지를 확인하세요.
-. 보호 페이지의 스냅샷 및 백업 정책 열에서 세부 정보를 검토하여 해당 정책이 다른 곳에서 관리되는지 확인하세요.
-
-
-
-
 == 랜섬웨어 보호 전략 추가
 
 랜섬웨어 보호 전략을 추가하는 데는 세 가지 접근 방식이 있습니다.
@@ -330,7 +299,7 @@ NOTE: **암호화 사용자 확장** 정책은 의심스러운 사용자 동작 
 ** 백업 정책
 
 
-* ** SnapCenter 또는 백업 및 복구 보호의 기존 스냅샷 또는 백업 정책을 Ransomware Resilience가 관리하는 보호 전략으로 대체합니다.**
+* **기존 Backup and Recovery 보호 기능의 스냅샷 또는 백업 정책을 Ransomware Resilience에서 관리하는 보호 전략으로 교체하십시오.**
 +
 랜섬웨어 보호 전략에는 다음이 포함됩니다.
 
@@ -425,15 +394,15 @@ TIP: 보조 저장소에서 백업 잠금을 활성화하려면 *설정* 옵션�
 
 
 
-=== SnapCenter 또는 Backup and Recovery에서 관리하는 기존 스냅샷 및 백업 정책이 있는 워크로드에 감지 정책을 추가합니다.
+=== NetApp Backup and Recovery에서 관리하는 기존 스냅샷 및 백업 정책이 있는 워크로드에 탐지 정책을 추가합니다
 
-랜섬웨어 복원력을 사용하면 다른 NetApp 제품이나 서비스에서 관리되는 기존 스냅샷 및 백업 보호가 있는 워크로드에 탐지 정책이나 보호 정책을 할당할 수 있습니다.  백업 및 복구, SnapCenter 와 같은 다른 서비스는 스냅샷, 보조 스토리지로의 복제 또는 개체 스토리지로의 백업을 관리하는 정책을 사용합니다.
+Ransomware Resilience를 사용하면 다른 NetApp 제품 또는 서비스에서 관리되는 기존 스냅샷 및 백업 보호 기능이 있는 워크로드에 탐지 정책 또는 보호 정책을 할당할 수 있습니다. Backup and Recovery는 스냅샷, 2차 스토리지로의 복제 또는 오브젝트 스토리지로의 백업을 관리하는 정책을 사용합니다.
 
 
 
 ==== 기존 백업 또는 스냅샷 정책이 있는 워크로드에 감지 정책 추가
 
-Backup and Recovery 또는 SnapCenter 에 기존 스냅샷 또는 백업 정책이 있는 경우 랜섬웨어 공격을 감지하는 정책을 추가할 수 있습니다.  랜섬웨어 복원력을 사용하여 보호 및 탐지를 관리하려면 다음을 참조하세요.<<protection,랜섬웨어 복원력으로 보호하세요>> .
+기존에 Backup and Recovery 기능을 사용하는 스냅샷 또는 백업 정책이 있는 경우, 랜섬웨어 공격을 탐지하는 정책을 추가할 수 있습니다. Ransomware Resilience를 사용한 보호 및 탐지 관리에 대한 자세한 내용은 <<protection,랜섬웨어 복원력으로 보호하세요>>를 참조하십시오.
 
 .단계
 . 랜섬웨어 복원력 메뉴에서 *보호*를 선택합니다.
@@ -441,9 +410,8 @@ Backup and Recovery 또는 SnapCenter 에 기존 스냅샷 또는 백업 정책�
 image:screen-protection.png["전략 관리 페이지"]
 
 . 보호 페이지에서 작업 부하를 선택한 다음 *보호*를 선택합니다.
-. 랜섬웨어 복원력은 기존에 활성화된 SnapCenter 또는 백업 및 복구 정책이 있는지 감지합니다.
-. 기존 백업 및 복구 또는 SnapCenter 정책을 그대로 두고 _탐지_ 정책만 적용하려면 **기존 정책 바꾸기** 상자를 선택하지 마세요.
-. SnapCenter 정책에 대한 자세한 내용을 보려면 *아래쪽 화살표*를 선택하세요.
+. Ransomware Resilience는 기존 활성 Backup and Recovery 정책이 있는지 감지합니다.
+. 기존 Backup and Recovery를 그대로 유지하고 _감지_ 정책만 적용하려면 **기존 정책 바꾸기** 확인란을 선택 해제하십시오.
 . 원하는 감지 설정을 선택합니다.
 +
 ....
@@ -473,7 +441,7 @@ image:screen-protection.png["전략 관리 페이지"]
 image:screen-protection.png["전략 관리 페이지"]
 
 . 보호 페이지에서 작업 부하를 선택한 다음 *보호*를 선택합니다.
-. 랜섬웨어 복원력은 기존에 활성화된 백업 및 복구 또는 SnapCenter 정책이 있는지 감지합니다.  기존 백업 및 복구 또는 SnapCenter 정책을 바꾸려면 **기존 정책 바꾸기** 상자를 선택하세요.  상자를 선택하면 랜섬웨어 복원력이 탐지 정책 목록을 탐지 정책으로 바꿉니다.
+. NetApp Ransomware Resilience는 기존 활성 NetApp Backup and Recovery 정책이 있는지 감지합니다. 기존 정책을 교체하려면 **기존 정책 교체** 확인란을 선택하십시오. 이 확인란을 선택하면 NetApp Ransomware Resilience가 감지 정책 목록을 감지 정책으로 대체합니다.
 . 보호 정책을 선택하세요.  보호 정책이 없으면 **추가**를 선택하여 새 정책을 만듭니다.  정책 생성에 대한 정보는 다음을 참조하세요.<<steps,보호 정책 만들기>> . **다음**을 선택하세요.
 . 복제 전략이 포함된 경우 **대상 시스템**과 **대상 스토리지 VM**을 선택하십시오. **다음**을 선택하세요.
 . 백업 대상을 선택하거나 새 대상을 만듭니다. **다음**을 선택하세요.
@@ -494,103 +462,10 @@ image:screen-protection.png["전략 관리 페이지"]
 .단계
 . 랜섬웨어 복원력 메뉴에서 *보호*를 선택합니다.
 . 보호 페이지의 작업 부하 행에서 *보호 편집*을 선택합니다.
-. 워크로드에 유지 관리하려는 기존 백업 및 복구 또는 SnapCenter 정책이 있는 경우 **기존 정책 바꾸기**의 선택을 취소합니다.  기존 정책을 바꾸려면 **기존 정책 바꾸기**를 선택하세요.
+. 워크로드에 유지하려는 기존 Backup and Recovery 정책이 있는 경우 **기존 정책 바꾸기**를 선택 해제하십시오. 기존 정책을 바꾸려면 **기존 정책 바꾸기**를 선택하십시오.
 . 정책 페이지에서 할당하려는 정책의 아래쪽 화살표를 선택하여 세부 정보를 검토합니다.
 . 할당하려는 정책을 선택하세요.
 . *보호*를 선택하여 변경을 완료하세요.
-
-
-
-
-== 보호 그룹 생성
-
-파일 공유를 보호 그룹으로 그룹화하면 데이터 자산을 보호하기가 더 쉬워집니다.  랜섬웨어 복원력은 각 볼륨을 개별적으로 보호하는 대신, 그룹의 모든 볼륨을 동시에 보호할 수 있습니다.
-
-보호 상태(즉, 보호되지 않는 그룹과 보호되는 그룹)에 관계없이 그룹을 만들 수 있습니다. 보호 그룹에 보호 정책을 추가하면 새 보호 정책이 SnapCenter 및 NetApp Backup and Recovery 에서 관리하는 정책을 포함한 모든 기존 정책을 대체합니다.
-
-.단계
-. 랜섬웨어 복원력 메뉴에서 *보호*를 선택합니다.
-+
-image:screen-protection.png["전략 관리 페이지"]
-
-. 보호 페이지에서 *보호 그룹* 탭을 선택합니다.
-+
-image:screen-protection-groups.png["보호 그룹 페이지"]
-
-. *추가*를 선택하세요.
-+
-image:screen-protection-groups-add.png["보호 그룹 페이지 추가"]
-
-. 보호 그룹의 이름을 입력하세요.
-. 그룹에 추가할 작업 부하를 선택합니다.
-+
-
-TIP: 작업 부하에 대한 자세한 내용을 보려면 오른쪽으로 스크롤하세요.
-
-. *다음*을 선택하세요.
-+
-image:screen-protection-groups-policy.png["보호 그룹 추가 - 정책 페이지"]
-
-. 이 그룹에 대한 보호를 관리할 정책을 선택합니다.
-. 보호 전략에 복제 기능이 포함되어 있다면 복제 설정을 검토하십시오.
-+
-.. 모든 스냅샷을 동일한 대상으로 복제하려면 **각 워크로드에 동일한 대상 사용**을 선택하십시오. 콘솔 에이전트 섹션에서 워크로드에 대한 *대상 시스템*과 *대상 스토리지 VM*을 선택하십시오. + 다른 목적지를 사용하려면 해당 확인란의 선택을 해제하세요. 각 콘솔 에이전트 아래의 각 워크로드를 검토하고 각 워크로드에 대해 *대상 시스템* 및 *대상 스토리지 VM*을 할당하십시오. **다음**을 선택하세요.
-
-
-. 백업 정책을 구성하려면 정책을 선택한 다음 **다음**을 선택하십시오.
-. 탐지 정책에 사용자 동작 탐지가 포함된 경우 사용할 데이터 수집기를 선택한 후 **다음**을 클릭합니다.
-. 보호 그룹에 대한 선택 사항을 검토합니다.
-. 보호 그룹 생성을 완료하려면 *추가*를 선택하세요.
-
-
-
-
-=== 그룹 보호 편집
-
-기존 그룹의 탐지 정책을 변경할 수 있습니다.
-
-.단계
-. 랜섬웨어 복원력 메뉴에서 *보호*를 선택합니다.
-. 보호 페이지에서 *보호 그룹* 탭을 선택한 다음 정책을 수정할 그룹을 선택합니다.
-. 보호 그룹의 개요 페이지에서 *보호 편집*을 선택합니다.
-. 적용할 기존 보호 정책을 선택하거나 **추가**를 선택하여 새 보호 정책을 만듭니다.  보호 정책 추가에 대한 자세한 내용은 다음을 참조하세요.<<steps,보호 정책 만들기>> .  그런 다음 **저장**을 선택합니다.
-. 백업 대상 개요에서 기존 백업 대상을 선택하거나 **새 백업 대상 추가**를 클릭합니다.
-. **다음**을 선택하여 변경 사항을 검토하세요.
-
-
-
-
-=== 그룹에서 작업 부하 제거
-
-나중에 기존 그룹에서 작업 부하를 제거해야 할 수도 있습니다.
-
-.단계
-. 랜섬웨어 복원력 메뉴에서 *보호*를 선택합니다.
-. 보호 페이지에서 *보호 그룹* 탭을 선택합니다.
-. 하나 이상의 작업 부하를 제거할 그룹을 선택합니다.
-+
-image:screen-protection-groups-more-workloads.png["보호 그룹 세부 정보 페이지"]
-
-. 선택한 보호 그룹 페이지에서 그룹에서 제거할 작업 부하를 선택하고 *작업*을 선택합니다.image:screenshot_horizontal_more_button.gif["작업 버튼"] 옵션.
-. 작업 메뉴에서 *작업 부하 제거*를 선택합니다.
-. 작업 부하를 제거할 것인지 확인하고 *제거*를 선택합니다.
-
-
-
-
-=== 보호 그룹 삭제
-
-보호 그룹을 삭제하면 그룹과 해당 보호 기능은 제거되지만 개별 작업 부하가 제거되지는 않습니다.
-
-.단계
-. 랜섬웨어 복원력 메뉴에서 *보호*를 선택합니다.
-. 보호 페이지에서 *보호 그룹* 탭을 선택합니다.
-. 하나 이상의 작업 부하를 제거할 그룹을 선택합니다.
-+
-image:screen-protection-groups-more-workloads.png["보호 그룹 세부 정보 페이지"]
-
-. 선택한 보호 그룹 페이지의 오른쪽 상단에서 *보호 그룹 삭제*를 선택합니다.
-. 그룹을 삭제하고 싶은지 확인하고 *삭제*를 선택하세요.
 
 
 
