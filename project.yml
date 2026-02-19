@@ -61,7 +61,7 @@ sidebar:
       - title: 보호 그룹 관리
         url: "/task-protection-group.html"
       - title: 개인 식별 데이터를 스캔하세요
-        url: "/rp-use-protect-classify.html"
+        url: "/task-classify.html"
     - title: 감지된 경고에 대응
       url: "/rp-use-alert.html"
     - title: 랜섬웨어 공격으로부터 복구

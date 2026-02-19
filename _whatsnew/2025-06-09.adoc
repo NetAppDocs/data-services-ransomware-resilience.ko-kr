@@ -28,4 +28,4 @@ BlueXP ransomware protection 서비스 내에서 BlueXP classification 사용하
 
 BlueXP ransomware protection 내에서 파일 공유 워크로드에 BlueXP classification 배포할 수 있습니다.  *개인정보 노출* 열에서 *노출 식별* 옵션을 선택합니다.  분류 서비스를 활성화한 경우 이 작업을 통해 노출을 식별할 수 있습니다.  그렇지 않은 경우, 이 릴리스에서는 대화 상자에 BlueXP classification 배포할 수 있는 옵션이 표시됩니다.  *배포*를 선택하면 BlueXP classification 서비스 랜딩 페이지로 이동하여 해당 서비스를 배포할 수 있습니다.  여
 
-자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-cloud-compliance.html["클라우드에 BlueXP classification 배포"^] BlueXP ransomware protection 서비스를 사용하려면 다음을 참조하세요. https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect-classify.html["BlueXP classification 사용하여 개인 식별 정보를 스캔하세요"] .
+자세한 내용은 https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-cloud-compliance.html["클라우드에 BlueXP classification 배포"^]를 참조하고 BlueXP ransomware protection 내에서 서비스를 사용하려면 https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-classify.html["BlueXP classification 사용하여 개인 식별 정보를 스캔하세요"]를 참조하십시오.

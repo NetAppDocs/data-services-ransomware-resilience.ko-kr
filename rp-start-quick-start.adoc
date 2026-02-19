@@ -62,7 +62,7 @@ summary: 몇 단계만 거치면 NetApp Ransomware Resilience 시작할 수 있�
 랜섬웨어 복원력에서 보호 기능을 구성한 후, 다음으로 할 수 있는 일은 다음과 같습니다.
 
 [role="quick-margin-list"]
-* link:rp-use-protect-classify.html["데이터 분류를 활성화하여 거버넌스 및 보안 위험을 식별합니다."]
+* link:task-classify.html["데이터 분류를 활성화하여 거버넌스 및 보안 위험을 식별합니다."]
 * link:task-siem.html["SIEM에 알림 보내기"]
 * link:rp-use-reports.html["경고, 보호, 준비 훈련, 복구 또는 요약 보고서 다운로드"]
 

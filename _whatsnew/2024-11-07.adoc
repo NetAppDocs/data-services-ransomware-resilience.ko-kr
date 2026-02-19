@@ -10,11 +10,7 @@
 
 BlueXP ransomware protection 에서 PII 데이터 스캔은 일반적으로 BlueXP classification 배포한 고객에게 제공됩니다.  BlueXP classification 추가 비용 없이 BlueXP 플랫폼의 일부로 제공되며 온프레미스 또는 고객 클라우드에 배포할 수 있습니다.
 
-참조하다 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-settings.html["BlueXP ransomware protection 설정 구성"] .
-
-스캐닝을 시작하려면 보호 페이지에서 개인 정보 노출 열의 *노출 식별*을 클릭하세요.
-
-https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect-classify.html["BlueXP classification 사용하여 개인 식별이 가능한 민감한 데이터를 스캔합니다."] .
+스캔을 시작하려면 Protection 페이지에서 Protection 대시보드의 Privacy exposure 열에 있는 *Identify exposure*를 선택합니다. 자세한 내용은 https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-classify.html["BlueXP classification을 사용하여 개인 식별 가능한 민감한 데이터 검색"]를 참조하십시오.
 
 
 
@@ -22,7 +18,7 @@ https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect
 
 이제 Microsoft Sentinel을 사용하여 위협 분석 및 감지를 위해 보안 및 이벤트 관리 시스템(SIEM)으로 데이터를 전송할 수 있습니다.  이전에는 SIEM으로 AWS Security Hub 또는 Splunk Cloud를 선택할 수 있었습니다.
 
-https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-settings.html["BlueXP ransomware protection 설정 구성에 대해 자세히 알아보세요."] .
+https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["BlueXP ransomware protection 설정 구성에 대해 자세히 알아보세요."].
 
 
 
