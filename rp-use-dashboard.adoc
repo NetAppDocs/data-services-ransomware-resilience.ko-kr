@@ -4,7 +4,7 @@ permalink: rp-use-dashboard.html
 keywords: ransomware protection, ransomware protection dashboard, detect ransomware attacks, recover from ransomware attack 
 summary: NetApp Ransomware Resilience 보드는 워크로드의 보호 상태에 대한 정보를 제공합니다.  위험에 처해 있거나 보호되는 워크로드, 사고로 인해 영향을 받거나 복구 중인 워크로드를 빠르게 파악하고, 보호되거나 위험에 처한 스토리지의 양을 확인하여 보호 범위를 측정할 수 있습니다.  대시보드를 사용하여 보호 권장 사항을 검토하고 조치를 취할 수도 있습니다. 
 ---
-= NetApp Ransomware Resilience 보드를 사용하여 워크로드 상태를 모니터링합니다.
+= NetApp Ransomware Resilience에서 워크로드 상태 모니터링
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

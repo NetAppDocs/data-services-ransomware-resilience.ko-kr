@@ -58,6 +58,9 @@ image:screen-protection-groups-policy.png["보호 그룹 추가 - 정책 페이�
 
 
 
+TIP: Ransomware Resilience에서 보호 대시보드를 검토할 때 보호 그룹별로 워크로드를 정렬할 수 있습니다.
+
+
 
 === 그룹 보호 편집
 

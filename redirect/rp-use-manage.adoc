@@ -1,15 +1,13 @@
 ---
-sidebar: sidebar 
 permalink: rp-use-manage.html 
-keywords: ransomware protection workload name, ransomware protection 
-summary: 기본 이름을 사용하면 위험하지만, 기본 이름을 사용하는 대신 워크로드 이름을 변경하여 워크로드를 관리할 수 있습니다. 
+redirect: data-services-ransomware-resilience/rp-use-protect.html 
 ---
-= NetApp Ransomware Resilience 에서 워크로드 관리
-:hardbreaks:
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ./media/
 
+
+'''
+사이드바: 사이드바 영구 링크: rp-use-manage.html 키워드: 랜섬웨어 보호 워크로드 이름, 랜섬웨어 보호 요약: 기본 이름을 사용하는 것보다 워크로드 이름을 변경하여 워크로드를 관리할 수 있습니다. 기본 이름은 위험성이 더 높습니다. --- = NetApp Ransomware Resilience에서 워크로드 이름 변경 :hardbreaks: :icons: font :imagesdir: ./media/
 
 [role="lead"]
 NetApp Ransomware Resilience 에서 워크로드 이름을 변경하여 워크로드를 관리할 수 있습니다.  기본 이름을 사용하면 랜섬웨어 공격의 위험이 있습니다.

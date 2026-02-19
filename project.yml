@@ -56,6 +56,8 @@ sidebar:
       url: "/rp-use-dashboard.html"
     - title: 작업 부하 보호
       entries:
+      - title: 보호 검토
+        url: "/task-review-protection.html"
       - title: 랜섬웨어 보호 전략으로 워크로드를 보호하세요
         url: "/rp-use-protect.html"
       - title: 보호 그룹 관리

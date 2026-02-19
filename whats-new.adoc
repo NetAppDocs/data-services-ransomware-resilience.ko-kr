@@ -52,7 +52,7 @@ Ransomware Resilience 보호 그룹에서 이제 의심스러운 사용자 행�
 
 === 지원되지 않는 볼륨
 
-랜섬웨어 복원력 보고서의 **요약** 보고서에 지원되는 볼륨과 지원되지 않는 볼륨에 대한 정보가 포함됩니다. 이 정보를 사용하여 시스템 내 볼륨이 랜섬웨어 보호 대상에서 제외되는 이유를 진단하십시오.
+Ransomware Resilience 보고서의 **요약** 보고서에 지원되는 볼륨과 지원되지 않는 볼륨에 대한 정보가 포함됩니다. 이 정보를 사용하여 시스템의 볼륨이 랜섬웨어 보호 대상에서 제외되는 이유를 진단할 수 있습니다.
 
 자세한 내용은 다음을 참조하세요. link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-reports.html["랜섬웨어 복원력 관련 보고서를 다운로드하세요."^].
 
@@ -439,7 +439,7 @@ https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect
 
 === Digital Advisor 의 보안 위험 평가
 
-BlueXP ransomware protection 이제 NetApp Digital Advisor 에서 클러스터와 관련된 높고 심각한 보안 위험에 대한 정보를 수집합니다.  위험이 발견되면 BlueXP ransomware protection 대시보드의 *권장 작업* 창에 "클러스터 <이름>에서 알려진 보안 취약점을 수정하세요."라는 권장 사항을 제공합니다.  대시보드의 권장 사항에서 *검토 및 수정*을 클릭하면 Digital Advisor 와 CVE(일반적인 취약성 및 노출) 문서를 검토하여 보안 위험을 해결할 것을 제안합니다.  여러 보안 위험이 있는 경우 Digital Advisor 에서 정보를 검토하세요.
+BlueXP ransomware protection은 이제 NetApp Digital Advisor에서 클러스터와 관련된 높은 수준 및 중요한 보안 위험에 대한 정보를 수집합니다. 위험이 발견되면 BlueXP ransomware protection은 대시보드의 *권장 조치* 창에 "클러스터의 알려진 보안 취약점을 수정하세요<name>."라는 권장 사항을 제공합니다. 대시보드의 권장 사항에서 *검토 및 수정*을 선택하면 보안 위험을 해결하기 위해 Digital Advisor 및 CVE(Common Vulnerability & Exposure) 문서를 검토하도록 안내합니다. 보안 위험이 여러 개인 경우 Digital Advisor에서 정보를 검토하십시오.
 
 참조하다 https://docs.netapp.com/us-en/active-iq/index.html["Digital Advisor 문서"^] .
 

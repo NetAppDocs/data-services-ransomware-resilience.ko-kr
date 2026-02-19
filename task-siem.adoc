@@ -11,7 +11,7 @@ summary: 'NetApp Ransomware Resilience에서 보안 및 이벤트 관리 시스�
 
 
 [role="lead"]
-NetApp Ransomware Resilience에서 보안 및 이벤트 관리 시스템(SIEM)으로 데이터를 자동으로 전송하여 위협을 분석하고 탐지할 수 있습니다.
+보안 및 이벤트 관리 시스템(SIEM)은 로그 및 이벤트 데이터를 중앙 집중화하여 보안 이벤트 및 규정 준수에 대한 통찰력을 제공합니다. NetApp Ransomware Resilience는 위협 분석 및 탐지를 간소화하기 위해 데이터를 SIEM으로 자동 전송하는 기능을 지원합니다.
 
 Ransomware Resilience는 다음 SIEM을 지원합니다.
 
@@ -183,7 +183,7 @@ TIP: 이는 이전에 만든 사용자 정의 역할입니다.
 . 자격 증명을 입력하세요:
 +
 .. 테넌트 ID, 클라이언트 애플리케이션 ID, 클라이언트 애플리케이션 비밀번호를 입력하세요.
-.. *인증*을 클릭하세요.
+.. *Authenticate*를 선택합니다.
 +
 
 NOTE: 인증이 성공하면 "인증됨" 메시지가 나타납니다.
