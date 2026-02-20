@@ -21,6 +21,9 @@ NetApp Ransomware Resilience는 의심스러운 사용자 활동을 모니터링
 랜섬웨어 복원력은 ONTAP 의 FPolicy가 생성한 사용자 활동 이벤트를 분석하여 의심스러운 사용자 활동을 감지합니다. 사용자 활동 데이터를 수집하려면 하나 이상의 사용자 활동 에이전트를 배포해야 합니다. 에이전트는 테넌트의 장치에 연결할 수 있는 Linux 서버 또는 VM입니다.
 
 
+IMPORTANT: 현재 SAN 워크로드에서는 사용자 활동 감지가 지원되지 않습니다. Amazon FSxN for ONTAP, Cloud Volumes ONTAP 및 ONTAP의 NAS 워크로드에서 사용자 활동 감지를 사용할 수 있습니다.
+
+
 
 == 의심스러운 사용자 활동 포렌식
 
