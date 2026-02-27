@@ -16,7 +16,7 @@ BlueXP ransomware protection은 이제 NetApp Digital Advisor에서 클러스터
 
 이 릴리스에서는 백업 대상을 Google Cloud Platform 버킷으로 설정할 수 있습니다.  이전에는 NetApp StorageGRID, Amazon Web Services 및 Microsoft Azure에만 백업 대상을 추가할 수 있었습니다.
 
-https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-settings.html["BlueXP ransomware protection 설정 구성에 대해 자세히 알아보세요."] .
+https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-backup-destination.html["BlueXP ransomware protection 설정 구성에 대해 자세히 알아보세요."].
 
 
 

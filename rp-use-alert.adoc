@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rp-use-alert.html 
 keywords: ransomware protection alert, ransomware protection attack, detect ransomware alert 
-summary: 랜섬웨어 복원력이 잠재적인 공격을 감지하면 랜섬웨어 복원력 대시보드에 잠재적인 공격을 알리는 알림이 나타납니다. 이 시점에서 랜섬웨어 복원력 알림 탭에서 잠재적 위험을 살펴봐야 합니다. 
+summary: NetApp Ransomware Resilience가 공격 가능성을 감지하면 NetApp Ransomware Resilience 대시보드에 잠재적 공격을 나타내는 경고가 표시됩니다. 이때 NetApp Ransomware Resilience 경고 탭에서 잠재적 위험을 확인해야 합니다. 
 ---
 = NetApp Ransomware Resilience 에서 알림 관리
 :hardbreaks:
@@ -12,7 +12,7 @@ summary: 랜섬웨어 복원력이 잠재적인 공격을 감지하면 랜섬웨
 
 
 [role="lead"]
-NetApp Ransomware Resilience가 공격 가능성을 감지하면 대시보드와 알림 영역에 경고를 표시합니다. Ransomware Resilience는 즉시 스냅샷을 생성합니다. 경고를 받으면 Ransomware Resilience *경고* 탭에서 잠재적 위험을 검토하여 데이터에 미치는 영향을 평가하고 잠재적인 랜섬웨어 공격을 예방하십시오.
+NetApp Ransomware Resilience가 공격 가능성을 감지하면 대시보드와 알림 메뉴에 경고를 표시합니다. Ransomware Resilience는 즉시 스냅샷을 생성합니다. 경고를 받으면 Ransomware Resilience *경고* 탭에서 잠재적 위험을 검토하여 데이터에 미치는 영향을 평가하고 잠재적인 랜섬웨어 공격을 예방하십시오.
 
 Ransomware Resilience가 공격 가능성을 감지하면 Console 알림 설정에 알림이 표시되고 구성된 주소로 이메일이 전송됩니다. 이메일에는 심각도, 영향을 받는 워크로드 및 Ransomware Resilience *Alerts* 탭의 알림에 대한 링크가 포함됩니다.
 
@@ -110,7 +110,7 @@ Ransomware Resilience 대시보드 또는 *알림* 탭에서 알림에 액세스
 *필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 또는 랜섬웨어 복원력 뷰어 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
 
 .단계
-. 랜섬웨어 복원력 대시보드에서 알림 창을 검토하세요.
+. Ransomware Resilience 대시보드에서 경고 창을 검토하십시오.
 . 상태 중 하나에서 *모두 보기*를 선택하세요.
 . 각 알림에 대한 각 볼륨의 모든 인시던트를 검토하려면 알림을 선택하세요.
 . 추가 알림을 검토하려면 왼쪽 상단의 탐색 경로에서 *알림*을 선택하세요.
@@ -195,7 +195,7 @@ image:screen-alerts-incidents3.png["알림 사건 페이지"]
 
 === 비정상적인 사용자 동작 보기
 
-비정상적인 사용자 동작을 확인하기 위해 의심스러운 사용자 감지 기능을 구성한 경우 사용자 수준 데이터를 보고 특정 사용자를 차단할 수 있습니다. 의심스러운 사용자 설정을 활성화하려면 다음을 참조하세요.link:rp-use-settings.html["랜섬웨어 복원력 설정 구성"] .
+의심스러운 사용자 감지 기능을 구성하여 비정상적인 사용자 행동을 확인하도록 설정한 경우, 사용자 수준 데이터를 보고 특정 사용자를 차단할 수 있습니다. 의심스러운 사용자 설정을 활성화하려면 link:suspicious-user-activity.html["사용자 활동 감지를 위한 에이전트 및 수집기 구성"]을(를) 참조하십시오.
 
 .단계
 . 랜섬웨어 복원력 메뉴에서 *알림*을 선택합니다.

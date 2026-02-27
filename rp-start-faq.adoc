@@ -120,7 +120,7 @@ SnapCenter 또는 SnapCenter for VMware가 있고 백업 및 복구에서 워크
 랜섬웨어 복원력 전략에는 백업 정책이 필요하지 않습니다.
 
 .Ransomware Resilience는 ONTAP 의 보호 설정을 인식합니까?
-네, 랜섬웨어 복원력은 ONTAP 에 설정된 스냅샷 일정을 검색합니다. 또한 검색된 작업 부하의 모든 볼륨에서 ARP와 FPolicy가 활성화되어 있는지도 알아냅니다. 랜섬웨어 복원력 대시보드에 표시되는 정보는 다른 NetApp 솔루션 및 제품에서 집계된 것입니다.
+예, Ransomware Resilience는 ONTAP에 설정된 스냅샷 스케줄을 검색합니다. 또한 검색된 워크로드의 모든 볼륨에서 ARP 및 FPolicy가 활성화되어 있는지 여부도 확인합니다. Ransomware Resilience 대시보드에 표시되는 정보는 다른 NetApp 솔루션 및 제품에서 집계된 것입니다.
 
 .Ransomware Resilience는 백업 및 복구와 SnapCenter 에서 이미 만들어진 정책을 알고 있습니까?
 네, 백업 및 복구 또는 SnapCenter 에서 관리되는 워크로드가 있는 경우 해당 제품에서 관리하는 정책이 Ransomware Resilience로 적용됩니다.

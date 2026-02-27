@@ -26,7 +26,7 @@ NetApp Ransomware Resilience 쉽게 배포할 수 있습니다. 시작하기 전
 * 마이크로소프트 애저
 
 
-백업 대상지 자체에서 옵션을 구성한 후 나중에 Ransomware Resilience에서 백업 대상으로 구성하게 됩니다.  Ransomware Resilience에서 백업 대상을 구성하는 방법에 대한 자세한 내용은 다음을 참조하세요.link:rp-use-settings.html["백업 대상 구성"] .
+백업 대상 자체에서 옵션을 구성한 후에는 나중에 NetApp Ransomware Resilience에서 해당 대상을 백업 대상으로 구성해야 합니다. NetApp Ransomware Resilience에서 백업 대상을 구성하는 방법에 대한 자세한 내용은 link:task-backup-destination.html["백업 대상 구성"]을 참조하십시오.
 
 
 

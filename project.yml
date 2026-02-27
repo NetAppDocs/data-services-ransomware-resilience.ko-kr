@@ -30,44 +30,46 @@ sidebar:
       url: "/rp-start-quick-start.html"
     - title: 랜섬웨어 복원력 설정
       url: "/rp-start-setup.html"
-    - title: 랜섬웨어 복원력에 액세스
-      url: "/rp-start-login.html"
     - title: 라이센스 설정
       url: "/rp-start-licenses.html"
     - title: 워크로드 검색
       url: "/rp-start-discover.html"
-    - title: 준비 훈련을 통해 랜섬웨어 공격을 시뮬레이션하세요
-      url: "/rp-start-simulate.html"
-    - title: 설정에서 백업, 위협 탐지 및 공격 시뮬레이션을 구성하세요.
-      url: "/rp-use-settings.html"
-    - title: SIEM 구성
-      url: "/task-siem.html"
-    - title: 사용자 활동 감지 구성
-      entries:
-      - title: 사용자 활동 감지에 대해 알아보십시오
-        url: "/concept-user-behavior.html"
-      - title: 사용자 활동 요구사항
-        url: "/reference-user-activity-requirements.html"
-      - title: 에이전트 및 수집기 구성
-        url: "/suspicious-user-activity.html"
   - title: 랜섬웨어 복원력 활용
     entries:
-    - title: 대시보드를 사용하여 작업 상태 보기
+    - title: 랜섬웨어 복원력에 액세스
+      url: "/rp-start-login.html"
+    - title: 워크로드 상태 보기
       url: "/rp-use-dashboard.html"
-    - title: 작업 부하 보호
+    - title: 보호 및 감지
       entries:
       - title: 보호 검토
         url: "/task-review-protection.html"
-      - title: 랜섬웨어 보호 전략으로 워크로드를 보호하세요
+      - title: 백업 대상 구성
+        url: "/task-backup-destination.html"
+      - title: 작업 부하 보호
         url: "/rp-use-protect.html"
+      - title: 사용자 활동 감지 구성
+        entries:
+        - title: 사용자 활동 감지에 대해 알아보십시오
+          url: "/concept-user-behavior.html"
+        - title: 사용자 활동 감지 요구 사항
+          url: "/reference-user-activity-requirements.html"
+        - title: 에이전트 및 수집기 구성
+          url: "/suspicious-user-activity.html"
       - title: 보호 그룹 관리
         url: "/task-protection-group.html"
       - title: 개인 식별 데이터를 스캔하세요
         url: "/task-classify.html"
-    - title: 감지된 경고에 대응
-      url: "/rp-use-alert.html"
-    - title: 랜섬웨어 공격으로부터 복구
-      url: "/rp-use-recover.html"
+    - title: 대응 및 복구
+      entries:
+      - title: 감지된 경고에 대응
+        url: "/rp-use-alert.html"
+      - title: 랜섬웨어 공격으로부터 복구
+        url: "/rp-use-recover.html"
+    - title: 준비 태세 훈련 실시
+      url: "/rp-start-simulate.html"
+    - title: SIEM 구성
+      url: "/task-siem.html"
     - title: 보고서 다운로드
       url: "/rp-use-reports.html"
   - section: support
