@@ -15,19 +15,19 @@
 .2+| AWS용 Cloud Volumes ONTAP | CIFS 및 NFS | 9.11.1 이상 
 
 
-| SAN(FC, iSCSI 및 NVMe) | 9.17.1 이상 
+| SAN(iSCSI 및 NVMe) | 9.17.1 이상 
 
 
 .2+| Google Cloud Platform용 Cloud Volumes ONTAP | CIFS 및 NFS | 9.11.1 이상 
 
 
-| SAN(FC, iSCSI 및 NVMe) | 9.17.1 이상 
+| SAN(iSCSI 및 NVMe) | 9.17.1 이상 
 
 
 .2+| Microsoft Azure용 Cloud Volumes ONTAP | CIFS 및 NFS | 9.12.1 이상 
 
 
-| SAN(FC, iSCSI 및 NVMe) | 9.17.1 이상 
+| SAN(iSCSI 및 NVMe) | 9.17.1 이상 
 
 
 .2+| ONTAP (온프레미스) | CIFS 및 NFS | 9.11.1 이상 
