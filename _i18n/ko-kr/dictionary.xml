@@ -112,7 +112,6 @@
   <block id="1e4e512c953bb68c6492ac3e8c1ea138" category="inline-link-macro">BlueXP ransomware protection 전제 조건</block>
   <block id="8b61f628ff6c584959e081dfc4edebb6" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="c4baa86796975d4c7e6a1153b246f3d1" category="inline-link-macro-rx"></block> .</block>
   <block id="e155741c288e2488f325db0165488b59" category="section-title">향상된 작업 부하 보호</block>
-  <block id="9bd93ada9b2fbfbf189c8da933c74698" category="paragraph">이 릴리스에서는 SnapCenter 나 BlueXP backup and recovery 와 같은 다른 NetApp 도구의 스냅샷 및 백업 정책을 사용하는 워크로드에 대한 구성 프로세스가 개선되었습니다. 이전 릴리스에서는 BlueXP ransomware protection 다른 도구의 정책을 발견하여 사용자가 감지 정책을 변경할 수만 있었습니다. 이 릴리스를 사용하면 스냅샷 및 백업 정책을 BlueXP ransomware protection 정책으로 바꾸거나 다른 도구의 정책을 계속 사용할 수 있습니다.</block>
   <block id="bf4011ddd9ae5a6521f75843972999ab" category="inline-link-macro">작업 부하 보호</block>
   <block id="cf51b26fb14f613d642588e747a6409b" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="fe8b859db0e9e0c241fb61d50beda51d" category="inline-link-macro-rx"></block> .</block>
   <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">이메일 알림</block>
@@ -172,7 +171,6 @@
   <block id="26f7eb76c3f0032daa502e8f74affdf8" category="list-text">한 번의 클릭으로 AI/ML 기반 데이터 보호 권장 사항을 적용합니다.</block>
   <block id="c530e1fdcf59b6298208943bc8050282" category="list-text">AI 기술을 사용하여 기본 스토리지의 데이터에 대한 랜섬웨어 공격을 실시간으로 감지합니다.</block>
   <block id="8343e8aa9aee8047de78869e0826e3b6" category="list-text">감지된 잠재적 공격에 대응하여 스냅샷 복사본을 생성하고 비정상적인 활동에 대한 알림을 시작함으로써 자동화된 작업을 시작합니다.</block>
-  <block id="4a72582f981b12d4f27dceb8b0d7dbb9" category="list-text">RPO 정책을 충족하기 위해 큐레이션된 복구를 적용합니다.  랜섬웨어 복원력은 NetApp Backup and Recovery (이전의 Cloud Backup) 및 SnapCenter 포함한 여러 NetApp 복구 서비스를 사용하여 랜섬웨어 사고로부터 복구를 조율합니다.</block>
   <block id="5af59cc2b4c7693a13f53462b371bb84" category="list-text">역할 기반 액세스 제어(RBAC)를 사용하여 기능 및 작업에 대한 액세스를 관리합니다.</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
   <block id="644c6176733b0f8cdca928e0cc985955" category="paragraph">백업 및 복구와 랜섬웨어 복원력을 모두 사용하는 경우, 두 제품으로 보호되는 공통 데이터는 랜섬웨어 복원력에 의해서만 청구됩니다.</block>
@@ -193,7 +191,6 @@
   <block id="21021ea0e52be8e9c599f4dff41e5be0" category="cell">특징</block>
   <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">설명</block>
   <block id="3d39c52f84949476c9663603ca01f73f" category="cell">*식별하다*</block>
-  <block id="c82f46c0119153d2fbb052c15694e283" category="list-text">콘솔에 연결된 모든 고객 온프레미스 NAS(NFS 및 CIFS 프로토콜), SAN(FC, iSCSI 및 NVMe) 및 Cloud Volumes ONTAP 데이터를 찾습니다.</block>
   <block id="253b40ae359ba25b56231803430c4873" category="inline-link">ONTAP</block>
   <block id="533c17bbfdfb297420db9af0908070d6" category="inline-link">자율형 랜섬웨어 보호</block>
   <block id="cc6088539286339733631d73fb51774b" category="inline-link">NetApp Backup and Recovery</block>
@@ -305,8 +302,6 @@
   <block id="43963265d27ac7360fe50e98bde4f748" category="list-text">랜섬웨어 탐지 정책</block>
   <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">스냅샷 정책</block>
   <block id="f85025bdaaee4c51a3c8a6a750214305" category="paragraph">랜섬웨어 복원력 전략에는 백업 정책이 필요하지 않습니다.</block>
-  <block id="0fb2074acd01e003dfb96452aab97fe5" category="paragraph">네, 백업 및 복구 또는 SnapCenter 에서 관리되는 워크로드가 있는 경우 해당 제품에서 관리하는 정책이 Ransomware Resilience로 적용됩니다.</block>
-  <block id="554f865a5796d8129c776f0577cf3139" category="paragraph">아니요, Ransomware Resilience의 Backup and Recovery 또는 SnapCenter 에서 관리하는 정책은 수정할 수 없습니다.  해당 정책에 대한 변경 사항은 백업 및 복구 또는 SnapCenter 에서 관리합니다.</block>
   <block id="830a27164c48c0901dff35b6935793d3" category="paragraph">아니요. 랜섬웨어 복원력은 ONTAP 의 기존 탐지 정책(ARP, FPolicy 설정)을 수정하지 않습니다.</block>
   <block id="e2ec1056e393e1702e9916034506b224" category="paragraph">네, ONTAP 에서 Ransomware Resilience 정책을 변경할 수 있습니다.  랜섬웨어 복원력에서 새로운 정책을 만들어 워크로드에 적용할 수도 있습니다.  이 작업은 기존 ONTAP 정책을 Ransomware Resilience에서 생성된 정책으로 대체합니다.</block>
   <block id="389b413db649d1d5d2854fd3e4faf2e6" category="paragraph">FPolicy 및 백업 정책을 비활성화하려면 해당 정책을 포함하지 않는 다른 정책을 적용하면 됩니다.</block>
@@ -1325,19 +1320,14 @@
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025년 10월 6일</block>
   <block id="d341f0c47f4b7ad5cc1b4c9bb210cfda" category="section-title">2025년 8월 12일</block>
   <block id="36981b3e282313667db719384f6f7a69" category="section-title">2025년 7월 15일</block>
-  <block id="f27f1ce6df3e2ec2518f77e8e1a4a531" category="section-title">2025년 6월 9일</block>
   <block id="71df7d09aaee8e6796df0c3d10989fbd" category="section-title">2025년 5월 13일</block>
   <block id="8855742ef7ac60d26f35536e1d09aef9" category="section-title">2025년 4월 29일</block>
   <block id="4409983c60e456858bb3e9ef5737f98a" category="section-title">2025년 4월 14일</block>
   <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025년 3월 10일</block>
   <block id="c33f35ab44944cc0d09e5bb702125592" category="section-title">2024년 12월 16일</block>
-  <block id="21e938043b4ef6be41f16e95f7f5aaaa" category="section-title">2024년 11월 7일</block>
   <block id="964635dcf6206ebb279b58d13cf69a92" category="section-title">2024년 9월 30일</block>
-  <block id="28dc8814bfe656bc8e29052d1508b999" category="section-title">2024년 9월 2일</block>
-  <block id="dd6b8bf5a56c8beb81b173991906c83e" category="section-title">2024년 8월 5일</block>
   <block id="d87d7ee64c0c4e6b9769c640d8889cd0" category="section-title">Splunk Cloud를 통한 위협 탐지</block>
   <block id="40c15e54846f2454a459bb0ef7ba9faa" category="paragraph">위협 분석 및 감지를 위해 보안 및 이벤트 관리 시스템(SIEM)에 자동으로 데이터를 전송할 수 있습니다.  이전 릴리스에서는 SIEM으로 AWS Security Hub만 선택할 수 있었습니다.  이 릴리스에서는 SIEM으로 AWS Security Hub 또는 Splunk Cloud를 선택할 수 있습니다.</block>
-  <block id="16ec862fdbc31bf15f7d944ad60dd33f" category="section-title">2024년 7월 1일</block>
   <block id="3ad6a80bb44b13a7ad34ad835b0166d5" category="paragraph">이 릴리스에서는 NetApp 영업 담당자로부터 받는 NetApp 라이선스 파일(NLF)인 BYOL 라이선스를 사용할 수 있습니다.</block>
   <block id="a0f248fceae83613cf99c651e3c24be5" category="inline-link">라이선싱 설정에 대해 자세히 알아보세요</block>
   <block id="9d5aaa8966c5e35be75ef082fe317272" category="paragraph"><block ref="52acad0b8ccf8676f5a7124bd999ec73" category="inline-link-rx"></block> .</block>
@@ -1375,8 +1365,6 @@
   <block id="ea68074e88ed0ee034f46a22da4207e3" category="paragraph">이번 릴리스에서는 보호 및 기타 페이지에서 워크로드 정보에 대한 자세한 내용을 제공하여 워크로드 보호 평가를 개선했습니다.  작업 부하 세부 정보에서 현재 할당된 정책을 검토하고 구성된 백업 대상을 검토할 수 있습니다.</block>
   <block id="e959f6b23824b1ea02ac36779938412d" category="inline-link">보호 페이지에서 작업 세부 정보 보기에 대해 자세히 알아보세요.</block>
   <block id="282209fca8545cb316f2eba7f3a62db7" category="paragraph"><block ref="30b7f8b521639e51a1e6fc42e56a3552" category="inline-link-rx"></block> .</block>
-  <block id="8d99eb044387ccaf47ae81f4bc0e655c" category="section-title">애플리케이션 일관성 및 VM 일관성 보호 및 복구</block>
-  <block id="2d27a1cb1cddcea603af3821a038c473" category="paragraph">이제 NetApp SnapCenter 소프트웨어를 사용하여 애플리케이션 일관성 보호를 수행하고 SnapCenter Plug-in for VMware vSphere 사용하여 VM 일관성 보호를 수행하여 나중에 복구가 필요할 경우 잠재적인 데이터 손실을 방지하기 위해 조용하고 일관된 상태를 달성할 수 있습니다.  복구가 필요한 경우 애플리케이션이나 VM을 이전에 사용 가능한 상태로 복원할 수 있습니다.</block>
   <block id="ee689c35077ba98079c7b0a4f05a6dc5" category="inline-link">워크로드 보호에 대해 자세히 알아보세요</block>
   <block id="6e679110b5603dd298546f6066c877b0" category="paragraph"><block ref="e6accfa7d08294e7415997a8922d3847" category="inline-link-rx"></block> .</block>
   <block id="2ffdf2b6c5684e4c6c9a1519e96a8cdd" category="section-title">랜섬웨어 보호 전략</block>
@@ -1402,7 +1390,6 @@
   <block id="ede1cce9f240fed5ecc4264bd699cee1" category="section-title">BlueXP backup and recovery</block>
   <block id="609943abdcf36e6b01b6e1bd91561708" category="section-title">설정 옵션</block>
   <block id="dca5a35d56928cb7458a60a545581862" category="paragraph">이제 BlueXP ransomware protection 설정에서 백업 대상을 설정할 수 있습니다.</block>
-  <block id="592997dde366d5775e7e052816854f74" category="section-title">2024년 3월 5일</block>
   <block id="43ce8197249a120a136331aaa3e00c1d" category="section-title">보호 정책 관리</block>
   <block id="cf69a03aa5287886f0e8d3de1a6334cc" category="inline-link">정책 관리에 대해 자세히 알아보세요</block>
   <block id="d609cfbd89a3fada16238b8a39148f46" category="paragraph">미리 정의된 정책을 사용하는 것 외에도 이제 정책을 만들 수 있습니다.<block ref="c308b2d22c33a15b90252d49c2873920" category="inline-link-rx"></block> .</block>
@@ -1417,7 +1404,6 @@
   <block id="1308d0f084fdb39839541aaf971b23ff" category="section-title">복구 프로세스</block>
   <block id="bda01efb679b0ca92bc4e76a23294328" category="inline-link">랜섬웨어 공격으로부터 복구하는 방법에 대해 자세히 알아보세요(사고가 해결된 후)</block>
   <block id="77d6960ddc4ee40e26fd963e6e1f6e68" category="paragraph">복구 프로세스가 향상되었습니다. 이제 워크로드에 대해 볼륨별로 또는 모든 볼륨을 복구할 수 있습니다.<block ref="2db5667b5f183f51656a41f32740d8f2" category="inline-link-rx"></block> .</block>
-  <block id="69483d973a063c873a5a66f6edcc241c" category="section-title">2023년 10월 6일</block>
   <block id="ae98c30c78f5642e201d040b9e0b468c" category="paragraph">BlueXP ransomware protection 서비스는 데이터를 보호하고, 잠재적인 공격을 탐지하고, 랜섬웨어 공격으로부터 데이터를 복구하는 SaaS 솔루션입니다.</block>
   <block id="75b67029f102f7aa5f52d85fbaeb59b1" category="paragraph">BlueXP ransomware protection 서비스는 여러 NetApp 기술을 최대한 활용하여 데이터 보안 관리자나 보안 운영 엔지니어가 다음과 같은 목표를 달성할 수 있도록 지원합니다.</block>
   <block id="c97c8c1adb5529a50db916535c46fa2b" category="list-text">모든 작업 부하에 대한 랜섬웨어 보호 기능을 한눈에 확인하세요.</block>
@@ -1523,8 +1509,6 @@
   <block id="109ebdb84b226b323abc2b47b353e5f4" category="paragraph">모든 최신 웹 브라우저를 사용하여 NetApp Console 에 액세스할 수 있습니다.</block>
   <block id="67a915151759ecc737f698391f7cfd08" category="section-title">상호 운용성</block>
   <block id="10c4fe0b6e00d5560df8e602d85a5bd1" category="paragraph">네, 랜섬웨어 복원력은 ONTAP 에 설정된 스냅샷 일정을 검색합니다.</block>
-  <block id="8ed72bdbbdc0df9146a0777651178cbf" category="paragraph-title">랜섬웨어 복원력은 NetApp Backup and Recovery 와 SnapCenter 와 어떻게 상호 작용합니까?</block>
-  <block id="8f3fc6dee049aeb65422cea50c997060" category="paragraph">랜섬웨어 복원력은 백업 및 복구와 함께 작동하여 파일 공유 작업 부하에 대한 스냅샷 및 백업 정책을 검색하고 설정합니다.</block>
   <block id="282764b1530b129720ca01a123b6f6ce" category="paragraph-title">랜섬웨어 복원력의 맥락에서 워크로드란 무엇입니까?</block>
   <block id="10c8ec686acd93b9da39b3efea09bc01" category="paragraph">워크로드는 애플리케이션, VM 또는 파일 공유입니다. 작업 부하에는 단일 애플리케이션 인스턴스에서 사용되는 모든 볼륨이 포함됩니다.</block>
   <block id="f7e19062cc2eaeb5901ce8337d69e539" category="paragraph">예를 들어 ora3.host.com에 배포된 Oracle 데이터베이스를 고려해 보세요.<block ref="2b0d59c7031769e80c8e5118b6ec7694" prefix=" " category="inline-code"></block> 데이터를 포함하고<block ref="a110e8ed91b0de267a5728888b1f4ed1" prefix=" " category="inline-code"></block> 로그를 포함하고 있습니다. 두 볼륨은 해당 Oracle Database 인스턴스의 작업 부하를 구성합니다.</block>
@@ -1533,7 +1517,6 @@
   <block id="79444a9daf1e4ef34a492d7a4ccc93fd" category="paragraph-title">Ransomware Resilience는 어떤 작업 부하를 지원합니까?</block>
   <block id="65a602dc25a2da85e0a1dfb15824b10b" category="paragraph-title">데이터를 작업 부하와 어떻게 연관시키나요?</block>
   <block id="e2201c0935bcdfd14ed840897f30bcdc" category="paragraph">랜섬웨어 복원력은 볼륨과 파일 확장자를 검색하여 적절한 작업 부하와 연결합니다.</block>
-  <block id="bbcd2d0377872826c23c1bf4bcd98e47" category="paragraph">SnapCenter 또는 SnapCenter for VMware가 있고 백업 및 복구에서 워크로드를 구성한 경우 Ransomware Resilience는 SnapCenter 및 SnapCenter for VMware와 관련 볼륨에서 관리하는 워크로드를 검색합니다.</block>
   <block id="f7d49d845f0e8fd37a070e797785ddd2" category="paragraph-title">보호된 작업 부하란 무엇입니까?</block>
   <block id="7259cd6e0f46eebf9079f25f465a8c63" category="inline-link-macro">자율 랜섬웨어 보호(ARP)</block>
   <block id="7fd0dced59717f1ce225e83c1eba7879" category="paragraph">랜섬웨어 복원력에서 작업 부하가 기본 _탐지_ 정책이 활성화된 경우 *보호됨* 상태를 표시합니다. <block ref="f47b2a56bf7e72f952a180e4f688a755" category="inline-link-macro-rx"></block> 작업 부하와 관련된 모든 볼륨에서 활성화됩니다.</block>
@@ -1550,11 +1533,7 @@
   <block id="eb736865032ae478d0b6e5b412448020" category="paragraph">에이 <block ref="5f4e714854e79a1737929ec78e18ea2b" category="inline-link-macro-rx"></block> 필요사항:</block>
   <block id="03e55fcba3b01c6e3fb1919d269654c0" category="list-text">랜섬웨어 탐지 정책 및</block>
   <block id="3f6fda029d0c02be255dfd8176381b0b" category="list-text">스냅샷 정책</block>
-  <block id="b47f32a472405e3fa06c5fd8b5ce74b9" category="paragraph-title">Ransomware Resilience는 백업 및 복구와 SnapCenter 에서 이미 만들어진 정책을 알고 있습니까?</block>
-  <block id="f9368916b722dbf65864396e08a2f81a" category="paragraph-title">NetApp Backup and Recovery 및/또는 SnapCenter 에서 가져온 정책을 수정할 수 있나요?</block>
   <block id="1b574bfc0313243d6641e2a840917179" category="paragraph-title">ONTAP 의 정책(예: ARP, FPolicy, 스냅샷)이 있는 경우 랜섬웨어 복원력에서 해당 정책이 변경됩니까?</block>
-  <block id="4f169f5ccc5598c9065c573b18437be7" category="paragraph-title">랜섬웨어 복원력에 가입한 후 백업 및 복구 또는 SnapCenter 에 새로운 정책을 추가하면 어떻게 되나요?</block>
-  <block id="1481f2014d70d8be4eaa9d42a2ac7e81" category="paragraph">랜섬웨어 복원력은 백업 및 복구 또는 SnapCenter 에서 새로 생성된 정책과 정책 변경 사항을 인식합니다.</block>
   <block id="9e4bf76e69b44d54bda6324e7a451d29" category="paragraph-title">ONTAP 에서 정책을 변경할 수 있나요?</block>
   <block id="8eb907afc706971993c8bde086302ff0" category="paragraph-title">ONTAP 에서 정책을 비활성화할 수 있나요?</block>
   <block id="7986143a8e8e26aa1cd4fe5e42208a2b" category="paragraph">ONTAP 의 시스템 관리자 UI, API 또는 CLI를 사용하여 탐지 정책에서 ARP를 비활성화할 수 있습니다.</block>
@@ -1710,7 +1689,6 @@
   <block id="f20af4e11539d270463e7ed46557be6f" category="paragraph">NetApp Ransomware Resilience 사용하려면 먼저 워크로드 데이터를 검색해야 합니다. 발견 과정에서 Ransomware Resilience는 조직 내 모든 콘솔 에이전트와 프로젝트에 있는 시스템의 모든 볼륨과 파일을 분석합니다.</block>
   <block id="55971de7d1268c37251f60641b742b76" category="paragraph">디스커버리 대시보드에서 랜섬웨어 복원력은 지원되는 시스템 구성과 지원되지 않는 시스템 구성을 표시합니다. 랜섬웨어 복원력은 Oracle 애플리케이션, VMware 데이터 저장소, 파일 공유 및 블록 스토리지를 평가합니다.</block>
   <block id="1e55889dc96c3aa2614c39626c9cecdd" category="admonition">랜섬웨어 복원력은 FlexGroup 사용하는 볼륨이 있는 워크로드를 검색하지 않습니다.</block>
-  <block id="c0605366a345249c74664f31f92636c4" category="paragraph">랜섬웨어 복원력은 현재 백업 보호, 스냅샷 사본 및 NetApp Autonomous Ransomware Protection 옵션을 확인합니다. 랜섬웨어 복원력은 VM 데이터 저장소의 경우 SnapCenter for VMware, 파일 공유 및 VM 파일 공유의 경우 SnapCenter for Oracle, NetApp Backup and Recovery 의 보호 정보도 감지합니다. 그런 다음 랜섬웨어 보호를 개선하는 방법을 추천합니다.</block>
   <block id="242b6b00ff2f35d933e337704d202041" category="list-text">워크로드 검색 카드에서 *워크로드 검색*을 선택합니다. 검색에는 몇 분 정도 소요될 수 있습니다.  로딩 아이콘은 진행 상황을 표시합니다.</block>
   <block id="728cc93ad9329b5fca77365b0336ce77" category="list-text">랜섬웨어 복원력은 지원되는 시스템과 지원되지 않는 시스템을 모두 발견합니다. ONTAP 버전이 요구되는 버전보다 낮으면 해당 시스템을 지원하지 않습니다. 지원되지 않는 시스템 위에 마우스를 올리면 툴팁에 그 이유가 표시됩니다. 워크로드를 검색할 시스템을 선택하세요.</block>
   <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="section-title">더 많은 정보</block>
@@ -1964,18 +1942,12 @@
   <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026년 2월 16일</block>
   <block id="51f5590fac3af82049df229fcb91793c" category="sidebar">SIEM 구성</block>
   <block id="8944abed4a7795983ff8cde0c660dfda" category="paragraph">랜섬웨어 복원력은 NetApp Backup and Recovery를 사용하여 파일 공유 워크로드에 대한 스냅샷 및 백업 정책을 검색하고 설정합니다.</block>
-  <block id="7275b90366e3424df414ea245c97ebe6" category="list-text">ONTAP 및 SnapCenter 서비스 API에서 고객 데이터를 식별하고 워크로드와 연결합니다. 자세한 내용은 다음을 참조하십시오<block ref="a16fd9a0601d0464b4c9ce4f59c2454b" category="inline-link-rx"></block>.</block>
   <block id="c7508e265b893e4d518594502d79c380" category="list-text">워크로드를 적극적으로 모니터링하고 식별된 각 워크로드에 정책을 적용하여 NetApp Backup and Recovery와 ONTAP API 사용을 오케스트레이션합니다.</block>
-  <block id="8ab694960534ed38cae5f75597a21b9b" category="admonition">랜섬웨어 복원력은 SnapCenter의 정책을 인식하지만 랜섬웨어 복원력을 통해 SnapCenter에서 복구를 수행할 수는 없습니다.</block>
-  <block id="52632b136c48766a9fb3109144810641" category="paragraph">Ransomware Resilience는 SnapCenter 또는 SnapCenter for VMware와 연동하여 애플리케이션 및 VM 워크로드에 대한 스냅샷 및 백업 정책을 검색하고 설정합니다. 현재 SnapCenter를 사용한 복구에는 Ransomware Resilience를 사용할 수 없습니다.</block>
-  <block id="33be3f4617dbd57db084d6df8086348f" category="paragraph">NetApp Ransomware Resilience은 NetApp Backup and Recovery와 연동하여 파일 및 워크로드 일관성을 유지하는 복구를 수행합니다.</block>
-  <block id="ae785e9a302942d106ead6b14e222e26" category="paragraph">SnapCenter 또는 SnapCenter for VMware를 사용하는 경우 이러한 제품에서 지원하는 모든 워크로드가 Ransomware Resilience에도 식별됩니다.</block>
   <block id="e47b008a3c9b07db3a7f7c525eeccc5a" category="cell">각 워크로드에 정책을 할당하십시오. <block ref="cc10c371e1aab359fa44a886d5e79433" category="inline-link-macro-rx"></block>을 참조하십시오. <block ref="cc10c371e1aab359fa44a886d5e79433" category="inline-link-macro-rx"></block>을 참조하십시오. <block ref="cc10c371e1aab359fa44a886d5e79433" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="402b250b6b0cd33bf0396353ed30be82" category="inline-link-macro">그룹 워크로드</block>
   <block id="c35d66439764aa49afc7babd31dd817e" category="admonition">데이터 자산의 관리 및 보호를 강화하기 위해 <block ref="f976640ede437bd07da0e62885caa3e9" category="inline-link-macro-rx"></block>을(를) 생성하여 하나의 전략으로 볼륨을 통합하여 보호할 수 있습니다.</block>
   <block id="32fcd2ee690f5f3556594e0a5c86b657" category="paragraph">랜섬웨어 복원력 외에도 NetApp Backup and Recovery를 사용하여 파일 공유 및 VM 파일 공유에 대한 보호를 관리할 수 있습니다.</block>
   <block id="19df373c6eb28e440c7376f7b6153ac6" category="paragraph">NetApp Backup and Recovery 서비스의 보호 정보는 NetApp Ransomware Resilience에 표시됩니다. NetApp Ransomware Resilience를 사용하여 이러한 서비스에 탐지 정책을 추가할 수 있습니다. NetApp Ransomware Resilience로 보호 정책을 추가하면 기존 보호 정책이 대체됩니다.</block>
-  <block id="42a88e6373b8a6a0a4d8625012fbd018" category="paragraph">Ransomware Resilience는 VM 데이터스토어용 SnapCenter for VMware 및 Oracle용 SnapCenter의 보호 정책도 검색합니다. 이러한 서비스를 사용하여 Ransomware Resilience로 복원할 수는 없습니다.</block>
   <block id="5faff4d5da024e537f30a6f61e63b11d" category="paragraph">워크로드가 NetApp Backup and Recovery 또는 NetApp Ransomware Resilience로 관리되지 않는 경우 ONTAP 또는 다른 제품의 일부로 스냅샷이 생성되었을 수 있습니다. ONTAP FPolicy 보호가 적용된 경우 ONTAP를 사용하여 FPolicy 보호를 변경할 수 있습니다.</block>
   <block id="294bdeaab3c13eeb5476a96b2a4d7991" category="list-text">**기존 Backup and Recovery 보호 기능의 스냅샷 또는 백업 정책을 Ransomware Resilience에서 관리하는 보호 전략으로 교체하십시오.**</block>
   <block id="f9dbe879fedc698e4cd50df0431ab680" category="section-title">NetApp Backup and Recovery에서 관리하는 기존 스냅샷 및 백업 정책이 있는 워크로드에 탐지 정책을 추가합니다</block>
@@ -2165,4 +2137,24 @@
   <block id="0fbc6e1e6b007cdd357b2d64d431dff7" category="sidebar">사용자 활동 감지 요구 사항</block>
   <block id="9625b1e458d75145b2fbf2d4b886fc70" category="sidebar">대응 및 복구</block>
   <block id="d805ea206a1d58881a7d28213018ae80" category="sidebar">준비 태세 훈련 실시</block>
+  <block id="a23f6543c6afd691624522ac1b0c2620" category="paragraph">이번 릴리스에서는 BlueXP backup and recovery와 같은 다른 NetApp 도구의 스냅샷 및 백업 정책이 적용된 워크로드의 구성 프로세스가 개선되었습니다. 이전 릴리스에서는 BlueXP ransomware protection이 다른 도구의 정책을 검색하여 탐지 정책만 변경할 수 있었습니다. 이번 릴리스에서는 스냅샷 및 백업 정책을 BlueXP ransomware protection 정책으로 교체하거나 다른 도구의 정책을 계속 사용할 수 있습니다.</block>
+  <block id="b720eb62a1de68d6cb9c9dbea3c63907" category="list-text">RPO 정책을 충족하기 위해 맞춤형 복구 기능을 적용합니다. 랜섬웨어 복원력은 NetApp Backup and Recovery를 통해 랜섬웨어 공격으로부터의 복구를 체계적으로 관리합니다.</block>
+  <block id="a819c959f129152fca4db3ef3b38727c" category="list-text">콘솔에 연결된 시스템에서 고객의 온프레미스 및 클라우드 NAS(NFS 및 CIFS 프로토콜)와 SAN(FC, iSCSI 및 NVMe) 데이터를 모두 찾습니다.</block>
+  <block id="d24b6d4f9b8a5c2126c721c0f8b448e5" category="list-text">ONTAP 및 Backup and Recovery 서비스 API에서 고객 데이터를 식별하고 워크로드와 연결합니다. 자세한 내용은 다음을 참조하십시오<block ref="a16fd9a0601d0464b4c9ce4f59c2454b" category="inline-link-rx"></block>.</block>
+  <block id="5d81d4b181b1f6e47c262988038cd67d" category="paragraph">랜섬웨어 복원력은 현재 백업 보호, 스냅샷 복사본 및 NetApp 자율형 랜섬웨어 보호 옵션을 점검합니다. 랜섬웨어 복원력은 또한 파일 공유 및 VM 파일 공유에 대한 NetApp Backup and Recovery의 보호 정보를 감지합니다. 그런 다음 랜섬웨어 보호를 개선할 수 있는 방법을 권장합니다.</block>
+  <block id="c048f8419f5606e294e716a232b223a2" category="paragraph-title">랜섬웨어 복원력은 NetApp Backup and Recovery와 어떻게 연동됩니까?</block>
+  <block id="eadde9be35eb975c3bbd5558937ea6ce" category="paragraph">Ransomware Resilience는 Backup and Recovery와 연동하여 파일 공유 워크로드에 대한 스냅샷 및 백업 정책을 검색하고 설정합니다. 또한 Ransomware Resilience는 Backup and Recovery와 연동하여 파일 및 워크로드 일관성을 유지하는 복구를 수행합니다.</block>
+  <block id="79b8a65e3601fc128a20382435361146" category="paragraph-title">Ransomware Resilience는 Backup and Recovery에 이미 설정된 정책을 인식하고 있습니까?</block>
+  <block id="94a13b2631414c7aa1bd5efb554c98aa" category="paragraph">예, Backup and Recovery에서 워크로드를 관리하는 경우 해당 제품에서 관리하는 정책이 Ransomware Resilience에 적용됩니다.</block>
+  <block id="f88bf8ade397c623545ba47ce5394409" category="paragraph-title">NetApp Backup and Recovery에서 이전된 정책을 수정할 수 있습니까?</block>
+  <block id="dd9161665fa6e8f8df843bd9c2b959be" category="paragraph">아니요, Ransomware Resilience에서 Backup and Recovery로 관리되는 정책은 수정할 수 없습니다. 해당 정책에 대한 모든 변경 사항은 Backup and Recovery에서 관리해야 합니다.</block>
+  <block id="12d4775c2501ee99b589ba7851a2ec0d" category="paragraph-title">Ransomware Resilience에 가입한 후 Backup and Recovery에 새 정책을 추가하면 어떻게 되나요?</block>
+  <block id="c50c4204dc83ed0ae4638ebc55abb4b1" category="paragraph">랜섬웨어 복원력은 Backup and Recovery에서 새로 생성된 정책과 정책 변경 사항을 인식합니다.</block>
+  <block id="791d05d0e9072626d0316ef0a7cf21bc" category="section-title">2025년 6월 9일</block>
+  <block id="9ad1cefff7f21461e44e8caa68c8b2b5" category="section-title">2024년 11월 7일</block>
+  <block id="89d81f51c3713b55bed81e8aaf5ec742" category="section-title">2024년 9월 2일</block>
+  <block id="d7cf77b2e56bc33512915804de4711b6" category="section-title">2024년 8월 5일</block>
+  <block id="65f1f74c15350fb3342360320ff8c717" category="section-title">2024년 7월 1일</block>
+  <block id="c3084a9e2d458e9a14fb0606a505126d" category="section-title">2024년 3월 5일</block>
+  <block id="ff1c2e86cdd326544983c6d6affd39a5" category="section-title">2023년 10월 6일</block>
 </blocks>

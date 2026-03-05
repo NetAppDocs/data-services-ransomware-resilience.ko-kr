@@ -52,8 +52,6 @@ TIP: 데이터 자산의 관리 및 보호를 강화하기 위해 link:task-prot
 
 NetApp Backup and Recovery 서비스의 보호 정보는 NetApp Ransomware Resilience에 표시됩니다. NetApp Ransomware Resilience를 사용하여 이러한 서비스에 탐지 정책을 추가할 수 있습니다. NetApp Ransomware Resilience로 보호 정책을 추가하면 기존 보호 정책이 대체됩니다.
 
-Ransomware Resilience는 VM 데이터스토어용 SnapCenter for VMware 및 Oracle용 SnapCenter의 보호 정책도 검색합니다. 이러한 서비스를 사용하여 Ransomware Resilience로 복원할 수는 없습니다.
-
 랜섬웨어 탐지 정책이 ONTAP 버전에 따라 ARP 또는 ARP/AI(Autonomous Ransomware Protection)와 ONTAP 의 FPolicy에 의해 관리되는 경우 해당 작업 부하가 보호되고 ARP와 FPolicy에 의해 계속 관리됩니다.
 
 
