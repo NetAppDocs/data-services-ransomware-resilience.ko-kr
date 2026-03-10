@@ -2060,8 +2060,6 @@
   <block id="65072a668477cd315b4302df8afcce32" category="paragraph">NetApp Ransomware Resilience는 랜섬웨어 공격으로부터 데이터를 보호합니다. Ransomware Resilience에서는 Oracle의 애플리케이션 기반 워크로드, VM 데이터 저장소, NAS 스토리지(NFS 및 CIFS 프로토콜)용 파일 공유 및 SAN 스토리지(FC, iSCSI 및 NVMe 프로토콜)에 대한 보호를 사용할 수 있습니다. Ransomware Resilience는 온프레미스 스토리지뿐만 아니라 NetApp Console 전반에 걸쳐 Amazon Web Services용 Cloud Volumes ONTAP, Google Cloud용 Cloud Volumes ONTAP, Microsoft Azure용 Cloud Volumes ONTAP, Azure NetApp Files 및 Amazon FSx for NetApp ONTAP에서 지원됩니다. Amazon Web Services, Google Cloud, Microsoft Azure 및 NetApp StorageGRID에 데이터를 백업할 수 있습니다.</block>
   <block id="8987946f77221ac2f7d1494a4fcae0a6" category="list-text">NetApp Console, 프로젝트 및 Console 에이전트를 통해 NetApp 온프레미스 NAS 및 SAN 시스템에서 애플리케이션 기반, 파일 공유 또는 VMware 관리 워크로드를 *식별*합니다. 워크로드를 발견한 후 Ransomware Resilience는 랜섬웨어 복원력을 향상시킬 수 있는 기회를 파악합니다.</block>
   <block id="3b9c98c430c62cb3627db641468d7e64" category="list-text">랜섬웨어 방어 상태를 평가하고 이해하기 쉬운 대시보드에 표시하며 방어력 향상을 위한 권장 사항을 제공합니다.</block>
-  <block id="8ab218529be70765f2dbc68a1731ea6e" category="paragraph">워크로드가 보호됨으로 분류되면 구매한 용량 또는 PayGo 구독에 포함됩니다. Ransomware Resilience는 하나 이상의 스냅샷 또는 백업 정책이 포함된 탐지 정책이 활성화된 경우 워크로드를 보호됨으로 분류합니다. 탐지 정책은 있지만 백업 또는 스냅샷 정책이 _없는_ 워크로드는 위험으로 분류됩니다. 위험 워크로드는 구매한 용량에 포함되지 않습니다.</block>
-  <block id="89895786495ed60e80d759587b508469" category="paragraph">보호된 워크로드는 무료 평가 기간 종료 후 구매한 용량 또는 구독료에 포함됩니다. NetApp Ransomware Resilience는 효율성 조정 전, 보호된 워크로드와 관련된 데이터에 대해 GB 단위로 요금이 부과됩니다.</block>
   <block id="9bd1fe262c57584526c5184d4de31827" category="list-text">온프레미스 ONTAP 클러스터 또는 Cloud Volumes ONTAP 시스템이 Console에 설정되어 있지 않은 경우 <block ref="1c09904f3fbf9f22b68e96599d2dcddc" category="inline-link-macro-rx"></block> 및 <block ref="b04507b2bbabc17c071b912167d3ff4f" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="3eb45f3714606347a6ff182b822b69cc" category="list-text">ONTAP 또는 Cloud Volumes ONTAP 클러스터의 경우 NetApp Ransomware Resilience를 사용하려면 ONTAP 버전 9.11.1 이상이어야 합니다.</block>
   <block id="4b2c42068bb1431d3a8d94e9ca135659" category="paragraph"><block ref="187dbd743d444b65478d146e1c2c85f6" category="inline-link-rx"></block>.</block>
@@ -2167,4 +2165,9 @@
   <block id="fd117b89b92e15d359324da93300356b" category="doc">위협 분석 및 탐지를 위해 NetApp Ransomware Resilience를 SIEM에 연결하십시오</block>
   <block id="e02579eaf37afcb0e3837dd893799871" category="paragraph">보안 정보 및 이벤트 관리 시스템(SIEM)은 로그 및 이벤트 데이터를 중앙 집중화하여 보안 이벤트 및 규정 준수에 대한 통찰력을 제공합니다. NetApp Ransomware Resilience는 위협 분석 및 탐지를 간소화하기 위해 데이터를 SIEM으로 자동 전송하는 기능을 지원합니다.</block>
   <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026년 3월 9일</block>
+  <block id="b4dfd6d471f025389f9c78ebe17c16ba" category="paragraph">워크로드가 보호됨으로 분류되면 구매한 용량 또는 PAYGO 구독에 포함됩니다. Ransomware Resilience는 하나 이상의 스냅샷 또는 백업 정책과 함께 탐지 정책이 활성화된 경우 워크로드를 보호됨으로 분류합니다. 탐지 정책은 있지만 백업 또는 스냅샷 정책이 _없는_ 워크로드는 위험으로 분류됩니다. 위험 워크로드는 구매한 용량에 포함되지 않습니다.</block>
+  <block id="9b0a81f6fc494248483a10631a72dabe" category="paragraph">보호 대상 워크로드는 무료 평가 기간 종료 후 구매 용량 또는 구독료에 포함됩니다. Ransomware Resilience는 효율성 적용 전, 보호 대상 워크로드와 관련된 데이터(ONTAP에서 보고된 데이터 기준)를 GB 단위로 청구됩니다.</block>
+  <block id="1dba6347dc69b3be8eba699851eddc8f" category="paragraph-title">랜섬웨어 복원력에 대한 청구는 어떻게 작동하나요?</block>
+  <block id="6c1c5737355a8b30e87ad5d7c6da9553" category="inline-link-macro">라이센스 업데이트</block>
+  <block id="fb8e096a7050c588583ae61ddb846c94" category="admonition">랜섬웨어 복원력 보호 대시보드에서 보호된 데이터의 크기를 모니터링합니다. 용량을 추가하려면 <block ref="0cb59e747afacc80ad7810dc5f26bca9" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
 </blocks>
