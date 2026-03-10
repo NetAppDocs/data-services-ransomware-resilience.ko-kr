@@ -18,6 +18,26 @@ NetApp Ransomware Resilience 의 새로운 기능을 알아보세요.
 
 
 
+== 2026년 3월 9일
+
+
+
+=== 사용자 행동 알림에서 여러 사용자 일괄 제외
+
+Ransomware Resilience는 이제 기존의 UI 및 CSV 기반 옵션 외에도 사용자 행동 활동 알림에서 제외할 사용자 목록을 JSON 형식으로 업로드하는 기능을 지원합니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#exclude-users-from-alerts["알림에서 사용자 제외"^]를 참조하십시오.
+
+
+
+=== 사용자 행동 활동 개선
+
+Ransomware Resilience는 이메일 알림을 추가하고 지원되는 SIEM 이벤트 데이터(AWS Security Hub, Microsoft Sentinel 및 Splunk Cloud)에 사용자 행동 이벤트를 포함하여 사용자 행동에 대한 인사이트를 개선했습니다. 이러한 개선 사항은 보안 및 규정 준수 모니터링에 대한 보다 정확한 인사이트를 제공합니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html["NetApp Ransomware Resilience를 SIEM에 연결하세요"^]를 참조하십시오.
+
+
+
 == 2026년 2월 16일
 
 
@@ -26,7 +46,7 @@ NetApp Ransomware Resilience 의 새로운 기능을 알아보세요.
 
 Ransomware Resilience가 이제 Azure NetApp Files 시스템을 지원하여 Azure NetApp Files에서 랜섬웨어 위협을 효율적으로 탐지하고 대응할 수 있습니다. 워크로드를 검색할 때, Ransomware Resilience는 이제 Azure NetApp Files를 표시하고 이를 보호 대시보드에 보여줍니다. Azure NetApp Files에 대한 Ransomware Resilience 지원은 스냅샷만을 사용한 탐지 및 보호 전략을 포함합니다. Azure NetApp Files 지원은 현재 프리뷰 단계입니다.
 
-자세한 내용은 link:자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["랜섬웨어 복원력에 대해 알아보세요"^]을(를) 참조하십시오.
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["랜섬웨어 복원력에 대해 알아보세요"^]를 참조하십시오.
 
 
 
