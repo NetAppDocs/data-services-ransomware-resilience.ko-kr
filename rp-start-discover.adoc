@@ -4,7 +4,7 @@ permalink: rp-start-discover.html
 keywords: bluexp, ransomware protection, protection, risk, cyber attack, security,data security, data protection, data recovery, data discovery 
 summary: 발견 과정에서 Ransomware Resilience는 모든 콘솔 에이전트와 계정의 시스템에 있는 모든 볼륨과 파일을 분석합니다. 
 ---
-= NetApp Ransomware Resilience에서 워크로드를 검색하고 관리하세요
+= NetApp Ransomware Resilience에서 워크로드를 찾아보세요
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

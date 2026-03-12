@@ -243,7 +243,6 @@
   <block id="4fd101b562f1e5e8d87ff8710122a42f" category="inline-link">NetApp Console 에 대한 알림</block>
   <block id="665acc6d2ee48d5efd698763b6fbf735" category="list-text"><block ref="665acc6d2ee48d5efd698763b6fbf735" category="inline-link-rx"></block></block>
   <block id="6890b4587dca6f7e9bc67d8336265387" category="summary">알려진 제한 사항은 이 제품 릴리스에서 지원하지 않는 플랫폼, 장치 또는 기능을 나타냅니다.</block>
-  <block id="8be06d01ec24eec813979494ed1cda13" category="doc">NetApp Ransomware Resilience 의 알려진 제한 사항</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="paragraph">알려진 제한 사항은 이 제품 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 나타냅니다. 이러한 제한 사항을 주의 깊게 검토하세요.</block>
   <block id="e742b92803487dd57d41c5028236224e" category="section-title">준비 훈련 재설정 옵션 문제</block>
   <block id="20fd4e2b91312c8ee1419aa853c936e1" category="paragraph">랜섬웨어 공격 대비 훈련을 위해 ONTAP 9.11.1 볼륨을 선택하면 랜섬웨어 복원력에서 경고를 보냅니다.  "볼륨 복제" 옵션을 사용하여 데이터를 복구하고 드릴을 재설정하면 재설정 작업이 실패합니다.</block>
@@ -283,7 +282,6 @@
   <block id="cee654483027bd7fe0b0908f5113b46f" category="section-title">새로운 시스템을 발견하세요</block>
   <block id="12138171b6ceeb4bdc45d66e55bebe1c" category="inline-image-macro">수직 동작</block>
   <block id="405f846fd5caab9c6bb41e637ac55c97" category="summary">NetApp Ransomware Resilience 에 대한 자주 묻는 질문에 대한 답변을 찾아보세요.</block>
-  <block id="815a60d80ffbc32f6db251b3410900b2" category="doc">NetApp Ransomware Resilience 에 대한 자주 묻는 질문</block>
   <block id="0257967210bdc685c6f54c2fd5c5300f" category="paragraph">NetApp Ransomware Resilience 에 대한 질문에 대한 빠른 답변을 찾고 있다면 이 FAQ가 도움이 될 수 있습니다.</block>
   <block id="ea355214fd4bc7c57f471bd92918879b" category="section-title">전개</block>
   <block id="924cc6eaf82618251de609e2689ed733" category="paragraph">다음 라이선스 유형을 사용할 수 있습니다.</block>
@@ -712,7 +710,6 @@
   <block id="b7ac3f69f0c0ac25814be4d03ba11c24" category="list-text">새로운 작업 부하 이름을 입력하고 *저장*을 선택합니다.</block>
   <block id="565c83689e020f29cdb2b1a2a0116b1a" category="inline-link-macro">공격으로부터 복구</block>
   <block id="bc1b76060f49fe8ad404d389d8431371" category="summary">NetApp Data Classification 통해 데이터에 개인 식별 정보나 비공개 정보가 포함되어 있는지 식별하여 데이터의 보안 및 개인정보 보호 규정 준수를 강화하세요.</block>
-  <block id="e00e52239c81eaad00507b4b0b815570" category="doc">랜섬웨어 복원력에서 NetApp Data Classification 사용하여 개인 식별 정보를 스캔하세요</block>
   <block id="604880f6f585767eee17ec85b3c76533" category="inline-link-macro">데이터 분류</block>
   <block id="00735a048dd8a101a0cf04ff8cf7c168" category="paragraph"><block ref="2324d2fecbef2eccb7e03b987d67689b" category="inline-link-macro-rx"></block>AI 기반 자연어 처리를 활용해 상황에 맞는 데이터를 분석하고 분류하여, 규정 준수 요구 사항을 충족하고, 보안 취약성을 탐지하고, 비용을 최적화하고, 마이그레이션을 가속화할 수 있는 실행 가능한 데이터 통찰력을 제공합니다.</block>
   <block id="d3b14d365ca3277402fce2839d562f60" category="admonition">이 프로세스는 작업 부하의 중요도에 영향을 미쳐 적절한 보호가 이루어지도록 하는 데 도움이 됩니다.</block>
@@ -924,7 +921,6 @@
   <block id="571f33f6eea9a8d4cbc40d9ea733c1e9" category="list-text">전략 관리 페이지에서 *작업*을 선택하세요.<block ref="c25b92b317848c2a66dcfecc2a02ad99" category="inline-image-macro-rx" type="image"></block> 삭제하려는 전략에 대한 옵션입니다.</block>
   <block id="b850d388555da9da0c8036cffa6c6951" category="list-text">작업 메뉴에서 *정책 삭제*를 선택합니다.</block>
   <block id="2626c315654649457283f31cd264c39c" category="summary">공격 후 NetApp Ransomware Resilience 보조 스토리지의 백업 데이터가 안전한지 확인하고, 실제 복구 지점(RPA)을 권장하며, 충돌 방지 복구를 위한 워크플로를 조율합니다.</block>
-  <block id="113ff3b2aeb407622305a50c77bebec8" category="doc">NetApp Ransomware Resilience 사용하여 랜섬웨어 공격으로부터 복구(사고가 해결된 후)</block>
   <block id="197d5e3f8c27a534ff428274b4db5d59" category="paragraph">워크로드가 "복원 필요"로 표시된 후 NetApp Ransomware Resilience 실제 복구 지점(RPA)을 권장하고 충돌 방지 복구를 위한 워크플로를 조정합니다.</block>
   <block id="57a6bb038991f08ac0fdcf64095bd0af" category="paragraph">모든 볼륨, 특정 볼륨 또는 특정 파일을 선택하여 작업 부하를 복원할 수 있습니다.</block>
   <block id="b5ccdb3dc0dc7a8afa4ba1ad3929e36a" category="admonition">작업 부하 복구는 실행 중인 작업 부하에 영향을 줄 수 있습니다.  적절한 이해 관계자와 함께 복구 프로세스를 조정해야 합니다.</block>
@@ -1465,7 +1461,6 @@
   <block id="7257a2c29f00e84365c5a48447d9c803" category="inline-link-macro">데이터 분류를 활성화하여 거버넌스 및 보안 위험을 식별합니다.</block>
   <block id="1d1758803ee1f7559973be04f120a0f7" category="inline-link-macro">SIEM에 알림 보내기</block>
   <block id="660ecf2355e5ff3c5a22d2e4a48594e8" category="inline-link-macro">경고, 보호, 준비 훈련, 복구 또는 요약 보고서 다운로드</block>
-  <block id="52210acbff73a572a2ca89fb77371615" category="paragraph">NetApp Ransomware Resilience 내에서 NetApp Data Classification 사용하여 파일 공유 워크로드의 데이터를 스캔하고 분류할 수 있습니다. 데이터를 분류하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 확인하는 데 도움이 되며, PII가 포함되어 있으면 보안 위험이 커질 수 있습니다. 데이터 분류는 NetApp Console 의 핵심 구성 요소이며 추가 비용 없이 사용할 수 있습니다.</block>
   <block id="7b36da612c0e3a400f4daecc8016f21e" category="summary">시스템과 작업 부하를 보호하려면 랜섬웨어 복원력에 대한 라이선스 요구 사항을 충족하는지 확인하세요.</block>
   <block id="5ef05167488611c5bd4ff0f410595ce4" category="list-text">30일 무료 체험</block>
   <block id="e71ba6c3178fa6f6844891e615ad0570" category="list-text">Amazon Web Services(AWS) Marketplace, Google Cloud Marketplace 또는 Azure Marketplace에서 PAYGO(Pay-as-you-go) 구독을 구매하세요.</block>
@@ -1854,7 +1849,6 @@
   <block id="8c458dae44a326b93145aea4dd0f630e" category="inline-link-macro">사용자 행동 활동 에이전트 및 탐지기 구성</block>
   <block id="1c92ed852b0b86bd1948ec6e816262ce" category="list-text"><block ref="1c92ed852b0b86bd1948ec6e816262ce" category="inline-link-macro-rx"></block></block>
   <block id="92df6f183b2e1cfcc696af23c1edd4cb" category="summary">사용자 활동 에이전트 및 기타 수집기를 생성하기 전에 명시된 운영 체제, 서버 및 네트워크 요구 사항을 충족하는지 확인해야 합니다.</block>
-  <block id="9cc59391625fcde368f1996a2950eec4" category="doc">NetApp Ransomware Resilience에서 사용자 행동 탐지를 위한 요구 사항</block>
   <block id="fc36a1ad1399ea3c897ac2b166f590bc" category="section-title">클라우드 공급자 지원</block>
   <block id="3156b4b992dec700b60fedaa2eca010c" category="paragraph">의심스러운 사용자 행동 감지는 다음 운영 체제에서 지원됩니다.</block>
   <block id="92adf790b863484fc83be969039ec890" category="section-title">서버 권장 사항</block>
@@ -2063,7 +2057,6 @@
   <block id="9bd1fe262c57584526c5184d4de31827" category="list-text">온프레미스 ONTAP 클러스터 또는 Cloud Volumes ONTAP 시스템이 Console에 설정되어 있지 않은 경우 <block ref="1c09904f3fbf9f22b68e96599d2dcddc" category="inline-link-macro-rx"></block> 및 <block ref="b04507b2bbabc17c071b912167d3ff4f" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="3eb45f3714606347a6ff182b822b69cc" category="list-text">ONTAP 또는 Cloud Volumes ONTAP 클러스터의 경우 NetApp Ransomware Resilience를 사용하려면 ONTAP 버전 9.11.1 이상이어야 합니다.</block>
   <block id="4b2c42068bb1431d3a8d94e9ca135659" category="paragraph"><block ref="187dbd743d444b65478d146e1c2c85f6" category="inline-link-rx"></block>.</block>
-  <block id="956475ab89164a2884d7750c9285db21" category="doc">NetApp Ransomware Resilience에서 워크로드를 검색하고 관리하세요</block>
   <block id="e300a441bfe88a3cd9729e46cfd3c605" category="paragraph">대시보드에는 데이터 보호 상태가 표시됩니다. 위험에 처한 워크로드 또는 보호되는 워크로드의 수는 새로운 워크로드가 발견될 때마다 업데이트됩니다.</block>
   <block id="3d7e9fe4b06f7b72aa18a4870bc065e4" category="inline-image-macro">랜섬웨어 복원력 대시보드</block>
   <block id="401331622ba7c8cd9b2b100526565200" category="paragraph"><block ref="401331622ba7c8cd9b2b100526565200" category="inline-image-macro-rx" type="image"></block></block>
@@ -2170,4 +2163,13 @@
   <block id="1dba6347dc69b3be8eba699851eddc8f" category="paragraph-title">랜섬웨어 복원력에 대한 청구는 어떻게 작동하나요?</block>
   <block id="6c1c5737355a8b30e87ad5d7c6da9553" category="inline-link-macro">라이센스 업데이트</block>
   <block id="fb8e096a7050c588583ae61ddb846c94" category="admonition">랜섬웨어 복원력 보호 대시보드에서 보호된 데이터의 크기를 모니터링합니다. 용량을 추가하려면 <block ref="0cb59e747afacc80ad7810dc5f26bca9" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="6a8c5d54f0c5f50eb0ef382973393ca3" category="doc">NetApp Ransomware Resilience에 대한 법적 고지</block>
+  <block id="d12f8c36670d289d5fe004952bfc0d5e" category="doc">NetApp Ransomware Resilience를 위한 사용자 활동 감지 요구 사항</block>
+  <block id="7df30d939fa4f3d1575169ec6d1894d8" category="doc">NetApp Ransomware Resilience의 알려진 제한 사항</block>
+  <block id="e9be3c13b1ed73a120f1b23e2cefb058" category="doc">NetApp Ransomware Resilience에서 워크로드를 찾아보세요</block>
+  <block id="871215526a8732732fd40b6335388e98" category="doc">NetApp Ransomware Resilience에 대한 FAQ</block>
+  <block id="382e702ef8f61842f6f9c0b76fb23047" category="doc">NetApp Ransomware Resilience로 랜섬웨어 공격으로부터 복구하세요</block>
+  <block id="a8bb9ad5a88304569c56e3805762683b" category="doc">NetApp Ransomware Resilience에서 개인 식별 정보를 검사합니다</block>
+  <block id="1ca81bce832a538b6144470d9a25c786" category="paragraph">NetApp Ransomware Resilience 내에서 NetApp Data Classification을 사용하여 파일 공유 워크로드의 데이터를 검사하고 분류할 수 있습니다. 데이터를 분류하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 여부를 판단할 수 있으며, 이는 보안 위험을 증가시킬 수 있습니다.</block>
+  <block id="1954c0eede9cec276e44236c76142770" category="paragraph">Data Classification은 NetApp Console의 핵심 구성 요소입니다. Data Classification을 사용하기 위해 라이센스가 필요하지 않습니다. 설정에 따라 Data Classification을 구성하는 데 비용이 발생할 수 있지만 Ransomware Resilience에서는 해당 비용을 청구하지 않습니다. 자세한 내용은 <block ref="c5cce5d1091349460847f69d486fd688" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
 </blocks>

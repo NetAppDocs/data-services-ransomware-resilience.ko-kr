@@ -4,7 +4,7 @@ permalink: reference-user-activity-requirements.html
 keywords: data breach detection, data breach, user activity, suspicious, anomalous, requirements, end points, operating systems, networking 
 summary: 사용자 활동 에이전트 및 기타 수집기를 생성하기 전에 명시된 운영 체제, 서버 및 네트워크 요구 사항을 충족하는지 확인해야 합니다. 
 ---
-= NetApp Ransomware Resilience에서 사용자 행동 탐지를 위한 요구 사항
+= NetApp Ransomware Resilience를 위한 사용자 활동 감지 요구 사항
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

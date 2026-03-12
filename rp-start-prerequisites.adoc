@@ -132,7 +132,7 @@ security login show -user-or-group-name <username>
 +
 [listing]
 ----
-security login modify -user-or-group-name <username> -application console|http|ontapi|ssh|telnet -authentication-method password -role admin
+security login modify -user-or-group-name <name> -application console|http|ontapi|ssh -authentication-method password -role admin
 ----
 . 랜섬웨어 복원력을 사용하려면 NetApp Console 로 돌아가세요.
 
