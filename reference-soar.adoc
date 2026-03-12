@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: reference-soar.html 
+keywords: ransomware protection, soar, security orchestration, microsoft sentinel, splunk, automation, threat response, playbook 
+summary: SOAR 플레이북을 통합 및 활용하여 NetApp Ransomware Resilience 위협 대응 작업을 자동화하십시오. 
+---
+= NetApp Ransomware Resilience를 위한 SOAR 플레이북 통합
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Ransomware Resilience는 위협 대응과 같은 작업을 자동화할 수 있도록 보안 오케스트레이션, 자동화 및 대응(SOAR) 플레이북을 제공합니다.
+
+Ransomware Resilience 플레이북은 다음과 같은 기능을 제공합니다.
+
+* 볼륨의 스냅샷을 생성합니다
+* 위협 인텔리전스로 IP 주소 보강
+* 특정 에이전트 및 시스템에 대한 스토리지 정보를 보강합니다.
+* 사고 대응을 위해 볼륨을 오프라인으로 전환합니다
+* 연결 테스트
+* 보강 작업의 상태 검토
+
+
+
+
+== 플레이북
+
+Ransomware Resilience는 Microsoft Sentinel 및 Splunk용 플레이북을 제공합니다. 설정 세부 정보는 각 GitHub 페이지를 참조하십시오.
+
+* link:https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/NetApp%20Ransomware%20Resilience/Playbooks["Microsoft Sentinel"^]
+* link:https://github.com/splunk-soar-connectors/netappransomwareresilience["Splunk"^]
+
+
+
+NOTE: Splunk Cloud의 경우 플랫폼 버전 7.0, 7.1, 7.2, 8.0 또는 8.4를 실행해야 합니다. 자세한 내용은 link:https://splunkbase.splunk.com/app/8483["Splunkbase"^]를 참조하십시오.
+
+
+
+== 더 많은 정보
+
+* link:task-siem.html["위협 분석 및 탐지를 위해 NetApp Ransomware Resilience를 SIEM에 연결하십시오"]
+

@@ -2172,4 +2172,31 @@
   <block id="a8bb9ad5a88304569c56e3805762683b" category="doc">NetApp Ransomware Resilience에서 개인 식별 정보를 검사합니다</block>
   <block id="1ca81bce832a538b6144470d9a25c786" category="paragraph">NetApp Ransomware Resilience 내에서 NetApp Data Classification을 사용하여 파일 공유 워크로드의 데이터를 검사하고 분류할 수 있습니다. 데이터를 분류하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 여부를 판단할 수 있으며, 이는 보안 위험을 증가시킬 수 있습니다.</block>
   <block id="1954c0eede9cec276e44236c76142770" category="paragraph">Data Classification은 NetApp Console의 핵심 구성 요소입니다. Data Classification을 사용하기 위해 라이센스가 필요하지 않습니다. 설정에 따라 Data Classification을 구성하는 데 비용이 발생할 수 있지만 Ransomware Resilience에서는 해당 비용을 청구하지 않습니다. 자세한 내용은 <block ref="c5cce5d1091349460847f69d486fd688" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="70c542a285cfdf5cc22587e58fc3fcbb" category="doc">Microsoft Sentinel 및 Splunk용 SOAR 플레이북</block>
+  <block id="2f9304fe9b427489507405bef9a0bb9f" category="inline-link-macro">Splunk</block>
+  <block id="e0df5750183f59f1a681c84ab0a08458" category="paragraph">Ransomware Resilience는 이제 <block ref="353f990ad0de32e744a84d05e731dc96" category="inline-link-macro-rx"></block> 및 <block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block>에 대한 보안 오케스트레이션, 자동화 및 대응(SOAR) 플레이북을 제공합니다. 이 플레이북을 통해 위협 대응 관리가 더욱 쉬워지고, 작업 테스트를 자동화하며 스냅샷 생성 및 볼륨 오프라인 전환을 포함한 필수 랜섬웨어 대응 작업을 자동화합니다.</block>
+  <block id="c75f115758f26a9b54a9d51601b66cf9" category="inline-link-macro">SOAR 플레이북 통합</block>
+  <block id="b8b94feeaf531f391629f42d138991ba" category="paragraph">자세한 내용은 <block ref="ea7002ba1a528c89bfc86119082f1178" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="e809d3cd971f3bd0702a07af10ed5b3f" category="summary">SOAR 플레이북을 통합 및 활용하여 NetApp Ransomware Resilience 위협 대응 작업을 자동화하십시오.</block>
+  <block id="64495558f55fc510fa1f0d8417e9d0f9" category="doc">NetApp Ransomware Resilience를 위한 SOAR 플레이북 통합</block>
+  <block id="15ece8e7c495c241dd67ef0baad7fcaf" category="paragraph">Ransomware Resilience는 위협 대응과 같은 작업을 자동화할 수 있도록 보안 오케스트레이션, 자동화 및 대응(SOAR) 플레이북을 제공합니다.</block>
+  <block id="be0ccf0303f9149ec406ad081d1e1b4f" category="paragraph">Ransomware Resilience 플레이북은 다음과 같은 기능을 제공합니다.</block>
+  <block id="70a6131a6c77f1f9afbf85c23200dee6" category="list-text">볼륨의 스냅샷을 생성합니다</block>
+  <block id="a4431e17a1690b12df20e34bb2f4b744" category="list-text">위협 인텔리전스로 IP 주소 보강</block>
+  <block id="762279f864f96ffbe81b311754b74896" category="list-text">특정 에이전트 및 시스템에 대한 스토리지 정보를 보강합니다.</block>
+  <block id="b826f101cb377022bc455ad2020f2f86" category="list-text">사고 대응을 위해 볼륨을 오프라인으로 전환합니다</block>
+  <block id="dbc85b383817f560c0d1b083f4449627" category="list-text">연결 테스트</block>
+  <block id="870d0fb8b0bf7879e6ada101131c6864" category="list-text">보강 작업의 상태 검토</block>
+  <block id="5156f3fe3404db2816f53b4f01711a75" category="section-title">플레이북</block>
+  <block id="0c7fbad5c54a3cc727fd8969a07d6ea4" category="paragraph">Ransomware Resilience는 Microsoft Sentinel 및 Splunk용 플레이북을 제공합니다. 설정 세부 정보는 각 GitHub 페이지를 참조하십시오.</block>
+  <block id="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="list-text"><block ref="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="inline-link-macro-rx"></block></block>
+  <block id="4655146bfbabab7fd679c2d1ca7a8d15" category="list-text"><block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block></block>
+  <block id="fcd13f38c6a87165a33577bfdd3654b4" category="inline-link-macro">Splunkbase</block>
+  <block id="2a89449caab8a2ca7d825a1c6a44640c" category="admonition">Splunk Cloud의 경우 플랫폼 버전 7.0, 7.1, 7.2, 8.0 또는 8.4를 실행해야 합니다. 자세한 내용은 <block ref="258077ff9a23292548ab7c25d009028a" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="d11de361a9507cdd0eba54b47b77df6e" category="list-text"><block ref="d11de361a9507cdd0eba54b47b77df6e" category="inline-link-macro-rx"></block></block>
+  <block id="5d0a0988b6064ad1afb79d8f5aa31f02" category="inline-link-macro">보안 오케스트레이션, 자동화 및 대응(SOAR) 플레이북</block>
+  <block id="b6f1ae85c12d06f23f82164c0136a6fc" category="admonition">Ransomware Resilience는 <block ref="de8332ed81162473af5cb8a1551a7e36" category="inline-link-macro-rx"></block>도 지원합니다.</block>
+  <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">SOAR 플레이북 통합</block>
+  <block id="450000aaa83625b4284af1b1791c4576" category="list-text"><block ref="450000aaa83625b4284af1b1791c4576" category="inline-link-macro-rx"></block></block>
+  <block id="462a6e98fbd2a13cda63645b676477e3" category="section-title">2026년 3월 12일</block>
 </blocks>
