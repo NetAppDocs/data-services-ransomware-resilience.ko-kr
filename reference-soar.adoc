@@ -27,7 +27,7 @@ Ransomware Resilience 플레이북은 다음과 같은 기능을 제공합니다
 
 == 플레이북
 
-Ransomware Resilience는 Microsoft Sentinel 및 Splunk용 플레이북을 제공합니다. 설정 세부 정보는 각 GitHub 페이지를 참조하십시오.
+Ransomware Resilience는 Google SecOps, Microsoft Sentinel 및 Splunk용 플레이북을 제공합니다. 설정 세부 정보는 각 GitHub 페이지를 참조하십시오.
 
 * link:https://github.com/chronicle/content-hub/tree/main/content/response_integrations/third_party/partner/netappransomwareresilience["Google SecOps"^]
 * link:https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/NetApp%20Ransomware%20Resilience/Playbooks["Microsoft Sentinel"^]
