@@ -2158,7 +2158,6 @@
   <block id="fd117b89b92e15d359324da93300356b" category="doc">위협 분석 및 탐지를 위해 NetApp Ransomware Resilience를 SIEM에 연결하십시오</block>
   <block id="e02579eaf37afcb0e3837dd893799871" category="paragraph">보안 정보 및 이벤트 관리 시스템(SIEM)은 로그 및 이벤트 데이터를 중앙 집중화하여 보안 이벤트 및 규정 준수에 대한 통찰력을 제공합니다. NetApp Ransomware Resilience는 위협 분석 및 탐지를 간소화하기 위해 데이터를 SIEM으로 자동 전송하는 기능을 지원합니다.</block>
   <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026년 3월 9일</block>
-  <block id="b4dfd6d471f025389f9c78ebe17c16ba" category="paragraph">워크로드가 보호됨으로 분류되면 구매한 용량 또는 PAYGO 구독에 포함됩니다. Ransomware Resilience는 하나 이상의 스냅샷 또는 백업 정책과 함께 탐지 정책이 활성화된 경우 워크로드를 보호됨으로 분류합니다. 탐지 정책은 있지만 백업 또는 스냅샷 정책이 _없는_ 워크로드는 위험으로 분류됩니다. 위험 워크로드는 구매한 용량에 포함되지 않습니다.</block>
   <block id="9b0a81f6fc494248483a10631a72dabe" category="paragraph">보호 대상 워크로드는 무료 평가 기간 종료 후 구매 용량 또는 구독료에 포함됩니다. Ransomware Resilience는 효율성 적용 전, 보호 대상 워크로드와 관련된 데이터(ONTAP에서 보고된 데이터 기준)를 GB 단위로 청구됩니다.</block>
   <block id="1dba6347dc69b3be8eba699851eddc8f" category="paragraph-title">랜섬웨어 복원력에 대한 청구는 어떻게 작동하나요?</block>
   <block id="6c1c5737355a8b30e87ad5d7c6da9553" category="inline-link-macro">라이센스 업데이트</block>
@@ -2199,4 +2198,15 @@
   <block id="450000aaa83625b4284af1b1791c4576" category="list-text"><block ref="450000aaa83625b4284af1b1791c4576" category="inline-link-macro-rx"></block></block>
   <block id="462a6e98fbd2a13cda63645b676477e3" category="section-title">2026년 3월 12일</block>
   <block id="cb4ae29d8762239c8dfdfc76bdb65d37" category="paragraph">Ransomware Resilience는 이제 <block ref="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="inline-link-macro-rx"></block> 및 <block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block>에 대한 보안 오케스트레이션, 자동화 및 대응(SOAR) 플레이북을 제공합니다. 이 플레이북을 통해 위협 대응 관리가 더욱 쉬워지고, 작업 테스트를 자동화하며 스냅샷 생성 및 볼륨 오프라인 전환을 포함한 필수 랜섬웨어 대응 작업을 자동화합니다.</block>
+  <block id="7a62bbe1752bad34a2882c1488855472" category="paragraph">워크로드가 보호됨으로 분류되면 구매한 용량 또는 종량제 구독에 포함됩니다. Ransomware Resilience는 하나 이상의 스냅샷 또는 백업 정책과 함께 탐지 정책이 활성화된 경우 워크로드를 보호됨으로 분류합니다. 탐지 정책은 있지만 백업 또는 스냅샷 정책이 _없는_ 워크로드는 위험으로 분류됩니다. 위험 워크로드는 구매한 용량에 포함되지 않습니다.</block>
+  <block id="0a444369e66f3a256a69eec8c1934071" category="paragraph">크기를 고려할 때 라이센스 비용은 액티브 파일 시스템의 논리적 용량을 기준으로 합니다(즉, 스냅샷이 사용하는 공간은 포함되지 않음).</block>
+  <block id="ed300adca180c1e33d800707367434a6" category="doc">Google SecOps용 SOAR 플레이북</block>
+  <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
+  <block id="6e9577ca2ef4afc51475afb9c4855a58" category="paragraph">Ransomware Resilience는 이제 <block ref="a0b16504c1687e5508c034346a32796a" category="inline-link-macro-rx"></block>에 대한 보안 오케스트레이션, 자동화 및 대응(SOAR) 플레이북을 제공합니다. 이 플레이북을 통해 위협 대응 관리가 더욱 쉬워지고, 스냅샷 생성 및 볼륨 오프라인 전환을 포함한 작업 테스트 및 필수 랜섬웨어 대응 작업을 자동화할 수 있습니다.</block>
+  <block id="d942356c034f7ad3c314a5fae7d11e1d" category="list-text"><block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block></block>
+  <block id="1432a60da610bc1b6af09d6319597446" category="inline-link-macro">Azure NetApp Files의 제한 사항</block>
+  <block id="7c227d7b6723bc5af92a1b877aae1bbe" category="admonition">Azure NetApp Files 시스템의 경우 SOAR를 사용하여 <block ref="a1a46b98c4974de0d0c21339035b1250" category="inline-link-macro-rx"></block>을(를) 검토하십시오.</block>
+  <block id="895dff905f51ff367d108afbf6e634a7" category="inline-link-macro">SOAR 플레이북</block>
+  <block id="fbaf8ef61cfa55e52a929ce171ffe013" category="list-text">Azure NetApp Files API가 자동화된 작업을 차단하므로 Azure NetApp Files와 함께 지원되는 <block ref="237628f5d72273fb0e39c8149431292e" category="inline-link-macro-rx"></block>을(를) 사용하지 않는 것이 좋습니다.</block>
+  <block id="d8fdc2681cdec613a02ac551c44a6e8c" category="section-title">2026년 3월 31일</block>
 </blocks>
