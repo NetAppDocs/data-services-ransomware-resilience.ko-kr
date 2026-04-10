@@ -38,6 +38,7 @@ Azure NetApp Files는 Ransomware Resilience에서 지원됩니다. Azure NetApp 
 
 * 백업 정책을 사용하는 랜섬웨어 보호 전략은 Azure NetApp Files에서 지원되지 않습니다. 대신 Azure NetApp Files 백업을 사용할 수 있습니다.
 * Azure NetApp Files에서는 복제 기능을 사용하는 랜섬웨어 보호 전략이 지원되지 않습니다.
+* Azure NetApp Files는 FPolicy 또는 사용자 동작 활동을 지원하지 않습니다.
 * 보호 전략을 선택할 때는 스냅샷 일정이 Azure NetApp Files와 호환되는지 확인하십시오. Azure NetApp Files에서 사용할 수 있는 가장 빈번한 스냅샷 일정은 시간 단위입니다.
 * Azure NetApp Files API가 자동화된 작업을 차단하므로 Azure NetApp Files와 함께 link:reference-soar.html["SOAR 플레이북"]를 사용하지 않는 것이 좋습니다.
 
