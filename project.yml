@@ -64,8 +64,16 @@ sidebar:
       entries:
       - title: 감지된 경고에 대응
         url: "/rp-use-alert.html"
-      - title: 랜섬웨어 공격으로부터 복구
+      - title: 복구 상태 검토
         url: "/rp-use-recover.html"
+      - title: 사용자 지정 복원을 사용하여 복구
+        url: "/rp-use-recover.html"
+      - title: 클린 복원 수행
+        entries:
+        - title: 격리된 복구 환경 생성
+          url: "/task-clean-restore.html"
+        - title: 클린 복원으로 복구
+          url: "/task-clean-restore-recover.html"
     - title: 준비 태세 훈련 실시
       url: "/rp-start-simulate.html"
     - title: SIEM 구성

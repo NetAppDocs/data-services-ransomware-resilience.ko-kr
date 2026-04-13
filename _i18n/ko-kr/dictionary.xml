@@ -370,7 +370,6 @@
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">시작하기 전에</block>
   <block id="73738579d10f958bf97df41b6b44631a" category="paragraph">랜섬웨어 복원력 일련번호가 필요합니다.  판매 주문서에서 이 번호를 찾거나, 계정 팀에 문의하여 정보를 얻으세요.</block>
   <block id="af25599baf3c84c2f248b3b60dcbeb1e" category="list-text">라이센스를 취득한 후 Ransomware Resilience로 돌아가세요.  오른쪽 상단의 *결제 방법 보기* 옵션을 선택하세요.  또는 무료 평가판이 만료된다는 메시지가 표시되면 *구독 또는 라이선스 구매*를 선택하세요.</block>
-  <block id="92039ced8cec8859d2ca3a52e4c27cde" category="list-text">*라이선스 추가*를 선택하여 콘솔 라이선스 및 구독 페이지로 이동합니다.</block>
   <block id="13a1d7753283c14a67aa5ea60b79c583" category="list-text">*데이터 서비스 라이선스* 탭에서 *라이선스 추가*를 선택합니다.</block>
   <block id="7578ebad24c71aee2f2992e5efe1118d" category="list-text">라이선스 추가 페이지에서 일련 번호와 NetApp 지원 사이트 계정 정보를 입력합니다.</block>
   <block id="8e74888372203fd2a7ad3d3f9a2ce99f" category="list-text">콘솔 라이선스 일련 번호가 있고 NSS 계정을 알고 있는 경우 *일련 번호 입력* 옵션을 선택하고 해당 정보를 입력하세요.</block>
@@ -927,11 +926,9 @@
   <block id="a70aafb0a2b8a5a46157e22ae8d2dd99" category="list-text">*실패*: 작업 부하 복원 프로세스를 완료할 수 없습니다.</block>
   <block id="f591728141675d7a289dcb31f31fde56" category="section-title">복구할 준비가 된 작업 부하 보기</block>
   <block id="9e307871a02cb271c0a3a1a008a2e4e1" category="paragraph">"복원 필요" 복구 상태에 있는 워크로드를 검토합니다.</block>
-  <block id="2400d3aab4f81941f09385a6e9a6dda5" category="list-text">메뉴에서 *복구*를 선택합니다.</block>
   <block id="6ff7646970e054813b30a697e9d483e8" category="list-text">*복구* 페이지에서 작업 부하 정보를 검토하세요.</block>
   <block id="4adfa9c3d33f897660ad408e7f5dc8e8" category="inline-image-macro">복구 페이지</block>
   <block id="926aaeb3693d20413ab32b7da19a4c24" category="paragraph"><block ref="926aaeb3693d20413ab32b7da19a4c24" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e5807844b120730d46eedbad32ba0ea7" category="paragraph">랜섬웨어 복원력을 사용하면 스토리지 관리자는 권장 복원 지점이나 기본 복원 지점에서 워크로드를 복원하는 가장 좋은 방법을 결정할 수 있습니다.</block>
   <block id="7c653203a3096df8b7646a6ab87c0b2f" category="list-text">"복원 필요" 상태의 작업 부하를 선택하세요.</block>
   <block id="3423ce5ef0c24dff08aba7c67e954912" category="list-text">복원하려면 *복원*을 선택하세요.</block>
   <block id="8e39c6b8e82f00af62a92b5e18f0d487" category="list-text">*목적지*: 목적지 옆에 있는 아래쪽 화살표를 선택하면 자세한 내용을 볼 수 있습니다.</block>
@@ -973,10 +970,7 @@
   <block id="e117d7e0417b0abf71f8e538099181f1" category="admonition">새로운 볼륨 이름은 원래 볼륨 이름 + 백업 이름 + 백업 날짜로 표시됩니다.</block>
   <block id="6412a45d589675b39a03f4d8c440e7a7" category="section-title">파일 수준에서 애플리케이션 작업 부하 복원</block>
   <block id="dda1633bee980c6aee630455ccc23784" category="paragraph">파일 수준에서 애플리케이션 작업 부하를 동일하거나 다른 시스템으로 복원할 수 있습니다.</block>
-  <block id="c859754ec0a06e9f1e87879e1e8a4b78" category="paragraph-title">영향을 받은 파일 목록을 얻는 단계</block>
-  <block id="e962fee54eeb3df3283d6d28bb1f073b" category="admonition">볼륨에 여러 개의 알림이 있는 경우 각 알림에 대해 영향을 받는 파일의 CSV 목록을 다운로드해야 합니다.</block>
   <block id="632b8e66b02aebebfc5b46583ee30222" category="list-text">전체 파일 목록을 보려면 영향을 받은 파일 창 상단에 있는 *여기를 클릭*을 선택하세요.</block>
-  <block id="d4ea49f7c37230203af54722c95962fe" category="list-title">해당 파일을 복원하는 단계</block>
   <block id="3e64769073a6ebfad26862c552f42c72" category="list-text">복원 페이지의 복원 범위에서 *파일별*을 선택합니다.</block>
   <block id="f1760e95914fef75d7a25a4643d9128a" category="list-text">볼륨 목록에서 복원하려는 파일이 들어 있는 볼륨을 선택합니다.</block>
   <block id="a47287face7d6331a60273ac64f1cb53" category="list-text">*복원 지점*: 자세한 내용을 보려면 *복원 지점* 옆에 있는 아래쪽 화살표를 선택하세요.  데이터를 복원하는 데 사용할 복원 지점을 선택하세요.</block>
@@ -1007,12 +1001,7 @@
   <block id="cc03ddbe51eba1cd776926690a07ca14" category="list-text">*목적지*: 원래 위치로.</block>
   <block id="b2ff9d90b8575c5030e4183e92ccf938" category="summary">NetApp Ransomware Resilience 사용하면 보호, 알림, 복구에 대한 세부 정보를 보여주는 보고서를 다운로드하여 CSV 파일로 저장할 수 있습니다.</block>
   <block id="2963ad4383209a31ba7b5a890b302bc2" category="doc">NetApp Ransomware Resilience 보고서 다운로드</block>
-  <block id="229560de4c61096e275f68d7eda37c00" category="paragraph">*어떤 데이터를 다운로드할 수 있나요?*  다음 메인 메뉴 옵션에서 파일을 다운로드할 수 있습니다.</block>
   <block id="a7e404e1296fea04d0cd654b84867b5a" category="list-text">*복구*: 복원이 필요한 모든 작업 부하의 상태와 세부 정보가 포함됩니다. 여기에는 "복원 필요", "진행 중", "복원 실패" 및 "복원 성공"으로 표시된 작업 부하의 총 수가 포함됩니다.</block>
-  <block id="a36d9f25fe7ecafe45db2fd45823c6e7" category="list-text">*보고서*: 모든 페이지에서 데이터를 내보내고 파일을 다운로드할 수 있습니다.</block>
-  <block id="cba5c013826db3e7efce5d0c19aee9c1" category="admonition">준비 훈련 보고서는 *보고서* 페이지에서만 다운로드할 수 있습니다.</block>
-  <block id="5b21bc493cdab40a819ce8921c81c72d" category="paragraph">보호, 알림 또는 복구 페이지에서 CSV 또는 JSON 파일을 다운로드하는 경우 해당 페이지의 데이터만 표시됩니다.</block>
-  <block id="12d495a2d34cbe83eecedb29ea139390" category="paragraph">CSV 또는 JSON 파일에는 모든 콘솔 시스템의 모든 워크로드에 대한 데이터가 포함되어 있습니다.</block>
   <block id="4263eebb7cfbc2a50797df9b351df75d" category="list-text">NetApp Ransomware Resilience 메뉴에서 *보고서*를 선택합니다.</block>
   <block id="09121bb3cb936ab87dd837c1fd8da18a" category="list-text">*보고서* 옵션을 선택한 경우 미리 구성된 파일 이름 중 하나를 선택하고 *다운로드*를 선택합니다.</block>
   <block id="55483e3219b15f38112442f737a1bf92" category="section-title">백업 대상 추가</block>
@@ -1416,7 +1405,6 @@
   <block id="3e89831fbd0267df9052ee5e70bc06ab" category="sidebar">랜섬웨어 복원력에 액세스</block>
   <block id="d67482bbf82ef9c339e44809ea9873b1" category="sidebar">랜섬웨어 보호 전략으로 워크로드를 보호하세요</block>
   <block id="4b55af6e5a9948a11e84a0809a34edfb" category="sidebar">개인 식별 데이터를 스캔하세요</block>
-  <block id="f8a7dc43864435cb9b522a28b586e556" category="sidebar">랜섬웨어 공격으로부터 복구</block>
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">자주 묻는 질문</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식과 지원</block>
   <block id="51fecb5d19a6637dea83445678fd4ffa" category="section-title">데이터 백업</block>
@@ -1464,7 +1452,6 @@
   <block id="e20a7cd21fba7d540ffd7589c1c59928" category="paragraph">30일 무료 체험판을 통해 Ransomware Resilience를 사용해 보세요.  무료 평가판을 시작하려면 콘솔 조직 관리자여야 합니다.</block>
   <block id="85a5bc1275ab09d60eed9f7c3b4d429b" category="paragraph">체험 기간 동안에는 저장 용량 제한이 적용되지 않습니다.</block>
   <block id="ca78bf5eeed0245ff3d76d132c93b609" category="inline-link-macro">하나 추가하다</block>
-  <block id="94c135a38d325e223714d1f313c8efec" category="list-text">다른 서비스에 대한 콘솔 에이전트를 아직 추가하지 않은 경우<block ref="f7f69135987ef22de86b03a4f14a7bc8" category="inline-link-macro-rx"></block> .</block>
   <block id="edbdd3e3e169cd712816f78b82e91c2e" category="list-text">랜섬웨어 복원력 랜딩 페이지에서 *워크로드 검색으로 시작*을 선택하여 워크로드를 검색합니다.</block>
   <block id="2866dfee0ffdf3a11a8323f6d53635f4" category="admonition">이 옵션은 콘솔 에이전트를 성공적으로 설치한 경우에만 사용할 수 있습니다.</block>
   <block id="933f33d572b754e91a336439049ae279" category="list-text">라이선스 추가 페이지에서 *일련 번호 입력*을 선택하고, 귀하에게 전송된 이메일에 포함된 일련 번호를 입력한 다음, *라이선스 추가*를 선택합니다.</block>
@@ -1858,7 +1845,6 @@
   <block id="6a3ad50557786ed110b2cefa2a2be7bd" category="list-text">시스템을 선택하여 세부 정보를 확인하십시오.</block>
   <block id="6872a6ef5ae2db047b6effa74304d0af" category="list-text">해당 사용자의 기존 역할을 표시합니다.</block>
   <block id="67c903793b6bf8b730fee76339b93672" category="list-text">탐지 설정으로 *의심스러운 사용자 행동 감지*를 선택한 경우 User activity agent 또는 <block ref="0fcb9e48262f104799fbf49d6c09d7d5" category="inline-link-macro-rx"></block>를 선택합니다.</block>
-  <block id="7c6b2f72c99d1ebd4a429f9dc9ce38de" category="doc">NetApp Ransomware Resilience에서 사용자 활동 감지를 위한 에이전트 및 수집기 구성</block>
   <block id="a7045f65a60246a57662a00a9dc6dc73" category="inline-link-macro">운영 체제, 서버 및 네트워크 요구 사항</block>
   <block id="72ae3905ad051e75d558266df8b1e63a" category="list-text"><block ref="4535d4c19297d046165dc98674d914e8" category="inline-link-macro-rx"></block>을(를) 충족하는지 확인하십시오.</block>
   <block id="59ad45573dbf4296a202cefa7894c118" category="section-title">사용자 활동 에이전트를 생성합니다</block>
@@ -1977,7 +1963,6 @@
   <block id="43cf481327dfdef7257dfcd2239c1c16" category="list-text">*암호화 감지*</block>
   <block id="b2a1cab5712cdb105f101f829159956b" category="list-text">*의심스러운 사용자 동작 감지*</block>
   <block id="e221e0c0391c288e04416b2254112154" category="list-text">*의심스러운 파일 확장자 차단*</block>
-  <block id="e90e1f21879e00aa74c7b0dba188efdb" category="paragraph">NetApp Ransomware Resilience는 지원되는 볼륨과 지원되지 않는 볼륨, 공격 대비 훈련, 보호, 경고 및 복구에 대한 세부 정보를 보여주는 CSV 및 JSON 형식의 보고서를 제공합니다. 보고서를 통해 훈련, 보호 상태, 경고 및 복구 이벤트에 대한 오프라인 보고서를 저장하고 검토할 수 있습니다.</block>
   <block id="920471a68a7a085ba7f5c267570313be" category="paragraph">NetApp Ransomware Resilience 사용자 활동 감지 기능은 사용자 수준의 랜섬웨어 이벤트를 방지하는 데 도움이 됩니다. Ransomware Resilience에서 의심스러운 사용자 행동 감지를 활성화하려면 사용자 활동 에이전트를 하나 이상 설치해야 합니다. 이 에이전트는 랜섬웨어 이벤트와 유사한 이상 패턴에 대해 사용자 행동을 모니터링하는 데이터 수집 환경을 생성합니다.</block>
   <block id="91600cc8235d0715eba412169c7c3d73" category="paragraph">사용자 활동 에이전트는 데이터 수집기와 사용자 디렉터리 커넥터를 호스팅하며, 이 둘 모두 분석을 위해 SaaS 위치로 데이터를 전송합니다.</block>
   <block id="fa97e4f101b82056aea0cbbc9151ce6c" category="list-text">**데이터 수집기**는 ONTAP에서 사용자 활동 데이터를 수집합니다. 데이터 수집기는 사용자 행동 감지 기능을 포함하는 보호 전략을 생성할 때 자동으로 생성됩니다.</block>
@@ -2077,7 +2062,6 @@
   <block id="4640cffe8cecf29a2e28eccc89d62e54" category="cell">위협 탐지를 활성화하려면 SIEM/XDR 서버 세부 정보를 입력하십시오. <block ref="ffa7fd2a3621d8607d19220a5312c79a" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="384ff6974e7af6bfbb47b5f1a1e8a8ef" category="cell">이 워크로드를 보호하기 위해 백업 대상을 추가하세요. <block ref="e25a1b60993d45f33b0deea2ae726330" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
   <block id="b6ac186c730d3951ea5f7795e32f0554" category="admonition">2차 스토리지에서 백업 잠금을 활성화하려면 *설정* 옵션을 사용하여 백업 대상을 구성하십시오. 자세한 내용은 <block ref="33c35db19b883807eccfb2734290ae91" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="11f2f37965157c7da67e33eb40c1030c" category="list-text">대시보드에서 알림 창의 "복원 필요" 총계를 검토하고 *모두 보기*를 선택합니다.</block>
   <block id="bcecace85f7c3d476feccac24d9db3eb" category="list-text">대시보드 또는 다른 페이지에서 오른쪽 상단의 *새로 고침* <block ref="94d384894f036157c348eadc55c40952" category="inline-image-macro-rx" type="image"></block> 옵션을 선택하여 보고서에 표시될 데이터를 새로 고칩니다.</block>
   <block id="cc3ae719c12cc9e21d1f9b6b919eb818" category="summary">NetApp Ransomware Resilience에서 백업 대상을 추가하여 사이버 복원력을 향상시키십시오.</block>
   <block id="162cbc2e55bba363e404fc5b076b5396" category="doc">NetApp Ransomware Resilience에서 백업 대상 추가</block>
@@ -2158,8 +2142,6 @@
   <block id="7df30d939fa4f3d1575169ec6d1894d8" category="doc">NetApp Ransomware Resilience의 알려진 제한 사항</block>
   <block id="e9be3c13b1ed73a120f1b23e2cefb058" category="doc">NetApp Ransomware Resilience에서 워크로드를 찾아보세요</block>
   <block id="871215526a8732732fd40b6335388e98" category="doc">NetApp Ransomware Resilience에 대한 FAQ</block>
-  <block id="382e702ef8f61842f6f9c0b76fb23047" category="doc">NetApp Ransomware Resilience로 랜섬웨어 공격으로부터 복구하세요</block>
-  <block id="a8bb9ad5a88304569c56e3805762683b" category="doc">NetApp Ransomware Resilience에서 개인 식별 정보를 검사합니다</block>
   <block id="1ca81bce832a538b6144470d9a25c786" category="paragraph">NetApp Ransomware Resilience 내에서 NetApp Data Classification을 사용하여 파일 공유 워크로드의 데이터를 검사하고 분류할 수 있습니다. 데이터를 분류하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 여부를 판단할 수 있으며, 이는 보안 위험을 증가시킬 수 있습니다.</block>
   <block id="1954c0eede9cec276e44236c76142770" category="paragraph">Data Classification은 NetApp Console의 핵심 구성 요소입니다. Data Classification을 사용하기 위해 라이센스가 필요하지 않습니다. 설정에 따라 Data Classification을 구성하는 데 비용이 발생할 수 있지만 Ransomware Resilience에서는 해당 비용을 청구하지 않습니다. 자세한 내용은 <block ref="c5cce5d1091349460847f69d486fd688" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="70c542a285cfdf5cc22587e58fc3fcbb" category="doc">Microsoft Sentinel 및 Splunk용 SOAR 플레이북</block>
@@ -2213,4 +2195,253 @@
   <block id="261f193d834ffba7dae6c54f99306659" category="list-text">선택한 Splunk 환경(Cloud 또는 Enterprise)으로 이동합니다.</block>
   <block id="eade5cc0d987bed25c884550a681c364" category="list-text">Splunk Cloud 또는 Enterprise로 이동하세요.</block>
   <block id="e4f58ddb798b11dab7791e0175f6cf0f" category="list-text">AWS Security Hub, Splunk Cloud 또는 Splunk Enterprise에서 구성한 토큰 및 인증 세부 정보를 입력하십시오.</block>
+  <block id="c49fdbd48abc0805f78e165d087f6c4b" category="admonition-title">클린룸 SVM 데이터 LIF IP(crr-data-LIF-IP)</block>
+  <block id="f0778a7682182f497af90edd54b04a18" category="paragraph">Amazon FSxN for ONTAP에서 소스를 사용하여 IRE를 구성하는 경우 이 클린룸 SVM 데이터 LIF IP 요구 사항을 건너뛰십시오.</block>
+  <block id="074ccc576a0d2f59ff97aa7d5cd6f1db" category="list-text">클린룸 SVM 데이터 LIF에 IP 주소를 할당하십시오. IP 주소를 기록해 두십시오. IRE 구성 과정에서 이 IP 주소가 필요합니다.</block>
+  <block id="6e72e986d17ee66e6f3fdfe4e138163d" category="list-text">AWS를 사용하는 Cloud Volumes ONTAP에서 클라우드 간 클린 복원을 사용하는 경우 IP 주소가 Elastic Network Interface에 할당되었는지 확인하십시오.</block>
+  <block id="b1573f80f25470f8eb281542e0c5be32" category="list-text">SVM 데이터 LIF IP에서 IRE로의 라우팅을 허용합니다.</block>
+  <block id="9c9dab37f0ac19e3e253ffd75559fad6" category="list-title">운영 환경 라우팅 테이블</block>
+  <block id="17e68097ee762fecf78b9e9fdb36d0c8" category="list-text">운영 환경 라우팅 테이블은 IRE 서브넷에서 클린 복원 데이터 LIF IP로의 트래픽을 허용해야 합니다. 이 경로를 운영 환경 라우팅 테이블에 추가해야 합니다.</block>
+  <block id="673c05ce31cb0b56b8af3c9126f1cbb0" category="list-text">운영 ONTAP 클러스터의 보안 그룹 및 방화벽은 클린 복원 데이터 LIF IP로 향하는 NFSv4 및 NFSv3 인바운드 트래픽을 허용해야 합니다. 방화벽은 IRE CIDR 범위에서 들어오는 트래픽을 허용하도록 열려 있어야 합니다.</block>
+  <block id="7c1a5f175cfc657a18de4a95621d74e3" category="cell">대상 포트</block>
+  <block id="261addf78c7b2c961032b3dd08ba0b1f" category="cell">목적</block>
+  <block id="f8dc77f2ac2f7272dc57dd5689ee9d63" category="cell">TCP 및 UDP</block>
+  <block id="06b1338ba02add2b5d2da67663b19ebe" category="cell">2049</block>
+  <block id="48f2e8432e8385f065e192dbe2c54948" category="cell">IRE VPC CIDR 범위</block>
+  <block id="4afacf798011af530d39470f0f7302d4" category="cell">IRE에서 NFSv4 액세스</block>
+  <block id="698d51a19d8a121ce581499d7b701668" category="cell">111</block>
+  <block id="4d41b2260156687cd1e011fa25c9a1fe" category="cell">IRE에서 NFSv3 액세스</block>
+  <block id="6a10bbd480e4c5573d8f3af73ae0454b" category="cell">635</block>
+  <block id="ee0e95249268b86ff2053bef214bfeda" category="cell">4045</block>
+  <block id="354ac345fd8c6d7ef634d9a8e3d47b83" category="cell">4046</block>
+  <block id="89a4779d3836ea432f7ea074e522a17e" category="cell">4049</block>
+  <block id="a96992553da8960e79dd08a3aebe469c" category="list-title">IRE 라우팅 테이블</block>
+  <block id="e4c932cf61edc0fce9f5b104f66ab438" category="list-text">IRE 라우팅 테이블은 IRE VPC의 기본 라우팅 테이블이어야 합니다.</block>
+  <block id="c2cccb2eacdb092cd7d276cf6e0a7e23" category="list-text">IRE 라우팅 테이블은 클린 복원 데이터 LIF IP 주소로의 라우팅을 허용해야 합니다.</block>
+  <block id="719950786b97235baf482bf31cdb5bc3" category="list-text">IRE 라우팅 테이블에는 IRE 에이전트가 작동할 수 있도록 공용 인터넷에 대한 경로도 허용되어야 합니다.</block>
+  <block id="da24b5c81ba0343ed645984ea8b07f17" category="list-title">가상 프라이빗 클라우드(VPC)</block>
+  <block id="cae5a69da14508ba47067bd733f9b47e" category="list-text">IRE의 경우 운영 환경의 IP 주소 범위 내에서 VPC를 프로비저닝합니다. IP 주소는 기존 IP 주소와 충돌하지 않아야 합니다.</block>
+  <block id="ab56c80155a34dbf9b3a23a431a66db7" category="list-text">VPC는 최소 64개의 IP 주소(/26 넷마스크) 용량을 확보해야 합니다.</block>
+  <block id="50b0b122b46409582254c40604d5a2ac" category="list-text">VPC는 공용 인터넷 액세스를 허용해야 합니다. 그렇지 않으면 Console 에이전트가 작동하지 않습니다.</block>
+  <block id="beada74f16c5078d9dcfb7d53fb2e205" category="list-title">클라우드 권한</block>
+  <block id="854c429c8b60de0e8502c18a4ad20f86" category="inline-link-macro">AWS에서 IAM 정책을 생성합니다</block>
+  <block id="164bd1fd2869da49bcef315a5bbe2370" category="list-text">Ransomware Resilience에는 AWS 환경에서 클린 복원을 수행하기 위해 올바른 IAM 권한이 있는 AWS 액세스 키와 시크릿이 필요합니다. <block ref="269f7c936a5a453bf5e1f3661f3e90dd" category="inline-link-macro-rx"></block> 다음 권한을 사용하여 새로 생성한 사용자에게 정책을 연결하십시오. 사용자를 생성한 후 IAM 자격 증명을 생성하여 클린 복원에 제공하십시오.</block>
+  <block id="600a19be2eeeff3456f518555f21d179" category="list-text">암호화 기반 랜섬웨어 공격의 경우에만 클린 복원을 수행할 수 있습니다.</block>
+  <block id="2a0ba341f6bfb114fb8d895beeb1a449" category="list-text">격리된 복구 환경에 새로운 작업을 처리할 용량이 없는 경우, 용량이 확보될 때까지 대기열에 추가됩니다.</block>
+  <block id="1e0cb6f175281202fbb8e130dc6ceb5b" category="list-text">Ransomware Resilience 복구 대시보드에서 언제든지 활성 및 대기 중인 클린 복원 작업의 상태를 모니터링할 수 있습니다.</block>
+  <block id="75b68821e2e55eb56181916eaf645c45" category="list-text">클린 복원을 시작하면 원래 볼륨이 마운트 해제되어 IO 액세스가 중단될 수 있습니다.</block>
+  <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">클린 복원</block>
+  <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilience는 이제 랜섬웨어 공격으로부터 빠르고 쉽게 복구할 수 있도록 지원하는 새로운 복구 옵션인 클린 복원을 지원합니다. 클린 복원은 다운타임을 최소화하면서 워크로드를 가동 및 실행할 수 있도록 최적의 복원 지점을 식별하는 안내 워크플로를 제공합니다. 클린 복원의 워크플로는 또한 데이터에 대한 파일 수준 통찰력을 제공하여 재감염을 방지하고 데이터 손실을 최소화하는 맬웨어 없는 워크로드를 복원할 수 있도록 보장합니다.</block>
+  <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">격리된 복구 환경 생성</block>
+  <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">깔끔한 복원을 통해 워크로드 복구</block>
+  <block id="a9e75b5aa64910e787dec413e103a858" category="paragraph">지원되는 구성 및 클린 복원을 위한 시스템 구성 방법에 대한 자세한 내용은 <block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>를 참조하십시오. 클린 복원을 사용하여 복구하는 방법에 대한 자세한 내용은 <block ref="455be04ee07ce68cbcdf924300b59eba" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="1268d987cbc2b2bc1be3c9ba04af7cd1" category="section-title">Splunk Enterprise용 SIEM 지원</block>
+  <block id="8d4e1592ef4f14add49e9860e8b367dc" category="paragraph">Ransomware Resilience는 이제 Splunk Enterprise에 대한 SIEM(Security Information Event Management) 지원을 제공하여 로그 및 이벤트 데이터를 중앙 집중화하고 위협 분석 및 탐지를 간소화할 수 있습니다.</block>
+  <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">Ransomware Resilience를 SIEM에 연결합니다</block>
+  <block id="dbdca0e081ed0b247153e35ce9b1c298" category="paragraph">자세한 내용은 <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="54dee0adf9652288315f3c7099d462be" category="section-title">사용자 행동 활동 개선</block>
+  <block id="7ee4b3a8392885d95b1b7c9f5a6c99e5" category="paragraph">데이터 유출 사건에 대한 분석 정보가 이제 사건 발생 후 13개월 동안 보존되어 보고 요구 사항에 맞춰 더 오랜 기간 기록을 보관할 수 있습니다.</block>
+  <block id="787e93d4c2f472a6434cd13d74f3f4d4" category="paragraph">자세한 내용은 <block ref="1a6935dbce91cdb72e61e2f8c1313b36" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="ff1d8a11789570b9a7e5f2d8fa4b3245" category="list-text">다른 서비스에 대한 Console 에이전트를 아직 추가하지 않았다면 <block ref="51497621bfe4b6ebf6d24d0214cc9366" category="inline-link-macro-rx"></block>.</block>
+  <block id="5ce927453063236746bf9f7b1ee339ed" category="list-text">Console Licenses and subscriptions 페이지로 이동하려면 *라이센스 추가*를 선택하십시오.</block>
+  <block id="5aacdcc38fb6938e8f7950fb8e5395fc" category="doc">NetApp Ransomware Resilience에서 복구 상태 검토</block>
+  <block id="12d4b8182b6c1654981eba595c7de57c" category="list-text">기본 Ransomware Resilience 대시보드의 알림 창에서 "복원 필요" 총계를 검토하고 *모두 보기*를 선택합니다.</block>
+  <block id="b4f544735b828be5cd38dd2b84c34888" category="paragraph">또는 사이드바에서 *Recovery*를 선택하십시오.</block>
+  <block id="88ade1fb5341b9cab4ee9b0b899aada2" category="section-title">워크로드 복구</block>
+  <block id="3ed6844c21861f4032d4bb0085849cce" category="paragraph">워크로드를 평가한 후에는 워크로드를 복원하는 두 가지 옵션이 있습니다.</block>
+  <block id="558f08ac28f5d715f7d0f406a1404b95" category="inline-xref-macro">사용자 지정 복원을 사용하여 복구</block>
+  <block id="683e86eb75d5e8da1a3597af4eb62db8" category="list-text"><block ref="683e86eb75d5e8da1a3597af4eb62db8" category="inline-xref-macro-rx"></block></block>
+  <block id="baf02bc77de4caf276599d8b3c23c8b0" category="inline-xref-macro">클린 복원을 통해 복구</block>
+  <block id="47a1b97d112c774adbe8538c59caa4e5" category="list-text"><block ref="47a1b97d112c774adbe8538c59caa4e5" category="inline-xref-macro-rx"></block></block>
+  <block id="b33cc6ae02a005574f67dfd20adb1e83" category="paragraph">NetApp Ransomware Resilience는 지원되는 볼륨과 지원되지 않는 볼륨, 공격 대비 훈련, 보호, 알림, 복구의 세부 정보를 보여주는 JSON 형식의 보고서를 제공하여 랜섬웨어 이벤트와 대비 상태를 오프라인에서 평가하고 검토할 수 있도록 합니다.</block>
+  <block id="cfd78d66bd11cf60d1554ae2cc1ce600" category="paragraph">*어떤 보고서를 다운로드할 수 있나요?*</block>
+  <block id="3d49084ca725aed4ed86dd5114d71e31" category="list-text">*대비 훈련*: 개선이 필요한 영역을 강조하기 위해 모의 공격 결과를 포함합니다.</block>
+  <block id="5197e64c7ccdc2c17a66633186db1e56" category="list-text">*Clean restore*: Clean restore를 통해 복원된 워크로드에 대한 세부 정보가 포함됩니다.</block>
+  <block id="3d5136c6c3a9616651f6d948d9ff9bc3" category="paragraph">정상 복원 보고서를 생성하려면 활성 격리 복구 환경(IRE)이 있어야 합니다. IRE가 삭제된 후에는 정상 복원 보고서를 사용할 수 없습니다.</block>
+  <block id="362814f084076136afc53ff5657841e9" category="doc">NetApp Ransomware Resilience에서 사용자 활동 감지를 구성합니다</block>
+  <block id="9d13b6c301a5845f3abf35b5845c2e44" category="doc">NetApp Ransomware Resilience로 개인정보 유출 위험을 식별하세요</block>
+  <block id="6099697e2a6a8f6f3f428d832424ccd8" category="summary">Ransomware Resilience을 사용하면 깨끗한 복원으로 워크로드를 제어하고 정화할 수 있습니다.</block>
+  <block id="6a9e29e376d0cfeb3458eb2ec0d368c2" category="doc">NetApp Ransomware Resilience에서 클린 복원을 통해 워크로드 복구</block>
+  <block id="f0b90fa8f5ad3bdcf7ca0566043b0bc7" category="paragraph">NetApp Ransomware Resilience를 사용하면 암호화 기반 랜섬웨어 공격 후 클린 복원을 통해 단계별 복구를 수행할 수 있습니다. 클린 복원은 데이터 손실을 최소화하고 워크로드를 최대한 빠른 시간 내에 온라인 상태로 복귀시킬 수 있도록 최적화된 복구 경로를 식별합니다.</block>
+  <block id="88616a0b3339c4c7896bc89637623c8c" category="inline-xref-macro">사용자 지정 복원 옵션</block>
+  <block id="335671c274748cbe7e810da4fb09ee39" category="paragraph">클린 복원 옵션은 <block ref="7505fe57dac9c850bacebdaf9c5d9534" category="inline-xref-macro-rx"></block>에 대한 대안입니다.</block>
+  <block id="563d648fca7174bd637bc7553ffbdfd5" category="inline-link-macro">격리된 복구 환경</block>
+  <block id="68a63568bae8b1136a4d6ed86a9df817" category="paragraph">클린 복원을 수행하려면 먼저 <block ref="e6b9ac27e9d8426eab4ef45db03a98fc" category="inline-link-macro-rx"></block>을(를) 구성해야 합니다.</block>
+  <block id="ea61e2c2ff507048203824add1eb7c21" category="section-title">고려 사항</block>
+  <block id="8a687ede20b3179501211e222eccc84d" category="section-title">클린 복원 수행</block>
+  <block id="7d3fcc28c899a7b289e05e013aad4dc6" category="list-text">**Recovery** 섹션에서 복원할 워크로드를 선택합니다. **Restore**를 선택합니다.</block>
+  <block id="9c5ec70f60ca9ceaf825ce83f9bd4bac" category="list-text">Restore Type 옵션에서 **Clean restore**를 선택한 다음 **Next**를 선택합니다.</block>
+  <block id="b57d941a4d6ae6c8309974df2602afd1" category="list-text">사용할 격리된 복구 환경을 선택한 다음 **Next**를 클릭하십시오.</block>
+  <block id="d58c5ad1de11a448129ae415c7bf9504" category="list-text">격리된 복구 환경을 검토하여 위치가 올바른지 확인합니다. **Restore**를 선택합니다.</block>
+  <block id="adbc7d98b73b56e4671ba46ad7551544" category="list-text">NetApp Ransomware Resilience가 필요한 설정을 수행합니다. 설정이 성공적으로 완료되면 NetApp Ransomware Resilience에 **Setup complete**라는 메시지가 표시됩니다. 분석을 진행하려면 **Next**를 선택하십시오.</block>
+  <block id="aac0bbc39aabd77485c1a91df7ebf08a" category="list-text">설정이 완료되면 **Run analysis**를 선택합니다. Ransomware Resilience는 랜섬웨어 이벤트 이전 7일 동안 사용 가능한 모든 복원 지점을 분석하여 복원 지점의 날짜와 유형을 표시합니다.</block>
+  <block id="737dfd8870fb9011f2148f9df5f1c709" category="inline-image-macro">클린 복원 분석 단계의 스크린샷.</block>
+  <block id="d64cc3b278bde1725adb921ef1a31d7e" category="paragraph"><block ref="d64cc3b278bde1725adb921ef1a31d7e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="975584d4fa288f1c7066a3e04c45884c" category="list-text">분석이 완료되면 **Next**를 선택하여 복구를 계획하십시오. Ransomware Resilience는 **Least data loss**와 **Latest unimpacted restore point** 두 가지 옵션을 제공합니다. 두 옵션 중 하나를 선택하고 선택적으로 각 복원 지점의 개별 파일 데이터를 확인하십시오.</block>
+  <block id="c26ff48add8a2ec49af17a7e2a76ee5b" category="paragraph">세분화된 파일 이벤트 데이터를 보려면 파일을 선택하여 암호화 상태를 분석하고, 파일이 생성, 수정 또는 삭제된 시점과 각 작업에 해당하는 복원 지점을 확인하십시오.</block>
+  <block id="59eb34c12f3abfa98756951d0fb8ecfb" category="inline-image-macro">클린 복원 계획 단계의 스크린샷.</block>
+  <block id="ea7360bc3a148c8251f392279d717749" category="paragraph"><block ref="ea7360bc3a148c8251f392279d717749" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="06b21a82c6a8e8409f7421e256a89d75" category="list-text">복원 지점을 선택한 후 **다음**을 선택하여 파일 정리를 시작하세요.</block>
+  <block id="bf919d26eded9ba9285a6e36c4dca3fd" category="list-text">Ransomware Resilience가 워크로드 정리를 시작합니다.</block>
+  <block id="4f7284ff2b84a2edf1a4d1841e9673e8" category="paragraph">정리가 완료되면 **Start recovery**를 선택하여 복구를 시작하십시오.</block>
+  <block id="7b2695ab24236bab0ddf7ad7175f5c04" category="list-text">원본 워크로드를 저장할지 여부를 선택합니다. 원본 워크로드를 저장하지 않으려면 **아니요, 원본 워크로드를 교체합니다**를 선택합니다. 저장하려면 **예, 원본 워크로드를 저장합니다**를 선택한 다음 워크로드의 새 이름을 입력합니다.</block>
+  <block id="bb48b2870670838fdaceecb7e839faf4" category="list-text">**Start recovery**를 선택하여 복구를 시작합니다.</block>
+  <block id="6f442695db7c03fcadf2ad5e394da170" category="list-text">복구가 완료되면 **Next**를 선택하여 최종 단계로 이동하십시오.</block>
+  <block id="c40ef494fde6d59a18088598fb50e5f5" category="list-text">리소스를 해제하고 클린룸을 종료하려면 **Release resources and end**를 선택하십시오. 리소스를 해제할지 확인하려면 **End**를 선택하십시오.</block>
+  <block id="ce9ea3f9da32231f2342106b6a2da0c1" category="doc">NetApp Ransomware Resilience에서 클린 복원 환경을 구성합니다</block>
+  <block id="d08d6f8d7a531831181b973c3132aaef" category="paragraph">NetApp Ransomware Resilience는 랜섬웨어 공격 후 단계적인 복구를 지원하는 클린 복원 기능을 제공합니다. 클린 복원을 수행하려면 먼저 온프레미스 또는 지원되는 클라우드 환경에서 격리된 복구 환경(IRE)을 생성해야 합니다. IRE에서는 Ransomware Resilience가 워크로드를 격리하여 어떤 파일이 정상이고 어떤 파일이 랜섬웨어의 영향을 받았는지 식별하는 클린룸을 생성합니다.</block>
+  <block id="f6ee05d779160a7db74d926e2bb640f7" category="section-title">클린 복원에 대해 알아보십시오</block>
+  <block id="ae684a367ef7be289c58528c425ecc18" category="paragraph">클린 복원을 수행하면 Ransomware Resilience가 복구를 최적화하는 다단계 프로세스를 안내합니다.</block>
+  <block id="3f2567a86f8c54d04ec6273cdb7e3a90" category="list-text">**설정**: 클린 복원을 수행하려면 먼저 IRE를 생성한 다음 복원할 워크로드를 선택해야 합니다. Ransomware Resilience는 워크로드에 대한 모든 작업이 수행되는 클린룸을 생성합니다.</block>
+  <block id="c3763704f64261ad7b74c0b6ece3a5e7" category="list-text">**분석**: 클린룸에서 Ransomware Resilience는 모든 스냅샷을 분석하여 암호화가 있는지 확인합니다. 클린 복원은 복구 맵을 결정하여 최적의 복구 계획을 결정합니다.</block>
+  <block id="5cdee73c83008a843d9dbb0a991b8307" category="paragraph">영향을 받은 파일이 없는 복원 지점이 발견되면 그 이전의 모든 복원 지점은 건너뜁니다. 예를 들어, 랜섬웨어 이벤트가 10월 10일에 발생했고 10월 7일 오전 10시 21분에 영향을 받은 파일이 없는 복원 지점이 발견되었다면, 10월 7일 오전 10시 21분 이전의 모든 복원 지점은 건너뜁니다.</block>
+  <block id="82e75ee1827478564b33a5410c9eb863" category="paragraph">분석 단계에서는 검토된 파일 수와 영향을 받은 파일 및 영향을 받지 않은 파일을 표시합니다.</block>
+  <block id="3ad61c0b3a3d27855f2b93882effa895" category="list-text">**PLAN**: 제공된 복구 옵션 중에서 선택하세요.</block>
+  <block id="e5837c573a5ec3255c53e691d80aa8d5" category="list-text">_최신 영향을 받지 않은 복원 지점_: 공격 이전의 가장 최근 암호화되지 않은 스냅샷에서 가장 빠른 복원 지점</block>
+  <block id="005de8e860701780275d7a1820f266e8" category="list-text">_데이터 손실 최소화_: 서로 다른 스냅샷에서 암호화되지 않은 모든 파일의 최신 버전</block>
+  <block id="bcec21f7634632270763ec4fbec096be" category="paragraph">계획 단계에서 파일 기록을 확인하여 랜섬웨어 이벤트가 파일에 영향을 미친 시점과 복구 시점이 해당 이벤트와 시간상 어떻게 연관되는지 확인할 수도 있습니다.</block>
+  <block id="d4b88ae7112ba206532c2177bf4d3ee7" category="list-text">**정리**: Ransomware Resilience는 복구 지점에서 악성코드를 제거합니다. 정리할 수 없는 파일이 있는 경우 복구에서 제외되어 별도의 위치로 격리됩니다.</block>
+  <block id="df2aee92cf409d5307ab1b2587c12b51" category="list-text">**복원**: Ransomware Resilience는 깨끗한 데이터를 소스 환경으로 복원합니다.</block>
+  <block id="c37b4ad01da7b4bdabb1e1ef27187b86" category="list-text">**END**: Ransomware Resilience는 프로세스에 대한 자세한 요약을 제공하고 클린룸을 종료하며, 설정 중에 프로비저닝된 리소스를 해제하여 향후 측정 비용을 없애줍니다.</block>
+  <block id="1f0b82560627b660c6c6958a1df834b8" category="section-title">지원되는 구성</block>
+  <block id="01c81fea09d285ebadc2362452091509" category="list-text">Ransomware Resilience 계정당 하나의 IRE만 생성할 수 있습니다. 각 IRE에는 3개의 클린 룸이 있을 수 있습니다.</block>
+  <block id="582cfdbdcce499f277827ab3d0e7be89" category="list-text">현재 클린 복원은 NAS 파일 공유(NFS/CIFS)에서만 지원됩니다.</block>
+  <block id="9c69ad94c9075f0b7cad75c76d595107" category="list-text">소스 환경으로 클린 복원을 수행해야 합니다.</block>
+  <block id="3f1675c8b59091961a73a7cb3f4ccc76" category="list-text">IRE는 클라우드 또는 온프레미스 환경에서 생성할 수 있습니다. 현재 지원되는 구성은 다음과 같습니다.</block>
+  <block id="9937b29fcbc513990ee3a11d520463ec" category="cell">대상(IRE)</block>
+  <block id="936e18cf7bf36043950dc2aaedf4d3e0" category="cell">지원되는 대상 지역</block>
+  <block id="459af8e818b008f87953a215f60b7602" category="cell">온프레미스(AFF 또는 FAS 시스템만 해당)*</block>
+  <block id="ada6ac960107fc33df56471b0563964c" category="cell">온프레미스(VMware vCenter)</block>
+  <block id="1470c4596f09bf147bf564758d0ab65a" category="cell">클라우드: AWS</block>
+  <block id="8086e076c1440c96a66792ace0ad9a9a" category="list-text">US East 1</block>
+  <block id="2cefd515e4957f2cd0e6e94109aedf59" category="list-text">EU Central 1</block>
+  <block id="3189552bad716cc50b21cf06e1ce8055" category="cell">클라우드: AWS*를 사용한 Cloud Volumes ONTAP</block>
+  <block id="6eac9a8614fc5276d77f16262e773b73" category="cell">클라우드: Amazon FSxN for ONTAP</block>
+  <block id="b1f5b0ae27e9c2d8ce17d7546a138c55" category="paragraph">{asterisk} ONTAP 9.11.1 이상을 실행 중이어야 합니다.</block>
+  <block id="e94e6e5768958058fb727a7416bb95cc" category="inline-link-macro">비용 및 라이센스</block>
+  <block id="df793ad0d2ee67dbaef2bbd64569c674" category="admonition">클라우드 기반 환경에서 클린 복원을 수행하면 클라우드 공급자로부터 추가 컴퓨팅 요금이 발생할 수 있습니다. 자세한 내용은 <block ref="c8aa07fb5af5da0ce42c5de706498fc6" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="fbf08ce067505f9878100fd957c4b417" category="section-title">온프레미스 환경에 대한 추가 고려 사항</block>
+  <block id="566ad5e0156a42a838473ceceafc4a22" category="paragraph">온프레미스 IRE를 배포하는 경우, 클린 복원에서 복구 분석을 위해 Windows VM을 복제하면 복제된 VM은 소스와 동일한 구성을 유지합니다. 이로 인해 충돌이 발생할 수 있습니다.</block>
+  <block id="fc9897437d0058f47163b41933bf7218" category="list-text">동일한 보안 식별자(SID)를 사용하면 인증 및 보안 충돌이 발생합니다.</block>
+  <block id="b8a224e639154658d903c119ad01f115" category="list-text">동일한 컴퓨터 이름(CN)을 사용하면 네트워크 충돌이 발생합니다.</block>
+  <block id="42d5a005352158447d080ff821694db4" category="list-text">동일한 시스템 ID를 사용하면 라이선스 및 활성화 문제가 발생합니다.</block>
+  <block id="2b973fe4e18c7b4ee211cfe2a2373d41" category="paragraph">이러한 충돌을 방지하기 위해 Ransomware Resilience는 클론 VM에서 sysprep을 실행하여 SID, CN 및 머신 ID를 재설정합니다. 이러한 값을 재설정하면 클론 VM이 소스 VM에 영향을 주지 않고 고유하고 독립적인 인스턴스로 작동할 수 있습니다.</block>
+  <block id="c94b2ef9dde0531d36cb0d4e5d7b4b72" category="section-title">2차 소스</block>
+  <block id="08607b19598a980be86467b52da1e4d3" category="paragraph">온프레미스 소스용 IRE를 생성할 때 2차 소스를 추가하는 옵션이 있습니다.</block>
+  <block id="dd4cfaa170b77a39c3f6a4580966901c" category="paragraph">기본 소스를 사용할 수 있는 경우, 클린 복원은 기본 소스로 복원되어야 합니다. 기본 소스를 사용할 수 없고 2차 소스를 구성한 경우, 클린 복원은 2차 소스로 복원됩니다.</block>
+  <block id="4a03772068b579d9b09ff0433b7acadd" category="paragraph">기본적으로 클린 복원 프로세스는 소스 환경의 스냅샷을 분석합니다. 소스 환경을 사용할 수 없거나 소스에 암호화되지 않은 스냅샷이 없는 경우, 2차 시스템을 구성한 경우 클린 복원은 2차 시스템의 스냅샷을 분석합니다.</block>
+  <block id="bf6aff190124dd12362477474eddaf9b" category="paragraph">클린 복원은 Ransomware Resilience의 일부로 제공됩니다. 클린 복원을 수행하거나 IRE를 생성하는 데 추가 라이센스가 필요하지 않습니다.</block>
+  <block id="2c5f8b1bf69ff1fef550992679ff59b6" category="paragraph">클린 복원 기능을 활성화하면 타사 클라우드 제공업체 요금이 발생할 수 있습니다. 서비스 사용 방식에 따라 클린 복원 환경이 유지되는 동안 이러한 요금이 반복적으로 부과될 수 있습니다.</block>
+  <block id="d820e90e08f18bcb21f419de5072496d" category="paragraph">타사 비용에는 컴퓨팅 인스턴스 생성 및 배포, 그리고 정리 및 복구를 위한 추가 프로덕션 스토리지 용량 비용이 포함될 수 있습니다. 다음 예시를 참고하세요.</block>
+  <block id="b8e0a8b93f5e303e66c1913fea32d6c2" category="list-text">AWS에 IRE가 배포된 후 클린 복원을 시작하면 암호화 및 맬웨어 제거를 위해 IRE 내 클린룸에 2개의 t3.medium AWS EC2 인스턴스가 배포됩니다.</block>
+  <block id="c21b1c1f109ee448ac505029595363ff" category="list-text">Cloud Volumes ONTAP에서 클린 복원은 메타데이터 볼륨과 분석을 위한 스냅샷 클론에 대해 클린룸 스토리지 VM을 생성합니다.</block>
+  <block id="794fbe3384113d14f1fdcd8989bf96c9" category="paragraph">선택한 클린 복원 배포 유형에 필요한 사전 요구 사항을 모두 완료했는지 확인하십시오. 선택한 IRE 구성에 대한 탭을 선택합니다.</block>
+  <block id="97b3465a0840a995756be84349359712" category="admonition">IRE를 생성할 때 IRE 생성 시 시스템 선택 단계에서 분석에 사용할 모든 시스템(운영 또는 2차 시스템)을 추가해야 합니다.</block>
+  <block id="f936c9befadd0c2d8782d30172d6b01c" category="open-title">클라우드 간</block>
+  <block id="a398547216c8a6f879cf6f1f9ece192b" category="paragraph">이 다이어그램은 클라우드 간 클린 복원 구성의 예를 보여줍니다. IRE를 생성하기 전에 다이어그램과 구성해야 하는 리소스를 검토하십시오.</block>
+  <block id="e4c9c1fbddfacd425e4392d01cc2e86d" category="image-alt">클라우드 간 클린 복원 다이어그램</block>
+  <block id="ab667ad4c2c05508cbadf5243680d8f5" category="paragraph">이 다이어그램은 온프레미스에서 클라우드로의 클린 복원 구성의 예를 보여줍니다. IRE를 생성하기 전에 다이어그램과 구성해야 할 리소스를 검토하십시오.</block>
+  <block id="e2089e21752dabbd3ef51ff9a49553db" category="inline-image-macro">클라우드에서 온프레미스로의 클린 복원 다이어그램</block>
+  <block id="e625cf867c975ae8e97fac00f8ea41e7" category="paragraph"><block ref="e625cf867c975ae8e97fac00f8ea41e7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="57983f59ac18dd6402d0d93159c0e4f3" category="paragraph">이 다이어그램은 온프레미스에서 온프레미스로의 클린 복원 구성의 예를 보여줍니다. IRE를 생성하기 전에 다이어그램과 구성해야 할 리소스를 검토하십시오.</block>
+  <block id="4d3cce2603ee3aa9f3e68180c988fecb" category="paragraph"><block ref="4d3cce2603ee3aa9f3e68180c988fecb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1bd140cbc0c8258678984fa95a11c4e7" category="list-text">워크로드 복원을 위해 IRE에 연결할 각 시스템에 스토리지 가상 머신(SVM)이 생성됩니다. 클린룸 SVM의 데이터 LIF로 사용되는 각 시스템에 대해 전용 IP 주소를 제공해야 합니다.</block>
+  <block id="dddae7341366d21d7817814cf5648201" category="list-title">호스트 및 vCenter</block>
+  <block id="4c83fbda122cce9ae58d211347f6ad57" category="list-text">vCenter는 버전 7.0 이상이어야 하며 최소 하나 이상의 데이터 센터가 있어야 합니다.</block>
+  <block id="de09cac8955fbf4a538227b1a500f1ea" category="list-text">ESXi 호스트는 ESXi 버전 7.0 이상이어야 하며, VM을 복제하는 데 필요한 충분한 CPU 및 메모리 리소스를 갖춘 호스트가 하나 이상 있어야 합니다.</block>
+  <block id="d60d7d94a2b0fa737cc49124079ae916" category="list-text">제공된 vCenter 자격 증명에는 리소스를 검색하고 VM을 복제할 수 있는 권한이 있어야 합니다.</block>
+  <block id="583b10215b97e432386097ad4ec74fba" category="list-title">기본 VM(Windows 또는 Linux)</block>
+  <block id="8e43f7e3e1b14cfafc8b3e06e57ce8f7" category="list-text">클린 복원 과정에서 기본 VM은 선택한 데이터센터로 복제되어 선택한 ESXi 컴퓨팅 영역에 배치되고, 지정된 데이터스토어에 매핑되며, 지정된 네트워크에 연결됩니다. VM이 복제될 때 2개의 vCPU와 4GB RAM(Linux 또는 Windows VM의 경우) 및 기본 VM과 동일한 디스크 공간을 갖도록 구성됩니다. 각 클린 복원 세션은 지정된 CIDR 범위에서 두 개의 IP 주소를 사용합니다.</block>
+  <block id="8cf10fd69a4fd984472b32ac076fd294" category="list-text">여러 개의 병렬 클린룸 세션을 수용할 수 있도록 충분한 IP 주소 범위를 제공해야 합니다. IP 주소는 복구가 완료된 후 해제됩니다.</block>
+  <block id="5de22c7c2e6d79be9397c6ce6e52329d" category="list-text">데이터 저장소에는 VM 복제를 수용할 수 있는 충분한 여유 용량이 있어야 합니다.</block>
+  <block id="f57c45eba65afff0aceb3a08fcbcb844" category="list-text">IP 주소 범위는 CIDR 형식(예: 100.100.0.0/24)으로 지정해야 합니다.</block>
+  <block id="907c95835e464d0d2873ade7ea1a6aa0" category="list-text">Linux VM의 경우:</block>
+  <block id="544db10e10ef5df6ce60a5904860672f" category="list-text">운영 체제는 Ubuntu Linux 20.04 이상이어야 합니다.</block>
+  <block id="406c1681779df816214c3844edb2bea6" category="list-text">온프레미스 시스템의 전원이 켜져 있어야 합니다.</block>
+  <block id="fa48228aaf71277e6bc2d05f062b62bb" category="list-text">VMware Tools가 설치되어 실행 중이어야 합니다.</block>
+  <block id="c3d0c72650d11485355d35484d14c0a1" category="list-text">SSH가 활성화되어 있어야 합니다.</block>
+  <block id="e1be34a58f3251e0469bedfad3e4788d" category="list-text">nfs-common을 설치해야 합니다.</block>
+  <block id="bf53e61c050ee11a55b3479c83c5512f" category="list-text">Docker가 설치되어 실행 중이어야 합니다.</block>
+  <block id="66ed64c9284af661b30715d4eca9f181" category="list-text">최소 40GB의 여유 공간이 필요합니다.</block>
+  <block id="300cc7d3b66cf666cb37df412b0cc68b" category="list-text">Windows VM의 경우:</block>
+  <block id="21755314d24463f2d188ab45bb05c0c0" category="list-text">Windows VM에는 20GB의 여유 공간이 있어야 합니다.</block>
+  <block id="90d564042949a5f93242647a2eebfa5a" category="list-text">OS는 Windows Server 2022 또는 2025여야 합니다.</block>
+  <block id="f4202e7e0c5094531b708b50600cc832" category="list-text">VMware Tools가 설치되어 실행 중이어야 합니다.</block>
+  <block id="09b7c2aa37556075a97e0692779f37aa" category="list-text">WinRM을 활성화해야 합니다.</block>
+  <block id="3150667c3111f1fed62e5265ad610aa2" category="list-text">IP를 구성해야 합니다.</block>
+  <block id="8521641d0ead625e5ab746c26c3df774" category="list-text">기본 VM을 복제할 수 있는 적절한 라이선스가 있는지 확인하십시오.</block>
+  <block id="b69e202d94775b8134a93d5f20d13c9e" category="list-text">VM의 전원이 켜져 있어야 합니다.</block>
+  <block id="eec89088ee408b80387155272b113256" category="list-title">네트워크</block>
+  <block id="5d1a1ff59e66d0bc9d1daac52f5b90db" category="list-text">다음 액세스 권한으로 VLAN 리소스를 구성합니다.</block>
+  <block id="be8545ae7ab0276e15898aae7acfbd7a" category="cell">리소스</block>
+  <block id="57985bf22d56d3d5ad7e34ea170e50e1" category="cell">클린룸 SVM VLAN</block>
+  <block id="aad7ad0a3b482124ebe65e2a0d0d63f4" category="paragraph">다음 항목에 대한 NFS 액세스: * Production Console 에이전트 * Console 에이전트 VLAN * Clean room VLAN</block>
+  <block id="8270526e73a5afac153ac40285767b82" category="cell">Console 에이전트 VLAN</block>
+  <block id="7cc3389e88f60e41b644c5d65d86d889" category="list-text">클린룸 SVM VLAN에 대한 NFS 액세스</block>
+  <block id="0ef1f9cf74002e09d29a925e45cb855e" category="list-text">클린룸 VLAN에 대한 HTTP/SSH 액세스</block>
+  <block id="15ab65595c9c0052c561da4d42f21b89" category="cell">클린룸 VLAN</block>
+  <block id="746b3d3a85d2d1d3c46dfac5624ebef0" category="cell">클린룸 SVM VLAN에 대한 NFS 액세스</block>
+  <block id="c0d06f34f409c88591b7f6400fe18f79" category="list-title">전용 Console 에이전트</block>
+  <block id="7ceddaa8655f37336fb68de0bd913377" category="inline-link-macro">Console 에이전트를 온프레미스에 배포합니다.</block>
+  <block id="aa147883aef6768d6c780bb0a1c8f82b" category="list-text">IRE용 전용 NetApp Console 에이전트를 배포하십시오. Console 에이전트는 클린룸 VLAN에 액세스할 수 있는 대상 vCenter에 배포되어야 합니다. 배포 프로세스에 대한 자세한 내용은 <block ref="8982c6b7b71ee0cfe0da7587be46f6b1" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="fcbb0e1baa9ae5913c0059a3babc98ba" category="paragraph">클린 복원을 수행하기 전에 격리된 복구 환경을 생성해야 합니다.</block>
+  <block id="90f9f1ae9aae8bda3367df6cbbd98883" category="paragraph">클라우드 환경인지 온프레미스 환경인지에 따라 격리된 복구실을 생성하는 프로세스가 다릅니다. 올바른 위치에 맞는 지침을 따르십시오.</block>
+  <block id="c8e2277ecfb1427838c488c217f99466" category="open-title">클라우드</block>
+  <block id="0f41fbceabc827d5c5df2618a1c312ad" category="list-text">클린 복원 카드에서 처음 환경을 생성하는 경우 **Configure**를 선택하고 이미 환경을 생성한 경우 **Manage**를 선택하십시오.</block>
+  <block id="33319874642cd9fa09af5fae9c62b0f4" category="list-text">IRE를 처음 생성하는 경우 다음 단계로 진행하십시오.</block>
+  <block id="7a5443fd9ce8d6f45236ac37568d5b41" category="paragraph">이미 IRE를 생성한 경우 **추가**를 선택하여 다른 IRE를 생성하십시오.</block>
+  <block id="b0836e1bf6680e789281aea3293f7647" category="list-text">클라우드 기반 IRE의 경우 **Amazon Web Services**를 선택합니다.</block>
+  <block id="4564ef7a631e6ae4e5c472323c190a1d" category="list-text">**이름** 섹션을 확장합니다. 환경에 대한 **이름**을 생성합니다.</block>
+  <block id="b330f48d8947ae91888a185951c00937" category="list-text">*시스템* 섹션을 확장합니다. IRE에 연결할 시스템을 선택합니다. 선택한 각 시스템에 대해 스토리지 VM의 IP 주소, 서브넷 마스크 및 게이트웨이를 제공해야 합니다.</block>
+  <block id="9c0961645ab2dde42b360b9dd39f0dcc" category="admonition">Amazon FSxN for ONTAP에 배포된 IRE의 경우 이 정보를 제공할 필요가 없습니다.</block>
+  <block id="be33043acadffab164c32971cd856af7" category="inline-image-macro">시스템 선택 인터페이스의 스크린샷.</block>
+  <block id="9aa6cf1eff1a76b0409b3e752312ea85" category="paragraph"><block ref="9aa6cf1eff1a76b0409b3e752312ea85" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="89fdf1c0dc132ad5060755aed85034a8" category="list-text">**인증** 섹션을 확장합니다.</block>
+  <block id="4714db5e444c82e9797cf1040d2e1bb4" category="list-text">클라우드 **Account** ID를 입력하고 해당 계정의 **Region**을 선택합니다.</block>
+  <block id="3aae9af33dfbd98649b0845bbd649675" category="list-text">계정에 대한 **액세스 키**와 **비밀 키**를 입력하십시오**.</block>
+  <block id="a81c4edeb10492c8584a0c9082f6ce84" category="list-text">*Virtual Private Cloud(VPC)* 섹션을 확장합니다. IRE를 배포할 VPC ID를 입력합니다.</block>
+  <block id="c2b8af5a06c2ce8a91c4861ae659df43" category="inline-image-macro">IRE 인증 설정의 스크린샷.</block>
+  <block id="9a717f23235ddd79acf46b60cbb49654" category="paragraph"><block ref="9a717f23235ddd79acf46b60cbb49654" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="220e304e2191688ccb248376282d530b" category="list-text">**추가**를 선택하여 IRE를 생성합니다.</block>
+  <block id="f705de5bc3ba8ea79dddb837a99ebb45" category="paragraph">Ransomware Resilience는 추가를 선택한 후 연결을 테스트하며, 이 과정은 몇 분 정도 소요될 수 있습니다.</block>
+  <block id="f0e69ccbb7ad96f546f7924206944bfa" category="open-title">온프레미스</block>
+  <block id="9f1d53078d7f9d9907fb2e5042915794" category="list-text">Clean restores 카드에서 처음 환경을 생성하는 경우 **Add**를 선택하고 이미 환경을 생성한 경우 **Manage**를 선택합니다.</block>
+  <block id="fffc61b2d6d50fdd26e57c1dc63ba3e1" category="list-text">IRE를 처음 생성하는 경우 다음 단계로 진행하십시오. 이미 IRE를 생성한 경우 **추가**를 선택하여 새 IRE를 생성하십시오.</block>
+  <block id="a32ffcf87a910c4dc1998036da51a79e" category="list-text">위치에서 **On-premises**를 선택합니다.</block>
+  <block id="de069b391b655fa33e7b553f551b3ed8" category="list-text">*이름* 섹션을 확장하세요. IRE에 **이름**을 지정하세요.</block>
+  <block id="da5888e486faa08ea3f4a546d8ea2b6b" category="list-text">*시스템* 섹션을 확장합니다. IRE에 연결할 시스템을 선택합니다. IRE에서 복구할 워크로드가 있는 각 시스템에 스토리지 VM IP, 서브넷 마스크 및 게이트웨이를 할당합니다.</block>
+  <block id="6c98e0cb0c66954d78f2191bf8fdcd90" category="paragraph">선택하는 각 시스템에는 할당된 IP 주소가 있어야 합니다. 기본 시스템 또는 보조 시스템을 선택할 수 있습니다. 보조 시스템은 기본 시스템에 암호화되지 않은 스냅샷이 없거나 사용할 수 없는 경우 분석 및 복구에 사용할 수 있습니다.</block>
+  <block id="88fd1b8a6e78502ed71683ed691e3faa" category="list-text">**Console agent** 섹션을 확장합니다. 드롭다운 메뉴에서 IRE에 배포된 Console agent를 선택합니다.</block>
+  <block id="594222a9ce3ab2f5ea0066e3f132342d" category="list-text">*Compute* 섹션을 펼치세요.</block>
+  <block id="2c164c9a5db457fb3a29bc4f36a90e11" category="list-text">vCenter 서버를 인증하는 데 필요한 자격 증명을 제공하십시오. *IP 주소* 또는 정규화된 도메인 이름(FQDN), *포트*, *사용자 이름* 및 *암호*.</block>
+  <block id="dc7731af7d2a810f6507b9403958dd46" category="list-text">자격 증명을 확인하려면 **인증**을 선택하세요. UI에서 자격 증명을 확인할 때까지 기다린 후 진행하세요.</block>
+  <block id="1af5b22f428ddc58d2ad153a520e2dbb" category="list-text">VM을 배포할 *데이터센터*, *클러스터* 및 *ESXi 호스트*를 선택합니다.</block>
+  <block id="b3c061b4902652a5ebd7ec117faf4ac4" category="list-text">ESXi 호스트 *데이터스토어* 및 *네트워크*를 선택합니다.</block>
+  <block id="653958d4d3ad99fa5fc27c03767b14a0" category="list-text">VM의 *IP 주소 범위*와 *게이트웨이*를 입력하십시오.</block>
+  <block id="3c313c8ed317dbe7d4203dcdd31c8a19" category="inline-image-macro">컴퓨팅 선택 인터페이스의 스크린샷입니다.</block>
+  <block id="8cae18dea7d74591e21c2f2407666e60" category="paragraph"><block ref="8cae18dea7d74591e21c2f2407666e60" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7ca860788f238da4a9c5263bd546d3d2" category="list-text">*컴퓨팅* 섹션에 입력한 내용을 기반으로 채워지는 *VM* 섹션을 확장합니다. 클린 복원 중에 맬웨어 검사에 사용할 ESXi 호스트의 VM을 선택합니다. 선택한 각 VM에 대해 *사용자 이름*과 *암호*를 입력합니다.</block>
+  <block id="d7b9a49b450fb7d4116d3c4df7a11288" category="list-text">IRE를 생성하려면 **추가**를 선택하십시오. 추가를 선택하면 Ransomware Resilience가 연결을 테스트합니다. 이 과정은 다소 시간이 걸릴 수 있습니다.</block>
+  <block id="af131a682b99e37528a95fa21be4b5cc" category="paragraph">진행 상황을 추적할 수 있습니다. 설정 탭에서 **격리된 복구 환경**을 선택하세요. 격리된 복구 환경 페이지에는 모든 IRE와 해당 상태가 표시됩니다. 해당 환경과 관련된 모든 작업에 대한 자세한 내용을 보려면 **작업 보기**를 선택하세요.</block>
+  <block id="16a6474800dcc57e48f9c5fecf7f4b0a" category="paragraph">IRE를 생성한 후에도 시스템을 수정할 수 있습니다. 설정 탭에서 **격리된 복구 환경**을 선택합니다. 수정하려는 IRE를 찾고 작업 메뉴<block ref="2f43b42fd833d1e77420a8dae7419000" prefix=" " category="inline-code"></block>에서 **편집**을 선택합니다. 시스템을 수정합니다. 완료되면 **저장**을 선택합니다.</block>
+  <block id="59f0ec64e6ca9eb2b145c2d0b972a631" category="section-title">격리된 복구 환경 삭제</block>
+  <block id="3b98dd3eb2a4ab1e4dbff3d07d4b9987" category="paragraph">복원 작업이 진행 중인 동안에는 IRE를 삭제할 수 없습니다. 복원 작업을 취소하거나 복원이 완료될 때까지 기다린 후 IRE를 삭제할 수 있습니다.</block>
+  <block id="f9df77cbf2042ca0c84056ff5f798b3f" category="admonition">IRE를 삭제하면 클린룸 SVM과 메타데이터 볼륨도 함께 삭제됩니다. 이러한 자산이 삭제되면 클린 복원에 대한 보고서를 더 이상 생성할 수 없습니다.</block>
+  <block id="ffbbe06f3f17d59276920755ff6ac29b" category="list-text">**설정**으로 이동합니다.</block>
+  <block id="40d3ac507a7227e0481f98409e8015f7" category="list-text">클린 복원 카드에서 **관리**를 선택합니다.</block>
+  <block id="28d6e2e82ae55c1edb64289ae5513448" category="list-text">삭제하려는 클린룸을 식별합니다. 해당 룸의 작업 메뉴 열에서 점 3개<block ref="2f43b42fd833d1e77420a8dae7419000" prefix=" " category="inline-code"></block>를 선택한 다음 **삭제**를 선택합니다.</block>
+  <block id="7c2d524886480cf4cd6bc69e0c99bb89" category="list-text">대화 상자에서 **삭제**를 선택하여 작업을 확인합니다.</block>
+  <block id="f4cc881797e2311f16dfa07e4349adcc" category="doc">NetApp Ransomware Resilience의 사용자 지정 복원 기능을 사용하여 랜섬웨어 공격으로부터 복구하세요</block>
+  <block id="535ddb562a8b468bf49b846735d03ed1" category="paragraph">NetApp Ransomware Resilience를 통해 스토리지 관리자는 권장 복원 지점 또는 선호하는 복원 지점 중에서 워크로드를 복원하는 최적의 방법을 결정할 수 있습니다.</block>
+  <block id="bd0b37105ea52455dcd82ba55451d05f" category="inline-xref-macro">클린 복원 옵션</block>
+  <block id="5dcd94da76cba8e0b3c6917268a26445" category="admonition">Ransomware Resilience는 또한 <block ref="8b52cfc7bcb9ecd0048f1693353befd6" category="inline-xref-macro-rx"></block>를 지원하며, 이는 안내된 복구 및 고급 기능을 제공하여 깨끗하고 암호화되지 않은 데이터만 복구되도록 보장합니다.</block>
+  <block id="078165d94495873b74eac3f73ef2c5c5" category="paragraph">*필수 콘솔 역할* 조직 관리자, 폴더 또는 프로젝트 관리자, 또는 랜섬웨어 보호 관리자. <block ref="c63b2c8d20974c1834bc75207be469f3" category="inline-link-macro-rx"></block>.</block>
+  <block id="4f22e7913d6404c2f4a730aca8aa04aa" category="list-text">파일을 정리하지 않고 진행하려면 **Custom restore**를 선택하십시오.</block>
+  <block id="b5909998e75bc501f2c6e00e6e19c1d6" category="section-title">영향을 받은 파일 목록을 가져옵니다</block>
+  <block id="186ec07a353da723ddd0689610e66577" category="admonition">볼륨에 여러 개의 경고가 있는 경우 각 경고에 대해 영향을 받는 파일의 CSV 목록을 다운로드해야 합니다.</block>
+  <block id="488dd29bfedaf4a56b590ad9e2171dc8" category="section-title">파일 복원</block>
+  <block id="138cbd11459ece46267adb92ab34ee1f" category="paragraph">영향을 받은 파일을 확인한 후 복원할 수 있습니다.</block>
+  <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">2026년 4월 13일</block>
+  <block id="794c08acf0fdad83a95c363b8c9662f4" category="sidebar">복구 상태 검토</block>
+  <block id="d14be6fd318be2bc44adb6224cd0309b" category="sidebar">클린 복원으로 복구</block>
 </blocks>

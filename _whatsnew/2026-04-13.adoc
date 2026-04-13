@@ -1,0 +1,27 @@
+= 클린 복원
+:allow-uri-read: 
+
+
+
+
+=== 클린 복원
+
+Ransomware Resilience는 이제 랜섬웨어 공격으로부터 빠르고 쉽게 복구할 수 있도록 지원하는 새로운 복구 옵션인 클린 복원을 지원합니다. 클린 복원은 다운타임을 최소화하면서 워크로드를 가동 및 실행할 수 있도록 최적의 복원 지점을 식별하는 안내 워크플로를 제공합니다. 클린 복원의 워크플로는 또한 데이터에 대한 파일 수준 통찰력을 제공하여 재감염을 방지하고 데이터 손실을 최소화하는 맬웨어 없는 워크로드를 복원할 수 있도록 보장합니다.
+
+지원되는 구성 및 클린 복원을 위한 시스템 구성 방법에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["격리된 복구 환경 생성"^]를 참조하십시오. 클린 복원을 사용하여 복구하는 방법에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore-recover["깔끔한 복원을 통해 워크로드 복구"^]를 참조하십시오.
+
+
+
+=== Splunk Enterprise용 SIEM 지원
+
+Ransomware Resilience는 이제 Splunk Enterprise에 대한 SIEM(Security Information Event Management) 지원을 제공하여 로그 및 이벤트 데이터를 중앙 집중화하고 위협 분석 및 탐지를 간소화할 수 있습니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["Ransomware Resilience를 SIEM에 연결합니다"^]를 참조하십시오.
+
+
+
+=== 사용자 행동 활동 개선
+
+데이터 유출 사건에 대한 분석 정보가 이제 사건 발생 후 13개월 동안 보존되어 보고 요구 사항에 맞춰 더 오랜 기간 기록을 보관할 수 있습니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["사용자 활동 감지에 대해 알아보십시오"^]를 참조하십시오.

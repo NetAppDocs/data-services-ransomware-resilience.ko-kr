@@ -4,7 +4,7 @@ permalink: suspicious-user-activity.html
 keywords: data breach detection, data breach, user activity, suspicious, anomalous, 
 summary: 랜섬웨어 복원력의 의심스러운 사용자 활동 감지 기능을 사용하면 잠재적인 위협이 될 수 있는 사용자 활동을 감지할 수 있습니다. 
 ---
-= NetApp Ransomware Resilience에서 사용자 활동 감지를 위한 에이전트 및 수집기 구성
+= NetApp Ransomware Resilience에서 사용자 활동 감지를 구성합니다
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
