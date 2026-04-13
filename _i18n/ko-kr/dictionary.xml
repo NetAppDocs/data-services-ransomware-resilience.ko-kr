@@ -2195,8 +2195,8 @@
   <block id="261f193d834ffba7dae6c54f99306659" category="list-text">선택한 Splunk 환경(Cloud 또는 Enterprise)으로 이동합니다.</block>
   <block id="eade5cc0d987bed25c884550a681c364" category="list-text">Splunk Cloud 또는 Enterprise로 이동하세요.</block>
   <block id="e4f58ddb798b11dab7791e0175f6cf0f" category="list-text">AWS Security Hub, Splunk Cloud 또는 Splunk Enterprise에서 구성한 토큰 및 인증 세부 정보를 입력하십시오.</block>
-  <block id="c49fdbd48abc0805f78e165d087f6c4b" category="admonition-title">클린룸 SVM 데이터 LIF IP(crr-data-LIF-IP)</block>
-  <block id="f0778a7682182f497af90edd54b04a18" category="paragraph">Amazon FSxN for ONTAP에서 소스를 사용하여 IRE를 구성하는 경우 이 클린룸 SVM 데이터 LIF IP 요구 사항을 건너뛰십시오.</block>
+  <block id="c49fdbd48abc0805f78e165d087f6c4b" category="list-title">클린룸 SVM 데이터 LIF IP(crr-data-LIF-IP)</block>
+  <block id="f0778a7682182f497af90edd54b04a18" category="admonition">Amazon FSxN for ONTAP에서 소스를 사용하여 IRE를 구성하는 경우 이 클린룸 SVM 데이터 LIF IP 요구 사항을 건너뛰십시오.</block>
   <block id="074ccc576a0d2f59ff97aa7d5cd6f1db" category="list-text">클린룸 SVM 데이터 LIF에 IP 주소를 할당하십시오. IP 주소를 기록해 두십시오. IRE 구성 과정에서 이 IP 주소가 필요합니다.</block>
   <block id="6e72e986d17ee66e6f3fdfe4e138163d" category="list-text">AWS를 사용하는 Cloud Volumes ONTAP에서 클라우드 간 클린 복원을 사용하는 경우 IP 주소가 Elastic Network Interface에 할당되었는지 확인하십시오.</block>
   <block id="b1573f80f25470f8eb281542e0c5be32" category="list-text">SVM 데이터 LIF IP에서 IRE로의 라우팅을 허용합니다.</block>
@@ -2231,13 +2231,12 @@
   <block id="1e0cb6f175281202fbb8e130dc6ceb5b" category="list-text">Ransomware Resilience 복구 대시보드에서 언제든지 활성 및 대기 중인 클린 복원 작업의 상태를 모니터링할 수 있습니다.</block>
   <block id="75b68821e2e55eb56181916eaf645c45" category="list-text">클린 복원을 시작하면 원래 볼륨이 마운트 해제되어 IO 액세스가 중단될 수 있습니다.</block>
   <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">클린 복원</block>
-  <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilience는 이제 랜섬웨어 공격으로부터 빠르고 쉽게 복구할 수 있도록 지원하는 새로운 복구 옵션인 클린 복원을 지원합니다. 클린 복원은 다운타임을 최소화하면서 워크로드를 가동 및 실행할 수 있도록 최적의 복원 지점을 식별하는 안내 워크플로를 제공합니다. 클린 복원의 워크플로는 또한 데이터에 대한 파일 수준 통찰력을 제공하여 재감염을 방지하고 데이터 손실을 최소화하는 맬웨어 없는 워크로드를 복원할 수 있도록 보장합니다.</block>
+  <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilience는 이제 랜섬웨어 공격으로부터 빠르고 쉽게 복구할 수 있도록 지원하는 새로운 복구 옵션인 클린 복원을 지원합니다. 클린 복원은 다운타임을 최소화하면서 워크로드를 가동하고 실행하기 위한 최적의 복원 지점을 식별하는 안내형 워크플로를 제공합니다. 클린 복원의 워크플로는 또한 데이터에 대한 파일 수준의 인사이트를 제공하여 재감염을 방지하고 데이터 손실을 최소화하는 멀웨어 없는 워크로드를 복원할 수 있도록 보장합니다.</block>
   <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">격리된 복구 환경 생성</block>
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">깔끔한 복원을 통해 워크로드 복구</block>
-  <block id="a9e75b5aa64910e787dec413e103a858" category="paragraph">지원되는 구성 및 클린 복원을 위한 시스템 구성 방법에 대한 자세한 내용은 <block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>를 참조하십시오. 클린 복원을 사용하여 복구하는 방법에 대한 자세한 내용은 <block ref="455be04ee07ce68cbcdf924300b59eba" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="1268d987cbc2b2bc1be3c9ba04af7cd1" category="section-title">Splunk Enterprise용 SIEM 지원</block>
-  <block id="8d4e1592ef4f14add49e9860e8b367dc" category="paragraph">Ransomware Resilience는 이제 Splunk Enterprise에 대한 SIEM(Security Information Event Management) 지원을 제공하여 로그 및 이벤트 데이터를 중앙 집중화하고 위협 분석 및 탐지를 간소화할 수 있습니다.</block>
-  <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">Ransomware Resilience를 SIEM에 연결합니다</block>
+  <block id="8d4e1592ef4f14add49e9860e8b367dc" category="paragraph">Ransomware Resilience는 이제 Splunk Enterprise용 보안 정보 이벤트 관리(SIEM) 지원을 제공하여 로그 및 이벤트 데이터를 중앙 집중화하고 위협 분석 및 탐지를 간소화할 수 있습니다.</block>
+  <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">Ransomware Resilience를 SIEM에 연결하세요</block>
   <block id="dbdca0e081ed0b247153e35ce9b1c298" category="paragraph">자세한 내용은 <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="54dee0adf9652288315f3c7099d462be" category="section-title">사용자 행동 활동 개선</block>
   <block id="7ee4b3a8392885d95b1b7c9f5a6c99e5" category="paragraph">데이터 유출 사건에 대한 분석 정보가 이제 사건 발생 후 13개월 동안 보존되어 보고 요구 사항에 맞춰 더 오랜 기간 기록을 보관할 수 있습니다.</block>
@@ -2338,7 +2337,7 @@
   <block id="794fbe3384113d14f1fdcd8989bf96c9" category="paragraph">선택한 클린 복원 배포 유형에 필요한 사전 요구 사항을 모두 완료했는지 확인하십시오. 선택한 IRE 구성에 대한 탭을 선택합니다.</block>
   <block id="97b3465a0840a995756be84349359712" category="admonition">IRE를 생성할 때 IRE 생성 시 시스템 선택 단계에서 분석에 사용할 모든 시스템(운영 또는 2차 시스템)을 추가해야 합니다.</block>
   <block id="f936c9befadd0c2d8782d30172d6b01c" category="open-title">클라우드 간</block>
-  <block id="a398547216c8a6f879cf6f1f9ece192b" category="paragraph">이 다이어그램은 클라우드 간 클린 복원 구성의 예를 보여줍니다. IRE를 생성하기 전에 다이어그램과 구성해야 하는 리소스를 검토하십시오.</block>
+  <block id="a398547216c8a6f879cf6f1f9ece192b" category="paragraph">이 다이어그램은 클라우드 간 클린 복원 구성의 예를 보여줍니다. IRE를 생성하기 전에 다이어그램과 구성해야 할 리소스를 검토하십시오.</block>
   <block id="e4c9c1fbddfacd425e4392d01cc2e86d" category="image-alt">클라우드 간 클린 복원 다이어그램</block>
   <block id="ab667ad4c2c05508cbadf5243680d8f5" category="paragraph">이 다이어그램은 온프레미스에서 클라우드로의 클린 복원 구성의 예를 보여줍니다. IRE를 생성하기 전에 다이어그램과 구성해야 할 리소스를 검토하십시오.</block>
   <block id="e2089e21752dabbd3ef51ff9a49553db" category="inline-image-macro">클라우드에서 온프레미스로의 클린 복원 다이어그램</block>
@@ -2389,7 +2388,7 @@
   <block id="c8e2277ecfb1427838c488c217f99466" category="open-title">클라우드</block>
   <block id="0f41fbceabc827d5c5df2618a1c312ad" category="list-text">클린 복원 카드에서 처음 환경을 생성하는 경우 **Configure**를 선택하고 이미 환경을 생성한 경우 **Manage**를 선택하십시오.</block>
   <block id="33319874642cd9fa09af5fae9c62b0f4" category="list-text">IRE를 처음 생성하는 경우 다음 단계로 진행하십시오.</block>
-  <block id="7a5443fd9ce8d6f45236ac37568d5b41" category="paragraph">이미 IRE를 생성한 경우 **추가**를 선택하여 다른 IRE를 생성하십시오.</block>
+  <block id="7a5443fd9ce8d6f45236ac37568d5b41" category="paragraph">이미 IRE를 생성한 경우 **추가**를 선택하여 새 IRE를 생성하십시오.</block>
   <block id="b0836e1bf6680e789281aea3293f7647" category="list-text">클라우드 기반 IRE의 경우 **Amazon Web Services**를 선택합니다.</block>
   <block id="4564ef7a631e6ae4e5c472323c190a1d" category="list-text">**이름** 섹션을 확장합니다. 환경에 대한 **이름**을 생성합니다.</block>
   <block id="b330f48d8947ae91888a185951c00937" category="list-text">*시스템* 섹션을 확장합니다. IRE에 연결할 시스템을 선택합니다. 선택한 각 시스템에 대해 스토리지 VM의 IP 주소, 서브넷 마스크 및 게이트웨이를 제공해야 합니다.</block>
@@ -2398,11 +2397,10 @@
   <block id="9aa6cf1eff1a76b0409b3e752312ea85" category="paragraph"><block ref="9aa6cf1eff1a76b0409b3e752312ea85" category="inline-image-macro-rx" type="image"></block></block>
   <block id="89fdf1c0dc132ad5060755aed85034a8" category="list-text">**인증** 섹션을 확장합니다.</block>
   <block id="4714db5e444c82e9797cf1040d2e1bb4" category="list-text">클라우드 **Account** ID를 입력하고 해당 계정의 **Region**을 선택합니다.</block>
-  <block id="3aae9af33dfbd98649b0845bbd649675" category="list-text">계정에 대한 **액세스 키**와 **비밀 키**를 입력하십시오**.</block>
   <block id="a81c4edeb10492c8584a0c9082f6ce84" category="list-text">*Virtual Private Cloud(VPC)* 섹션을 확장합니다. IRE를 배포할 VPC ID를 입력합니다.</block>
   <block id="c2b8af5a06c2ce8a91c4861ae659df43" category="inline-image-macro">IRE 인증 설정의 스크린샷.</block>
   <block id="9a717f23235ddd79acf46b60cbb49654" category="paragraph"><block ref="9a717f23235ddd79acf46b60cbb49654" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="220e304e2191688ccb248376282d530b" category="list-text">**추가**를 선택하여 IRE를 생성합니다.</block>
+  <block id="220e304e2191688ccb248376282d530b" category="list-text">IRE를 생성하려면 **추가**를 선택하십시오.</block>
   <block id="f705de5bc3ba8ea79dddb837a99ebb45" category="paragraph">Ransomware Resilience는 추가를 선택한 후 연결을 테스트하며, 이 과정은 몇 분 정도 소요될 수 있습니다.</block>
   <block id="f0e69ccbb7ad96f546f7924206944bfa" category="open-title">온프레미스</block>
   <block id="9f1d53078d7f9d9907fb2e5042915794" category="list-text">Clean restores 카드에서 처음 환경을 생성하는 경우 **Add**를 선택하고 이미 환경을 생성한 경우 **Manage**를 선택합니다.</block>
@@ -2422,7 +2420,7 @@
   <block id="8cae18dea7d74591e21c2f2407666e60" category="paragraph"><block ref="8cae18dea7d74591e21c2f2407666e60" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7ca860788f238da4a9c5263bd546d3d2" category="list-text">*컴퓨팅* 섹션에 입력한 내용을 기반으로 채워지는 *VM* 섹션을 확장합니다. 클린 복원 중에 맬웨어 검사에 사용할 ESXi 호스트의 VM을 선택합니다. 선택한 각 VM에 대해 *사용자 이름*과 *암호*를 입력합니다.</block>
   <block id="d7b9a49b450fb7d4116d3c4df7a11288" category="list-text">IRE를 생성하려면 **추가**를 선택하십시오. 추가를 선택하면 Ransomware Resilience가 연결을 테스트합니다. 이 과정은 다소 시간이 걸릴 수 있습니다.</block>
-  <block id="af131a682b99e37528a95fa21be4b5cc" category="paragraph">진행 상황을 추적할 수 있습니다. 설정 탭에서 **격리된 복구 환경**을 선택하세요. 격리된 복구 환경 페이지에는 모든 IRE와 해당 상태가 표시됩니다. 해당 환경과 관련된 모든 작업에 대한 자세한 내용을 보려면 **작업 보기**를 선택하세요.</block>
+  <block id="af131a682b99e37528a95fa21be4b5cc" category="paragraph">진행 상황을 추적할 수 있습니다. 설정 탭에서 **격리된 복구 환경**을 선택합니다. 격리된 복구 환경 페이지에는 모든 IRE와 해당 상태가 표시됩니다. 해당 환경과 관련된 모든 작업에 대한 자세한 내용을 보려면 **작업 보기**를 선택하세요.</block>
   <block id="16a6474800dcc57e48f9c5fecf7f4b0a" category="paragraph">IRE를 생성한 후에도 시스템을 수정할 수 있습니다. 설정 탭에서 **격리된 복구 환경**을 선택합니다. 수정하려는 IRE를 찾고 작업 메뉴<block ref="2f43b42fd833d1e77420a8dae7419000" prefix=" " category="inline-code"></block>에서 **편집**을 선택합니다. 시스템을 수정합니다. 완료되면 **저장**을 선택합니다.</block>
   <block id="59f0ec64e6ca9eb2b145c2d0b972a631" category="section-title">격리된 복구 환경 삭제</block>
   <block id="3b98dd3eb2a4ab1e4dbff3d07d4b9987" category="paragraph">복원 작업이 진행 중인 동안에는 IRE를 삭제할 수 없습니다. 복원 작업을 취소하거나 복원이 완료될 때까지 기다린 후 IRE를 삭제할 수 있습니다.</block>
@@ -2444,4 +2442,8 @@
   <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">2026년 4월 13일</block>
   <block id="794c08acf0fdad83a95c363b8c9662f4" category="sidebar">복구 상태 검토</block>
   <block id="d14be6fd318be2bc44adb6224cd0309b" category="sidebar">클린 복원으로 복구</block>
+  <block id="6ff288c704ac97afbc67708bc23dbc09" category="paragraph">지원되는 구성 및 클린 복원을 위한 시스템 구성 방법에 대한 자세한 내용은 <block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>를 참조하십시오. 클린 복원을 사용하여 복구하는 방법에 대한 자세한 내용은 <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="482b73c713ea8cffc3070c798b03badc" category="open-title">온프레미스에서 클라우드로</block>
+  <block id="8880534a0e139c017e28bbf6bc44e84b" category="open-title">온프레미스에서 온프레미스로</block>
+  <block id="9df5336cadaa8da9a21a00f3f55c497b" category="list-text">계정의 **Access key**와 **Secret key**를 입력하세요.</block>
 </blocks>
