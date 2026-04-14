@@ -2262,8 +2262,6 @@
   <block id="6099697e2a6a8f6f3f428d832424ccd8" category="summary">Ransomware Resilience을 사용하면 깨끗한 복원으로 워크로드를 제어하고 정화할 수 있습니다.</block>
   <block id="6a9e29e376d0cfeb3458eb2ec0d368c2" category="doc">NetApp Ransomware Resilience에서 클린 복원을 통해 워크로드 복구</block>
   <block id="f0b90fa8f5ad3bdcf7ca0566043b0bc7" category="paragraph">NetApp Ransomware Resilience를 사용하면 암호화 기반 랜섬웨어 공격 후 클린 복원을 통해 단계별 복구를 수행할 수 있습니다. 클린 복원은 데이터 손실을 최소화하고 워크로드를 최대한 빠른 시간 내에 온라인 상태로 복귀시킬 수 있도록 최적화된 복구 경로를 식별합니다.</block>
-  <block id="88616a0b3339c4c7896bc89637623c8c" category="inline-xref-macro">사용자 지정 복원 옵션</block>
-  <block id="335671c274748cbe7e810da4fb09ee39" category="paragraph">클린 복원 옵션은 <block ref="7505fe57dac9c850bacebdaf9c5d9534" category="inline-xref-macro-rx"></block>에 대한 대안입니다.</block>
   <block id="563d648fca7174bd637bc7553ffbdfd5" category="inline-link-macro">격리된 복구 환경</block>
   <block id="68a63568bae8b1136a4d6ed86a9df817" category="paragraph">클린 복원을 수행하려면 먼저 <block ref="e6b9ac27e9d8426eab4ef45db03a98fc" category="inline-link-macro-rx"></block>을(를) 구성해야 합니다.</block>
   <block id="ea61e2c2ff507048203824add1eb7c21" category="section-title">고려 사항</block>
@@ -2287,7 +2285,6 @@
   <block id="bb48b2870670838fdaceecb7e839faf4" category="list-text">**Start recovery**를 선택하여 복구를 시작합니다.</block>
   <block id="6f442695db7c03fcadf2ad5e394da170" category="list-text">복구가 완료되면 **Next**를 선택하여 최종 단계로 이동하십시오.</block>
   <block id="c40ef494fde6d59a18088598fb50e5f5" category="list-text">리소스를 해제하고 클린룸을 종료하려면 **Release resources and end**를 선택하십시오. 리소스를 해제할지 확인하려면 **End**를 선택하십시오.</block>
-  <block id="ce9ea3f9da32231f2342106b6a2da0c1" category="doc">NetApp Ransomware Resilience에서 클린 복원 환경을 구성합니다</block>
   <block id="d08d6f8d7a531831181b973c3132aaef" category="paragraph">NetApp Ransomware Resilience는 랜섬웨어 공격 후 단계적인 복구를 지원하는 클린 복원 기능을 제공합니다. 클린 복원을 수행하려면 먼저 온프레미스 또는 지원되는 클라우드 환경에서 격리된 복구 환경(IRE)을 생성해야 합니다. IRE에서는 Ransomware Resilience가 워크로드를 격리하여 어떤 파일이 정상이고 어떤 파일이 랜섬웨어의 영향을 받았는지 식별하는 클린룸을 생성합니다.</block>
   <block id="f6ee05d779160a7db74d926e2bb640f7" category="section-title">클린 복원에 대해 알아보십시오</block>
   <block id="ae684a367ef7be289c58528c425ecc18" category="paragraph">클린 복원을 수행하면 Ransomware Resilience가 복구를 최적화하는 다단계 프로세스를 안내합니다.</block>
@@ -2386,25 +2383,18 @@
   <block id="fcbb0e1baa9ae5913c0059a3babc98ba" category="paragraph">클린 복원을 수행하기 전에 격리된 복구 환경을 생성해야 합니다.</block>
   <block id="90f9f1ae9aae8bda3367df6cbbd98883" category="paragraph">클라우드 환경인지 온프레미스 환경인지에 따라 격리된 복구실을 생성하는 프로세스가 다릅니다. 올바른 위치에 맞는 지침을 따르십시오.</block>
   <block id="c8e2277ecfb1427838c488c217f99466" category="open-title">클라우드</block>
-  <block id="0f41fbceabc827d5c5df2618a1c312ad" category="list-text">클린 복원 카드에서 처음 환경을 생성하는 경우 **Configure**를 선택하고 이미 환경을 생성한 경우 **Manage**를 선택하십시오.</block>
-  <block id="33319874642cd9fa09af5fae9c62b0f4" category="list-text">IRE를 처음 생성하는 경우 다음 단계로 진행하십시오.</block>
-  <block id="7a5443fd9ce8d6f45236ac37568d5b41" category="paragraph">이미 IRE를 생성한 경우 **추가**를 선택하여 새 IRE를 생성하십시오.</block>
   <block id="b0836e1bf6680e789281aea3293f7647" category="list-text">클라우드 기반 IRE의 경우 **Amazon Web Services**를 선택합니다.</block>
-  <block id="4564ef7a631e6ae4e5c472323c190a1d" category="list-text">**이름** 섹션을 확장합니다. 환경에 대한 **이름**을 생성합니다.</block>
   <block id="b330f48d8947ae91888a185951c00937" category="list-text">*시스템* 섹션을 확장합니다. IRE에 연결할 시스템을 선택합니다. 선택한 각 시스템에 대해 스토리지 VM의 IP 주소, 서브넷 마스크 및 게이트웨이를 제공해야 합니다.</block>
   <block id="9c0961645ab2dde42b360b9dd39f0dcc" category="admonition">Amazon FSxN for ONTAP에 배포된 IRE의 경우 이 정보를 제공할 필요가 없습니다.</block>
   <block id="be33043acadffab164c32971cd856af7" category="inline-image-macro">시스템 선택 인터페이스의 스크린샷.</block>
   <block id="9aa6cf1eff1a76b0409b3e752312ea85" category="paragraph"><block ref="9aa6cf1eff1a76b0409b3e752312ea85" category="inline-image-macro-rx" type="image"></block></block>
   <block id="89fdf1c0dc132ad5060755aed85034a8" category="list-text">**인증** 섹션을 확장합니다.</block>
-  <block id="4714db5e444c82e9797cf1040d2e1bb4" category="list-text">클라우드 **Account** ID를 입력하고 해당 계정의 **Region**을 선택합니다.</block>
   <block id="a81c4edeb10492c8584a0c9082f6ce84" category="list-text">*Virtual Private Cloud(VPC)* 섹션을 확장합니다. IRE를 배포할 VPC ID를 입력합니다.</block>
   <block id="c2b8af5a06c2ce8a91c4861ae659df43" category="inline-image-macro">IRE 인증 설정의 스크린샷.</block>
   <block id="9a717f23235ddd79acf46b60cbb49654" category="paragraph"><block ref="9a717f23235ddd79acf46b60cbb49654" category="inline-image-macro-rx" type="image"></block></block>
   <block id="220e304e2191688ccb248376282d530b" category="list-text">IRE를 생성하려면 **추가**를 선택하십시오.</block>
-  <block id="f705de5bc3ba8ea79dddb837a99ebb45" category="paragraph">Ransomware Resilience는 추가를 선택한 후 연결을 테스트하며, 이 과정은 몇 분 정도 소요될 수 있습니다.</block>
   <block id="f0e69ccbb7ad96f546f7924206944bfa" category="open-title">온프레미스</block>
   <block id="9f1d53078d7f9d9907fb2e5042915794" category="list-text">Clean restores 카드에서 처음 환경을 생성하는 경우 **Add**를 선택하고 이미 환경을 생성한 경우 **Manage**를 선택합니다.</block>
-  <block id="fffc61b2d6d50fdd26e57c1dc63ba3e1" category="list-text">IRE를 처음 생성하는 경우 다음 단계로 진행하십시오. 이미 IRE를 생성한 경우 **추가**를 선택하여 새 IRE를 생성하십시오.</block>
   <block id="a32ffcf87a910c4dc1998036da51a79e" category="list-text">위치에서 **On-premises**를 선택합니다.</block>
   <block id="de069b391b655fa33e7b553f551b3ed8" category="list-text">*이름* 섹션을 확장하세요. IRE에 **이름**을 지정하세요.</block>
   <block id="da5888e486faa08ea3f4a546d8ea2b6b" category="list-text">*시스템* 섹션을 확장합니다. IRE에 연결할 시스템을 선택합니다. IRE에서 복구할 워크로드가 있는 각 시스템에 스토리지 VM IP, 서브넷 마스크 및 게이트웨이를 할당합니다.</block>
@@ -2413,21 +2403,14 @@
   <block id="594222a9ce3ab2f5ea0066e3f132342d" category="list-text">*Compute* 섹션을 펼치세요.</block>
   <block id="2c164c9a5db457fb3a29bc4f36a90e11" category="list-text">vCenter 서버를 인증하는 데 필요한 자격 증명을 제공하십시오. *IP 주소* 또는 정규화된 도메인 이름(FQDN), *포트*, *사용자 이름* 및 *암호*.</block>
   <block id="dc7731af7d2a810f6507b9403958dd46" category="list-text">자격 증명을 확인하려면 **인증**을 선택하세요. UI에서 자격 증명을 확인할 때까지 기다린 후 진행하세요.</block>
-  <block id="1af5b22f428ddc58d2ad153a520e2dbb" category="list-text">VM을 배포할 *데이터센터*, *클러스터* 및 *ESXi 호스트*를 선택합니다.</block>
-  <block id="b3c061b4902652a5ebd7ec117faf4ac4" category="list-text">ESXi 호스트 *데이터스토어* 및 *네트워크*를 선택합니다.</block>
-  <block id="653958d4d3ad99fa5fc27c03767b14a0" category="list-text">VM의 *IP 주소 범위*와 *게이트웨이*를 입력하십시오.</block>
   <block id="3c313c8ed317dbe7d4203dcdd31c8a19" category="inline-image-macro">컴퓨팅 선택 인터페이스의 스크린샷입니다.</block>
   <block id="8cae18dea7d74591e21c2f2407666e60" category="paragraph"><block ref="8cae18dea7d74591e21c2f2407666e60" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7ca860788f238da4a9c5263bd546d3d2" category="list-text">*컴퓨팅* 섹션에 입력한 내용을 기반으로 채워지는 *VM* 섹션을 확장합니다. 클린 복원 중에 맬웨어 검사에 사용할 ESXi 호스트의 VM을 선택합니다. 선택한 각 VM에 대해 *사용자 이름*과 *암호*를 입력합니다.</block>
-  <block id="d7b9a49b450fb7d4116d3c4df7a11288" category="list-text">IRE를 생성하려면 **추가**를 선택하십시오. 추가를 선택하면 Ransomware Resilience가 연결을 테스트합니다. 이 과정은 다소 시간이 걸릴 수 있습니다.</block>
-  <block id="af131a682b99e37528a95fa21be4b5cc" category="paragraph">진행 상황을 추적할 수 있습니다. 설정 탭에서 **격리된 복구 환경**을 선택합니다. 격리된 복구 환경 페이지에는 모든 IRE와 해당 상태가 표시됩니다. 해당 환경과 관련된 모든 작업에 대한 자세한 내용을 보려면 **작업 보기**를 선택하세요.</block>
   <block id="16a6474800dcc57e48f9c5fecf7f4b0a" category="paragraph">IRE를 생성한 후에도 시스템을 수정할 수 있습니다. 설정 탭에서 **격리된 복구 환경**을 선택합니다. 수정하려는 IRE를 찾고 작업 메뉴<block ref="2f43b42fd833d1e77420a8dae7419000" prefix=" " category="inline-code"></block>에서 **편집**을 선택합니다. 시스템을 수정합니다. 완료되면 **저장**을 선택합니다.</block>
   <block id="59f0ec64e6ca9eb2b145c2d0b972a631" category="section-title">격리된 복구 환경 삭제</block>
   <block id="3b98dd3eb2a4ab1e4dbff3d07d4b9987" category="paragraph">복원 작업이 진행 중인 동안에는 IRE를 삭제할 수 없습니다. 복원 작업을 취소하거나 복원이 완료될 때까지 기다린 후 IRE를 삭제할 수 있습니다.</block>
   <block id="f9df77cbf2042ca0c84056ff5f798b3f" category="admonition">IRE를 삭제하면 클린룸 SVM과 메타데이터 볼륨도 함께 삭제됩니다. 이러한 자산이 삭제되면 클린 복원에 대한 보고서를 더 이상 생성할 수 없습니다.</block>
   <block id="ffbbe06f3f17d59276920755ff6ac29b" category="list-text">**설정**으로 이동합니다.</block>
   <block id="40d3ac507a7227e0481f98409e8015f7" category="list-text">클린 복원 카드에서 **관리**를 선택합니다.</block>
-  <block id="28d6e2e82ae55c1edb64289ae5513448" category="list-text">삭제하려는 클린룸을 식별합니다. 해당 룸의 작업 메뉴 열에서 점 3개<block ref="2f43b42fd833d1e77420a8dae7419000" prefix=" " category="inline-code"></block>를 선택한 다음 **삭제**를 선택합니다.</block>
   <block id="7c2d524886480cf4cd6bc69e0c99bb89" category="list-text">대화 상자에서 **삭제**를 선택하여 작업을 확인합니다.</block>
   <block id="f4cc881797e2311f16dfa07e4349adcc" category="doc">NetApp Ransomware Resilience의 사용자 지정 복원 기능을 사용하여 랜섬웨어 공격으로부터 복구하세요</block>
   <block id="535ddb562a8b468bf49b846735d03ed1" category="paragraph">NetApp Ransomware Resilience를 통해 스토리지 관리자는 권장 복원 지점 또는 선호하는 복원 지점 중에서 워크로드를 복원하는 최적의 방법을 결정할 수 있습니다.</block>
@@ -2446,4 +2429,20 @@
   <block id="482b73c713ea8cffc3070c798b03badc" category="open-title">온프레미스에서 클라우드로</block>
   <block id="8880534a0e139c017e28bbf6bc44e84b" category="open-title">온프레미스에서 온프레미스로</block>
   <block id="9df5336cadaa8da9a21a00f3f55c497b" category="list-text">계정의 **Access key**와 **Secret key**를 입력하세요.</block>
+  <block id="2717d5efc491d88d4fc433e4af820d74" category="summary">NetApp Ransomware Resilience에서 클린 복원을 수행하기 전에 환경을 격리하고 정리할 수 있도록 격리된 복구 환경을 생성해야 합니다.</block>
+  <block id="d58e1a84905920b61ed4f1f26262aeb9" category="doc">NetApp Ransomware Resilience에서 깨끗한 복원을 위한 환경을 구성합니다</block>
+  <block id="48b395c83fb3667e93231c09593be027" category="list-text">클린 복원 카드에서 **추가**를 선택하여 격리된 복구 환경을 생성합니다.</block>
+  <block id="105f7259b2dc81485c4baf296e55aec5" category="list-text">**이름** 섹션을 펼치세요. 환경의 **이름**을 입력하세요.</block>
+  <block id="2eda5a6118ec15220cd7332a61e3afa7" category="list-text">클라우드 **Account** ID를 입력하고 드롭다운 메뉴에서 해당 계정의 **Region**을 선택하세요. 지원되는 지역에서만 IRE를 배포할 수 있습니다.</block>
+  <block id="8a6858555f085685f5bb427c4dbd4219" category="paragraph">Ransomware Resilience는 추가를 선택한 후 연결을 테스트하며, 몇 분 정도 걸릴 수 있습니다. IRE의 상태가 "deployed"로 표시되면 성공적으로 배포된 것입니다.</block>
+  <block id="72fe6d9d17dfd2ab74965b68d4ad7d09" category="list-text">VM을 배포할 *데이터센터*와 *클러스터*를 선택하십시오.</block>
+  <block id="3e00060a376e7413a4ebadfd06157d94" category="list-text">ESXi 호스트에 사용할 *데이터 저장소*와 *네트워크*를 선택하십시오.</block>
+  <block id="30329b19b858d26d073ea4ab5feeed6f" category="list-text">VM의 *IP 주소 범위*를 CIDR 형식(예: 10.0.0.1/24), *서브넷 마스크* 및 *게이트웨이*로 입력합니다.</block>
+  <block id="5e4a4c67d9b9212d3f7d2d36cd4be2de" category="list-text">*컴퓨팅* 섹션에 입력한 내용을 기반으로 채워지는 *VM* 섹션을 확장합니다.</block>
+  <block id="1a65a52eeaaaf2a882bf42fa7b872483" category="list-text">Ransomware Resilience가 랜섬웨어를 검사하는 데 사용하는 Linux VM의 경우, 드롭다운 메뉴에서 해당 VM을 선택한 다음 VM의 *사용자 이름*과 *암호*를 입력하십시오.</block>
+  <block id="3c4a04ceaab48b61f17ab0bd613644c0" category="list-text">스캔에 사용되는 Windows VM의 경우 드롭다운 메뉴에서 VM을 선택한 다음 VM의 *사용자 이름* 및 *암호*를 입력합니다.</block>
+  <block id="13291e241521a2260f7ae5746544e195" category="list-text">IRE를 생성하려면 **추가**를 선택하십시오. 추가를 선택하면 Ransomware Resilience가 연결을 테스트합니다. 이 과정은 몇 분 정도 소요될 수 있습니다. IRE의 상태가 "deployed"로 표시되면 배포가 성공적으로 완료된 것입니다.</block>
+  <block id="8d81ff5c5b48d23cce9332dd984632b4" category="paragraph">진행 상황을 추적할 수 있습니다. 설정 탭에서 **격리된 복구 환경**을 선택하세요. 격리된 복구 환경 페이지에는 IRE와 해당 상태가 표시됩니다. 해당 환경과 관련된 모든 작업 내역을 보려면 **작업 보기**를 선택하세요.</block>
+  <block id="4f9ce9d8880d6bdd44ed37068e5fb560" category="admonition">IRE의 세부 정보를 변경해야 하는 경우 Ransomware Resilience 사이드바에서 *Settings*를 선택한 다음 Clean restore 카드에서 **Manage**를 선택합니다. IRE의 작업 메뉴를 선택한 후 **Edit**를 선택하여 구성을 변경합니다.</block>
+  <block id="b84cf7acbf3f47154038369f7661d257" category="list-text">삭제하려는 클린룸을 식별합니다. IRE의 작업 메뉴(<block ref="2f43b42fd833d1e77420a8dae7419000" prefix="(" category="inline-code"></block>)를 선택한 다음 **삭제**를 선택합니다.</block>
 </blocks>
