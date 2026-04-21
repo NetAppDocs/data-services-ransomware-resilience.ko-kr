@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rp-start-licenses.html 
 keywords: bluexp license, ransomware protection license, netapp console 
-summary: 시스템과 작업 부하를 보호하려면 랜섬웨어 복원력에 대한 라이선스 요구 사항을 충족하는지 확인하세요. 
+summary: 워크로드를 보호하려면 NetApp Ransomware Resilience에 필요한 라이선스 요구 사항을 충족해야 합니다. 
 ---
 = NetApp Ransomware Resilience 에 대한 라이선싱 설정
 :hardbreaks:

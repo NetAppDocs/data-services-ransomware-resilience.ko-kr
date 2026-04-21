@@ -161,7 +161,6 @@
   <block id="08c9bb2f955e4452b60d6285d467218b" category="paragraph">랜섬웨어 복원력은 여러 NetApp 기술을 최대한 활용하여 스토리지 관리자, 데이터 보안 관리자 또는 보안 운영 엔지니어가 다음과 같은 목표를 달성할 수 있도록 지원합니다.</block>
   <block id="ab76e9ddf0b5cc0436537248ef996b33" category="list-text">데이터에 대한 백업, 스냅샷 복사 및 랜섬웨어 보호 전략을 활성화하여 워크로드를 *보호*하세요.</block>
   <block id="2260f3efb7f7ff8d7a4a295911d64e87" category="list-text">랜섬웨어 공격일 수 있는 이상 징후를 *감지*합니다.각주:[공격이 감지되지 않을 수도 있지만, 저희 조사에 따르면 NetApp 기술은 특정 파일 암호화 기반 랜섬웨어 공격에 대해 높은 수준의 감지율을 보였습니다.]</block>
-  <block id="2b9059f4bfe46561bd84cd4afc8e39d5" category="list-text">여러 NetApp 기술을 조율하여 워크로드 가동 시간을 가속화하는 데 도움이 되는 워크로드를 *복구*하세요.  특정 볼륨만 복구하도록 선택할 수 있습니다.  랜섬웨어 복원력은 최상의 옵션에 대한 권장 사항을 제공합니다.</block>
   <block id="c81ae261ce25e22a1af05caba692e648" category="list-text">*관리*: 랜섬웨어 보호 전략을 구현하고 결과를 모니터링합니다.</block>
   <block id="2df7b40bf0b6e6b4631432c24ce9a052" category="inline-image-macro">랜섬웨어를 식별, 보호, 탐지, 대응 및 복구하는 랜섬웨어 복원력 전략을 보여주는 다이어그램</block>
   <block id="cfab6cedd02afb98600a358d70d70886" category="paragraph"><block ref="cfab6cedd02afb98600a358d70d70886" category="inline-image-macro-rx" type="image"></block></block>
@@ -257,24 +256,16 @@
   <block id="91a892e300bf9b67ce6a16b0a80f1b1a" category="inline-link-macro">랜섬웨어 복원력 라이선스 설정</block>
   <block id="88699be3d302c7e5f5715be794649591" category="paragraph">라이센스가 만료된 후에도 수행할 수 있는 작업에 대한 자세한 내용은 다음을 참조하세요.<block ref="f3b829d4bde16775bc19f33a0a06c197" category="inline-link-macro-rx"></block> .</block>
   <block id="c724e39bb0a48a947cd8004592d90338" category="section-title">보호 정책 비활성화</block>
-  <block id="1312742e007207f60e4a52af11c06567" category="paragraph">워크로드에 적용되는 보호 정책 사용을 중지하려면 시스템 관리자, API 호출 또는 CLI를 사용하여 해당 정책을 비활성화할 수 있습니다.</block>
   <block id="64086e522631840f7f453586e2c9736d" category="inline-link-macro">랜섬웨어 공격으로부터 워크로드 보호</block>
   <block id="8ba3ac2a14af0c43cfde525668f6e546" category="paragraph">랜섬웨어 복원력에서 FPolicy 및 백업 정책을 비활성화하려면 해당 정책을 포함하지 않는 다른 정책을 적용하면 됩니다.  보호 정책 설정에 대한 지침은 다음을 참조하세요.<block ref="cc10c371e1aab359fa44a886d5e79433" category="inline-link-macro-rx"></block> .</block>
   <block id="76722f595147e9e40ab79fef549441a4" category="admonition">스냅샷 정책을 비활성화하지 않는 것이 좋습니다.</block>
   <block id="ef54d92c7cc927ca7eb5e489c30b0e9b" category="summary">발견 과정에서 Ransomware Resilience는 모든 콘솔 에이전트와 계정의 시스템에 있는 모든 볼륨과 파일을 분석합니다.</block>
-  <block id="790472d97707885ad0bca12c5442db2a" category="paragraph">각 콘솔 에이전트 내에서 워크로드를 검색할 시스템을 선택합니다.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
-  <block id="7b8dc42ed597eb23a119869a1195c334" category="list-text">NetApp Console 에서 *보호* &gt; *랜섬웨어 보호*를 선택합니다.</block>
-  <block id="475360813ddb5fa78d5eb18ec0fff45d" category="paragraph">처음으로 로그인하는 경우 랜딩 페이지가 나타납니다.</block>
   <block id="d44e74d71274e14e6b7f32dbf6277d75" category="inline-image-macro">랜섬웨어 복원력에 대한 랜딩 페이지 스크린샷</block>
   <block id="e66ce57fedc4caff000c35f070d7b537" category="paragraph"><block ref="e66ce57fedc4caff000c35f070d7b537" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7c3643602c46264fa601bce5ec20f6df" category="admonition">무료 평가판을 시작한 경우 *30일 무료 평가판 시작* 버튼 레이블이 *워크로드 검색으로 시작*으로 변경됩니다.</block>
-  <block id="27a22ff8cea8c84583985661c68afc5b" category="list-text">첫 번째 랜딩 페이지에서 *워크로드 검색으로 시작*을 선택합니다.</block>
   <block id="5a73bf8837c9a23f81b6df3efef9dee3" category="paragraph">랜섬웨어 복원력은 지원되는 시스템과 지원되지 않는 시스템을 모두 찾아냅니다.  이 과정은 몇 분 정도 걸릴 수 있습니다.</block>
   <block id="18eb5242d6e5ac768698e677b047a0eb" category="inline-image-macro">워크로드 스크린샷 검색</block>
   <block id="d79f191c2ec9abafe65a74f3afd2fd3e" category="paragraph"><block ref="d79f191c2ec9abafe65a74f3afd2fd3e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="aa38c459f1855c79933ef88c2500bd20" category="list-text">특정 콘솔 에이전트의 워크로드를 검색하려면 워크로드를 검색하려는 콘솔 에이전트 옆에 있는 *시스템 선택*을 선택합니다.</block>
-  <block id="b5df43021af6103a6e0b208280b7bd9c" category="list-text">워크로드를 검색할 시스템을 선택하세요.</block>
   <block id="6717014f0e48b7ab08c9846925b42c93" category="list-text">*발견*을 선택하세요.</block>
   <block id="60b91ac4e4f14d7cb892956fc74437d2" category="list-text">검색된 워크로드 목록을 다운로드하려면 *결과 다운로드*를 선택하세요.</block>
   <block id="f78bb7fa8ba897b7d7d1b1b09e4e9938" category="list-text">랜섬웨어 복원력 대시보드를 표시하려면 *대시보드로 이동*을 선택하세요.</block>
@@ -409,9 +400,6 @@
   <block id="6c9642c3e49c9627e18f399bd2f107c7" category="paragraph">그렇지 않으면 랜섬웨어 복원력 대시보드가 나타납니다.</block>
   <block id="9fc4ee93846b9550507b5403fc073ebd" category="inline-image-macro">랜섬웨어 복원력 대시보드의 스크린샷</block>
   <block id="90fe6d0f96c8ecd14685b359ef85e68f" category="paragraph"><block ref="90fe6d0f96c8ecd14685b359ef85e68f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8df9c75ead72be3995c8516a43376cb6" category="list-text">아직 선택하지 않았다면 *워크로드 검색* 옵션을 선택하세요.</block>
-  <block id="54300910bbc8e214a070c89af79010e7" category="inline-link-macro">워크로드 검색</block>
-  <block id="ac6282fe86530df822c059310d9c8cc3" category="paragraph"><block ref="40333c3f84ed5cb5976f4d99c62be349" category="inline-link-macro-rx"></block> .</block>
   <block id="d0e83b4dfc8809d4d0f31e184c6f9ebb" category="summary">환경, 네트워크 액세스, 로그인 및 웹 브라우저에 대한 지원을 검증하여 NetApp Ransomware Resilience 시작하세요.</block>
   <block id="fd2baaaf591d18081f2e012015874835" category="doc">NetApp Ransomware Resilience 전제 조건</block>
   <block id="e315520b8d0944e7422c773e49fc17a7" category="list-text">리소스를 검색하기 위한 조직 관리자 권한이 있는 NetApp Console 사용자 계정입니다.</block>
@@ -1439,7 +1427,6 @@
   <block id="7257a2c29f00e84365c5a48447d9c803" category="inline-link-macro">데이터 분류를 활성화하여 거버넌스 및 보안 위험을 식별합니다.</block>
   <block id="1d1758803ee1f7559973be04f120a0f7" category="inline-link-macro">SIEM에 알림 보내기</block>
   <block id="660ecf2355e5ff3c5a22d2e4a48594e8" category="inline-link-macro">경고, 보호, 준비 훈련, 복구 또는 요약 보고서 다운로드</block>
-  <block id="7b36da612c0e3a400f4daecc8016f21e" category="summary">시스템과 작업 부하를 보호하려면 랜섬웨어 복원력에 대한 라이선스 요구 사항을 충족하는지 확인하세요.</block>
   <block id="5ef05167488611c5bd4ff0f410595ce4" category="list-text">30일 무료 체험</block>
   <block id="e71ba6c3178fa6f6844891e615ad0570" category="list-text">Amazon Web Services(AWS) Marketplace, Google Cloud Marketplace 또는 Azure Marketplace에서 PAYGO(Pay-as-you-go) 구독을 구매하세요.</block>
   <block id="2f0583f3da64d216aa72116dc3460499" category="list-text">BYOL(Bring Your Own License): NetApp 영업 담당자로부터 받는 NetApp 라이선스 파일(NLF)입니다. 콘솔에서 라이선스 일련 번호를 사용하여 BYOL을 활성화할 수 있습니다.</block>
@@ -1609,10 +1596,8 @@
   <block id="a55a22032fc9fd630abe933324e9d4b9" category="paragraph-title">Ransomware Resilience는 ONTAP 의 보호 설정을 인식합니까?</block>
   <block id="1c8f51534c2fc10dfef26d32d61c7ed3" category="paragraph">라이선스 및 청구의 경우, Ransomware Resilience는 백업 및 복구에 대한 별도 라이선스가 없더라도 백업 및 복구와 통합될 수 있습니다. 백업 및 복구와 랜섬웨어 복원력을 모두 사용하는 경우, 두 제품으로 보호되는 공통 데이터는 랜섬웨어 복원력에 의해서만 청구됩니다.</block>
   <block id="182b9ed848b82506c10ba162f10e3f5b" category="list-text">Oracle, VMware 데이터 저장소, 파일 공유와 같은 애플리케이션 기반 워크로드의 데이터를 보호합니다.</block>
-  <block id="aa07eabc400eb4ccb13f116e99da0b48" category="list-text">*작업 부하*: 랜섬웨어 복원력의 작업 부하에는 Oracle 데이터베이스, VMware 데이터 저장소 또는 파일 공유가 포함될 수 있습니다.</block>
   <block id="6b62768f3f94df043ea31bf9c43b2a42" category="paragraph">랜섬웨어 복원력은 다음과 같은 작업 부하를 식별할 수 있습니다: Oracle, 파일 공유, 블록 스토리지, VM 및 VM 데이터 저장소.</block>
   <block id="897c29783a147c6c7b7844f2d4a9e81a" category="paragraph">미리보기 버전의 경우, 이 서비스는 BlueXP 조직 전체에서 온프레미스 NAS 스토리지의 Oracle, VM 데이터 저장소 및 파일 공유의 애플리케이션 기반 워크로드와 AWS의 Cloud Volumes ONTAP (NFS 프로토콜 사용)을 개별적으로 보호하고 Amazon Web Services 클라우드 스토리지에 데이터를 백업합니다.</block>
-  <block id="2d2972fc6d16379955701a1cc8c6633f" category="sidebar">NetApp Ransomware Resilience 온프레미스 및 클라우드 스토리지에서 랜섬웨어 위협으로부터 애플리케이션 워크로드와 파일 공유를 보호, 탐지하고 복구를 지원합니다. 랜섬웨어 복원력은 안전한 백업과 복구를 지원하여 조직이 중요한 데이터를 보호하고 Oracle, VM 데이터 저장소, NAS 스토리지 등의 비즈니스 연속성을 유지하는 데 도움이 됩니다.</block>
   <block id="f075180c986e3a7a8e0bad4fcec7c485" category="cell">15.3(64비트) ~ 15.6(64비트)</block>
   <block id="32d094cff0ab508ab383051555e7844b" category="cell">8.10(64비트) 및 9.1(64비트) ~ 9.6(64비트), SELinux 포함</block>
   <block id="1d9fc183665bd1e195391190be506894" category="cell">레드햇</block>
@@ -1660,9 +1645,6 @@
   <block id="22a81a009e8d21bf17e2788fdbfa4a6d" category="paragraph">Amazon FSx for NetApp ONTAP 시스템은 랜섬웨어 복원력에서 지원됩니다. Amazon FSx for ONTAP 에는 다음과 같은 제한 사항이 적용됩니다.</block>
   <block id="f20af4e11539d270463e7ed46557be6f" category="paragraph">NetApp Ransomware Resilience 사용하려면 먼저 워크로드 데이터를 검색해야 합니다. 발견 과정에서 Ransomware Resilience는 조직 내 모든 콘솔 에이전트와 프로젝트에 있는 시스템의 모든 볼륨과 파일을 분석합니다.</block>
   <block id="55971de7d1268c37251f60641b742b76" category="paragraph">디스커버리 대시보드에서 랜섬웨어 복원력은 지원되는 시스템 구성과 지원되지 않는 시스템 구성을 표시합니다. 랜섬웨어 복원력은 Oracle 애플리케이션, VMware 데이터 저장소, 파일 공유 및 블록 스토리지를 평가합니다.</block>
-  <block id="1e55889dc96c3aa2614c39626c9cecdd" category="admonition">랜섬웨어 복원력은 FlexGroup 사용하는 볼륨이 있는 워크로드를 검색하지 않습니다.</block>
-  <block id="242b6b00ff2f35d933e337704d202041" category="list-text">워크로드 검색 카드에서 *워크로드 검색*을 선택합니다. 검색에는 몇 분 정도 소요될 수 있습니다.  로딩 아이콘은 진행 상황을 표시합니다.</block>
-  <block id="728cc93ad9329b5fca77365b0336ce77" category="list-text">랜섬웨어 복원력은 지원되는 시스템과 지원되지 않는 시스템을 모두 발견합니다. ONTAP 버전이 요구되는 버전보다 낮으면 해당 시스템을 지원하지 않습니다. 지원되지 않는 시스템 위에 마우스를 올리면 툴팁에 그 이유가 표시됩니다. 워크로드를 검색할 시스템을 선택하세요.</block>
   <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="section-title">더 많은 정보</block>
   <block id="48bf90c5e99016f124c48c02a77dc8fd" category="inline-link-macro">NetApp Console 라이선스 및 구독 관련 문서</block>
   <block id="0fa9a3c869139d736cd7d6df862b94e3" category="list-text"><block ref="0fa9a3c869139d736cd7d6df862b94e3" category="inline-link-macro-rx"></block></block>
@@ -2027,7 +2009,6 @@
   <block id="a6bd7f80fc17cbb8e58e8dca754bf710" category="list-text">환경에서 의심스러운 사용자를 차단하려면 사용자 이름 옆에 있는 *Block*을 선택하십시오.</block>
   <block id="e2907e7cb7d68b36821cd11cda209bc3" category="cell">SAN(iSCSI 및 NVMe)</block>
   <block id="65072a668477cd315b4302df8afcce32" category="paragraph">NetApp Ransomware Resilience는 랜섬웨어 공격으로부터 데이터를 보호합니다. Ransomware Resilience에서는 Oracle의 애플리케이션 기반 워크로드, VM 데이터 저장소, NAS 스토리지(NFS 및 CIFS 프로토콜)용 파일 공유 및 SAN 스토리지(FC, iSCSI 및 NVMe 프로토콜)에 대한 보호를 사용할 수 있습니다. Ransomware Resilience는 온프레미스 스토리지뿐만 아니라 NetApp Console 전반에 걸쳐 Amazon Web Services용 Cloud Volumes ONTAP, Google Cloud용 Cloud Volumes ONTAP, Microsoft Azure용 Cloud Volumes ONTAP, Azure NetApp Files 및 Amazon FSx for NetApp ONTAP에서 지원됩니다. Amazon Web Services, Google Cloud, Microsoft Azure 및 NetApp StorageGRID에 데이터를 백업할 수 있습니다.</block>
-  <block id="8987946f77221ac2f7d1494a4fcae0a6" category="list-text">NetApp Console, 프로젝트 및 Console 에이전트를 통해 NetApp 온프레미스 NAS 및 SAN 시스템에서 애플리케이션 기반, 파일 공유 또는 VMware 관리 워크로드를 *식별*합니다. 워크로드를 발견한 후 Ransomware Resilience는 랜섬웨어 복원력을 향상시킬 수 있는 기회를 파악합니다.</block>
   <block id="3b9c98c430c62cb3627db641468d7e64" category="list-text">랜섬웨어 방어 상태를 평가하고 이해하기 쉬운 대시보드에 표시하며 방어력 향상을 위한 권장 사항을 제공합니다.</block>
   <block id="9bd1fe262c57584526c5184d4de31827" category="list-text">온프레미스 ONTAP 클러스터 또는 Cloud Volumes ONTAP 시스템이 Console에 설정되어 있지 않은 경우 <block ref="1c09904f3fbf9f22b68e96599d2dcddc" category="inline-link-macro-rx"></block> 및 <block ref="b04507b2bbabc17c071b912167d3ff4f" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="3eb45f3714606347a6ff182b822b69cc" category="list-text">ONTAP 또는 Cloud Volumes ONTAP 클러스터의 경우 NetApp Ransomware Resilience를 사용하려면 ONTAP 버전 9.11.1 이상이어야 합니다.</block>
@@ -2037,8 +2018,6 @@
   <block id="401331622ba7c8cd9b2b100526565200" category="paragraph"><block ref="401331622ba7c8cd9b2b100526565200" category="inline-image-macro-rx" type="image"></block></block>
   <block id="01dfed405f4d8cc130b8369c1886ec0f" category="inline-link-macro">대시보드에 표시되는 내용을 알아보세요.</block>
   <block id="7ca04b3ca0d38a36dbb53ddae48a80fa" category="paragraph"><block ref="7ca04b3ca0d38a36dbb53ddae48a80fa" category="inline-link-macro-rx"></block></block>
-  <block id="c86672f01f1885742d44030caeca3656" category="list-text">대시보드에서 *새로 고침* 아이콘을 선택하여 새 워크로드를 찾으세요.</block>
-  <block id="6a9bfc63a8ad7addf42c2109b163b952" category="paragraph">이미 워크로드를 검색한 경우 새 워크로드 또는 이전에 선택하지 않은 워크로드를 찾을 수 있습니다.</block>
   <block id="86f1d97261d36debcad3b0a69e10f3f4" category="list-text">Ransomware Resilience에서 *설정*을 선택하세요.</block>
   <block id="91437eaac9ac7d1f1da9a4e4751cbaa6" category="paragraph">예, Ransomware Resilience는 ONTAP에 설정된 스냅샷 스케줄을 검색합니다. 또한 검색된 워크로드의 모든 볼륨에서 ARP 및 FPolicy가 활성화되어 있는지 여부도 확인합니다. Ransomware Resilience 대시보드에 표시되는 정보는 다른 NetApp 솔루션 및 제품에서 집계된 것입니다.</block>
   <block id="30d645e3c3e5cd0e502a92a067fc1be8" category="paragraph">Ransomware Resilience는 설정 옵션을 통해 백업 대상을 구성하는 데 도움을 줍니다. <block ref="e25a1b60993d45f33b0deea2ae726330" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
@@ -2099,8 +2078,6 @@
   <block id="d805ea206a1d58881a7d28213018ae80" category="sidebar">준비 태세 훈련 실시</block>
   <block id="a23f6543c6afd691624522ac1b0c2620" category="paragraph">이번 릴리스에서는 BlueXP backup and recovery와 같은 다른 NetApp 도구의 스냅샷 및 백업 정책이 적용된 워크로드의 구성 프로세스가 개선되었습니다. 이전 릴리스에서는 BlueXP ransomware protection이 다른 도구의 정책을 검색하여 탐지 정책만 변경할 수 있었습니다. 이번 릴리스에서는 스냅샷 및 백업 정책을 BlueXP ransomware protection 정책으로 교체하거나 다른 도구의 정책을 계속 사용할 수 있습니다.</block>
   <block id="b720eb62a1de68d6cb9c9dbea3c63907" category="list-text">RPO 정책을 충족하기 위해 맞춤형 복구 기능을 적용합니다. 랜섬웨어 복원력은 NetApp Backup and Recovery를 통해 랜섬웨어 공격으로부터의 복구를 체계적으로 관리합니다.</block>
-  <block id="a819c959f129152fca4db3ef3b38727c" category="list-text">콘솔에 연결된 시스템에서 고객의 온프레미스 및 클라우드 NAS(NFS 및 CIFS 프로토콜)와 SAN(FC, iSCSI 및 NVMe) 데이터를 모두 찾습니다.</block>
-  <block id="d24b6d4f9b8a5c2126c721c0f8b448e5" category="list-text">ONTAP 및 Backup and Recovery 서비스 API에서 고객 데이터를 식별하고 워크로드와 연결합니다. 자세한 내용은 다음을 참조하십시오<block ref="a16fd9a0601d0464b4c9ce4f59c2454b" category="inline-link-rx"></block>.</block>
   <block id="5d81d4b181b1f6e47c262988038cd67d" category="paragraph">랜섬웨어 복원력은 현재 백업 보호, 스냅샷 복사본 및 NetApp 자율형 랜섬웨어 보호 옵션을 점검합니다. 랜섬웨어 복원력은 또한 파일 공유 및 VM 파일 공유에 대한 NetApp Backup and Recovery의 보호 정보를 감지합니다. 그런 다음 랜섬웨어 보호를 개선할 수 있는 방법을 권장합니다.</block>
   <block id="c048f8419f5606e294e716a232b223a2" category="paragraph-title">랜섬웨어 복원력은 NetApp Backup and Recovery와 어떻게 연동됩니까?</block>
   <block id="eadde9be35eb975c3bbd5558937ea6ce" category="paragraph">Ransomware Resilience는 Backup and Recovery와 연동하여 파일 공유 워크로드에 대한 스냅샷 및 백업 정책을 검색하고 설정합니다. 또한 Ransomware Resilience는 Backup and Recovery와 연동하여 파일 및 워크로드 일관성을 유지하는 복구를 수행합니다.</block>
@@ -2459,4 +2436,25 @@
   <block id="7a755da696018214d12394be03c26ad9" category="list-text">*client_ips*: 의심스러운 활동과 관련된 클라이언트 IP 주소 목록으로, NFS 경고에만 적용됩니다.</block>
   <block id="f9eb142e440614e3bc3df451c259e688" category="inline-xref-macro">사용자 행동 감지</block>
   <block id="7cf317ef553074fdf56ee4c41abb350e" category="admonition">*user_name* 및 *user_id* 필드는 <block ref="25f82e638d2822742166353d70e9d327" category="inline-xref-macro-rx"></block>을 구성한 경우에만 관련이 있습니다.</block>
+  <block id="25b4dd9535e0d17e415da7dea9f2e1a2" category="list-text">NetApp Console, 프로젝트 및 Console 에이전트 전반에 걸쳐 NetApp 온프레미스 NAS 및 SAN 시스템의 워크로드를 *식별*합니다. 워크로드를 검색한 후 Ransomware Resilience는 랜섬웨어 복원력을 개선할 수 있는 기회를 식별합니다.</block>
+  <block id="76c07e024915a14c275975a549a9ee9b" category="list-text">여러 NetApp 기술을 오케스트레이션하여 워크로드 가동 시간을 가속화하는 데 도움이 되도록 워크로드를 *복구*하십시오. 특정 볼륨을 복구하도록 선택할 수 있습니다. Ransomware Resilience는 최상의 옵션에 대한 권장 사항을 제공합니다.</block>
+  <block id="857d0c5d34b476c300d20857901434ee" category="list-text">Console에 연결된 시스템에서 온프레미스 및 클라우드 NAS(NFS 및 CIFS 프로토콜)와 SAN(FC, iSCSI 및 NVMe)의 모든 데이터를 찾습니다.</block>
+  <block id="8d2a9bcb8af52527cb5ef134952b126c" category="list-text">ONTAP 및 Backup and Recovery 서비스 API에서 데이터를 식별하고 워크로드와 연결합니다. 자세한 내용은<block ref="a16fd9a0601d0464b4c9ce4f59c2454b" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="aea5e53a84ea68f5c29fd5b651210249" category="list-text">*워크로드*: 워크로드는 시스템 내 스토리지 리소스의 논리적 그룹화입니다. 예를 들어 Oracle 데이터베이스, VMware 데이터스토어 또는 파일 공유 등이 있습니다.</block>
+  <block id="185b7516beffeca9e791d1462be2e3df" category="paragraph">워크로드에 적용된 보호 정책 사용을 중지하려면 System Manager, API 호출 또는 CLI를 사용하여 해당 정책을 비활성화할 수 있습니다.</block>
+  <block id="321e92de54fb9050ca985e93dd41037e" category="admonition">NetApp Ransomware Resilience는 FlexGroup을 사용하는 볼륨이 있는 시스템을 검색하지 않습니다.</block>
+  <block id="660970b5bfb72eddca5566de07107009" category="section-title">검색할 워크로드를 선택하세요</block>
+  <block id="2206052869b09e544d3b0ca84614cb93" category="paragraph">각 Console 에이전트 내에서 워크로드를 식별할 시스템을 선택합니다.</block>
+  <block id="3e567fadbb65a78232511f4530a5e9ee" category="inline-link-macro">보호 구성</block>
+  <block id="542dbcbddb5ad48872c0a3467bca19cf" category="paragraph">워크로드를 검색한다고 해서 자동으로 보호되는 것은 아닙니다. Ransomware Resilience는 검색 과정에서 NetApp Backup and Recovery 또는 ONTAP의 기존 보호 정책을 인식합니다. 보호 기능이 없는 워크로드의 경우 <block ref="7fe4ee5a6fb50faf1d1032b2174bc3d8" category="inline-link-macro-rx"></block>해야 합니다.</block>
+  <block id="c9469d9f20bc9e5b5d8e18790baaa32c" category="paragraph">처음 로그인하는 경우 랜딩 페이지가 표시됩니다. 무료 체험을 시작하려면 *30일 무료 체험 시작*을 선택하세요. 이미 체험을 활성화한 경우 *워크로드 검색 시작*을 선택하세요.</block>
+  <block id="25e55f8e8c02fccd0565ce3e09516eaa" category="list-text">특정 Console 에이전트에 대한 시스템을 검색하려면 검색하려는 시스템이 포함된 Console 에이전트의 아래쪽 화살표를 선택하십시오.</block>
+  <block id="491d8571b2a09dcbae564ec801e25fe7" category="list-text">검색을 수행할 시스템을 선택합니다.</block>
+  <block id="d741204137cafb846d39315517ca1067" category="list-text">대시보드에서 *새로 고침* 아이콘을 선택하여 새 워크로드를 식별합니다.</block>
+  <block id="812c0e17c55314eccce1dcb3ee7d6153" category="paragraph">이미 시스템에 대한 검색을 수행했고 그 후에 워크로드를 추가했다면 워크로드를 식별하기 위해 검색을 다시 수행하십시오.</block>
+  <block id="b793bd330c25538b7cd98bb4e4bec503" category="list-text">워크로드 검색 카드에서 *검색*을 선택하세요. 검색에는 몇 분 정도 소요될 수 있습니다. 로딩 아이콘이 진행 상황을 표시합니다.</block>
+  <block id="e35ddec8b9589eba5325509abe9f7e64" category="list-text">Ransomware Resilience는 지원되는 시스템과 지원되지 않는 시스템을 모두 검색합니다. ONTAP 버전이 요구되는 버전보다 낮으면 해당 시스템은 지원되지 않습니다. 지원되지 않는 시스템 위에 마우스를 올리면 툴팁에 이유가 표시됩니다. 워크로드를 식별할 시스템을 선택하십시오.</block>
+  <block id="6d008767b6b1ed8f9bb99930968157ff" category="summary">워크로드를 보호하려면 NetApp Ransomware Resilience에 필요한 라이선스 요구 사항을 충족해야 합니다.</block>
+  <block id="360e5892ccf9a138fa1f7477e6e2db92" category="list-text">Ransomware Resilience를 처음 사용하시는 경우, <block ref="f19bbe7d2dbc45b6f2a3e4d9d3615c0f" category="inline-link-macro-rx"></block>.</block>
+  <block id="df3fb79f22fd0d8a496bd6ab0f7fcb62" category="sidebar">NetApp Ransomware Resilience는 온프레미스 및 클라우드 스토리지에서 랜섬웨어 위협으로부터 워크로드를 보호하고, 탐지하며, 복구를 지원합니다. Ransomware Resilience를 통해 안전한 백업 및 복구가 가능해지므로, 조직은 Oracle, VM 데이터스토어, NAS 스토리지 등에서 중요한 데이터를 보호하고 비즈니스 연속성을 유지할 수 있습니다.</block>
 </blocks>
