@@ -16,7 +16,6 @@ NOTE: Amazon FSxN for ONTAP에서 소스를 사용하여 IRE를 구성하는 경
 
 .운영 환경 라우팅 테이블
 * 운영 환경 라우팅 테이블은 IRE 서브넷에서 클린 복원 데이터 LIF IP로의 트래픽을 허용해야 합니다. 이 경로를 운영 환경 라우팅 테이블에 추가해야 합니다.
-* 운영 ONTAP 클러스터의 보안 그룹 및 방화벽은 클린 복원 데이터 LIF IP로 향하는 NFSv4 및 NFSv3 인바운드 트래픽을 허용해야 합니다. 방화벽은 IRE CIDR 범위에서 들어오는 트래픽을 허용하도록 열려 있어야 합니다.
 +
 [cols="1,1,1,1"]
 |===
@@ -40,6 +39,10 @@ NOTE: Amazon FSxN for ONTAP에서 소스를 사용하여 IRE를 구성하는 경
 
 | TCP 및 UDP | 4049 | IRE VPC CIDR 범위 | IRE에서 NFSv3 액세스 
 |===
+
+
+.IRE 방화벽
+* crr-data-LIF-IP에 대한 수신을 관리하기 위해 별도의 방화벽을 생성해야 합니다. 이 방화벽은 IRE VPC CIDR 범위에서 NFSv3 및 NFSv4 마운트를 허용해야 합니다.
 
 
 .IRE 라우팅 테이블

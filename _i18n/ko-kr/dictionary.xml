@@ -2178,7 +2178,6 @@
   <block id="b1573f80f25470f8eb281542e0c5be32" category="list-text">SVM 데이터 LIF IP에서 IRE로의 라우팅을 허용합니다.</block>
   <block id="9c9dab37f0ac19e3e253ffd75559fad6" category="list-title">운영 환경 라우팅 테이블</block>
   <block id="17e68097ee762fecf78b9e9fdb36d0c8" category="list-text">운영 환경 라우팅 테이블은 IRE 서브넷에서 클린 복원 데이터 LIF IP로의 트래픽을 허용해야 합니다. 이 경로를 운영 환경 라우팅 테이블에 추가해야 합니다.</block>
-  <block id="673c05ce31cb0b56b8af3c9126f1cbb0" category="list-text">운영 ONTAP 클러스터의 보안 그룹 및 방화벽은 클린 복원 데이터 LIF IP로 향하는 NFSv4 및 NFSv3 인바운드 트래픽을 허용해야 합니다. 방화벽은 IRE CIDR 범위에서 들어오는 트래픽을 허용하도록 열려 있어야 합니다.</block>
   <block id="7c1a5f175cfc657a18de4a95621d74e3" category="cell">대상 포트</block>
   <block id="261addf78c7b2c961032b3dd08ba0b1f" category="cell">목적</block>
   <block id="f8dc77f2ac2f7272dc57dd5689ee9d63" category="cell">TCP 및 UDP</block>
@@ -2457,4 +2456,6 @@
   <block id="6d008767b6b1ed8f9bb99930968157ff" category="summary">워크로드를 보호하려면 NetApp Ransomware Resilience에 필요한 라이선스 요구 사항을 충족해야 합니다.</block>
   <block id="360e5892ccf9a138fa1f7477e6e2db92" category="list-text">Ransomware Resilience를 처음 사용하시는 경우, <block ref="f19bbe7d2dbc45b6f2a3e4d9d3615c0f" category="inline-link-macro-rx"></block>.</block>
   <block id="df3fb79f22fd0d8a496bd6ab0f7fcb62" category="sidebar">NetApp Ransomware Resilience는 온프레미스 및 클라우드 스토리지에서 랜섬웨어 위협으로부터 워크로드를 보호하고, 탐지하며, 복구를 지원합니다. Ransomware Resilience를 통해 안전한 백업 및 복구가 가능해지므로, 조직은 Oracle, VM 데이터스토어, NAS 스토리지 등에서 중요한 데이터를 보호하고 비즈니스 연속성을 유지할 수 있습니다.</block>
+  <block id="d75c1a5d668e6fb6360954c43259df75" category="list-title">IRE 방화벽</block>
+  <block id="93222c59d4ce3b5c19ed433527efc1b4" category="list-text">crr-data-LIF-IP에 대한 수신을 관리하기 위해 별도의 방화벽을 생성해야 합니다. 이 방화벽은 IRE VPC CIDR 범위에서 NFSv3 및 NFSv4 마운트를 허용해야 합니다.</block>
 </blocks>
