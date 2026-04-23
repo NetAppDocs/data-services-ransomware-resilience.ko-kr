@@ -14,7 +14,7 @@ summary: 발견 과정에서 Ransomware Resilience는 모든 콘솔 에이전트
 [role="lead"]
 NetApp Ransomware Resilience 사용하려면 먼저 워크로드 데이터를 검색해야 합니다. 발견 과정에서 Ransomware Resilience는 조직 내 모든 콘솔 에이전트와 프로젝트에 있는 시스템의 모든 볼륨과 파일을 분석합니다.
 
-디스커버리 대시보드에서 랜섬웨어 복원력은 지원되는 시스템 구성과 지원되지 않는 시스템 구성을 표시합니다. 랜섬웨어 복원력은 Oracle 애플리케이션, VMware 데이터 저장소, 파일 공유 및 블록 스토리지를 평가합니다.
+검색 대시보드에서 NetApp Ransomware Resilience는 지원되는 시스템 구성과 지원되지 않는 시스템 구성을 표시합니다. NetApp Ransomware Resilience는 파일 공유 및 블록 스토리지를 평가합니다.
 
 
 NOTE: NetApp Ransomware Resilience는 FlexGroup을 사용하는 볼륨이 있는 시스템을 검색하지 않습니다.
