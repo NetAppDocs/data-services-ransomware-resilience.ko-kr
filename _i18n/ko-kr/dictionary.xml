@@ -682,15 +682,7 @@
   <block id="0c494aaba0bbfa24f1d3a7438930b616" category="list-text">작업 부하를 선택하고 오른쪽에 있는 *작업* ... 아이콘을 선택한 다음 *작업 부하 이름 편집*을 선택합니다.</block>
   <block id="b7ac3f69f0c0ac25814be4d03ba11c24" category="list-text">새로운 작업 부하 이름을 입력하고 *저장*을 선택합니다.</block>
   <block id="565c83689e020f29cdb2b1a2a0116b1a" category="inline-link-macro">공격으로부터 복구</block>
-  <block id="bc1b76060f49fe8ad404d389d8431371" category="summary">NetApp Data Classification 통해 데이터에 개인 식별 정보나 비공개 정보가 포함되어 있는지 식별하여 데이터의 보안 및 개인정보 보호 규정 준수를 강화하세요.</block>
-  <block id="604880f6f585767eee17ec85b3c76533" category="inline-link-macro">데이터 분류</block>
-  <block id="00735a048dd8a101a0cf04ff8cf7c168" category="paragraph"><block ref="2324d2fecbef2eccb7e03b987d67689b" category="inline-link-macro-rx"></block>AI 기반 자연어 처리를 활용해 상황에 맞는 데이터를 분석하고 분류하여, 규정 준수 요구 사항을 충족하고, 보안 취약성을 탐지하고, 비용을 최적화하고, 마이그레이션을 가속화할 수 있는 실행 가능한 데이터 통찰력을 제공합니다.</block>
-  <block id="d3b14d365ca3277402fce2839d562f60" category="admonition">이 프로세스는 작업 부하의 중요도에 영향을 미쳐 적절한 보호가 이루어지도록 하는 데 도움이 됩니다.</block>
-  <block id="aeb066b15e66f67bbfa9db1332465422" category="section-title">데이터 분류를 통해 개인 정보 노출 식별</block>
   <block id="ba2c5a24730716f70a2b315220375de6" category="inline-link-macro">데이터 분류를 활성화하여 데이터를 스캔합니다.</block>
-  <block id="c4f1661d1e0ca939d13156f9f3d34d48" category="paragraph">랜섬웨어 복원력 내에서 데이터 분류를 사용하기 전에 다음이 필요합니다.<block ref="c872c876324415ce189a729b6026b061" category="inline-link-macro-rx"></block> .</block>
-  <block id="ee34749052b0d62bf351eb75d25107b1" category="paragraph">랜섬웨어 복원력의 보호 페이지에서 데이터 분류를 배포할 수 있습니다.  개인정보 노출을 식별하기 위한 절차를 따르세요.  **노출 식별**을 선택할 때 아직 데이터 분류를 배포하지 않은 경우 대화 상자가 나타나 데이터 분류를 활성화할 수 있습니다.</block>
-  <block id="9ed086de7334074ba1b8a57d92fad8c8" category="paragraph">데이터 분류에 대한 자세한 내용은 다음을 참조하세요.</block>
   <block id="06e283ee316863d38f0fea16ba5785cc" category="inline-link">데이터 분류에 대해 알아보세요</block>
   <block id="8b3703ff6ebaa8b98d723211fb1dfc77" category="list-text"><block ref="8b3703ff6ebaa8b98d723211fb1dfc77" category="inline-link-rx"></block></block>
   <block id="93f515959ce6187b986c42fa6959168b" category="inline-link">개인 정보의 범주</block>
@@ -698,30 +690,15 @@
   <block id="499dd7659f4fa7b600ca3796c449e41b" category="inline-link">귀하의 조직에 저장된 데이터를 조사하세요</block>
   <block id="23ca466c11f4192b1b942a142ef1083f" category="list-text"><block ref="23ca466c11f4192b1b942a142ef1083f" category="inline-link-rx"></block></block>
   <block id="b4b23bfb09d955d9adbd34e9b10730b7" category="inline-link-macro">배포된 데이터 분류</block>
-  <block id="6f70238b9dd1b1b13dcaa8388f9eb830" category="paragraph">랜섬웨어 복원력에서 PII 데이터 스캔은 다음 경우에 사용할 수 있습니다.<block ref="76ec7a4f27737b4abf63f3c2ea7bce9c" category="inline-link-macro-rx"></block> . 데이터 분류는 추가 비용 없이 콘솔의 일부로 제공되며 온프레미스 또는 고객 클라우드에 배포할 수 있습니다.</block>
-  <block id="22da148f02a4f9df3c95fa55ebe1f0e4" category="list-text">보호 페이지에서 작업 부하 열에서 파일 공유 작업 부하를 찾습니다.</block>
   <block id="ae026bf5e2ca5066c55b7b1740de800e" category="inline-image-macro">개인 정보 노출 열이 표시된 보호 페이지</block>
   <block id="9dedf1958376570fec810d3b47c2d3ec" category="paragraph"><block ref="9dedf1958376570fec810d3b47c2d3ec" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6167c82beb8173b9fd8c04acf7729651" category="list-text">데이터 분류를 활성화하여 PII에 대한 데이터를 검사하려면 *개인 정보 노출* 열에서 *노출 식별*을 선택합니다.</block>
-  <block id="7058bb0083130a5c71fe119ba40e514f" category="admonition">데이터 분류를 배포하지 않은 경우 *노출 식별*을 선택하면 데이터 분류를 배포하기 위한 대화 상자가 열립니다.  *배포*를 선택합니다.  데이터 분류를 배포한 후 보호 페이지로 돌아와서 *노출 식별*을 선택할 수 있습니다.</block>
-  <block id="a5795ac9b0de866cf01ea8939331c119" category="paragraph">스캔은 파일의 크기와 수에 따라 몇 분 정도 걸릴 수 있습니다.  검사하는 동안 보호 페이지에는 파일이 식별되고 파일 개수가 제공됩니다.  스캐닝이 완료되면 개인 정보 노출 열에서 노출 수준을 낮음, 보통, 높음으로 평가합니다.</block>
-  <block id="70f91b9311063ebb918671e1632eea94" category="section-title">개인정보 노출 검토</block>
-  <block id="0537b0ecb09c0d9c0d03fe90ad780697" category="paragraph">PII에 대한 데이터 분류 스캔 후 위험을 평가합니다.</block>
-  <block id="8a35aa96c6cd6c5a2441282d0cba7849" category="paragraph">PII 데이터는 다음 세 가지 명칭 중 하나로 분류됩니다.</block>
   <block id="d2d08f06bc04a605f3fcfb8f214d6693" category="list-text">*높음*: 파일의 70% 이상이 PII를 포함합니다.</block>
   <block id="28f2318706a91f0a8540b36afa47aa64" category="list-text">*중간*: 파일의 30% 이상, 70% 미만에 PII가 포함되어 있음</block>
   <block id="ea1385f5976d3bde8b3b9d5653072157" category="list-text">*낮음*: 0% 초과, 30% 미만의 파일에 PII가 포함되어 있음</block>
-  <block id="743c833ae848226cd938cbcdec4813e8" category="list-text">보호 페이지에서 개인 정보 노출 열에 상태가 표시되는 작업 부하 열에서 파일 공유 작업 부하를 찾습니다.</block>
-  <block id="648eb89d24fbd412ac4e5191ba6b3cfc" category="list-text">작업 부하 열에서 작업 부하 링크를 선택하면 작업 부하 세부 정보를 볼 수 있습니다.</block>
   <block id="0bb4a1497d3056f8b2f0423eff14e160" category="inline-image-macro">개인 정보 노출 타일을 보여주는 작업 부하 세부 정보 화면</block>
   <block id="7b0824f1068863bca201f38cc7763786" category="paragraph"><block ref="7b0824f1068863bca201f38cc7763786" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0d24b9f644f661e7276d0d4f3fdfaa2e" category="list-text">작업 부하 세부 정보 페이지에서 개인 정보 노출 타일의 세부 정보를 확인하세요.</block>
   <block id="dffb203aa27226e3750f92c5c60829df" category="section-title">개인정보 노출이 업무 중요도에 미치는 영향</block>
   <block id="61915adac4ce0b36ecdb70a5e446a80b" category="paragraph">개인정보 노출 변경은 작업 부하의 중요도에 영향을 미칠 수 있습니다.</block>
-  <block id="a201dfb7539c6083e641a0bc8121201b" category="cell">개인정보 노출 시:</block>
-  <block id="65dc756d3347a26af4774cab05b6f1a6" category="cell">이러한 개인정보 노출로 인해:</block>
-  <block id="8dc6cf962cd8b6b9d4c2ec1c25942b36" category="cell">이러한 개인정보 노출에 대하여:</block>
-  <block id="9a70ecaf65d678d97afe7382a0197469" category="cell">그러면 작업 부하 중요도는 다음과 같습니다.</block>
   <block id="e999cd086de455a56c2f7d169210876b" category="cell">*감소*</block>
   <block id="a479d5f7790c7e99c1c56e63d46a8d05" category="paragraph">높음, 중간 또는 낮음</block>
   <block id="bd05a001892856f4f5d6aa48b0879798" category="cell">중간, 낮음 또는 없음</block>
@@ -735,8 +712,6 @@
   <block id="f8307a8be7170a599a441165be60a2d7" category="cell">낮음 또는 중간</block>
   <block id="655d20c1ca69519ca647684edbb2db35" category="paragraph">높은</block>
   <block id="f5bfc54a73042ca571add47438fea77e" category="cell">표준 또는 중요에서 중요로의 변경</block>
-  <block id="d13de4a83d7b44c2e65495def8ef1c7b" category="section-title">더 많은 정보를 원하시면</block>
-  <block id="420b39017799ccdb233cdc7c2b2d4d58" category="paragraph">데이터 분류에 대한 자세한 내용은 데이터 분류 설명서를 참조하세요.</block>
   <block id="903c9d0250ec5956f3a9e1f0a3469c20" category="summary">NetApp Ransomware Resilience 에서 워크로드에 정책을 할당하여 랜섬웨어 공격으로부터 워크로드를 보호할 수 있습니다.</block>
   <block id="54a418aa76c7e9afaa77a58a34a3d3ed" category="doc">NetApp Ransomware Resilience 보호 전략으로 워크로드를 보호하세요</block>
   <block id="9d76fd8cddbcb128567856bd698d409e" category="section-title">랜섬웨어 보호 전략 이해</block>
@@ -2075,8 +2050,6 @@
   <block id="7df30d939fa4f3d1575169ec6d1894d8" category="doc">NetApp Ransomware Resilience의 알려진 제한 사항</block>
   <block id="e9be3c13b1ed73a120f1b23e2cefb058" category="doc">NetApp Ransomware Resilience에서 워크로드를 찾아보세요</block>
   <block id="871215526a8732732fd40b6335388e98" category="doc">NetApp Ransomware Resilience에 대한 FAQ</block>
-  <block id="1ca81bce832a538b6144470d9a25c786" category="paragraph">NetApp Ransomware Resilience 내에서 NetApp Data Classification을 사용하여 파일 공유 워크로드의 데이터를 검사하고 분류할 수 있습니다. 데이터를 분류하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 여부를 판단할 수 있으며, 이는 보안 위험을 증가시킬 수 있습니다.</block>
-  <block id="1954c0eede9cec276e44236c76142770" category="paragraph">Data Classification은 NetApp Console의 핵심 구성 요소입니다. Data Classification을 사용하기 위해 라이센스가 필요하지 않습니다. 설정에 따라 Data Classification을 구성하는 데 비용이 발생할 수 있지만 Ransomware Resilience에서는 해당 비용을 청구하지 않습니다. 자세한 내용은 <block ref="c5cce5d1091349460847f69d486fd688" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="70c542a285cfdf5cc22587e58fc3fcbb" category="doc">Microsoft Sentinel 및 Splunk용 SOAR 플레이북</block>
   <block id="2f9304fe9b427489507405bef9a0bb9f" category="inline-link-macro">Splunk</block>
   <block id="c75f115758f26a9b54a9d51601b66cf9" category="inline-link-macro">SOAR 플레이북 통합</block>
@@ -2355,7 +2328,6 @@
   <block id="138cbd11459ece46267adb92ab34ee1f" category="paragraph">영향을 받은 파일을 확인한 후 복원할 수 있습니다.</block>
   <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">2026년 4월 13일</block>
   <block id="794c08acf0fdad83a95c363b8c9662f4" category="sidebar">복구 상태 검토</block>
-  <block id="d14be6fd318be2bc44adb6224cd0309b" category="sidebar">클린 복원으로 복구</block>
   <block id="6ff288c704ac97afbc67708bc23dbc09" category="paragraph">지원되는 구성 및 클린 복원을 위한 시스템 구성 방법에 대한 자세한 내용은 <block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>를 참조하십시오. 클린 복원을 사용하여 복구하는 방법에 대한 자세한 내용은 <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="482b73c713ea8cffc3070c798b03badc" category="open-title">온프레미스에서 클라우드로</block>
   <block id="8880534a0e139c017e28bbf6bc44e84b" category="open-title">온프레미스에서 온프레미스로</block>
@@ -2447,4 +2419,22 @@
   <block id="b61174a96feeed9315df09125dbf021e" category="inline-link-macro">워크로드를 복원하기 전에 영향을 받는 파일을 다운로드하는 방법에 대해 자세히 알아보십시오</block>
   <block id="f9ab80c55fbab58c37aab4891dabffae" category="paragraph"><block ref="f9ab80c55fbab58c37aab4891dabffae" category="inline-link-macro-rx"></block></block>
   <block id="23bb3b926c6da9edf1342c50a0cbf22e" category="list-text">Docker 버전 20.x 이상이 설치되어 실행 중이어야 합니다.</block>
+  <block id="337f89149c6ad76d149c111687549e82" category="summary">NetApp Ransomware Resilience는 데이터의 개인정보 노출 위험을 식별하여 워크로드의 보안을 개선하는 데 도움을 줄 수 있습니다.</block>
+  <block id="2f43f805784f8d4ccf5eecb446bb36af" category="paragraph">NetApp Ransomware Resilience 내에서 NetApp Data Classification을 사용하여 개인정보 노출 위험을 식별하고 데이터를 사전에 보호할 수 있습니다. 개인정보 노출 위험을 식별하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 여부를 확인할 수 있습니다. 개인정보 노출은 보안 위험을 증가시키고 워크로드 중요도 지정을 변경할 수 있습니다.</block>
+  <block id="fa8dac95fc1c211dbfe88b9f20fc8136" category="section-title">개인정보 노출 요인 파악</block>
+  <block id="8c5e5072ac9e7825c5c9f373d2f1937a" category="paragraph">Ransomware Resilience에서 개인정보 유출 위험을 파악하려면 먼저 <block ref="c872c876324415ce189a729b6026b061" category="inline-link-macro-rx"></block>이(가) 필요합니다.</block>
+  <block id="43e618d6407986d787a8d0e2c9b466e7" category="inline-link-macro">비용이 발생할 수 있습니다</block>
+  <block id="d12546195d910bd6bdcd0c2558c63365" category="paragraph">Data Classification은 NetApp Console의 핵심 구성 요소이며 Ransomware Resilience와는 별개의 제품입니다. 사용하는 데 라이선스가 필요하지 않습니다. 설정에 따라 배포 <block ref="7e7dc9a1a76801355616ea493c3dce9e" category="inline-link-macro-rx"></block>에 대해 Ransomware Resilience에서 요금이 부과되지 않습니다.</block>
+  <block id="ce9cc130bc25a69c11fdf2053c205381" category="paragraph">Ransomware Resilience의 Protection 페이지에서 Data Classification을 배포할 수 있습니다. 개인정보 노출을 식별하는 절차를 따르십시오. **Identify exposure**를 선택하면 대화 상자가 나타납니다. *Deploy Classification for free*를 선택하십시오. 배포가 성공적으로 완료되면 Ransomware Resilience로 돌아가 워크로드의 노출을 식별할 수 있습니다.</block>
+  <block id="52e9471e9883639fa069802b2af375d6" category="paragraph">Ransomware Resilience에서 PII 데이터를 검색하는 기능은 <block ref="76ec7a4f27737b4abf63f3c2ea7bce9c" category="inline-link-macro-rx"></block>한 경우 사용할 수 있습니다.</block>
+  <block id="5afb28d9607fc0dfe3e7066a9a67cb87" category="list-text">보호 페이지에서 워크로드 열에 있는 파일 공유 워크로드를 찾습니다.</block>
+  <block id="1c124aeff3f31fd0eb4b2a910d95eecd" category="list-text">*Privacy exposure* 열에서 *Identify exposure*를 선택하세요. 스캔에는 몇 분 정도 소요될 수 있습니다.</block>
+  <block id="885d53eecb4dbc5294b615795243a7c8" category="list-text">스캔이 완료되면 노출량을 검토하십시오. 노출량은 다음 세 가지 유형 중 하나로 분류됩니다.</block>
+  <block id="8343a5d017382b35f03dd3e6e3a97a4d" category="inline-xref">워크로드 중요도에 대한 개인정보 노출의 영향</block>
+  <block id="24bb1248c7c9f44b075b9c7dbccc782a" category="list-text">개인정보 노출에 대한 자세한 내용을 보려면 워크로드 이름을 선택하고 <block ref="61dd50589a2fef3583fd959f8d71ff50" category="inline-xref-macro-rx"></block>을(를) 평가하십시오.</block>
+  <block id="532a317daa1b8ba820044c5ab5f734c1" category="cell">개인정보 노출 변경</block>
+  <block id="f5eb9155d3b6975ee55efb74e561e33d" category="cell">이전 노출</block>
+  <block id="79297b17dc9f8b6a6e468bfe48b8e0e4" category="cell">현재 노출</block>
+  <block id="cbe03757132fcab02b71ae82dd1e0884" category="cell">워크로드 중요도 변경</block>
+  <block id="2f976de5f743c1cf88b6945568efbc4d" category="paragraph">개인정보 노출 문제 해결 방법에 대한 자세한 내용은 NetApp Data Classification 문서를 참조하십시오.</block>
 </blocks>

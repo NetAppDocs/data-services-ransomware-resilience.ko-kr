@@ -54,6 +54,6 @@ image:screen-recovery2.png["복구 페이지"]
 
 워크로드를 평가한 후에는 워크로드를 복원하는 두 가지 옵션이 있습니다.
 
-* xref:task-custom-restore.html[사용자 지정 복원을 사용하여 복구]
 * xref:task-clean-restore.html[클린 복원을 통해 복구]
+* xref:task-custom-restore.html[사용자 지정 복원을 사용하여 복구]
 
