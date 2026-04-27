@@ -2289,7 +2289,6 @@
   <block id="fa48228aaf71277e6bc2d05f062b62bb" category="list-text">VMware Tools가 설치되어 실행 중이어야 합니다.</block>
   <block id="c3d0c72650d11485355d35484d14c0a1" category="list-text">SSH가 활성화되어 있어야 합니다.</block>
   <block id="e1be34a58f3251e0469bedfad3e4788d" category="list-text">nfs-common을 설치해야 합니다.</block>
-  <block id="bf53e61c050ee11a55b3479c83c5512f" category="list-text">Docker가 설치되어 실행 중이어야 합니다.</block>
   <block id="66ed64c9284af661b30715d4eca9f181" category="list-text">최소 40GB의 여유 공간이 필요합니다.</block>
   <block id="300cc7d3b66cf666cb37df412b0cc68b" category="list-text">Windows VM의 경우:</block>
   <block id="21755314d24463f2d188ab45bb05c0c0" category="list-text">Windows VM에는 20GB의 여유 공간이 있어야 합니다.</block>
@@ -2447,4 +2446,5 @@
   <block id="367e5a02a217d0d56ba1d4196683de67" category="paragraph">파일 수준에서 워크로드를 복원하기 전에 이제 알림 페이지에 액세스하여 영향을 받는 파일 목록을 CSV 파일로 다운로드한 다음 복구 페이지를 사용하여 CSV 파일을 업로드할 수 있습니다.</block>
   <block id="b61174a96feeed9315df09125dbf021e" category="inline-link-macro">워크로드를 복원하기 전에 영향을 받는 파일을 다운로드하는 방법에 대해 자세히 알아보십시오</block>
   <block id="f9ab80c55fbab58c37aab4891dabffae" category="paragraph"><block ref="f9ab80c55fbab58c37aab4891dabffae" category="inline-link-macro-rx"></block></block>
+  <block id="23bb3b926c6da9edf1342c50a0cbf22e" category="list-text">Docker 버전 20.x 이상이 설치되어 실행 중이어야 합니다.</block>
 </blocks>
