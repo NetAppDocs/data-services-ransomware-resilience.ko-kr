@@ -1,0 +1,35 @@
+= 클린 복원 기능 향상
+:allow-uri-read: 
+
+
+
+
+=== 클린 복원 기능 향상
+
+이제 클린 복원 기능은 대체 클러스터로의 복구 및 7일 이상의 분석을 지원합니다.
+
+link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["깔끔한 복원을 통해 워크로드 복구"^].
+
+
+
+=== Google SecOps SIEM 지원
+
+Ransomware Resilience는 이제 Google SecOps를 통한 보안 정보 및 이벤트 관리(SIEM)를 지원하므로 간소화된 위협 분석 및 탐지를 위해 데이터를 Google SecOps로 자동으로 전송할 수 있습니다.
+
+구성 정보는 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["Ransomware Resilience를 SIEM에 연결하세요"^]을(를) 참조하십시오.
+
+
+
+=== Azure NetApp Files 지원이 이제 정식으로 제공됩니다
+
+Ransomware Resilience는 이제 Azure NetApp Files 시스템을 지원하여 Azure NetApp Files에서 랜섬웨어 위협을 효율적으로 탐지하고 대응할 수 있습니다. 워크로드를 검색할 때 Ransomware Resilience는 이제 Azure NetApp Files를 표시하고 보호 대시보드에 표시합니다. Azure NetApp Files에 대한 Ransomware Resilience 지원에는 스냅샷만을 사용한 탐지 및 보호 전략이 포함됩니다. Azure NetApp Files 지원은 현재 정식 출시(GA)되었습니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["랜섬웨어 복원력에 대해 알아보세요"^]를 참조하십시오.
+
+
+
+=== SOAR의 사용자 차단 지원
+
+Ransomware Resilience이 이제 Google SecOps 및 Splunk SOAR 플레이북을 사용하여 개별 사용자 차단을 지원합니다. 이 추가 기능을 통해 Ransomware Resilience에서 데이터 유출이나 대량 데이터 삭제와 같은 의심스러운 사용자 활동을 감지할 때 사용자 차단을 자동화할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference-soar.html["SOAR 플레이북 통합"^].
