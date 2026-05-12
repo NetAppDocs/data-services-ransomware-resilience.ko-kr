@@ -2481,5 +2481,5 @@
   <block id="3709262a3984a4066d844e26650ffbfd" category="list-text">HTTP Event Collector의 **프로토콜**을 선택합니다. HTTPS를 사용하는 것이 좋지만 HTTP Event Collector에 대해 SSL이 활성화되지 않은 경우 * HTTP * 를 선택합니다.</block>
   <block id="0bffbc11a95d5a4be5584ad87467b460" category="list-text">HTTP 이벤트 수집기가 실행되는 Splunk Cloud 인스턴스의 *Host*와 *Port*를 입력하십시오. 포트는 HTTP 이벤트 수집기 프로세스에서 입력한 것과 일치해야 합니다.</block>
   <block id="00b8afb4b439e4d80895bdc0b67f43e4" category="list-text">Splunk에서 생성한 이벤트 수집기 토큰을 입력하십시오.</block>
-  <block id="448172d3af38cf3c8143e719c364e53d" category="section-title">2026년 3월 11일</block>
+  <block id="9b70df306d1f1719fd9d70e02911394c" category="section-title">2026년 5월 11일</block>
 </blocks>
