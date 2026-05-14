@@ -2199,7 +2199,6 @@
   <block id="42d5a005352158447d080ff821694db4" category="list-text">동일한 시스템 ID를 사용하면 라이선스 및 활성화 문제가 발생합니다.</block>
   <block id="2b973fe4e18c7b4ee211cfe2a2373d41" category="paragraph">이러한 충돌을 방지하기 위해 Ransomware Resilience는 클론 VM에서 sysprep을 실행하여 SID, CN 및 머신 ID를 재설정합니다. 이러한 값을 재설정하면 클론 VM이 소스 VM에 영향을 주지 않고 고유하고 독립적인 인스턴스로 작동할 수 있습니다.</block>
   <block id="c94b2ef9dde0531d36cb0d4e5d7b4b72" category="section-title">2차 소스</block>
-  <block id="08607b19598a980be86467b52da1e4d3" category="paragraph">온프레미스 소스용 IRE를 생성할 때 2차 소스를 추가하는 옵션이 있습니다.</block>
   <block id="4a03772068b579d9b09ff0433b7acadd" category="paragraph">기본적으로 클린 복원 프로세스는 소스 환경의 스냅샷을 분석합니다. 소스 환경을 사용할 수 없거나 소스에 암호화되지 않은 스냅샷이 없는 경우, 2차 시스템을 구성한 경우 클린 복원은 2차 시스템의 스냅샷을 분석합니다.</block>
   <block id="bf6aff190124dd12362477474eddaf9b" category="paragraph">클린 복원은 Ransomware Resilience의 일부로 제공됩니다. 클린 복원을 수행하거나 IRE를 생성하는 데 추가 라이센스가 필요하지 않습니다.</block>
   <block id="2c5f8b1bf69ff1fef550992679ff59b6" category="paragraph">클린 복원 기능을 활성화하면 타사 클라우드 제공업체 요금이 발생할 수 있습니다. 서비스 사용 방식에 따라 클린 복원 환경이 유지되는 동안 이러한 요금이 반복적으로 부과될 수 있습니다.</block>
@@ -2493,4 +2492,5 @@
   <block id="84c03f1b38aa942e542555e111083674" category="paragraph"><block ref="84c03f1b38aa942e542555e111083674" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f5cfed6a695ca584c4de91e043cec8df" category="list-text">리소스를 해제하고 클린룸을 닫으려면 **Release resources and exit**를 선택하십시오. 확인하려면 **End**를 선택하십시오.</block>
   <block id="ee9eb963788511d80fc2e4d572229dfc" category="paragraph">기본 소스를 사용할 수 없고 2차 소스를 구성한 경우, 클린 복원은 2차 소스로 복원됩니다.</block>
+  <block id="1ed548d363a0d2a6ce0c5db113b94db8" category="paragraph">IRE를 생성할 때 보조 소스를 추가하는 옵션이 있습니다.</block>
 </blocks>
