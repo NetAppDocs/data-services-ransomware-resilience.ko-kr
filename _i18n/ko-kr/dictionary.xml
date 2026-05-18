@@ -1454,7 +1454,6 @@
   <block id="096f3522cfa2f31de45d052b740adc65" category="cell">AWS용 Cloud Volumes ONTAP</block>
   <block id="05bcab512eefa1e7e2cc2d1e45970a7d" category="cell">CIFS 및 NFS</block>
   <block id="1f03f70fe9097fcc16686889bafaf634" category="cell">9.11.1 이상</block>
-  <block id="d32574662083c44bd1c1e27441a5f5f6" category="cell">SAN(FC, iSCSI 및 NVMe)</block>
   <block id="ce2276d280ca79bc5d0b33e7903a7d49" category="cell">9.17.1 이상</block>
   <block id="a6810a0b37cbc417c34b4dffc16f07a1" category="cell">Google Cloud Platform용 Cloud Volumes ONTAP</block>
   <block id="9722c69e4736d9b151d70e30b917a4e1" category="cell">Microsoft Azure용 Cloud Volumes ONTAP</block>
@@ -1562,7 +1561,6 @@
   <block id="4256b08931f8c14d28bbf33199e1b022" category="paragraph">랜섬웨어 복원력을 통해 이제 사용자 동작 알림 상태를 편집할 수 있습니다. 알림을 수동으로 해제하고 해결할 수 있습니다.</block>
   <block id="8fe404d4b8af36b9844eb288d2706bbe" category="inline-link-macro">랜섬웨어 복원력에서 알림 관리</block>
   <block id="869c8807275d576171cb34b892652da6" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>.</block>
-  <block id="22a81a009e8d21bf17e2788fdbfa4a6d" category="paragraph">Amazon FSx for NetApp ONTAP 시스템은 랜섬웨어 복원력에서 지원됩니다. Amazon FSx for ONTAP 에는 다음과 같은 제한 사항이 적용됩니다.</block>
   <block id="f20af4e11539d270463e7ed46557be6f" category="paragraph">NetApp Ransomware Resilience 사용하려면 먼저 워크로드 데이터를 검색해야 합니다. 발견 과정에서 Ransomware Resilience는 조직 내 모든 콘솔 에이전트와 프로젝트에 있는 시스템의 모든 볼륨과 파일을 분석합니다.</block>
   <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="section-title">더 많은 정보</block>
   <block id="48bf90c5e99016f124c48c02a77dc8fd" category="inline-link-macro">NetApp Console 라이선스 및 구독 관련 문서</block>
@@ -1771,7 +1769,6 @@
   <block id="e37ee5388292007ad9d3935327219122" category="paragraph">자세한 내용은 <block ref="5988324edfd7d92a7675cb7a08ac2a7e" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="58c30bd4c949be43357ab1b7557703b5" category="list-text">백업 정책은 Amazon FSx for ONTAP에서 지원되지 않습니다. 이 환경에서는 Amazon FSx for backups를 사용하여 백업 작업을 수행해야 합니다. 이러한 워크로드는 NetApp Ransomware Resilience를 사용하여 복원할 수 있습니다.</block>
   <block id="2a0c2a157bd80927f000333567138b57" category="section-title">Azure NetApp Files 제한 사항</block>
-  <block id="9ccc8d744240b4ff1c9fb964a84a7d3c" category="paragraph">Azure NetApp Files는 Ransomware Resilience에서 지원됩니다. Azure NetApp Files에는 다음과 같은 제한 사항이 적용됩니다.</block>
   <block id="b285edab772b215df16e97f47e6cf852" category="list-text">백업 정책을 사용하는 랜섬웨어 보호 전략은 Azure NetApp Files에서 지원되지 않습니다. 대신 Azure NetApp Files 백업을 사용할 수 있습니다.</block>
   <block id="af5eb4e584c938e9f8b3531d944e3a59" category="list-text">Azure NetApp Files에서는 복제 기능을 사용하는 랜섬웨어 보호 전략이 지원되지 않습니다.</block>
   <block id="1c312af1f49befaddd00883a617fa8ba" category="list-text">보호 전략을 선택할 때는 스냅샷 일정이 Azure NetApp Files와 호환되는지 확인하십시오. Azure NetApp Files에서 사용할 수 있는 가장 빈번한 스냅샷 일정은 시간 단위입니다.</block>
@@ -2499,4 +2496,26 @@
   <block id="7f3418b9bbded932a1a1585ec05f42c3" category="inline-link-macro">의심스러운 사용자 활동 감지</block>
   <block id="df790109011414a6034217652cd48d7c" category="inline-link-macro">클린 복원</block>
   <block id="c40aa9438834745dead5ab833fb4ad95" category="list-text">또한 <block ref="8195b6c486e4af94bbefa0d6c4fe0d9d" category="inline-link-macro-rx"></block> 및 <block ref="5909784b16712ef276fd16aaaa47a088" category="inline-link-macro-rx"></block>에 대한 요구 사항을 검토하십시오.</block>
+  <block id="ff3968cf2fd662dd2275d75511ef33af" category="cell">CIFS, NFS, SAN(iSCSI &amp; NVMe)</block>
+  <block id="d334ebc491af4228eb4cd8e0de126818" category="admonition">Azure NetApp Files 또는 Google Cloud NetApp Volumes에서는 의심스러운 사용자 활동 감지가 지원되지 않습니다. 의심스러운 사용자 활동 감지 지원에 대한 자세한 내용은 <block ref="69d552b440ad08cbfe2c75fd459bcf87" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="a1b7351b5e78c5f7b3c07f1f9b210761" category="doc">Google Cloud NetApp Volumes 지원(미리 보기)</block>
+  <block id="d80af1c0606a32f418ab576db57cacc1" category="paragraph">랜섬웨어 복원력이 이제 Google Cloud NetApp Volumes 시스템을 지원하여 Google Cloud NetApp Volumes에서 발생하는 랜섬웨어 위협을 효율적으로 탐지하고 대응할 수 있습니다. 검색을 수행하면 랜섬웨어 복원력이 Google Cloud NetApp Volumes 시스템의 워크로드를 자동으로 표시합니다. 시스템이 검색되면 랜섬웨어 복원력 대시보드에 표시됩니다. 랜섬웨어 복원력의 Google Cloud NetApp Volumes 지원은 현재 미리 보기로 제공됩니다.</block>
+  <block id="35b27350003f459df80234524883b5fc" category="inline-link-macro">랜섬웨어 복원력의 한계</block>
+  <block id="cae4e00f2196b1be86c3e1e5dec224f5" category="paragraph">자세한 내용은 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>을 참조하세요. Google Cloud NetApp Volumes 지원 범위에 대한 자세한 내용은 <block ref="27362f7d9843ec19f9f3145cc1ee646c" category="inline-link-macro-rx"></block>을 참조하세요.</block>
+  <block id="f5523776592686b65cfe8d99ccda44ac" category="paragraph">이제 클린 복원에서 보고서 기능을 지원합니다. 보고서를 통해 클린 복원 결과를 검토하고 평가할 수 있으며, 해당 정보를 CSV 파일로 오프라인에 저장할 수 있습니다.</block>
+  <block id="b5be0bbdf1965d7e362ac1fcae7cb4bb" category="paragraph">이제 클린 복원 시 분석 중지 기능도 지원합니다. 분석을 중지하면 클린 복원을 다시 시작해야 합니다.</block>
+  <block id="4756b9491ac344d3e27adc7e34c8640b" category="paragraph">보고서에 대한 자세한 내용은 <block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>를 참조하십시오. 복구에 대한 자세한 내용은 <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="fd3b4579ab972a1738986581275cfcfa" category="list-text">데이터베이스:</block>
+  <block id="78898e52fcbdc5337204a384f2456d4f" category="list-text">Microsoft SQL Server</block>
+  <block id="30162ed78b6c10f731411f2fc440c24f" category="list-text">Oracle</block>
+  <block id="ed11408803c4c1aca5fbebbc43d88458" category="list-text">VMware 데이터 저장소</block>
+  <block id="67e04a8275d417d66dbae3b41f8b109f" category="paragraph">온프레미스 ONTAP 시스템 및 Amazon FSx for NetApp ONTAP 및 Cloud Volumes ONTAP 시스템의 워크로드에 대해 랜섬웨어 복원력에서 사용자 행동 활동 감지가 지원되며, 이는 <block ref="12d7be4f3da31a90f0de3bba45ddeec1" category="inline-xref-macro-rx"></block>와 일치합니다.</block>
+  <block id="d46a6d4256967df0f7292fba7af7750e" category="paragraph">Amazon FSx for ONTAP에는 다음과 같은 제한 사항이 적용됩니다.</block>
+  <block id="0a3365d021ca1305c9f785f72440818f" category="paragraph">Azure NetApp Files에는 다음과 같은 제한 사항이 적용됩니다.</block>
+  <block id="36a3b80be6de8003f2c8586abef3da11" category="section-title">Google Cloud NetApp Volumes 제한 사항</block>
+  <block id="03b202e92a2bf372a4034ee95f36d4a7" category="paragraph">다음과 같은 제한 사항이 Google Cloud NetApp Volumes에 적용됩니다:</block>
+  <block id="f74751df940b5d304cec8e85cc517212" category="list-text">현재 Google Cloud NetApp Volumes 워크로드에는 암호화 및 FPolicy 기반 보호 전략만 적용할 수 있습니다. 사용자 행동 활동 보호 전략은 적용할 수 없습니다.</block>
+  <block id="fd97f891be8e4ff9fd31d19ccffe7cfa" category="list-text">복제를 통한 보호 전략은 현재 Google Cloud NetApp Volumes에서 지원되지 않습니다</block>
+  <block id="98d8c0e0a6e1f848e25119bcb40e31fb" category="paragraph">분석이 진행되는 동안 **중지**를 선택할 수 있습니다. 분석을 중지하면 클린 복원 프로세스를 다시 시작해야 합니다.</block>
+  <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">2026년 5월 18일</block>
 </blocks>

@@ -1,0 +1,21 @@
+= Google Cloud NetApp Volumes 지원(미리 보기)
+:allow-uri-read: 
+
+
+
+
+=== Google Cloud NetApp Volumes 지원(미리 보기)
+
+랜섬웨어 복원력이 이제 Google Cloud NetApp Volumes 시스템을 지원하여 Google Cloud NetApp Volumes에서 발생하는 랜섬웨어 위협을 효율적으로 탐지하고 대응할 수 있습니다. 검색을 수행하면 랜섬웨어 복원력이 Google Cloud NetApp Volumes 시스템의 워크로드를 자동으로 표시합니다. 시스템이 검색되면 랜섬웨어 복원력 대시보드에 표시됩니다. 랜섬웨어 복원력의 Google Cloud NetApp Volumes 지원은 현재 미리 보기로 제공됩니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["랜섬웨어 복원력에 대해 알아보세요"^]을 참조하세요. Google Cloud NetApp Volumes 지원 범위에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-limitations.html["랜섬웨어 복원력의 한계"^]을 참조하세요.
+
+
+
+=== 클린 복원 기능 향상
+
+이제 클린 복원에서 보고서 기능을 지원합니다. 보고서를 통해 클린 복원 결과를 검토하고 평가할 수 있으며, 해당 정보를 CSV 파일로 오프라인에 저장할 수 있습니다.
+
+이제 클린 복원 시 분석 중지 기능도 지원합니다. 분석을 중지하면 클린 복원을 다시 시작해야 합니다.
+
+보고서에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-reports.html["랜섬웨어 복원력 관련 보고서를 다운로드하세요."^]를 참조하십시오. 복구에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore-recover.html["깔끔한 복원을 통해 워크로드 복구"^]를 참조하십시오.
