@@ -24,7 +24,7 @@ Ransomware Resilience 플레이북은 다음과 같은 기능을 제공합니다
 * 보강 작업의 상태 검토
 
 
-{asterisk}사용자 차단은 Splunk 및 Google SecOps SOAR 플레이북에서만 지원됩니다. 사용자를 차단하려면 지원되는 시스템에서 link:concept-user-behavior["사용자 행동 활동 탐지"]을(를) 구성해야 합니다.
+{asterisk}사용자 차단은 Splunk 및 Google SecOps SOAR 플레이북에서만 지원됩니다. 사용자를 차단하려면 지원되는 시스템에서 link:concept-user-behavior["사용자 행동 감지"]을(를) 구성해야 합니다.
 
 
 

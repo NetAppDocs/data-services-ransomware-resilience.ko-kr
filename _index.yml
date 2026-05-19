@@ -30,7 +30,7 @@ indexpage:
       url: "/rp-use-dashboard.html"
     - title: 작업 부하 보호
       url: "/rp-use-protect.html"
-    - title: 의심스러운 사용자 활동 감지 구성
+    - title: 사용자 활동 감지 구성
       url: "/suspicious-user-activity.html"
     - title: 감지된 경고에 대응
       url: "/rp-use-alert.html"
