@@ -387,7 +387,6 @@
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">랜섬웨어 복원력에 대해 알아보세요</block>
   <block id="d2e3e802d3f25894bd170688859d6cef" category="inline-link">AWS, Azure 또는 S3 권한 목록</block>
   <block id="90061bb176f3e723f6f2161eafc1901c" category="paragraph">를 참조하세요<block ref="31e1fb669a04af441205b80b4846232f" category="inline-link-rx"></block> 자세한 내용은.</block>
-  <block id="583833d6f0468c713c410ea158e1b6f6" category="list-text">시스템에서 NetApp Backup and Recovery 활성화할 필요가 없습니다.</block>
   <block id="fb197ee87a0f850dc3b7bb98fe408518" category="inline-link-macro">설정 구성</block>
   <block id="1afe90b99262d688f040631ea9d6dcce" category="section-title">ONTAP 시스템에서 관리자가 아닌 사용자 권한 업데이트</block>
   <block id="ddf0d8cb7fa932ccfbf9231d4f27f992" category="list-text">사용자 이름을 표시하려면 *추가 정보 보기*를 선택하세요.</block>
@@ -1756,7 +1755,6 @@
   <block id="46fa98b3b308dc6f48d40cf8b1712bfe" category="section-title">SIEM으로 전송된 이벤트 데이터</block>
   <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026년 2월 16일</block>
   <block id="51f5590fac3af82049df229fcb91793c" category="sidebar">SIEM 구성</block>
-  <block id="8944abed4a7795983ff8cde0c660dfda" category="paragraph">랜섬웨어 복원력은 NetApp Backup and Recovery를 사용하여 파일 공유 워크로드에 대한 스냅샷 및 백업 정책을 검색하고 설정합니다.</block>
   <block id="c7508e265b893e4d518594502d79c380" category="list-text">워크로드를 적극적으로 모니터링하고 식별된 각 워크로드에 정책을 적용하여 NetApp Backup and Recovery와 ONTAP API 사용을 오케스트레이션합니다.</block>
   <block id="e47b008a3c9b07db3a7f7c525eeccc5a" category="cell">각 워크로드에 정책을 할당하십시오. <block ref="cc10c371e1aab359fa44a886d5e79433" category="inline-link-macro-rx"></block>을 참조하십시오. <block ref="cc10c371e1aab359fa44a886d5e79433" category="inline-link-macro-rx"></block>을 참조하십시오. <block ref="cc10c371e1aab359fa44a886d5e79433" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="402b250b6b0cd33bf0396353ed30be82" category="inline-link-macro">그룹 워크로드</block>
@@ -1879,7 +1877,6 @@
   <block id="7ca04b3ca0d38a36dbb53ddae48a80fa" category="paragraph"><block ref="7ca04b3ca0d38a36dbb53ddae48a80fa" category="inline-link-macro-rx"></block></block>
   <block id="86f1d97261d36debcad3b0a69e10f3f4" category="list-text">Ransomware Resilience에서 *설정*을 선택하세요.</block>
   <block id="91437eaac9ac7d1f1da9a4e4751cbaa6" category="paragraph">예, Ransomware Resilience는 ONTAP에 설정된 스냅샷 스케줄을 검색합니다. 또한 검색된 워크로드의 모든 볼륨에서 ARP 및 FPolicy가 활성화되어 있는지 여부도 확인합니다. Ransomware Resilience 대시보드에 표시되는 정보는 다른 NetApp 솔루션 및 제품에서 집계된 것입니다.</block>
-  <block id="30d645e3c3e5cd0e502a92a067fc1be8" category="paragraph">Ransomware Resilience는 설정 옵션을 통해 백업 대상을 구성하는 데 도움을 줍니다. <block ref="e25a1b60993d45f33b0deea2ae726330" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="c4550c3db972a64a4938aff3fdcc3f3d" category="paragraph">백업 대상 자체에서 옵션을 구성한 후에는 나중에 NetApp Ransomware Resilience에서 해당 대상을 백업 대상으로 구성해야 합니다. NetApp Ransomware Resilience에서 백업 대상을 구성하는 방법에 대한 자세한 내용은 <block ref="e0972ac2b24cae233c2035120c295c6d" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="bc46a0ba0f385a3e46fe17c4f792de15" category="summary">NetApp Ransomware Resilience가 공격 가능성을 감지하면 NetApp Ransomware Resilience 대시보드에 잠재적 공격을 나타내는 경고가 표시됩니다. 이때 NetApp Ransomware Resilience 경고 탭에서 잠재적 위험을 확인해야 합니다.</block>
   <block id="3c333ed4b45464bb8628169fb460f0b4" category="paragraph">NetApp Ransomware Resilience가 공격 가능성을 감지하면 대시보드와 알림 메뉴에 경고를 표시합니다. Ransomware Resilience는 즉시 스냅샷을 생성합니다. 경고를 받으면 Ransomware Resilience *경고* 탭에서 잠재적 위험을 검토하여 데이터에 미치는 영향을 평가하고 잠재적인 랜섬웨어 공격을 예방하십시오.</block>
@@ -2545,6 +2542,10 @@
   <block id="d4f53dbb2dd23ad3f2c3d3656c20777b" category="section-title">사용자 활동 알림에 응답합니다</block>
   <block id="d0073f8a1f393dd14a8d4168ebf29ac2" category="paragraph">사용자 활동 감지를 구성한 후에는 알림 페이지에서 이벤트를 모니터링할 수 있습니다. 자세한 내용은 <block ref="8143bbb79caf2751151f26d9d0abf580" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">Ransomware Resilience에서 보호 그룹 생성</block>
-  <block id="afe30c0d6b10a23db7ce0d1907082557" category="paragraph">Ransomware Resilience는 이제 Google Cloud NetApp Volumes 시스템의 워크로드에 대한 보호 그룹 생성을 지원하여, 여러 워크로드를 하나의 정책 아래에 구성해 관리 효율성을 높일 수 있습니다. 자세한 내용은 <block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026년 5월 26일</block>
+  <block id="bf294be5c1e56f5593f503af52286773" category="paragraph">Ransomware Resilience는 이제 Google Cloud NetApp Volumes 시스템의 워크로드에 대한 보호 그룹 생성을 지원하여, 여러 워크로드를 하나의 정책 아래에 구성해 관리 효율성을 높일 수 있습니다.</block>
+  <block id="8d317d4f29fef19dda568fc8ae7b0751" category="paragraph">자세한 내용은 <block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="9d72a156b56c5cfe0d0bcd54c96cf39a" category="paragraph">Ransomware Resilience는 기존 Console 및 ONTAP 설정과 연동하여 랜섬웨어 위협을 식별하고 워크로드를 보호하며 신속한 복구를 지원합니다.</block>
+  <block id="40ad71d352fd267903b0c9896408ca5f" category="inline-link-macro">Ransomware Resilience에서 백업 대상을 구성합니다.</block>
+  <block id="a7594ef03dc90d06c5e3a823eab6aae4" category="admonition">네, 가능합니다. <block ref="0e8a0563855377563403f0031aef555d" category="inline-link-macro-rx"></block>. 워크로드가 NetApp Backup and Recovery로 보호되는 경우, Ransomware Resilience는 스냅샷 및 백업 대상 등 보호 세부 정보를 자동으로 인식합니다. Backup and Recovery는 Ransomware Resilience를 사용하는 데 필수 사항이 _아닙니다_.</block>
 </blocks>

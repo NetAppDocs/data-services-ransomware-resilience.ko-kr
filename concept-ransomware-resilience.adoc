@@ -108,7 +108,7 @@ NetApp Console을 사용하기 위해 라이선스나 구독이 필요한 것은
 
 == 랜섬웨어 복원력의 작동 방식
 
-랜섬웨어 복원력은 NetApp Backup and Recovery를 사용하여 파일 공유 워크로드에 대한 스냅샷 및 백업 정책을 검색하고 설정합니다.
+Ransomware Resilience는 기존 Console 및 ONTAP 설정과 연동하여 랜섬웨어 위협을 식별하고 워크로드를 보호하며 신속한 복구를 지원합니다.
 
 image:diagram-rp-architecture-preview3.png["랜섬웨어 복원력 아키텍처를 보여주는 다이어그램"]
 
