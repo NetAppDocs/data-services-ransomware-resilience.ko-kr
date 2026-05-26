@@ -2544,4 +2544,7 @@
   <block id="1003fdbfa95a1ad8e273ca1560375f69" category="paragraph">사용자 활동 감지 기능을 포함하는 랜섬웨어 보호 전략을 활성화하면 데이터 수집기가 자동으로 생성됩니다. 자세한 내용은 <block ref="197232a118beafa8882aae5625527a41" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="d4f53dbb2dd23ad3f2c3d3656c20777b" category="section-title">사용자 활동 알림에 응답합니다</block>
   <block id="d0073f8a1f393dd14a8d4168ebf29ac2" category="paragraph">사용자 활동 감지를 구성한 후에는 알림 페이지에서 이벤트를 모니터링할 수 있습니다. 자세한 내용은 <block ref="8143bbb79caf2751151f26d9d0abf580" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">Ransomware Resilience에서 보호 그룹 생성</block>
+  <block id="afe30c0d6b10a23db7ce0d1907082557" category="paragraph">Ransomware Resilience는 이제 Google Cloud NetApp Volumes 시스템의 워크로드에 대한 보호 그룹 생성을 지원하여, 여러 워크로드를 하나의 정책 아래에 구성해 관리 효율성을 높일 수 있습니다. 자세한 내용은 <block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026년 5월 26일</block>
 </blocks>
