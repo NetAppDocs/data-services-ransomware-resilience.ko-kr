@@ -11,7 +11,7 @@ summary: NetApp Ransomware Resilience는 데이터의 개인정보 노출 위험
 [role="lead"]
 NetApp Ransomware Resilience 내에서 NetApp Data Classification을 사용하여 개인정보 노출 위험을 식별하고 데이터를 사전에 보호할 수 있습니다. 개인정보 노출 위험을 식별하면 데이터 세트에 개인 식별 정보(PII)가 포함되어 있는지 여부를 확인할 수 있습니다. 개인정보 노출은 보안 위험을 증가시키고 워크로드 중요도 지정을 변경할 수 있습니다.
 
-*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
+*필수 콘솔 역할* 이 작업을 수행하려면 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-platform-roles.html#super-admin-roles["최고 관리자"^] 또는 Ransomware Resilience 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^].
 
 
 

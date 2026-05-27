@@ -16,7 +16,7 @@ summary: NetApp Ransomware Resilience에서 클린 복원을 수행하기 전에
 [role="lead"]
 NetApp Ransomware Resilience는 랜섬웨어 공격 후 단계적인 복구를 지원하는 클린 복원 기능을 제공합니다. 클린 복원을 수행하려면 먼저 온프레미스 또는 지원되는 클라우드 환경에서 격리된 복구 환경(IRE)을 생성해야 합니다. IRE에서는 Ransomware Resilience가 워크로드를 격리하여 어떤 파일이 정상이고 어떤 파일이 랜섬웨어의 영향을 받았는지 식별하는 클린룸을 생성합니다.
 
-*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
+*필수 콘솔 역할* 이 작업을 수행하려면 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-platform-roles.html#super-admin-roles["최고 관리자"^] 또는 Ransomware Resilience 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^].
 
 
 

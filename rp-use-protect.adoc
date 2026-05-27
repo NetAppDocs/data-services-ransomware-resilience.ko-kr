@@ -14,7 +14,7 @@ summary: NetApp Ransomware Resilience 에서 워크로드에 정책을 할당하
 [role="lead"]
 랜섬웨어 보호 전략은 NetApp Ransomware Resilience의 핵심 기능으로, 탐지, 보호 및 복제를 지원합니다. 보호 전략은 사이버 보안 태세의 필수적인 요소입니다.
 
-*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
+*필수 콘솔 역할* 이 작업을 수행하려면 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-platform-roles.html#super-admin-roles["최고 관리자"^] 또는 Ransomware Resilience 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^].
 
 
 

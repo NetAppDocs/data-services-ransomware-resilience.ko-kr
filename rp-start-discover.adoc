@@ -21,7 +21,7 @@ NOTE: NetApp Ransomware Resilience는 FlexGroup을 사용하는 볼륨이 있는
 
 랜섬웨어 복원력은 현재 백업 보호, 스냅샷 복사본 및 NetApp 자율형 랜섬웨어 보호 옵션을 점검합니다. 랜섬웨어 복원력은 또한 파일 공유 및 VM 파일 공유에 대한 NetApp Backup and Recovery의 보호 정보를 감지합니다. 그런 다음 랜섬웨어 보호를 개선할 수 있는 방법을 권장합니다.
 
-*필수 콘솔 역할* 이 작업을 수행하려면 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
+*필수 콘솔 역할* 이 작업을 수행하려면 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-platform-roles.html#super-admin-roles["최고 관리자"^] 또는 Ransomware Resilience 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^].
 
 
 
