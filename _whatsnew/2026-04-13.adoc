@@ -24,4 +24,4 @@ Ransomware Resilience는 이제 Splunk Enterprise용 보안 정보 이벤트 관
 
 데이터 유출 사건에 대한 분석 정보가 이제 사건 발생 후 13개월 동안 보존되어 보고 요구 사항에 맞춰 더 오랜 기간 기록을 보관할 수 있습니다.
 
-자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["사용자 활동 감지에 대해 알아보십시오"^]를 참조하십시오.
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["사용자 행동 감지에 대해 알아보기"^]를 참조하십시오.

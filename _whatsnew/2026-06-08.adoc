@@ -1,0 +1,23 @@
+= 보호 전략을 위한 향상된 유연성
+:allow-uri-read: 
+
+
+
+
+=== 보호 전략을 위한 향상된 유연성
+
+Ransomware Resilience은 이제 랜섬웨어 탐지 전략을 선택하는 데 더 많은 유연성을 제공합니다. 이전에는 모든 랜섬웨어 보호 전략에 암호화 탐지가 포함되어야 했습니다. 이제 사용자 행동 탐지만으로 구성된 랜섬웨어 보호 전략을 활성화할 수 있습니다.
+
+보호 전략에는 암호화 감지_와_ 의심스러운 사용자 행동 감지가 모두 포함될 수 있습니다. 파일 확장자 차단 기능 또한 모든 보호 전략에 추가할 수 있습니다.
+
+기존 정책의 보호 전략 일부를 비활성화하면 이전 정책 버전에서 생성된 기존 경고는 "해결됨"으로만 표시할 수 있으며 "무시됨"으로는 표시할 수 없습니다. 예를 들어 암호화 감지 및 의심스러운 사용자 동작을 포함하는 보호 전략이 있었지만 암호화 감지를 비활성화한 경우 해당 워크로드에 대한 기존 암호화 경고만 해결할 수 있습니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["NetApp Ransomware Resilience 보호 전략으로 워크로드를 보호하세요"^]를 참조하십시오.
+
+
+
+=== SOAR 플레이북 개선 사항
+
+Ransomware Resilience SOAR 플레이북에 이제 사용자를 차단하거나 볼륨을 오프라인으로 전환한 후 복구 단계가 포함되어 있습니다. 해당 작업이 랜섬웨어 위협이 아닌 것으로 판단되면 볼륨을 다시 온라인 상태로 전환하고 사용자 차단을 해제할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference-soar.html["SOAR 플레이북 통합"^].
