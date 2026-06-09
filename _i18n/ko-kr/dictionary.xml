@@ -521,7 +521,6 @@
   <block id="179e5ea4317177f519c688d15ef67987" category="paragraph"><block ref="179e5ea4317177f519c688d15ef67987" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e462715e9b155f4f9638da4f314c8aff" category="list-text">*준비 훈련*과 *다운로드*를 선택하여 준비 훈련 보고서를 다운로드하세요.</block>
   <block id="4c8cd66676ad1c434108e699d9777408" category="paragraph">거짓 양성 결과를 무시하거나 즉시 데이터를 복구하기로 결정할 수 있습니다.</block>
-  <block id="899157335f0c98105a8cbc92966ba06d" category="admonition">알림을 해제하면 랜섬웨어 복원력이 이러한 동작을 학습하고 이를 일반적인 작업과 연관시켜 다시 알림을 발생시키지 않습니다.</block>
   <block id="a8fd9e3988acb841854762788963d815" category="paragraph">데이터 복구를 시작하려면 알림을 복구 준비 완료로 표시하여 스토리지 관리자가 복구 프로세스를 시작할 수 있도록 하세요.</block>
   <block id="304b86572af1a03e438d6a3b86bfad43" category="paragraph">각 알림에는 다양한 볼륨과 상태에 대한 여러 사건이 포함될 수 있습니다.  모든 사건을 검토하세요.</block>
   <block id="271b5be554c7641bb10d05402276d05a" category="list-text">파일 확장자가 생성되거나 변경되었습니다.</block>
@@ -709,10 +708,6 @@
   <block id="4dc51b8615944f599801153cc7777840" category="list-text">이 페이지에서 워크로드에 대한 보호 세부 정보를 보고 변경할 수 있습니다.</block>
   <block id="cf077fd7afe54e3a0c2d1f4f171b9592" category="inline-link-macro">랜섬웨어 보호 전략 추가</block>
   <block id="ce4ef271bc40fcdcc146584fcac5d544" category="paragraph">*보호 상태*: 워크로드는 정책이 적용되는지 여부를 나타내기 위해 다음 보호 상태 중 하나를 표시할 수 있습니다.</block>
-  <block id="463f5e1b668b83efc12cf4dbc90300ff" category="list-text">*보호됨*: 정책이 적용됩니다.  모든 작업 부하 관련 볼륨에서 ARP(또는 ONTAP 버전에 따라 ARP/AI)가 활성화됩니다.</block>
-  <block id="2849b9294b844719ab6e63ff0e8d64a0" category="list-text">*위험*: 정책이 적용되지 않습니다.  워크로드에 기본 감지 정책이 활성화되어 있지 않으면 스냅샷 및 백업 정책이 활성화되어 있어도 "위험에 처해 있습니다".</block>
-  <block id="d8b2d86957c187231adaeb328cc57adb" category="list-text">*진행 중*: 정책이 적용 중이지만 아직 완료되지 않았습니다.</block>
-  <block id="a6539f11a6b87c60fecf3f4d34dfb4d1" category="list-text">*실패*: 정책이 적용되었지만 작동하지 않습니다.</block>
   <block id="0882532dc9eb74e24a8b137f1e6a0b39" category="paragraph">랜섬웨어 복원력은 각 워크로드에 대한 분석을 기반으로 검색 중에 각 워크로드에 중요도 또는 우선순위를 지정합니다.  작업 부하 중요도는 다음 스냅샷 빈도에 따라 결정됩니다.</block>
   <block id="58adba48bf0678c3abb71d1fdf829602" category="paragraph">워크로드 중요도에 맞춰 사전 정의된 다음 랜섬웨어 복원력 정책 중 하나를 선택할 수 있습니다.</block>
   <block id="4d293abd3f96b37c9afdf90f01855f8b" category="admonition">**암호화 사용자 확장** 정책은 의심스러운 사용자 동작 감지를 지원하는 유일한 사전 정의된 정책입니다.</block>
@@ -767,7 +762,6 @@
   <block id="e4574be2aa1d855d0a159fa734c028b7" category="list-text">각 항목에 대해 *아래쪽 화살표*를 선택하세요.</block>
   <block id="b77a56354e9e39a76b1a118e9bfa09d3" category="list-text">*탐지 정책*:</block>
   <block id="949db64066489b0349a4ff1451832808" category="list-text">*정책*: 미리 설계된 탐지 정책 중 하나를 선택합니다.</block>
-  <block id="66ecff8104cfb8cf22c05ebdad07a66a" category="list-text">*의심스러운 사용자 행동 감지*: 사용자 행동 감지 기능을 활성화하여 사용자 활동 이벤트를 Ransomware Resilience로 전송하고 데이터 침해와 같은 의심스러운 이벤트를 감지합니다.</block>
   <block id="7c06fadd4f73e4b63eb519df7d9880fc" category="paragraph">차단된 파일 확장자를 변경하려면 시스템 관리자에서 편집하세요.</block>
   <block id="c8499d03897189696e5af26fc5ab9f45" category="list-text">*스냅샷 정책*:</block>
   <block id="007ac2633329ecdb55692304050d9260" category="list-text">*스냅샷 정책 기반 이름*: 정책을 선택하거나 *생성*을 선택하고 스냅샷 정책의 이름을 입력합니다.</block>
@@ -988,7 +982,6 @@
   <block id="0df177143ce12a3516098cd3329e85c2" category="section-title">위협 탐지를 위해 AWS Security Hub 구성</block>
   <block id="de9b4f41a945df92e6c5b62f443f03f1" category="list-text">AWS Security Hub에서 권한을 설정합니다.</block>
   <block id="5fd0d2c5fd8b96b7b7b69f69b942c559" category="list-text">AWS Security Hub에서 인증 액세스 키와 비밀 키를 설정합니다.  (여기서는 이러한 단계를 제공하지 않습니다.)</block>
-  <block id="12eef9b6a125a82d69978241dca88c07" category="list-title">AWS Security Hub에서 권한을 설정하는 단계</block>
   <block id="66d20ba773065dfc079ca6feb04ef773" category="list-text">*AWS IAM 콘솔*로 이동합니다.</block>
   <block id="bf6953a41efa897b0862fca0fe547641" category="list-text">*정책*을 선택하세요.</block>
   <block id="2228b7980f61d80481608141744ecee0" category="list-text">다음 코드를 JSON 형식으로 사용하여 정책을 만듭니다.</block>
@@ -1375,11 +1368,8 @@
   <block id="65a602dc25a2da85e0a1dfb15824b10b" category="paragraph-title">데이터를 작업 부하와 어떻게 연관시키나요?</block>
   <block id="e2201c0935bcdfd14ed840897f30bcdc" category="paragraph">랜섬웨어 복원력은 볼륨과 파일 확장자를 검색하여 적절한 작업 부하와 연결합니다.</block>
   <block id="f7d49d845f0e8fd37a070e797785ddd2" category="paragraph-title">보호된 작업 부하란 무엇입니까?</block>
-  <block id="7259cd6e0f46eebf9079f25f465a8c63" category="inline-link-macro">자율 랜섬웨어 보호(ARP)</block>
-  <block id="7fd0dced59717f1ce225e83c1eba7879" category="paragraph">랜섬웨어 복원력에서 작업 부하가 기본 _탐지_ 정책이 활성화된 경우 *보호됨* 상태를 표시합니다. <block ref="f47b2a56bf7e72f952a180e4f688a755" category="inline-link-macro-rx"></block> 작업 부하와 관련된 모든 볼륨에서 활성화됩니다.</block>
   <block id="a7728d009ece45c9ca2552ef1b9e83b5" category="paragraph-title">"위험에 처한" 작업 부하란 무엇입니까?</block>
   <block id="feb245a8019757951a6c89440c58dbd0" category="inline-link-macro">탐지 정책</block>
-  <block id="073899b4550e086de0057b494471a8d5" category="paragraph">워크로드에 기본 감지 정책이 활성화되어 있지 않으면 백업 및 스냅샷 정책이 활성화되어 있어도 "위험"으로 표시됩니다. 랜섬웨어 보호를 위해서는 다음을 활성화해야 합니다. <block ref="ffe6233ab872c39a610f87efd1e90b37" category="inline-link-macro-rx"></block>.</block>
   <block id="77f988a37bbdd1881b090c55f9b830f1" category="paragraph-title">새로운 볼륨을 추가했지만 아직 나타나지 않았습니다. 어떻게 해야 하나요?</block>
   <block id="2173d44554906f5f04303f8e155b7e0d" category="inline-link-macro">새 볼륨을 보호하기 위해 보호 정책을 적용합니다.</block>
   <block id="b79a0001646a8a21be92374c30d89073" category="paragraph">환경에 새 볼륨을 추가한 경우 워크로드 검색을 다시 시작합니다. 볼륨이 발견된 후, <block ref="11d93ee27365ded5cd7b6061cdb7f916" category="inline-link-macro-rx"></block>.</block>
@@ -1622,8 +1612,6 @@
   <block id="aa9adfa847815670c9bd986dafc8c79c" category="cell">스냅샷 복사본의 최대 개수</block>
   <block id="cf9344351eb239ccd95661876c4d97ee" category="cell">*중요 복제 정책*</block>
   <block id="ad53fda1a18da9db9d8aa1d460952aa5" category="list-text">ONTAP 으로의 2차 복제</block>
-  <block id="8f6c5d8baaf38cda61b5392a06e30e68" category="list-text">*기본 탐지*: 랜섬웨어 공격 가능성을 탐지하려면 랜섬웨어 방어 기능을 활성화하십시오.</block>
-  <block id="21fd87cf8a3d6f008657537a5cec6e82" category="list-text">*파일 확장자 차단*: 알려진 의심스러운 파일 확장자를 차단하려면 랜섬웨어 방지 기능을 활성화하십시오. 랜섬웨어 복원력은 기본 탐지가 활성화된 경우 자동 스냅샷 복사본을 생성합니다.</block>
   <block id="50723c157cd9ea132a02f421411e273d" category="list-text">*복제 정책*:</block>
   <block id="f84245dfb1fc8217e62c0934102ba606" category="list-text">*복제 정책 기본 이름*: 새 이름을 입력하거나 기존 이름을 선택하십시오. 기본 이름은 모든 스냅샷에 추가되는 접두사입니다.</block>
   <block id="d230465858c85552b6c5a5b1ef3bb21f" category="list-text">*복제 일정*: 원하는 복제 빈도(시간별, 일별, 주별 또는 월별)를 선택하고, 각 일정에 대한 보존 값(보관할 복제 스냅샷 수)을 설정하세요.</block>
@@ -2346,7 +2334,6 @@
   <block id="f6f2f1de81eb4c260d55918d831d8b4e" category="paragraph">Ransomware Resilience는 다음 SIEM 시스템을 지원합니다.</block>
   <block id="963e2ddcdebcdd0f6fcbd1dad696e580" category="admonition">Ransomware Resilience는 <block ref="de8332ed81162473af5cb8a1551a7e36" category="inline-link-macro-rx"></block>도 제공합니다.</block>
   <block id="1d128c6086cbb73d30a6cbf3e127963d" category="list-text">*title*: 감지된 알림의 표시 이름입니다.</block>
-  <block id="bf49f7b724de055a76d11fee549a6a9c" category="paragraph">Ransomware Resilience에서 AWS Security Hub를 활성화하기 전에 AWS Security Hub에서 다음과 같은 주요 단계를 수행해야 합니다.</block>
   <block id="41b1238763de1c7569a52c2f6f418f26" category="list-title">Ransomware Resilience에서 AWS Security Hub 인증</block>
   <block id="a9e57cc6ddc3d658ec2f623d0d9bc8a4" category="list-text">Ransomware Resilience에서 사이드바의 *설정*을 선택하세요.</block>
   <block id="d28cdccd0f4e99a6f4e0f91d5197063e" category="list-text">SIEM 공급업체로 *AWS Security Hub*를 선택하십시오.</block>
@@ -2562,4 +2549,18 @@
   <block id="262d414194517bdfa67b048201f2b424" category="paragraph">탐지 정책에는 세 가지 옵션 모두 또는 조합을 포함할 수 있습니다. 암호화 탐지 또는 <block ref="0c1271458a5eed3dcf0b345a743161db" category="inline-link-macro-rx"></block>를 포함해야 합니다.</block>
   <block id="38cfc49361136d6f7410fbe2c3b7430a" category="list-text">*보호 변경*: 특정 기간(30일, 60일, 90일 또는 1년) 동안 워크로드에 대한 보호 전략 변경 사항을 검토합니다.</block>
   <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">2026년 6월 8일</block>
+  <block id="8301d3df17a7d3b229e97daa256bc551" category="paragraph">Ransomware Resilience에서 워크로드는 _탐지_ 정책이 활성화된 경우 *보호됨* 상태로 표시됩니다. 탐지 정책은 암호화 탐지 또는 의심스러운 사용자 행동 탐지(또는 둘 다)로 구성되어야 합니다. 의심스러운 파일 확장자 탐지도 포함할 수 있습니다. 자세한 내용은 <block ref="ffe6233ab872c39a610f87efd1e90b37" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="6c6097f9e44fb30ef0bc0a6e210dce9b" category="paragraph">워크로드에 탐지 정책이 활성화되어 있지 않으면 백업 및 스냅샷 정책이 활성화되어 있더라도 "위험"으로 표시됩니다. 랜섬웨어 보호를 위해서는 <block ref="ffe6233ab872c39a610f87efd1e90b37" category="inline-link-macro-rx"></block>을(를) 활성화해야 합니다.</block>
+  <block id="fec111d809c49ffc75c21732e808fe2d" category="admonition">경고를 무시하면 Ransomware Resilience는 이러한 동작을 학습하여 정상적인 작업으로 간주하고 유사한 이벤트에 대한 경고 전송을 중지합니다.</block>
+  <block id="7f2998da36c9b089182a98b4c6ff6c5d" category="admonition">기존 보호 전략에서 특정 탐지 유형을 비활성화하면 이전 정책 버전에서 생성된 모든 경고는 "Resolved"로만 표시할 수 있으며 "Dismissed"로는 표시할 수 없습니다. 예를 들어 암호화 탐지 및 의심스러운 사용자 행동 탐지를 포함하는 보호 전략에 대해 활성 경고가 있었지만 암호화 탐지를 비활성화한 경우 해당 경고는 "Resolved"로만 표시할 수 있습니다.</block>
+  <block id="5e37428a91a220042e4764361ae6e656" category="list-text">*암호화 탐지*: Ransomware Resilience를 활성화하여 암호화 기반 공격을 탐지하십시오.</block>
+  <block id="83b90da4f4a4213417bbdd607b6813c9" category="list-text">*의심스러운 사용자 행동 감지*: 사용자 행동 감지를 활성화하여 사용자 활동 이벤트를 Ransomware Resilience로 전송하고 데이터 유출 또는 데이터 파괴와 같은 의심스러운 이벤트를 감지합니다.</block>
+  <block id="8d9e80b9523ae8e43c09fee979fbfe13" category="list-text">*파일 확장자 차단*: 알려진 의심스러운 파일 확장자를 차단하려면 Ransomware Resilience를 활성화하십시오.</block>
+  <block id="87c5b70bcda4f0448400bb7245e5d975" category="admonition">탐지 정책은 원하는 대로 조합하여 선택할 수 있습니다. 탐지 정책에는 암호화 탐지 또는 의심스러운 사용자 행동 탐지 중 하나가 반드시 포함되어야 합니다.</block>
+  <block id="18282a82722e35ec83f6634f6933e908" category="list-text">*보호됨*: 탐지 정책이 적용됩니다.</block>
+  <block id="689a050b69b980dbe9c67ea9fdaeb981" category="list-text">*위험*: 정책이 적용되지 않음. 워크로드에 탐지 정책이 활성화되어 있지 않으면 스냅샷 및 백업 정책이 활성화되어 있더라도 "위험" 상태로 간주됩니다.</block>
+  <block id="1c2f725024e8db3f57c9ffb6c1869a4f" category="list-text">*진행 중*: 정책이 적용 중이지만 작업이 완료되지 않았습니다.</block>
+  <block id="7f2fe4ecc84891950d87f953f70363aa" category="list-text">*실패*: 정책이 구성되었지만 오류가 발생했습니다.</block>
+  <block id="ed3c60417302240ba271d87f011c0f32" category="paragraph">Ransomware Resilience에서 AWS Security Hub를 활성화하기 전에 AWS Security Hub에서 보안 구성을 수행해야 합니다.</block>
+  <block id="6209d7a62e35781f2a36ba4149e80d90" category="list-title">AWS Security Hub에서 권한 설정</block>
 </blocks>
