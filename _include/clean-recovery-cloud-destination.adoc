@@ -12,7 +12,7 @@
 
 
 
-NOTE: Amazon FSxN for ONTAP에서 소스를 사용하여 IRE를 구성하는 경우 이 클린룸 SVM 데이터 LIF IP 요구 사항을 건너뛰십시오.
+NOTE: Amazon FSx for NetApp ONTAP에서 소스를 사용하여 IRE를 구성하는 경우 이 클린룸 SVM 데이터 LIF IP 요구 사항은 건너뛰십시오.
 
 .운영 환경 라우팅 테이블
 * 운영 환경 라우팅 테이블은 IRE 서브넷에서 클린 복원 데이터 LIF IP로의 트래픽을 허용해야 합니다. 이 경로를 운영 환경 라우팅 테이블에 추가해야 합니다.
