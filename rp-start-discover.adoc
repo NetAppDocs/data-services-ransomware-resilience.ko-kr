@@ -31,6 +31,9 @@ NOTE: NetApp Ransomware Resilience는 FlexGroup을 사용하는 볼륨이 있는
 
 워크로드를 검색한다고 해서 자동으로 보호되는 것은 아닙니다. Ransomware Resilience는 검색 과정에서 NetApp Backup and Recovery 또는 ONTAP의 기존 보호 정책을 인식합니다. 보호 기능이 없는 워크로드의 경우 link:rp-use-protect.html["보호 구성"]해야 합니다.
 
+
+NOTE: 랜섬웨어 복원력은 콘솔 에이전트당 최대 3,000개의 워크로드만 검색할 수 있습니다.
+
 .단계
 . NetApp Console 에서 *보호* > *랜섬웨어 복원력*을 선택합니다.
 +

@@ -2561,4 +2561,6 @@
   <block id="0270ec13158ac8d81c5022ad41a38235" category="admonition">Amazon FSx for NetApp ONTAP 및 Azure NetApp Files에 대한 보호 전략을 구성하는 경우 <block ref="f35eaad9edb95ec2be22c4403bf0d360" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="b70244907e8a4cb4fbb47d6e9fdda53a" category="cell">클라우드: Amazon FSx for NetApp ONTAP</block>
   <block id="b4bada7d854e6650f9cc28e404fe40fb" category="admonition">Amazon FSx for NetApp ONTAP에 배포된 IRE의 경우 이 정보를 제공할 필요가 없습니다.</block>
+  <block id="f5b6822ed53c8f99c424ea0e8e011bf7" category="admonition">랜섬웨어 복원력은 콘솔 에이전트당 최대 3,000개의 워크로드만 검색할 수 있습니다.</block>
+  <block id="bb4393b6187d55f98dbeb4c5bb8add00" category="list-text">콘솔 에이전트당 워크로드 제한은 3,000개입니다.</block>
 </blocks>
