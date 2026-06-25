@@ -2405,7 +2405,6 @@
   <block id="c36975af9ca6baf7b5a05658605b577d" category="paragraph">특정 시스템에 대한 관리자가 아닌 사용자 권한을 업데이트해야 하는 경우 다음 절차를 사용하십시오.</block>
   <block id="3e24330471da607e91da657f3cdf7a39" category="list-text">콘솔에 로그인합니다. 대시보드에서 ONTAP 사용자 권한 업데이트가 필요한 시스템을 확인합니다.</block>
   <block id="df790109011414a6034217652cd48d7c" category="inline-link-macro">클린 복원</block>
-  <block id="ff3968cf2fd662dd2275d75511ef33af" category="cell">CIFS, NFS, SAN(iSCSI &amp; NVMe)</block>
   <block id="a1b7351b5e78c5f7b3c07f1f9b210761" category="doc">Google Cloud NetApp Volumes 지원(미리 보기)</block>
   <block id="d80af1c0606a32f418ab576db57cacc1" category="paragraph">랜섬웨어 복원력이 이제 Google Cloud NetApp Volumes 시스템을 지원하여 Google Cloud NetApp Volumes에서 발생하는 랜섬웨어 위협을 효율적으로 탐지하고 대응할 수 있습니다. 검색을 수행하면 랜섬웨어 복원력이 Google Cloud NetApp Volumes 시스템의 워크로드를 자동으로 표시합니다. 시스템이 검색되면 랜섬웨어 복원력 대시보드에 표시됩니다. 랜섬웨어 복원력의 Google Cloud NetApp Volumes 지원은 현재 미리 보기로 제공됩니다.</block>
   <block id="35b27350003f459df80234524883b5fc" category="inline-link-macro">랜섬웨어 복원력의 한계</block>
@@ -2563,4 +2562,6 @@
   <block id="b4bada7d854e6650f9cc28e404fe40fb" category="admonition">Amazon FSx for NetApp ONTAP에 배포된 IRE의 경우 이 정보를 제공할 필요가 없습니다.</block>
   <block id="f5b6822ed53c8f99c424ea0e8e011bf7" category="admonition">랜섬웨어 복원력은 콘솔 에이전트당 최대 3,000개의 워크로드만 검색할 수 있습니다.</block>
   <block id="bb4393b6187d55f98dbeb4c5bb8add00" category="list-text">콘솔 에이전트당 워크로드 제한은 3,000개입니다.</block>
+  <block id="8df5e57d843114bbbb53a4c85f76cb68" category="list-text">Google Cloud NetApp Volumes의 SAN 워크로드는 현재 랜섬웨어 복원력에서 지원되지 않습니다.</block>
+  <block id="afce532bad172bcef50d75935d2ed43b" category="list-text">복제 정책</block>
 </blocks>
