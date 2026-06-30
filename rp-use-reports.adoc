@@ -50,3 +50,10 @@ image:screen-dashboard.png["대시보드 페이지"]
 image:screen-reports.png["준비 훈련 보고서를 보여주는 보고서 페이지"]
 
 
+
+
+
+== 더 많은 정보
+
+* link:task-automate-user-activity.html["사용자 활동 이벤트에 대한 응답 자동화"]
+

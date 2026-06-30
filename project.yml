@@ -56,6 +56,8 @@ sidebar:
           url: "/reference-user-activity-requirements.html"
         - title: 에이전트 및 수집기 구성
           url: "/suspicious-user-activity.html"
+        - title: 사용자 알림 및 차단 관리
+          url: "/task-users-manage.html"
       - title: 보호 그룹 관리
         url: "/task-protection-group.html"
       - title: 개인 식별 데이터를 스캔하세요
@@ -64,6 +66,8 @@ sidebar:
       entries:
       - title: 감지된 경고에 대응
         url: "/rp-use-alert.html"
+      - title: 사용자 활동 알림에 대한 응답 자동화
+        url: "/task-automate-user-activity.html"
       - title: 복구 상태 검토
         url: "/rp-use-recover.html"
       - title: 클린 복원을 통해 복구

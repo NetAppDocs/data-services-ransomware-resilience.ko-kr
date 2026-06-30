@@ -1163,9 +1163,7 @@
   <block id="f2d7e7792f60fc56fc833ac06d43ff03" category="list-text">설정을 검토하세요. *활성화*를 선택하여 사용자 활동 에이전트 추가를 완료합니다.</block>
   <block id="87890c9758b28588c6845cfcf6d19b17" category="section-title">데이터 수집기 추가</block>
   <block id="cebc35dcf9d04a393d86d35a4e3cf6be" category="inline-xref-macro">탐지 정책 추가</block>
-  <block id="723cff7a2b53371ffdffcdc65a370014" category="paragraph">데이터 수집기의 세부 정보를 볼 수 있습니다. 설정에서 사용자 활동 타일의 **관리**를 선택합니다. **데이터 수집기** 탭을 선택한 다음 데이터 수집기를 선택하여 세부 정보를 보거나 일시 중지합니다.</block>
   <block id="8348d8dcee9ea32e049e21c42a431b91" category="list-text">랜섬웨어 복원력에서 *설정*으로 이동합니다.</block>
-  <block id="9fcb0a7634f29d96ae98e37bbc76e1cd" category="list-text">사용자 활동 타일에서 **관리**를 선택합니다.</block>
   <block id="e70202c14c96f451fdcf2617844ea351" category="list-text">**사용자 디렉터리 커넥터** 탭을 선택한 다음 **추가**를 선택합니다.</block>
   <block id="496ee322ba138fdbc777e5ab2e30145e" category="list-text">*이름*</block>
   <block id="e018ce61f2faa0782aac0cf5ceb4e39f" category="list-text">*사용자 디렉토리 유형*</block>
@@ -1178,7 +1176,6 @@
   <block id="7174ea6988f438d85266f06a4d178a79" category="list-text">**추가**를 선택합니다.</block>
   <block id="c46a6dfd4cabd150fef75d97e543d6e6" category="list-text">사용자 디렉토리 커넥터 탭으로 돌아가서 사용자 디렉토리 커넥터의 상태를 확인하세요. 성공적으로 생성되면 사용자 디렉토리 커넥터의 상태가 *실행 중*으로 표시됩니다.</block>
   <block id="ecdd284164c9ec55e281a5e22e24af67" category="section-title">사용자 디렉토리 커넥터 삭제</block>
-  <block id="064c929bca3d74ce57c593b98179d9b6" category="list-text">사용자 활동 타일을 찾아 **관리**를 선택합니다.</block>
   <block id="7a4d95b4bd97e134c18ec0bc73dfdc26" category="list-text">**사용자 디렉토리 커넥터** 탭을 선택합니다.</block>
   <block id="78b1b242bace6a18a2fc89d34f35271a" category="list-text">삭제하려는 사용자 디렉토리 커넥터를 식별합니다. 줄 끝의 작업 메뉴에서 세 개의 점을 선택하세요.<block ref="2f43b42fd833d1e77420a8dae7419000" prefix=" " category="inline-code"></block> 그런 다음 **삭제**를 클릭합니다.</block>
   <block id="e5b5e43b801607d44c3fb5101a5e5b57" category="summary">NetApp Ransomware Resilience 의 새로운 기능을 알아보세요.</block>
@@ -1685,8 +1682,6 @@
   <block id="72ae3905ad051e75d558266df8b1e63a" category="list-text"><block ref="4535d4c19297d046165dc98674d914e8" category="inline-link-macro-rx"></block>을(를) 충족하는지 확인하십시오.</block>
   <block id="59ad45573dbf4296a202cefa7894c118" category="section-title">사용자 활동 에이전트를 생성합니다</block>
   <block id="a757b06cbcf40569f4970cd41ee13a89" category="inline-link-macro">데이터 수집기</block>
-  <block id="3e5b5a49d2a1ae0f82a222ba8e4ffa7c" category="list-text">사용자 활동 에이전트가 성공적으로 생성되었는지 확인하십시오. 사용자 활동 타일에서 배포가 성공하면 **Running**으로 표시됩니다.</block>
-  <block id="01aa0dea5e13315b3322ab5d449cbb8e" category="paragraph">사용자 활동 에이전트가 성공적으로 생성되면 **Settings** 메뉴로 돌아가서 User activity 타일에서 **Manage**를 선택합니다. **User activity agents** 탭을 선택한 다음 해당 사용자 활동 에이전트를 선택하여 데이터 수집기 및 사용자 디렉터리 커넥터를 포함한 세부 정보를 확인합니다.</block>
   <block id="1c3618a77bb3c98ee22e85ebb2ff2cb5" category="section-title">사용자 디렉터리 커넥터를 생성합니다</block>
   <block id="450a540c6661e25e017db4862aec2e38" category="list-text">팝업 대화 상자에서 **Delete**를 선택하여 확인합니다.</block>
   <block id="236c87046e76c7fbe637db256ad65c54" category="inline-link-macro">악의적인 활동 및 의심스러운 사용자 행동을 탐지합니다</block>
@@ -1712,22 +1707,15 @@
   <block id="e02189957b252d42e679aa66d35030cd" category="list-text"><block ref="e02189957b252d42e679aa66d35030cd" category="inline-link-macro-rx"></block></block>
   <block id="0f20f1de24e002ee03e9a0d693faaf59" category="list-text">잘못된 알림이 발생한 특정 사용자에 대한 알림을 비활성화하려면 점 3개<block ref="2f43b42fd833d1e77420a8dae7419000" prefix="(" category="inline-code"></block>를 선택한 다음 **이 사용자를 모니터링에서 제외**를 선택합니다. 대화 상자를 검토한 후 **제외**를 선택하여 확인합니다.</block>
   <block id="c65a69d50600a3f76ccdd1109d15b6e3" category="inline-link-macro">사용자 제외</block>
-  <block id="d632bf28d8164d0436ca05f069b989e9" category="admonition">사용자에 대한 알림을 다시 활성화하려면 알림을 반환하세요. 점 세 개를 선택한 다음 **모니터링에 이 사용자 포함**을 선택하세요. 모니터링에서 <block ref="e33a84d4132808c30f0e6b091e9f7e88" category="inline-link-macro-rx"></block>할 수도 있습니다.</block>
   <block id="fb7f1789c81ab5377f72e16f6b9384ad" category="inline-link-macro">각 서비스의 제한 사항</block>
   <block id="3adbdb581af927d3972b2f1c8cfb96a6" category="admonition">Amazon FSx for NetApp ONTAP 또는 Azure NetApp Files의 워크로드에 대해서는 백업 대상을 사용할 수 없습니다. FSx for ONTAP 백업 서비스를 사용하여 백업 작업을 수행하십시오. AWS에서 FSx for ONTAP의 워크로드에 대한 백업 정책을 설정하며, NetApp Ransomware Resilience에서는 설정하지 않습니다. 백업 정책은 NetApp Ransomware Resilience에 표시되며 AWS에서와 동일하게 유지됩니다.</block>
   <block id="3bc2d94b3185bcb1259a8b3cf7da880b" category="list-text">원하는 감지 설정을 선택합니다.</block>
   <block id="eb7705f4441056c554dc7aea52de0b17" category="paragraph">특정 신뢰할 수 있는 사용자의 동작이 사용자 동작 알림을 트리거할 수 있는 경우 알림에서 해당 사용자를 제외할 수 있습니다.</block>
-  <block id="0189c7f085ff5d22843080df2225281b" category="list-text">설정 대시보드에서 사용자 활동 카드를 찾은 다음 **관리**를 선택합니다.</block>
-  <block id="82694a5fa079406313056daf01f9118b" category="list-text">**제외된 사용자** 탭을 선택합니다.</block>
   <block id="de13c27fd58614b060a46c2092ed0545" category="list-text">UI에서 개별 사용자를 검토하려면 **수동 선택**을 선택하십시오. 제외된 사용자 목록을 업로드하려면 **업로드**를 선택하십시오.</block>
   <block id="9dd5e919daf597022ca9ace5ebd739e9" category="list-text">**수동 선택**을 선택한 경우 제외할 특정 사용자 이름 옆의 확인란을 선택하십시오.</block>
-  <block id="8641c2055d546da7c2e15e6d18bc9016" category="list-text">**추가**를 선택하여 제외 목록에 사용자 추가를 완료합니다.</block>
-  <block id="98e062a77fcb05260f463a017f171f72" category="list-text">**제외된 사용자** 탭에서 사용자 행동 감지 알림에서 제거된 사용자의 이름이 이제 대시보드에 표시됩니다.</block>
   <block id="bf7da00a56585a6a89ff8f8184dfd6fd" category="inline-link-macro">랜섬웨어 경고에 대응하세요</block>
   <block id="face5a9388d96715a2df2a403febcfad" category="admonition">알림에서 사용자를 직접 제외할 수도 있습니다. 자세한 내용은 <block ref="56429daef20ebac0c2b98002f6d61934" category="inline-link-macro-rx"></block>를 참조하세요.</block>
   <block id="0b09185e7ecba92cf7f8f0712501db0b" category="section-title">제외 사용자 목록에서 사용자를 제거합니다</block>
-  <block id="3ba04eb11eb815c62355b0a9cb7b05e5" category="paragraph">나중에 사용자를 다시 탐지에 추가할 수 있습니다.</block>
-  <block id="144c603fbbde0985023a4ea73e22e35b" category="list-text">제외된 사용자 선택에서 제거하려는 사용자의 이름을 찾습니다. 사용자 이름이 있는 행에서 작업 메뉴(<block ref="2f43b42fd833d1e77420a8dae7419000" prefix="(" category="inline-code"></block>)를 선택한 다음 **제거**를 선택합니다.</block>
   <block id="581c5c550f20f231f6c9e881e699829b" category="list-text">대화 상자에서 **Remove**를 선택하여 선택한 사용자를 제거할지 확인합니다.</block>
   <block id="90c78a95b0a3dffc0aa664d3139d1369" category="summary">NetApp Ransomware Resilience에서 보안 및 이벤트 관리 시스템(SIEM)으로 데이터를 자동으로 전송하여 위협을 분석하고 탐지할 수 있습니다.</block>
   <block id="03883d80013dc0b2b972eccd5b93b56f" category="list-text">AWS Security Hub</block>
@@ -1936,7 +1924,6 @@
   <block id="2aeee41e03e1ec5e48f7c1deb934b617" category="list-text">**업로드**를 선택하면 모든 사용자 목록이 포함된 CSV 또는 JSON 파일을 다운로드할 수 있습니다. **다운로드**를 선택하면 목록에 액세스할 수 있습니다.</block>
   <block id="e2616004bc9cf87f18910a512e2c2379" category="paragraph">로컬 컴퓨터에서 파일을 검토합니다. 탐지를 유지할 모든 사용자의 이름을 제거합니다. 목록에 탐지에서 제외할 사용자의 이름만 포함되면 저장합니다.</block>
   <block id="3e56f67eb69a3fdb139a993bc1606e4f" category="paragraph">Ransomware Resilience에서 **업로드**를 선택합니다. 파일을 찾아 업로드합니다.</block>
-  <block id="2a26cf4062a1ee4ec346c86574259847" category="list-text">UI에서 개별 사용자를 제외하려면 **수동으로 선택**을 선택하십시오.</block>
   <block id="fd117b89b92e15d359324da93300356b" category="doc">위협 분석 및 탐지를 위해 NetApp Ransomware Resilience를 SIEM에 연결하십시오</block>
   <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026년 3월 9일</block>
   <block id="9b0a81f6fc494248483a10631a72dabe" category="paragraph">보호 대상 워크로드는 무료 평가 기간 종료 후 구매 용량 또는 구독료에 포함됩니다. Ransomware Resilience는 효율성 적용 전, 보호 대상 워크로드와 관련된 데이터(ONTAP에서 보고된 데이터 기준)를 GB 단위로 청구됩니다.</block>
@@ -2564,4 +2551,79 @@
   <block id="bb4393b6187d55f98dbeb4c5bb8add00" category="list-text">콘솔 에이전트당 워크로드 제한은 3,000개입니다.</block>
   <block id="8df5e57d843114bbbb53a4c85f76cb68" category="list-text">Google Cloud NetApp Volumes의 SAN 워크로드는 현재 랜섬웨어 복원력에서 지원되지 않습니다.</block>
   <block id="afce532bad172bcef50d75935d2ed43b" category="list-text">복제 정책</block>
+  <block id="fb9721f24a420ba827ac36665b13797e" category="doc">사용자 활동 알림에 대한 자동 응답</block>
+  <block id="5b29c2b1307b96a1557ab05a56715041" category="paragraph">Ransomware Resilience는 이제 사용자 활동 경고가 발생할 때 스냅샷 생성 및 사용자 차단 자동화를 지원합니다. 자동화된 대응 기능을 통해 경고가 생성되는 즉시 사용자를 차단하고 복구용 스냅샷을 생성하여 수동 개입 없이 신속하게 대응할 수 있습니다.</block>
+  <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">사용자 활동 알림에 대한 응답 자동화</block>
+  <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">자세한 내용은 <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="f3948d55e3032152ce189836caaf0b14" category="list-text">*응답* 타일에서 **지금 스냅샷 생성**을 선택하여 스냅샷을 만듭니다.</block>
+  <block id="c6adf86dd8ab3fa173149ecb95e0444f" category="list-text">SVM에서 자동 응답을 활성화한 경우, **사용자 차단 편집**을 선택하여 사용자를 차단합니다.  사용자를 차단하려면 **차단된 사용자의 기간**을 선택한 다음 차단 기간(1시간부터 영구까지)을 설정합니다.  경고가 랜섬웨어 이벤트가 아니라고 판단되면 사용자 차단을 해제할 수도 있습니다.  **저장**을 선택합니다.</block>
+  <block id="a6a7e26bcffa88b63e76d3f0a0f08eda" category="admonition">사용자에 대한 알림을 다시 활성화하려면 알림을 반환하세요. 점 세 개를 선택한 다음 **모니터링에 이 사용자 포함**을 선택하세요. 모니터링에서 <block ref="1a21a4e753ba6e9b70e02139a1cf7da7" category="inline-link-macro-rx"></block>할 수도 있습니다.</block>
+  <block id="670130480e76ce2b912da3ad5daf63f4" category="inline-link-macro">사용자 활동 이벤트에 대한 응답 자동화</block>
+  <block id="8cd568562744ebd2ad72f4d26b638c5b" category="list-text"><block ref="8cd568562744ebd2ad72f4d26b638c5b" category="inline-link-macro-rx"></block></block>
+  <block id="cb69a3dbb2ce54452da8242f5d593a7d" category="list-text">사용자 활동 에이전트가 성공적으로 생성되었는지 확인하십시오. 사용자 활동 모니터링 타일에서 배포가 성공하면 **실행 중**으로 표시됩니다.</block>
+  <block id="f8154656f491b6010fd0659081a5e592" category="paragraph">사용자 활동 에이전트가 성공적으로 생성되면 **설정** 메뉴로 돌아가서 사용자 활동 모니터링 타일에서 **관리**를 선택합니다. **사용자 활동 에이전트** 탭을 선택한 다음 해당 사용자 활동 에이전트를 선택하여 데이터 수집기 및 사용자 디렉터리 커넥터를 포함한 세부 정보를 확인합니다.</block>
+  <block id="6e2ca6477a8595f1e41d451cdd9ebd00" category="paragraph">데이터 수집기의 세부 정보를 확인할 수 있습니다. 설정에서 사용자 활동 모니터링 타일의 **관리**를 선택합니다. **데이터 수집기** 탭을 선택한 다음, 세부 정보를 보거나 일시 중지할 데이터 수집기를 선택합니다.</block>
+  <block id="8e01f2104a7304e76047e58936807cf1" category="list-text">사용자 활동 모니터링 타일에서 **관리**를 선택합니다.</block>
+  <block id="7e6d3cb777f931902eef28d721b391ad" category="list-text">Ransomware Resilience에서 *설정*을 선택합니다.</block>
+  <block id="8e80013d454d77fa5da380a02985bf08" category="list-text">사용자 활동 모니터링 타일을 찾아서 **관리**를 선택합니다.</block>
+  <block id="ca9b34b1ac8edb836cc31adfeb86da35" category="paragraph">또한 <block ref="8cd568562744ebd2ad72f4d26b638c5b" category="inline-link-macro-rx"></block>할 수도 있습니다.</block>
+  <block id="83019ea39039a789f3a1ef050322b3c6" category="inline-link-macro">NetApp Ransomware Resilience에서 사용자 차단 및 알림 관리</block>
+  <block id="ab86c889344f48e6cc9a644f588de541" category="list-text"><block ref="ab86c889344f48e6cc9a644f588de541" category="inline-link-macro-rx"></block></block>
+  <block id="0e5314dd9df9fd8758e118ce1e7ba897" category="summary">NetApp Ransomware Resilience는 사용자 활동 이벤트에 대한 자동 대응 생성을 지원하여 스냅샷을 자동으로 생성하거나 사용자를 차단할 수 있도록 합니다.</block>
+  <block id="da6a5c0ffdbef8b4ec186025eff8e43b" category="doc">NetApp Ransomware Resilience에서 사용자 활동 알림에 대한 대응 자동화</block>
+  <block id="11b56910cc00c324c49386ed5582988f" category="inline-link-macro">사용자 활동 이벤트</block>
+  <block id="0a8871a3299a107751c7b0db71e644f4" category="paragraph">NetApp Ransomware Resilience는 <block ref="8b86ab47aa824ef9943240ff5124bbba" category="inline-link-macro-rx"></block>에 대한 자동화된 대응 생성을 지원합니다. 자동화된 대응 기능을 통해 Ransomware Resilience는 공격이나 경고가 감지될 때 스냅샷을 생성하거나 사용자를 차단하여 랜섬웨어 이벤트에 더욱 신속하게 대응할 수 있도록 합니다.</block>
+  <block id="24bb73d1c33f357d17024d9c2c631ff2" category="inline-link-macro">사용자 활동 에이전트를 구성하고, 사용자 활동 감지 기능을 포함하는 정책을 활성화하고, 사용자 디렉터리 커넥터를 생성했습니다.</block>
+  <block id="5a1cf133e86dfea0d4fd6beddf99419d" category="paragraph">암호화(사용자 행동), 데이터 유출 및 데이터 삭제 이벤트에 대한 자동 응답이 지원됩니다. 자동 응답을 생성하기 전에 <block ref="c512b877bbe8303215878962f3edb05e" category="inline-link-macro-rx"></block>이(가) 있어야 합니다.</block>
+  <block id="5a9dbc95cd10e68b8aa5b25769a12f66" category="section-title">자동 응답 생성</block>
+  <block id="525947b7bc9136d3c68f8d5e68e67c65" category="paragraph">의심스러운 사용자 행동 감지 정책으로 보호되는 워크로드가 하나 이상 있는 스토리지 VM은 하나만 보호할 수 있습니다.</block>
+  <block id="0ba604d3520d7d31a74f42a24b136cf6" category="list-text">**자동 응답** 탭을 선택합니다.</block>
+  <block id="ba6bbd2f6aa7a13738511856f29ba569" category="list-text">동작을 생성하려면 **추가**를 선택합니다.</block>
+  <block id="ca08d0e59990fdffbb6467bdd7f00b5f" category="list-text">자동 응답에 표시될 **이름**을 입력하세요.</block>
+  <block id="92e6ea9e52b7a81fdf0b4994719a42c1" category="inline-link-macro">알림 유형</block>
+  <block id="5abb35f1388941d8bf8186c476c69efb" category="list-text">응답을 트리거할 이벤트 유형을 선택하세요. **공격** 또는 **경고**. 다양한 <block ref="ef3f4c22db9f55b59ebc4da2b7df602e" category="inline-link-macro-rx"></block>에 대해 자세히 알아보세요.</block>
+  <block id="aa7a11a604c21a1423b1261241c7d78c" category="list-text">답변을 선택하세요:</block>
+  <block id="9646518b7752370de53f195201268e7d" category="list-text">**사용자 접근 차단**: 경고가 발생하면 해당 사용자는 Ransomware Resilience로 보호되는 모든 스토리지 VM에 대한 접근이 차단됩니다.</block>
+  <block id="5fe611c6876641199f70e49558f48be4" category="paragraph">이 옵션을 선택하는 경우 차단 기간도 선택해야 합니다. 1시간에서 24시간 사이의 간격 또는 영구 차단을 선택할 수 있습니다.</block>
+  <block id="a2f16c29a43535c7c6aa7898c58ae9f8" category="list-text">**스냅샷 생성**: 영향을 받는 워크로드에 대한 스냅샷을 생성하여 잠재적인 복구에 사용하십시오. 스냅샷은 7일 동안 보존됩니다.</block>
+  <block id="972f6ae068eb9ed1c0b103c19d4c1136" category="list-text">자동 응답을 트리거하는 알림 유형을 선택하십시오.</block>
+  <block id="2bc4fcf9346e74ca05878a7e5dd6e2d4" category="cell">알림 유형</block>
+  <block id="677329539728cfa937ee007c1bf7e778" category="list-text">자동 응답을 적용할 스토리지 VM을 선택하십시오.</block>
+  <block id="7838a605d6ae3901553635e8d43bc210" category="list-text">자동 응답을 생성하려면 **추가**를 선택하세요.</block>
+  <block id="ecc70cc5b710cb19c30985347907a33f" category="section-title">자동 응답 수정</block>
+  <block id="70df577ad04e86da4cfcd49d12f42c34" category="paragraph">자동 응답을 생성한 후에는 응답을 일시 중지하거나 다시 시작하거나 수정할 수 있습니다. 응답 이름, 응답을 트리거하는 알림 유형, 스토리지 VM 및 수행되는 작업을 수정할 수 있습니다.</block>
+  <block id="6957bab7b5de8b995af86b7615cf8877" category="list-text">수정할 자동 응답을 선택하세요.</block>
+  <block id="bc06f86137f36e1395909963dc24a7e9" category="list-text">응답을 일시 중지하거나 삭제하려면 작업 메뉴를 선택한 다음 **일시 중지**(또는 **시작**) 또는 **삭제**를 선택하십시오.</block>
+  <block id="ffaa50c6810616dffe4f2fa3b11dd9d5" category="paragraph">답변을 수정하려면 **편집**을 선택하세요.</block>
+  <block id="9190ef848f1a62966c143f87f9a3b16e" category="list-text">경고 심각도를 제외한 모든 설정을 수정할 수 있습니다.</block>
+  <block id="60fb8ad171246036e201929bc65c1158" category="list-text">변경 사항을 저장하려면 **저장**을 선택하세요.</block>
+  <block id="b1e9096bc5102d69a78befc70d41fe69" category="summary">NetApp Ransomware Resilience에서 사용자 디렉터리 커넥터를 생성한 후에는 사용자를 차단 및 차단 해제하고 알림에서 사용자를 제외할 수 있습니다.</block>
+  <block id="728a9373b496fb3b49cccf8e1eb055c0" category="paragraph">NetApp Ransomware Resilience에서 사용자 디렉터리 커넥터를 생성한 후에는 랜섬웨어 이벤트가 발생할 때 사용자를 차단하거나 차단 해제하고 평가할 수 있습니다. 또한 사용자의 행동이 공격이 아니라고 확신하는 경우 랜섬웨어 경고에서 해당 사용자를 선택적으로 제외할 수도 있습니다.</block>
+  <block id="9594e6c0471983974b6adc193bd57d4e" category="paragraph">사용자를 차단하려면 <block ref="c512b877bbe8303215878962f3edb05e" category="inline-link-macro-rx"></block>이(가) 있어야 합니다.</block>
+  <block id="37bcec617eba318667a247a58bd99097" category="inline-link-macro">응답 자동화</block>
+  <block id="88450b9601513114d92202ed82d65469" category="admonition"><block ref="5b864d1f7cea25f12e7a99e07202259f" category="inline-link-macro-rx"></block> 사용자 활동 감지 이벤트에 적용할 수 있습니다.</block>
+  <block id="25fce885a9bc8a8f1284152fe15304d0" category="section-title">차단된 사용자 관리</block>
+  <block id="f633d2cf36d2d43dc232424839fa15de" category="paragraph">악의적인 활동에 책임이 있다고 판단되는 사용자를 차단할 수 있습니다.</block>
+  <block id="5fbbcc09a7f5316f17aaf20a9f942557" category="list-title">사용자 차단</block>
+  <block id="93e35e2f3f7138fcbfc327d758e1ec96" category="list-text">설정 대시보드에서 사용자 활동 모니터링 타일을 찾은 다음 **관리**를 선택합니다.</block>
+  <block id="2361358ff14122114e736beff61c48a2" category="list-text">**사용자** 탭을 선택합니다.</block>
+  <block id="766067e25ac4a8f22dad6344937ca56d" category="list-text">**사용자 차단**을 선택합니다.</block>
+  <block id="b00b5ebe4a8164319e36e4bbef8f727f" category="list-text">차단 기간을 선택하세요. 1시간부터 최대 24시간 또는 영구적으로 차단할 수 있습니다.</block>
+  <block id="50d68502e7fbfa82f99e1abb688a948f" category="list-text">차단하려는 사용자 이름 옆의 확인란을 선택합니다.</block>
+  <block id="126b3c7582135a76321582de4bcad51d" category="list-text">**차단**을 선택합니다.</block>
+  <block id="23e9aa0fec2a06ec7f4b6f9076d62992" category="list-title">차단된 사용자 목록 수정</block>
+  <block id="3d06dabf3eaa23797059f7fffa998cfd" category="list-text">**사용자 차단 편집**을 선택합니다.</block>
+  <block id="e2d552c6afc3cd9e9e5367d429f832c4" category="list-text">수정 방법을 선택하세요. 차단 기간을 수정하려면 **차단 사용자 기간**을 선택한 다음 기간을 수정하세요. 차단된 사용자 목록에서 사용자를 제거하려면 **사용자 차단 해제**를 선택하세요.</block>
+  <block id="4ecd815bab325d10795007a2e86d0a31" category="list-text">차단 상태를 변경하려는 차단된 사용자 이름 옆의 확인란을 선택합니다.</block>
+  <block id="8d5311b8775f8a9ea8945d76095bb698" category="list-text">**저장**을 선택합니다.</block>
+  <block id="d90cde04b4a8cbf5c0f2097687b77bc8" category="section-title">사용자 알림 관리</block>
+  <block id="bf21122a37b943f2b70a86b30f0af377" category="list-text">**모니터링 제외** 탭을 선택합니다.</block>
+  <block id="a5e15107d3aab04bc0c5f9ef6e7eafe8" category="list-text">사용자를 제외 목록에 추가하려면 **추가**를 선택하십시오.</block>
+  <block id="999d037bde1c176486633543cd03a250" category="list-text">**모니터링에서 제외됨** 탭에서 사용자 행동 감지 알림에서 제거된 사용자의 이름이 이제 대시보드에 표시됩니다.</block>
+  <block id="0e1a585fedc96851082d7b2be641fb77" category="list-text">사용자 인터페이스에서 개별 사용자를 제외하려면 **수동으로 선택**을 선택하세요.</block>
+  <block id="2e1bb6ba10017caa1a34a9693a9495b0" category="list-text">제외 사용자 목록에서 제거하려는 사용자의 이름을 찾으세요. 해당 사용자 이름이 있는 행에서 작업 메뉴(<block ref="2f43b42fd833d1e77420a8dae7419000" prefix="(" category="inline-code"></block>)를 선택한 다음 **제거**를 선택하세요.</block>
+  <block id="f1d60a07f24fee746248e3b38e0d0891" category="inline-link-macro">사용자 활동 감지 이벤트에 대한 응답 자동화</block>
+  <block id="67f8bfb01063a7bf1e47bc5de6e7fcb9" category="list-text"><block ref="67f8bfb01063a7bf1e47bc5de6e7fcb9" category="inline-link-macro-rx"></block></block>
+  <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026년 6월 29일</block>
+  <block id="97d60b3e7c986739c534cb2a3c8f2b99" category="sidebar">사용자 알림 및 차단 관리</block>
 </blocks>
