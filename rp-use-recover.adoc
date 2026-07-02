@@ -12,7 +12,7 @@ summary: '공격 후 NetApp Ransomware Resilience 보조 스토리지의 백업 
 
 
 [role="lead"]
-워크로드가 "복원 필요"로 표시된 후 NetApp Ransomware Resilience 실제 복구 지점(RPA)을 권장하고 충돌 방지 복구를 위한 워크플로를 조정합니다.
+워크로드가 "복원 필요"로 표시되면 NetApp Ransomware Resilience는 실제 복구 지점(RPA)을 권장하고 충돌 방지 복구를 위한 워크플로를 오케스트레이션합니다.
 
 * VM이 NetApp Backup and Recovery 또는 Ransomware Resilience로 관리되는 경우, Ransomware Resilience는 시스템 충돌 시에도 동일한 시점에 볼륨에 있던 모든 데이터를 복원하는 충돌 일관성 복원을 수행합니다.
 +

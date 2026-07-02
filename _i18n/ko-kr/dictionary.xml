@@ -437,85 +437,40 @@
   <block id="3b6afbed7c49d679fd061dcc03462ca9" category="admonition">콘솔 에이전트가 여러 개 있는 경우 랜섬웨어 복원력 검사 데이터는 현재 콘솔에 표시되는 에이전트를 제외한 모든 콘솔 에이전트에서 수집됩니다.  이 서비스는 이 조직과 관련된 모든 프로젝트와 모든 콘솔 에이전트를 검색합니다.</block>
   <block id="427b8d3f96436f6a74500df89f6e5e4b" category="summary">새로 생성된 샘플 워크로드에 대한 랜섬웨어 공격을 시뮬레이션하여 랜섬웨어 대비 훈련을 실시합니다.  그런 다음 시뮬레이션된 공격을 조사하고 샘플 작업 부하를 복구합니다.  랜섬웨어 대비 훈련은 여러 번 실행할 수 있습니다.</block>
   <block id="004823325f4227a58d03f7083e873d82" category="doc">NetApp Ransomware Resilience 에서 랜섬웨어 공격 대비 훈련을 실시하세요.</block>
-  <block id="9d5986928b4d9f163f32ad92b34e5f6c" category="paragraph">새로운 샘플 워크로드에 대한 공격을 시뮬레이션하여 랜섬웨어 공격 준비 훈련을 실행합니다.  시뮬레이션된 공격을 조사하고 작업 부하를 복구합니다.  이 기능을 사용하여 경고 알림, 대응 및 복구를 테스트하세요.  필요한 만큼 자주 훈련을 실시하세요.</block>
   <block id="1beda934b3626b55dcd019ee000eb5bb" category="admonition">실제 작업 부하 데이터에는 영향을 미치지 않습니다.</block>
   <block id="b308768da13f40be05907e77ea473622" category="paragraph">NFS 및 CIFS(SMB) 워크로드에 대한 준비 훈련을 실행할 수 있습니다.</block>
   <block id="b6db234bfb48479bbe03939977a7b42c" category="section-title">랜섬웨어 공격 대비 훈련 구성</block>
-  <block id="967881e6d2dc084af896f11a462fd3aa" category="paragraph">시뮬레이션을 실행하기 전에 설정 페이지에서 드릴을 설정하세요.  상단 메뉴의 작업 옵션에서 설정 페이지에 액세스하세요.</block>
-  <block id="af27ed6a55d6e157eb9aa729fc023e25" category="paragraph">다음 상황에서는 사용자 이름과 비밀번호를 입력해야 합니다.</block>
-  <block id="0e88bee7df752028718ee649bb708730" category="list-text">이전에 선택한 스토리지 VM에 대해 사용자 이름 또는 암호가 변경된 경우</block>
-  <block id="c41a1b315fb28fed8deab2192a3edf47" category="list-text">다른 CIFS(SMB) 스토리지 VM을 선택하는 경우</block>
-  <block id="f5db11c84a05565db3aa0ce4df7af48b" category="list-text">다른 테스트 작업 이름을 입력하는 경우</block>
-  <block id="111cf58b2700ca43f2e6075a6eb39f74" category="list-text">NetApp Ransomware Resilience 메뉴에서 오른쪽 상단에 있는 *준비 훈련 실행* 버튼을 선택합니다.</block>
   <block id="008b8b82922cab3483d70d8899f74b5c" category="inline-image-macro">실행 준비 훈련 버튼을 보여주는 대시보드 페이지</block>
   <block id="3e3777c0093c940cbceb8cd58c4f9dac" category="paragraph"><block ref="3e3777c0093c940cbceb8cd58c4f9dac" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e820571d07203de22d81bf2d3a43c57d" category="list-text">설정 페이지의 준비 훈련 카드에서 *구성*을 선택합니다.</block>
-  <block id="5a6ea2c21bfdd4f145b28691ccbbba4f" category="paragraph">콘솔에 준비 훈련 구성 페이지가 표시됩니다.</block>
-  <block id="f39a3376d8471d16df7b03506f1e81b3" category="inline-image-macro">준비 훈련 페이지 구성</block>
-  <block id="4733f8632e3639026823ab315aa1fde4" category="paragraph"><block ref="4733f8632e3639026823ab315aa1fde4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5382046ea385cbcd7367b36d70b4decb" category="list-text">다음을 수행하세요.</block>
-  <block id="26069ed470ab5c0a17dac9d962d81768" category="list-text">준비 훈련에 사용할 콘솔 에이전트를 선택하세요.</block>
-  <block id="6c66a8a541d348bc3f3a48dc2e58492c" category="list-text">테스트 시스템을 선택하세요.</block>
-  <block id="9d5c8a6e3597683b4559e2c596a2ead9" category="list-text">테스트 스토리지 SVM을 선택하세요.</block>
-  <block id="09cb5a7830e25d2457463ef0f909f5a0" category="list-text">CIFS(SMB) 스토리지 VM을 선택한 경우 **사용자 이름** 및 **암호** 필드가 나타납니다.  스토리지 VM의 사용자 이름과 비밀번호를 입력하세요.</block>
   <block id="b5ffafbc91e02195737c6716b418141e" category="admonition">나중에 설정 페이지를 사용하여 준비 훈련 구성을 편집할 수 있습니다.</block>
   <block id="187666a138e7f6f15224af7bcef93040" category="section-title">준비 훈련을 시작하세요</block>
   <block id="b30d5003eb8b470d6df77c1edbb96724" category="paragraph">준비 훈련을 구성한 후 훈련을 시작할 수 있습니다.</block>
-  <block id="7aa812939fe3418657c0f50a2117b3cb" category="paragraph">준비 훈련을 시작하면 Ransomware Resilience는 학습 모드를 건너뛰고 활성 모드에서 훈련을 시작합니다.  워크로드의 감지 상태가 활성입니다.</block>
-  <block id="f0a3c0943e04d17a02c290b3d11c3717" category="admonition">탐지 정책이 최근에 할당되고 랜섬웨어 복원력이 워크로드를 검사하는 경우 워크로드는 랜섬웨어 탐지 *학습 모드* 상태를 가질 수 있습니다.</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">다음 중 하나를 수행하세요.</block>
-  <block id="298c644723428b96dd61c8e59f47eee9" category="list-text">랜섬웨어 복원력 메뉴에서 오른쪽 상단에 있는 *준비 훈련 실행* 버튼을 선택하세요.</block>
-  <block id="8d2bd4422410271303c0633a19aefea9" category="list-text">또는 설정 페이지의 준비 훈련 카드에서 *시작*을 선택하세요.</block>
   <block id="1e4a43fb392ed69a6d5a047ba0d88826" category="section-title">준비 훈련 경고에 대응하세요</block>
   <block id="6128067a6b325891717a7cfc23e60bae" category="paragraph">준비 훈련 알림에 응답하여 준비 상태를 테스트하세요.</block>
   <block id="e9ebf76599d54488581ec7e47b518db1" category="list-text">랜섬웨어 복원력 메뉴에서 *알림*을 선택합니다.</block>
   <block id="fd60ef582b0cdfbc6e56efcd83e3669a" category="paragraph">콘솔에 알림 페이지가 표시됩니다.  알림 ID 열에서 ID 옆에 "준비 훈련"이 표시됩니다.</block>
   <block id="bfb2eabf2e2f3750c3b857a9c0072bfa" category="inline-image-macro">준비 훈련 알림을 보여주는 알림 페이지</block>
   <block id="fd9f53769c15c2cf878c35f4cbc5a081" category="paragraph"><block ref="fd9f53769c15c2cf878c35f4cbc5a081" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="918afe8d47cac8e65affe228df4d1798" category="list-text">"준비 훈련" 표시가 있는 알림을 선택하세요.  사고 알림 목록은 알림 세부 정보 페이지에 나타납니다.</block>
   <block id="81ec450a746d2846c599b97e0284672a" category="inline-image-macro">준비 훈련 알림을 보여주는 알림 세부 정보 페이지</block>
   <block id="2869923d8a7e4947ee11eff41f3267f2" category="paragraph"><block ref="2869923d8a7e4947ee11eff41f3267f2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c7173a995c95a8992913692d7f8b29a3" category="list-text">경고 사건을 검토하세요.</block>
   <block id="8094150588327954ce01d91cf529ccfc" category="list-text">알림 사건을 선택하세요.</block>
   <block id="bf6725ca3f9665491e02c1818a34d256" category="inline-image-macro">준비 훈련 알림을 보여주는 사고 페이지</block>
   <block id="b0e402efbf054d8b9cab93c3c4e53922" category="paragraph"><block ref="b0e402efbf054d8b9cab93c3c4e53922" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="dba36383db70a071d84d9ad78273ce43" category="paragraph">다음은 살펴봐야 할 몇 가지 사항입니다.</block>
-  <block id="e26826f2ec39df72ffed839fea5c19e9" category="list-text">잠재적인 공격의 심각도를 살펴보세요.</block>
   <block id="a82587f768afa380a3cf985310780335" category="inline-link-macro">사용자를 차단합니다.</block>
   <block id="eab63628812531c73d2f750d4a6dad20" category="paragraph">심각도가 사용자가 악의적인 활동을 했다고 의심되는 경우 사용자 이름을 검토하세요. 당신도 할 수 있습니다<block ref="94387481cf2aeadb5711130400ff1590" category="inline-link-macro-rx"></block></block>
-  <block id="c7243cc109c65ad504b84c3e805c784c" category="list-text">파일 활동과 의심되는 프로세스를 살펴보세요.</block>
-  <block id="fdb29353d86a86580fc253dc319e3e0b" category="list-text">감지된 수신 데이터를 예상 데이터와 비교해 보세요.</block>
-  <block id="929c013ec98095ed1024dac131501e30" category="list-text">감지된 파일의 생성률을 예상 속도와 비교하여 살펴보세요.</block>
-  <block id="1a1d9c1ba30af27c48d2816231dc83e8" category="list-text">예상 속도와 비교하여 감지된 파일 이름 변경 속도를 살펴보세요.</block>
-  <block id="452eacf856e21da57eb379e95122df3c" category="list-text">예상 비율과 비교해서 삭제 비율을 살펴보세요.</block>
-  <block id="f86fe9463862bcb6c0a89b3fdbb1028b" category="list-text">영향을 받은 파일 목록을 살펴보세요.  공격을 일으킬 수 있는 확장 프로그램을 살펴보세요.</block>
   <block id="464d4de9e42b79f0c1893e372df7593d" category="list-text">영향을 받은 파일과 디렉토리의 수를 검토하여 공격의 영향과 범위를 파악합니다.</block>
   <block id="d40581f789448c5ecd5a19fb28ec3cd7" category="section-title">테스트 작업 부하를 복원합니다.</block>
   <block id="cf14bb05f198df8718a11d38daa4892b" category="paragraph">준비 훈련 알림을 검토한 후 필요한 경우 테스트 작업 부하를 복원합니다.</block>
   <block id="b1b9ff3cb3c8be033645e7815ff3a231" category="list-text">알림 세부 정보 페이지로 돌아갑니다.</block>
-  <block id="1428f7ff07a53448ce6c5a848493a542" category="list-text">테스트 작업 부하를 복구해야 하는 경우 다음을 수행하세요.</block>
-  <block id="402892b652810818eb61e703ca333d06" category="list-text">*복원 필요 표시*를 선택하세요.</block>
-  <block id="f1a43a1191cd8e11a5db942f4175b31f" category="list-text">확인 내용을 검토하고 확인 상자에서 *복원 필요 표시*를 선택하세요.</block>
   <block id="63d4b8d17265522f12b229a2016b08c9" category="list-text">랜섬웨어 복원력 메뉴에서 *복구*를 선택합니다.</block>
   <block id="f77361b272ce81d8275727f7b1a756a8" category="list-text">*복원*을 선택하세요.</block>
-  <block id="98576e747c7efb09ca0d1e50a58ae308" category="list-text">복원 페이지에서 복원에 대한 정보를 제공합니다.</block>
-  <block id="05e2304cb46b92601ea1e826aa3fec0b" category="list-text">소스 스냅샷 복사본을 선택합니다.</block>
-  <block id="773018347112b716b659352d9f401251" category="list-text">대상 볼륨을 선택하세요.</block>
-  <block id="d945f439c98a4e493f221b959e0eb5a8" category="list-text">복원 검토 페이지에서 *복원*을 선택합니다.</block>
-  <block id="e2c10d3e5cc7814771b74301da2e77fb" category="paragraph">콘솔은 복구 페이지에서 준비 훈련 복원 상태를 "진행 중"으로 표시합니다.</block>
-  <block id="be33dcf1e82018837356a18329cfd83a" category="paragraph">복원이 완료되면 콘솔은 워크로드 상태를 *복원됨*으로 변경합니다.</block>
-  <block id="5a1452d08b817dee6f550ab72ed5761c" category="list-text">복구된 작업 부하를 검토합니다.</block>
-  <block id="97236d1d6456b91de75d53d6249f5af0" category="inline-link-macro">랜섬웨어 공격으로부터 복구(사고가 해결된 후)</block>
-  <block id="225c52e147dc652783f29cce5e5f1205" category="admonition">복원 프로세스에 대한 자세한 내용은 다음을 참조하세요.<block ref="2318031b9bf9fde86d3a7f04f24d9774" category="inline-link-macro-rx"></block> .</block>
-  <block id="37eb9cec5c575b48f279378f147d9523" category="section-title">준비 훈련 후 알림 상태 변경</block>
   <block id="aa217641d7c21b459c5c614fba9e0b2c" category="paragraph">준비 훈련 알림을 검토하고 작업 부하를 복구한 후 필요한 경우 알림 상태를 변경합니다.</block>
-  <block id="965e3caf98e8e0df69529bdc2c5838cc" category="paragraph">*콘솔 역할이 필요합니다* 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 복원력 관리자.<block ref="5b95efebf772ec16abdf1053e3a4558b" category="inline-link-rx"></block> .</block>
   <block id="b707d985234424bd425b96580911950e" category="list-text">알림을 다시 선택하세요.</block>
-  <block id="2da9a9f4e6a92f5857d147337ae308f7" category="list-text">*상태 편집*을 선택하여 상태를 표시하고 상태를 다음 중 하나로 변경하세요.</block>
   <block id="e0a30b860c06e610cadc21ebf64426da" category="list-text">해제됨: 해당 활동이 랜섬웨어 공격이 아니라고 의심되는 경우 상태를 해제됨으로 변경하세요.</block>
   <block id="36b45588cbfa3653d0bdeb91883b49f4" category="list-text">해결됨: 사건이 완화되었습니다.</block>
   <block id="1be5568d0c3f299b7d0fa2b810d4b90d" category="section-title">준비 훈련에 대한 검토 보고서</block>
-  <block id="1618fcb06831249fd4142102d83577f5" category="paragraph">준비 훈련이 완료된 후 훈련 보고서를 검토하고 저장할 수 있습니다.</block>
   <block id="d4a3a2b9e82e37bb02affeedbb17575f" category="list-text">랜섬웨어 복원력 메뉴에서 *보고서*를 선택합니다.</block>
   <block id="50ca22b8d354f001a742f726d3cf2be9" category="inline-image-macro">준비 훈련 보고서를 보여주는 보고서 페이지</block>
   <block id="179e5ea4317177f519c688d15ef67987" category="paragraph"><block ref="179e5ea4317177f519c688d15ef67987" category="inline-image-macro-rx" type="image"></block></block>
@@ -839,7 +794,6 @@
   <block id="571f33f6eea9a8d4cbc40d9ea733c1e9" category="list-text">전략 관리 페이지에서 *작업*을 선택하세요.<block ref="c25b92b317848c2a66dcfecc2a02ad99" category="inline-image-macro-rx" type="image"></block> 삭제하려는 전략에 대한 옵션입니다.</block>
   <block id="b850d388555da9da0c8036cffa6c6951" category="list-text">작업 메뉴에서 *정책 삭제*를 선택합니다.</block>
   <block id="2626c315654649457283f31cd264c39c" category="summary">공격 후 NetApp Ransomware Resilience 보조 스토리지의 백업 데이터가 안전한지 확인하고, 실제 복구 지점(RPA)을 권장하며, 충돌 방지 복구를 위한 워크플로를 조율합니다.</block>
-  <block id="197d5e3f8c27a534ff428274b4db5d59" category="paragraph">워크로드가 "복원 필요"로 표시된 후 NetApp Ransomware Resilience 실제 복구 지점(RPA)을 권장하고 충돌 방지 복구를 위한 워크플로를 조정합니다.</block>
   <block id="57a6bb038991f08ac0fdcf64095bd0af" category="paragraph">모든 볼륨, 특정 볼륨 또는 특정 파일을 선택하여 작업 부하를 복원할 수 있습니다.</block>
   <block id="b5ccdb3dc0dc7a8afa4ba1ad3929e36a" category="admonition">작업 부하 복구는 실행 중인 작업 부하에 영향을 줄 수 있습니다.  적절한 이해 관계자와 함께 복구 프로세스를 조정해야 합니다.</block>
   <block id="3ab57f205469e682011f73cdb8f98562" category="list-text">*복구 필요*: 작업 부하를 복구해야 합니다.</block>
@@ -1290,7 +1244,6 @@
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">자주 묻는 질문</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식과 지원</block>
   <block id="51fecb5d19a6637dea83445678fd4ffa" category="section-title">데이터 백업</block>
-  <block id="8e0b9d66ccd774ed98d0b31d0e6ed305" category="admonition">훈련이 진행되는 동안에는 준비 훈련 구성을 편집할 수 없습니다. 드릴을 재설정하여 멈추고 구성을 수정할 수 있습니다.</block>
   <block id="4fa0264ac4080dbcb96449b3dd2eff57" category="paragraph">랜섬웨어 복원력 라이선스에는 추가 NetApp 제품이 포함되지 않습니다. 하지만 Ransomware Resilience는 NetApp Backup and Recovery 와 통합될 수 있습니다.</block>
   <block id="c785cc029c5e88f7796b29b4ff0e99e1" category="paragraph">랜섬웨어 복원력을 설정하고 작업 부하를 보호하는 데 필요한 상위 수준의 단계를 알아보세요.</block>
   <block id="6ff0e20f052119502398978ae7712412" category="paragraph">자세한 내용은 각 단계의 링크를 참조하세요.</block>
@@ -1971,9 +1924,7 @@
   <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">Ransomware Resilience는 이제 <block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block>에 대한 보안 오케스트레이션, 자동화 및 대응(SOAR) 플레이북을 제공합니다. 이 플레이북을 통해 위협 대응 관리가 더욱 간편해지고, 작업 및 테스트가 자동화되며, 스냅샷 생성 및 볼륨 오프라인 전환과 같은 필수적인 랜섬웨어 대응 활동을 지원할 수 있습니다.</block>
   <block id="dce0959f50faa93a47d141f615365404" category="paragraph">Ransomware Resilience는 Google SecOps, Microsoft Sentinel 및 Splunk용 플레이북을 제공합니다. 설정 세부 정보는 각 GitHub 페이지를 참조하십시오.</block>
   <block id="4f61a1c38b74708d0982090b3ace3f21" category="list-text">Azure NetApp Files API가 자동화된 작업을 차단하므로 Azure NetApp Files와 함께 <block ref="237628f5d72273fb0e39c8149431292e" category="inline-link-macro-rx"></block>를 사용하지 않는 것이 좋습니다.</block>
-  <block id="4fcce21aba16e6a89d3c15cbcce7db5a" category="list-text">테스트 워크로드의 이름을 입력하세요. 이름에 하이픈을 포함하지 마세요.</block>
   <block id="3aecb1c0d4a2579d6c2b4487309b2cdc" category="admonition">공격을 해제한 후에는 되돌릴 수 없습니다. 워크로드를 해제하면 잠재적인 랜섬웨어 공격에 대응하여 자동으로 생성된 모든 스냅샷 복사본이 영구적으로 삭제됩니다. 경보를 해제하면 대비 훈련이 완료된 것으로 간주됩니다.</block>
-  <block id="001b6bed17667ada4d5dad085e5729b3" category="list-text">복원할 "준비 훈련"으로 표시된 테스트 워크로드를 선택하십시오.</block>
   <block id="5dba46907e72d7502229329d2aafd8a2" category="list-text">Splunk Enterprise</block>
   <block id="a8fdc49c32c2aa34ebd35cbf9823def6" category="section-title">위협 탐지를 위해 Splunk Cloud 및 Splunk Enterprise를 구성합니다.</block>
   <block id="681024dbfdb70dd04ac980451d89db64" category="paragraph">Ransomware Resilience는 Splunk Cloud 및 Splunk Enterprise를 통한 위협 탐지를 지원합니다. Ransomware Resilience에서 Splunk 연결을 활성화하기 전에 다음을 수행해야 합니다.</block>
@@ -2484,7 +2435,6 @@
   <block id="d266a5bcc7addbbfb5f3a2a3a2da96b4" category="paragraph">Ransomware Resilience에서 보호를 구성한 후 다음을 수행할 수 있습니다.</block>
   <block id="109acfe0b7e8d2f9308c5731f4ac86cf" category="inline-link-macro">SOAR 플레이북 구성</block>
   <block id="02d1f111792f02519c820dcc08793e25" category="list-text"><block ref="02d1f111792f02519c820dcc08793e25" category="inline-link-macro-rx"></block></block>
-  <block id="6a9d17e41c0c073fa0d9711e06fada20" category="list-text">준비 훈련 유형을 선택하십시오. 암호화 데이터 유출 후 수동 복구를 위해서는 **Custom recovery**를 선택하십시오. 의심스러운 사용자 행동으로 인한 복구를 위해서는 **Data breach**를 선택하십시오.</block>
   <block id="edf3f8822a49a1bb13fbd120171d257c" category="inline-link-macro">사용자 활동 감지에 대해 알아보세요</block>
   <block id="0b86f0cc70fa97941f30d9b58654f3af" category="paragraph">사용자 수준 알림을 보려면 사용자 활동 에이전트를 구성하고 사용자 행동 감지 기능이 있는 보호 정책을 활성화해야 합니다. *의심스러운 사용자* 열은 사용자 행동 감지가 활성화된 경우에만 알림 대시보드에 나타납니다. 자세한 내용은 <block ref="c0b52a716b3bac77455f18f3a2c3f3e3" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
   <block id="6726b54c5a2ddd1b0d3a5f45023156e4" category="paragraph">사용자 행동 감지를 구성한 경우 사용자 수준 데이터를 보고 특정 사용자를 차단할 수 있습니다. 사용자 활동 감지를 활성화하려면 <block ref="3140e0dc60f85706f2dff3cb0112bd4a" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
@@ -2626,4 +2576,39 @@
   <block id="67f8bfb01063a7bf1e47bc5de6e7fcb9" category="list-text"><block ref="67f8bfb01063a7bf1e47bc5de6e7fcb9" category="inline-link-macro-rx"></block></block>
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026년 6월 29일</block>
   <block id="97d60b3e7c986739c534cb2a3c8f2b99" category="sidebar">사용자 알림 및 차단 관리</block>
+  <block id="acd27fc46144e7ce943b73180eb0d3a8" category="paragraph">NetApp Ransomware Resilience에서 랜섬웨어 공격 대비 훈련을 실행하여 실제 랜섬웨어 공격에 대한 대비 태세를 점검하십시오. 이 대비 훈련을 통해 Ransomware Resilience는 새로운 샘플 워크로드에 대한 공격을 시뮬레이션하여 실제 운영 데이터에 영향을 주지 않고 시뮬레이션된 공격을 조사하고 복구를 수행할 수 있습니다. 대비 훈련은 경고 알림에 익숙해지고 대응 및 복구를 준비하는 데 도움이 됩니다. 필요에 따라 훈련을 원하는 만큼 자주 실행할 수 있습니다.</block>
+  <block id="537f8bf1cb00339aa74d0eb9f514b0df" category="list-text">준비 드릴 타일에서 **구성**을 선택합니다.</block>
+  <block id="58217f0a1f8bf12ba3006ea914fc528d" category="list-text">**준비 훈련 유형**을 선택하십시오.</block>
+  <block id="7b1c6c26786355a2591470660c65da62" category="inline-link-macro">사용자 지정 복원</block>
+  <block id="0f17af467c79e20d3693f219481946ab" category="list-text">**사용자 지정 복구**: 이 훈련은 경고를 생성한 다음 <block ref="03c74c192711f88b7d0a53dcc4c4539e" category="inline-link-macro-rx"></block> 복구 지점을 구성하는 훈련을 실행할 수 있도록 합니다.</block>
+  <block id="65b568f05372e5de535ad8c825aeb375" category="inline-link-macro">클린 복원</block>
+  <block id="c4ea46b930e86e42d84d7d62143805bf" category="list-text">**클린 복원**: 이 연습은 경고를 생성한 다음 최적화된 복구 지점으로 안내하는 <block ref="d08d369745dba9c2b6dd002a205d6b5a" category="inline-link-macro-rx"></block> 복구 프로세스로 이동합니다.</block>
+  <block id="532361f2ad995113181b7cf1df1c5462" category="inline-link-macro">사용자 활동 에이전트</block>
+  <block id="735dd28d475e0e047aa789767a8252e0" category="list-text">**데이터 유출 복구**: 이 훈련은 사용자가 시작한 데이터 유출 이벤트에 대한 알림을 생성합니다. 이 훈련 유형을 활성화하려면 먼저 <block ref="ea7722fd5c2c373bdaffcbde2ca3bbf6" category="inline-link-macro-rx"></block>을(를) 구성해야 합니다.</block>
+  <block id="74e66061c3c27ae398760dc1adda70dc" category="list-text">준비 태세 훈련 테스트를 생성할 환경을 선택하십시오.</block>
+  <block id="3026f14fd36d3165478399b611373fb8" category="list-text">**콘솔 에이전트**와 **시스템**을 선택하십시오.</block>
+  <block id="7cbdec3ae1628850b555ad8bb540d67e" category="list-text">**시스템**을 선택한 후, 미리 채워진 목록에서 **스토리지 VM**을 선택하십시오.</block>
+  <block id="3db3fb74a2b36310b9059bb1932ec7ce" category="list-text">**새 테스트 워크로드**의 이름을 입력하세요. 테스트 워크로드 이름 앞에는 "rps_test_"가 추가됩니다.</block>
+  <block id="c30460d790febc2f1a11000f7e9dae5a" category="list-text">데이터 침해 복구를 위한 준비 훈련인 경우, 훈련 환경에 대해 **사용자 활동 에이전트**를 선택하십시오.</block>
+  <block id="c622e795c00706524901f4150a5ebe4e" category="inline-image-macro">준비 태세 훈련 구성 옵션의 스크린샷입니다.</block>
+  <block id="f4f81b5211932d1ec08f7bbee3d205fe" category="paragraph"><block ref="f4f81b5211932d1ec08f7bbee3d205fe" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="022d85fe9248458ef65cf16481972329" category="list-text">훈련을 시작하려면:</block>
+  <block id="81107e8f37cdb96dee7eb88d136b8e27" category="list-text">Ransomware Resilience 대시보드 오른쪽 상단에 있는 *준비 훈련 실행* 버튼을 선택합니다.</block>
+  <block id="b3833f107edd43c29b6874a2a10bef7a" category="list-text">또는 **설정**으로 이동하세요. 준비 상태 점검 항목에서 *시작*을 선택하세요.</block>
+  <block id="f62bfcf4d7189e2ae5caf57497df14b5" category="admonition">훈련이 실행 중인 동안에는 준비 태세 훈련 구성을 편집할 수 없습니다. 준비 태세 훈련을 수정하려면 **재설정**을 선택한 다음 훈련을 편집하십시오.</block>
+  <block id="3798ead7c288ba8d157f0c0b116976de" category="list-text">"준비 훈련" 표시가 있는 알림을 선택하십시오.</block>
+  <block id="aa888903a6021760fd560a3f35a5fe39" category="paragraph">해당 사건을 검토할 때 다음 사항을 고려하십시오.</block>
+  <block id="aa823a078e061b627817667be59a3966" category="list-text">잠재적인 공격의 심각도.</block>
+  <block id="b20c07ab3d395d21be11ec99cd4f86bc" category="list-text">파일 활동량과 예상 속도 비교. 여기에는 읽기/쓰기 속도, 파일 생성, 파일 이름 변경 및 삭제가 포함됩니다.</block>
+  <block id="79937840afd2a2e82d05deb4a76fb903" category="list-text">영향을 받은 파일 목록입니다. 공격의 원인이 될 수 있는 파일 확장자를 확인해 보세요.</block>
+  <block id="993613047b942198cc7322f8e11f7420" category="list-text">테스트 워크로드를 복원해야 하는 경우 **복원 필요 표시**를 선택한 다음 확인 대화 상자에서 해당 버튼을 다시 선택하십시오.</block>
+  <block id="d5e852ec035f9425ed8495bf6d48334d" category="list-text">복원할 "Readiness drill" 태그가 표시된 테스트 워크로드를 선택합니다.</block>
+  <block id="6fa33edafac526b51cd549a1e05b2a96" category="list-text">설정한 복구 방식에 맞는 지침을 따르십시오.</block>
+  <block id="956c8997fffc6ce6b1f22bc10d0ba47f" category="list-text"><block ref="956c8997fffc6ce6b1f22bc10d0ba47f" category="inline-link-macro-rx"></block></block>
+  <block id="d83283d005fa9bcf48b6756243aafbdc" category="list-text"><block ref="d83283d005fa9bcf48b6756243aafbdc" category="inline-link-macro-rx"></block></block>
+  <block id="f27953d6339af15a493ade74a07689a4" category="section-title">대비 훈련 후 경보 상태 변경</block>
+  <block id="b6445b4da8c40fc5009a5eb5b2b9969c" category="paragraph">*필수 콘솔 역할* 조직 관리자, 폴더 또는 프로젝트 관리자, 또는 Ransomware Resilience 관리자.<block ref="5b95efebf772ec16abdf1053e3a4558b" category="inline-link-rx"></block>.</block>
+  <block id="42caf31af7b0b287a88952c8986218ab" category="list-text">상태 옆에 있는 *편집*을 선택하여 상태를 표시합니다. 상태를 다음 중 하나로 변경합니다.</block>
+  <block id="12c6663cbe23396ea86ae553869baab3" category="paragraph">준비 훈련이 완료되면 훈련 보고서를 생성하고 저장할 수 있습니다. 훈련 보고서는 탐지 정책, 경고 유형 및 타임스탬프, 공격 세부 정보, 복구 상태 등의 정보를 포함하는 JSON 파일입니다.</block>
+  <block id="4c5236fa54058c5de2620586b5275209" category="paragraph">워크로드가 "복원 필요"로 표시되면 NetApp Ransomware Resilience는 실제 복구 지점(RPA)을 권장하고 충돌 방지 복구를 위한 워크플로를 오케스트레이션합니다.</block>
 </blocks>
