@@ -41,7 +41,7 @@ Ransomware Resilience는 데이터 엔트로피 패턴, 파일 확장자 유형 
 
 
 
-NOTE: 데이터 유출, 데이터 파기 및 의심스러운 사용자 행동 알림을 받으려면 link:concept-user-behavior.html["사용자 활동 감지"]을(를) 구성해야 합니다.
+NOTE: 데이터 유출, 데이터 파기 및 의심스러운 사용자 행동 알림의 경우 link:concept-user-behavior.html["사용자 활동 감지"]을(를) 구성해야 합니다. 또한 link:task-users-manage.html["특정 파일 경로 및 사용자"]에서 알림이 생성되지 않도록 방지할 수도 있습니다.
 
 
 

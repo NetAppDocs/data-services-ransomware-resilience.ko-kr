@@ -56,7 +56,7 @@ sidebar:
           url: "/reference-user-activity-requirements.html"
         - title: 에이전트 및 수집기 구성
           url: "/suspicious-user-activity.html"
-        - title: 사용자 알림 및 차단 관리
+        - title: 알림 및 차단된 사용자 관리
           url: "/task-users-manage.html"
       - title: 보호 그룹 관리
         url: "/task-protection-group.html"

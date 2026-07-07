@@ -1666,7 +1666,6 @@
   <block id="9dd5e919daf597022ca9ace5ebd739e9" category="list-text">**수동 선택**을 선택한 경우 제외할 특정 사용자 이름 옆의 확인란을 선택하십시오.</block>
   <block id="bf7da00a56585a6a89ff8f8184dfd6fd" category="inline-link-macro">랜섬웨어 경고에 대응하세요</block>
   <block id="face5a9388d96715a2df2a403febcfad" category="admonition">알림에서 사용자를 직접 제외할 수도 있습니다. 자세한 내용은 <block ref="56429daef20ebac0c2b98002f6d61934" category="inline-link-macro-rx"></block>를 참조하세요.</block>
-  <block id="0b09185e7ecba92cf7f8f0712501db0b" category="section-title">제외 사용자 목록에서 사용자를 제거합니다</block>
   <block id="581c5c550f20f231f6c9e881e699829b" category="list-text">대화 상자에서 **Remove**를 선택하여 선택한 사용자를 제거할지 확인합니다.</block>
   <block id="90c78a95b0a3dffc0aa664d3139d1369" category="summary">NetApp Ransomware Resilience에서 보안 및 이벤트 관리 시스템(SIEM)으로 데이터를 자동으로 전송하여 위협을 분석하고 탐지할 수 있습니다.</block>
   <block id="03883d80013dc0b2b972eccd5b93b56f" category="list-text">AWS Security Hub</block>
@@ -1759,7 +1758,6 @@
   <block id="147fa6a15cbb387b90cd75ccc34d8cfe" category="list-text">데이터 파기</block>
   <block id="9755e4a474d0024a8dcd40393e571716" category="list-text">의심스러운 사용자 행동</block>
   <block id="f94e6cd450a12c55223329be07d15575" category="inline-link-macro">사용자 활동 감지</block>
-  <block id="09e9060a723336e7b5657759fccb4bbf" category="admonition">데이터 유출, 데이터 파기 및 의심스러운 사용자 행동 알림을 받으려면 <block ref="9403988536e87b1b5fabe2157e11581a" category="inline-link-macro-rx"></block>을(를) 구성해야 합니다.</block>
   <block id="b413c7d063ce740207cbb531b68c46dc" category="section-title">알림 유형 및 상태</block>
   <block id="1405a7e68c0a63e640869ddcfd6a3c37" category="paragraph">알림은 *새로 생성됨* 또는 *비활성* 두 가지 상태 중 하나를 가집니다.</block>
   <block id="75a90d27a357c4859ab2e4e41a012d82" category="paragraph">알림은 다음 유형 중 하나로 분류됩니다.</block>
@@ -2515,8 +2513,6 @@
   <block id="7e6d3cb777f931902eef28d721b391ad" category="list-text">Ransomware Resilience에서 *설정*을 선택합니다.</block>
   <block id="8e80013d454d77fa5da380a02985bf08" category="list-text">사용자 활동 모니터링 타일을 찾아서 **관리**를 선택합니다.</block>
   <block id="ca9b34b1ac8edb836cc31adfeb86da35" category="paragraph">또한 <block ref="8cd568562744ebd2ad72f4d26b638c5b" category="inline-link-macro-rx"></block>할 수도 있습니다.</block>
-  <block id="83019ea39039a789f3a1ef050322b3c6" category="inline-link-macro">NetApp Ransomware Resilience에서 사용자 차단 및 알림 관리</block>
-  <block id="ab86c889344f48e6cc9a644f588de541" category="list-text"><block ref="ab86c889344f48e6cc9a644f588de541" category="inline-link-macro-rx"></block></block>
   <block id="0e5314dd9df9fd8758e118ce1e7ba897" category="summary">NetApp Ransomware Resilience는 사용자 활동 이벤트에 대한 자동 대응 생성을 지원하여 스냅샷을 자동으로 생성하거나 사용자를 차단할 수 있도록 합니다.</block>
   <block id="da6a5c0ffdbef8b4ec186025eff8e43b" category="doc">NetApp Ransomware Resilience에서 사용자 활동 알림에 대한 대응 자동화</block>
   <block id="11b56910cc00c324c49386ed5582988f" category="inline-link-macro">사용자 활동 이벤트</block>
@@ -2545,8 +2541,6 @@
   <block id="ffaa50c6810616dffe4f2fa3b11dd9d5" category="paragraph">답변을 수정하려면 **편집**을 선택하세요.</block>
   <block id="9190ef848f1a62966c143f87f9a3b16e" category="list-text">경고 심각도를 제외한 모든 설정을 수정할 수 있습니다.</block>
   <block id="60fb8ad171246036e201929bc65c1158" category="list-text">변경 사항을 저장하려면 **저장**을 선택하세요.</block>
-  <block id="b1e9096bc5102d69a78befc70d41fe69" category="summary">NetApp Ransomware Resilience에서 사용자 디렉터리 커넥터를 생성한 후에는 사용자를 차단 및 차단 해제하고 알림에서 사용자를 제외할 수 있습니다.</block>
-  <block id="728a9373b496fb3b49cccf8e1eb055c0" category="paragraph">NetApp Ransomware Resilience에서 사용자 디렉터리 커넥터를 생성한 후에는 랜섬웨어 이벤트가 발생할 때 사용자를 차단하거나 차단 해제하고 평가할 수 있습니다. 또한 사용자의 행동이 공격이 아니라고 확신하는 경우 랜섬웨어 경고에서 해당 사용자를 선택적으로 제외할 수도 있습니다.</block>
   <block id="9594e6c0471983974b6adc193bd57d4e" category="paragraph">사용자를 차단하려면 <block ref="c512b877bbe8303215878962f3edb05e" category="inline-link-macro-rx"></block>이(가) 있어야 합니다.</block>
   <block id="37bcec617eba318667a247a58bd99097" category="inline-link-macro">응답 자동화</block>
   <block id="88450b9601513114d92202ed82d65469" category="admonition"><block ref="5b864d1f7cea25f12e7a99e07202259f" category="inline-link-macro-rx"></block> 사용자 활동 감지 이벤트에 적용할 수 있습니다.</block>
@@ -2564,16 +2558,12 @@
   <block id="e2d552c6afc3cd9e9e5367d429f832c4" category="list-text">수정 방법을 선택하세요. 차단 기간을 수정하려면 **차단 사용자 기간**을 선택한 다음 기간을 수정하세요. 차단된 사용자 목록에서 사용자를 제거하려면 **사용자 차단 해제**를 선택하세요.</block>
   <block id="4ecd815bab325d10795007a2e86d0a31" category="list-text">차단 상태를 변경하려는 차단된 사용자 이름 옆의 확인란을 선택합니다.</block>
   <block id="8d5311b8775f8a9ea8945d76095bb698" category="list-text">**저장**을 선택합니다.</block>
-  <block id="d90cde04b4a8cbf5c0f2097687b77bc8" category="section-title">사용자 알림 관리</block>
   <block id="bf21122a37b943f2b70a86b30f0af377" category="list-text">**모니터링 제외** 탭을 선택합니다.</block>
   <block id="a5e15107d3aab04bc0c5f9ef6e7eafe8" category="list-text">사용자를 제외 목록에 추가하려면 **추가**를 선택하십시오.</block>
   <block id="999d037bde1c176486633543cd03a250" category="list-text">**모니터링에서 제외됨** 탭에서 사용자 행동 감지 알림에서 제거된 사용자의 이름이 이제 대시보드에 표시됩니다.</block>
-  <block id="0e1a585fedc96851082d7b2be641fb77" category="list-text">사용자 인터페이스에서 개별 사용자를 제외하려면 **수동으로 선택**을 선택하세요.</block>
-  <block id="2e1bb6ba10017caa1a34a9693a9495b0" category="list-text">제외 사용자 목록에서 제거하려는 사용자의 이름을 찾으세요. 해당 사용자 이름이 있는 행에서 작업 메뉴(<block ref="2f43b42fd833d1e77420a8dae7419000" prefix="(" category="inline-code"></block>)를 선택한 다음 **제거**를 선택하세요.</block>
   <block id="f1d60a07f24fee746248e3b38e0d0891" category="inline-link-macro">사용자 활동 감지 이벤트에 대한 응답 자동화</block>
   <block id="67f8bfb01063a7bf1e47bc5de6e7fcb9" category="list-text"><block ref="67f8bfb01063a7bf1e47bc5de6e7fcb9" category="inline-link-macro-rx"></block></block>
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026년 6월 29일</block>
-  <block id="97d60b3e7c986739c534cb2a3c8f2b99" category="sidebar">사용자 알림 및 차단 관리</block>
   <block id="acd27fc46144e7ce943b73180eb0d3a8" category="paragraph">NetApp Ransomware Resilience에서 랜섬웨어 공격 대비 훈련을 실행하여 실제 랜섬웨어 공격에 대한 대비 태세를 점검하십시오. 이 대비 훈련을 통해 Ransomware Resilience는 새로운 샘플 워크로드에 대한 공격을 시뮬레이션하여 실제 운영 데이터에 영향을 주지 않고 시뮬레이션된 공격을 조사하고 복구를 수행할 수 있습니다. 대비 훈련은 경고 알림에 익숙해지고 대응 및 복구를 준비하는 데 도움이 됩니다. 필요에 따라 훈련을 원하는 만큼 자주 실행할 수 있습니다.</block>
   <block id="537f8bf1cb00339aa74d0eb9f514b0df" category="list-text">준비 드릴 타일에서 **구성**을 선택합니다.</block>
   <block id="58217f0a1f8bf12ba3006ea914fc528d" category="list-text">**준비 훈련 유형**을 선택하십시오.</block>
@@ -2618,4 +2608,28 @@
   <block id="e3b01c4848ac6d1626374e4dee0f0685" category="list-text">**데이터 유출 복구**: 이 훈련 유형을 활성화하려면 먼저 <block ref="ea7722fd5c2c373bdaffcbde2ca3bbf6" category="inline-link-macro-rx"></block>을(를) 구성해야 합니다.</block>
   <block id="05d14520f5a3fd970bfca710b43ae17a" category="admonition">훈련이 실행 중인 동안에는 준비 태세 훈련 구성을 편집할 수 없습니다. 준비 태세 훈련을 수정하려면 **재설정**을 선택한 다음 훈련을 편집하십시오.</block>
   <block id="7820d7f245e7637e7833faccb183f36d" category="admonition">의심스러운 사용자 행동에 대한 자동 대응으로는 스냅샷만 생성할 수 있습니다. 사용자 차단은 의심스러운 사용자 행동에 대한 자동 대응으로 지원되지 않습니다.</block>
+  <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">사용자 행동 알림에서 파일 경로 제외</block>
+  <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">Ransomware Resilience는 사용자 동작 모니터링 경고에서 특정 파일 경로를 제외하는 기능을 지원합니다. 위험하지 않다고 판단되거나, 경고를 유발할 수 있는 작업을 볼륨 내 파일에서 수행하는 경우 해당 파일 경로를 제외할 수 있습니다.</block>
+  <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">알림에서 파일 경로 제외</block>
+  <block id="4cbd1bb5d6b8178b77b88be565a35c9b" category="paragraph">자세한 내용은 <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="1d20fa647694e6811cd363111cf77538" category="inline-link-macro">특정 파일 경로 및 사용자</block>
+  <block id="2e9d0337668c42840413047306ef5b57" category="admonition">데이터 유출, 데이터 파기 및 의심스러운 사용자 행동 알림의 경우 <block ref="9403988536e87b1b5fabe2157e11581a" category="inline-link-macro-rx"></block>을(를) 구성해야 합니다. 또한 <block ref="bd37368d247ac8892eb2f81e8ff6fc76" category="inline-link-macro-rx"></block>에서 알림이 생성되지 않도록 방지할 수도 있습니다.</block>
+  <block id="75cd3815cc2e90d9679458215fb968dd" category="inline-link-macro">알림 설정 및 차단된 사용자 관리</block>
+  <block id="84bc023659fbaeb1e92bb1563d94a709" category="list-text"><block ref="84bc023659fbaeb1e92bb1563d94a709" category="inline-link-macro-rx"></block></block>
+  <block id="0050dfe8b12d7f41e074b38a1584c2e0" category="summary">NetApp Ransomware Resilience에서 사용자 디렉터리 커넥터를 생성한 후에는 사용자를 차단 및 차단 해제하고 경고에서 사용자를 제외할 수 있습니다. 또한 파일 경로에 대한 경고 생성을 제외할 수도 있습니다.</block>
+  <block id="19355628ba4f308abb52b989d195cbf2" category="doc">NetApp Ransomware Resilience에서 경고 및 차단된 사용자 관리</block>
+  <block id="ec80e76fb9a96ba31394caae7738733c" category="paragraph">NetApp Ransomware Resilience에서 사용자 행동 모니터링을 구성한 후에는 알림을 사용자 지정하고 차단된 사용자를 관리할 수 있습니다. 알림을 사용자 지정하면 특정 사용자 또는 파일 경로에 대한 알림 생성을 제외할 수 있습니다. 사용자 차단 기능은 랜섬웨어 공격에 대응하여 악의적인 사용자 활동을 방지하기 위한 것입니다.</block>
+  <block id="978942e6f751f778d0fea794ac36a5ed" category="list-title">제외 사용자 목록에서 사용자 제거</block>
+  <block id="0189c7f085ff5d22843080df2225281b" category="list-text">설정 대시보드에서 사용자 활동 카드를 찾은 다음 **관리**를 선택합니다.</block>
+  <block id="2a26cf4062a1ee4ec346c86574259847" category="list-text">UI에서 개별 사용자를 제외하려면 **수동으로 선택**을 선택하십시오.</block>
+  <block id="144c603fbbde0985023a4ea73e22e35b" category="list-text">제외된 사용자 선택에서 제거하려는 사용자의 이름을 찾습니다. 해당 사용자 이름이 있는 행에서 작업 메뉴(<block ref="2f43b42fd833d1e77420a8dae7419000" prefix="(" category="inline-code"></block>)를 선택한 다음 **제거**를 선택하세요.</block>
+  <block id="d6a20124c5d6d93a842f0081d06dac75" category="section-title">파일 경로를 모니터링에서 제외</block>
+  <block id="34b2f1838e031e0797b877cf1d2da3f4" category="paragraph">각 파일 경로는 볼륨 이름으로 시작해야 합니다. 해당 볼륨에 대해 최대 세 개의 하위 디렉터리를 포함할 수 있으며, 예를 들어 "volume/directory/subdirectory/subdirectory2"와 같습니다. 파일 경로를 수동으로 입력하거나 경로 목록이 포함된 CSV 파일을 업로드하여 제외할 수 있습니다.</block>
+  <block id="ba84271ee1ea783891cb6e404dfb3d53" category="list-text">*모니터링 제외* 탭을 선택합니다.</block>
+  <block id="b4a2bf9e81e72a625f2411631cceee8c" category="list-text">제외할 파일 경로를 입력하려면 **추가**를 선택하세요.</block>
+  <block id="2de7a68b6ff6ef34aae577dd6bfe5c03" category="list-text">사용자 인터페이스에서 파일 경로를 입력하려면 *수동 입력* 라디오 버튼을 선택한 다음 "volume/directory/subdirectory/"와 같이 파일 경로를 입력하십시오. 추가 파일 경로를 입력하려면 **파일 경로 선택**을 선택하십시오.</block>
+  <block id="3dac93d0e83abe331915c1ec220e04ac" category="list-text">파일 경로 목록을 업로드하려면 **업로드** 라디오 버튼을 선택하세요. 업로드 버튼을 선택하여 CSV 파일을 선택하세요.</block>
+  <block id="67510fe1e2eaace9d146396c21a7a119" category="paragraph">작업이 성공적으로 완료되면 Ransomware Resilience는 선택한 경로에 있는 파일을 의심스러운 사용자 동작 감시 대상에서 제외하기 시작합니다.  설정 메뉴에서 언제든지 경로 목록을 확인할 수 있습니다.  파일 경로에 대한 감시를 다시 활성화해야 하는 경우 목록에서 해당 경로를 제거하면 됩니다.</block>
+  <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">2026년 7월 7일</block>
+  <block id="4c0600f62cb13917f7a785731376b1cb" category="sidebar">알림 및 차단된 사용자 관리</block>
 </blocks>
