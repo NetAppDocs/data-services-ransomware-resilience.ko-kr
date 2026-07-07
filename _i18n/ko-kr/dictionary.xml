@@ -2611,7 +2611,6 @@
   <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">사용자 행동 알림에서 파일 경로 제외</block>
   <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">Ransomware Resilience는 사용자 동작 모니터링 경고에서 특정 파일 경로를 제외하는 기능을 지원합니다. 위험하지 않다고 판단되거나, 경고를 유발할 수 있는 작업을 볼륨 내 파일에서 수행하는 경우 해당 파일 경로를 제외할 수 있습니다.</block>
   <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">알림에서 파일 경로 제외</block>
-  <block id="4cbd1bb5d6b8178b77b88be565a35c9b" category="paragraph">자세한 내용은 <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="1d20fa647694e6811cd363111cf77538" category="inline-link-macro">특정 파일 경로 및 사용자</block>
   <block id="2e9d0337668c42840413047306ef5b57" category="admonition">데이터 유출, 데이터 파기 및 의심스러운 사용자 행동 알림의 경우 <block ref="9403988536e87b1b5fabe2157e11581a" category="inline-link-macro-rx"></block>을(를) 구성해야 합니다. 또한 <block ref="bd37368d247ac8892eb2f81e8ff6fc76" category="inline-link-macro-rx"></block>에서 알림이 생성되지 않도록 방지할 수도 있습니다.</block>
   <block id="75cd3815cc2e90d9679458215fb968dd" category="inline-link-macro">알림 설정 및 차단된 사용자 관리</block>
@@ -2632,4 +2631,5 @@
   <block id="67510fe1e2eaace9d146396c21a7a119" category="paragraph">작업이 성공적으로 완료되면 Ransomware Resilience는 선택한 경로에 있는 파일을 의심스러운 사용자 동작 감시 대상에서 제외하기 시작합니다.  설정 메뉴에서 언제든지 경로 목록을 확인할 수 있습니다.  파일 경로에 대한 감시를 다시 활성화해야 하는 경우 목록에서 해당 경로를 제거하면 됩니다.</block>
   <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">2026년 7월 7일</block>
   <block id="4c0600f62cb13917f7a785731376b1cb" category="sidebar">알림 및 차단된 사용자 관리</block>
+  <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">자세한 내용은 <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
 </blocks>
