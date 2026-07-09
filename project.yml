@@ -78,8 +78,12 @@ sidebar:
           url: "/task-clean-restore-recover.html"
       - title: 사용자 지정 복원을 사용하여 복구
         url: "/rp-use-recover.html"
-    - title: 준비 태세 훈련 실시
-      url: "/rp-start-simulate.html"
+    - title: 공격 시뮬레이션
+      entries:
+      - title: 준비 태세 훈련 실시
+        url: "/rp-start-simulate.html"
+      - title: 악의적인 사용자 이벤트 시뮬레이션
+        url: "/task-test-user-activity.html"
     - title: SIEM 구성
       url: "/task-siem.html"
     - title: SOAR 플레이북 통합

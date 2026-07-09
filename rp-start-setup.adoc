@@ -16,6 +16,7 @@ NetApp Ransomware Resilience 쉽게 배포할 수 있습니다. 시작하기 전
 
 
 
+[[prepare-the-backup-destination]]
 == 백업 대상을 준비하세요
 
 다음 백업 대상 중 하나를 준비하세요.
@@ -30,12 +31,14 @@ NetApp Ransomware Resilience 쉽게 배포할 수 있습니다. 시작하기 전
 
 
 
+[[prepare-storagegrid-to-become-a-backup-destination]]
 === StorageGRID 백업 대상으로 준비
 
 StorageGRID 백업 대상으로 사용하려면 다음을 참조하세요. https://docs.netapp.com/us-en/storagegrid-117/index.html["StorageGRID 문서"^] StorageGRID 에 대한 자세한 내용은 다음을 참조하세요.
 
 
 
+[[prepare-aws-to-become-a-backup-destination]]
 === AWS를 백업 대상으로 준비
 
 * AWS에 계정을 설정합니다.
@@ -46,6 +49,7 @@ StorageGRID 백업 대상으로 사용하려면 다음을 참조하세요. https
 
 
 
+[[prepare-azure-to-become-a-backup-destination]]
 === Azure를 백업 대상으로 준비
 
 * Azure에 계정을 설정합니다.
@@ -56,6 +60,7 @@ StorageGRID 백업 대상으로 사용하려면 다음을 참조하세요. https
 
 
 
+[[set-up-the-netapp-console]]
 == NetApp Console 설정
 
 다음 단계는 콘솔과 랜섬웨어 복원력을 설정하는 것입니다.
@@ -64,6 +69,7 @@ StorageGRID 백업 대상으로 사용하려면 다음을 참조하세요. https
 
 
 
+[[create-a-console-agent]]
 === 콘솔 에이전트 만들기
 
 이 서비스를 체험하거나 사용하려면 NetApp 영업 담당자에게 문의하세요.  그런 다음 콘솔 에이전트를 사용하면 랜섬웨어 복원력에 적합한 기능이 포함됩니다.

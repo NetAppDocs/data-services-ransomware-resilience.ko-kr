@@ -4,6 +4,7 @@
 
 
 
+[[soar-playbook-for-google-secops]]
 === Google SecOps용 SOAR 플레이북
 
 Ransomware Resilience는 이제 link:https://github.com/chronicle/content-hub/tree/main/content/response_integrations/third_party/partner/netappransomwareresilience["Google SecOps"^]에 대한 보안 오케스트레이션, 자동화 및 대응(SOAR) 플레이북을 제공합니다. 이 플레이북을 통해 위협 대응 관리가 더욱 간편해지고, 작업 및 테스트가 자동화되며, 스냅샷 생성 및 볼륨 오프라인 전환과 같은 필수적인 랜섬웨어 대응 활동을 지원할 수 있습니다.

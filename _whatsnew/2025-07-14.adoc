@@ -4,6 +4,7 @@
 
 
 
+[[san-workload-support]]
 === SAN 워크로드 지원
 
 이 릴리스에는 BlueXP ransomware protection 의 SAN 워크로드에 대한 지원이 포함되어 있습니다. 이제 NFS 및 CIFS 워크로드뿐만 아니라 SAN 워크로드도 보호할 수 있습니다.
@@ -12,6 +13,7 @@
 
 
 
+[[improved-workload-protection]]
 === 향상된 작업 부하 보호
 
 이번 릴리스에서는 BlueXP backup and recovery와 같은 다른 NetApp 도구의 스냅샷 및 백업 정책이 적용된 워크로드의 구성 프로세스가 개선되었습니다. 이전 릴리스에서는 BlueXP ransomware protection이 다른 도구의 정책을 검색하여 탐지 정책만 변경할 수 있었습니다. 이번 릴리스에서는 스냅샷 및 백업 정책을 BlueXP ransomware protection 정책으로 교체하거나 다른 도구의 정책을 계속 사용할 수 있습니다.
@@ -20,6 +22,7 @@
 
 
 
+[[email-notifications]]
 === 이메일 알림
 
 BlueXP ransomware protection 잠재적인 공격을 감지하면 BlueXP 알림에 알림이 나타나고, 사용자가 구성한 이메일 주소로 이메일이 전송됩니다.

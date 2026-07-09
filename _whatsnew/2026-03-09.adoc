@@ -4,6 +4,7 @@
 
 
 
+[[bulk-exclude-users-from-user-behavior-alerts]]
 === 사용자 행동 알림에서 여러 사용자 일괄 제외
 
 NetApp Ransomware Resilience는 이제 기존의 UI 및 CSV 기반 옵션 외에도 사용자 행동 경고에서 제외할 사용자 목록을 JSON 형식으로 업로드하는 기능을 지원합니다.
@@ -12,6 +13,7 @@ NetApp Ransomware Resilience는 이제 기존의 UI 및 CSV 기반 옵션 외에
 
 
 
+[[user-behavior-detection-enhancements]]
 === 사용자 행동 감지 기능 향상
 
 Ransomware Resilience는 이메일 알림을 추가하고 지원되는 SIEM 이벤트 데이터(AWS Security Hub, Microsoft Sentinel 및 Splunk Cloud)에 사용자 행동 이벤트를 포함하여 사용자 행동에 대한 인사이트를 개선했습니다. 이러한 개선 사항은 보안 및 규정 준수 모니터링에 대한 보다 정확한 인사이트를 제공합니다.

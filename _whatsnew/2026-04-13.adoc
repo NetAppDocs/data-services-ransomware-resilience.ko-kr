@@ -4,6 +4,7 @@
 
 
 
+[[clean-restore]]
 === 클린 복원
 
 Ransomware Resilience는 이제 랜섬웨어 공격으로부터 빠르고 쉽게 복구할 수 있도록 지원하는 새로운 복구 옵션인 클린 복원을 지원합니다. 클린 복원은 다운타임을 최소화하면서 워크로드를 가동하고 실행하기 위한 최적의 복원 지점을 식별하는 안내형 워크플로를 제공합니다. 클린 복원의 워크플로는 또한 데이터에 대한 파일 수준의 인사이트를 제공하여 재감염을 방지하고 데이터 손실을 최소화하는 멀웨어 없는 워크로드를 복원할 수 있도록 보장합니다.
@@ -12,6 +13,7 @@ Ransomware Resilience는 이제 랜섬웨어 공격으로부터 빠르고 쉽게
 
 
 
+[[siem-support-for-splunk-enterprise]]
 === Splunk Enterprise용 SIEM 지원
 
 Ransomware Resilience는 이제 Splunk Enterprise용 보안 정보 이벤트 관리(SIEM) 지원을 제공하여 로그 및 이벤트 데이터를 중앙 집중화하고 위협 분석 및 탐지를 간소화할 수 있습니다.
@@ -20,6 +22,7 @@ Ransomware Resilience는 이제 Splunk Enterprise용 보안 정보 이벤트 관
 
 
 
+[[user-behavior-detection-enhancement]]
 === 사용자 행동 감지 기능 향상
 
 데이터 유출 사건에 대한 분석 정보가 이제 사건 발생 후 13개월 동안 보존되어 보고 요구 사항에 맞춰 더 오랜 기간 기록을 보관할 수 있습니다.

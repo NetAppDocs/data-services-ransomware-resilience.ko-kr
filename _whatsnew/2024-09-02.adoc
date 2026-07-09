@@ -4,6 +4,7 @@
 
 
 
+[[security-risk-assessment-from-digital-advisor]]
 === Digital Advisor 의 보안 위험 평가
 
 BlueXP ransomware protection은 이제 NetApp Digital Advisor에서 클러스터와 관련된 높은 수준 및 중요한 보안 위험에 대한 정보를 수집합니다. 위험이 발견되면 BlueXP ransomware protection은 대시보드의 *권장 조치* 창에 "클러스터의 알려진 보안 취약점을 수정하세요<name>."라는 권장 사항을 제공합니다. 대시보드의 권장 사항에서 *검토 및 수정*을 선택하면 보안 위험을 해결하기 위해 Digital Advisor 및 CVE(Common Vulnerability & Exposure) 문서를 검토하도록 안내합니다. 보안 위험이 여러 개인 경우 Digital Advisor에서 정보를 검토하십시오.
@@ -12,6 +13,7 @@ BlueXP ransomware protection은 이제 NetApp Digital Advisor에서 클러스터
 
 
 
+[[back-up-to-google-cloud-platform]]
 === Google Cloud Platform으로 백업
 
 이 릴리스에서는 백업 대상을 Google Cloud Platform 버킷으로 설정할 수 있습니다.  이전에는 NetApp StorageGRID, Amazon Web Services 및 Microsoft Azure에만 백업 대상을 추가할 수 있었습니다.
@@ -20,6 +22,7 @@ https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-backup-de
 
 
 
+[[support-for-google-cloud-platform]]
 === Google Cloud Platform 지원
 
 이 서비스는 이제 스토리지 보호를 위해 Google Cloud Platform용 Cloud Volumes ONTAP 지원합니다.  이전에는 이 서비스가 온프레미스 NAS와 함께 Amazon Web Services 및 Microsoft Azure용 Cloud Volumes ONTAP 만 지원했습니다.
@@ -28,6 +31,7 @@ https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransom
 
 
 
+[[role-based-access-control]]
 === 역할 기반 액세스 제어
 
 이제 역할 기반 액세스 제어(RBAC)를 사용하여 특정 활동에 대한 액세스를 제한할 수 있습니다.  BlueXP ransomware protection BlueXP 의 두 가지 역할, 즉 BlueXP 계정 관리자와 비계정 관리자(뷰어)를 사용합니다.

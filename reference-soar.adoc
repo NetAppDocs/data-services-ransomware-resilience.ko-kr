@@ -28,6 +28,7 @@ Ransomware Resilience 플레이북은 다음과 같은 기능을 제공합니다
 
 
 
+[[playbooks]]
 == 플레이북
 
 Ransomware Resilience는 Google SecOps, Microsoft Sentinel 및 Splunk용 플레이북을 제공합니다. 설정 세부 정보는 각 GitHub 페이지를 참조하십시오.

@@ -4,12 +4,14 @@
 
 
 
+[[extension-blocking-is-enabled-at-the-workload-level]]
 === 확장 차단은 워크로드 수준에서 활성화됩니다.
 
 확장 차단을 활성화하면 이제 스토리지 VM 수준이 아닌 워크로드 수준에서 활성화됩니다.
 
 
 
+[[edit-user-behavior-alert-status]]
 === 사용자 동작 알림 상태 편집
 
 랜섬웨어 복원력을 통해 이제 사용자 동작 알림 상태를 편집할 수 있습니다. 알림을 수동으로 해제하고 해결할 수 있습니다.
@@ -18,6 +20,7 @@
 
 
 
+[[support-for-multiple-console-agents]]
 === 여러 콘솔 에이전트 지원
 
 랜섬웨어 복원력은 이제 여러 콘솔 에이전트를 사용하여 동일한 시스템을 관리하는 것을 지원합니다.
