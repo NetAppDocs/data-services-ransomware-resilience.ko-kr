@@ -2700,4 +2700,10 @@
   <block id="92e8752dc37f12422b8f4598efa4f75e" category="list-text">알림에서 원하는 정보를 확인한 후 데이터를 삭제하세요.</block>
   <block id="b30a6af22c230e409ffe8e8aea6d40cd" category="sidebar">공격 시뮬레이션</block>
   <block id="9146963b2f60b37c2a323f89b7563bb7" category="sidebar">악의적인 사용자 이벤트 시뮬레이션</block>
+  <block id="edf20e41ca56535f9914b651d4176206" category="section-title">Microsoft Sentinel용 ARM 템플릿</block>
+  <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">랜섬웨어 복원력은 이제 Microsoft Sentinel을 SIEM으로 연결하기 위한 Azure Resource Manager(ARM) 템플릿을 제공하여 배포를 더욱 간편하게 해주는 두 번째 방법을 제공합니다.</block>
+  <block id="5b782deb754617d2be1da0beb60e5b16" category="inline-link-macro">위협 탐지 및 분석을 위해 SIEM에 연결</block>
+  <block id="861174940ee146accf84fbe687b7ff1c" category="paragraph">자세한 내용은 <block ref="9ce2483ddf8d37cd167d593bafc6e6e7" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="ae00487184e64f3a5e5738cc82621c2c" category="list-text">Microsoft Sentinel*</block>
+  <block id="daea42ccacab5543f1ae62da54cc9877" category="paragraph">{asterisk} Ransomware Resilience는 Microsoft Sentinel용 Azure Resource Manager(ARM) 템플릿도 제공합니다.</block>
 </blocks>
