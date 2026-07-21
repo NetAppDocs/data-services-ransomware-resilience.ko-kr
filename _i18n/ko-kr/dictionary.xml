@@ -930,10 +930,8 @@
   <block id="fbc1ce5001bb72336a31bd6789ea9410" category="list-text">*사건*:</block>
   <block id="4bd1481e6e41ef9455be86b308947d80" category="list-text">*incident_id*: Ransomware Resilience에서 공격을 받는 볼륨에 대해 Ransomware Resilience에서 생성한 사고 ID입니다.</block>
   <block id="cc3ab46854d1cd0291788ac54819f4cb" category="list-text">*alert_id*: Ransomware Resilience에서 워크로드에 대해 생성한 ID입니다.</block>
-  <block id="6f51b5c965cb508d8d37085592031c21" category="list-text">*설명*: 감지된 알림에 대한 세부 정보(예: "arp_learning_mode_test_2630 워크로드에서 잠재적인 랜섬웨어 공격이 감지되었습니다")</block>
   <block id="0df177143ce12a3516098cd3329e85c2" category="section-title">위협 탐지를 위해 AWS Security Hub 구성</block>
   <block id="de9b4f41a945df92e6c5b62f443f03f1" category="list-text">AWS Security Hub에서 권한을 설정합니다.</block>
-  <block id="5fd0d2c5fd8b96b7b7b69f69b942c559" category="list-text">AWS Security Hub에서 인증 액세스 키와 비밀 키를 설정합니다.  (여기서는 이러한 단계를 제공하지 않습니다.)</block>
   <block id="66d20ba773065dfc079ca6feb04ef773" category="list-text">*AWS IAM 콘솔*로 이동합니다.</block>
   <block id="bf6953a41efa897b0862fca0fe547641" category="list-text">*정책*을 선택하세요.</block>
   <block id="2228b7980f61d80481608141744ecee0" category="list-text">다음 코드를 JSON 형식으로 사용하여 정책을 만듭니다.</block>
@@ -1926,7 +1924,6 @@
   <block id="681024dbfdb70dd04ac980451d89db64" category="paragraph">Ransomware Resilience는 Splunk Cloud 및 Splunk Enterprise를 통한 위협 탐지를 지원합니다. Ransomware Resilience에서 Splunk 연결을 활성화하기 전에 다음을 수행해야 합니다.</block>
   <block id="026d482451225403707f4d919cfb8461" category="list-text">Splunk Cloud 또는 Enterprise에서 HTTP Event Collector를 활성화하여 Console에서 HTTP 또는 HTTPS를 통해 이벤트 데이터를 수신합니다.</block>
   <block id="42de63532cd927f3b14ff23339042fae" category="list-text">Splunk Cloud 또는 Enterprise에서 이벤트 수집기 토큰을 생성합니다.</block>
-  <block id="b8e9fd0fd0fe8e4c4d930ae7315048e4" category="admonition">Splunk Enterprise의 경우, Ransomware Resilience가 제공된 HTTP 이벤트 수집기 세부 정보를 사용하여 이벤트를 푸시할 수 있도록 인바운드 공용 인터넷 트래픽을 허용해야 합니다.</block>
   <block id="261f193d834ffba7dae6c54f99306659" category="list-text">선택한 Splunk 환경(Cloud 또는 Enterprise)으로 이동합니다.</block>
   <block id="eade5cc0d987bed25c884550a681c364" category="list-text">Splunk Cloud 또는 Enterprise로 이동하세요.</block>
   <block id="c49fdbd48abc0805f78e165d087f6c4b" category="list-title">클린룸 SVM 데이터 LIF IP(crr-data-LIF-IP)</block>
@@ -2257,19 +2254,16 @@
   <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
   <block id="5e5e4d611b545e088600f1e94c227e02" category="list-text">유형 섹션에서 *정리 전용*을 선택합니다.</block>
   <block id="15133f0d70ddd9da0f0a4ccaf25d12f2" category="paragraph">보안 정보 및 이벤트 관리(SIEM) 시스템은 로그 및 이벤트 데이터를 중앙 집중화하여 보안 이벤트 및 규정 준수에 대한 통찰력을 제공합니다. NetApp Ransomware Resilience은 위협 분석 및 탐지를 간소화하기 위해 데이터를 SIEM으로 자동 전송하는 기능을 지원합니다.</block>
-  <block id="f6f2f1de81eb4c260d55918d831d8b4e" category="paragraph">Ransomware Resilience는 다음 SIEM 시스템을 지원합니다.</block>
   <block id="963e2ddcdebcdd0f6fcbd1dad696e580" category="admonition">Ransomware Resilience는 <block ref="de8332ed81162473af5cb8a1551a7e36" category="inline-link-macro-rx"></block>도 제공합니다.</block>
   <block id="1d128c6086cbb73d30a6cbf3e127963d" category="list-text">*title*: 감지된 알림의 표시 이름입니다.</block>
   <block id="41b1238763de1c7569a52c2f6f418f26" category="list-title">Ransomware Resilience에서 AWS Security Hub 인증</block>
   <block id="a9e57cc6ddc3d658ec2f623d0d9bc8a4" category="list-text">Ransomware Resilience에서 사이드바의 *설정*을 선택하세요.</block>
-  <block id="d28cdccd0f4e99a6f4e0f91d5197063e" category="list-text">SIEM 공급업체로 *AWS Security Hub*를 선택하십시오.</block>
   <block id="646744982a4247883454fa20145f8b06" category="list-text">*권한* 섹션을 검토하십시오.</block>
   <block id="b4d9ce89acb6384e4535ea86caa108e0" category="list-text">*인증* 섹션을 펼치세요.</block>
   <block id="f762a2cc3430a0ec53b845b435f881e0" category="list-text">AWS *계정*을 입력한 다음 해당 계정의 *AWS 리전*을 선택합니다.</block>
   <block id="443138dbe7f978d2acaacf2bd2231445" category="list-text">AWS Security Hub에서 *액세스 키*와 *비밀 키*를 입력하십시오.</block>
   <block id="d180fa8b6818eb2751ed18c17d309831" category="list-text">SIEM 데이터 전송을 시작하려면 *Connect*를 선택하십시오.</block>
   <block id="78fa61a5dcd11b7ca556c56cd411d0dc" category="section-title">위협 탐지를 위해 Google SecOps 구성</block>
-  <block id="3732ca50d0bc5d17cb16c93b502acb56" category="paragraph">Ransomware Resilience에서 Google SecOps를 활성화하기 전에 서비스 간 연결을 설정하기 위해 Google SecOps에 로그 유형과 웹훅을 등록해야 합니다.</block>
   <block id="3ab654d33d42325a77bd1ada435779eb" category="list-title">로그 유형 생성</block>
   <block id="2cda02602843e46261d1c4d67d55abbb" category="list-text">Google SecOps로 이동합니다.</block>
   <block id="47d900523b55b2819796e70d06b96a82" category="list-text">*설정* &gt; *SIEM 설정* &gt; *사용 가능한 로그 유형*으로 이동합니다.</block>
@@ -2286,14 +2280,12 @@
   <block id="1d21bee4c48baf7d666f49740de06448" category="list-text">*비밀 키* 탭을 엽니다. 비밀 키를 생성하거나 이미 생성한 경우 복사합니다. NetApp Ransomware Resilience에서 인증할 때 사용할 키를 저장합니다.</block>
   <block id="b5fdc6af33586c2a9305369db3576ff7" category="list-text">조직의 Google API 키 프로세스를 사용하여 *API 키*를 생성합니다.</block>
   <block id="2831fb9ebcc0eda00f544f8526b2c82b" category="list-title">Ransomware Resilience에서 Google SecOps 인증</block>
-  <block id="0005dc12bc53549857c7de28cb9a33e8" category="list-text">SIEM 제공업체로 *Google SecOps*를 선택하세요.</block>
   <block id="24918ea780ad12c93c6521bbd538adb6" category="list-text">*필수 조건* 및 *Webhook 피드* 섹션을 검토하십시오.</block>
   <block id="f7a9de73d2c4b8bc9f7ff37fe64b7f3f" category="list-text">Google SecOps의 웹훅 엔드포인트 URL에서 복사한 *웹훅 URL*을 입력하세요.</block>
   <block id="fb7c3ca4d95f3fd19a05ab9668b09dbf" category="list-text">Google SecOps에서 * 비밀 키 * 및 * API 키 * 를 입력합니다.</block>
   <block id="6774cf3c09a237d7a31083a9ef2d4b47" category="paragraph">Ransomware Resilience에서 Microsoft Sentinel을 활성화하기 전에 Microsoft Sentinel에서 다음과 같은 주요 단계를 수행해야 합니다.</block>
   <block id="d267b04e21aa140dd2ee815218bd7f5c" category="list-title">Microsoft Sentinel에서 이벤트를 수신하려면 NetApp Ransomware Resilience를 인증하십시오.</block>
   <block id="76337cc6c9573906b5d896882951d5d3" category="list-title">NetApp Ransomware Resilience에서 Microsoft Sentinel 인증</block>
-  <block id="2115fc3be6742ece8685887768fc977c" category="list-text">SIEM 공급업체로 *Microsoft Sentinel*을 선택하십시오.</block>
   <block id="2b14913164ec32916fd5a78e5f62baee" category="list-text">*필수 조건*, *등록* 및 *권한* 섹션을 검토하여 각 단계를 성공적으로 완료했는지 확인하십시오.</block>
   <block id="c842605d2209e1232c7e93fa4c6d547b" category="list-text">*Directory (tenant) ID*, *Application (tenant) ID* 및 *Client secret*을 입력합니다. *Authenticate*를 선택한 다음 UI에서 자격 증명이 인증되었음을 확인할 때까지 기다립니다.</block>
   <block id="ffdd051c4118c41574ae62c7536ccf18" category="list-text">드롭다운 메뉴에서 SIEM 데이터를 전송할 *Subscription ID*, *Resource group* 및 *Log analytics workspace*를 선택하십시오.</block>
@@ -2301,7 +2293,6 @@
   <block id="0e1da6f6e7ced8d8073144cd5f10b8b7" category="list-title">Splunk를 NetApp Ransomware Resilience로 인증</block>
   <block id="5062ec86b18fed38d98e9e38d8bc9223" category="list-text">SIEM 공급업체로 *Splunk*를 선택하십시오.</block>
   <block id="76dd66f4900813f356a68e5c41710377" category="list-text">*이벤트 수집기* 및 *토큰* 섹션을 검토하여 정보가 정확한지 확인하십시오.</block>
-  <block id="3709262a3984a4066d844e26650ffbfd" category="list-text">HTTP Event Collector의 **프로토콜**을 선택합니다. HTTPS를 사용하는 것이 좋지만 HTTP Event Collector에 대해 SSL이 활성화되지 않은 경우 * HTTP * 를 선택합니다.</block>
   <block id="0bffbc11a95d5a4be5584ad87467b460" category="list-text">HTTP 이벤트 수집기가 실행되는 Splunk Cloud 인스턴스의 *Host*와 *Port*를 입력하십시오. 포트는 HTTP 이벤트 수집기 프로세스에서 입력한 것과 일치해야 합니다.</block>
   <block id="00b8afb4b439e4d80895bdc0b67f43e4" category="list-text">Splunk에서 생성한 이벤트 수집기 토큰을 입력하십시오.</block>
   <block id="9b70df306d1f1719fd9d70e02911394c" category="section-title">2026년 5월 11일</block>
@@ -2516,9 +2507,7 @@
   <block id="0e5314dd9df9fd8758e118ce1e7ba897" category="summary">NetApp Ransomware Resilience는 사용자 활동 이벤트에 대한 자동 대응 생성을 지원하여 스냅샷을 자동으로 생성하거나 사용자를 차단할 수 있도록 합니다.</block>
   <block id="da6a5c0ffdbef8b4ec186025eff8e43b" category="doc">NetApp Ransomware Resilience에서 사용자 활동 알림에 대한 대응 자동화</block>
   <block id="11b56910cc00c324c49386ed5582988f" category="inline-link-macro">사용자 활동 이벤트</block>
-  <block id="0a8871a3299a107751c7b0db71e644f4" category="paragraph">NetApp Ransomware Resilience는 <block ref="8b86ab47aa824ef9943240ff5124bbba" category="inline-link-macro-rx"></block>에 대한 자동화된 대응 생성을 지원합니다. 자동화된 대응 기능을 통해 Ransomware Resilience는 공격이나 경고가 감지될 때 스냅샷을 생성하거나 사용자를 차단하여 랜섬웨어 이벤트에 더욱 신속하게 대응할 수 있도록 합니다.</block>
   <block id="24bb73d1c33f357d17024d9c2c631ff2" category="inline-link-macro">사용자 활동 에이전트를 구성하고, 사용자 활동 감지 기능을 포함하는 정책을 활성화하고, 사용자 디렉터리 커넥터를 생성했습니다.</block>
-  <block id="5a1cf133e86dfea0d4fd6beddf99419d" category="paragraph">암호화(사용자 행동), 데이터 유출 및 데이터 삭제 이벤트에 대한 자동 응답이 지원됩니다. 자동 응답을 생성하기 전에 <block ref="c512b877bbe8303215878962f3edb05e" category="inline-link-macro-rx"></block>이(가) 있어야 합니다.</block>
   <block id="5a9dbc95cd10e68b8aa5b25769a12f66" category="section-title">자동 응답 생성</block>
   <block id="525947b7bc9136d3c68f8d5e68e67c65" category="paragraph">의심스러운 사용자 행동 감지 정책으로 보호되는 워크로드가 하나 이상 있는 스토리지 VM은 하나만 보호할 수 있습니다.</block>
   <block id="0ba604d3520d7d31a74f42a24b136cf6" category="list-text">**자동 응답** 탭을 선택합니다.</block>
@@ -2706,4 +2695,35 @@
   <block id="861174940ee146accf84fbe687b7ff1c" category="paragraph">자세한 내용은 <block ref="9ce2483ddf8d37cd167d593bafc6e6e7" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="ae00487184e64f3a5e5738cc82621c2c" category="list-text">Microsoft Sentinel*</block>
   <block id="daea42ccacab5543f1ae62da54cc9877" category="paragraph">{asterisk} Ransomware Resilience는 Microsoft Sentinel용 Azure Resource Manager(ARM) 템플릿도 제공합니다.</block>
+  <block id="59ad121b0ef1b561c2f96f9b5fbd50f8" category="doc">웹훅을 통해 SIEM 구성</block>
+  <block id="43a14127ca7c560502e3232122f8748a" category="paragraph">Ransomware Resilience는 이제 Ransomware Resilience UI에서 웹훅을 통해 보안 정보 및 이벤트 관리(SIEM) 시스템을 구성할 수 있도록 지원합니다. 웹훅을 사용하면 선호하는 SIEM 시스템을 연동하여 랜섬웨어 모니터링을 체계적으로 관리할 수 있습니다.</block>
+  <block id="777ce6dfcc1db686d2520e63a7141ce2" category="inline-link-macro">SIEM 시스템 구성</block>
+  <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">자세한 내용은 <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="bb52269a2ff950398b1909638550daa9" category="section-title">사용자 활동 이벤트에 대한 자동 응답 이메일 알림</block>
+  <block id="631a554bd5f4de62ab009d76aaf76846" category="paragraph">Ransomware Resilience는 이제 사용자 활동 이벤트로 인해 자동 대응이 트리거될 때 이메일 알림을 전송하여 Ransomware Resilience 및 랜섬웨어 활동에 대한 명확성과 가시성을 향상시킵니다.</block>
+  <block id="75461e261fd2f473b4e0733ac4887e0e" category="paragraph">NetApp Ransomware Resilience를 사용하면 <block ref="8b86ab47aa824ef9943240ff5124bbba" category="inline-link-macro-rx"></block>에 대한 대응을 자동화할 수 있습니다. 자동화된 대응 기능을 통해 Ransomware Resilience는 공격이나 경고가 감지되면 스냅샷을 생성하거나 사용자를 차단하여 랜섬웨어 이벤트에 더욱 신속하게 대응할 수 있도록 지원합니다.</block>
+  <block id="73b27110725383edb06a9dc83aff6510" category="paragraph">암호화(사용자 행동), 데이터 유출 및 데이터 삭제 이벤트에 대한 자동 대응이 지원됩니다. 자동 대응을 생성하기 전에 <block ref="c512b877bbe8303215878962f3edb05e" category="inline-link-macro-rx"></block>이(가) 있어야 합니다. 자동 대응이 트리거되면 Ransomware Resilience에서 이메일 알림을 보냅니다.</block>
+  <block id="c10f40999b74c408263f790b30e70efe" category="inline-xref">웹훅</block>
+  <block id="ee3aba37ccd4985fc7d15a199d517a50" category="paragraph">Ransomware Resilience는 <block ref="e6ac5251282462e1cfdbbbfa22412ff3" category="inline-xref-macro-rx"></block>을 사용하여 모든 SIEM 시스템 구성을 지원합니다. 또한 Ransomware Resilience는 다음 SIEM 시스템을 기본적으로 지원합니다.</block>
+  <block id="d5c342a30db66bfb5418b79a9f19b286" category="list-text">*description*: 감지된 경고에 대한 세부 정보(예: "워크로드 arp_learning_mode_test_2630에서 잠재적인 랜섬웨어 공격이 감지되었습니다.")</block>
+  <block id="fe3ceea8ed408bff52f09ca0335f65f5" category="list-text">인증을 위해 AWS Security Hub에서 액세스 키와 비밀 키를 설정하십시오. (이 단계에서는 해당 내용을 다루지 않습니다.)</block>
+  <block id="d2be5881631d27ed5ce3e309121d0e53" category="list-text">설정 페이지에서 SIEM 연결 타일의 *연결*을 선택한 다음 드롭다운 메뉴에서 *AWS Security Hub*를 선택합니다.</block>
+  <block id="c144606b427fbc557277971daa00152f" category="paragraph">NetApp Ransomware Resilience에서 Google SecOps를 사용하기 전에 서비스 간 연결을 설정하기 위해 Google SecOps에 로그 유형과 웹훅을 등록해야 합니다.</block>
+  <block id="ff7430bbc7989396bdfa391c17ed68d4" category="list-text">설정 페이지에서 SIEM 연결 타일의 *연결*을 선택한 다음 드롭다운 메뉴에서 *Google SecOps*를 선택합니다.</block>
+  <block id="d3795d8b35a388579f4eaa60f648a4d4" category="list-text">설정 페이지에서 SIEM 연결 타일의 *연결*을 선택한 다음 드롭다운 메뉴에서 *Microsoft Sentinel*을 선택합니다.</block>
+  <block id="d4481df8ac63625a6a6fd58e19c69cec" category="admonition">Splunk Enterprise의 경우, Ransomware Resilience가 제공된 HTTP 이벤트 수집기 세부 정보를 사용하여 이벤트를 푸시할 수 있도록 인바운드 공용 인터넷 트래픽을 허용해야 합니다.</block>
+  <block id="c8cf3617197db1356055f1d7f387cff7" category="list-text">HTTP 이벤트 수집기에 사용할 *프로토콜*을 선택하십시오. HTTPS를 사용하는 것이 좋지만, HTTP 이벤트 수집기에 SSL이 활성화되어 있지 않은 경우 *HTTP*를 선택하십시오.</block>
+  <block id="2ef95d98a4bd83ef8f4ffee234878d99" category="section-title">웹훅을 사용하여 SIEM 구성</block>
+  <block id="2e425f7b2aa8508f59214e342708abec" category="paragraph">Ransomware Resilience와 SIEM 연결을 설정하기 전에 먼저 SIEM 플랫폼 자체를 구성해야 합니다.  다음 단계를 따라 Ransomware Resilience와의 통신을 구성하십시오.</block>
+  <block id="04197c51b116ba4031a3ac602bb09471" category="list-text">SIEM을 처음 구성하는 경우 *SIEM* 타일에서 *연결*을 선택한 다음 *Webhooks*를 선택합니다. 그렇지 않은 경우 *관리*를 선택합니다. 개요 페이지에서 *+ Connect*를 선택한 다음 *Webhook*을 선택합니다.</block>
+  <block id="583eb71581a12d86ba17c59deaf766b5" category="list-text">SIEM 제품의 *이름*과 연결에 사용할 *URL*을 제공하십시오. URL은 인코딩할 수 없습니다.</block>
+  <block id="8dce2cbe40de33689de6695c13f5cd07" category="list-text">"키: 값" 형식으로 *사용자 지정 헤더*를 입력하십시오. 각 키-값 쌍은 별도의 줄에 입력해야 합니다.</block>
+  <block id="fee300ebf7c2a594cb93ad5f3cf7fe70" category="list-text">JSON 형식의 *메시지* 템플릿을 검토합니다.</block>
+  <block id="e91f3d1b4cabfcd3ced416d0879b83b8" category="paragraph">추가 매개변수를 추가하려면 입력 필드 옆의 목록에서 매개변수를 복사한 다음 메시지의 해당 부분에 붙여넣으세요. 사용자 지정 매개변수도 추가할 수 있습니다. 사용자 지정 매개변수에서 *추가*를 선택한 다음 *이름*, *값*, *설명*을 입력하세요. 입력한 내용을 복사하여 메시지 부분에 붙여넣으세요.</block>
+  <block id="dcda1094eb9f2afd40a58398eedab4a9" category="inline-image-macro">SIEM 웹훅 구성의 스크린샷.</block>
+  <block id="f3338a2feb70a4545b2a0009bc9d59de" category="paragraph"><block ref="f3338a2feb70a4545b2a0009bc9d59de" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fc0c98e36622934455471784ac00ae38" category="list-text">선택적으로 *테스트 메시지 보내기*를 선택하여 연결 상태를 테스트할 수 있습니다.</block>
+  <block id="d17b23053b2c8905a1374dfbb3177a6c" category="list-text">Ransomware Resilience에 연결하려면 *연결*을 선택하십시오.</block>
+  <block id="256edba68011601436675d5223414692" category="admonition">SIEM 구성을 생성한 후에는 편집할 수 있습니다. 이름 필드를 제외한 모든 필드를 편집할 수 있습니다.</block>
+  <block id="ac750267020c9b3c0e32de825d9b57fc" category="section-title">2026년 7월 20일</block>
 </blocks>
