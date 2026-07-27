@@ -1481,10 +1481,8 @@
   <block id="d51c0020ded66c680ed4bf4dab57a782" category="paragraph">랜섬웨어 복원력은 ONTAP 의 FPolicy가 생성한 사용자 활동 이벤트를 분석하여 의심스러운 사용자 활동을 감지합니다. 사용자 활동 데이터를 수집하려면 하나 이상의 사용자 활동 에이전트를 배포해야 합니다. 에이전트는 테넌트의 장치에 연결할 수 있는 Linux 서버 또는 VM입니다.</block>
   <block id="b9300e15e3fa20c1dc3ecfabbbb96a7b" category="section-title">운영 체제 요구 사항</block>
   <block id="afea8c44acd019a3a489f7a3ddeb5c8e" category="admonition">사용자 활동 에이전트에 사용하는 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버를 권장합니다.</block>
-  <block id="19edca9ea70315410039bf08b3ffecda" category="paragraph">그만큼<block ref="0a342b59ecdcede0571340b9ed11633f" prefix=" " category="inline-code"></block> 설치를 위해서는 명령어가 필요합니다. 그만큼<block ref="beb493211c3135923a11284ef26bf909" prefix=" " category="inline-code"></block> 설치, 스크립트 실행 및 제거에는 명령어가 필요합니다.</block>
   <block id="a54c13ad42512dbfec4e8a44d793a52e" category="section-title">서버 요구 사항</block>
   <block id="34af15b56c0def7a2806fd4b03537e12" category="list-text">**디스크 공간**: 36GB의 여유 디스크 공간</block>
-  <block id="68eda0e29d8e074409c51f53581f3a64" category="admonition">파일 시스템 생성을 위해 추가 디스크 공간을 할당하십시오. 파일 시스템에 최소 35GB의 여유 공간이 있는지 확인하십시오. + 만약<block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block> NAS 저장소에서 마운트된 폴더이므로 로컬 사용자는 이 폴더에 대한 접근 권한이 있어야 합니다. 로컬 사용자에게 필요한 권한이 없는 경우 사용자 활동 에이전트 생성이 실패할 수 있습니다.</block>
   <block id="52554f7429cd5c72cd3c3e9561412160" category="admonition">ONTAP 시스템과 사용자 활동 에이전트 시스템의 시간을 네트워크 시간 프로토콜(NTP) 또는 단순 네트워크 시간 프로토콜(SNTP)을 사용하여 동기화하는 것이 좋습니다.</block>
   <block id="77469c598ab2b5984e8dafd3d15a2315" category="section-title">클라우드 네트워크 액세스 규칙</block>
   <block id="c793f078b8fd1dcce9dfd5ae57f2a51c" category="paragraph">해당 지역(아시아 태평양, 유럽 또는 미국)의 클라우드 네트워크 액세스 규칙을 검토하십시오.</block>
@@ -1496,14 +1494,12 @@
   <block id="f2ca52b87225d79d40f899aebabeec45" category="cell">사용자 활동 에이전트</block>
   <block id="b7169d36c5259a3a051359ca51dbd682" category="cell">랜섬웨어 복원력에 대한 접근성</block>
   <block id="0cd58d8585970b5311e84ca2c34ba5ef" category="section-title">네트워크 내 규칙</block>
-  <block id="1b09a58921479be87f9dae639915150f" category="cell">389(LDAP) 636(LDAP/start-tls)</block>
   <block id="84caee864977bc98db0b0df24853f63c" category="cell">LDAP 서버 URL</block>
   <block id="b272c206ad7d80ebc1e17385c8d4450c" category="cell">LDAP에 연결</block>
   <block id="3e1d4f7104327b6aa02e8d988c873b86" category="cell">클러스터 또는 SVM 관리 IP 주소(SVM 컬렉터 구성에 따라 다름)</block>
   <block id="9bf305870fa281c6eff0d16d2e8d6b6d" category="cell">ONTAP 과의 API 통신</block>
   <block id="c1d0965e767c67506aa60bc80d5b716e" category="cell">35000 - 55000</block>
   <block id="4f1eb19420b75b94e053a805cd0feb1d" category="paragraph">SVM 데이터 LIF IP 주소</block>
-  <block id="3b04fff3171347ca78c0c2fb925106dd" category="cell">Fpolicy 이벤트에 대한 ONTAP 에서 사용자 활동 에이전트로의 통신. ONTAP 사용자 활동 에이전트로 이벤트를 전송하려면 사용자 활동 에이전트 방향으로 이러한 포트가 열려 있어야 하며, 사용자 활동 에이전트 자체에 방화벽이 있는 경우에도 마찬가지입니다(있는 경우). + **참고:** 이 포트들을 *모두* 예약할 필요는 없지만, 예약하는 포트는 반드시 이 범위 내에 있어야 합니다. 우선 100개의 포트를 예약하고 필요에 따라 늘리는 것이 좋습니다.</block>
   <block id="3756ac460c094adc890ad7f26460010b" category="cell">35000-55000</block>
   <block id="0e948943e8277507eeeec08bbb91d3b4" category="cell">클러스터 관리 IP</block>
   <block id="f41a23af01b3d7e16d16141a3f6003df" category="cell">ONTAP 클러스터 관리 IP에서 사용자 활동 에이전트로의 *EMS 이벤트* 통신. ONTAP EMS 이벤트를 사용자 활동 에이전트로 전송하려면 사용자 활동 에이전트 자체의 방화벽을 포함하여 이러한 포트가 사용자 활동 에이전트 방향으로 열려 있어야 합니다. + **참고:** 이 포트들을 *모두* 예약할 필요는 없지만, 예약하는 포트는 반드시 이 범위 내에 있어야 합니다. 우선 100개의 포트를 예약하고 필요에 따라 늘리는 것이 좋습니다.</block>
@@ -1584,7 +1580,6 @@
   <block id="e7d932b2a7bf9471a38ac8c68fbf83ad" category="list-text">&lt;site_name&gt;.cs01-ap-1.cloudinsights.netapp.com</block>
   <block id="8f31785e58dfdc396495a127fdd7d7dd" category="list-text">&lt;site_name&gt;.c01-ap-1.cloudinsights.netapp.com</block>
   <block id="edc2894193def90c2ccbb8f855d6f564" category="list-text">&lt;site_name&gt;.c02-ap-1.cloudinsights.netapp.com</block>
-  <block id="b7293bd6a9f7cb8e5890a221fe74d3cb" category="list-text">gentlogin.cs01-ap-1.cloudinsights.netapp.com</block>
   <block id="00c7e633a09840b7e60ee5de5aec797b" category="list-text">&lt;site_name&gt;.cs01-eu-1.cloudinsights.netapp.com</block>
   <block id="54d1f56395e5ec9d39e9a416c61b311a" category="list-text">&lt;site_name&gt;.c01-eu-1.cloudinsights.netapp.com</block>
   <block id="0ba615943513b9683a0e9b145f96e5b2" category="list-text">&lt;site_name&gt;.c02-eu-1.cloudinsights.netapp.com</block>
@@ -1612,12 +1607,9 @@
   <block id="75a6a9319b6e0275c06122285e74cd15" category="inline-link-macro">필요한 에이전트와 컬렉터를 생성하고 적절한 랜섬웨어 보호 전략을 활성화합니다</block>
   <block id="cce78dc6ebbec7385a01f2146d6d01c8" category="section-title">다음 단계</block>
   <block id="92df6f183b2e1cfcc696af23c1edd4cb" category="summary">사용자 활동 에이전트 및 기타 수집기를 생성하기 전에 명시된 운영 체제, 서버 및 네트워크 요구 사항을 충족하는지 확인해야 합니다.</block>
-  <block id="fc36a1ad1399ea3c897ac2b166f590bc" category="section-title">클라우드 공급자 지원</block>
   <block id="3156b4b992dec700b60fedaa2eca010c" category="paragraph">의심스러운 사용자 행동 감지는 다음 운영 체제에서 지원됩니다.</block>
   <block id="92adf790b863484fc83be969039ec890" category="section-title">서버 권장 사항</block>
-  <block id="28296e91eb448ead6c0f37548d3101a8" category="list-text">사용자 활동 에이전트는 Ransomware Resilience 환경과는 별도의 시스템에 설치하는 것이 좋습니다. 같은 시스템에 설치하는 경우 50~55GB의 디스크 공간을 허용해야 합니다. Linux의 경우<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block>에 25~30GB,<block ref="ea5f88360fb7c06d3270b165b4dad226" prefix=" " category="inline-code"></block>에 25GB의 공간을 할당하십시오.</block>
   <block id="b81a18d778d8d2491614ae90532db84f" category="admonition">초기 설치 시 <block ref="50cff7c5933e29331b88e32e4f2a101d" prefix=" " category="inline-code"></block>를 와일드카드 <block ref="3389dae361af79b04c9c8e7057f60cc6" prefix="(" category="inline-code"></block> 권한으로 바꾸십시오. 에이전트가 활성화되어 완전히 작동되면 권한을 사이트 이름으로 바꿀 수 있습니다. 사이트 이름은 NetApp 담당자에게 문의하십시오.</block>
-  <block id="9625968bd02420d60f939947dec5ee63" category="admonition">사용자 활동 에이전트는 NetApp Data Infrastructure Insights 기술을 사용하므로<block ref="08f7b82cf54cd7bdcab171ad9bd445cc" prefix=" " category="inline-code"></block> 엔드포인트를 사용합니다. 자세한 내용은 다음을 참조하십시오</block>
   <block id="c4f09ee186bb94e99b8c3f938adf8816" category="section-title">APAC 기반 사용자 활동 에이전트 배포</block>
   <block id="869af1b4577e081268bf8ee592a6018e" category="section-title">유럽 기반 사용자 활동 에이전트 배포</block>
   <block id="ae6cc9c44044939bcbbefd693857f742" category="section-title">미국 기반 사용자 활동 에이전트 배포</block>
@@ -2369,7 +2361,6 @@
   <block id="3b35700f5db77466b9829093b579bafc" category="list-text">클러스터 관리자 사용자 이름 및 암호</block>
   <block id="8357c5714e49295e422957fed4ec2caa" category="list-text">Linux 시스템에 설치됨<block ref="2fa62e05d832f87969a8d99226be5a74" prefix=" " category="inline-code"></block>(명령줄<block ref="bd20ec476e804fab40ab36d6175d1936" prefix=" " category="inline-code"></block>을 사용하여 설치할 수 있음)</block>
   <block id="361ccd8284c6f49a106851d9aeaab8b2" category="list-text">사용자 활동 에이전트를 호스팅하는 클러스터에서 관리자 권한으로 스크립트를 실행하십시오.<block ref="3b9c122b681f59f04f03105e338591ce" prefix=" " category="inline-code"></block></block>
-  <block id="e0e0df3692200b73a8808571748906b3" category="list-text">메시지가 나타나면 클러스터 IP 주소, 관리자 사용자 이름 및 관리자 암호를 입력하십시오.</block>
   <block id="2757451d7ac78a3fd169d2600d54a8ad" category="list-text">스크립트 실행에는 약 5분이 소요됩니다. 실행이 완료되면 명령줄에 이벤트 발생률이 표시됩니다(예: "Svm svm_rate is generating 100 events/sec.").</block>
   <block id="73e368716ffe1eef8733ba4acf297472" category="paragraph">이벤트 속도를 사용하여 크기를 계산하십시오.</block>
   <block id="caa617e3833cdf64d33905efb6a82682" category="paragraph">DII를 사용하지 _않는_ 경우 여기의 구성 지침을 따르십시오.</block>
@@ -2405,7 +2396,6 @@
   <block id="73ec7da766dca94cf1c4b669985cd2a5" category="list-text"><block ref="73ec7da766dca94cf1c4b669985cd2a5" category="inline-link-macro-rx"></block></block>
   <block id="f2947fbfc4001f394585c42e28740767" category="inline-link-macro">사용자 행동 에이전트 및 탐지기 구성</block>
   <block id="ad709ceaf0cfdbb15b5cbf9fdce90fd8" category="list-text"><block ref="ad709ceaf0cfdbb15b5cbf9fdce90fd8" category="inline-link-macro-rx"></block></block>
-  <block id="f79eb8967b3c8df9a5242b71bfa6765b" category="paragraph">사용자 행동 데이터는 AWS 및 Azure의 다음 지역에 저장할 수 있습니다.</block>
   <block id="f7d8c82b937f1272bcd68f037f70dcbb" category="list-text">Azure NetApp Files는 FPolicy 또는 사용자 동작 감지를 지원하지 않습니다. Azure NetApp Files는 엔트로피 포렌식도 지원하지 않습니다.</block>
   <block id="30d4c1b67b11bb42e2278b195f299c80" category="list-text">현재 Google Cloud NetApp Volumes 워크로드에는 암호화 및 FPolicy 기반 보호 전략만 적용할 수 있습니다. 사용자 동작 보호 전략은 적용할 수 없습니다.</block>
   <block id="37377fd884c4cf3b9e7e8e0ed97e4865" category="paragraph-title">NetApp Ransomware Resilience는 어떤 유형의 공격을 인식합니까?</block>
@@ -2480,7 +2470,6 @@
   <block id="7eba97a8ef53163c9fd30177df926301" category="admonition">Amazon FSx for NetApp ONTAP에서 소스를 사용하여 IRE를 구성하는 경우 이 클린룸 SVM 데이터 LIF IP 요구 사항은 건너뛰십시오.</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="cell">Amazon FSx for NetApp ONTAP</block>
   <block id="7e04984fc8cb78806e36cbf9552342fd" category="admonition">현재 SAN 워크로드에서는 사용자 활동 감지가 지원되지 않습니다. Amazon FSx for NetApp ONTAP, Cloud Volumes ONTAP 및 ONTAP의 NAS 워크로드에서 사용자 활동 감지를 사용할 수 있습니다.</block>
-  <block id="d3009064cbb364032ea2a7bc94ab246b" category="paragraph">온프레미스 ONTAP 시스템 및 Amazon FSx for NetApp ONTAP 및 Cloud Volumes ONTAP 시스템의 워크로드에 대해 랜섬웨어 복원력에서 사용자 행동 감지가 지원됩니다(<block ref="12d7be4f3da31a90f0de3bba45ddeec1" category="inline-xref-macro-rx"></block>와 일치하는 시스템).</block>
   <block id="0270ec13158ac8d81c5022ad41a38235" category="admonition">Amazon FSx for NetApp ONTAP 및 Azure NetApp Files에 대한 보호 전략을 구성하는 경우 <block ref="f35eaad9edb95ec2be22c4403bf0d360" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="b70244907e8a4cb4fbb47d6e9fdda53a" category="cell">클라우드: Amazon FSx for NetApp ONTAP</block>
   <block id="b4bada7d854e6650f9cc28e404fe40fb" category="admonition">Amazon FSx for NetApp ONTAP에 배포된 IRE의 경우 이 정보를 제공할 필요가 없습니다.</block>
@@ -2726,4 +2715,16 @@
   <block id="d17b23053b2c8905a1374dfbb3177a6c" category="list-text">Ransomware Resilience에 연결하려면 *연결*을 선택하십시오.</block>
   <block id="256edba68011601436675d5223414692" category="admonition">SIEM 구성을 생성한 후에는 편집할 수 있습니다. 이름 필드를 제외한 모든 필드를 편집할 수 있습니다.</block>
   <block id="ac750267020c9b3c0e32de825d9b57fc" category="section-title">2026년 7월 20일</block>
+  <block id="65e105b8a7c994c340c0237dcf7e5970" category="section-title">사용자 활동 에이전트 클라우드 공급자 지원</block>
+  <block id="9ebc4352a5afdb84f0bff93ebd15df5b" category="paragraph">사용자 행동 감지를 활성화하려면 사용자 활동 에이전트를 생성해야 합니다. 사용자 활동 에이전트는 데이터 수집기를 위한 실행 가능한 환경으로, 사용자 활동 이벤트를 Ransomware Resilience와 공유합니다.</block>
+  <block id="b176415a669a2bcfa34dd5a6868e1756" category="paragraph">사용자 활동 에이전트는 AWS 및 Azure의 다음 지역에 배포할 수 있습니다.</block>
+  <block id="6cf349ef77d3b894c407f147f9b0f9a7" category="admonition">사용자 활동 에이전트의 지역별 배포는 콘솔 에이전트에 영향을 미치지 않습니다. 콘솔 에이전트 배포는 이러한 지역과 무관합니다.</block>
+  <block id="a17da1e1013a5f5e4cb001153fe98736" category="paragraph">The<block ref="0a342b59ecdcede0571340b9ed11633f" prefix=" " category="inline-code"></block> 명령어는 설치에 필요합니다. The<block ref="beb493211c3135923a11284ef26bf909" prefix=" " category="inline-code"></block> 명령어는 설치, 스크립트 실행 및 제거에 필요합니다.</block>
+  <block id="c9636848fc1b9b62740a33de6f0bad1f" category="list-text">파일 시스템 생성을 위해 추가 디스크 공간을 할당하십시오. 파일 시스템에 최소 35GB의 여유 공간이 있는지 확인하십시오. + <block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block>가 NAS 스토리지에서 마운트된 폴더인 경우 로컬 사용자는 해당 폴더에 대한 액세스 권한이 있어야 합니다. 로컬 사용자에게 필요한 권한이 없으면 사용자 활동 에이전트 생성이 실패할 수 있습니다.</block>
+  <block id="1a283fc89a251e8e273bf67b6e692071" category="list-text">사용자 활동 에이전트는 랜섬웨어 복원력 환경과 별도의 시스템에 설치하는 것이 좋습니다. 에이전트와 랜섬웨어 복원력을 동일한 시스템에 설치하는 경우 50~55GB의 디스크 공간을 확보하십시오. Linux의 경우, <block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block>에 25~30GB를 할당하고 <block ref="ea5f88360fb7c06d3270b165b4dad226" prefix=" " category="inline-code"></block>에 25GB를 할당하십시오.</block>
+  <block id="ccde7d5f2c38977ff57bfa0294ad83d7" category="list-text">메시지가 표시되면 클러스터 IP 주소, 관리자 사용자 이름 및 관리자 암호를 입력하십시오.</block>
+  <block id="2c04ca6afac47fae351d7176c354ba9b" category="admonition">사용자 활동 에이전트는 NetApp Data Infrastructure Insights 기술을 사용하므로<block ref="08f7b82cf54cd7bdcab171ad9bd445cc" prefix=" " category="inline-code"></block> 엔드포인트를 사용합니다. 자세한 내용은 <block ref="12c485f306c08c5a6939aa54065b62ed" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="012f0abca78822d24d27455403c3d089" category="list-text">agentlogin.cs01-ap-1.cloudinsights.netapp.com</block>
+  <block id="dcac1ae04e45c773239f95ecd0c5f082" category="cell">389(LDAP) 636 (LDAPS / start-tls)</block>
+  <block id="c44e1219325e37378db9611536ddafc3" category="cell">ONTAP에서 사용자 활동 에이전트로 Fpolicy 이벤트를 전송하기 위한 통신입니다. ONTAP가 사용자 활동 에이전트에 이벤트를 전송하려면 사용자 활동 에이전트 방향으로 다음 포트가 열려 있어야 합니다. 사용자 활동 에이전트 자체의 방화벽(있는 경우)도 포함됩니다. + **참고:** 이 포트를 *모두* 예약할 필요는 없지만, 예약하는 포트는 이 범위 내에 있어야 합니다. 처음에는 100개의 포트를 예약하고 필요에 따라 늘리는 것이 좋습니다.</block>
 </blocks>

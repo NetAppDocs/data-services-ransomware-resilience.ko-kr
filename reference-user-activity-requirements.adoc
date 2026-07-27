@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference-user-activity-requirements.html 
-keywords: data breach detection, data breach, user activity, suspicious, anomalous, requirements, end points, operating systems, networking 
+keywords: data breach detection, data breach, user activity, suspicious, anomalous, requirements, endpoints, operating systems, networking 
 summary: 사용자 활동 에이전트 및 기타 수집기를 생성하기 전에 명시된 운영 체제, 서버 및 네트워크 요구 사항을 충족하는지 확인해야 합니다. 
 ---
 = NetApp Ransomware Resilience를 위한 사용자 활동 감지 요구 사항
@@ -14,14 +14,14 @@ summary: 사용자 활동 에이전트 및 기타 수집기를 생성하기 전�
 [role="lead"]
 NetApp Ransomware Resilience 사용자 행동 감지 기능을 사용하면 사용자 수준의 랜섬웨어 이벤트에 대응할 수 있습니다. 사용자 행동 감지를 활성화하려면 에이전트 세트를 생성해야 합니다. 감지를 활성화하기 전에 Ransomware Resilience가 이벤트를 제대로 감지하고 보고할 수 있도록 명시된 운영 체제, 서버 및 네트워크 요구 사항을 충족하는지 확인해야 합니다.
 
-온프레미스 ONTAP 시스템 및 Amazon FSx for NetApp ONTAP 및 Cloud Volumes ONTAP 시스템의 워크로드에 대해 랜섬웨어 복원력에서 사용자 행동 감지가 지원됩니다(<<클라우드 공급자 지원>>와 일치하는 시스템).
 
 
+[[user-activity-agent-cloud-provider-support]]
+== 사용자 활동 에이전트 클라우드 공급자 지원
 
-[[cloud-provider-support]]
-== 클라우드 공급자 지원
+사용자 행동 감지를 활성화하려면 사용자 활동 에이전트를 생성해야 합니다. 사용자 활동 에이전트는 데이터 수집기를 위한 실행 가능한 환경으로, 사용자 활동 이벤트를 Ransomware Resilience와 공유합니다.
 
-사용자 행동 데이터는 AWS 및 Azure의 다음 지역에 저장할 수 있습니다.
+사용자 활동 에이전트는 AWS 및 Azure의 다음 지역에 배포할 수 있습니다.
 
 |===
 | 클라우드 제공업체 | 지역 
@@ -37,6 +37,9 @@ NetApp Ransomware Resilience 사용자 행동 감지 기능을 사용하면 사�
 
 | 하늘빛 | 미국 동부 
 |===
+
+NOTE: 사용자 활동 에이전트의 지역별 배포는 콘솔 에이전트에 영향을 미치지 않습니다. 콘솔 에이전트 배포는 이러한 지역과 무관합니다.
+
 
 
 [[operating-system-requirements]]
@@ -78,7 +81,7 @@ NetApp Ransomware Resilience 사용자 행동 감지 기능을 사용하면 사�
 
 NOTE: 사용자 활동 에이전트에 사용하는 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버를 권장합니다.
 
-그만큼 `unzip` 설치를 위해서는 명령어가 필요합니다. 그만큼 `sudo su -` 설치, 스크립트 실행 및 제거에는 명령어가 필요합니다.
+The `unzip` 명령어는 설치에 필요합니다. The `sudo su -` 명령어는 설치, 스크립트 실행 및 제거에 필요합니다.
 
 
 
@@ -97,8 +100,8 @@ NOTE: 사용자 활동 에이전트에 사용하는 컴퓨터는 다른 응용 �
 [[server-recommendations]]
 === 서버 권장 사항
 
-* 파일 시스템 생성을 위해 추가 디스크 공간을 할당하십시오. 파일 시스템에 최소 35GB의 여유 공간이 있는지 확인하십시오. + 만약 `/opt` NAS 저장소에서 마운트된 폴더이므로 로컬 사용자는 이 폴더에 대한 접근 권한이 있어야 합니다. 로컬 사용자에게 필요한 권한이 없는 경우 사용자 활동 에이전트 생성이 실패할 수 있습니다.
-* 사용자 활동 에이전트는 Ransomware Resilience 환경과는 별도의 시스템에 설치하는 것이 좋습니다. 같은 시스템에 설치하는 경우 50~55GB의 디스크 공간을 허용해야 합니다. Linux의 경우 `/opt/netapp`에 25~30GB, `var/log/netapp`에 25GB의 공간을 할당하십시오.
+* 파일 시스템 생성을 위해 추가 디스크 공간을 할당하십시오. 파일 시스템에 최소 35GB의 여유 공간이 있는지 확인하십시오. +  `/opt`가 NAS 스토리지에서 마운트된 폴더인 경우 로컬 사용자는 해당 폴더에 대한 액세스 권한이 있어야 합니다. 로컬 사용자에게 필요한 권한이 없으면 사용자 활동 에이전트 생성이 실패할 수 있습니다.
+* 사용자 활동 에이전트는 랜섬웨어 복원력 환경과 별도의 시스템에 설치하는 것이 좋습니다. 에이전트와 랜섬웨어 복원력을 동일한 시스템에 설치하는 경우 50~55GB의 디스크 공간을 확보하십시오. Linux의 경우,  `/opt/netapp`에 25~30GB를 할당하고  `var/log/netapp`에 25GB를 할당하십시오.
 * ONTAP 시스템과 사용자 활동 에이전트 시스템의 시간을 네트워크 시간 프로토콜(NTP) 또는 단순 네트워크 시간 프로토콜(SNTP)을 사용하여 동기화하는 것이 좋습니다.
 
 
@@ -141,7 +144,7 @@ Ransomware Resilience는 시스템에서 실행하여 이벤트 데이터 발생
 
 .단계
 . 사용자 활동 에이전트를 호스팅하는 클러스터에서 관리자 권한으로 스크립트를 실행하십시오. `/opt/netapp/cloudsecure/agent/install/svm_event_rate_checker.sh`
-. 메시지가 나타나면 클러스터 IP 주소, 관리자 사용자 이름 및 관리자 암호를 입력하십시오.
+. 메시지가 표시되면 클러스터 IP 주소, 관리자 사용자 이름 및 관리자 암호를 입력하십시오.
 . 스크립트 실행에는 약 5분이 소요됩니다. 실행이 완료되면 명령줄에 이벤트 발생률이 표시됩니다(예: "Svm svm_rate is generating 100 events/sec.").
 +
 이벤트 속도를 사용하여 크기를 계산하십시오.
@@ -160,7 +163,7 @@ Ransomware Resilience는 시스템에서 실행하여 이벤트 데이터 발생
 IMPORTANT: 초기 설치 시  `<site_name>`를 와일드카드 (`*` 권한으로 바꾸십시오. 에이전트가 활성화되어 완전히 작동되면 권한을 사이트 이름으로 바꿀 수 있습니다. 사이트 이름은 NetApp 담당자에게 문의하십시오.
 
 
-NOTE: 사용자 활동 에이전트는 NetApp Data Infrastructure Insights 기술을 사용하므로 `cloudinsights` 엔드포인트를 사용합니다. 자세한 내용은 다음을 참조하십시오
+NOTE: 사용자 활동 에이전트는 NetApp Data Infrastructure Insights 기술을 사용하므로 `cloudinsights` 엔드포인트를 사용합니다. 자세한 내용은 link:concept-user-behavior.html#user-activity-forensics["랜섬웨어 복원력 및 Data Infrastructure Insights"]을 참조하십시오.
 
 
 
@@ -176,7 +179,7 @@ NOTE: 사용자 활동 에이전트는 NetApp Data Infrastructure Insights 기�
 * <site_name>.cs01-ap-1.cloudinsights.netapp.com
 * <site_name>.c01-ap-1.cloudinsights.netapp.com
 * <site_name>.c02-ap-1.cloudinsights.netapp.com
-* gentlogin.cs01-ap-1.cloudinsights.netapp.com
+* agentlogin.cs01-ap-1.cloudinsights.netapp.com
 
 | 랜섬웨어 복원력에 대한 접근성 
 |===
@@ -226,7 +229,7 @@ NOTE: 사용자 활동 에이전트는 NetApp Data Infrastructure Insights 기�
 | 규약 | 포트 | 원천 | 목적지 | 설명 
 
 
-| TCP | 389(LDAP) 636(LDAP/start-tls) | 사용자 활동 에이전트 | LDAP 서버 URL | LDAP에 연결 
+| TCP | 389(LDAP) 636 (LDAPS / start-tls) | 사용자 활동 에이전트 | LDAP 서버 URL | LDAP에 연결 
 
 
 | HTTPS(TCP) | 443 | 사용자 활동 에이전트 | 클러스터 또는 SVM 관리 IP 주소(SVM 컬렉터 구성에 따라 다름) | ONTAP 과의 API 통신 
@@ -234,7 +237,7 @@ NOTE: 사용자 활동 에이전트는 NetApp Data Infrastructure Insights 기�
 
 | TCP | 35000 - 55000  a| 
 SVM 데이터 LIF IP 주소
-| 사용자 활동 에이전트 | Fpolicy 이벤트에 대한 ONTAP 에서 사용자 활동 에이전트로의 통신. ONTAP 사용자 활동 에이전트로 이벤트를 전송하려면 사용자 활동 에이전트 방향으로 이러한 포트가 열려 있어야 하며, 사용자 활동 에이전트 자체에 방화벽이 있는 경우에도 마찬가지입니다(있는 경우). + **참고:** 이 포트들을 *모두* 예약할 필요는 없지만, 예약하는 포트는 반드시 이 범위 내에 있어야 합니다. 우선 100개의 포트를 예약하고 필요에 따라 늘리는 것이 좋습니다. 
+| 사용자 활동 에이전트 | ONTAP에서 사용자 활동 에이전트로 Fpolicy 이벤트를 전송하기 위한 통신입니다. ONTAP가 사용자 활동 에이전트에 이벤트를 전송하려면 사용자 활동 에이전트 방향으로 다음 포트가 열려 있어야 합니다. 사용자 활동 에이전트 자체의 방화벽(있는 경우)도 포함됩니다. + **참고:** 이 포트를 *모두* 예약할 필요는 없지만, 예약하는 포트는 이 범위 내에 있어야 합니다. 처음에는 100개의 포트를 예약하고 필요에 따라 늘리는 것이 좋습니다. 
 
 
 | TCP | 35000-55000 | 클러스터 관리 IP | 사용자 활동 에이전트 | ONTAP 클러스터 관리 IP에서 사용자 활동 에이전트로의 *EMS 이벤트* 통신. ONTAP EMS 이벤트를 사용자 활동 에이전트로 전송하려면 사용자 활동 에이전트 자체의 방화벽을 포함하여 이러한 포트가 사용자 활동 에이전트 방향으로 열려 있어야 합니다. + **참고:** 이 포트들을 *모두* 예약할 필요는 없지만, 예약하는 포트는 반드시 이 범위 내에 있어야 합니다. 우선 100개의 포트를 예약하고 필요에 따라 늘리는 것이 좋습니다. 
