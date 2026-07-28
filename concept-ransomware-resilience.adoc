@@ -172,7 +172,7 @@ image:diagram-rp-architecture-preview3.png["랜섬웨어 복원력 아키텍처�
 [[attack-types]]
 === 공격 유형
 
-NetApp Ransomware Resilience는 다음 다섯 가지 유형의 공격을 인식합니다.
+랜섬웨어 복원력은 랜섬웨어 공격을 다섯 가지 유형으로 구분합니다.
 
 [cols="25,75"]
 |===
