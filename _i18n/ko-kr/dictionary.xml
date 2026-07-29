@@ -197,7 +197,6 @@
   <block id="5fefe6c4ada89d95390ae77eba79e7db" category="cell">*다시 덮다*</block>
   <block id="059d032d5bb8125e3e1681f7d9ce6023" category="list-text">백업 및 복구, ONTAP, 자율 랜섬웨어 보호( ONTAP 버전에 따라 ARP 또는 ARP/AI), FPolicy 기술과 서비스를 사용하여 최적의 스냅샷 또는 백업을 결정하고 최적의 복구 지점 실제(RPA)를 권장합니다.</block>
   <block id="4ddd3abee434eb92eb13e6cac3e1ad1d" category="cell">*통치*</block>
-  <block id="cc4378b1dc9af2e69cb13a88397e2aa7" category="list-text">랜섬웨어 보호 전략을 할당합니다.</block>
   <block id="4f743c093ec077920561596aa32a74f6" category="section-title">지원되는 백업 대상, 시스템 및 워크로드 데이터 소스</block>
   <block id="b45c27598e81de132cbcf41c4f6124d9" category="paragraph">랜섬웨어 복원력은 다음과 같은 백업 대상, 시스템 및 데이터 소스를 지원합니다.</block>
   <block id="736ca911d7d143d01bd8cbfe0d4afbca" category="list-text">아마존 웹 서비스(AWS) S3</block>
@@ -521,7 +520,6 @@
   <block id="6faff9d182a89c619b1ad36913af4fa5" category="list-text">작업 부하 복구를 시작하려면 메시지에서 *작업 부하 복구*를 선택하거나 *복구* 탭을 선택하세요.</block>
   <block id="dbb2ae89216b8dfda3662d01ab32469f" category="paragraph">알림이 복원으로 표시된 후 알림은 알림 탭에서 복구 탭으로 이동합니다.</block>
   <block id="d3870301348c9947a819b7a9ed0c25df" category="section-title">잠재적 공격이 아닌 사건은 기각합니다.</block>
-  <block id="5a5533258cfacee641d19f7f201b727f" category="paragraph">작업 부하를 해제하면 잠재적인 랜섬웨어 공격에 대응하여 자동으로 생성된 모든 스냅샷 사본이 영구적으로 삭제됩니다.</block>
   <block id="c4229f2836db3c8f0198619d853bad27" category="list-text">사건이 위협이 아니라고 판단되면 이를 거짓 긍정으로 간주하여 기각합니다.</block>
   <block id="a20ff2150b7b9f34f30c94111d0f2672" category="list-text">사건을 선택하세요.</block>
   <block id="4c8220d9b08f6a99b99ca2a31e910796" category="list-text">표 위에 있는 *상태 편집* 버튼을 선택하세요.</block>
@@ -1446,8 +1444,6 @@
   <block id="be8cc003074f86f2bc2b3ef0d2f3a334" category="list-text">NetApp 스냅샷 복사본과 백업 정책의 각 볼륨의 현재 보호 수준과 온박스 감지 기능을 검색합니다. 랜섬웨어 복원력은 백업 및 복구, ONTAP 서비스, 자율 랜섬웨어 보호( ONTAP 버전에 따라 ARP 또는 ARP/AI), FPolicy, 백업 정책, 스냅샷 정책과 같은 NetApp 기술을 사용하여 이러한 보호 태세를 워크로드와 연결합니다.  자세히 알아보세요<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block> ,<block ref="2b1b7f994c6938347657a18d8edc7db7" category="inline-link-rx"></block> , 그리고<block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block> .</block>
   <block id="ee1bc5da2dde4f02ef7aa47df921506a" category="doc">NetApp Ransomware Resilience 에서 알림 관리</block>
   <block id="6fe459ab097d6c4270e2ad317a017b93" category="paragraph">경고 사건은 다음과 같은 상태를 가질 수 있습니다.</block>
-  <block id="c95e7dd9856afddc701e5bf3b384f093" category="paragraph">사고를 검토한 후에는 해당 사고가 잠재적인 공격인지 여부를 판단해야 합니다. 실제 위협이 아니라면 무시해도 됩니다.</block>
-  <block id="c73a9fafaefc34f0b97adbaba4200dc9" category="paragraph">거짓 양성 결과를 무시하거나 즉시 데이터를 복구하기로 결정할 수 있습니다. 알림을 해제하면 랜섬웨어 복원력이 이러한 동작을 학습하고 이를 일반적인 작업과 연관시키며 이러한 동작에 대해 다시 알림을 시작하지 않습니다.</block>
   <block id="ea3cf0f8eb2106f78fd9e62d674bd7c0" category="list-text">하나 이상의 사건을 선택하세요. 또는 표 왼쪽 상단에 있는 사건 ID 상자를 선택하여 모든 사건을 선택합니다.</block>
   <block id="845279243191f55592e2d4438456de67" category="list-text">상태 편집 상자에서 *거부* 상태를 선택합니다.</block>
   <block id="c66f0ec622b69a240be9821f2dbbb082" category="paragraph">작업 부하 및 스냅샷 복사본이 삭제되는 것에 대한 추가 정보가 나타납니다.</block>
@@ -1881,7 +1877,6 @@
   <block id="dbc85b383817f560c0d1b083f4449627" category="list-text">연결 테스트</block>
   <block id="870d0fb8b0bf7879e6ada101131c6864" category="list-text">보강 작업의 상태 검토</block>
   <block id="5156f3fe3404db2816f53b4f01711a75" category="section-title">플레이북</block>
-  <block id="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="list-text"><block ref="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="inline-link-macro-rx"></block></block>
   <block id="4655146bfbabab7fd679c2d1ca7a8d15" category="list-text"><block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block></block>
   <block id="fcd13f38c6a87165a33577bfdd3654b4" category="inline-link-macro">Splunkbase</block>
   <block id="2a89449caab8a2ca7d825a1c6a44640c" category="admonition">Splunk Cloud의 경우 플랫폼 버전 7.0, 7.1, 7.2, 8.0 또는 8.4를 실행해야 합니다. 자세한 내용은 <block ref="258077ff9a23292548ab7c25d009028a" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
@@ -1901,7 +1896,6 @@
   <block id="895dff905f51ff367d108afbf6e634a7" category="inline-link-macro">SOAR 플레이북</block>
   <block id="d8fdc2681cdec613a02ac551c44a6e8c" category="section-title">2026년 3월 31일</block>
   <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">Ransomware Resilience는 이제 <block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block>에 대한 보안 오케스트레이션, 자동화 및 대응(SOAR) 플레이북을 제공합니다. 이 플레이북을 통해 위협 대응 관리가 더욱 간편해지고, 작업 및 테스트가 자동화되며, 스냅샷 생성 및 볼륨 오프라인 전환과 같은 필수적인 랜섬웨어 대응 활동을 지원할 수 있습니다.</block>
-  <block id="dce0959f50faa93a47d141f615365404" category="paragraph">Ransomware Resilience는 Google SecOps, Microsoft Sentinel 및 Splunk용 플레이북을 제공합니다. 설정 세부 정보는 각 GitHub 페이지를 참조하십시오.</block>
   <block id="4f61a1c38b74708d0982090b3ace3f21" category="list-text">Azure NetApp Files API가 자동화된 작업을 차단하므로 Azure NetApp Files와 함께 <block ref="237628f5d72273fb0e39c8149431292e" category="inline-link-macro-rx"></block>를 사용하지 않는 것이 좋습니다.</block>
   <block id="3aecb1c0d4a2579d6c2b4487309b2cdc" category="admonition">공격을 해제한 후에는 되돌릴 수 없습니다. 워크로드를 해제하면 잠재적인 랜섬웨어 공격에 대응하여 자동으로 생성된 모든 스냅샷 복사본이 영구적으로 삭제됩니다. 경보를 해제하면 대비 훈련이 완료된 것으로 간주됩니다.</block>
   <block id="5dba46907e72d7502229329d2aafd8a2" category="list-text">Splunk Enterprise</block>
@@ -2752,4 +2746,12 @@
   <block id="4f453d8498e817d93a2c0554465ba5c9" category="list-text">중지하려는 SIEM 시스템의 작업 메뉴(<block ref="2f43b42fd833d1e77420a8dae7419000" prefix="(" category="inline-code"></block>)를 선택한 다음 *일시 중지* 또는 *삭제*를 선택하십시오.</block>
   <block id="38ddf84a5ab8383176b784d60f3f4942" category="paragraph">삭제하려면 확인 대화 상자에서 *삭제*를 선택하여 작업을 완료하세요.</block>
   <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">2026년 7월 27일</block>
+  <block id="3ac6600c6085e72cacdcb1dd48274907" category="list-text">사용자 행동 패턴을 인식하여 악의적인 사용자 활동을 식별합니다.</block>
+  <block id="cea7288c4707622a327049f1efc1f09a" category="list-text">랜섬웨어 보호 전략을 할당합니다.</block>
+  <block id="9853f1beb4647abf8719e30889039648" category="paragraph">랜섬웨어 복원력은 Google SecOps, Microsoft Sentinel 및 Splunk용 플레이북을 제공합니다. 설정 세부 정보는 해당 페이지를 참조하십시오.</block>
+  <block id="3eea574b43f2f6412368381aa7e9dc8a" category="inline-link-macro">GitHub 링크</block>
+  <block id="29b5adbc7a04c877456d237755b1e5e1" category="list-text"><block ref="f35f69abcb839f30e64f7800ed807b52" category="inline-link-macro-rx"></block> | <block ref="c3163b3c34297c2188fd1502baa6be3c" category="inline-link-macro-rx"></block></block>
+  <block id="843273e8b4d640d7a2b23ee18e37263a" category="paragraph">발생한 사건들을 검토한 후에는 해당 사건들이 잠재적인 공격인지 여부를 판단해야 합니다. 실제 위협이 아닌 경우에는 경고를 해제할 수 있습니다. 경고를 해제하면 잠재적인 랜섬웨어 공격에 대응하여 자동으로 생성된 모든 스냅샷 사본이 영구적으로 삭제됩니다.</block>
+  <block id="16f166ba2ceaca92e52aea587fb0114f" category="inline-link-macro">기타 이벤트</block>
+  <block id="b7c7e492cc2a239de36bc7e713a56532" category="paragraph">암호화(엔트로피) 이벤트로 인해 발생하는 경고의 경우, 랜섬웨어 복원력은 사용자가 경고를 무시한 기록을 학습하여 해당 활동을 정상적인 작업과 연관시킵니다. 따라서 향후에는 이러한 유형의 활동을 기반으로 하는 경고를 받지 않게 됩니다. 이는 암호화(엔트로피) 이벤트가 ARP/AI에서 관리되기 때문입니다. <block ref="69f4bf74babfcd1e97eceb84702fb4ae" category="inline-link-macro-rx"></block>로 인해 발생하는 경고의 경우, 이러한 경고는 사용자 활동 패턴을 기반으로 하므로 랜섬웨어 복원력은 경고 무시 기록을 학습하지 _않습니다_.</block>
 </blocks>
