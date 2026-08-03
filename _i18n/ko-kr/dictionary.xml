@@ -2529,12 +2529,7 @@
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026년 6월 29일</block>
   <block id="acd27fc46144e7ce943b73180eb0d3a8" category="paragraph">NetApp Ransomware Resilience에서 랜섬웨어 공격 대비 훈련을 실행하여 실제 랜섬웨어 공격에 대한 대비 태세를 점검하십시오. 이 대비 훈련을 통해 Ransomware Resilience는 새로운 샘플 워크로드에 대한 공격을 시뮬레이션하여 실제 운영 데이터에 영향을 주지 않고 시뮬레이션된 공격을 조사하고 복구를 수행할 수 있습니다. 대비 훈련은 경고 알림에 익숙해지고 대응 및 복구를 준비하는 데 도움이 됩니다. 필요에 따라 훈련을 원하는 만큼 자주 실행할 수 있습니다.</block>
   <block id="65b568f05372e5de535ad8c825aeb375" category="inline-link-macro">클린 복원</block>
-  <block id="532361f2ad995113181b7cf1df1c5462" category="inline-link-macro">사용자 활동 에이전트</block>
   <block id="74e66061c3c27ae398760dc1adda70dc" category="list-text">준비 태세 훈련 테스트를 생성할 환경을 선택하십시오.</block>
-  <block id="3026f14fd36d3165478399b611373fb8" category="list-text">**콘솔 에이전트**와 **시스템**을 선택하십시오.</block>
-  <block id="7cbdec3ae1628850b555ad8bb540d67e" category="list-text">**시스템**을 선택한 후, 미리 채워진 목록에서 **스토리지 VM**을 선택하십시오.</block>
-  <block id="3db3fb74a2b36310b9059bb1932ec7ce" category="list-text">**새 테스트 워크로드**의 이름을 입력하세요. 테스트 워크로드 이름 앞에는 "rps_test_"가 추가됩니다.</block>
-  <block id="c30460d790febc2f1a11000f7e9dae5a" category="list-text">데이터 침해 복구를 위한 준비 훈련인 경우, 훈련 환경에 대해 **사용자 활동 에이전트**를 선택하십시오.</block>
   <block id="aa888903a6021760fd560a3f35a5fe39" category="paragraph">해당 사건을 검토할 때 다음 사항을 고려하십시오.</block>
   <block id="aa823a078e061b627817667be59a3966" category="list-text">잠재적인 공격의 심각도.</block>
   <block id="993613047b942198cc7322f8e11f7420" category="list-text">테스트 워크로드를 복원해야 하는 경우 **복원 필요 표시**를 선택한 다음 확인 대화 상자에서 해당 버튼을 다시 선택하십시오.</block>
@@ -2556,9 +2551,6 @@
   <block id="fe2b3b951ec2ee39e3b94a78b27d6b96" category="paragraph">훈련을 시작하면 Ransomware Resilience가 볼륨을 마운트한 후 랜섬웨어 공격을 시뮬레이션합니다.  준비 훈련이 사용자 지정 복구 또는 정상 복원인 경우, 테스트 볼륨의 기본 데이터는 랜섬웨어에서 사용되는 것으로 알려진 파일 확장자와 암호화/엔트로피가 변경된 파일로 대체됩니다.  데이터 유출 복구 훈련의 경우 파일은 대체되지 않고, Ransomware Resilience는 공격자가 체계적으로 데이터를 읽고 유출하는 상황을 모방합니다.  훈련 유형에 관계없이 Ransomware Resilience는 경고를 발생시키고 경고가 성공적으로 생성되었는지 확인합니다.</block>
   <block id="ec48be06a1fa5ff039c9c72596c427f2" category="paragraph">모의 훈련을 실행하면 실제 데이터에 영향을 주지 않고 경고에 대한 대응을 테스트하고 필요에 따라 복구 프로세스를 시뮬레이션해 볼 수 있습니다.</block>
   <block id="5c443c5dabb6ec11bf27dce07c9fd377" category="inline-link-macro">사용자 지정 복원</block>
-  <block id="e17d87cf10e73e1e3694a18b0b70c7af" category="list-text">**사용자 지정 복구**: 복구 지점을 구성하는 <block ref="80fac8a28dde36dd3a08a6d3cf5b9f5b" category="inline-link-macro-rx"></block>으로 암호화(엔트로피) 공격에 대응합니다.</block>
-  <block id="22db649015dad497d63774a6e7d2af47" category="list-text">**클린 복원**: 암호화(엔트로피) 공격에 대응하여 최적화된 복구 지점으로 안내하는 <block ref="d08d369745dba9c2b6dd002a205d6b5a" category="inline-link-macro-rx"></block> 복구 프로세스를 제공합니다.</block>
-  <block id="e3b01c4848ac6d1626374e4dee0f0685" category="list-text">**데이터 유출 복구**: 이 훈련 유형을 활성화하려면 먼저 <block ref="ea7722fd5c2c373bdaffcbde2ca3bbf6" category="inline-link-macro-rx"></block>을(를) 구성해야 합니다.</block>
   <block id="05d14520f5a3fd970bfca710b43ae17a" category="admonition">훈련이 실행 중인 동안에는 준비 태세 훈련 구성을 편집할 수 없습니다. 준비 태세 훈련을 수정하려면 **재설정**을 선택한 다음 훈련을 편집하십시오.</block>
   <block id="7820d7f245e7637e7833faccb183f36d" category="admonition">의심스러운 사용자 행동에 대한 자동 대응으로는 스냅샷만 생성할 수 있습니다. 사용자 차단은 의심스러운 사용자 행동에 대한 자동 대응으로 지원되지 않습니다.</block>
   <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">사용자 행동 알림에서 파일 경로 제외</block>
@@ -2714,8 +2706,6 @@
   <block id="90c6a30d04a39029a6e718b3311fb6ab" category="inline-link-macro">SIEM 시스템 비활성화</block>
   <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">자세한 내용은 <block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="684a7ad3aa334bfb6a33e395013bd6dc" category="paragraph">랜섬웨어 복원력은 랜섬웨어 공격을 다섯 가지 유형으로 구분합니다.</block>
-  <block id="c561c7b7a5170672935dea9403fc0a6f" category="inline-link-macro">DII 웹후크</block>
-  <block id="ce4bce909d8d6789b9f388dbbef0758a" category="admonition">워크로드 보안을 구성한 경우, <block ref="23692858bbea3b07ede2665f2c7f119e" category="inline-link-macro-rx"></block>를 통해 알림을 구성할 수 있습니다.</block>
   <block id="c6bd820ffcfcad26c449f0454fae72c1" category="list-text">현재 Google Cloud NetApp Volumes에서는 복제를 사용하는 보호 전략이 지원되지 않습니다.</block>
   <block id="392d723534b3a09775f3b6831eba4f37" category="section-title">SAN 스토리지 제한 사항</block>
   <block id="eecebb362641b58fec88bb08c4168447" category="paragraph">SAN(블록 스토리지) 워크로드에는 다음과 같은 제한 사항이 적용됩니다.</block>
@@ -2724,7 +2714,6 @@
   <block id="41bc5402792c9ae6e031743791c37485" category="list-text">SAN 워크로드는 <block ref="f4ee3b399c8cc5fca837364c0d9badb9" category="inline-link-macro-rx"></block>을 사용해서만 복원할 수 있습니다. 현재 SAN 워크로드에 대한 클린 복원은 지원되지 않습니다.</block>
   <block id="2428514fe4a71be9aaa049c0588b7a22" category="paragraph">시뮬레이션을 실행하기 전에 준비 훈련을 구성해야 합니다. 특정 유형의 랜섬웨어 공격에 대한 준비 훈련을 생성해야 합니다. 랜섬웨어 복원력은 다음 다섯 가지 유형의 공격을 인식합니다.</block>
   <block id="e820571d07203de22d81bf2d3a43c57d" category="list-text">설정 페이지의 준비 상태 훈련 카드에서 *구성*을 선택합니다.</block>
-  <block id="5a6ea2c21bfdd4f145b28691ccbbba4f" category="paragraph">콘솔에 준비 훈련 구성 페이지가 표시됩니다.</block>
   <block id="f39a3376d8471d16df7b03506f1e81b3" category="inline-image-macro">준비 상태 드릴 페이지 구성</block>
   <block id="4733f8632e3639026823ab315aa1fde4" category="paragraph"><block ref="4733f8632e3639026823ab315aa1fde4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="041d149b109ce93c233e52cd24f679bf" category="list-text">*랜섬웨어 공격 유형*을 선택합니다.</block>
@@ -2754,4 +2743,12 @@
   <block id="843273e8b4d640d7a2b23ee18e37263a" category="paragraph">발생한 사건들을 검토한 후에는 해당 사건들이 잠재적인 공격인지 여부를 판단해야 합니다. 실제 위협이 아닌 경우에는 경고를 해제할 수 있습니다. 경고를 해제하면 잠재적인 랜섬웨어 공격에 대응하여 자동으로 생성된 모든 스냅샷 사본이 영구적으로 삭제됩니다.</block>
   <block id="16f166ba2ceaca92e52aea587fb0114f" category="inline-link-macro">기타 이벤트</block>
   <block id="b7c7e492cc2a239de36bc7e713a56532" category="paragraph">암호화(엔트로피) 이벤트로 인해 발생하는 경고의 경우, 랜섬웨어 복원력은 사용자가 경고를 무시한 기록을 학습하여 해당 활동을 정상적인 작업과 연관시킵니다. 따라서 향후에는 이러한 유형의 활동을 기반으로 하는 경고를 받지 않게 됩니다. 이는 암호화(엔트로피) 이벤트가 ARP/AI에서 관리되기 때문입니다. <block ref="69f4bf74babfcd1e97eceb84702fb4ae" category="inline-link-macro-rx"></block>로 인해 발생하는 경고의 경우, 이러한 경고는 사용자 활동 패턴을 기반으로 하므로 랜섬웨어 복원력은 경고 무시 기록을 학습하지 _않습니다_.</block>
+  <block id="7f45ddc4c3a6264fe6af09d0feee6f8d" category="admonition"><block ref="9403988536e87b1b5fabe2157e11581a" category="inline-link-macro-rx"></block>을(를) 암호화(사용자 행동), 데이터 유출, 데이터 파괴 및 의심스러운 사용자 행동 공격을 감지하도록 구성해야 합니다.</block>
+  <block id="b9ccc4643a22220649cf7d8c1358ebd7" category="list-text">암호화(엔트로피) 이외의 랜섬웨어 공격 유형에 대한 대비 훈련을 구성하려면 <block ref="9403988536e87b1b5fabe2157e11581a" category="inline-link-macro-rx"></block>을(를) 구성해야 합니다.</block>
+  <block id="f0bfc00f8922a4e1668398e3aee15cb8" category="list-text">CIFS 워크로드에 대한 준비 훈련을 생성할 때는 사용자 자격 증명을 입력해야 합니다. 특히 사용자 활동 공격 유형(예: 데이터 유출)을 테스트할 때는 준비 훈련을 위해 별도의 비프로덕션 테스트 사용자를 생성하는 것이 좋습니다. 실제 프로덕션 사용자를 사용하는 경우, Ransomware Resilience에서 해당 사용자를 위험 사용자로 표시하여 운영 데이터에 대한 액세스가 차단될 수 있습니다. 테스트 사용자를 사용하면 모든 사용자가 데이터에 정상적으로 접근할 수 있습니다.</block>
+  <block id="19783acd6c7b7340a835a629f68c513c" category="list-text">**콘솔 에이전트**와 **기본 시스템**을 선택하십시오.</block>
+  <block id="304fbd9397bc28472932705b6e4b3a45" category="list-text">기본 시스템을 선택한 후, 미리 표시된 목록에서 **스토리지 VM**을 선택하십시오.</block>
+  <block id="ee17fa61bd4957effe2be9aad90f9b39" category="list-text">스토리지 VM이 CIFS 프로토콜을 사용하는 경우 Active Directory 자격 증명을 입력하십시오.  **Active Directory 도메인**은 선택적으로 입력할 수 있지만, **사용자 이름**과 **암호**는 반드시 입력해야 합니다.  테스트 전용 사용자의 자격 증명을 입력하는 것이 좋습니다.</block>
+  <block id="2bc2801a047dbf24f0ad5f6ab66903a3" category="list-text">**새 테스트 워크로드**의 이름을 지정하세요. 테스트 워크로드 이름 앞에는<block ref="4d57df3ec0851a6b7ee80abd6c45cb4f" prefix=" " category="inline-code"></block>이 추가됩니다.</block>
+  <block id="bcb62c4e0257dc7f7e53d4080b48c067" category="list-text">준비 태세 훈련이 사용자 활동 공격 유형에 대한 것이라면 훈련 환경으로 **사용자 활동 에이전트**를 선택하십시오.</block>
 </blocks>

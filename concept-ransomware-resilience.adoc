@@ -195,6 +195,9 @@ image:diagram-rp-architecture-preview3.png["랜섬웨어 복원력 아키텍처�
 | 의심스러운 사용자 행동 | NetApp Ransomware Resilience는 데이터 유출, 데이터 파괴 또는 암호화 범위를 넘어서는 비정상적인 동작을 식별합니다. 
 |===
 
+NOTE: link:concept-user-behavior.html["사용자 활동 감지"]을(를) 암호화(사용자 행동), 데이터 유출, 데이터 파괴 및 의심스러운 사용자 행동 공격을 감지하도록 구성해야 합니다.
+
+
 NOTE: 공격을 실행한 특정 사용자를 식별하려면 link:concept-user-behavior.html["사용자 행동 감지."]를 구성해야 합니다. link:rp-reference-limitations.html["제한 사항"]를 검토하여 시스템이 사용자 활동 감지를 지원하는지 확인하십시오.
 
 
