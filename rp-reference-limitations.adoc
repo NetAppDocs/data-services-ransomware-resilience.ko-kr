@@ -54,7 +54,6 @@ Azure NetApp Files에는 다음과 같은 제한 사항이 적용됩니다.
 
 다음과 같은 제한 사항이 Google Cloud NetApp Volumes에 적용됩니다:
 
-* Google Cloud NetApp Volumes의 SAN 워크로드는 현재 랜섬웨어 복원력에서 지원되지 않습니다.
 * 현재 Google Cloud NetApp Volumes 워크로드에는 암호화 및 FPolicy 기반 보호 전략만 적용할 수 있습니다. 사용자 동작 보호 전략은 적용할 수 없습니다.
 * 현재 Google Cloud NetApp Volumes에서는 복제를 사용하는 보호 전략이 지원되지 않습니다.
 
@@ -66,7 +65,6 @@ Azure NetApp Files에는 다음과 같은 제한 사항이 적용됩니다.
 
 SAN(블록 스토리지) 워크로드에는 다음과 같은 제한 사항이 적용됩니다.
 
-* 랜섬웨어 복원력은 현재 Google Cloud NetApp Volumes의 SAN 워크로드를 지원하지 않습니다.
 * 랜섬웨어 복원력이 SAN 워크로드에 대해 경고를 생성할 때, 이는 높은 엔트로피를 기준으로만 발생합니다.
 * SAN 워크로드는 link:task-custom-restore.html["사용자 지정 복원"]을 사용해서만 복원할 수 있습니다. 현재 SAN 워크로드에 대한 클린 복원은 지원되지 않습니다.
 

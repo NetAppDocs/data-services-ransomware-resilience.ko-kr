@@ -1619,7 +1619,6 @@
   <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="sidebar">사용자 활동 감지에 대해 알아보십시오</block>
   <block id="851ba516be036ed05e26d4e1aa17e994" category="sidebar">에이전트 및 수집기 구성</block>
   <block id="f00a921e7dbbed8405cd9ce5fce914d3" category="list-text">*VM SSH 키* - 다음 형식을 사용하여 SSH 키를 입력하십시오:</block>
-  <block id="6180003c782f1663eb2df1464acac0bd" category="cell">CIFS, NFS 및 SAN</block>
   <block id="691a3e8e2059e924160a8104310f552d" category="paragraph">NetApp Ransomware Resilience는 이제 보조 ONTAP 사이트로 스냅샷 복제 추가를 지원합니다. 복제 정책을 사용하는 보호 그룹을 통해 모든 워크로드에 대해 동일한 대상 또는 서로 다른 대상으로 복제할 수 있습니다. 복제를 포함하는 랜섬웨어 보호 전략을 생성하거나 사전 정의된 전략을 사용할 수 있습니다.</block>
   <block id="17dfbc312023bdd4da992d8e751e72ac" category="doc">Azure NetApp Files 지원</block>
   <block id="ea2f778dfb597a4b527dac7e944ad95b" category="paragraph">Ransomware Resilience가 이제 Azure NetApp Files 시스템을 지원하여 Azure NetApp Files에서 랜섬웨어 위협을 효율적으로 탐지하고 대응할 수 있습니다. 워크로드를 검색할 때, Ransomware Resilience는 이제 Azure NetApp Files를 표시하고 이를 보호 대시보드에 보여줍니다. Azure NetApp Files에 대한 Ransomware Resilience 지원은 스냅샷만을 사용한 탐지 및 보호 전략을 포함합니다. Azure NetApp Files 지원은 현재 프리뷰 단계입니다.</block>
@@ -2460,7 +2459,6 @@
   <block id="b4bada7d854e6650f9cc28e404fe40fb" category="admonition">Amazon FSx for NetApp ONTAP에 배포된 IRE의 경우 이 정보를 제공할 필요가 없습니다.</block>
   <block id="f5b6822ed53c8f99c424ea0e8e011bf7" category="admonition">랜섬웨어 복원력은 콘솔 에이전트당 최대 3,000개의 워크로드만 검색할 수 있습니다.</block>
   <block id="bb4393b6187d55f98dbeb4c5bb8add00" category="list-text">콘솔 에이전트당 워크로드 제한은 3,000개입니다.</block>
-  <block id="8df5e57d843114bbbb53a4c85f76cb68" category="list-text">Google Cloud NetApp Volumes의 SAN 워크로드는 현재 랜섬웨어 복원력에서 지원되지 않습니다.</block>
   <block id="afce532bad172bcef50d75935d2ed43b" category="list-text">복제 정책</block>
   <block id="fb9721f24a420ba827ac36665b13797e" category="doc">사용자 활동 알림에 대한 자동 응답</block>
   <block id="5b29c2b1307b96a1557ab05a56715041" category="paragraph">Ransomware Resilience는 이제 사용자 활동 경고가 발생할 때 스냅샷 생성 및 사용자 차단 자동화를 지원합니다. 자동화된 대응 기능을 통해 경고가 생성되는 즉시 사용자를 차단하고 복구용 스냅샷을 생성하여 수동 개입 없이 신속하게 대응할 수 있습니다.</block>
@@ -2513,12 +2511,10 @@
   <block id="93e35e2f3f7138fcbfc327d758e1ec96" category="list-text">설정 대시보드에서 사용자 활동 모니터링 타일을 찾은 다음 **관리**를 선택합니다.</block>
   <block id="2361358ff14122114e736beff61c48a2" category="list-text">**사용자** 탭을 선택합니다.</block>
   <block id="766067e25ac4a8f22dad6344937ca56d" category="list-text">**사용자 차단**을 선택합니다.</block>
-  <block id="b00b5ebe4a8164319e36e4bbef8f727f" category="list-text">차단 기간을 선택하세요. 1시간부터 최대 24시간 또는 영구적으로 차단할 수 있습니다.</block>
   <block id="50d68502e7fbfa82f99e1abb688a948f" category="list-text">차단하려는 사용자 이름 옆의 확인란을 선택합니다.</block>
   <block id="126b3c7582135a76321582de4bcad51d" category="list-text">**차단**을 선택합니다.</block>
   <block id="23e9aa0fec2a06ec7f4b6f9076d62992" category="list-title">차단된 사용자 목록 수정</block>
   <block id="3d06dabf3eaa23797059f7fffa998cfd" category="list-text">**사용자 차단 편집**을 선택합니다.</block>
-  <block id="e2d552c6afc3cd9e9e5367d429f832c4" category="list-text">수정 방법을 선택하세요. 차단 기간을 수정하려면 **차단 사용자 기간**을 선택한 다음 기간을 수정하세요. 차단된 사용자 목록에서 사용자를 제거하려면 **사용자 차단 해제**를 선택하세요.</block>
   <block id="4ecd815bab325d10795007a2e86d0a31" category="list-text">차단 상태를 변경하려는 차단된 사용자 이름 옆의 확인란을 선택합니다.</block>
   <block id="8d5311b8775f8a9ea8945d76095bb698" category="list-text">**저장**을 선택합니다.</block>
   <block id="bf21122a37b943f2b70a86b30f0af377" category="list-text">**모니터링 제외** 탭을 선택합니다.</block>
@@ -2709,7 +2705,6 @@
   <block id="c6bd820ffcfcad26c449f0454fae72c1" category="list-text">현재 Google Cloud NetApp Volumes에서는 복제를 사용하는 보호 전략이 지원되지 않습니다.</block>
   <block id="392d723534b3a09775f3b6831eba4f37" category="section-title">SAN 스토리지 제한 사항</block>
   <block id="eecebb362641b58fec88bb08c4168447" category="paragraph">SAN(블록 스토리지) 워크로드에는 다음과 같은 제한 사항이 적용됩니다.</block>
-  <block id="aff0472c8383011d738831a8c39c42c6" category="list-text">랜섬웨어 복원력은 현재 Google Cloud NetApp Volumes의 SAN 워크로드를 지원하지 않습니다.</block>
   <block id="2d2a397baa743b0954cf57d074ff1a05" category="list-text">랜섬웨어 복원력이 SAN 워크로드에 대해 경고를 생성할 때, 이는 높은 엔트로피를 기준으로만 발생합니다.</block>
   <block id="41bc5402792c9ae6e031743791c37485" category="list-text">SAN 워크로드는 <block ref="f4ee3b399c8cc5fca837364c0d9badb9" category="inline-link-macro-rx"></block>을 사용해서만 복원할 수 있습니다. 현재 SAN 워크로드에 대한 클린 복원은 지원되지 않습니다.</block>
   <block id="2428514fe4a71be9aaa049c0588b7a22" category="paragraph">시뮬레이션을 실행하기 전에 준비 훈련을 구성해야 합니다. 특정 유형의 랜섬웨어 공격에 대한 준비 훈련을 생성해야 합니다. 랜섬웨어 복원력은 다음 다섯 가지 유형의 공격을 인식합니다.</block>
@@ -2745,10 +2740,23 @@
   <block id="b7c7e492cc2a239de36bc7e713a56532" category="paragraph">암호화(엔트로피) 이벤트로 인해 발생하는 경고의 경우, 랜섬웨어 복원력은 사용자가 경고를 무시한 기록을 학습하여 해당 활동을 정상적인 작업과 연관시킵니다. 따라서 향후에는 이러한 유형의 활동을 기반으로 하는 경고를 받지 않게 됩니다. 이는 암호화(엔트로피) 이벤트가 ARP/AI에서 관리되기 때문입니다. <block ref="69f4bf74babfcd1e97eceb84702fb4ae" category="inline-link-macro-rx"></block>로 인해 발생하는 경고의 경우, 이러한 경고는 사용자 활동 패턴을 기반으로 하므로 랜섬웨어 복원력은 경고 무시 기록을 학습하지 _않습니다_.</block>
   <block id="7f45ddc4c3a6264fe6af09d0feee6f8d" category="admonition"><block ref="9403988536e87b1b5fabe2157e11581a" category="inline-link-macro-rx"></block>을(를) 암호화(사용자 행동), 데이터 유출, 데이터 파괴 및 의심스러운 사용자 행동 공격을 감지하도록 구성해야 합니다.</block>
   <block id="b9ccc4643a22220649cf7d8c1358ebd7" category="list-text">암호화(엔트로피) 이외의 랜섬웨어 공격 유형에 대한 대비 훈련을 구성하려면 <block ref="9403988536e87b1b5fabe2157e11581a" category="inline-link-macro-rx"></block>을(를) 구성해야 합니다.</block>
-  <block id="f0bfc00f8922a4e1668398e3aee15cb8" category="list-text">CIFS 워크로드에 대한 준비 훈련을 생성할 때는 사용자 자격 증명을 입력해야 합니다. 특히 사용자 활동 공격 유형(예: 데이터 유출)을 테스트할 때는 준비 훈련을 위해 별도의 비프로덕션 테스트 사용자를 생성하는 것이 좋습니다. 실제 프로덕션 사용자를 사용하는 경우, Ransomware Resilience에서 해당 사용자를 위험 사용자로 표시하여 운영 데이터에 대한 액세스가 차단될 수 있습니다. 테스트 사용자를 사용하면 모든 사용자가 데이터에 정상적으로 접근할 수 있습니다.</block>
   <block id="19783acd6c7b7340a835a629f68c513c" category="list-text">**콘솔 에이전트**와 **기본 시스템**을 선택하십시오.</block>
   <block id="304fbd9397bc28472932705b6e4b3a45" category="list-text">기본 시스템을 선택한 후, 미리 표시된 목록에서 **스토리지 VM**을 선택하십시오.</block>
   <block id="ee17fa61bd4957effe2be9aad90f9b39" category="list-text">스토리지 VM이 CIFS 프로토콜을 사용하는 경우 Active Directory 자격 증명을 입력하십시오.  **Active Directory 도메인**은 선택적으로 입력할 수 있지만, **사용자 이름**과 **암호**는 반드시 입력해야 합니다.  테스트 전용 사용자의 자격 증명을 입력하는 것이 좋습니다.</block>
   <block id="2bc2801a047dbf24f0ad5f6ab66903a3" category="list-text">**새 테스트 워크로드**의 이름을 지정하세요. 테스트 워크로드 이름 앞에는<block ref="4d57df3ec0851a6b7ee80abd6c45cb4f" prefix=" " category="inline-code"></block>이 추가됩니다.</block>
   <block id="bcb62c4e0257dc7f7e53d4080b48c067" category="list-text">준비 태세 훈련이 사용자 활동 공격 유형에 대한 것이라면 훈련 환경으로 **사용자 활동 에이전트**를 선택하십시오.</block>
+  <block id="25d6353f95c07b9bbb1938a285d3c2ec" category="cell">CIFS, NFS 및 SAN(iSCSI &amp; NVMe)</block>
+  <block id="ae5d941662c7f934b5502d0e4416f1af" category="doc">Google Cloud NetApp Volumes용 SAN 지원(미리 보기)</block>
+  <block id="6d44daef9f0109d0d9941a1214218bd6" category="paragraph">랜섬웨어 복원력이 이제 Google Cloud NetApp Volumes의 SAN 워크로드를 지원하여 SAN 워크로드에 대한 암호화 기반 랜섬웨어 공격을 탐지할 수 있습니다. Google Cloud NetApp Volumes의 SAN 지원은 현재 미리 보기로 제공됩니다.</block>
+  <block id="b49d323c627c43fecd97c8db6ea7f66c" category="inline-link-macro">지원되는 시스템</block>
+  <block id="fa83a4a163069ca1ab2dcb9be3c41063" category="inline-link-macro">랜섬웨어 방어력 강화를 위한 SAN 스토리지</block>
+  <block id="2f244f2c363848263100f25323c23895" category="paragraph">자세한 내용은 <block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block> 및 <block ref="740b3aa4325052238b6cf8ff4cb1a868" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="053cc8d4a507db8f7d33d7c9eb844923" category="section-title">사용자 차단을 위한 간소화된 인터페이스</block>
+  <block id="16d39f5d27761daa66696ada0758791c" category="paragraph">랜섬웨어 방어 기능이 이제 사용자 차단 및 차단된 사용자 관리를 위한 간소화된 사용자 환경을 제공합니다. 이번 업데이트를 통해 차단한 사용자를 쉽게 확인하고 수정할 수 있습니다. 사용자를 차단하려면 <block ref="0a9171a9aac1e029e209b0c543045273" category="inline-link-macro-rx"></block>을(를) 구성해야 합니다.</block>
+  <block id="21d100db43907eec54cab4e115af7c6b" category="inline-link-macro">차단된 사용자 관리</block>
+  <block id="9d82773616a9fd5b52190dd3b03a9d0d" category="paragraph">자세한 내용은 <block ref="c715c16e5dd5464a8f58103938ef0f46" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="32b39b7e5c37ca140c51e2bebb918db4" category="list-text">CIFS 워크로드에 대한 준비 상태 테스트를 생성할 때는 사용자 자격 증명을 입력해야 합니다. 특히 사용자 활동 공격 유형(예: 데이터 유출)을 테스트할 때는 준비 상태 테스트를 위해 별도의 비프로덕션 테스트 사용자를 생성하는 것이 좋습니다. 실제 프로덕션 사용자를 사용하는 경우, 해당 사용자가 다른 프로덕션 볼륨에서 의심스러운 활동을 보이면 실제 경고가 생성되는 대신 준비 상태 테스트에서 해당 경고가 나타날 수 있습니다.</block>
+  <block id="a4eaf16125aa6fca833d794fb9973715" category="list-text">차단 기간을 선택하세요. 사용자를 영구적으로 차단하거나 1시간에서 24시간 사이의 기간 동안 차단하도록 지정할 수 있습니다.</block>
+  <block id="13c987b30f267e394b26e24839fb92c5" category="list-text">변경할 사용자 차단 수준을 선택하십시오. 차단 기간을 수정하려면 **차단된 사용자의 기간**을 선택한 다음 **기간**을 수정하십시오. 차단 목록에서 사용자를 제거하려면 **사용자 차단 해제**를 선택하십시오.</block>
+  <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026년 8월 3일</block>
 </blocks>

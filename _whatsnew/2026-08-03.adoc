@@ -1,0 +1,21 @@
+= Google Cloud NetApp Volumes용 SAN 지원(미리 보기)
+:allow-uri-read: 
+
+
+
+
+[[san-support-for-google-cloud-netapp-volumes-preview]]
+=== Google Cloud NetApp Volumes용 SAN 지원(미리 보기)
+
+랜섬웨어 복원력이 이제 Google Cloud NetApp Volumes의 SAN 워크로드를 지원하여 SAN 워크로드에 대한 암호화 기반 랜섬웨어 공격을 탐지할 수 있습니다. Google Cloud NetApp Volumes의 SAN 지원은 현재 미리 보기로 제공됩니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html#supported-systems["지원되는 시스템"^] 및 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-limitations.html#azure-netapp-files-limitations["랜섬웨어 방어력 강화를 위한 SAN 스토리지"^]을 참조하십시오.
+
+
+
+[[streamlined-interface-for-user-blocking]]
+=== 사용자 차단을 위한 간소화된 인터페이스
+
+랜섬웨어 방어 기능이 이제 사용자 차단 및 차단된 사용자 관리를 위한 간소화된 사용자 환경을 제공합니다. 이번 업데이트를 통해 차단한 사용자를 쉽게 확인하고 수정할 수 있습니다. 사용자를 차단하려면 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["사용자 활동 감지"^]을(를) 구성해야 합니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-users-manage.html#manage-blocked-users["차단된 사용자 관리"^]을 참조하십시오.
