@@ -58,6 +58,8 @@ sidebar:
           url: "/suspicious-user-activity.html"
         - title: 알림 및 차단된 사용자 관리
           url: "/task-users-manage.html"
+        - title: 사용자 활동 에이전트 문제 해결
+          url: "/troubleshoot-user-activity.html"
       - title: 보호 그룹 관리
         url: "/task-protection-group.html"
       - title: 개인 식별 데이터를 스캔하세요

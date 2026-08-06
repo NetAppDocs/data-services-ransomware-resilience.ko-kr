@@ -178,4 +178,5 @@ image:screenshot-user-directory-connection.png["사용자 디렉토리 연결 �
 == 다음 단계
 
 * link:task-users-manage.html["알림 설정 및 차단된 사용자 관리"]
+* link:troubleshoot-user-activity.html["사용자 활동 에이전트 문제 해결"]
 

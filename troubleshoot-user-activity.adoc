@@ -1,0 +1,113 @@
+---
+sidebar: sidebar 
+permalink: troubleshoot-user-activity.html 
+keywords: user activity detection, troubleshoot 
+summary: NetApp Ransomware Resilience에 사용자 활동 에이전트를 설치하는 동안 문제가 발생하는 경우 다음 일반적인 시나리오 및 해결 방법을 검토하십시오. 
+---
+= NetApp Ransomware Resilience의 사용자 활동 에이전트 문제 해결
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Ransomware Resilience에서 사용자 활동 에이전트를 설치하거나 실행하는 동안 문제가 발생하는 경우 다음 일반적인 시나리오 및 해결 방법을 검토하십시오.
+
+
+
+[[installation-issues]]
+== 설치 문제
+
+[cols="20,80"]
+|===
+
+
+| 문제 | 해결 
+
+
+| 사용자 활동 에이전트 설치 시 /opt/netapp/cloudsecure/agent/logs/agent.log 폴더가 생성되지 않고, install.log 파일에 관련 정보가 없습니다. | 이 오류는 에이전트 부트스트래핑 중에 발생합니다. 초기화 전에 발생하므로 로그 파일에 기록되지 않습니다. 오류는 표준 출력으로 전달됩니다. 오류를 검토하려면 명령어 `journalctl -u cloudsecure-agent.service`를 사용하십시오. 
+
+
+| 사용자 활동 에이전트 설치가 "이 Linux 배포판은 지원되지 않습니다. 설치를 종료합니다." 라는 오류와 함께 실패합니다. | 이 오류는 시스템이 시스템 요구 사항을 충족하지 못함을 나타냅니다. 설치를 시도하기 전에 시스템 요구 사항을 검토하고 필요한 업데이트를 진행하십시오. 
+
+
+| 사용자 활동 에이전트 설치가 "-bash: unzip: command not found."라는 오류와 함께 실패합니다. | unzip이 설치되어 있는지 확인하십시오. Yum이 설치되어 있다면,  `yum install unzip`을 실행하여 unzip을 설치하십시오. 그런 다음 설치를 다시 시도하십시오. 
+
+
+| 사용자 활동 에이전트 VM이 Zscaler 프록시 뒤에 있으며 설치가 실패하고 있습니다. | *.cloudinsights.netapp.com URL에 대한 Zscaler 프록시의 SSL 검사를 비활성화하십시오. 
+
+
+| 에이전트를 설치할 때 압축 해제 후 설치 과정이 멈춥니다. |  `chmod 755 -Rf` 명령이 에이전트 설치 중에 실패하는 경우, 루트 권한이 없는  `sudo` 사용자가 작업 디렉터리에 있는 다른 사용자 소유의 파일을 실행하고 있으며 권한을 변경할 수 없기 때문입니다. 이로 인해 설치가 실패합니다. 문제를 해결하려면 "cloudsecure"라는 새 디렉터리를 생성하고, 해당 디렉터리로 이동하여 전체  `token=... ./cloudsecure-agent-install.sh` 설치 명령을 복사하여 붙여넣은 다음 Enter 키를 누르십시오. 그러면 설치가 진행될 것입니다. 그래도 설치가 실패하는 경우, 지원 사례를 접수해 주십시오. 
+
+
+| cloudsecure-agent-symptom-collector.sh 스크립트가 "ERROR: Failed to create /tmp/cloudsecure-agent-symptoms.zip" 오류와 함께 실패합니다. | 명령어를 사용하여 zip 툴을 설치한 후 `yum install zip` 다시  `cloudsecure-agent-symptom-collector.sh` 실행하십시오. 
+
+
+| 사용자 활동 에이전트 설치가 "useradd: cannot create directory /home/cssys."라는 오류와 함께 실패합니다. | 권한 오류로 인해 사용자의 로그인 디렉토리를 /home 디렉토리 아래에 생성할 수 없습니다. cssys 사용자를 생성하고 명령 `sudo useradd <user_name> -m -d HOME_DIR`을 사용하여 로그인 디렉토리를 수동으로 추가하십시오. 이 명령에서  `-m`은(는) 홈 디렉토리가 없는 경우 생성하고,  `-d`은(는) HOME_DIR을 로그인 디렉토리로 지정합니다. 
+|===
+
+
+[[post-installation-issues]]
+== 설치 후 문제
+
+[cols="20,80"]
+|===
+
+
+| 문제 | 해결 
+
+
+ a| 
+설치 후 사용자 활동 에이전트가 실행되지 않습니다. 명령어를 실행한 후 `systemctl status cloudsecure-agent.service`, 출력 결과는 다음과 같습니다.
+
+[source]
+----
+[root@demo ~]# systemctl status cloudsecure-agent.service +
+agent.service - Workload Security Agent Daemon Service
+Loaded: loaded (/usr/lib/systemd/system/cloudsecure-agent.service; enabled; vendor preset: disabled) +
+Active: activating (auto-restart) (Result: exit-code) since Tue 2021-08-03 21:12:26 PDT; 2s ago +
+Process: 25889 ExecStart=/bin/bash /opt/netapp/cloudsecure/agent/bin/cloudsecure-agent (code=exited status=126) +
+Main PID: 25889 (code=exited, status=126), +
+Aug 03 21:12:26 demo systemd[1]: cloudsecure-agent.service: main process exited, code=exited, status=126/n/a +
+Aug 03 21:12:26 demo systemd[1]: Unit cloudsecure-agent.serve
+---- a| 
+/opt/netapp이 NFS 마운트이고 cssys 사용자에게 해당 폴더에 대한 액세스 권한이 없는 경우 설치가 실패합니다. cssys 사용자는 사용자 활동 에이전트 설치 프로그램에 의해 생성된 로컬 사용자이며, 마운트된 공유에 액세스할 권한이 없을 수 있습니다.
+
+cssys 사용자로 액세스를 시도하여 `/opt/netapp/cloudsecure/agent/bin/cloudsecure-agent` 권한을 확인할 수 있습니다. "권한 거부"가 반환되면 적절한 권한이 설정되지 않은 것입니다. 마운트된 폴더 대신 컴퓨터의 로컬 디렉터리에 설치하십시오.
+
+
+
+| 에이전트가 프록시 서버를 통해 연결되었지만, 설치 이후 프록시 서버가 변경되었습니다. 프록시 구성을 어떻게 변경할 수 있습니까?  a| 
+agent.properties 프록시 설정을 편집합니다.
+
+.단계
+. 속성 파일이 있는 폴더로 변경합니다. `cd /opt/netapp/cloudsecure/conf`
+. agent.properties 파일을 텍스트 편집기에서 엽니다.
+. 다음 줄을 추가하거나 수정하십시오.
++
+[source]
+----
+AGENT_PROXY_HOST=<proxy.vm.url> +
+AGENT_PROXY_PORT=<portValue> +
+AGENT_PROXY_USER=<user> +
+AGENT_PROXY_PASSWORD=<password>
+----
+. 파일을 저장하세요.
+. 에이전트를 다시 시작합니다. `sudo systemctl restart cloudsecure-agent.service`
+
+
+
+
+| 에이전트가 성공적으로 설치되어 실행 중이었으나 예기치 않게 중지되었습니다.  a| 
+.단계
+. 에이전트 시스템에서 SSH를 통해 인증하여 서비스 상태를 확인하십시오. 다음을 통해 에이전트 서비스 상태를 확인하십시오. `sudo systemctl status cloudsecure-agent.service`
+. 로그에서 "Failed to start Workload Security daemon service." 메시지를 확인하십시오.
+. 사용자 활동 에이전트 시스템에 cssys 사용자가 존재하는지 확인합니다. cssys 사용자와 그룹이 각각 존재하는지 확인하려면 다음 명령을 실행하십시오. `sudo id cssys` then `sudo groups cssys`.
+. 사용자 또는 그룹이 존재하지 않는 경우, 중앙 집중식 모니터링 정책에 의해 cssys 사용자가 삭제되었을 수 있습니다. 다음 명령을 실행하여 cssys 사용자 및 그룹을 수동으로 생성하십시오. `sudo useradd cssys` 그런 다음 `sudo groupadd cssys`.
+. 에이전트 서비스를 다시 시작합니다. `sudo systemctl restart cloudsecure-agent.service`
+
+
+
+
+| 사용자 활동 에이전트 상태가 연결되지 않았습니다. | 에이전트를 재시작하십시오. SSH를 통해 사용자 활동 에이전트 시스템에 인증한 다음 명령어 `sudo systemctl restart cloudsecure-agent.service`를 사용하여 에이전트를 재시작하십시오. 재시작 후 명령어 `sudo systemctl status cloudsecure-agent.service`를 사용하여 에이전트 상태를 확인하십시오. 재시작 작업이 성공하면 출력에 "CONNECTED"가 표시됩니다. 
+|===
