@@ -1105,7 +1105,6 @@
   <block id="87890c9758b28588c6845cfcf6d19b17" category="section-title">데이터 수집기 추가</block>
   <block id="cebc35dcf9d04a393d86d35a4e3cf6be" category="inline-xref-macro">탐지 정책 추가</block>
   <block id="8348d8dcee9ea32e049e21c42a431b91" category="list-text">랜섬웨어 복원력에서 *설정*으로 이동합니다.</block>
-  <block id="e70202c14c96f451fdcf2617844ea351" category="list-text">**사용자 디렉터리 커넥터** 탭을 선택한 다음 **추가**를 선택합니다.</block>
   <block id="496ee322ba138fdbc777e5ab2e30145e" category="list-text">*이름*</block>
   <block id="e018ce61f2faa0782aac0cf5ceb4e39f" category="list-text">*사용자 디렉토리 유형*</block>
   <block id="817d09446fbab0a167f137ba029b3b2c" category="list-text">*서버 IP 주소 또는 도메인 이름*</block>
@@ -2078,11 +2077,9 @@
   <block id="b0836e1bf6680e789281aea3293f7647" category="list-text">클라우드 기반 IRE의 경우 **Amazon Web Services**를 선택합니다.</block>
   <block id="b330f48d8947ae91888a185951c00937" category="list-text">*시스템* 섹션을 확장합니다. IRE에 연결할 시스템을 선택합니다. 선택한 각 시스템에 대해 스토리지 VM의 IP 주소, 서브넷 마스크 및 게이트웨이를 제공해야 합니다.</block>
   <block id="be33043acadffab164c32971cd856af7" category="inline-image-macro">시스템 선택 인터페이스의 스크린샷.</block>
-  <block id="9aa6cf1eff1a76b0409b3e752312ea85" category="paragraph"><block ref="9aa6cf1eff1a76b0409b3e752312ea85" category="inline-image-macro-rx" type="image"></block></block>
   <block id="89fdf1c0dc132ad5060755aed85034a8" category="list-text">**인증** 섹션을 확장합니다.</block>
   <block id="a81c4edeb10492c8584a0c9082f6ce84" category="list-text">*Virtual Private Cloud(VPC)* 섹션을 확장합니다. IRE를 배포할 VPC ID를 입력합니다.</block>
   <block id="c2b8af5a06c2ce8a91c4861ae659df43" category="inline-image-macro">IRE 인증 설정의 스크린샷.</block>
-  <block id="9a717f23235ddd79acf46b60cbb49654" category="paragraph"><block ref="9a717f23235ddd79acf46b60cbb49654" category="inline-image-macro-rx" type="image"></block></block>
   <block id="220e304e2191688ccb248376282d530b" category="list-text">IRE를 생성하려면 **추가**를 선택하십시오.</block>
   <block id="f0e69ccbb7ad96f546f7924206944bfa" category="open-title">온프레미스</block>
   <block id="9f1d53078d7f9d9907fb2e5042915794" category="list-text">Clean restores 카드에서 처음 환경을 생성하는 경우 **Add**를 선택하고 이미 환경을 생성한 경우 **Manage**를 선택합니다.</block>
@@ -2091,7 +2088,6 @@
   <block id="da5888e486faa08ea3f4a546d8ea2b6b" category="list-text">*시스템* 섹션을 확장합니다. IRE에 연결할 시스템을 선택합니다. IRE에서 복구할 워크로드가 있는 각 시스템에 스토리지 VM IP, 서브넷 마스크 및 게이트웨이를 할당합니다.</block>
   <block id="6c98e0cb0c66954d78f2191bf8fdcd90" category="paragraph">선택하는 각 시스템에는 할당된 IP 주소가 있어야 합니다. 기본 시스템 또는 보조 시스템을 선택할 수 있습니다. 보조 시스템은 기본 시스템에 암호화되지 않은 스냅샷이 없거나 사용할 수 없는 경우 분석 및 복구에 사용할 수 있습니다.</block>
   <block id="88fd1b8a6e78502ed71683ed691e3faa" category="list-text">**Console agent** 섹션을 확장합니다. 드롭다운 메뉴에서 IRE에 배포된 Console agent를 선택합니다.</block>
-  <block id="594222a9ce3ab2f5ea0066e3f132342d" category="list-text">*Compute* 섹션을 펼치세요.</block>
   <block id="2c164c9a5db457fb3a29bc4f36a90e11" category="list-text">vCenter 서버를 인증하는 데 필요한 자격 증명을 제공하십시오. *IP 주소* 또는 정규화된 도메인 이름(FQDN), *포트*, *사용자 이름* 및 *암호*.</block>
   <block id="dc7731af7d2a810f6507b9403958dd46" category="list-text">자격 증명을 확인하려면 **인증**을 선택하세요. UI에서 자격 증명을 확인할 때까지 기다린 후 진행하세요.</block>
   <block id="3c313c8ed317dbe7d4203dcdd31c8a19" category="inline-image-macro">컴퓨팅 선택 인터페이스의 스크린샷입니다.</block>
@@ -2101,7 +2097,6 @@
   <block id="3b98dd3eb2a4ab1e4dbff3d07d4b9987" category="paragraph">복원 작업이 진행 중인 동안에는 IRE를 삭제할 수 없습니다. 복원 작업을 취소하거나 복원이 완료될 때까지 기다린 후 IRE를 삭제할 수 있습니다.</block>
   <block id="f9df77cbf2042ca0c84056ff5f798b3f" category="admonition">IRE를 삭제하면 클린룸 SVM과 메타데이터 볼륨도 함께 삭제됩니다. 이러한 자산이 삭제되면 클린 복원에 대한 보고서를 더 이상 생성할 수 없습니다.</block>
   <block id="ffbbe06f3f17d59276920755ff6ac29b" category="list-text">**설정**으로 이동합니다.</block>
-  <block id="40d3ac507a7227e0481f98409e8015f7" category="list-text">클린 복원 카드에서 **관리**를 선택합니다.</block>
   <block id="7c2d524886480cf4cd6bc69e0c99bb89" category="list-text">대화 상자에서 **삭제**를 선택하여 작업을 확인합니다.</block>
   <block id="f4cc881797e2311f16dfa07e4349adcc" category="doc">NetApp Ransomware Resilience의 사용자 지정 복원 기능을 사용하여 랜섬웨어 공격으로부터 복구하세요</block>
   <block id="535ddb562a8b468bf49b846735d03ed1" category="paragraph">NetApp Ransomware Resilience를 통해 스토리지 관리자는 권장 복원 지점 또는 선호하는 복원 지점 중에서 워크로드를 복원하는 최적의 방법을 결정할 수 있습니다.</block>
@@ -2121,19 +2116,16 @@
   <block id="9df5336cadaa8da9a21a00f3f55c497b" category="list-text">계정의 **Access key**와 **Secret key**를 입력하세요.</block>
   <block id="2717d5efc491d88d4fc433e4af820d74" category="summary">NetApp Ransomware Resilience에서 클린 복원을 수행하기 전에 환경을 격리하고 정리할 수 있도록 격리된 복구 환경을 생성해야 합니다.</block>
   <block id="d58e1a84905920b61ed4f1f26262aeb9" category="doc">NetApp Ransomware Resilience에서 깨끗한 복원을 위한 환경을 구성합니다</block>
-  <block id="48b395c83fb3667e93231c09593be027" category="list-text">클린 복원 카드에서 **추가**를 선택하여 격리된 복구 환경을 생성합니다.</block>
   <block id="105f7259b2dc81485c4baf296e55aec5" category="list-text">**이름** 섹션을 펼치세요. 환경의 **이름**을 입력하세요.</block>
   <block id="2eda5a6118ec15220cd7332a61e3afa7" category="list-text">클라우드 **Account** ID를 입력하고 드롭다운 메뉴에서 해당 계정의 **Region**을 선택하세요. 지원되는 지역에서만 IRE를 배포할 수 있습니다.</block>
   <block id="8a6858555f085685f5bb427c4dbd4219" category="paragraph">Ransomware Resilience는 추가를 선택한 후 연결을 테스트하며, 몇 분 정도 걸릴 수 있습니다. IRE의 상태가 "deployed"로 표시되면 성공적으로 배포된 것입니다.</block>
   <block id="72fe6d9d17dfd2ab74965b68d4ad7d09" category="list-text">VM을 배포할 *데이터센터*와 *클러스터*를 선택하십시오.</block>
   <block id="3e00060a376e7413a4ebadfd06157d94" category="list-text">ESXi 호스트에 사용할 *데이터 저장소*와 *네트워크*를 선택하십시오.</block>
   <block id="30329b19b858d26d073ea4ab5feeed6f" category="list-text">VM의 *IP 주소 범위*를 CIDR 형식(예: 10.0.0.1/24), *서브넷 마스크* 및 *게이트웨이*로 입력합니다.</block>
-  <block id="5e4a4c67d9b9212d3f7d2d36cd4be2de" category="list-text">*컴퓨팅* 섹션에 입력한 내용을 기반으로 채워지는 *VM* 섹션을 확장합니다.</block>
   <block id="1a65a52eeaaaf2a882bf42fa7b872483" category="list-text">Ransomware Resilience가 랜섬웨어를 검사하는 데 사용하는 Linux VM의 경우, 드롭다운 메뉴에서 해당 VM을 선택한 다음 VM의 *사용자 이름*과 *암호*를 입력하십시오.</block>
   <block id="3c4a04ceaab48b61f17ab0bd613644c0" category="list-text">스캔에 사용되는 Windows VM의 경우 드롭다운 메뉴에서 VM을 선택한 다음 VM의 *사용자 이름* 및 *암호*를 입력합니다.</block>
   <block id="13291e241521a2260f7ae5746544e195" category="list-text">IRE를 생성하려면 **추가**를 선택하십시오. 추가를 선택하면 Ransomware Resilience가 연결을 테스트합니다. 이 과정은 몇 분 정도 소요될 수 있습니다. IRE의 상태가 "deployed"로 표시되면 배포가 성공적으로 완료된 것입니다.</block>
   <block id="8d81ff5c5b48d23cce9332dd984632b4" category="paragraph">진행 상황을 추적할 수 있습니다. 설정 탭에서 **격리된 복구 환경**을 선택하세요. 격리된 복구 환경 페이지에는 IRE와 해당 상태가 표시됩니다. 해당 환경과 관련된 모든 작업 내역을 보려면 **작업 보기**를 선택하세요.</block>
-  <block id="4f9ce9d8880d6bdd44ed37068e5fb560" category="admonition">IRE의 세부 정보를 변경해야 하는 경우 Ransomware Resilience 사이드바에서 *Settings*를 선택한 다음 Clean restore 카드에서 **Manage**를 선택합니다. IRE의 작업 메뉴를 선택한 후 **Edit**를 선택하여 구성을 변경합니다.</block>
   <block id="b84cf7acbf3f47154038369f7661d257" category="list-text">삭제하려는 클린룸을 식별합니다. IRE의 작업 메뉴(<block ref="2f43b42fd833d1e77420a8dae7419000" prefix="(" category="inline-code"></block>)를 선택한 다음 **삭제**를 선택합니다.</block>
   <block id="26878907f297abf4a6b9ee208577dd47" category="inline-link-macro">SIEM 보고서</block>
   <block id="f7816573bcae53abb1ea5d75ebbcc21f" category="list-text">Azure NetApp Files 구성에는 <block ref="b3b62e437019ccd4f3f5eaf4371edbef" category="inline-link-macro-rx"></block>에 일부 이벤트 데이터가 포함되지 않습니다.</block>
@@ -2230,7 +2222,6 @@
   <block id="23261131430f46ec6fb27110ac7f00fc" category="section-title">SOAR의 사용자 차단 지원</block>
   <block id="e5b8f2d9ef7cdce04d260640283c68c6" category="paragraph">Ransomware Resilience이 이제 Google SecOps 및 Splunk SOAR 플레이북을 사용하여 개별 사용자 차단을 지원합니다. 이 추가 기능을 통해 Ransomware Resilience에서 데이터 유출이나 대량 데이터 삭제와 같은 의심스러운 사용자 활동을 감지할 때 사용자 차단을 자동화할 수 있습니다.</block>
   <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
-  <block id="5e5e4d611b545e088600f1e94c227e02" category="list-text">유형 섹션에서 *정리 전용*을 선택합니다.</block>
   <block id="15133f0d70ddd9da0f0a4ccaf25d12f2" category="paragraph">보안 정보 및 이벤트 관리(SIEM) 시스템은 로그 및 이벤트 데이터를 중앙 집중화하여 보안 이벤트 및 규정 준수에 대한 통찰력을 제공합니다. NetApp Ransomware Resilience은 위협 분석 및 탐지를 간소화하기 위해 데이터를 SIEM으로 자동 전송하는 기능을 지원합니다.</block>
   <block id="963e2ddcdebcdd0f6fcbd1dad696e580" category="admonition">Ransomware Resilience는 <block ref="de8332ed81162473af5cb8a1551a7e36" category="inline-link-macro-rx"></block>도 제공합니다.</block>
   <block id="1d128c6086cbb73d30a6cbf3e127963d" category="list-text">*title*: 감지된 알림의 표시 이름입니다.</block>
@@ -2801,4 +2792,21 @@
   <block id="6ad1cd924ce29ff4da20eeb96e077f1d" category="cell">사용자 활동 에이전트 상태가 연결되지 않았습니다.</block>
   <block id="39c8406466e54746b73ade6daa657064" category="cell">에이전트를 재시작하십시오. SSH를 통해 사용자 활동 에이전트 시스템에 인증한 다음 명령어<block ref="93ef545658eafd48b45fa315628953ae" prefix=" " category="inline-code"></block>를 사용하여 에이전트를 재시작하십시오. 재시작 후 명령어<block ref="de0bfd4520e6fec9f1a67c5c65dc2b8c" prefix=" " category="inline-code"></block>를 사용하여 에이전트 상태를 확인하십시오. 재시작 작업이 성공하면 출력에 "CONNECTED"가 표시됩니다.</block>
   <block id="713ea46594970b91c034ec702b329399" category="sidebar">사용자 활동 에이전트 문제 해결</block>
+  <block id="61a1f03c40b54edaef7c992ca33db97f" category="doc">데이터 수집기 삭제</block>
+  <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">Ransomware Resilience 기능이 이제 데이터 수집기 삭제를 지원합니다. 데이터 수집기는 워크로드에서 사용자 활동 감지를 활성화하면 자동으로 생성됩니다. 데이터 수집기가 더 이상 유효하지 않게 되면 이제 수동으로 삭제할 수 있습니다.</block>
+  <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">자세한 내용은 <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="58262e10e6eb5ac08f4ebdaac5362d95" category="doc">랜섬웨어 복원력에 대한 도움말</block>
+  <block id="0990599ef72ff32baff709aa976827eb" category="doc">랜섬웨어 복원력 지원 등록</block>
+  <block id="468e863607c4c207e5952c0a36da3433" category="paragraph">데이터 수집기가 더 이상 사용되지 않거나 작동하지 않는 경우 삭제할 수 있습니다. 데이터 수집기를 삭제하면 해당 수집기로 모니터링되던 모든 워크로드에 대한 의심스러운 사용자 행동 모니터링이 중단됩니다.</block>
+  <block id="f25157455b342378027462b995e2423d" category="list-text">*에이전트 및 수집기 탭*을 선택한 다음 *데이터 수집기*를 선택합니다.</block>
+  <block id="10a604b32f29fb0683a2be87454599b7" category="list-text">삭제하려는 데이터 수집기를 확인합니다. 작업 메뉴를 선택한 다음 **삭제**를 선택합니다.</block>
+  <block id="1e64ed41d722d196194562a5df24253d" category="list-text">대화 상자에서 *삭제*를 선택하여 확인합니다.</block>
+  <block id="b17193aa985fc14bbddcb4c3fa91bb7b" category="list-text">*에이전트 및 수집기 탭*을 선택한 다음 **사용자 디렉터리 커넥터** 탭을 선택하고 **추가**를 클릭합니다.</block>
+  <block id="3e48c32fa5e1161a5567c6a86a9f0349" category="list-text">격리된 정리 및 복구 카드에서 **추가**를 선택하여 격리된 복구 환경을 생성합니다.</block>
+  <block id="9c89138e4c42cb6a49a2538e0f80a53d" category="list-text">유형 섹션에서 *주문형 정리*를 선택합니다.</block>
+  <block id="393e58657e131f2b72649ed0cf5217cd" category="list-text">*클린룸 컴퓨팅* 섹션을 확장합니다.</block>
+  <block id="d5ea44941680de66202040b32bbebc5a" category="list-text">*컴퓨팅* 섹션에 입력한 내용을 기반으로 채워지는 *클린룸 VM* 섹션을 확장합니다.</block>
+  <block id="13579afd289a7073b60083da3804071a" category="admonition">IRE의 세부 정보를 변경해야 하는 경우, 랜섬웨어 복원력 사이드바에서 *설정*을 선택한 다음, 격리 정리 및 복구 카드에서 **관리**를 선택합니다. IRE의 작업 메뉴를 선택한 후 **편집**을 선택하여 구성을 변경합니다.</block>
+  <block id="ae4022180a6e4bea847e0d317afacc94" category="list-text">격리 청소 및 복구 카드에서 **관리**를 선택합니다.</block>
+  <block id="01b8b50c6af6a26d04385207f4b3c02e" category="section-title">2026년 8월 13일</block>
 </blocks>
