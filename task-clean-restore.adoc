@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-clean-restore.html 
 keywords: clean room, clean restore, secure recovery, restore, isolated recovery environment 
-summary: NetApp Ransomware Resilience에서 클린 복원을 수행하기 전에 환경을 격리하고 정리할 수 있도록 격리된 복구 환경을 생성해야 합니다. 
+summary: NetApp Ransomware Resilience에서 클린 복원을 수행하기 전에 환경을 격리하고 정리하기 위한 격리된 복구 환경을 생성해야 합니다. 
 ---
 = NetApp Ransomware Resilience에서 깨끗한 복원을 위한 환경을 구성합니다
 :hardbreaks:
@@ -35,8 +35,8 @@ NetApp Ransomware Resilience는 랜섬웨어 공격 후 단계적인 복구를 �
 
 * **PLAN**: 제공된 복구 옵션 중에서 선택하세요.
 +
-** _최신 영향을 받지 않은 복원 지점_: 공격 이전의 가장 최근 암호화되지 않은 스냅샷에서 가장 빠른 복원 지점
-** _데이터 손실 최소화_: 서로 다른 스냅샷에서 암호화되지 않은 모든 파일의 최신 버전
+** _최신 피해 없는 복원 지점_: 공격 발생 이전의 가장 최근 암호화되지 않은 스냅샷에서 가장 빠른 복원 지점입니다.
+** 데이터 손실 최소화: 서로 다른 스냅샷에서 암호화되지 않은 모든 파일의 최신 버전
 +
 계획 단계에서 파일 기록을 확인하여 랜섬웨어 이벤트가 파일에 영향을 미친 시점과 복구 시점이 해당 이벤트와 시간상 어떻게 연관되는지 확인할 수도 있습니다.
 
@@ -44,7 +44,7 @@ NetApp Ransomware Resilience는 랜섬웨어 공격 후 단계적인 복구를 �
 
 * **정리**: Ransomware Resilience는 복구 지점에서 악성코드를 제거합니다. 정리할 수 없는 파일이 있는 경우 복구에서 제외되어 별도의 위치로 격리됩니다.
 * **복원**: Ransomware Resilience는 깨끗한 데이터를 소스 환경으로 복원합니다.
-* **END**: Ransomware Resilience는 프로세스에 대한 자세한 요약을 제공하고 클린룸을 종료하며, 설정 중에 프로비저닝된 리소스를 해제하여 향후 측정 비용을 없애줍니다.
+* **END**: Ransomware Resilience는 프로세스에 대한 자세한 요약을 제공하고 클린룸을 종료하며, 설정 중에 프로비저닝된 리소스를 해제하여 향후 사용량 기반 비용이 발생하지 않도록 합니다.
 
 
 

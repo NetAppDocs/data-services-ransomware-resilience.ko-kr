@@ -7,7 +7,7 @@
 [[security-risk-assessment-from-digital-advisor]]
 === Digital Advisor 의 보안 위험 평가
 
-BlueXP ransomware protection은 이제 NetApp Digital Advisor에서 클러스터와 관련된 높은 수준 및 중요한 보안 위험에 대한 정보를 수집합니다. 위험이 발견되면 BlueXP ransomware protection은 대시보드의 *권장 조치* 창에 "클러스터의 알려진 보안 취약점을 수정하세요<name>."라는 권장 사항을 제공합니다. 대시보드의 권장 사항에서 *검토 및 수정*을 선택하면 보안 위험을 해결하기 위해 Digital Advisor 및 CVE(Common Vulnerability & Exposure) 문서를 검토하도록 안내합니다. 보안 위험이 여러 개인 경우 Digital Advisor에서 정보를 검토하십시오.
+BlueXP 랜섬웨어 보호 기능은 이제 NetApp Digital Advisor에서 높음 및 심각한 클러스터 보안 위험에 대한 정보를 수집합니다. 위험이 발견되면 BlueXP 랜섬웨어 보호 기능은 대시보드의 *권장 조치* 창에 "클러스터의 알려진 보안 취약점을 수정하십시오 <name>."라는 권장 사항을 표시합니다. 대시보드 권장 사항에서 *검토 및 수정*을 선택하여 Digital Advisor 및 관련 CVE(Common Vulnerability & Exposure) 문서를 검토하십시오. 보안 위험이 여러 개인 경우 Digital Advisor에서 세부 정보를 검토하십시오.
 
 참조하다 https://docs.netapp.com/us-en/active-iq/index.html["Digital Advisor 문서"^] .
 

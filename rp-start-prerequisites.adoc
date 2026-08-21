@@ -12,9 +12,9 @@ summary: 환경, 네트워크 액세스, 로그인 및 웹 브라우저에 대�
 
 
 [role="lead"]
-NetApp Ransomware Resilience를 성공적으로 배포하려면 운영 환경, 네트워크 액세스 및 웹 브라우저의 준비 상태를 확인하십시오.
+NetApp Ransomware Resilience를 배포하기 전에 환경, 네트워크 액세스 및 브라우저가 요구 사항을 충족하는지 확인하십시오.
 
-다음 요구 사항을 검토하고 충족하는지 확인하십시오.
+다음 요구 사항을 검토하십시오.
 
 
 
@@ -93,7 +93,7 @@ NOTE: SAN 워크로드에서 랜섬웨어 복원력을 사용하려면 ONTAP 9.1
 [[ontap-requirements]]
 == ONTAP 요구 사항
 
-* 온프레미스 ONTAP 인스턴스에서 ONTAP One 라이선스가 활성화된 ONTAP 9.11.1 이상을 실행해야 합니다.  ONTAP 지원에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율형 랜섬웨어 보호 개요"^] .
+* 온프레미스 ONTAP 클러스터에서 ONTAP One 라이선스가 활성화된 ONTAP 9.11.1 이상 버전을 실행해야 합니다. ONTAP 지원에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율형 랜섬웨어 보호 개요"^]을 참조하십시오.
 * 보호 구성(자율 랜섬웨어 보호 활성화 등)을 적용하려면 랜섬웨어 복원력에 ONTAP 클러스터에 대한 관리자 권한이 필요합니다. ONTAP 클러스터는 ONTAP 클러스터 관리자 사용자 자격 증명을 사용하여만 온보딩되어야 합니다.
 
 

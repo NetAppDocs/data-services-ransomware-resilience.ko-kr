@@ -14,7 +14,7 @@ summary: 랜섬웨어 회복력을 활용하면 사이버 보안에 대한 관�
 
 
 [role="lead"]
-랜섬웨어 공격은 사용자의 데이터에 대한 접근을 차단할 수 있으며, 공격자는 데이터 공개나 암호 해독을 조건으로 몸값을 요구할 수 있습니다.  IDC에 따르면, 랜섬웨어 피해자가 여러 차례 랜섬웨어 공격을 경험하는 것은 드문 일이 아닙니다.  이러한 공격으로 인해 귀하의 데이터 접근이 하루에서 몇 주까지 중단될 수 있습니다.
+NetApp Ransomware Resilience는 랜섬웨어 대비 태세를 평가하고, 워크로드를 보호하고, 위협을 탐지하고, 데이터를 복구하는 데 도움을 줍니다. 또한 보안 태세를 강화하기 위한 경고 및 권장 복구 단계를 제공합니다.
 
 NetApp Ransomware Resilience는 랜섬웨어 공격으로부터 데이터를 보호합니다. Ransomware Resilience에서는 NAS 스토리지(NFS 및 CIFS 프로토콜)와 SAN 스토리지(FC, iSCSI 및 NVMe 프로토콜)의 파일 공유에 대한 보호를 사용할 수 있습니다. Ransomware Resilience는 온프레미스 스토리지뿐만 아니라 NetApp Console 전반에 걸쳐 Amazon Web Services용 Cloud Volumes ONTAP, Google Cloud용 Cloud Volumes ONTAP, Microsoft Azure용 Cloud Volumes ONTAP, Azure NetApp Files 및 Amazon FSx for NetApp ONTAP에서 지원됩니다. Amazon Web Services, Google Cloud, Microsoft Azure 및 NetApp StorageGRID로 데이터를 백업할 수 있습니다.
 

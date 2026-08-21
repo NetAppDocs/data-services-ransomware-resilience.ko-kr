@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rp-start-quick-start.html 
 keywords: get started, ransomware protection, quick start, resilience, quickstart 
-summary: 몇 단계만 거치면 NetApp Ransomware Resilience 시작할 수 있습니다. 
+summary: 몇 단계만으로 NetApp Ransomware Resilience를 시작하십시오. 
 ---
 = NetApp Ransomware Resilience 대한 빠른 시작
 :hardbreaks:
@@ -12,7 +12,7 @@ summary: 몇 단계만 거치면 NetApp Ransomware Resilience 시작할 수 있�
 
 
 [role="lead"]
-랜섬웨어 복원력을 설정하고 작업 부하를 보호하는 데 필요한 상위 수준의 단계를 알아보세요.
+이 빠른 시작 가이드를 사용하여 NetApp Ransomware Resilience를 설정하고, 워크로드를 검색하고, 보호 기능을 구성하십시오.
 
 자세한 내용은 각 단계의 링크를 참조하세요.
 
@@ -27,7 +27,7 @@ summary: 몇 단계만 거치면 NetApp Ransomware Resilience 시작할 수 있�
 ** 또한 link:reference-user-activity-requirements.html["의심스러운 사용자 행동 감지"] 및 link:task-clean-restore.html["클린 복원"]에 대한 요구 사항을 검토하십시오.
 
 
-* link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-roles.html["랜섬웨어 복원력 사용자 역할을 검토하고 랜섬웨어 복원력에 액세스하는 사용자에게 권한을 할당합니다."]
+* link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-roles.html["Ransomware Resilience 사용자 역할을 검토하고 해당 서비스에 액세스하는 사용자에게 권한을 할당하십시오."]
 * link:rp-start-licenses.html["라이센스 설정"]
 
 
@@ -43,7 +43,7 @@ summary: 몇 단계만 거치면 NetApp Ransomware Resilience 시작할 수 있�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["삼"]랜섬웨어 복원력에서 보호 및 탐지 구성
 [role="quick-margin-para"]
-이러한 작업을 수행하려면 _Ransomware Resilience admin_ 역할이 필요합니다. 사용자 동작 감지를 구성하려면 추가로 _Ransomware Resilience user behavior admin_ 역할이 필요합니다.
+이러한 작업을 수행하려면 _Ransomware Resilience admin_ 역할이 필요합니다. 사용자 동작 감지를 구성하려면 _Ransomware Resilience user behavior admin_ 역할도 필요합니다.
 
 [role="quick-margin-list"]
 * link:rp-use-protect.html["작업 부하 보호"]
@@ -63,7 +63,7 @@ summary: 몇 단계만 거치면 NetApp Ransomware Resilience 시작할 수 있�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"]다음은 무엇인가요?
 [role="quick-margin-para"]
-Ransomware Resilience에서 보호를 구성한 후 다음을 수행할 수 있습니다.
+보호를 구성한 후에는 다음 작업을 수행할 수 있습니다.
 
 [role="quick-margin-list"]
 * link:task-classify.html["데이터 분류를 활성화하여 거버넌스 및 보안 위험을 식별합니다."]

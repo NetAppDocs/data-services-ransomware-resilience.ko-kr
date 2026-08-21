@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-protection-group.html 
-keywords: ransomware protection, protection group, modify, create, 
+keywords: ransomware protection, protection group, modify, create 
 summary: NetApp Ransomware Resilience 에서 워크로드에 정책을 할당하여 랜섬웨어 공격으로부터 워크로드를 보호할 수 있습니다. 
 ---
 = NetApp Ransomware Resilience에서 보호 그룹 관리
@@ -12,7 +12,7 @@ summary: NetApp Ransomware Resilience 에서 워크로드에 정책을 할당하
 
 
 [role="lead"]
-NetApp Ransomware Resilience는 데이터 환경 관리를 간소화하는 보호 그룹 기능을 제공합니다. 보호 그룹은 워크로드를 논리적으로 그룹화한 것입니다. Ransomware Resilience를 사용하면 단일 보호 전략으로 보호 그룹 내의 모든 볼륨을 동시에 보호할 수 있으므로 각 워크로드에 개별적으로 전략을 적용할 필요가 없습니다.
+NetApp Ransomware Resilience에서 보호 그룹을 사용하여 관련 워크로드를 함께 관리하고 그룹 내 모든 워크로드에 단일 보호 전략을 적용할 수 있습니다.
 
 *필수 콘솔 역할* 이 작업을 수행하려면 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-platform-roles.html#super-admin-roles["최고 관리자"^] 또는 Ransomware Resilience 관리자 역할이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^].
 
@@ -21,7 +21,7 @@ NetApp Ransomware Resilience는 데이터 환경 관리를 간소화하는 보�
 [[create-a-protection-group]]
 == 보호 그룹 생성
 
-보호 상태와 관계없이 그룹을 생성할 수 있습니다(보호되지 않은 그룹과 보호된 그룹 모두 해당). 보호 그룹에 보호 정책을 추가하면 새 보호 정책이 기존 정책(NetApp Backup and Recovery에서 관리하는 정책 포함)을 대체합니다.
+워크로드의 보호 상태와 관계없이 보호 그룹을 생성할 수 있습니다. 보호 그룹에 보호 정책을 추가하면 새 정책이 NetApp Backup and Recovery에서 관리하는 정책을 포함하여 기존 정책을 모두 대체합니다.
 
 보호 그룹에 포함된 워크로드는 동일한 워크로드 유형이어야 합니다. 즉, 블록 시스템 워크로드와 파일 시스템 워크로드를 혼합할 수 없습니다. 또한 워크로드는 동일한 시스템 유형에 속해야 합니다. 예를 들어, 보호 그룹에는 모든 온프레미스 ONTAP 파일 시스템 워크로드를 포함할 수 있지만, Amazon FSx for NetApp ONTAP 워크로드는 동일한 보호 그룹에 추가할 수 없습니다.
 

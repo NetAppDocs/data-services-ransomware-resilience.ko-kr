@@ -12,9 +12,9 @@ summary: NetApp Ransomware Resilience의 사용자 활동 감지 기능을 통�
 
 
 [role="lead"]
-NetApp Ransomware Resilience 사용자 동작 감지 기능은 사용자 수준의 랜섬웨어 이벤트를 방지하는 데 도움이 됩니다. Ransomware Resilience에서 사용자 동작 감지를 활성화하려면 하나 이상의 사용자 활동 에이전트를 설치해야 합니다. 이 에이전트는 랜섬웨어 이벤트와 유사한 비정상적인 패턴에 대해 사용자 동작을 모니터링하는 데이터 수집 환경을 생성합니다.
+NetApp Ransomware Resilience 사용자 행동 탐지 기능을 사용하여 랜섬웨어, 데이터 유출 또는 데이터 파괴 이벤트를 나타낼 수 있는 의심스러운 사용자 활동을 식별하십시오. 이 기능을 활성화하려면 데이터 수집 환경을 구축하기 위해 하나 이상의 사용자 활동 에이전트를 설치해야 합니다.
 
-사용자 활동 에이전트는 데이터 수집기와 사용자 디렉터리 커넥터를 호스팅하며, 이 둘 모두 분석을 위해 SaaS 위치로 데이터를 전송합니다.
+사용자 활동 에이전트는 데이터 수집기와 사용자 디렉터리 커넥터를 호스팅하며, 이들은 분석을 위해 데이터를 클라우드 위치로 전송합니다.
 
 * **데이터 수집기**는 ONTAP에서 사용자 활동 데이터를 수집합니다. 데이터 수집기는 사용자 행동 감지 기능을 포함하는 보호 전략을 생성할 때 자동으로 생성됩니다.
 * **사용자 디렉터리 커넥터**는 디렉터리에 연결하여 사용자 ID를 사용자 이름에 매핑합니다. 사용자 디렉터리 커넥터를 구성해야 합니다.
@@ -23,9 +23,9 @@ NetApp Ransomware Resilience 사용자 동작 감지 기능은 사용자 수준�
 사용자 활동 에이전트, 데이터 수집기 및 사용자 디렉터리 커넥터는 모두 Ransomware Resilience 설정 대시보드에서 관리할 수 있습니다.
 
 
-NOTE: NetApp Data Infrastructure Insights(DII) Workload Security를 이미 사용 중인 경우 Ransomware Resilience에도 동일한 Workload Security 에이전트를 사용하는 것이 좋습니다. Ransomware Resilience를 위해 별도의 Workload Security 에이전트를 배포할 필요는 없지만, 동일한 Workload Security 에이전트를 사용하려면 Ransomware Resilience Console 조직과 DII Storage Workload Security 테넌트 간의 페어링 관계가 필요합니다. 이 페어링을 활성화하려면 담당 영업 담당자에게 문의하십시오.
+NOTE: 이미 NetApp Data Infrastructure Insights(DII) Workload Security를 사용 중인 경우, 동일한 Workload Security 에이전트를 NetApp Ransomware Resilience에도 사용할 수 있습니다. NetApp Ransomware Resilience를 위해 별도의 Workload Security 에이전트를 배포할 필요는 없습니다. 단, 동일한 Workload Security 에이전트를 사용하려면 NetApp Ransomware Resilience Console 조직과 DII Storage Workload Security 테넌트 간의 페어링 관계가 필요합니다. 이 페어링을 활성화하려면 담당 영업 담당자에게 문의하십시오.
 
-DII를 사용하지 _않는_ 경우 여기의 구성 지침을 따르십시오.
+DII를 사용하지 않는 경우, 여기의 구성 지침을 따르십시오.
 
 
 
@@ -44,7 +44,7 @@ DII를 사용하지 _않는_ 경우 여기의 구성 지침을 따르십시오.
 [[create-a-user-activity-agent]]
 == 사용자 활동 에이전트를 생성합니다
 
-사용자 활동 에이전트는 link:#add-a-data-collector["데이터 수집기"]에 대한 실행 가능한 환경이며, 데이터 수집기는 사용자 활동 이벤트를 Ransomware Resilience와 공유합니다. 사용자 활동 감지를 활성화하려면 최소 하나 이상의 사용자 활동 에이전트를 생성해야 합니다.
+사용자 활동 에이전트는 link:#add-a-data-collector["데이터 수집기"]와 함께 사용자 활동 이벤트를 Ransomware Resilience와 공유하는 실행 가능한 환경입니다. 사용자 활동 감지를 활성화하려면 최소 하나 이상의 사용자 활동 에이전트를 생성해야 합니다.
 
 .단계
 . 처음으로 사용자 활동 에이전트를 만드는 경우 **대시보드**로 이동하세요. **사용자 활동** 타일에서 **활성화**를 선택합니다.

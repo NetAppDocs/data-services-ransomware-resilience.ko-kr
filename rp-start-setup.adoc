@@ -12,7 +12,7 @@ summary: 랜섬웨어 복원력을 사용하려면 몇 가지 단계를 거쳐 �
 
 
 [role="lead"]
-NetApp Ransomware Resilience 쉽게 배포할 수 있습니다. 시작하기 전에 검토하세요link:rp-start-prerequisites.html["전제 조건"] 귀하의 환경이 준비되었는지 확인하세요.
+NetApp Ransomware Resilience를 설정하려면 백업 대상을 준비하고, 필수 조건을 검토하고, NetApp Console 및 Console 에이전트를 구성하십시오.
 
 
 
@@ -63,7 +63,7 @@ StorageGRID 백업 대상으로 사용하려면 다음을 참조하세요. https
 [[set-up-the-netapp-console]]
 == NetApp Console 설정
 
-다음 단계는 콘솔과 랜섬웨어 복원력을 설정하는 것입니다.
+다음 단계는 NetApp Console과 Ransomware Resilience를 설정하는 것입니다.
 
 검토 https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-standard-mode.html["표준 모드에 대한 콘솔 요구 사항"^] .
 
@@ -72,9 +72,9 @@ StorageGRID 백업 대상으로 사용하려면 다음을 참조하세요. https
 [[create-a-console-agent]]
 === 콘솔 에이전트 만들기
 
-이 서비스를 체험하거나 사용하려면 NetApp 영업 담당자에게 문의하세요.  그런 다음 콘솔 에이전트를 사용하면 랜섬웨어 복원력에 적합한 기능이 포함됩니다.
+이 서비스를 사용해 보거나 사용하려면 NetApp 영업 담당자에게 문의하십시오. 그러면 Console 에이전트에 Ransomware Resilience에 필요한 기능이 포함됩니다.
 
-Ransomware Resilience를 사용하여 콘솔 에이전트를 생성하려면 콘솔 에이전트를 생성할 권한이 있는 콘솔 조직 관리자에게 문의하고 해당 내용을 설명하는 설명서를 참조하십시오. https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["콘솔 에이전트를 만드는 방법"^] .
+Ransomware Resilience를 위한 Console 에이전트를 생성하려면 Console 에이전트 생성 권한이 있는 Console 조직 관리자에게 문의하고  https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["콘솔 에이전트를 만드는 방법"^]을 참조하십시오.
 
 
-NOTE: 콘솔 에이전트가 여러 개 있는 경우 랜섬웨어 복원력 검사 데이터는 현재 콘솔에 표시되는 에이전트를 제외한 모든 콘솔 에이전트에서 수집됩니다.  이 서비스는 이 조직과 관련된 모든 프로젝트와 모든 콘솔 에이전트를 검색합니다.
+NOTE: 콘솔 에이전트가 여러 개인 경우, NetApp Ransomware Resilience는 현재 콘솔에 표시된 에이전트뿐만 아니라 모든 콘솔 에이전트의 데이터를 검사합니다. 이 서비스는 조직과 연결된 모든 프로젝트 및 콘솔 에이전트의 데이터를 검사합니다.

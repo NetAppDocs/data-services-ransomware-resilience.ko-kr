@@ -11,7 +11,7 @@ summary: NetApp Ransomware Resilience에서 사용자 디렉터리 커넥터를 
 
 
 [role="lead"]
-NetApp Ransomware Resilience에서 사용자 행동 모니터링을 구성한 후에는 알림을 사용자 지정하고 차단된 사용자를 관리할 수 있습니다. 알림을 사용자 지정하면 특정 사용자 또는 파일 경로에 대한 알림 생성을 제외할 수 있습니다. 사용자 차단 기능은 랜섬웨어 공격에 대응하여 악의적인 사용자 활동을 방지하기 위한 것입니다.
+NetApp Ransomware Resilience에서 사용자 활동 감지를 구성한 후에는 차단된 사용자를 관리하고 알림을 사용자 지정할 수 있습니다. 특정 사용자 또는 파일 경로를 알림에서 제외할 수 있으며, 랜섬웨어 이벤트에 대응하여 사용자를 차단함으로써 악의적인 활동을 방지할 수 있습니다.
 
 사용자를 차단하려면 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#create-a-user-activity-agent["사용자 활동 에이전트를 구성하고, 사용자 활동 감지 기능을 포함하는 정책을 활성화하고, 사용자 디렉터리 커넥터를 생성했습니다."]이(가) 있어야 합니다.
 

@@ -12,7 +12,7 @@ summary: NetApp Ransomware Resilience 사용하면 보호, 알림, 복구에 대
 
 
 [role="lead"]
-NetApp Ransomware Resilience는 지원되는 볼륨과 지원되지 않는 볼륨, 공격 대비 훈련, 보호, 알림, 복구의 세부 정보를 보여주는 JSON 형식의 보고서를 제공하여 랜섬웨어 이벤트와 대비 상태를 오프라인에서 평가하고 검토할 수 있도록 합니다.
+NetApp Ransomware Resilience 보고서를 다운로드하여 지원되는 볼륨과 지원되지 않는 볼륨, 대비 훈련, 보호, 경고 및 복구 데이터를 오프라인에서 검토하십시오.
 
 
 TIP: 파일을 다운로드하기 전에 대시보드를 새로 고쳐 보고서에 최신 데이터가 반영되도록 하세요.
