@@ -2809,4 +2809,7 @@
   <block id="c0bdc8b4b8a3be2684cfe6108f6978ae" category="paragraph">NetApp Ransomware Resilience에서 사용자 활동 모니터링을 구성할 때 테스트 스크립트를 실행하여 의심스러운 사용자 행동 이벤트를 시뮬레이션하고 유효성을 검증 및 테스트할 수 있습니다.</block>
   <block id="c120d673c7fb209814b49c9420ea9cee" category="paragraph">NetApp Ransomware Resilience에서 사용자 활동 감지를 구성한 후에는 차단된 사용자를 관리하고 알림을 사용자 지정할 수 있습니다. 특정 사용자 또는 파일 경로를 알림에서 제외할 수 있으며, 랜섬웨어 이벤트에 대응하여 사용자를 차단함으로써 악의적인 활동을 방지할 수 있습니다.</block>
   <block id="89decfaa1b470ead2915f39754702fde" category="paragraph">NetApp Ransomware Resilience에서 사용자 활동 에이전트를 설치하거나 실행하는 데 문제가 있는 경우 다음 일반적인 시나리오 및 해결 방법을 참조하십시오.</block>
+  <block id="cb93ad4589e6e6834d2627d2ef8c8456" category="section-title">다중 관리자 검증</block>
+  <block id="c77edebaabc370e372cc7bd8a3946ec4" category="inline-link-macro">ONTAP의 다중 관리자 검증</block>
+  <block id="4fe568bb5fe11f3f2a80f6dbbcb77a58" category="paragraph">랜섬웨어 복원력 또는 NetApp Console에서는 다중 관리자 검증이 지원되지 않습니다. <block ref="67e9d4830abb18c6f9ecab2abb6d5c08" category="inline-link-macro-rx"></block>을(를) 구성한 경우, 랜섬웨어 복원력에서 일부 워크플로가 예상대로 작동하지 않을 수 있습니다.</block>
 </blocks>

@@ -68,3 +68,10 @@ SAN(블록 스토리지) 워크로드에는 다음과 같은 제한 사항이 �
 * 랜섬웨어 복원력이 SAN 워크로드에 대해 경고를 생성할 때, 이는 높은 엔트로피를 기준으로만 발생합니다.
 * SAN 워크로드는 link:task-custom-restore.html["사용자 지정 복원"]을 사용해서만 복원할 수 있습니다. 현재 SAN 워크로드에 대한 클린 복원은 지원되지 않습니다.
 
+
+
+
+[[multi-admin-verification]]
+== 다중 관리자 검증
+
+랜섬웨어 복원력 또는 NetApp Console에서는 다중 관리자 검증이 지원되지 않습니다. link:https://docs.netapp.com/us-en/ontap/multi-admin-verify/["ONTAP의 다중 관리자 검증"^]을(를) 구성한 경우, 랜섬웨어 복원력에서 일부 워크플로가 예상대로 작동하지 않을 수 있습니다.
