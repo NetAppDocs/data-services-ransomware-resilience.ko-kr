@@ -1579,7 +1579,6 @@
   <block id="1cb54935f05151077e45294fd0acda40" category="list-text"><block ref="1cb54935f05151077e45294fd0acda40" category="inline-link-macro-rx"></block></block>
   <block id="6a3ad50557786ed110b2cefa2a2be7bd" category="list-text">시스템을 선택하여 세부 정보를 확인하십시오.</block>
   <block id="6872a6ef5ae2db047b6effa74304d0af" category="list-text">해당 사용자의 기존 역할을 표시합니다.</block>
-  <block id="67c903793b6bf8b730fee76339b93672" category="list-text">탐지 설정으로 *의심스러운 사용자 행동 감지*를 선택한 경우 User activity agent 또는 <block ref="0fcb9e48262f104799fbf49d6c09d7d5" category="inline-link-macro-rx"></block>를 선택합니다.</block>
   <block id="a7045f65a60246a57662a00a9dc6dc73" category="inline-link-macro">운영 체제, 서버 및 네트워크 요구 사항</block>
   <block id="72ae3905ad051e75d558266df8b1e63a" category="list-text"><block ref="4535d4c19297d046165dc98674d914e8" category="inline-link-macro-rx"></block>을(를) 충족하는지 확인하십시오.</block>
   <block id="59ad45573dbf4296a202cefa7894c118" category="section-title">사용자 활동 에이전트를 생성합니다</block>
@@ -2569,8 +2568,6 @@
   <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">랜섬웨어 복원력은 이제 Microsoft Sentinel을 SIEM으로 연결하기 위한 Azure Resource Manager(ARM) 템플릿을 제공하여 배포를 더욱 간편하게 해주는 두 번째 방법을 제공합니다.</block>
   <block id="5b782deb754617d2be1da0beb60e5b16" category="inline-link-macro">위협 탐지 및 분석을 위해 SIEM에 연결</block>
   <block id="861174940ee146accf84fbe687b7ff1c" category="paragraph">자세한 내용은 <block ref="9ce2483ddf8d37cd167d593bafc6e6e7" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="ae00487184e64f3a5e5738cc82621c2c" category="list-text">Microsoft Sentinel*</block>
-  <block id="daea42ccacab5543f1ae62da54cc9877" category="paragraph">{asterisk} Ransomware Resilience는 Microsoft Sentinel용 Azure Resource Manager(ARM) 템플릿도 제공합니다.</block>
   <block id="59ad121b0ef1b561c2f96f9b5fbd50f8" category="doc">웹훅을 통해 SIEM 구성</block>
   <block id="43a14127ca7c560502e3232122f8748a" category="paragraph">Ransomware Resilience는 이제 Ransomware Resilience UI에서 웹훅을 통해 보안 정보 및 이벤트 관리(SIEM) 시스템을 구성할 수 있도록 지원합니다. 웹훅을 사용하면 선호하는 SIEM 시스템을 연동하여 랜섬웨어 모니터링을 체계적으로 관리할 수 있습니다.</block>
   <block id="777ce6dfcc1db686d2520e63a7141ce2" category="inline-link-macro">SIEM 시스템 구성</block>
@@ -2613,7 +2610,6 @@
   <block id="2c04ca6afac47fae351d7176c354ba9b" category="admonition">사용자 활동 에이전트는 NetApp Data Infrastructure Insights 기술을 사용하므로<block ref="08f7b82cf54cd7bdcab171ad9bd445cc" prefix=" " category="inline-code"></block> 엔드포인트를 사용합니다. 자세한 내용은 <block ref="12c485f306c08c5a6939aa54065b62ed" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="012f0abca78822d24d27455403c3d089" category="list-text">agentlogin.cs01-ap-1.cloudinsights.netapp.com</block>
   <block id="dcac1ae04e45c773239f95ecd0c5f082" category="cell">389(LDAP) 636 (LDAPS / start-tls)</block>
-  <block id="c44e1219325e37378db9611536ddafc3" category="cell">ONTAP에서 사용자 활동 에이전트로 Fpolicy 이벤트를 전송하기 위한 통신입니다. ONTAP가 사용자 활동 에이전트에 이벤트를 전송하려면 사용자 활동 에이전트 방향으로 다음 포트가 열려 있어야 합니다. 사용자 활동 에이전트 자체의 방화벽(있는 경우)도 포함됩니다. + **참고:** 이 포트를 *모두* 예약할 필요는 없지만, 예약하는 포트는 이 범위 내에 있어야 합니다. 처음에는 100개의 포트를 예약하고 필요에 따라 늘리는 것이 좋습니다.</block>
   <block id="752cfb7f100699ed10b934470fc8824c" category="doc">워크로드 및 시스템 유형에 따라 보호 그룹을 표준화합니다.</block>
   <block id="3a53d7e702e0596f76d0deb9f8cc03ea" category="paragraph">랜섬웨어 복원력 기능이 이제 보호 그룹에 하나의 워크로드 유형과 시스템 유형만 포함하도록 강제합니다. 새 보호 그룹을 생성할 때 워크로드 유형(파일 시스템 또는 블록)과 시스템을 모두 지정해야 합니다. 이 개선 사항을 통해 보호 그룹에 대해 선택한 랜섬웨어 보호 전략이 그룹 내 모든 워크로드에 성공적으로 적용될 수 있습니다.</block>
   <block id="372c0699ee751a2658f1b4a897349a47" category="paragraph">기존에 시스템 유형과 워크로드 유형이 혼합된 보호 그룹이 있는 경우 계속 사용할 수 있지만, 보호 그룹에 워크로드를 추가할 수는 없습니다.</block>
@@ -2812,4 +2808,40 @@
   <block id="cb93ad4589e6e6834d2627d2ef8c8456" category="section-title">다중 관리자 검증</block>
   <block id="c77edebaabc370e372cc7bd8a3946ec4" category="inline-link-macro">ONTAP의 다중 관리자 검증</block>
   <block id="4fe568bb5fe11f3f2a80f6dbbcb77a58" category="paragraph">랜섬웨어 복원력 또는 NetApp Console에서는 다중 관리자 검증이 지원되지 않습니다. <block ref="67e9d4830abb18c6f9ecab2abb6d5c08" category="inline-link-macro-rx"></block>을(를) 구성한 경우, 랜섬웨어 복원력에서 일부 워크플로가 예상대로 작동하지 않을 수 있습니다.</block>
+  <block id="aa1680de6fa426cea529c4dfecdc015e" category="doc">콘솔 에이전트를 통한 SIEM 이벤트 전달</block>
+  <block id="64cbd2542074b8251a3a9a4207763f2a" category="paragraph">랜섬웨어 복원력은 이제 NetApp Console을 통해 이벤트를 전달하는 기존 옵션 외에도 콘솔 에이전트를 통해 SIEM 이벤트를 전달하는 것을 지원합니다.</block>
+  <block id="bb6efadd7c4367d935879bb3d0cb1872" category="paragraph">콘솔 에이전트를 통해 SIEM 이벤트를 전달하면 네트워크 경계 내에서 SIEM 이벤트 전달을 유지할 수 있습니다. 이를 통해 엄격한 IP 주소 허용 목록이 있는 온프레미스 환경에 대한 배포가 간소화되고 기존 보안 제어와 더 잘 통합될 수 있습니다. 이 옵션을 사용하려면 콘솔 에이전트가 방화벽이나 프록시 제어를 통해 필요한 포트에서 SIEM 엔드포인트를 확인하고 연결할 수 있는지 확인하십시오.</block>
+  <block id="b5c84596d34fbfb280405940a634b156" category="cell">FPolicy 이벤트를 위한 ONTAP에서 사용자 활동 에이전트로의 통신입니다. ONTAP가 사용자 활동 에이전트에 이벤트를 전송하려면 사용자 활동 에이전트 방향으로 다음 포트들이 열려 있어야 합니다. 사용자 활동 에이전트 자체에 방화벽이 있는 경우에도 마찬가지입니다. + **참고:** 이 포트를 *모두* 예약할 필요는 없지만, 예약하는 포트는 반드시 이 범위 내에 있어야 합니다. 처음에는 100개의 포트를 예약하고 필요에 따라 늘리는 것이 좋습니다.</block>
+  <block id="49e0f8b47eab0f640ee82845d459cd21" category="list-text">*의심스러운 사용자 행동 감지*를 감지 설정으로 선택한 경우 사용자 활동 에이전트 또는 <block ref="0fcb9e48262f104799fbf49d6c09d7d5" category="inline-link-macro-rx"></block>을(를) 선택하십시오.</block>
+  <block id="08fa66584afbf1283c833b5a59619296" category="section-title">이벤트 전달 경로</block>
+  <block id="eb60dc6e31962c5336f25788a8e1f1f5" category="paragraph">랜섬웨어 복원력은 NetApp Console과 Console 에이전트를 통해 SIEM 이벤트를 전달하는 것을 지원합니다. 구성 중에 원하는 전달 경로를 선택할 수 있습니다.</block>
+  <block id="5e923011beb7826bf2187ff51e405217" category="paragraph">콘솔을 통한 전달 방식을 사용하면 이벤트가 콘솔에서 SIEM 엔드포인트로 직접 전송됩니다. SIEM 엔드포인트는 이벤트를 수신하려면 공용 인터넷에서 접근 가능해야 합니다.</block>
+  <block id="487502d64c87de0bf58cf8c8f21ee31e" category="paragraph">콘솔 에이전트를 통한 이벤트 전달의 경우, 이벤트는 네트워크 내에 있는 콘솔 에이전트를 통해 라우팅됩니다. 이 옵션은 엄격한 IP 주소 허용 목록이 있는 온프레미스 환경에 가장 적합하며, 인바운드 연결이 필요하지 않습니다. 콘솔 에이전트는 네트워크를 통해 SIEM 엔드포인트에 연결할 수 있어야 합니다. 즉, 엔드포인트 호스트 이름을 확인하고, 필요한 포트에 연결하고, 방화벽 또는 프록시 제어를 통과할 수 있어야 합니다.</block>
+  <block id="8386085def2fede12478cf5afdbee821" category="paragraph">콘솔 에이전트를 통한 이벤트 전달은 Google SecOps, Splunk 및 웹훅 기반 SIEM 구성에서 지원됩니다.</block>
+  <block id="d1b3fd776afd07332548e4d913309b68" category="list-text">다음을 선택합니다. <block ref="7c24413a9fb1121268fc7c0edd9d6982" category="inline-xref-macro-rx"></block>. SIEM 엔드포인트로 SIEM 이벤트를 전달하려면 **NetApp Console을 통해 전달**을 선택하십시오. 네트워크에 이미 설치된 Console 에이전트를 통해 이벤트를 라우팅하려면 **Console 에이전트를 통해 전달**을 선택하십시오.</block>
+  <block id="f95fb63626ed79b78f5d3a1ad9a62d64" category="paragraph">*콘솔 에이전트를 통해 전달*을 선택한 경우 드롭다운 메뉴에서 사용할 콘솔 에이전트를 선택하십시오.</block>
+  <block id="9752c650ea880ea8e1a024c804a5c14e" category="paragraph">Microsoft Sentinel SIEM의 경우, 사용자가 제공한 권한에 따라 Ransomware Resilience가 리소스를 배포하는 자동 배포 방식을 선택할 수 있습니다. 또는 제공된 ARM 템플릿을 기반으로 리소스를 배포하는 수동 배포 방식을 선택할 수도 있습니다.</block>
+  <block id="91a6bec146982c32e97bb762cd319c04" category="open-title">자동 배포</block>
+  <block id="158166321b0b3b2ffc06a280380a29e2" category="list-text">배포 방법으로 *자동*을 선택합니다.</block>
+  <block id="18e4d85c126b46658b30f374a3613db8" category="open-title">수동 배포</block>
+  <block id="52bc37cd407c4f3a7762592cf269346a" category="list-text">배포 방법으로 *수동*을 선택하십시오.</block>
+  <block id="5acac8850756ffd34bc3983aeb65394e" category="list-text">*ARM 템플릿 배포* 섹션을 펼칩니다.</block>
+  <block id="21f04d26e40277d66043b4ec676de8f0" category="list-text">모니터링 메트릭 게시자 역할을 할당합니다.</block>
+  <block id="03910ec5bc06c69d06b09a7d2ce91dd2" category="list-text">Azure 구독에서 *액세스 제어(IAM)*로 이동합니다.</block>
+  <block id="44cff8f384052e6f5b1f4fafc23ef4d5" category="list-text">*역할 할당 추가*를 선택합니다.</block>
+  <block id="e6ec36efa0bbdf10fd60a8a6852a644c" category="list-text">*모니터링 메트릭스 퍼블리셔*를 검색하여 선택합니다.</block>
+  <block id="73e02342b0fefad869141a2cc487f962" category="list-text">등록 단계에서 생성된 애플리케이션 등록의 서비스 주체에 역할 할당을 추가합니다.</block>
+  <block id="b0802f3f26bd5c4a23f49c39d352174a" category="list-text">*검토 후 배정*.</block>
+  <block id="6f1c2a09c472f2a1bfe8859795a99f57" category="list-text">랜섬웨어 복원력 UI로 돌아갑니다. ARM 템플릿의 JSON을 복사하여 Azure 환경에 Log Analytics 사용자 지정 테이블, 데이터 수집 엔드포인트(DCE), 데이터 수집 규칙(DCR) 및 Sentinel 분석 규칙을 생성합니다.</block>
+  <block id="a7656865ad634af8f75799041e4e11e9" category="list-text">Azure 포털에서 *사용자 지정 템플릿 배포*를 검색합니다.</block>
+  <block id="c5fc6c378447cbf81248f4df4fa19d5c" category="list-text">편집기에서 *나만의 템플릿 만들기*를 선택합니다.</block>
+  <block id="0e50b795f9b35da566dbb3463a0e930d" category="list-text">복사한 JSON을 편집기에 붙여넣습니다. *저장*을 선택합니다.</block>
+  <block id="512403a60546e796987c3af08cfbd513" category="list-text">Log Analytics 작업 영역의 이름인 *작업 영역 이름*을 입력하세요. 이 이름은 Azure 포털의 작업 영역 개요 페이지에서 확인할 수 있습니다.</block>
+  <block id="038a50e17d148f59cac701ab03d6d0ea" category="list-text">* 검토 + 생성*을 선택합니다. 선택 사항을 검토한 다음 *생성*을 클릭하여 배포합니다.</block>
+  <block id="a8ef5813cf743d24398f43c7163807f7" category="list-text">배포 후, Ransomware Resilience 인증을 위해 다음 정보를 수집하십시오.</block>
+  <block id="c99d0a8dcbcd4fa540ecde6fbbf6341c" category="list-text">*Log Ingestion Endpoint*: 데이터 수집 엔드포인트 리소스를 열고(<block ref="a32cb302e889e4d4ed48e3100cf9e4a6" prefix="(" category="inline-code"></block>) 개요 페이지에 표시된 로그 수집 값을 복사합니다.</block>
+  <block id="a9a44bec09a56231aababf62f1d0a543" category="list-text">*DCR Immutable ID*: 데이터 수집 규칙 리소스를 열고(<block ref="9d7e8a93c4309a2f6e9e1c88f401edc8" prefix="(" category="inline-code"></block>) 개요 페이지에서 Immutable ID를 복사합니다.</block>
+  <block id="31181df1565380de486e372742d4ec62" category="list-text">이전에 복사한 *로그 수집 엔드포인트*와 *DCR 변경 불가능 ID*를 입력하십시오.</block>
+  <block id="38ed29f4cd44c37378781f175f5b1752" category="list-text">연결을 생성하려면 *연결*을 선택합니다.</block>
+  <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">2026년 8월 25일</block>
 </blocks>
