@@ -89,7 +89,7 @@ Ransomware Resilience에서 AWS Security Hub를 활성화하기 전에 AWS Secur
 . *정책*을 선택하세요.
 . 다음 코드를 JSON 형식으로 사용하여 정책을 만듭니다.
 +
-[listing]
+[source, json]
 ----
 {
   "Version": "2012-10-17",
@@ -113,9 +113,6 @@ Ransomware Resilience에서 AWS Security Hub를 활성화하기 전에 AWS Secur
 
 .Ransomware Resilience에서 AWS Security Hub 인증
 . Ransomware Resilience에서 사이드바의 *설정*을 선택하세요.
-+
-image:screen-settings2.png["설정 페이지"]
-
 . 설정 페이지에서 SIEM 연결 타일의 *연결*을 선택한 다음 드롭다운 메뉴에서 *AWS Security Hub*를 선택합니다.
 +
 image:screen-settings-threat-detection-3options.png["위협 탐지 세부 정보 페이지 활성화"]
@@ -162,9 +159,6 @@ NETAPP_RANSOMWARE_RESILIENCE 로그 유형을 사용하는 것이 좋습니다. 
 
 .Ransomware Resilience에서 Google SecOps 인증
 . Ransomware Resilience에서 사이드바의 *설정*을 선택하세요.
-+
-image:screen-settings2.png["설정 페이지"]
-
 . 설정 페이지에서 SIEM 연결 타일의 *연결*을 선택한 다음 드롭다운 메뉴에서 *Google SecOps*를 선택합니다.
 +
 image:screen-settings-threat-detection-3options.png["위협 탐지 세부 정보 페이지 활성화"]
@@ -212,7 +206,7 @@ Ransomware Resilience에서 Microsoft Sentinel을 활성화하기 전에 Microso
 . 사용자 지정 역할 이름을 입력하세요.  *랜섬웨어 복원력 센티넬 구성기*라는 이름을 사용하세요.
 . 다음 JSON을 복사하여 *JSON* 탭에 붙여넣습니다.
 +
-[listing]
+[source, json]
 ----
 {
   "roleName": "Ransomware Resilience Sentinel Configurator",
@@ -335,7 +329,7 @@ image:screen-settings-threat-detection-3options.png["위협 탐지 세부 정보
 .. *검토 후 배정*.
 
 
-. 랜섬웨어 복원력 UI로 돌아갑니다. ARM 템플릿의 JSON을 복사하여 Azure 환경에 Log Analytics 사용자 지정 테이블, 데이터 수집 엔드포인트(DCE), 데이터 수집 규칙(DCR) 및 Sentinel 분석 규칙을 생성합니다.
+. 랜섬웨어 복원력으로 돌아가십시오. ARM 템플릿의 JSON을 복사하여 Azure 환경에 Log Analytics 사용자 지정 테이블, 데이터 수집 엔드포인트(DCE), 데이터 수집 규칙(DCR) 및 Sentinel 분석 규칙을 생성하십시오.
 . Azure 포털에서 *사용자 지정 템플릿 배포*를 검색합니다.
 . 편집기에서 *나만의 템플릿 만들기*를 선택합니다.
 . 복사한 JSON을 편집기에 붙여넣습니다. *저장*을 선택합니다.
@@ -393,9 +387,6 @@ NOTE: Splunk Enterprise의 경우, Ransomware Resilience가 제공된 HTTP 이�
 
 .Splunk를 NetApp Ransomware Resilience로 인증
 . Ransomware Resilience에서 사이드바의 *설정*을 선택하세요.
-+
-image:screen-settings2.png["설정 페이지"]
-
 . 설정 페이지에서 SIEM 연결 타일의 *연결*을 선택합니다.
 +
 image:screen-settings-threat-detection-3options.png["위협 탐지 세부 정보 페이지 활성화"]
