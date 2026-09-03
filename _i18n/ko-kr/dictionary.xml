@@ -523,7 +523,6 @@
   <block id="2711b34ed6f854164ab28f6ba7d757fc" category="list-text">콘솔이 워크로드를 검색한 후 랜섬웨어 복원력 대시보드에 워크로드 데이터 보호 상태가 표시됩니다.</block>
   <block id="1de66de0484295c7b0e311cd3746dab8" category="inline-image-macro">대시보드 페이지</block>
   <block id="1541b6face8479b500e3accafb066eee" category="paragraph"><block ref="1541b6face8479b500e3accafb066eee" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5cf652b0493bef09f6f5bcbd5925413f" category="list-text">*워크로드 데이터 보호*: *모두 보기*를 선택하면 보호 페이지에서 위험에 처해 있거나 보호되는 모든 워크로드를 볼 수 있습니다.  보호 수준이 보호 정책과 일치하지 않으면 작업 부하가 위험에 처하게 됩니다. <block ref="2b2daeeb32402291362fa9fa843a5c7e" category="inline-link-macro-rx"></block> .</block>
   <block id="7946ca9134fecb1e363f88a194b4e259" category="inline-link-macro">감지된 경고에 대응</block>
   <block id="3e68731452668c74a209b358c132dbaa" category="list-text">*알림 및 워크로드 데이터 복구*: 워크로드에 영향을 준 활성 인시던트, 인시던트가 무력화된 후 복구 준비가 된 인시던트 또는 복구 중인 인시던트를 보려면 *모두 보기*를 선택하세요. <block ref="a57b82018dcad508c33f5a5c54351028" category="inline-link-macro-rx"></block> .</block>
   <block id="8cdbaff59230fdce1ca498813a54b0c1" category="list-text">사건은 다음 상태 중 하나로 분류됩니다.</block>
@@ -1840,7 +1839,6 @@
   <block id="450000aaa83625b4284af1b1791c4576" category="list-text"><block ref="450000aaa83625b4284af1b1791c4576" category="inline-link-macro-rx"></block></block>
   <block id="462a6e98fbd2a13cda63645b676477e3" category="section-title">2026년 3월 12일</block>
   <block id="cb4ae29d8762239c8dfdfc76bdb65d37" category="paragraph">Ransomware Resilience는 이제 <block ref="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="inline-link-macro-rx"></block> 및 <block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block>에 대한 보안 오케스트레이션, 자동화 및 대응(SOAR) 플레이북을 제공합니다. 이 플레이북을 통해 위협 대응 관리가 더욱 쉬워지고, 작업 테스트를 자동화하며 스냅샷 생성 및 볼륨 오프라인 전환을 포함한 필수 랜섬웨어 대응 작업을 자동화합니다.</block>
-  <block id="7a62bbe1752bad34a2882c1488855472" category="paragraph">워크로드가 보호됨으로 분류되면 구매한 용량 또는 종량제 구독에 포함됩니다. Ransomware Resilience는 하나 이상의 스냅샷 또는 백업 정책과 함께 탐지 정책이 활성화된 경우 워크로드를 보호됨으로 분류합니다. 탐지 정책은 있지만 백업 또는 스냅샷 정책이 _없는_ 워크로드는 위험으로 분류됩니다. 위험 워크로드는 구매한 용량에 포함되지 않습니다.</block>
   <block id="0a444369e66f3a256a69eec8c1934071" category="paragraph">크기를 고려할 때 라이센스 비용은 액티브 파일 시스템의 논리적 용량을 기준으로 합니다(즉, 스냅샷이 사용하는 공간은 포함되지 않음).</block>
   <block id="ed300adca180c1e33d800707367434a6" category="doc">Google SecOps용 SOAR 플레이북</block>
   <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
@@ -2364,16 +2362,12 @@
   <block id="262d414194517bdfa67b048201f2b424" category="paragraph">탐지 정책에는 세 가지 옵션 모두 또는 조합을 포함할 수 있습니다. 암호화 탐지 또는 <block ref="0c1271458a5eed3dcf0b345a743161db" category="inline-link-macro-rx"></block>를 포함해야 합니다.</block>
   <block id="38cfc49361136d6f7410fbe2c3b7430a" category="list-text">*보호 변경*: 특정 기간(30일, 60일, 90일 또는 1년) 동안 워크로드에 대한 보호 전략 변경 사항을 검토합니다.</block>
   <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">2026년 6월 8일</block>
-  <block id="8301d3df17a7d3b229e97daa256bc551" category="paragraph">Ransomware Resilience에서 워크로드는 _탐지_ 정책이 활성화된 경우 *보호됨* 상태로 표시됩니다. 탐지 정책은 암호화 탐지 또는 의심스러운 사용자 행동 탐지(또는 둘 다)로 구성되어야 합니다. 의심스러운 파일 확장자 탐지도 포함할 수 있습니다. 자세한 내용은 <block ref="ffe6233ab872c39a610f87efd1e90b37" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="6c6097f9e44fb30ef0bc0a6e210dce9b" category="paragraph">워크로드에 탐지 정책이 활성화되어 있지 않으면 백업 및 스냅샷 정책이 활성화되어 있더라도 "위험"으로 표시됩니다. 랜섬웨어 보호를 위해서는 <block ref="ffe6233ab872c39a610f87efd1e90b37" category="inline-link-macro-rx"></block>을(를) 활성화해야 합니다.</block>
   <block id="fec111d809c49ffc75c21732e808fe2d" category="admonition">경고를 무시하면 Ransomware Resilience는 이러한 동작을 학습하여 정상적인 작업으로 간주하고 유사한 이벤트에 대한 경고 전송을 중지합니다.</block>
   <block id="7f2998da36c9b089182a98b4c6ff6c5d" category="admonition">기존 보호 전략에서 특정 탐지 유형을 비활성화하면 이전 정책 버전에서 생성된 모든 경고는 "Resolved"로만 표시할 수 있으며 "Dismissed"로는 표시할 수 없습니다. 예를 들어 암호화 탐지 및 의심스러운 사용자 행동 탐지를 포함하는 보호 전략에 대해 활성 경고가 있었지만 암호화 탐지를 비활성화한 경우 해당 경고는 "Resolved"로만 표시할 수 있습니다.</block>
   <block id="5e37428a91a220042e4764361ae6e656" category="list-text">*암호화 탐지*: Ransomware Resilience를 활성화하여 암호화 기반 공격을 탐지하십시오.</block>
   <block id="83b90da4f4a4213417bbdd607b6813c9" category="list-text">*의심스러운 사용자 행동 감지*: 사용자 행동 감지를 활성화하여 사용자 활동 이벤트를 Ransomware Resilience로 전송하고 데이터 유출 또는 데이터 파괴와 같은 의심스러운 이벤트를 감지합니다.</block>
   <block id="8d9e80b9523ae8e43c09fee979fbfe13" category="list-text">*파일 확장자 차단*: 알려진 의심스러운 파일 확장자를 차단하려면 Ransomware Resilience를 활성화하십시오.</block>
   <block id="87c5b70bcda4f0448400bb7245e5d975" category="admonition">탐지 정책은 원하는 대로 조합하여 선택할 수 있습니다. 탐지 정책에는 암호화 탐지 또는 의심스러운 사용자 행동 탐지 중 하나가 반드시 포함되어야 합니다.</block>
-  <block id="18282a82722e35ec83f6634f6933e908" category="list-text">*보호됨*: 탐지 정책이 적용됩니다.</block>
-  <block id="689a050b69b980dbe9c67ea9fdaeb981" category="list-text">*위험*: 정책이 적용되지 않음. 워크로드에 탐지 정책이 활성화되어 있지 않으면 스냅샷 및 백업 정책이 활성화되어 있더라도 "위험" 상태로 간주됩니다.</block>
   <block id="1c2f725024e8db3f57c9ffb6c1869a4f" category="list-text">*진행 중*: 정책이 적용 중이지만 작업이 완료되지 않았습니다.</block>
   <block id="7f2fe4ecc84891950d87f953f70363aa" category="list-text">*실패*: 정책이 구성되었지만 오류가 발생했습니다.</block>
   <block id="ed3c60417302240ba271d87f011c0f32" category="paragraph">Ransomware Resilience에서 AWS Security Hub를 활성화하기 전에 AWS Security Hub에서 보안 구성을 수행해야 합니다.</block>
@@ -2844,4 +2838,12 @@
   <block id="38ed29f4cd44c37378781f175f5b1752" category="list-text">연결을 생성하려면 *연결*을 선택합니다.</block>
   <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">2026년 8월 25일</block>
   <block id="bb23df37e6fe74c9adce400b2dce40db" category="list-text">랜섬웨어 복원력으로 돌아가십시오. ARM 템플릿의 JSON을 복사하여 Azure 환경에 Log Analytics 사용자 지정 테이블, 데이터 수집 엔드포인트(DCE), 데이터 수집 규칙(DCR) 및 Sentinel 분석 규칙을 생성하십시오.</block>
+  <block id="625e7b50d0584bc4bde48651c8cfc7ee" category="paragraph">워크로드가 보호됨으로 분류되면 구매한 용량 또는 종량제 구독에 포함됩니다.  Ransomware Resilience는 암호화 또는 사용자 활동 감지 정책이 활성화된 경우 워크로드를 보호됨으로 분류합니다.  이러한 감지 정책 중 하나라도 없으면 워크로드는 위험으로 분류됩니다.  위험 워크로드는 구매한 용량에 포함되지 않습니다.</block>
+  <block id="f6a2fb2a5374a593874b657ed729f82b" category="paragraph">Ransomware Resilience에서 워크로드는 _탐지_ 정책이 활성화된 경우 *보호됨* 상태로 표시됩니다. 탐지 정책은 암호화 탐지 또는 의심스러운 사용자 행동 탐지(또는 둘 다)로 구성되어야 합니다. 자세한 내용은 <block ref="ffe6233ab872c39a610f87efd1e90b37" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="2850e23cea54ee88036b5a17e51dc5dd" category="paragraph">워크로드가 보호된 것으로 간주되려면 암호화 탐지 또는 사용자 행동 탐지가 활성화된 랜섬웨어 보호 정책이 있어야 합니다.  이러한 탐지 전략 중 하나라도 없으면 워크로드는 위험군으로 분류됩니다.  워크로드에 백업 또는 스냅샷 정책이 있지만 암호화 탐지 또는 사용자 행동 탐지가 활성화되어 있지 않은 경우에도 위험군으로 간주됩니다.</block>
+  <block id="6320d906c420ff6393e8f0fd47eaf876" category="paragraph">랜섬웨어 복원력은 의심스러운 파일 확장자 탐지 기능도 제공합니다. 의심스러운 파일 확장자 탐지가 유일하게 활성화된 탐지 정책인 경우, 해당 워크로드는 위험군으로 분류됩니다.</block>
+  <block id="eca582e2a6a980264db3e5c92d632da6" category="paragraph">랜섬웨어 보호를 위해서는 <block ref="ffe6233ab872c39a610f87efd1e90b37" category="inline-link-macro-rx"></block>을(를) 활성화해야 합니다.</block>
+  <block id="15970e7cc58cf4e7b2b7962f63826587" category="list-text">*워크로드 데이터 보호*: 보호 페이지에서 위험에 처해 있거나 보호되는 모든 워크로드를 보려면 *모두 보기*를 선택하십시오. 암호화 감지 또는 사용자 활동 감지가 없는 경우 해당 워크로드는 위험에 처한 것으로 간주됩니다. 자세한 내용은 <block ref="2b2daeeb32402291362fa9fa843a5c7e" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="345292bfa93053446c9594b577a0b1d6" category="list-text">*보호됨*: 암호화 또는 사용자 활동 감지 정책이 활성화되었습니다.</block>
+  <block id="79563997a2b58683d0d7ab2eb9e9f1fb" category="list-text">*위험*: 워크로드에 암호화 감지 또는 사용자 활동 감지가 활성화된 보호 정책이 없는 경우 위험으로 분류됩니다. 워크로드에 스냅샷 및 백업 보호와 파일 확장자 차단 기능이 있더라도 암호화 감지 또는 사용자 행동 감지가 활성화되어 있지 않으면 위험으로 간주됩니다.</block>
 </blocks>
