@@ -1839,7 +1839,6 @@
   <block id="450000aaa83625b4284af1b1791c4576" category="list-text"><block ref="450000aaa83625b4284af1b1791c4576" category="inline-link-macro-rx"></block></block>
   <block id="462a6e98fbd2a13cda63645b676477e3" category="section-title">2026년 3월 12일</block>
   <block id="cb4ae29d8762239c8dfdfc76bdb65d37" category="paragraph">Ransomware Resilience는 이제 <block ref="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="inline-link-macro-rx"></block> 및 <block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block>에 대한 보안 오케스트레이션, 자동화 및 대응(SOAR) 플레이북을 제공합니다. 이 플레이북을 통해 위협 대응 관리가 더욱 쉬워지고, 작업 테스트를 자동화하며 스냅샷 생성 및 볼륨 오프라인 전환을 포함한 필수 랜섬웨어 대응 작업을 자동화합니다.</block>
-  <block id="0a444369e66f3a256a69eec8c1934071" category="paragraph">크기를 고려할 때 라이센스 비용은 액티브 파일 시스템의 논리적 용량을 기준으로 합니다(즉, 스냅샷이 사용하는 공간은 포함되지 않음).</block>
   <block id="ed300adca180c1e33d800707367434a6" category="doc">Google SecOps용 SOAR 플레이북</block>
   <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
   <block id="d942356c034f7ad3c314a5fae7d11e1d" category="list-text"><block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block></block>
@@ -2846,4 +2845,5 @@
   <block id="15970e7cc58cf4e7b2b7962f63826587" category="list-text">*워크로드 데이터 보호*: 보호 페이지에서 위험에 처해 있거나 보호되는 모든 워크로드를 보려면 *모두 보기*를 선택하십시오. 암호화 감지 또는 사용자 활동 감지가 없는 경우 해당 워크로드는 위험에 처한 것으로 간주됩니다. 자세한 내용은 <block ref="2b2daeeb32402291362fa9fa843a5c7e" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="345292bfa93053446c9594b577a0b1d6" category="list-text">*보호됨*: 암호화 또는 사용자 활동 감지 정책이 활성화되었습니다.</block>
   <block id="79563997a2b58683d0d7ab2eb9e9f1fb" category="list-text">*위험*: 워크로드에 암호화 감지 또는 사용자 활동 감지가 활성화된 보호 정책이 없는 경우 위험으로 분류됩니다. 워크로드에 스냅샷 및 백업 보호와 파일 확장자 차단 기능이 있더라도 암호화 감지 또는 사용자 행동 감지가 활성화되어 있지 않으면 위험으로 간주됩니다.</block>
+  <block id="cfd46dfb75021812402788d3b95a0a9d" category="paragraph">규모 산정 시 라이선스 비용은 데이터가 핫 스토리지 또는 콜드 스토리지 계층에 있는지 여부와 관계없이 액티브 파일 시스템의 논리적 용량을 기준으로 합니다. 스냅샷이 콜드 스토리지 계층에 저장되더라도 스냅샷에 사용되는 공간은 이 계산에 포함되지 않습니다.</block>
 </blocks>
