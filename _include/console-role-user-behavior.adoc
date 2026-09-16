@@ -2,4 +2,4 @@
 :allow-uri-read: 
 
 
-*필수 콘솔 역할* 이 작업을 수행하려면 랜섬웨어 복원력 사용자 동작 관리자 역할이 필요합니다. 랜섬웨어 복원력 관리자 역할로는 이 작업을 수행할 수 없습니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^] .
+*필수 콘솔 역할* 이 작업을 수행하려면 Ransomware Resilience 사용자 동작 관리자 역할이 필요합니다.  link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-platform-roles.html#super-admin-roles["최고 관리자"^] 또는 Ransomware Resilience 관리자 역할로는 이 작업을 수행할 수 없습니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^].

@@ -1,0 +1,21 @@
+= 깔끔한 복원을 위한 지원 강화
+:allow-uri-read: 
+
+
+
+
+[[enhanced-support-for-clean-restores]]
+=== 깔끔한 복원을 위한 지원 강화
+
+이제 의심스러운 사용자 동작 및 사용자 기반 암호화 공격 후 복구를 위한 클린 복원 기능을 사용할 수 있습니다. 이 기능은 기존의 암호화(엔트로피) 기반 공격 지원에 추가됩니다. 향상된 기능을 통해 클린 복원의 안내형 접근 방식을 활용하여 데이터 손실을 최소화하고 복구 속도를 높이는 최적의 복원 지점을 찾을 수 있습니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["정상적인 복원을 위해 격리된 복구 환경을 구축합니다."^]을 참조하십시오.
+
+
+
+[[san-support-for-google-cloud-netapp-volumes]]
+=== Google Cloud NetApp Volumes에 대한 SAN 지원
+
+Ransomware Resilience이 이제 Google Cloud NetApp Volumes의 SAN 워크로드를 지원하여 SAN 워크로드에 대한 암호화 기반 랜섬웨어 공격을 탐지할 수 있습니다. Google Cloud NetApp Volumes의 SAN 지원이 이제 정식으로 제공됩니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html#supported-systems["지원되는 시스템"^] 및 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-limitations.html["랜섬웨어 방어력 강화를 위한 SAN 스토리지"^]을 참조하십시오.

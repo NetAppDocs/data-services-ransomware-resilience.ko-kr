@@ -30,7 +30,12 @@ NetApp Ransomware Resilience에 대해 평가판, PAYGO 및 BYOL 라이선스 �
 
 BYOL을 설정하거나 PAYGO 구독을 구매한 후 콘솔의 Licenses and subscriptions 섹션에서 라이선스를 확인할 수 있습니다.
 
-무료 평가판이 종료되거나 라이선스 또는 구독이 만료된 후에도 다음을 수행할 수 있습니다.
+
+
+[[expired-licenses]]
+=== 만료된 라이선스
+
+무료 평가판 기간이 종료되거나 라이선스 또는 구독이 만료된 후에도, 제외하지 않는 한 워크로드는 Ransomware Resilience에 계속 표시됩니다. 라이선스 또는 평가판이 만료된 경우 다음과 같은 작업을 수행할 수 있습니다.
 
 * 워크로드 및 워크로드 상태 보기
 * 정책 등의 리소스 삭제

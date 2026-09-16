@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-automate-user-activity.html 
-keywords: data breach detection, data breach, user activity, automated response 
+keywords: data breach detection, data breach, user activity, automated response, block user, automate, ransomware response 
 summary: NetApp Ransomware Resilience는 사용자 활동 이벤트에 대한 자동 대응 생성을 지원하여 스냅샷을 자동으로 생성하거나 사용자를 차단할 수 있도록 합니다. 
 ---
 = NetApp Ransomware Resilience에서 사용자 활동 알림에 대한 대응 자동화
@@ -12,9 +12,16 @@ summary: NetApp Ransomware Resilience는 사용자 활동 이벤트에 대한 �
 
 
 [role="lead"]
-NetApp Ransomware Resilience를 사용하면 link:concept-user-behavior.html["사용자 활동 이벤트"]에 대한 대응을 자동화할 수 있습니다. 자동화된 대응 기능을 통해 Ransomware Resilience는 공격이나 경고가 감지되면 스냅샷을 생성하거나 사용자를 차단하여 랜섬웨어 이벤트에 더욱 신속하게 대응할 수 있도록 지원합니다.
+NetApp Ransomware Resilience를 사용하면 link:concept-user-behavior.html["사용자 활동 이벤트"]에 대한 대응을 자동화할 수 있습니다. 사용자 활동 경고가 발생하면 Ransomware Resilience는 다음과 같은 작업을 수행할 수 있습니다.
+
+* 사용자 차단
+* 스냅샷 생성
+
 
 암호화(사용자 행동), 데이터 유출 및 데이터 삭제 이벤트에 대한 자동 대응이 지원됩니다. 자동 대응을 생성하기 전에 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#create-a-user-activity-agent["사용자 활동 에이전트를 구성하고, 사용자 활동 감지 기능을 포함하는 정책을 활성화하고, 사용자 디렉터리 커넥터를 생성했습니다."]이(가) 있어야 합니다. 자동 대응이 트리거되면 Ransomware Resilience에서 이메일 알림을 보냅니다.
+
+
+NOTE: 의심스러운 사용자 행동으로 인해 경고가 발생한 경우 스냅샷만 생성할 수 있습니다. 의심스러운 사용자 행동에 대한 자동 대응으로 사용자 차단은 제공되지 않습니다.
 
 
 
@@ -22,9 +29,6 @@ NetApp Ransomware Resilience를 사용하면 link:concept-user-behavior.html["�
 == 자동 응답 생성
 
 의심스러운 사용자 행동 감지 정책으로 보호되는 워크로드가 하나 이상 있는 스토리지 VM은 하나만 보호할 수 있습니다.
-
-
-NOTE: 의심스러운 사용자 행동에 대한 자동 대응으로는 스냅샷만 생성할 수 있습니다. 사용자 차단은 의심스러운 사용자 행동에 대한 자동 대응으로 지원되지 않습니다.
 
 .단계
 . 랜섬웨어 복원력에서 **설정**을 선택하세요.
@@ -84,3 +88,10 @@ NOTE: 의심스러운 사용자 행동에 대한 자동 대응으로는 스냅�
 . 경고 심각도를 제외한 모든 설정을 수정할 수 있습니다.
 . 변경 사항을 저장하려면 **저장**을 선택하세요.
 
+
+
+
+[[next-steps]]
+== 다음 단계
+
+link:task-users-manage.html["차단된 사용자 관리"]
