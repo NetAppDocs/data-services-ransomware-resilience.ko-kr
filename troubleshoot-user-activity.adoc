@@ -43,7 +43,7 @@ NetApp Ransomware Resilience에서 사용자 활동 에이전트를 설치하거
 | cloudsecure-agent-symptom-collector.sh 스크립트가 "ERROR: Failed to create /tmp/cloudsecure-agent-symptoms.zip" 오류와 함께 실패합니다. | 명령어를 사용하여 zip 툴을 설치한 후 `yum install zip` 다시  `cloudsecure-agent-symptom-collector.sh` 실행하십시오. 
 
 
-| 사용자 활동 에이전트 설치가 "useradd: cannot create directory /home/cssys."라는 오류와 함께 실패합니다. | 권한 오류로 인해 사용자의 로그인 디렉토리를 /home 디렉토리 아래에 생성할 수 없습니다. cssys 사용자를 생성하고 명령 `sudo useradd <user_name> -m -d HOME_DIR`을 사용하여 로그인 디렉토리를 수동으로 추가하십시오. 이 명령에서  `-m`은(는) 홈 디렉토리가 없는 경우 생성하고,  `-d`은(는) HOME_DIR을 로그인 디렉토리로 지정합니다. 
+| 사용자 활동 에이전트 설치가 "useradd: cannot create directory /home/cssys."라는 오류와 함께 실패합니다. | 권한 오류로 인해 사용자의 로그인 디렉토리를 /home 디렉토리 아래에 생성할 수 없습니다. cssys 사용자를 생성하고 명령 `sudo useradd <user_name> -m -d HOME_DIR`을 사용하여 로그인 디렉토리를 수동으로 추가하십시오. 이 명령에서 `-m`는 홈 디렉토리가 없는 경우 생성하고, `-d`는 HOME_DIR을 로그인 디렉토리로 지정합니다. 
 |===
 
 
