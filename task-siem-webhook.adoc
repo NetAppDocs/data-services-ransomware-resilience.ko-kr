@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: task-siem-webhook.html 
+keywords: ransomware protection, SIEM, security event management system, orchestration, event management, webhook, third-party siem, other siem, palo alto, crowdstrike, ibm 
+summary: 웹훅을 사용하여 원하는 SIEM 시스템을 구성함으로써 NetApp Ransomware Resilience에서 위협 분석 및 이벤트 관리를 간소화하십시오. 
+---
+= 웹훅을 사용하여 NetApp Ransomware Resilience에서 SIEM 구성
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Ransomware Resilience는 다양한 보안 정보 및 이벤트 관리(SIEM) 시스템을 기본적으로 지원합니다. 선택한 SIEM 시스템을 사용할 수 없는 경우 웹훅을 사용하여 다른 SIEM 시스템을 이벤트 관리용으로 구성할 수 있습니다.
+
+
+
+[[before-you-begin]]
+== 시작하기 전에
+
+Ransomware Resilience와 SIEM 연결을 생성하기 전에 먼저 SIEM을 해당 플랫폼에서 구성해야 합니다. SIEM 구성이 완료되면 Ransomware Resilience에서 해당 SIEM을 인증할 수 있습니다.
+
+
+
+[[authenticate-a-siem-in-ransomware-resilience-via-webhook]]
+== 웹훅을 통해 Ransomware Resilience에서 SIEM 인증
+
+. Ransomware Resilience에서 *설정*을 선택합니다.
+. SIEM을 처음 구성하는 경우 *SIEM* 타일에서 *연결*을 선택한 다음 *Webhooks*를 선택합니다. 그렇지 않은 경우 *관리*를 선택합니다. 개요 페이지에서 *+ Connect*를 선택한 다음 *Webhook*을 선택합니다.
+. SIEM 제품의 *이름*과 연결에 사용할 *URL*을 제공하십시오. 인코딩된 URL은 사용할 수 없습니다.
+. "키: 값" 형식으로 *사용자 지정 헤더*를 입력하십시오. 각 키-값 쌍은 별도의 줄에 입력해야 합니다.
+. JSON 형식의 *메시지* 템플릿을 검토합니다.
++
+추가 매개변수를 추가하려면 입력 필드 옆의 목록에서 매개변수를 복사한 다음 메시지의 해당 부분에 붙여넣으세요. 사용자 지정 매개변수도 추가할 수 있습니다. 사용자 지정 매개변수에서 *추가*를 선택한 다음 *이름*, *값*, *설명*을 입력하세요. 입력한 매개변수를 복사하여 메시지 필드에 붙여넣으세요.
+
++
+image:siem-webhook.png["SIEM 웹훅 구성의 스크린샷."]
+
+. link:task-siem.html#event-delivery-route["이벤트 전달 경로"]을 선택합니다. SIEM 엔드포인트로 SIEM 이벤트를 전달하려면 *NetApp Console을 통해 전달*을 선택합니다. 네트워크에 이미 설치된 Console 에이전트를 통해 이벤트를 라우팅하려면 *Console 에이전트를 통해 전달*을 선택합니다.
++
+*콘솔 에이전트를 통해 전달*을 선택한 경우 드롭다운 메뉴에서 사용할 콘솔 에이전트를 선택하십시오.
+
+. 선택적으로 *테스트 메시지 보내기*를 선택하여 연결 상태를 테스트할 수 있습니다.
+. Ransomware Resilience에 연결하려면 *연결*을 선택하십시오.
+
+
+
+NOTE: SIEM 구성을 생성한 후에는 편집할 수 있습니다. 이름 필드를 제외한 모든 필드를 편집할 수 있습니다.
+
+
+
+[[next-steps]]
+== 다음 단계
+
+* link:reference-soar.html["SOAR 플레이북 통합"]
+

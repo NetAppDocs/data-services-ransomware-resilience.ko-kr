@@ -53,7 +53,6 @@ summary: 몇 단계만으로 NetApp Ransomware Resilience를 시작하십시오.
 
 * 선택적으로 백업 대상을 구성합니다.
 +
-** link:rp-start-setup.html["NetApp StorageGRID, Amazon Web Services, Google Cloud Platform 또는 Microsoft Azure를 백업 대상으로 준비합니다."] .
 ** link:rp-start-setup.html["백업 대상 구성"]
 
 
