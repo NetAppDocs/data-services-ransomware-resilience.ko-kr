@@ -45,6 +45,7 @@ Azure NetApp Files에는 다음과 같은 제한 사항이 적용됩니다.
 * 보호 전략을 선택할 때는 스냅샷 일정이 Azure NetApp Files와 호환되는지 확인하십시오. Azure NetApp Files에서 사용할 수 있는 가장 빈번한 스냅샷 일정은 시간 단위입니다.
 * Azure NetApp Files API가 자동화된 작업을 차단하므로 Azure NetApp Files와 함께 link:reference-soar.html["SOAR 플레이북"]를 사용하지 않는 것이 좋습니다.
 * Azure NetApp Files 구성에는 link:task-siem.html["SIEM 보고서"]에 일부 이벤트 데이터가 포함되지 않습니다.
+* Azure NetApp Files에 대해 link:task-custom-restore.html["워크로드 복원"]할 때는 파일 수준 복원을 사용할 수 없습니다.
 
 
 

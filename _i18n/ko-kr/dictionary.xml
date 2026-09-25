@@ -2870,4 +2870,7 @@
   <block id="b4432b2cbe32a1565ba15c5575ec34aa" category="sidebar">AWS Security Hub 구성</block>
   <block id="ece99177ef46def4743253388748336e" category="sidebar">Microsoft Sentinel 구성</block>
   <block id="373bd242e28dd9ed5ab41176e809e7db" category="sidebar">Splunk Cloud 및 Enterprise 구성</block>
+  <block id="e9cbe0aaa0ffb3834bf6a16e6c4f6881" category="inline-link-macro">워크로드 복원</block>
+  <block id="1b4c5e5585c892abb8e8dd8b4b4145d8" category="list-text">Azure NetApp Files에 대해 <block ref="825823111b1491b7b84194a9322124b7" category="inline-link-macro-rx"></block>할 때는 파일 수준 복원을 사용할 수 없습니다.</block>
+  <block id="be477216a2a05782605c951939d5638a" category="section-title">Azure에서 역할을 추가하고 랜섬웨어 복원력에서 Microsoft Sentinel을 인증합니다.</block>
 </blocks>
