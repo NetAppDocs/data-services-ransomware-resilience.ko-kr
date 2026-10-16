@@ -22,9 +22,6 @@ NetApp Ransomware Resilience 사용자 행동 탐지 기능을 사용하여 랜�
 
 사용자 활동 에이전트, 데이터 수집기 및 사용자 디렉터리 커넥터는 모두 Ransomware Resilience 설정 대시보드에서 관리할 수 있습니다.
 
-
-NOTE: 이미 NetApp Data Infrastructure Insights(DII) Workload Security를 사용 중인 경우, 동일한 Workload Security 에이전트를 NetApp Ransomware Resilience에도 사용할 수 있습니다. NetApp Ransomware Resilience를 위해 별도의 Workload Security 에이전트를 배포할 필요는 없습니다. 단, 동일한 Workload Security 에이전트를 사용하려면 NetApp Ransomware Resilience Console 조직과 DII Storage Workload Security 테넌트 간의 페어링 관계가 필요합니다. 이 페어링을 활성화하려면 담당 영업 담당자에게 문의하십시오.
-
 DII를 사용하지 않는 경우, 여기의 구성 지침을 따르십시오.
 
 
@@ -38,6 +35,13 @@ DII를 사용하지 않는 경우, 여기의 구성 지침을 따르십시오.
 *필수 Console 역할* 사용자 행동 감지를 활성화하려면 **조직 관리자 역할**이 필요합니다. 이후 사용자 행동 감지 구성을 위해서는 **NetApp Ransomware Resilience 사용자 행동 관리자 역할**이 필요합니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Console 의 랜섬웨어 복원력 역할에 대해 알아보세요"^].
 
 각 역할이 조직 수준에서 적용되도록 하십시오.
+
+
+
+[[considerations-for-data-infrastructure-insights-dii-workload-security-users]]
+=== Data Infrastructure Insights(DII) Workload Security 사용자를 위한 고려 사항
+
+이미 NetApp Data Infrastructure Insights(DII) Workload Security를 사용 중인 경우, 동일한 Workload Security 에이전트를 NetApp Ransomware Resilience에도 사용할 수 있습니다. NetApp Ransomware Resilience를 위해 별도의 Workload Security 에이전트를 배포할 필요는 없습니다. 단, 동일한 Workload Security 에이전트를 사용하려면 NetApp Ransomware Resilience Console 조직과 DII Storage Workload Security 테넌트 간의 페어링 관계가 필요합니다. 이 페어링을 활성화하려면 담당 영업 담당자에게 문의하십시오.
 
 
 

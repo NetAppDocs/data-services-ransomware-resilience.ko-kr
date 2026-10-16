@@ -1170,7 +1170,6 @@
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">자주 묻는 질문</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식과 지원</block>
   <block id="51fecb5d19a6637dea83445678fd4ffa" category="section-title">데이터 백업</block>
-  <block id="4fa0264ac4080dbcb96449b3dd2eff57" category="paragraph">랜섬웨어 복원력 라이선스에는 추가 NetApp 제품이 포함되지 않습니다. 하지만 Ransomware Resilience는 NetApp Backup and Recovery 와 통합될 수 있습니다.</block>
   <block id="6ff0e20f052119502398978ae7712412" category="paragraph">자세한 내용은 각 단계의 링크를 참조하세요.</block>
   <block id="220434cdb736458843fe145fbd4b9ca9" category="inline-link-macro">콘솔 에이전트를 설치했는지 확인하세요.</block>
   <block id="ff6929fd02a6e7a1c0faa4152fe13ffe" category="list-text"><block ref="ff6929fd02a6e7a1c0faa4152fe13ffe" category="inline-link-macro-rx"></block></block>
@@ -1340,7 +1339,6 @@
   <block id="5c024c0f8096e0fba857f661afe2dbd0" category="list-text">유럽(프랑크푸르트)(eu-central-1)</block>
   <block id="d605e764d56b8615ebf6dd5f87998855" category="list-text">미국 동부(버지니아 북부)(us-east-1)</block>
   <block id="a55a22032fc9fd630abe933324e9d4b9" category="paragraph-title">Ransomware Resilience는 ONTAP 의 보호 설정을 인식합니까?</block>
-  <block id="1c8f51534c2fc10dfef26d32d61c7ed3" category="paragraph">라이선스 및 청구의 경우, Ransomware Resilience는 백업 및 복구에 대한 별도 라이선스가 없더라도 백업 및 복구와 통합될 수 있습니다. 백업 및 복구와 랜섬웨어 복원력을 모두 사용하는 경우, 두 제품으로 보호되는 공통 데이터는 랜섬웨어 복원력에 의해서만 청구됩니다.</block>
   <block id="6b62768f3f94df043ea31bf9c43b2a42" category="paragraph">랜섬웨어 복원력은 다음과 같은 작업 부하를 식별할 수 있습니다: Oracle, 파일 공유, 블록 스토리지, VM 및 VM 데이터 저장소.</block>
   <block id="897c29783a147c6c7b7844f2d4a9e81a" category="paragraph">미리보기 버전의 경우, 이 서비스는 BlueXP 조직 전체에서 온프레미스 NAS 스토리지의 Oracle, VM 데이터 저장소 및 파일 공유의 애플리케이션 기반 워크로드와 AWS의 Cloud Volumes ONTAP (NFS 프로토콜 사용)을 개별적으로 보호하고 Amazon Web Services 클라우드 스토리지에 데이터를 백업합니다.</block>
   <block id="f075180c986e3a7a8e0bad4fcec7c485" category="cell">15.3(64비트) ~ 15.6(64비트)</block>
@@ -1728,7 +1726,6 @@
   <block id="b720eb62a1de68d6cb9c9dbea3c63907" category="list-text">RPO 정책을 충족하기 위해 맞춤형 복구 기능을 적용합니다. 랜섬웨어 복원력은 NetApp Backup and Recovery를 통해 랜섬웨어 공격으로부터의 복구를 체계적으로 관리합니다.</block>
   <block id="5d81d4b181b1f6e47c262988038cd67d" category="paragraph">랜섬웨어 복원력은 현재 백업 보호, 스냅샷 복사본 및 NetApp 자율형 랜섬웨어 보호 옵션을 점검합니다. 랜섬웨어 복원력은 또한 파일 공유 및 VM 파일 공유에 대한 NetApp Backup and Recovery의 보호 정보를 감지합니다. 그런 다음 랜섬웨어 보호를 개선할 수 있는 방법을 권장합니다.</block>
   <block id="c048f8419f5606e294e716a232b223a2" category="paragraph-title">랜섬웨어 복원력은 NetApp Backup and Recovery와 어떻게 연동됩니까?</block>
-  <block id="eadde9be35eb975c3bbd5558937ea6ce" category="paragraph">Ransomware Resilience는 Backup and Recovery와 연동하여 파일 공유 워크로드에 대한 스냅샷 및 백업 정책을 검색하고 설정합니다. 또한 Ransomware Resilience는 Backup and Recovery와 연동하여 파일 및 워크로드 일관성을 유지하는 복구를 수행합니다.</block>
   <block id="79b8a65e3601fc128a20382435361146" category="paragraph-title">Ransomware Resilience는 Backup and Recovery에 이미 설정된 정책을 인식하고 있습니까?</block>
   <block id="f88bf8ade397c623545ba47ce5394409" category="paragraph-title">NetApp Backup and Recovery에서 이전된 정책을 수정할 수 있습니까?</block>
   <block id="dd9161665fa6e8f8df843bd9c2b959be" category="paragraph">아니요, Ransomware Resilience에서 Backup and Recovery로 관리되는 정책은 수정할 수 없습니다. 해당 정책에 대한 모든 변경 사항은 Backup and Recovery에서 관리해야 합니다.</block>
@@ -2877,4 +2874,11 @@
   <block id="33770507195ff31d97a8192589460055" category="paragraph">랜섬웨어 복원력은 ONTAP의 기존 탐지 정책(ARP, FPolicy 설정)을 수정하지 않습니다. 랜섬웨어 복원력에서 설정을 수정하면 ONTAP 설정을 재정의할 수 있습니다.</block>
   <block id="73f9341af639bb7291bbf568f90c32a7" category="list-text">콘솔 에이전트당 워크로드 제한은 3,000개입니다. 이 제한을 연장해 달라는 요청을 제출할 수 있습니다.</block>
   <block id="450c303d7338ae99abb9140e57f1802f" category="paragraph">콘솔 에이전트를 배포하고 권한을 할당하려면 _Super admin_ 또는 _Organization admin_ 역할이 필요합니다.</block>
+  <block id="8c6998a19384eedc205556ec1d5a77b6" category="paragraph-title">랜섬웨어 복원력 라이선스에 추가 NetApp 제품이 포함되어 있습니까?</block>
+  <block id="46b0217d78ea89c9c081b6abcf978050" category="paragraph">아니요, 랜섬웨어 복원력 라이선스에는 추가 NetApp 제품이 포함되지 않습니다.</block>
+  <block id="2017d158145a1f82958e603226f6511f" category="paragraph">활성 Backup and Recovery 라이선스와 Ransomware Resilience가 있는 경우, Ransomware Resilience는 Backup and Recovery에 설정된 스냅샷 및 백업 정책을 검색합니다. Ransomware Resilience에서는 Backup and Recovery 정책을 편집할 수 없지만, 교체할 수는 있습니다.</block>
+  <block id="e7a03cecb86b19d317d9b0b42a7c67fc" category="paragraph">Ransomware Resilience는 Backup and Recovery와 연동하여 파일 및 워크로드 일관성을 유지하는 복구를 수행합니다. Ransomware Resilience와 Backup and Recovery 모두에서 검색 및 보호되는 워크로드의 경우, 두 서비스 중 하나를 사용하여 복구를 수행할 수 있습니다.</block>
+  <block id="a8e75ad6008293b62f2f0e9d9831a35d" category="paragraph-title">Data Infrastructure Insights Workload Security를 통해 사용자 활동 감지를 이전에 활성화한 경우 알아야 할 사항은 무엇입니까?</block>
+  <block id="1d1aa737543f7a38b5529fc14884bb9a" category="paragraph">랜섬웨어 복원력 라이선스에는 추가 NetApp 제품이 포함되지 않습니다.</block>
+  <block id="806ec63eaaf32091114d52559b568902" category="section-title">Data Infrastructure Insights(DII) Workload Security 사용자를 위한 고려 사항</block>
 </blocks>
