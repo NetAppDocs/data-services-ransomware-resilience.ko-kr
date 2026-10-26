@@ -1869,17 +1869,14 @@
   <block id="d08d6f8d7a531831181b973c3132aaef" category="paragraph">NetApp Ransomware Resilience는 랜섬웨어 공격 후 단계적인 복구를 지원하는 클린 복원 기능을 제공합니다. 클린 복원을 수행하려면 먼저 온프레미스 또는 지원되는 클라우드 환경에서 격리된 복구 환경(IRE)을 생성해야 합니다. IRE에서는 Ransomware Resilience가 워크로드를 격리하여 어떤 파일이 정상이고 어떤 파일이 랜섬웨어의 영향을 받았는지 식별하는 클린룸을 생성합니다.</block>
   <block id="f6ee05d779160a7db74d926e2bb640f7" category="section-title">클린 복원에 대해 알아보십시오</block>
   <block id="3f2567a86f8c54d04ec6273cdb7e3a90" category="list-text">**설정**: 클린 복원을 수행하려면 먼저 IRE를 생성한 다음 복원할 워크로드를 선택해야 합니다. Ransomware Resilience는 워크로드에 대한 모든 작업이 수행되는 클린룸을 생성합니다.</block>
-  <block id="c3763704f64261ad7b74c0b6ece3a5e7" category="list-text">**분석**: 클린룸에서 Ransomware Resilience는 모든 스냅샷을 분석하여 암호화가 있는지 확인합니다. 클린 복원은 복구 맵을 결정하여 최적의 복구 계획을 결정합니다.</block>
   <block id="5cdee73c83008a843d9dbb0a991b8307" category="paragraph">영향을 받은 파일이 없는 복원 지점이 발견되면 그 이전의 모든 복원 지점은 건너뜁니다. 예를 들어, 랜섬웨어 이벤트가 10월 10일에 발생했고 10월 7일 오전 10시 21분에 영향을 받은 파일이 없는 복원 지점이 발견되었다면, 10월 7일 오전 10시 21분 이전의 모든 복원 지점은 건너뜁니다.</block>
   <block id="82e75ee1827478564b33a5410c9eb863" category="paragraph">분석 단계에서는 검토된 파일 수와 영향을 받은 파일 및 영향을 받지 않은 파일을 표시합니다.</block>
   <block id="3ad61c0b3a3d27855f2b93882effa895" category="list-text">**PLAN**: 제공된 복구 옵션 중에서 선택하세요.</block>
-  <block id="bcec21f7634632270763ec4fbec096be" category="paragraph">계획 단계에서 파일 기록을 확인하여 랜섬웨어 이벤트가 파일에 영향을 미친 시점과 복구 시점이 해당 이벤트와 시간상 어떻게 연관되는지 확인할 수도 있습니다.</block>
   <block id="d4b88ae7112ba206532c2177bf4d3ee7" category="list-text">**정리**: Ransomware Resilience는 복구 지점에서 악성코드를 제거합니다. 정리할 수 없는 파일이 있는 경우 복구에서 제외되어 별도의 위치로 격리됩니다.</block>
   <block id="df2aee92cf409d5307ab1b2587c12b51" category="list-text">**복원**: Ransomware Resilience는 깨끗한 데이터를 소스 환경으로 복원합니다.</block>
   <block id="1f0b82560627b660c6c6958a1df834b8" category="section-title">지원되는 구성</block>
   <block id="01c81fea09d285ebadc2362452091509" category="list-text">Ransomware Resilience 계정당 하나의 IRE만 생성할 수 있습니다. 각 IRE에는 3개의 클린 룸이 있을 수 있습니다.</block>
   <block id="582cfdbdcce499f277827ab3d0e7be89" category="list-text">현재 클린 복원은 NAS 파일 공유(NFS/CIFS)에서만 지원됩니다.</block>
-  <block id="9c69ad94c9075f0b7cad75c76d595107" category="list-text">소스 환경으로 클린 복원을 수행해야 합니다.</block>
   <block id="3f1675c8b59091961a73a7cb3f4ccc76" category="list-text">IRE는 클라우드 또는 온프레미스 환경에서 생성할 수 있습니다. 현재 지원되는 구성은 다음과 같습니다.</block>
   <block id="9937b29fcbc513990ee3a11d520463ec" category="cell">대상(IRE)</block>
   <block id="936e18cf7bf36043950dc2aaedf4d3e0" category="cell">지원되는 대상 지역</block>
@@ -1897,7 +1894,6 @@
   <block id="fc9897437d0058f47163b41933bf7218" category="list-text">동일한 보안 식별자(SID)를 사용하면 인증 및 보안 충돌이 발생합니다.</block>
   <block id="b8a224e639154658d903c119ad01f115" category="list-text">동일한 컴퓨터 이름(CN)을 사용하면 네트워크 충돌이 발생합니다.</block>
   <block id="42d5a005352158447d080ff821694db4" category="list-text">동일한 시스템 ID를 사용하면 라이선스 및 활성화 문제가 발생합니다.</block>
-  <block id="2b973fe4e18c7b4ee211cfe2a2373d41" category="paragraph">이러한 충돌을 방지하기 위해 Ransomware Resilience는 클론 VM에서 sysprep을 실행하여 SID, CN 및 머신 ID를 재설정합니다. 이러한 값을 재설정하면 클론 VM이 소스 VM에 영향을 주지 않고 고유하고 독립적인 인스턴스로 작동할 수 있습니다.</block>
   <block id="c94b2ef9dde0531d36cb0d4e5d7b4b72" category="section-title">2차 소스</block>
   <block id="4a03772068b579d9b09ff0433b7acadd" category="paragraph">기본적으로 클린 복원 프로세스는 소스 환경의 스냅샷을 분석합니다. 소스 환경을 사용할 수 없거나 소스에 암호화되지 않은 스냅샷이 없는 경우, 2차 시스템을 구성한 경우 클린 복원은 2차 시스템의 스냅샷을 분석합니다.</block>
   <block id="bf6aff190124dd12362477474eddaf9b" category="paragraph">클린 복원은 Ransomware Resilience의 일부로 제공됩니다. 클린 복원을 수행하거나 IRE를 생성하는 데 추가 라이센스가 필요하지 않습니다.</block>
@@ -1906,25 +1902,17 @@
   <block id="b8e0a8b93f5e303e66c1913fea32d6c2" category="list-text">AWS에 IRE가 배포된 후 클린 복원을 시작하면 암호화 및 맬웨어 제거를 위해 IRE 내 클린룸에 2개의 t3.medium AWS EC2 인스턴스가 배포됩니다.</block>
   <block id="c21b1c1f109ee448ac505029595363ff" category="list-text">Cloud Volumes ONTAP에서 클린 복원은 메타데이터 볼륨과 분석을 위한 스냅샷 클론에 대해 클린룸 스토리지 VM을 생성합니다.</block>
   <block id="794fbe3384113d14f1fdcd8989bf96c9" category="paragraph">선택한 클린 복원 배포 유형에 필요한 사전 요구 사항을 모두 완료했는지 확인하십시오. 선택한 IRE 구성에 대한 탭을 선택합니다.</block>
-  <block id="97b3465a0840a995756be84349359712" category="admonition">IRE를 생성할 때 IRE 생성 시 시스템 선택 단계에서 분석에 사용할 모든 시스템(운영 또는 2차 시스템)을 추가해야 합니다.</block>
   <block id="f936c9befadd0c2d8782d30172d6b01c" category="open-title">클라우드 간</block>
   <block id="a398547216c8a6f879cf6f1f9ece192b" category="paragraph">이 다이어그램은 클라우드 간 클린 복원 구성의 예를 보여줍니다. IRE를 생성하기 전에 다이어그램과 구성해야 할 리소스를 검토하십시오.</block>
   <block id="e4c9c1fbddfacd425e4392d01cc2e86d" category="image-alt">클라우드 간 클린 복원 다이어그램</block>
-  <block id="ab667ad4c2c05508cbadf5243680d8f5" category="paragraph">이 다이어그램은 온프레미스에서 클라우드로의 클린 복원 구성의 예를 보여줍니다. IRE를 생성하기 전에 다이어그램과 구성해야 할 리소스를 검토하십시오.</block>
-  <block id="e2089e21752dabbd3ef51ff9a49553db" category="inline-image-macro">클라우드에서 온프레미스로의 클린 복원 다이어그램</block>
-  <block id="e625cf867c975ae8e97fac00f8ea41e7" category="paragraph"><block ref="e625cf867c975ae8e97fac00f8ea41e7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="57983f59ac18dd6402d0d93159c0e4f3" category="paragraph">이 다이어그램은 온프레미스에서 온프레미스로의 클린 복원 구성의 예를 보여줍니다. IRE를 생성하기 전에 다이어그램과 구성해야 할 리소스를 검토하십시오.</block>
-  <block id="4d3cce2603ee3aa9f3e68180c988fecb" category="paragraph"><block ref="4d3cce2603ee3aa9f3e68180c988fecb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1bd140cbc0c8258678984fa95a11c4e7" category="list-text">워크로드 복원을 위해 IRE에 연결할 각 시스템에 스토리지 가상 머신(SVM)이 생성됩니다. 클린룸 SVM의 데이터 LIF로 사용되는 각 시스템에 대해 전용 IP 주소를 제공해야 합니다.</block>
   <block id="dddae7341366d21d7817814cf5648201" category="list-title">호스트 및 vCenter</block>
   <block id="4c83fbda122cce9ae58d211347f6ad57" category="list-text">vCenter는 버전 7.0 이상이어야 하며 최소 하나 이상의 데이터 센터가 있어야 합니다.</block>
-  <block id="de09cac8955fbf4a538227b1a500f1ea" category="list-text">ESXi 호스트는 ESXi 버전 7.0 이상이어야 하며, VM을 복제하는 데 필요한 충분한 CPU 및 메모리 리소스를 갖춘 호스트가 하나 이상 있어야 합니다.</block>
   <block id="d60d7d94a2b0fa737cc49124079ae916" category="list-text">제공된 vCenter 자격 증명에는 리소스를 검색하고 VM을 복제할 수 있는 권한이 있어야 합니다.</block>
   <block id="583b10215b97e432386097ad4ec74fba" category="list-title">기본 VM(Windows 또는 Linux)</block>
-  <block id="8e43f7e3e1b14cfafc8b3e06e57ce8f7" category="list-text">클린 복원 과정에서 기본 VM은 선택한 데이터센터로 복제되어 선택한 ESXi 컴퓨팅 영역에 배치되고, 지정된 데이터스토어에 매핑되며, 지정된 네트워크에 연결됩니다. VM이 복제될 때 2개의 vCPU와 4GB RAM(Linux 또는 Windows VM의 경우) 및 기본 VM과 동일한 디스크 공간을 갖도록 구성됩니다. 각 클린 복원 세션은 지정된 CIDR 범위에서 두 개의 IP 주소를 사용합니다.</block>
   <block id="8cf10fd69a4fd984472b32ac076fd294" category="list-text">여러 개의 병렬 클린룸 세션을 수용할 수 있도록 충분한 IP 주소 범위를 제공해야 합니다. IP 주소는 복구가 완료된 후 해제됩니다.</block>
   <block id="5de22c7c2e6d79be9397c6ce6e52329d" category="list-text">데이터 저장소에는 VM 복제를 수용할 수 있는 충분한 여유 용량이 있어야 합니다.</block>
-  <block id="f57c45eba65afff0aceb3a08fcbcb844" category="list-text">IP 주소 범위는 CIDR 형식(예: 100.100.0.0/24)으로 지정해야 합니다.</block>
   <block id="907c95835e464d0d2873ade7ea1a6aa0" category="list-text">Linux VM의 경우:</block>
   <block id="544db10e10ef5df6ce60a5904860672f" category="list-text">운영 체제는 Ubuntu Linux 20.04 이상이어야 합니다.</block>
   <block id="406c1681779df816214c3844edb2bea6" category="list-text">온프레미스 시스템의 전원이 켜져 있어야 합니다.</block>
@@ -1933,12 +1921,7 @@
   <block id="e1be34a58f3251e0469bedfad3e4788d" category="list-text">nfs-common을 설치해야 합니다.</block>
   <block id="66ed64c9284af661b30715d4eca9f181" category="list-text">최소 40GB의 여유 공간이 필요합니다.</block>
   <block id="300cc7d3b66cf666cb37df412b0cc68b" category="list-text">Windows VM의 경우:</block>
-  <block id="21755314d24463f2d188ab45bb05c0c0" category="list-text">Windows VM에는 20GB의 여유 공간이 있어야 합니다.</block>
-  <block id="90d564042949a5f93242647a2eebfa5a" category="list-text">OS는 Windows Server 2022 또는 2025여야 합니다.</block>
-  <block id="f4202e7e0c5094531b708b50600cc832" category="list-text">VMware Tools가 설치되어 실행 중이어야 합니다.</block>
   <block id="09b7c2aa37556075a97e0692779f37aa" category="list-text">WinRM을 활성화해야 합니다.</block>
-  <block id="3150667c3111f1fed62e5265ad610aa2" category="list-text">IP를 구성해야 합니다.</block>
-  <block id="8521641d0ead625e5ab746c26c3df774" category="list-text">기본 VM을 복제할 수 있는 적절한 라이선스가 있는지 확인하십시오.</block>
   <block id="b69e202d94775b8134a93d5f20d13c9e" category="list-text">VM의 전원이 켜져 있어야 합니다.</block>
   <block id="eec89088ee408b80387155272b113256" category="list-title">네트워크</block>
   <block id="5d1a1ff59e66d0bc9d1daac52f5b90db" category="list-text">다음 액세스 권한으로 VLAN 리소스를 구성합니다.</block>
@@ -1953,10 +1936,7 @@
   <block id="c0d06f34f409c88591b7f6400fe18f79" category="list-title">전용 Console 에이전트</block>
   <block id="7ceddaa8655f37336fb68de0bd913377" category="inline-link-macro">Console 에이전트를 온프레미스에 배포합니다.</block>
   <block id="aa147883aef6768d6c780bb0a1c8f82b" category="list-text">IRE용 전용 NetApp Console 에이전트를 배포하십시오. Console 에이전트는 클린룸 VLAN에 액세스할 수 있는 대상 vCenter에 배포되어야 합니다. 배포 프로세스에 대한 자세한 내용은 <block ref="8982c6b7b71ee0cfe0da7587be46f6b1" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
-  <block id="fcbb0e1baa9ae5913c0059a3babc98ba" category="paragraph">클린 복원을 수행하기 전에 격리된 복구 환경을 생성해야 합니다.</block>
-  <block id="90f9f1ae9aae8bda3367df6cbbd98883" category="paragraph">클라우드 환경인지 온프레미스 환경인지에 따라 격리된 복구실을 생성하는 프로세스가 다릅니다. 올바른 위치에 맞는 지침을 따르십시오.</block>
   <block id="c8e2277ecfb1427838c488c217f99466" category="open-title">클라우드</block>
-  <block id="be33043acadffab164c32971cd856af7" category="inline-image-macro">시스템 선택 인터페이스의 스크린샷.</block>
   <block id="c2b8af5a06c2ce8a91c4861ae659df43" category="inline-image-macro">IRE 인증 설정의 스크린샷.</block>
   <block id="f0e69ccbb7ad96f546f7924206944bfa" category="open-title">온프레미스</block>
   <block id="9f1d53078d7f9d9907fb2e5042915794" category="list-text">Clean restores 카드에서 처음 환경을 생성하는 경우 **Add**를 선택하고 이미 환경을 생성한 경우 **Manage**를 선택합니다.</block>
@@ -1988,7 +1968,6 @@
   <block id="8a6858555f085685f5bb427c4dbd4219" category="paragraph">Ransomware Resilience는 추가를 선택한 후 연결을 테스트하며, 몇 분 정도 걸릴 수 있습니다. IRE의 상태가 "deployed"로 표시되면 성공적으로 배포된 것입니다.</block>
   <block id="72fe6d9d17dfd2ab74965b68d4ad7d09" category="list-text">VM을 배포할 *데이터센터*와 *클러스터*를 선택하십시오.</block>
   <block id="3e00060a376e7413a4ebadfd06157d94" category="list-text">ESXi 호스트에 사용할 *데이터 저장소*와 *네트워크*를 선택하십시오.</block>
-  <block id="30329b19b858d26d073ea4ab5feeed6f" category="list-text">VM의 *IP 주소 범위*를 CIDR 형식(예: 10.0.0.1/24), *서브넷 마스크* 및 *게이트웨이*로 입력합니다.</block>
   <block id="1a65a52eeaaaf2a882bf42fa7b872483" category="list-text">Ransomware Resilience가 랜섬웨어를 검사하는 데 사용하는 Linux VM의 경우, 드롭다운 메뉴에서 해당 VM을 선택한 다음 VM의 *사용자 이름*과 *암호*를 입력하십시오.</block>
   <block id="3c4a04ceaab48b61f17ab0bd613644c0" category="list-text">스캔에 사용되는 Windows VM의 경우 드롭다운 메뉴에서 VM을 선택한 다음 VM의 *사용자 이름* 및 *암호*를 입력합니다.</block>
   <block id="13291e241521a2260f7ae5746544e195" category="list-text">IRE를 생성하려면 **추가**를 선택하십시오. 추가를 선택하면 Ransomware Resilience가 연결을 테스트합니다. 이 과정은 몇 분 정도 소요될 수 있습니다. IRE의 상태가 "deployed"로 표시되면 배포가 성공적으로 완료된 것입니다.</block>
@@ -2135,7 +2114,6 @@
   <block id="0d82e39ef01b66f1049f774775f69a57" category="inline-image-macro">대체 복구 대상의 스크린샷</block>
   <block id="84c03f1b38aa942e542555e111083674" category="paragraph"><block ref="84c03f1b38aa942e542555e111083674" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f5cfed6a695ca584c4de91e043cec8df" category="list-text">리소스를 해제하고 클린룸을 닫으려면 **Release resources and exit**를 선택하십시오. 확인하려면 **End**를 선택하십시오.</block>
-  <block id="ee9eb963788511d80fc2e4d572229dfc" category="paragraph">기본 소스를 사용할 수 없고 2차 소스를 구성한 경우, 클린 복원은 2차 소스로 복원됩니다.</block>
   <block id="1ed548d363a0d2a6ce0c5db113b94db8" category="paragraph">IRE를 생성할 때 보조 소스를 추가하는 옵션이 있습니다.</block>
   <block id="61fcfe4267994f7a09ac2c0eac28d82e" category="admonition">단일 Console 조직에 여러 Console 에이전트가 있는 경우, Ransomware Resilience는 Console UI에서 현재 선택된 에이전트를 넘어 모든 Console 에이전트의 ONTAP 리소스를 검사합니다.</block>
   <block id="8c2c19111935f9243c0b70cc9147c7f6" category="list-text">ONTAP 또는 Cloud Volumes ONTAP 클러스터의 경우, 랜섬웨어 복원력을 사용하려면 ONTAP 버전 9.11.1 이상이 필요합니다.</block>
@@ -2872,24 +2850,47 @@
   <block id="70f3cf57a8612bb7c7ed814b764ffe7b" category="paragraph">Google Cloud NetApp Volumes의 Flex 서비스 레벨에 대한 랜섬웨어 복원력 지원이 이제 정식 출시(GA)되었습니다.</block>
   <block id="eee605177fdd37df13557f2e5a708a3e" category="list-text">클라우드 기반 IRE를 사용하려면 위치로 **Amazon Web Services**를 선택하십시오.</block>
   <block id="4310001295e1d1db81585fc985cdb925" category="list-text">환경의 **이름**을 입력하세요.</block>
-  <block id="58f6785310712567477337dc13a12c26" category="list-text">*시스템* 섹션을 확장합니다. IRE에 연결할 시스템을 선택합니다. 선택한 각 시스템에 대해. 각 시스템은 IRE에 네트워크로 연결되어 있어야 합니다. 클린 복원 복구 지점을 설정하려면 각 시스템에 데이터 LIF IP 주소를 제공해야 할 수도 있습니다.</block>
   <block id="770bb8eb8b16b38f394137430a939c09" category="list-text">Amazon FSx for NetApp ONTAP 외에 추가한 각 시스템에 대해 *스토리지 VM 편집*을 선택합니다. 팝업 창에서 *스토리지 VM IP 주소*와 *스토리지 VM 서브넷 마스크*를 입력합니다. *브로드캐스트 도메인*은 기본값 또는 관리로 선택합니다. 필요에 따라 *스토리지 VM 게이트웨이*를 입력할 수 있습니다.</block>
   <block id="b437d56d52049ed55249efaeb9aff257" category="list-text">*인증* 섹션에서 클라우드 **계정** ID를 입력하고 드롭다운 메뉴에서 해당 계정의 **지역**을 선택하십시오. 지원되는 지역에서만 IRE를 배포할 수 있습니다.</block>
   <block id="f1bf93d681f0d253588359efb73f2e2d" category="admonition">해당 계정은 Ransomware Resilience가 콘솔 에이전트를 배포하고 온디맨드 클린룸을 생성할 수 있도록 필요한 권한을 가지고 있어야 합니다.</block>
   <block id="266bb5e81c63787b058d80199faaa22e" category="list-text">*Amazon VPC* 섹션을 확장합니다. IRE를 배포할 가상 프라이빗 클라우드 ID를 입력합니다. (이는 사전 요구 사항에서 설정한 VPC입니다.)</block>
   <block id="cd40948356df51e6137e1790bfc4cffa" category="list-text">*다음*을 선택하여 구성을 검토합니다.</block>
   <block id="b4f8a430d9a16d108360d1e973ff987f" category="list-text">구성을 검토하십시오. *추가*를 선택하여 IRE를 생성하십시오.</block>
-  <block id="e0cd70b5f1ef7aaf1987c21f01b085ec" category="list-text">*격리된 복구 환경 이름*을 입력하십시오.</block>
   <block id="8d3a4e5cee284fdb67453a248ff48de9" category="list-text">*시스템* 섹션을 확장합니다. IRE에 연결할 시스템을 선택합니다.</block>
   <block id="77acf99c95b57ba6e73764570d38fbc9" category="list-text">추가한 각 시스템에 대해 *스토리지 VM 편집*을 선택합니다. 팝업 창에서 *스토리지 VM IP 주소*와 *스토리지 VM 서브넷 마스크*를 입력합니다. *브로드캐스트 도메인*은 기본값 또는 관리로 선택합니다. 필요에 따라 *스토리지 VM 게이트웨이*를 입력할 수 있습니다.</block>
-  <block id="8bc9b6176ff2c39127e3ed21725523ba" category="list-text">드롭다운 메뉴에서 IRE에 배포된 Console agent를 선택합니다.</block>
-  <block id="20798b94b33c0c5f219632c2bcc586c8" category="list-text">vCenter 서버를 인증하는 데 필요한 자격 증명을 제공하십시오: *IP 주소 또는 정규화된 도메인 이름(FQDN)*, *포트*, *사용자 이름* 및 *암호*.</block>
-  <block id="54b513ce48479811874932d2e8f5bdc2" category="list-text">*클린룸 컴퓨팅 섹션*을 확장하세요.</block>
-  <block id="e3ab54ceb75e6b462d073f1d905675a2" category="list-text">복구 프로세스 중 복제를 위한 기본 VM으로 사용할 ESXi 호스트에 위치한 VM을 선택합니다.</block>
   <block id="d3b51a13c8511879c5378f17bd12c127" category="section-title">2026년 10월 20일</block>
   <block id="07405e58de7ae5291e2723155a5869b4" category="section-title">사용자 활동 모니터링을 활성화하기 위한 향상된 워크플로</block>
   <block id="dd9dd4a4b292f36f08cee46f9ba3ffa3" category="paragraph">Ransomware Resilience는 사용자 활동 모니터링 활성화 워크플로를 개선했습니다. 이전에는 Ransomware Resilience가 워크로드에서 사용자 활동 모니터링을 사용하는 랜섬웨어 보호 전략을 활성화할 때마다 데이터 수집기의 연결을 테스트했습니다. 이번 업데이트를 통해 스토리지 VM에 데이터 수집기가 존재하고 "실행 중" 상태인 경우 해당 확인 단계를 건너뛰어 보호 워크플로 속도를 향상시켰습니다.</block>
   <block id="b79c3e2214dfd55d5e8b57ef1d6ae5bb" category="inline-link-macro">워크로드 보호</block>
   <block id="5f705092fbb64e2adcc5b83793eed660" category="paragraph">자세한 내용은 <block ref="f5df6f8f09e7648e9d6889e3e6e725cb" category="inline-link-macro-rx"></block> 참조하십시오.</block>
   <block id="d64a907f57f420b81a119fce287ff09f" category="paragraph">랜섬웨어 보호 전략은 NetApp Ransomware Resilience의 핵심 기능으로, 탐지, 보호 및 복제를 지원합니다. 랜섬웨어 보호 전략을 활성화하여 랜섬웨어 공격을 탐지하고 복구를 위한 보호 기준을 확보하십시오.</block>
+  <block id="233adc8ca42f7a8097ed29533bfab815" category="list-text">**분석**: 클린룸에서 Ransomware Resilience는 모든 스냅샷을 분석하여 암호화가 존재하는지 확인합니다. 클린 복원은 최적의 복구 계획이 포함된 복구 맵을 결정합니다.</block>
+  <block id="3cfd0b2a1a1f7eb6f8f17ddc0f73fc96" category="paragraph">계획 단계에서 파일 기록을 확인하여 랜섬웨어 공격이 파일에 영향을 미친 시점과 복구 시점이 해당 공격 시점과 어떻게 연관되는지 확인할 수도 있습니다.</block>
+  <block id="2167a2d55f36099e0735c5707e3b71bb" category="list-text">클린 복원을 사용하면 원본 환경으로만 복원할 수 있습니다.</block>
+  <block id="b1210ce3e5b669a69cc79e2b0ee6c53f" category="paragraph">이러한 충돌을 방지하기 위해 Ransomware Resilience는 복제된 VM에서 sysprep을 실행하여 SID, CN 및 머신 ID를 재설정합니다. 이러한 값을 재설정하면 복제된 VM이 원본 VM에 영향을 주지 않고 고유하고 독립적인 인스턴스로 작동할 수 있습니다.</block>
+  <block id="24026e872b9b407496cb872d2956b369" category="paragraph">기본 소스를 사용할 수 없고 보조 소스를 구성한 경우 데이터는 보조 소스로 복원됩니다.</block>
+  <block id="170723e001c3b4c37b841a3f81011c7c" category="admonition">IRE를 생성할 때 시스템 선택 단계에서 분석에 사용할 모든 시스템(기본 또는 보조)을 추가해야 합니다.</block>
+  <block id="0a7a4ac55a8faa38afb9d12ee25be847" category="paragraph">이 다이어그램은 온프레미스에서 클라우드로의 클린 복원 구성의 예를 보여줍니다. IRE를 생성하기 전에 다이어그램과 구성해야 할 리소스를 검토하십시오.</block>
+  <block id="b7998766936b85b4a19c6a8ce96f8daf" category="inline-image-macro">온프레미스에서 클라우드로의 클린 복원 다이어그램.</block>
+  <block id="777ecc60e5d0df1c0fbb57ce32c7fcb1" category="paragraph"><block ref="777ecc60e5d0df1c0fbb57ce32c7fcb1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5c49749bcd142ca611dfc21e5e83f9b1" category="inline-image-macro">온프레미스에서 온프레미스로의 클린 복원 다이어그램</block>
+  <block id="b7b2f08d033bd4e095de0548c5b32eaa" category="paragraph"><block ref="b7b2f08d033bd4e095de0548c5b32eaa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ac93a92b9033f0f62304a21c085a836d" category="list-text">ESXi 호스트는 ESXi 버전 7.0 이상이어야 하며, VM 복제에 필요한 충분한 CPU 및 메모리 리소스를 갖춘 호스트가 하나 이상 있어야 합니다.</block>
+  <block id="8c52ce58e25980d6fdbee1f92a5d9afe" category="list-text">클린 복원 과정에서 기본 VM은 선택한 데이터센터로 복제되어 선택한 ESXi 컴퓨팅 환경에 배치되고, 지정된 데이터스토어에 매핑되며, 지정된 네트워크에 연결됩니다. VM이 복제될 때, 2개의 vCPU와 4GB RAM(Linux 또는 Windows VM의 경우) 및 기본 VM과 동일한 양의 디스크 공간을 갖도록 구성됩니다. 각 클린 복원 세션은 지정된 CIDR 범위에서 두 개의 IP 주소를 사용합니다.</block>
+  <block id="bd6c8f7567873b15c9f691c416c18707" category="list-text">IP 주소 범위는 CIDR 형식(예: 100.100.0.0/24)으로 지정해야 합니다.</block>
+  <block id="b57bdeccce93b2ecc2066f787cd74d4f" category="list-text">Windows VM에는 최소 20GB의 여유 공간이 있어야 합니다.</block>
+  <block id="e09b8e3f85818d7f9e3a08d6532a5639" category="list-text">운영 체제는 Windows Server 2022 또는 2025여야 합니다.</block>
+  <block id="ae6d9c2f9d0a025898324167828d8826" category="list-text">IP를 구성해야 합니다.</block>
+  <block id="eb61d4d93a82475a40addbd68d7d3e71" category="list-text">기본 VM을 복제할 수 있는 적절한 라이선스가 있는지 확인하십시오.</block>
+  <block id="9925caf8454b969f1ee8e209df33db48" category="paragraph">클린 복구를 수행하기 전에 격리된 복구 환경을 구축해야 합니다.</block>
+  <block id="ce7fd323c56d7f5d7af58d11c1739fbb" category="paragraph">격리된 복구 환경을 구축하는 프로세스는 환경이 클라우드에 있는지 온프레미스에 있는지에 따라 다릅니다. 올바른 위치에 맞는 지침을 따르십시오.</block>
+  <block id="acd8197fec775912b2ac19261b65c663" category="list-text">*시스템* 섹션을 확장합니다. IRE에 연결할 시스템을 선택합니다. 각 시스템은 IRE에 네트워크로 연결되어 있어야 합니다. 클린 복원 복구 지점을 설정하려면 각 시스템에 데이터 LIF IP 주소를 제공해야 할 수도 있습니다.</block>
+  <block id="81277c6ade4e4126fbd4d5e0defe5b20" category="image-alt">시스템 선택 인터페이스의 스크린샷입니다.</block>
+  <block id="ed2ab939413d03b3e3c5532b1e383562" category="list-text">*격리된 복구 환경 이름*을 입력하십시오.</block>
+  <block id="4b63388778a428645c62b46e098fb762" category="list-text">드롭다운 메뉴에서 IRE에 배포된 *콘솔 에이전트*를 선택합니다.</block>
+  <block id="6505ccdfc30aa0f2d3dc272bda2cb3ec" category="list-text">vCenter 서버를 인증하기 위한 자격 증명을 제공하십시오: *IP 주소 또는 정규화된 도메인 이름(FQDN)*, *포트*, *사용자 이름* 및 *암호*.</block>
+  <block id="393e58657e131f2b72649ed0cf5217cd" category="list-text">*클린룸 컴퓨팅* 섹션을 확장합니다.</block>
+  <block id="6f4030f935741207e6077271ec4c7fcd" category="list-text">VM에 사용할 *IP 주소 범위*를 CIDR 형식(예: 100.100.0.0/24)으로 입력하고, *서브넷 마스크*와 *게이트웨이*를 입력하십시오.</block>
+  <block id="0ad38e8473db5155eec04c6689ae2fed" category="list-text">복구 프로세스 중 복제를 위한 기본 VM으로 사용할 ESXi 호스트에 위치한 VM을 선택합니다.</block>
+  <block id="41195e5d1530c08998754564c86f0814" category="image-alt">클린 복원 컴퓨팅 구성 단계의 스크린샷입니다.</block>
 </blocks>
