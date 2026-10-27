@@ -1,0 +1,196 @@
+---
+sidebar: sidebar 
+permalink: concept-strategy.html 
+keywords: ransomware protection, protect against ransomware attacks, anti-ransomware policies, detection, protection, policy, malware 
+summary: NetApp Ransomware Resilience에서 랜섬웨어 보호 전략에 대해 알아보십시오. 보호 전략은 탐지는 물론 스냅샷, 백업 및 복제를 통해 복구를 위한 기준선을 구축할 수 있도록 지원합니다. 
+---
+= NetApp Ransomware Resilience의 보호 전략에 대해 알아보십시오.
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Ransomware Resilience에서 보호 전략은 랜섬웨어 방어 태세의 필수 요소입니다. 보호 전략은 _탐지_, _보호_ 및 _복제_를 포함하며, 이를 통해 랜섬웨어 공격을 탐지하고, 공격으로부터 보호하며, 복구를 위한 기준선을 설정할 수 있습니다.
+
+
+
+[[protection-strategy-elements]]
+== 보호 전략 요소
+
+보호 전략은 탐지, 보호 및 복제라는 세 가지 요소로 구성됩니다.
+
+* **탐지 정책**은 랜섬웨어 위협을 식별합니다. 탐지 옵션은 세 가지가 있습니다.
++
+** 암호화 감지
+** 의심스러운 사용자 활동
+** 의심스러운 파일 확장자 차단
++
+탐지 정책에는 세 가지 옵션 모두 또는 조합을 포함할 수 있습니다. 암호화 탐지 또는 link:suspicious-user-activity.html["의심스러운 사용자 활동(추가 구성 필요)"]를 포함해야 합니다.
+
+
+
+* **보호 정책**에는 스냅샷 및 백업 정책이 포함됩니다.  보호 전략에는 탐지 및 스냅샷 정책이 필요합니다.  백업 정책은 선택 사항입니다.
++
+다른 NetApp 제품을 사용하여 작업 부하를 보호하는 경우 Ransomware Resilience는 해당 제품을 검색하여 다음 옵션 중 하나를 제공합니다.
+
++
+** 랜섬웨어 탐지 정책을 사용하고 다른 NetApp 툴에서 생성한 스냅샷 및 백업 정책을 계속 사용하거나,
+** Ransomware Resilience를 사용하여 탐지, 스냅샷 및 백업을 관리하십시오.
+
+
+* **복제 정책**을 사용하면 랜섬웨어 복원력의 스냅샷을 보조 사이트로 복제할 수 있습니다. 복제 일정은 시간별, 일별, 주별 또는 월별로 설정할 수 있습니다.
++
+현재로서는 스냅샷을 온프레미스 ONTAP 스토리지로만 복제할 수 있습니다.
+
+
+
+
+NOTE: Amazon FSx for NetApp ONTAP 또는 Azure NetApp Files에 대한 보호 전략을 구성하는 경우 link:rp-reference-limitations.html["각 서비스의 제한 사항"]을(를) 참조하십시오.
+
+
+TIP: 데이터 자산의 향상된 관리 및 보호를 위해 link:task-protection-group.html["그룹 워크로드"] 하나의 전략으로 볼륨을 통합 보호할 수 있습니다.
+
+
+
+[[protection-policies-with-other-netapp-managed-services]]
+== 다른 NetApp 관리 서비스와의 보호 정책
+
+랜섬웨어 복원력 외에도 NetApp Backup and Recovery를 사용하여 파일 공유에 대한 보호를 관리할 수 있습니다.
+
+Backup and Recovery 서비스의 보호 정보는 Ransomware Resilience에 표시됩니다. 기존 Backup and Recovery 정책에 랜섬웨어 탐지 정책을 추가할 수 있습니다. 또한 Ransomware Resilience를 통해 백업 정책을 추가할 수 있으며, 이는 Backup and Recovery의 기존 보호 정책을 대체합니다.
+
+랜섬웨어 탐지 정책이 ONTAP 버전에 따라 ARP 또는 ARP/AI(Autonomous Ransomware Protection)와 ONTAP 의 FPolicy에 의해 관리되는 경우 해당 작업 부하가 보호되고 ARP와 FPolicy에 의해 계속 관리됩니다.
+
+
+NOTE: Amazon FSx for NetApp ONTAP 또는 Azure NetApp Files의 워크로드에 대해서는 백업 대상을 사용할 수 없습니다. FSx for ONTAP 백업 서비스를 사용하여 백업 작업을 수행하십시오. AWS에서 FSx for ONTAP의 워크로드에 대한 백업 정책을 설정하며, NetApp Ransomware Resilience에서는 설정하지 않습니다. 백업 정책은 NetApp Ransomware Resilience에 표시되며 AWS에서와 동일하게 유지됩니다.
+
+
+
+[[protection-policies-for-workloads-not-protected-by-netapp-applications]]
+=== NetApp 애플리케이션으로 보호되지 않는 워크로드에 대한 보호 정책
+
+워크로드가 NetApp Backup and Recovery 또는 NetApp Ransomware Resilience로 관리되지 않는 경우 ONTAP 또는 다른 제품의 일부로 스냅샷이 생성되었을 수 있습니다. ONTAP FPolicy 보호가 적용된 경우 ONTAP를 사용하여 FPolicy 보호를 변경할 수 있습니다.
+
+
+
+[[predefined-policies]]
+== 사전 정의된 정책
+
+워크로드 중요도에 맞춰 사전 정의된 다음 랜섬웨어 복원력 정책 중 하나를 선택할 수 있습니다.
+
+
+NOTE: **암호화 사용자 확장** 정책은 의심스러운 사용자 활동 감지를 지원하는 유일한 사전 정의 정책입니다. + **중요 복제 정책**은 스냅샷을 ONTAP으로 복제하는 것을 지원하는 유일한 사전 정의 정책입니다.
+
+[cols="10,15a,20,15,15,15"]
+|===
+| 정책 수준 | 스냅샷 | 빈도 | 보유 기간(일) | 스냅샷 복사본 수 | 스냅샷 복사본의 최대 개수 
+
+
+.4+| *중요 작업 정책*  a| 
+15분마다
+| 15분마다 | 3 | 288 | 309 
+
+
+| 일일  a| 
+1일마다
+| 14 | 14 | 309 
+
+
+| 주간  a| 
+1주일마다
+| 35 | 5 | 309 
+
+
+| 월간 간행물  a| 
+30일마다
+| 60 | 2 | 309 
+
+
+.4+| *중요 업무 정책*  a| 
+30분마다
+| 30분마다 | 3 | 144 | 165 
+
+
+| 일일  a| 
+1일마다
+| 14 | 14 | 165 
+
+
+| 주간  a| 
+1주일마다
+| 35 | 5 | 165 
+
+
+| 월간 간행물  a| 
+30일마다
+| 60 | 2 | 165 
+
+
+.4+| *표준 작업량 정책*  a| 
+30분마다
+| 30분마다 | 3 | 72 | 93 
+
+
+| 일일  a| 
+1일마다
+| 14 | 14 | 93 
+
+
+| 주간  a| 
+1주일마다
+| 35 | 5 | 93 
+
+
+| 월간 간행물  a| 
+30일마다
+| 60 | 2 | 93 
+
+
+.4+| *암호화 사용자 확장*  a| 
+30분마다
+| 30분마다 | 3 | 72 | 93 
+
+
+| 일일  a| 
+1일마다
+| 14 | 14 | 93 
+
+
+| 주간  a| 
+1주일마다
+| 35 | 5 | 93 
+
+
+| 월간 간행물  a| 
+30일마다
+| 60 | 2 | 93 
+
+
+.4+| *중요 복제 정책*  a| 
+15분마다
+| 15분마다 | 3 | 288 | 309 
+
+
+| 일일  a| 
+1일마다
+| 14 | 14 | 309 
+
+
+| 주간  a| 
+1주일마다
+| 35 | 5 | 309 
+
+
+| 월간 간행물  a| 
+30일마다
+| 60 | 2 | 309 
+|===
+
+
+[[next-steps]]
+== 다음 단계
+
+* link:rp-use-protect.html["랜섬웨어 공격으로부터 워크로드를 보호하세요."]
+

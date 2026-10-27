@@ -46,6 +46,8 @@ sidebar:
         url: "/task-review-protection.html"
       - title: 백업 대상 구성
         url: "/task-backup-destination.html"
+      - title: 보호 전략에 대해 알아보세요
+        url: "/concept-strategy.html"
       - title: 작업 부하 보호
         url: "/rp-use-protect.html"
       - title: 사용자 활동 감지 구성
