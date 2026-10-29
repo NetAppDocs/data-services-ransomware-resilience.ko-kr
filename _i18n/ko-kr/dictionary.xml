@@ -2649,7 +2649,6 @@
   <block id="c683448e4869d680e8543440db43e3ab" category="paragraph">*필수 콘솔 역할* 이 작업을 수행하려면 Ransomware Resilience 사용자 동작 관리자 역할이 필요합니다.  <block ref="91fb5ef1173b6f41fdaa815d28743781" category="inline-link-macro-rx"></block> 또는 Ransomware Resilience 관리자 역할로는 이 작업을 수행할 수 없습니다. <block ref="d9cbbacd5ef5cff6a1660fdb9d259f2f" category="inline-link-macro-rx"></block>.</block>
   <block id="96176a5ef40ffd580483770b758cb2b9" category="doc">Google Cloud NetApp Volumes의 보호 그룹 지원(미리 보기)</block>
   <block id="bf243787cd494f22987c64c448019324" category="paragraph">Ransomware Resilience이 이제 사용자 활동 이벤트에 대한 자동 대응을 지원합니다.  사용자 활동 경고가 발생하면 사용자를 자동으로 차단하고 스냅샷을 생성할 수 있습니다.  이러한 기능을 통해 수동 개입 없이 더욱 신속하게 대응할 수 있습니다.</block>
-  <block id="5beb9d1a7ce3f39235bef552e08036ab" category="doc">깔끔한 복원을 위한 지원 강화</block>
   <block id="172d1622c102d2a3f2038156f02696fb" category="paragraph">이제 의심스러운 사용자 동작 및 사용자 기반 암호화 공격 후 복구를 위한 클린 복원 기능을 사용할 수 있습니다. 이 기능은 기존의 암호화(엔트로피) 기반 공격 지원에 추가됩니다. 향상된 기능을 통해 클린 복원의 안내형 접근 방식을 활용하여 데이터 손실을 최소화하고 복구 속도를 높이는 최적의 복원 지점을 찾을 수 있습니다.</block>
   <block id="c67951798c697d04f7da1518cc49d789" category="inline-link-macro">정상적인 복원을 위해 격리된 복구 환경을 구축합니다.</block>
   <block id="00fb2a4960c9f2eed3f3d4165ea6d95a" category="paragraph">자세한 내용은 <block ref="d2e686618a401b494c34aa9b2103f129" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
@@ -2801,7 +2800,6 @@
   <block id="8d3a4e5cee284fdb67453a248ff48de9" category="list-text">*시스템* 섹션을 확장합니다. IRE에 연결할 시스템을 선택합니다.</block>
   <block id="77acf99c95b57ba6e73764570d38fbc9" category="list-text">추가한 각 시스템에 대해 *스토리지 VM 편집*을 선택합니다. 팝업 창에서 *스토리지 VM IP 주소*와 *스토리지 VM 서브넷 마스크*를 입력합니다. *브로드캐스트 도메인*은 기본값 또는 관리로 선택합니다. 필요에 따라 *스토리지 VM 게이트웨이*를 입력할 수 있습니다.</block>
   <block id="d3b51a13c8511879c5378f17bd12c127" category="section-title">2026년 10월 20일</block>
-  <block id="07405e58de7ae5291e2723155a5869b4" category="section-title">사용자 활동 모니터링을 활성화하기 위한 향상된 워크플로</block>
   <block id="dd9dd4a4b292f36f08cee46f9ba3ffa3" category="paragraph">Ransomware Resilience는 사용자 활동 모니터링 활성화 워크플로를 개선했습니다. 이전에는 Ransomware Resilience가 워크로드에서 사용자 활동 모니터링을 사용하는 랜섬웨어 보호 전략을 활성화할 때마다 데이터 수집기의 연결을 테스트했습니다. 이번 업데이트를 통해 스토리지 VM에 데이터 수집기가 존재하고 "실행 중" 상태인 경우 해당 확인 단계를 건너뛰어 보호 워크플로 속도를 향상시켰습니다.</block>
   <block id="b79c3e2214dfd55d5e8b57ef1d6ae5bb" category="inline-link-macro">워크로드 보호</block>
   <block id="233adc8ca42f7a8097ed29533bfab815" category="list-text">**분석**: 클린룸에서 Ransomware Resilience는 모든 스냅샷을 분석하여 암호화가 존재하는지 확인합니다. 클린 복원은 최적의 복구 계획이 포함된 복구 맵을 결정합니다.</block>
@@ -2917,4 +2915,7 @@
   <block id="56b59ea299a0aa6c6c6d07266e0f0a6b" category="section-title">문서 링크</block>
   <block id="de399b8f07a705ace3ccaaa7ca6f0353" category="paragraph">이제 UI에서 문서에 대한 직접 링크를 사용할 수 있습니다. 대시보드 세로 *작업* <block ref="03b376f37073f981f38dc4d6f450c046" category="inline-image-macro-rx" type="image"></block> 옵션에서 이 문서에 액세스할 수 있습니다. *새로운 기능*을 선택하여 릴리스 노트의 세부 정보를 보거나 *문서*를 선택하여 BlueXP 랜섬웨어 보호 문서 홈 페이지를 확인하십시오.</block>
   <block id="bf114687a1c7cc9650a084e46a559b26" category="paragraph">복구 프로세스가 개선되었습니다. 이제 볼륨 하나씩 또는 모든 볼륨을 한 번에 복구할 수 있습니다.<block ref="2db5667b5f183f51656a41f32740d8f2" category="inline-link-rx"></block>.</block>
+  <block id="3ad4695931eb8cc46e884ebecdae3a28" category="doc">의심스러운 사용자 행동 및 사용자 기반 암호화 공격에 대한 클린 복원 지원</block>
+  <block id="7e994762285a2c4bb93358fe2d00e1e4" category="section-title">사용자 활동 모니터링을 활성화하기 위한 개선된 워크플로</block>
+  <block id="b0609734250ba6ba4d0839963ce55146" category="section-title">2026년 10월 26일</block>
 </blocks>
