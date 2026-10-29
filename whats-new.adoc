@@ -905,7 +905,7 @@ https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransom
 [[threat-detection-with-splunk-cloud]]
 === Splunk Cloud를 통한 위협 탐지
 
-위협 분석 및 감지를 위해 보안 및 이벤트 관리 시스템(SIEM)에 자동으로 데이터를 전송할 수 있습니다.  이전 릴리스에서는 SIEM으로 AWS Security Hub만 선택할 수 있었습니다.  이 릴리스에서는 SIEM으로 AWS Security Hub 또는 Splunk Cloud를 선택할 수 있습니다.
+위협 분석 및 탐지를 위해 데이터를 보안 및 이벤트 관리 시스템(SIEM)으로 자동 전송할 수 있습니다. 이전 릴리스에서는 AWS Security Hub만 SIEM으로 선택할 수 있었습니다. 이번 릴리스에서는 AWS Security Hub 또는 Splunk Cloud를 SIEM으로 선택할 수 있습니다.
 
 https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["BlueXP ransomware protection 설정 구성에 대해 자세히 알아보세요."].
 
@@ -985,7 +985,7 @@ https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransom
 
 이제 AWS 및 NetApp StorageGRID 와 함께 Microsoft Azure를 백업 대상으로 추가할 수 있습니다.
 
-https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-backup-destination.html["보호 설정을 구성하는 방법에 대해 자세히 알아보세요."].
+https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-backup-destination.html["보호 설정을 구성하는 방법을 알아보세요"].
 
 
 
@@ -1037,7 +1037,7 @@ https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect
 [[threat-detection]]
 === 위협 탐지
 
-이제 타사 보안 및 이벤트 관리(SIEM) 시스템을 사용하여 위협 감지 기능을 사용할 수 있습니다.  대시보드에는 이제 설정 페이지에서 구성할 수 있는 "위협 감지 활성화"에 대한 새로운 권장 사항이 표시됩니다.
+이제 타사 보안 및 이벤트 관리(SIEM) 시스템을 사용하여 위협 탐지 기능을 사용할 수 있습니다. 대시보드에 "위협 탐지 활성화" 권장 사항이 새롭게 추가되었으며, 설정 페이지에서 구성할 수 있습니다.
 
 https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["설정 옵션 구성에 대해 자세히 알아보세요"].
 
@@ -1064,16 +1064,16 @@ https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect
 [[download-csv-files]]
 === CSV 파일 다운로드
 
-보호, 알림 및 복구 페이지에서 CSV 파일*을 다운로드할 수 있습니다.
+보호, 알림 및 복구 페이지에서 CSV 파일을 다운로드할 수 있습니다.
 
 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-reports.html["대시보드 및 기타 페이지에서 CSV 파일을 다운로드하는 방법에 대해 자세히 알아보세요."] .
 
 
 
-[[documentation-link]]
+[[documentation-links]]
 === 문서 링크
 
-이제 문서 보기 링크가 UI에 포함되었습니다.  대시보드 세로 *작업*에서 이 문서에 액세스할 수 있습니다.image:button-actions-vertical.png["수직 작업 옵션"] 옵션.  릴리스 노트에서 세부 정보를 보려면 *새로운 기능*을 선택하고, BlueXP ransomware protection 설명서 홈페이지를 보려면 *설명서*를 선택하세요.
+이제 UI에서 문서에 대한 직접 링크를 사용할 수 있습니다. 대시보드 세로 *작업* image:button-actions-vertical.png["수직 작업 옵션"] 옵션에서 이 문서에 액세스할 수 있습니다. *새로운 기능*을 선택하여 릴리스 노트의 세부 정보를 보거나 *문서*를 선택하여 BlueXP 랜섬웨어 보호 문서 홈 페이지를 확인하십시오.
 
 
 
@@ -1129,7 +1129,7 @@ https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-backup-de
 [[recovery-process]]
 === 복구 프로세스
 
-복구 프로세스가 향상되었습니다. 이제 워크로드에 대해 볼륨별로 또는 모든 볼륨을 복구할 수 있습니다. https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-recover.html["랜섬웨어 공격으로부터 복구하는 방법에 대해 자세히 알아보세요(사고가 해결된 후)"] .
+복구 프로세스가 개선되었습니다. 이제 볼륨 하나씩 또는 모든 볼륨을 한 번에 복구할 수 있습니다. https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-recover.html["랜섬웨어 공격으로부터 복구하는 방법에 대해 자세히 알아보세요(사고가 해결된 후)"].
 
 https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["BlueXP ransomware protection 에 대해 알아보세요"] .
 
