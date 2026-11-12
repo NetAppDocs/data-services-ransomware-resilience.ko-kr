@@ -12,7 +12,7 @@ summary: 알려진 제한 사항은 이 제품 릴리스에서 지원하지 않�
 
 
 [role="lead"]
-알려진 제한 사항은 이 제품 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 나타냅니다. 이러한 제한 사항을 주의 깊게 검토하세요.
+알려진 제한 사항은 NetApp Ransomware Resilience가 지원하지 않거나 제대로 상호 운용되지 않는 플랫폼, 장치 및 기능을 나타냅니다. 사용 환경에 적용되는 제한 사항을 검토하십시오.
 
 
 
@@ -28,7 +28,7 @@ summary: 알려진 제한 사항은 이 제품 릴리스에서 지원하지 않�
 
 Amazon FSx for ONTAP에는 다음과 같은 제한 사항이 적용됩니다.
 
-* Amazon FSx for ONTAP에는 백업 정책이 지원되지 않습니다. 이 환경에서는 Amazon FSx 백업을 사용하여 백업 작업을 수행해야 합니다. 랜섬웨어 복원력을 사용하여 이러한 워크로드를 복원할 수 있습니다.
+* Amazon FSx for ONTAP에서는 백업 정책이 지원되지 않습니다. 이 환경에서는 Amazon FSx 백업을 사용하여 백업 작업을 수행하십시오. Ransomware Resilience를 사용하여 이러한 워크로드를 복원할 수 있습니다.
 * 복원 작업은 스냅샷에서만 수행됩니다.
 
 
@@ -43,7 +43,7 @@ Azure NetApp Files에는 다음과 같은 제한 사항이 적용됩니다.
 * Azure NetApp Files에서는 복제 기능을 사용하는 랜섬웨어 보호 전략이 지원되지 않습니다.
 * Azure NetApp Files는 FPolicy 또는 사용자 동작 감지를 지원하지 않습니다. Azure NetApp Files는 엔트로피 포렌식도 지원하지 않습니다.
 * 보호 전략을 선택할 때는 스냅샷 일정이 Azure NetApp Files와 호환되는지 확인하십시오. Azure NetApp Files에서 사용할 수 있는 가장 빈번한 스냅샷 일정은 시간 단위입니다.
-* Azure NetApp Files API가 자동화된 작업을 차단하므로 Azure NetApp Files와 함께 link:reference-soar.html["SOAR 플레이북"]를 사용하지 않는 것이 좋습니다.
+* Azure NetApp Files API가 자동화된 작업을 차단하므로 Azure NetApp Files와 함께 link:reference-soar.html["SOAR 플레이북"]을(를) 사용하지 마십시오.
 * Azure NetApp Files 구성에는 link:task-siem.html["SIEM 보고서"]에 일부 이벤트 데이터가 포함되지 않습니다.
 * Azure NetApp Files에 대해 link:task-custom-restore.html["워크로드 복원"]할 때는 파일 수준 복원을 사용할 수 없습니다.
 
@@ -75,4 +75,4 @@ SAN(블록 스토리지) 워크로드에는 다음과 같은 제한 사항이 �
 [[multi-admin-verification]]
 == 다중 관리자 검증
 
-랜섬웨어 복원력 또는 NetApp Console에서는 다중 관리자 인증이 지원되지 않습니다. 다중 관리자 인증을 구성한 경우 link:https://docs.netapp.com/us-en/ontap/multi-admin-verify/["ONTAP의 다중 관리자 검증"^], 보호 기능을 활성화하거나, 준비 상태 훈련을 수행하거나, 복원 작업을 진행할 수 없습니다. 이러한 작업을 시도하기 전에 다중 관리자 인증을 비활성화해야 합니다.
+Ransomware Resilience 또는 NetApp Console에서는 다중 관리자 인증이 지원되지 않습니다. link:https://docs.netapp.com/us-en/ontap/multi-admin-verify/["ONTAP의 다중 관리자 검증"^]을(를) 구성한 경우 보호 기능을 활성화하거나, 준비 상태 훈련을 수행하거나, 복원 작업을 수행할 수 없습니다. 이러한 작업을 시도하기 전에 다중 관리자 인증을 비활성화하십시오.

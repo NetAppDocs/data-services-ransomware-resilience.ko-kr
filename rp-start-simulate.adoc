@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rp-start-simulate.html 
 keywords: ransomware protection alert, ransomware protection attack, detect ransomware alert, simulate, readiness drill, practice, ransomware attack, ransomware attack response, ransomware attack readiness drill 
-summary: 샘플 워크로드에 대한 랜섬웨어 공격을 시뮬레이션하여 랜섬웨어 대비 훈련을 실시하십시오. 그런 다음 시뮬레이션된 공격을 조사하고 샘플 워크로드를 복구하십시오. 랜섬웨어 대비 훈련은 여러 번 실행할 수 있습니다. 
+summary: 샘플 워크로드에 대한 랜섬웨어 공격을 시뮬레이션하여 준비 태세 훈련을 실행한 다음, 시뮬레이션된 공격을 조사하고 워크로드를 복구합니다. 
 ---
 = NetApp Ransomware Resilience 에서 랜섬웨어 공격 대비 훈련을 실시하세요.
 :hardbreaks:
@@ -134,10 +134,10 @@ image:screen-alerts-readiness-incidents2.png["준비 훈련 알림을 보여주�
 
 * 파일 활동 및 의심스러운 프로세스를 검토하십시오.
 +
-** 수신된 감지 데이터와 예상 데이터를 비교하여 확인합니다.
-** 감지된 파일 생성률과 예상 생성률을 비교해 보십시오.
-** 감지된 파일 이름 변경률과 예상률을 비교하십시오.
-** 삭제율과 예상 삭제율을 비교하십시오.
+** 수신된 감지 데이터를 예상 데이터와 비교합니다.
+** 감지된 파일 생성 속도를 예상 속도와 비교하십시오.
+** 감지된 파일 이름 변경률을 예상률과 비교하십시오.
+** 삭제율을 예상 삭제율과 비교하십시오.
 
 
 * 영향을 받은 파일 목록을 살펴보세요. 공격을 일으켰을 가능성이 있는 파일 확장자를 확인해 보세요.

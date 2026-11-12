@@ -12,7 +12,7 @@ summary: 몇 단계만으로 NetApp Ransomware Resilience를 시작하십시오.
 
 
 [role="lead"]
-이 빠른 시작 가이드를 사용하여 NetApp Ransomware Resilience를 설정하고, 워크로드를 검색하고, 보호 기능을 구성하십시오.
+NetApp Ransomware Resilience를 설정하고, 워크로드를 탐색하고, 랜섬웨어 공격으로부터 방어하도록 보호 기능을 구성하십시오.
 
 자세한 내용은 각 단계의 링크를 참조하세요.
 
@@ -21,8 +21,8 @@ summary: 몇 단계만으로 NetApp Ransomware Resilience를 시작하십시오.
 콘솔 에이전트를 배포하고 권한을 할당하려면 _Super admin_ 또는 _Organization admin_ 역할이 필요합니다.
 
 [role="quick-margin-list"]
-* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agents.html#agent-installation["콘솔 에이전트를 설치했는지 확인하세요."^]
-* link:rp-start-prerequisites.html["시스템이 요구 사항을 충족하는지 확인하세요."]
+* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agents.html#agent-installation["Console 에이전트를 설치했는지 확인하십시오."^]
+* link:rp-start-prerequisites.html["시스템이 요구 사항을 충족하는지 확인하십시오"]
 +
 ** link:reference-user-activity-requirements.html["의심스러운 사용자 행동 감지"] 및 link:task-clean-restore.html["클린 복원"]에 대한 요구 사항을 검토하십시오.
 

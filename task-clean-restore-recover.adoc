@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-clean-restore-recover.html 
 keywords: clean room, clean restore, secure recovery, recover, isolated recovery environment, ire 
-summary: Ransomware Resilience을 사용하면 깨끗한 복원으로 워크로드를 제어하고 정화할 수 있습니다. 
+summary: 랜섬웨어 공격 후 워크로드를 복구하려면 클린 복원 기능을 사용하여 스냅샷을 분석하고, 맬웨어를 제거하고, 데이터를 원래 위치 또는 대체 위치로 복원하십시오. 
 ---
 = NetApp Ransomware Resilience에서 클린 복원을 통해 워크로드 복구
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Ransomware Resilience을 사용하면 깨끗한 복원으로 워크로�
 
 
 [role="lead"]
-NetApp Ransomware Resilience를 사용하면 암호화 기반 랜섬웨어 공격 후 클린 복원을 통해 단계별 복구를 수행할 수 있습니다. 클린 복원은 데이터 손실을 최소화하고 워크로드를 최대한 빠른 시간 내에 온라인 상태로 복귀시킬 수 있도록 최적화된 복구 경로를 식별합니다.
+NetApp Ransomware Resilience를 사용하면 암호화 기반 랜섬웨어 공격 후 클린 복원을 통해 가이드 복구를 수행할 수 있습니다. 클린 복원은 데이터 손실을 최소화하고 워크로드를 최대한 빠르게 온라인 상태로 되돌릴 수 있도록 최적화된 복구 경로를 식별합니다.
 
 
 
@@ -30,8 +30,8 @@ NetApp Ransomware Resilience를 사용하면 암호화 기반 랜섬웨어 공�
 [[considerations]]
 == 고려 사항
 
-* 암호화 기반 공격(사용자 동작 및 엔트로피 공격 모두 포함)과 의심스러운 사용자 동작 공격에 대해서만 클린 복원을 수행할 수 있습니다. 데이터 유출 및 데이터 파괴 공격에 대해서는 클린 복원이 지원되지 않습니다.
-* 격리된 복구 환경에 새로운 작업을 처리할 용량이 없는 경우, 용량이 확보될 때까지 대기열에 추가됩니다.
+* 암호화 기반 공격(사용자 동작 및 엔트로피 모두)과 의심스러운 사용자 동작 공격에 대해서만 클린 복원을 수행할 수 있습니다. 데이터 유출 및 데이터 파괴 공격에 대해서는 클린 복원이 지원되지 않습니다.
+* 격리된 복구 환경에 새로운 작업을 처리할 용량이 없는 경우, 용량이 확보될 때까지 해당 작업은 대기열에 추가됩니다.
 +
 ** Ransomware Resilience 복구 대시보드에서 언제든지 활성 및 대기 중인 클린 복원 작업의 상태를 모니터링할 수 있습니다.
 
@@ -44,7 +44,7 @@ NetApp Ransomware Resilience를 사용하면 암호화 기반 랜섬웨어 공�
 [[considerations-for-restoring-to-an-alternate-location]]
 === 대체 위치로 복원 시 고려 사항
 
-클린 복원을 사용하여 볼륨을 복원할 때, 동일한 Console 에이전트에서 관리하는 다른 위치로 복원하는 옵션이 제공됩니다. 새 위치는 동일하거나 다른 시스템, 스토리지 VM 또는 애그리게이트일 수 있습니다. 다른 위치로 복원할 경우:
+클린 복원을 사용하여 볼륨을 복원할 때 동일한 Console 에이전트에서 관리하는 다른 위치로 복원할 수 있습니다. 새 위치는 동일하거나 다른 시스템, 스토리지 VM 또는 애그리게이트일 수 있습니다. 다른 위치로 복원할 경우:
 
 * 새 볼륨에서 ARP가 자동으로 활성화됩니다.
 * 연결 경로는 사용자가 제공하는 이름을 기반으로 설정됩니다. 예를 들면 다음과 같습니다: `<Data LIF IP address of destination storage VM>:<new volume name>`.
@@ -61,7 +61,7 @@ NetApp Ransomware Resilience를 사용하면 암호화 기반 랜섬웨어 공�
 . Restore Type 옵션에서 **Clean restore**를 선택한 다음 **Next**를 선택합니다.
 . 사용할 격리된 복구 환경을 선택한 다음 **Next**를 클릭하십시오.
 . 격리된 복구 환경을 검토하여 위치가 올바른지 확인합니다. **Restore**를 선택합니다.
-. Ransomware Resilience가 필요한 구성을 수행합니다. 설정이 성공적으로 완료되면 Ransomware Resilience가 상태를 업데이트합니다. 계속하려면 **Next**를 선택하십시오.
+. Ransomware Resilience가 필요한 구성을 수행합니다. 설정이 성공적으로 완료되면 Ransomware Resilience가 상태를 업데이트합니다. 계속하려면 **다음**을 선택하십시오.
 . 설정이 완료되면 **분석 실행**을 선택하십시오. Ransomware Resilience는 가장 최근에 영향을 받지 않은 스냅샷을 검색합니다.
 +
 image:screenshot-clean-room-analysis.png["클린 복원 분석 단계의 스크린샷."]
@@ -78,14 +78,14 @@ image:clean-restore-plan.png["클린 복원 계획 단계의 스크린샷."]
 
 . 복원 지점을 선택한 후 **복원 지점 생성**을 선택하십시오. Ransomware Resilience가 복원 지점을 생성하기 위한 일련의 작업을 시작합니다. 이 과정이 완료되면 **다음**을 선택하십시오.
 . 파일에서 맬웨어 제거를 시작하려면 **청소 시작**을 선택합니다.
-. 정리가 완료되면 **다음**을 선택합니다.
+. 청소가 완료되면 **다음**을 선택하세요.
 . 복구 대상을 선택합니다.
 +
 ** 원래 대상으로 복원하려면 **Primary (original)**를 선택하십시오.
 +
 기본 위치를 사용할 수 없고 link:task-clean-restore.html#secondary-sources["보조 소스를 구성했습니다"]인 경우 **보조** 소스로 복원할 수 있습니다.
 
-** 새 볼륨으로 복원하려면 **Alternate**를 선택하십시오. 새 볼륨에 대해 **System**, **Storage VM** 및 **Aggregate**를 선택한 다음 **New volume name**을 입력하십시오.
+** 새 볼륨으로 복원하려면 **대체**를 선택하십시오. 새 볼륨에 대해 **시스템**, **Storage VM** 및 **애그리게이트**를 선택한 다음 **새 볼륨 이름**을 입력하십시오.
 +
 image:alternate-recovery-destination.png["대체 복구 대상의 스크린샷"]
 
