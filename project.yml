@@ -64,6 +64,8 @@ sidebar:
           url: "/troubleshoot-user-activity.html"
       - title: 보호 그룹 관리
         url: "/task-protection-group.html"
+      - title: 차단된 파일 확장자 관리
+        url: "/task-file-extensions.html"
       - title: 개인 식별 데이터를 스캔하세요
         url: "/task-classify.html"
     - title: 대응 및 복구

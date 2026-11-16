@@ -25,6 +25,18 @@ NOTE: NetApp Ransomware Resilience는 FlexGroup을 사용하는 볼륨이 있는
 
 
 
+[[metrocluster-discovery]]
+== MetroCluster 탐색
+
+Ransomware Resilience는 탐색을 위해 MetroCluster 구성을 자동으로 로드합니다. 탐색을 성공적으로 수행하려면 MetroCluster 쌍의 두 시스템을 모두 콘솔에 추가해야 합니다.
+
+MetroCluster 쌍의 두 시스템이 모두 콘솔 조직에 성공적으로 추가되면 두 시스템 모두 탐색 선택 항목에 표시됩니다. 탐색을 위해 하나의 시스템만 선택하면 되며, 미러링된 쌍은 자동으로 추가됩니다.
+
+
+TIP: MetroCluster 시스템은 Discovery 대시보드에 **+1**로 표시됩니다. **+1** 위에 마우스를 올리면 해당 쌍에 속한 모든 시스템을 볼 수 있습니다.
+
+
+
 [[select-workloads-to-discover]]
 == 검색할 워크로드를 선택하세요
 
