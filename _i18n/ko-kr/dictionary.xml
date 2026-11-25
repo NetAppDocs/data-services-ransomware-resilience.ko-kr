@@ -1445,7 +1445,6 @@
   <block id="3156b4b992dec700b60fedaa2eca010c" category="paragraph">의심스러운 사용자 행동 감지는 다음 운영 체제에서 지원됩니다.</block>
   <block id="92adf790b863484fc83be969039ec890" category="section-title">서버 권장 사항</block>
   <block id="b81a18d778d8d2491614ae90532db84f" category="admonition">초기 설치 시 <block ref="50cff7c5933e29331b88e32e4f2a101d" prefix=" " category="inline-code"></block>를 와일드카드 <block ref="3389dae361af79b04c9c8e7057f60cc6" prefix="(" category="inline-code"></block> 권한으로 바꾸십시오. 에이전트가 활성화되어 완전히 작동되면 권한을 사이트 이름으로 바꿀 수 있습니다. 사이트 이름은 NetApp 담당자에게 문의하십시오.</block>
-  <block id="c4f09ee186bb94e99b8c3f938adf8816" category="section-title">APAC 기반 사용자 활동 에이전트 배포</block>
   <block id="869af1b4577e081268bf8ee592a6018e" category="section-title">유럽 기반 사용자 활동 에이전트 배포</block>
   <block id="ae6cc9c44044939bcbbefd693857f742" category="section-title">미국 기반 사용자 활동 에이전트 배포</block>
   <block id="c290a5941ad6eb0d5fe8752c15c5fd78" category="section-title">다음 단계</block>
@@ -3002,9 +3001,6 @@
   <block id="0838f82be2f27550128e5538479f4329" category="paragraph">SVM에 적용된 리스트는 삭제할 수 없습니다. 먼저 <block ref="90336a7b5ebc96973344e57563a353c4" category="inline-xref-macro-rx"></block>해야 합니다.</block>
   <block id="ce60d8ca89677d54bbe0ffc235212685" category="paragraph">NetApp 목록은 삭제할 수 없습니다.</block>
   <block id="d1911ce26de45f2d2605b10b84369117" category="summary">사용자 활동 에이전트를 생성하기 전에 명시된 운영 체제, 서버 및 네트워크 요구 사항을 충족하는지 확인해야 합니다.</block>
-  <block id="16c57e5f4f0b7d7b3708ae5054805ed5" category="paragraph">NetApp Ransomware Resilience 사용자 행동 감지 기능을 사용하면 사용자 수준의 랜섬웨어 이벤트에 대응할 수 있습니다. 사용자 행동 감지를 활성화하려면 테넌트와 에이전트 세트를 생성해야 합니다. 감지를 활성화하기 전에 Ransomware Resilience가 이벤트를 제대로 감지하고 보고할 수 있도록 명시된 운영 체제, 서버 및 네트워크 요구 사항을 충족하는지 확인해야 합니다.</block>
-  <block id="fc36a1ad1399ea3c897ac2b166f590bc" category="section-title">클라우드 공급자 지원</block>
-  <block id="46d0eaec023b0432189234ee0117aefe" category="paragraph">사용자 행동 감지를 활성화하려면 Ransomware Resilience와 사용자 활동 이벤트를 공유하는 데이터 수집기를 위한 실행 가능한 환경을 생성해야 합니다.</block>
   <block id="c754f70b24546d3b7ea308ec0a266819" category="admonition">테넌트의 지역 배포는 콘솔 에이전트에 영향을 미치지 않습니다. 콘솔 에이전트 배포는 이러한 지역과 무관합니다.</block>
   <block id="c4e4893f8021b34fa3230fef41affd05" category="paragraph">테넌트는 다음 AWS 및 Azure 리전에 배포할 수 있습니다:</block>
   <block id="c73bbd3786350b0a8d3577d82afdf489" category="cell">Red Hat Enterprise Linux</block>
@@ -3018,7 +3014,6 @@
   <block id="11a1b759509cbc306f2770f25a884b8c" category="paragraph">사용자 이벤트를 수집할 때는 사용자 활동 에이전트를 호스팅하는 시스템의 용량이 이벤트 처리 속도에 적합한지 확인해야 합니다. 즉, 초당 이벤트 수를 처리할 수 있도록 충분한 데이터 수집기와 CPU 및 RAM을 사용자 활동 에이전트를 호스팅하는 시스템에 확보해야 합니다. 데이터 수집기 수를 늘리려면 RAM 또는 CPU 용량을 늘려야 할 수 있습니다. Ransomware Resilience는 사용자 활동 에이전트당 최대 50개의 데이터 수집기를 지원합니다.</block>
   <block id="9e307da13f4fbc1f93630e31169402ff" category="cell">4코어, 16GB</block>
   <block id="d8eb539beebfd86b0e5458fd6893fe26" category="cell">4코어, 32GB</block>
-  <block id="fc6f065ae34f83ecff5902aa52ae5b24" category="example-title">Ransomware Resilience에서 이벤트 데이터 전송률을 계산합니다.</block>
   <block id="a9648406f04c3e2716ce48b7fa2d5192" category="paragraph">Ransomware Resilience는 시스템에서 실행하여 이벤트 데이터 발생률을 계산할 수 있는 스크립트를 제공합니다. 기본적으로 이 스크립트는 최대 5개의 SVM에 대해 실행됩니다. 환경에 5개 이상의 SVM이 포함된 경우 스크립트를 적절히 수정할 수 있습니다. SVM 개수와 관계없이 스크립트는 평균 이벤트 발생률을 계산하는 데 약 5분이 소요됩니다. 스크립트를 실행하기 전에 다음이 필요합니다:</block>
   <block id="c1b56e09cd3b4327ae7a5af63c46a8e4" category="list-text">Linux 시스템에 설치됩니다<block ref="2fa62e05d832f87969a8d99226be5a74" prefix=" " category="inline-code"></block> (명령어<block ref="bd20ec476e804fab40ab36d6175d1936" prefix=" " category="inline-code"></block>를 사용하여 설치할 수 있습니다)</block>
   <block id="6d7d602708c503dfdb5b58c7cfb129ef" category="list-text">사용자 활동 에이전트가 설치된 컴퓨터에서 관리자 권한으로 스크립트를 실행하십시오:<block ref="3b9c122b681f59f04f03105e338591ce" prefix=" " category="inline-code"></block></block>
@@ -3029,4 +3024,12 @@
   <block id="b0e8f71425f234ca2f061a0c485640c3" category="cell">클러스터 관리 IP</block>
   <block id="a1b557c5fe6dcfec9f24e02db3bf04ef" category="cell">사용자 활동 에이전트</block>
   <block id="5e845144086b1a54c1c4dd3a9e2169d7" category="cell">ONTAP 클러스터 관리 IP에서 사용자 활동 에이전트로 *EMS 이벤트*를 전송하기 위한 통신입니다. ONTAP가 사용자 활동 에이전트로 EMS 이벤트를 전송할 수 있도록 사용자 활동 에이전트 자체의 방화벽을 포함하여 사용자 활동 에이전트 방향으로 이 포트들을 열어야 합니다. + **참고:** 이 포트를 *모두* 예약할 필요는 없지만, 이를 위해 예약하는 포트는 이 범위 내에 있어야 합니다. 처음에는 100개의 포트를 예약하고 필요에 따라 늘리는 것이 좋습니다.</block>
+  <block id="07e4c03c13f6b5da296dfd1e6b67c352" category="paragraph">NetApp Ransomware Resilience 사용자 활동 감지 기능을 사용하면 사용자 수준의 랜섬웨어 이벤트에 대응할 수 있습니다. 사용자 활동 감지를 활성화하려면 테넌트와 에이전트 세트를 생성해야 합니다. 감지를 활성화하기 전에 Ransomware Resilience가 이벤트를 제대로 감지하고 보고할 수 있도록 명시된 운영 체제, 서버 및 네트워크 요구 사항을 충족하는지 확인해야 합니다.</block>
+  <block id="f451214989539191fc4ce664be56280d" category="section-title">사용자 활동 테넌트</block>
+  <block id="a573617370c0046fea2fc1d6d3e124fd" category="paragraph">사용자 활동 감지를 활성화하려면 사용자 활동 이벤트를 Ransomware Resilience와 공유할 수 있는 테넌트가 설정됩니다. Ransomware Resilience가 테넌트를 배포할 지역 및 클라우드 공급자를 선택할 수 있습니다.</block>
+  <block id="660bab89ad300bad0bf7f20f46e5c3a3" category="section-title">사용자 활동 에이전트 요구 사항</block>
+  <block id="f431152e4d18e6c70ad5859550b7dbfc" category="paragraph">테넌트 생성 후 사용자 활동 감지를 활성화하려면 사용자 활동 에이전트를 생성해야 합니다. 사용자 활동 에이전트는 콘솔 에이전트가 아니며, 별도의 컴퓨팅 인스턴스로 배포해야 합니다.</block>
+  <block id="a49273673c8a9345469d7e992d85038e" category="paragraph">사용자 활동 에이전트가 다음 요구 사항을 충족하고 권장 사항을 준수하는지 확인하십시오.</block>
+  <block id="a543ceb615fbbd830a521dc1f498b0c6" category="example-title">Ransomware Resilience에서 이벤트 데이터 속도 계산</block>
+  <block id="6617d9fa7ab8a50760603157d306a320" category="section-title">아시아 태평양 기반 사용자 활동 에이전트 배포</block>
 </blocks>
